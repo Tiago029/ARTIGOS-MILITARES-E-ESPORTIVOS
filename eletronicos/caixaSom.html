@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTIGOS MILITARES E ESPORTIVOS</title>
+    <link rel="stylesheet" href="../cabecalho/style.css">
+    <link rel="stylesheet" href="../slides/slides.css">
+    <link rel="stylesheet" href="../rodape/rodape.css">
+    <link rel="stylesheet" href="../login/login.css">
+
+
+
+
+</head>
+<body data-categoria="caixa de som">
+    <header>
+         <img src="../imagens/logo ARTIGOS MILITARES E ESPORTIVOS.jpeg" alt="logo marda da loja ARTIGOS MILITARES E ESPORTIVOS">
+
+        <div class="busca">
+            <label for="pesquisarProduto">O que você busca?</label><br>
+            <input type="text" id="pesquisarProduto" name="pesquisarProduto" placeholder="Digite aqui...">
+        </div>
+
+        <!--<div class="LOGIN">
+            <button>
+                <img src="./imagens/icone login.jpg" alt="icone de login">
+            </button>
+        </div>-->
+
+         <!-- BOTÃO CARRINHO -->
+        <div class="comunicacao">
+        <a href="https://maps.app.goo.gl/BKVgfrDjHetCzcop8?g_st=aw" class="icone">
+                <img src="../imagens/logo gps.png" alt="gps">
+                <!--<span>Localização</span>-->
+         </a>
+
+        <a href="https://wa.me/5597984296744" class="icone">
+                <img src="../imagens/whatsapp.png" alt="whatsapp">
+               <!-- <span>WhatsApp</span>-->
+        </a>
+
+        <a href="https://www.instagram.com/am_militar_e_esportivo?igsh=N3UzYWFoYzl6bjRp" class="icone">
+                <img src="../imagens/instagram.png" alt="Instagram">
+               <!-- <span>Instagram</span>-->
+            </a>
+        
+
+        <a href="../carrinho/carrinho.html" class="carrinho">
+            <img src="../imagens/carrinho1.png" alt="Carrinho">
+            <span class="contador-carrinho">0</span>
+        </a>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="banner1">
+            <img src="../imagens/banner3.png" class="ativo">
+            <img src="../imagens/banner4.png">
+
+            <button class="seta esquerda">&#10094;</button>
+            <button class="seta direita">&#10095;</button>
+        </section>
+
+        <!-- CATEGORIAS (fora do banner) -->
+            <nav class="categorias">
+
+                <div class="categoria">
+                    <a href="http://127.0.0.1:5500/index.html">HOME</a>
+                </div>
+
+                <div class="categoria">
+                    <a href="#">ACESSÓRIOS</a>
+
+                    <div class="subcategorias">
+                        <a href="http://127.0.0.1:5500/acessorios/relogios.html">RELÓGIOS</a>
+                        <a href="http://127.0.0.1:5500/acessorios/oculos.html">ÓCULOS</a>
+                    </div>
+                </div>
+
+                <div class="categoria">
+                    <a href="http://127.0.0.1:5500/fardamentosMilitares/fardas.html">FARDAMENTOS MILITARES</a>
+                </div>
+
+                <div class="categoria">
+                    <a href="http://127.0.0.1:5500/equipamentosMilitares/equipamentos.html">EQUIPAMENTOS MILITARES</a>
+                </div>
+
+                <div class="categoria">
+                    <a href="#">CALÇADOS</a>
+
+                    <div class="subcategorias">
+                        <a href="http://127.0.0.1:5500/calcados/tenis.html">TÊNIS</a>
+                        <a href="http://127.0.0.1:5500/calcados/society.html">SOCIETY</a>
+                    </div>
+                </div>
+
+                <div class="categoria">
+                    <a href="#">ELETRONICOS</a>
+
+                    <div class="subcategorias">
+                        <a href="http://127.0.0.1:5500/eletronicos/celulares.html">CELULARES</a>
+                        <a href="http://127.0.0.1:5500/eletronicos/caixaSom.html">CAIXAS DE SOM</a>
+                    </div>
+                </div>
+
+                <div class="categoria">
+                    <a href="http://127.0.0.1:5500/perfumes/perfumes.html">PERFUMES</a>
+                </div>
+
+            </nav>
+
+
+        <!-- MODAL LOGIN -->
+            <div class="modal-login" id="modalLogin">
+                <div class="login-box">
+                    <span class="fechar" id="fecharLogin">&times;</span>
+
+                    <h2>Entrar</h2>
+
+                    <input type="email" placeholder="E-mail">
+                    <input type="password" placeholder="Senha">
+
+                    <button class="btn-login">Entrar</button>
+
+                    <p class="cadastro">
+                        Não tem conta? <a href="#">Cadastre-se</a>
+                    </p>
+                </div>
+            </div>
+
+        
+
+
+
+        <!-- PRODUTOS) -->
+        <section class="vitrine">
+            <h2 class="titulo-vitrine"> <P>CAIXAS DE SOM</P></h2>
+            <div class="grade-produtos"></div>
+        </section>
+
+
+    </main>
+
+    <footer>
+       
+    </footer>
+    
+    <script src="../slides/script.js"></script>
+    <script src="../JSglobal/carrinho.js"></script>
+    <script src="../produtos/produtos.js"></script>
+    <script src="../JSglobal/vitrine.js"></script>
+    <script src="../JSglobal/JSglobalBusca/busca.js"></script>
+
+</body>
+</html>

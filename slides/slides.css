@@ -1,0 +1,48 @@
+.banner1 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    height: 200px; /* altura do banner */
+    position: relative;
+}
+
+.banner1 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.banner1 img.ativo {
+    opacity: 1;
+}
+
+.seta {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    font-size: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 5px;
+}
+
+.seta.esquerda {
+    left: 10px;
+}
+
+.seta.direita {
+    right: 10px;
+}
+
+.seta:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
