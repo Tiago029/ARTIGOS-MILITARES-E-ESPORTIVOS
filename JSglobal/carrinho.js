@@ -138,7 +138,7 @@ function gerarLinkWhatsApp(carrinho, total) {
     });
     msg += `%0A *Total:* R$ ${total.toFixed(2)}`;
 
-    const telefone = "97984296744"; // troque pelo seu número
+    const telefone = "5597984296744"; // troque pelo seu número
     btn.href = `https://wa.me/${telefone}?text=${msg}`;
 }
 
