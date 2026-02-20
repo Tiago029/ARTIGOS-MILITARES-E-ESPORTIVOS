@@ -530,3 +530,75 @@ header {
   }
 }
 
+/* ===== HEADER MOBILE CENTRALIZADO ===== */
+@media (max-width: 768px) {
+
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+    gap: 10px;
+  }
+
+  header img {
+    margin: 0 auto;
+  }
+
+  .busca {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+  }
+
+  .busca input {
+    width: 100%;
+  }
+
+  .comunicacao {
+    margin: 10px auto 0;
+    gap: 30px;
+  }
+}
+
+.busca input {
+  border-radius: 20px;
+}
+
+/* ===== CATEGORIAS HORIZONTAIS NO CELULAR ===== */
+@media (max-width: 768px) {
+
+  .categorias {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 10px;
+    padding: 10px;
+    justify-content: flex-start;
+  }
+
+  /* remove quebra de linha */
+  .categoria {
+    flex: 0 0 auto;
+  }
+
+  .categoria a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #5a5a5a;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+
+  /* remove barra de rolagem feia */
+  .categorias::-webkit-scrollbar {
+    display: none;
+  }
+
+  .categorias {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
