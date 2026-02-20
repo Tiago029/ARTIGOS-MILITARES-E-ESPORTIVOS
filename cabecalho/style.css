@@ -427,3 +427,94 @@ header img {
     }
 }
 
+
+/* ================= CATEGORIAS ROLÁVEIS ================= */
+.categorias {
+    display: flex !important;       /* força linha horizontal */
+    flex-wrap: nowrap !important;   /* impede quebrar linha */
+    overflow-x: auto;               /* rolagem horizontal */
+    gap: 10px;
+    padding: 15px 20px;
+    background-color: #4a4a4a;
+    white-space: nowrap;
+}
+
+/* Categoria principal */
+.categoria {
+    flex: 0 0 auto;                 /* impede que encolha */
+    position: relative;
+}
+
+/* Links principais */
+.categoria > a {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    white-space: nowrap;
+    transition: background-color 0.3s;
+}
+
+.categoria > a:hover {
+    background-color: #555;
+}
+
+/* Dropdown subcategorias */
+.subcategorias {
+    display: none;
+    position: absolute; /* flutua sobre a linha */
+    top: 110%;
+    left: 0;
+    background-color: #333;
+    border-radius: 5px;
+    min-width: 160px;
+    padding: 5px 0;
+    z-index: 6000;
+    flex-direction: column;
+}
+
+.subcategorias a {
+    display: block;
+    padding: 8px 12px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.subcategorias a:hover {
+    background-color: #555;
+}
+
+/* Mostrar subcategorias no hover */
+.categoria:hover .subcategorias {
+    display: flex;
+}
+
+/* Esconder barra de rolagem no Webkit */
+.categorias::-webkit-scrollbar {
+    display: none;
+}
+
+/* RESPONSIVO CELULAR */
+@media (max-width: 768px) {
+    .categorias {
+        padding: 10px;
+        gap: 8px;
+        /* mantém horizontal e rolável */
+        flex-direction: row !important;
+        overflow-x: auto;
+    }
+
+    .categoria > a {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .subcategorias {
+        min-width: 120px;
+    }
+}
+
+
