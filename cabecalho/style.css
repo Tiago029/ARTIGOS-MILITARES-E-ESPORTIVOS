@@ -20,7 +20,7 @@ header {
     padding: 0 40px;
     position: sticky;
     top: 0;
-    z-index: 999;
+    z-index: 1000;
 }
 
 /* LOGO */
@@ -124,8 +124,8 @@ header img {
     background-color: #4a4a4a;
     padding: 15px 40px;
     position: sticky;
-    top: 140px;
-    z-index: 998;
+    top: 140px; /* abaixo do header */
+    z-index: 999;
 }
 
 .categoria {
@@ -140,6 +140,17 @@ header img {
     display: block;
 }
 
+/* 🔥 REMOVE FUNDO DE BOTÃO */
+.categoria a {
+    background: transparent !important;
+    border-radius: 0 !important;
+}
+
+.categoria a:hover {
+    color: #c6ff00;
+}
+
+/* ================= SUBCATEGORIAS ================= */
 .subcategorias {
     display: none;
     position: absolute;
@@ -149,7 +160,7 @@ header img {
     min-width: 160px;
     border-radius: 5px;
     overflow: hidden;
-    z-index: 9999; /* 🔥 garante que fique na frente */
+    z-index: 2000; /* 🔥 garante que fique na frente */
 }
 
 .subcategorias a {
@@ -166,6 +177,8 @@ header img {
 /* ================= VITRINE ================= */
 .vitrine {
     padding: 40px 60px;
+    position: relative;
+    z-index: 1;
 }
 
 .grade-produtos {
@@ -185,6 +198,54 @@ header img {
     width: 100%;
     height: 220px;
     object-fit: contain;
+}
+
+/* ================= BOTÕES ================= */
+.card-produto button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.card-produto button:hover {
+    background-color: #c6ff00;
+    color: #000;
+    transform: scale(1.03);
+}
+
+/* SELECT */
+.card-produto select {
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #000;
+    color: #fff;
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+/* ================= ANIMAÇÃO AO CARRINHO ================= */
+.animar-carrinho {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    z-index: 3000;
+    pointer-events: none;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+}
+
+.animar-carrinho.finalizar {
+    opacity: 0;
+    transform: scale(0.3);
 }
 
 /* ================= RESPONSIVO ================= */
@@ -217,7 +278,6 @@ header img {
 /* CELULAR */
 @media (max-width: 768px) {
 
-    /* HEADER ORGANIZADO */
     header {
         flex-direction: column;
         align-items: center;
@@ -242,13 +302,13 @@ header img {
         gap: 25px;
     }
 
-    /* CATEGORIAS MOBILE */
+    /* 🔥 CATEGORIAS FIXAS NO MOBILE */
     .categorias {
-        top: 110px;
+        top: 120px; /* altura real do header mobile */
         overflow-x: auto;
         white-space: nowrap;
         justify-content: flex-start;
-        gap: 10px;
+        gap: 15px;
     }
 
     .categoria {
@@ -256,14 +316,12 @@ header img {
     }
 
     .categoria a {
-        background: #5a5a5a;
-        border-radius: 8px;
-        padding: 10px 14px;
         font-size: 14px;
+        padding: 8px 12px;
     }
 
     .subcategorias {
-        display: none; /* evita bug no mobile */
+        display: none; /* evita bug mobile */
     }
 
     /* PRODUTOS */
@@ -283,117 +341,4 @@ header img {
     .grade-produtos {
         grid-template-columns: 1fr;
     }
-}
-
-/* ================= BOTÕES E SELETORES ================= */
-
-/* Botão adicionar ao carrinho */
-.card-produto button {
-    width: 100%;
-    padding: 10px;
-    background-color: #000;
-    color: #fff;
-    border: none;
-    border-radius: 8px; /* bordas arredondadas */
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.card-produto button:hover {
-    background-color: #c6ff00; /* verde destaque */
-    color: #000;
-    transform: scale(1.03);
-}
-
-/* Select (cor, tamanho, etc.) */
-.card-produto select {
-    padding: 6px 10px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    background-color: #000;
-    color: #fff;
-    font-size: 13px;
-    margin: 5px 0;
-    cursor: pointer;
-}
-
-/* opção dentro do select */
-.card-produto select option {
-    background-color: #fff;
-    color: #000;
-}
-
-/* ================= ANIMAÇÃO AO CARRINHO ================= */
-
-.animar-carrinho {
-    position: fixed;
-    width: 50px;
-    height: 50px;
-    z-index: 2000;
-    pointer-events: none;
-    border-radius: 8px;
-    object-fit: cover;
-    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
-}
-
-/* efeito ao finalizar */
-.animar-carrinho.finalizar {
-    opacity: 0;
-    transform: scale(0.3);
-}
-
-/* ================= CATEGORIAS SEM ESTILO DE BOTÃO ================= */
-
-.categoria a {
-    background: transparent !important;
-    border-radius: 0 !important;
-    padding: 10px 15px;
-    font-size: 16px;
-}
-
-/* hover elegante */
-.categoria a:hover {
-    color: #c6ff00;
-}
-
-/* mobile continua horizontal sem caixas */
-@media (max-width: 768px) {
-    .categoria a {
-        background: transparent !important;
-        padding: 8px 12px;
-        font-size: 14px;
-    }
-}
-
-/* ===== ALTURA REAL DO HEADER (MOBILE) ===== */
-@media (max-width: 768px) {
-  header {
-    position: sticky;
-    top: 0;
-    z-index: 999;
-  }
-}
-
-/* ===== CATEGORIAS FIXAS ===== */
-.categorias {
-  position: sticky;
-  top: 140px; /* altura do header desktop */
-  z-index: 998;
-}
-
-/* MOBILE */
-@media (max-width: 768px) {
-  .categorias {
-    position: sticky;
-    top: 120px; /* ajuste fino para celular */
-    z-index: 998;
-  }
-}
-
-/* espaço para categorias fixas */
-.vitrine {
-  position: relative;
-  z-index: 1;
 }
