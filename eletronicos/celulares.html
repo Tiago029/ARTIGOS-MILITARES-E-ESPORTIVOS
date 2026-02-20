@@ -146,11 +146,35 @@
        
     </footer>
     
+   <!-- SCRIPTS -->
     <script src="../slides/script.js"></script>
     <script src="../JSglobal/carrinho.js"></script>
     <script src="../produtos/produtos.js"></script>
     <script src="../JSglobal/vitrine.js"></script>
     <script src="../JSglobal/JSglobalBusca/busca.js"></script>
+
+    <!-- Script das subcategorias flutuantes -->
+    <script>
+    const categorias = document.querySelectorAll('.categoria');
+
+    categorias.forEach(cat => {
+        const submenu = cat.querySelector('.subcategorias');
+        if (!submenu) return;
+
+        cat.addEventListener('mouseenter', () => {
+            const rect = cat.getBoundingClientRect();
+            submenu.style.position = 'fixed';   // garante que flutue fora da barra rolável
+            submenu.style.top = rect.bottom + 'px';
+            submenu.style.left = rect.left + 'px';
+            submenu.style.display = 'flex';
+            submenu.style.flexDirection = 'column';
+        });
+
+        cat.addEventListener('mouseleave', () => {
+            submenu.style.display = 'none';
+        });
+    });
+    </script>
 
 </body>
 </html>
