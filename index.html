@@ -4,153 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ARTIGOS MILITARES E ESPORTIVOS</title>
+
     <link rel="stylesheet" href="./cabecalho/style.css">
     <link rel="stylesheet" href="./slides/slides.css">
     <link rel="stylesheet" href="./rodape/rodape.css">
     <link rel="stylesheet" href="./login/login.css">
-
 </head>
+
 <body data-categoria="produtos em destaques">
-    <header>
-        <img src="./imagens/logo ARTIGOS MILITARES E ESPORTIVOS.jpeg" alt="logo marda da loja ARTIGOS MILITARES E ESPORTIVOS">
+
+    <!-- HEADER FIXO -->
+    <header class="header-fixo">
+        <img src="./imagens/logo ARTIGOS MILITARES E ESPORTIVOS.jpeg"
+             alt="Logo da loja">
 
         <div class="busca">
             <label for="pesquisarProduto">O que você busca?</label><br>
-            <input type="text" id="pesquisarProduto" name="pesquisarProduto" placeholder="Digite aqui...">
+            <input type="text" id="pesquisarProduto" placeholder="Digite aqui...">
         </div>
 
-        <!--<div class="LOGIN">
-            <button>
-                <img src="./imagens/icone login.jpg" alt="icone de login">
-            </button>
-        </div>-->
-
-         <!-- BOTÃO CARRINHO -->
         <div class="comunicacao">
-        <a href="https://maps.app.goo.gl/BKVgfrDjHetCzcop8?g_st=aw" class="icone">
-                <img src="imagens/logo gps.png" alt="gps">
-                <!--<span>Localização</span>-->
-         </a>
-
-        <a href="https://wa.me/5597984296744" class="icone">
-                <img src="imagens/whatsapp.png" alt="whatsapp">
-               <!-- <span>WhatsApp</span>-->
-        </a>
-
-        <a href="https://www.instagram.com/am_militar_e_esportivo?igsh=N3UzYWFoYzl6bjRp" class="icone">
-                <img src="imagens/instagram.png" alt="Instagram">
-               <!-- <span>Instagram</span>-->
+            <a href="https://maps.app.goo.gl/BKVgfrDjHetCzcop8?g_st=aw" class="icone">
+                <img src="./imagens/logo gps.png" alt="GPS">
             </a>
-        
 
-        <a href="./carrinho/carrinho.html" class="carrinho">
-            <img src="./imagens/carrinho1.png" alt="Carrinho">
-            <span class="contador-carrinho">0</span>
-        </a>
+            <a href="https://wa.me/5597984296744" class="icone">
+                <img src="./imagens/whatsapp.png" alt="WhatsApp">
+            </a>
 
+            <a href="https://www.instagram.com/am_militar_e_esportivo" class="icone">
+                <img src="./imagens/instagram.png" alt="Instagram">
+            </a>
+
+            <a href="./carrinho/carrinho.html" class="carrinho">
+                <img src="./imagens/carrinho1.png" alt="Carrinho">
+                <span class="contador-carrinho">0</span>
+            </a>
         </div>
-
-
     </header>
 
     <main>
+
+        <!-- BANNER -->
         <section class="banner1">
-            <img src="imagens/banner3.png" class="ativo">
-            <img src="imagens/banner4.png">
+            <img src="./imagens/banner3.png" class="ativo">
+            <img src="./imagens/banner4.png">
 
             <button class="seta esquerda">&#10094;</button>
             <button class="seta direita">&#10095;</button>
         </section>
 
-        <!-- CATEGORIAS (fora do banner) -->
-            <nav class="categorias">
+        <!-- CATEGORIAS FIXAS -->
+        <nav class="categorias">
+            <div class="categoria"><a href="/index.html">HOME</a></div>
 
-                 <div class="categoria">
-                    <a href="/index.html">HOME</a>
-                </div>
-
-                <div class="categoria">
-                    <a href="#">ACESSÓRIOS</a>
-
-                    <div class="subcategorias">
-                        <a href="/acessorios/relogios.html">RELÓGIOS</a>
-                        <a href="/acessorios/oculos.html">ÓCULOS</a>
-                    </div>
-                </div>
-
-                <div class="categoria">
-                    <a href="/fardamentosMilitares/fardas.html">FARDAMENTOS MILITARES</a>
-                </div>
-
-                <div class="categoria">
-                    <a href="/equipamentosMilitares/equipamentos.html">EQUIPAMENTOS MILITARES</a>
-                </div>
-
-                <div class="categoria">
-                    <a href="#">CALÇADOS</a>
-
-                    <div class="subcategorias">
-                        <a href="/calcados/tenis.html">TÊNIS</a>
-                        <a href="/calcados/society.html">SOCIETY</a>
-                    </div>
-                </div>
-
-                <div class="categoria">
-                    <a href="#">ELETRONICOS</a>
-
-                    <div class="subcategorias">
-                        <a href="/eletronicos/celulares.html">CELULARES</a>
-                        <a href="/eletronicos/caixaSom.html">CAIXAS DE SOM</a>
-                    </div>
-                </div>
-
-                <div class="categoria">
-                    <a href="/perfumes/perfumes.html">PERFUMES</a>
-                </div>
-
-            </nav>
-
-
-        <!-- MODAL LOGIN 
-            <div class="modal-login" id="modalLogin">
-                <div class="login-box">
-                    <span class="fechar" id="fecharLogin">&times;</span>
-
-                    <h2>Entrar</h2>
-
-                    <input type="email" placeholder="E-mail">
-                    <input type="password" placeholder="Senha">
-
-                    <button class="btn-login">Entrar</button>
-
-                    <p class="cadastro">
-                        Não tem conta? <a href="#">Cadastre-se</a>
-                    </p>
+            <div class="categoria">
+                <a href="#">ACESSÓRIOS</a>
+                <div class="subcategorias">
+                    <a href="/acessorios/relogios.html">RELÓGIOS</a>
+                    <a href="/acessorios/oculos.html">ÓCULOS</a>
                 </div>
             </div>
-            -->
 
-        <!-- PRODUTOS) -->
+            <div class="categoria">
+                <a href="/fardamentosMilitares/fardas.html">FARDAMENTOS MILITARES</a>
+            </div>
+
+            <div class="categoria">
+                <a href="/equipamentosMilitares/equipamentos.html">EQUIPAMENTOS MILITARES</a>
+            </div>
+
+            <div class="categoria">
+                <a href="#">CALÇADOS</a>
+                <div class="subcategorias">
+                    <a href="/calcados/tenis.html">TÊNIS</a>
+                    <a href="/calcados/society.html">SOCIETY</a>
+                </div>
+            </div>
+
+            <div class="categoria">
+                <a href="#">ELETRÔNICOS</a>
+                <div class="subcategorias">
+                    <a href="/eletronicos/celulares.html">CELULARES</a>
+                    <a href="/eletronicos/caixaSom.html">CAIXAS DE SOM</a>
+                </div>
+            </div>
+
+            <div class="categoria">
+                <a href="/perfumes/perfumes.html">PERFUMES</a>
+            </div>
+        </nav>
+
+        <!-- VITRINE -->
         <section class="vitrine">
-            <h2 class="titulo-vitrine"> <P>PRODUTOS EM DESTAQUES</P></h2>
+            <h2 class="titulo-vitrine">PRODUTOS EM DESTAQUE</h2>
             <div class="grade-produtos"></div>
         </section>
 
-
-
-
     </main>
 
-    <footer>
-       
-    </footer>
-    
+    <footer></footer>
+
+    <!-- SCRIPTS -->
     <script src="./slides/script.js"></script>
     <script src="./JSglobal/carrinho.js"></script>
     <script src="./produtos/produtos.js"></script>
     <script src="./JSglobal/vitrine.js"></script>
     <script src="./JSglobal/JSglobalBusca/busca.js"></script>
 
-
 </body>
-</html
+</html>

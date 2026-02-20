@@ -18,9 +18,10 @@ header {
     display: flex;
     align-items: center;
     padding: 0 40px;
-    position: sticky; /* 🔥 header fixo */
+
+    position: sticky;
     top: 0;
-    z-index: 5000;
+    z-index: 5000; /* sempre no topo */
 }
 
 /* LOGO */
@@ -302,10 +303,12 @@ header img {
         gap: 25px;
     }
 
-    /* CATEGORIAS FIXAS MOBILE */
-    .categorias {
+   /* ===== CATEGORIAS FIXAS MOBILE (CORRIGIDO ROTAÇÃO) ===== */
+@media (max-width: 768px) {
+
+  .categorias {
     position: sticky;
-    top: 120px; /* altura real do header mobile */
+    top: clamp(100px, 18vh, 140px);
     z-index: 4500;
 
     overflow-x: auto;
@@ -314,16 +317,9 @@ header img {
     gap: 15px;
 
     width: 100%;
+  }
+
 }
-
-    .categoria {
-        flex: 0 0 auto;
-    }
-
-    .categoria a {
-        font-size: 14px;
-        padding: 8px 12px;
-    }
 
     /* PRODUTOS MOBILE */
     .grade-produtos {
@@ -342,4 +338,9 @@ header img {
     .grade-produtos {
         grid-template-columns: 1fr;
     }
+}
+
+/* melhora sticky no mobile */
+html, body {
+    overflow-x: hidden;
 }
