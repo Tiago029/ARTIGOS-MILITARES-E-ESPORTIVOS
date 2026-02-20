@@ -124,8 +124,8 @@ header img {
     background-color: #4a4a4a;
     padding: 15px 40px;
     position: sticky;
-    top: 140px; /* abaixo do header */
-    z-index: 999;
+    top: 140px;
+    z-index: 3000;
 }
 
 .categoria {
@@ -160,7 +160,8 @@ header img {
     min-width: 160px;
     border-radius: 5px;
     overflow: hidden;
-    z-index: 2000; /* 🔥 garante que fique na frente */
+    z-index: 4000;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
 }
 
 .subcategorias a {
