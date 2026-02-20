@@ -536,4 +536,27 @@ header img {
     display: none;
 }
 
+/* SUBCATEGORIAS FLUTUANTES FORA DA BARRA */
+.subcategorias {
+    display: none;
+    position: fixed;       /* fixa no viewport */
+    background-color: #333;
+    border-radius: 5px;
+    min-width: 160px;
+    padding: 5px 0;
+    z-index: 9999;
+    flex-direction: column;
+    top: 60px;             /* ajuste vertical conforme altura da barra */
+}
+
+/* Mostrar subcategorias no hover */
+.categoria:hover .subcategorias {
+    display: flex;
+}
+
+/* Ajuste horizontal para cada subcategoria */
+.categoria:hover .subcategorias {
+    left: 0; /* pode ajustar dinamicamente com JS se necessário */
+}
+
 
