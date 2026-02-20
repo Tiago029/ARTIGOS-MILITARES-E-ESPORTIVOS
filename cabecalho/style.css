@@ -393,3 +393,140 @@ header img {
     }
 }
 
+/* ===== CATEGORIAS MOBILE ===== */
+@media (max-width: 768px) {
+  .categorias {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px;
+    background: #444;
+    white-space: nowrap;
+  }
+
+  .categorias::-webkit-scrollbar {
+    display: none; /* esconde barra */
+  }
+
+  .categoria {
+    flex: 0 0 auto;
+  }
+
+  .categoria a {
+    display: block;
+    padding: 10px 15px;
+    background: #555;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+
+  .subcategorias {
+    display: none; /* esconde submenu no mobile */
+  }
+}
+
+/* ===== HEADER MOBILE ===== */
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  header img {
+    width: 120px;
+  }
+
+  .busca input {
+    width: 90%;
+  }
+
+  .comunicacao {
+    display: flex;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner1 img {
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+/* ===== VITRINE MOBILE - 2 COLUNAS ===== */
+@media (max-width: 768px) {
+  .grade-produtos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    padding: 10px;
+  }
+
+  .card-produto {
+    padding: 10px;
+  }
+
+  .card-produto img {
+    width: 100%;
+    height: 140px;
+    object-fit: contain; /* não corta a imagem */
+  }
+
+  .card-produto h3 {
+    font-size: 14px;
+    min-height: 34px;
+  }
+
+  .card-produto .preco {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .card-produto button {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  select {
+    font-size: 12px;
+    padding: 5px;
+  }
+}
+
+/* ===== HEADER FIXO ===== */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: #000; /* mesma cor do seu header */
+}
+
+/* Espaço para compensar header fixo */
+main {
+  padding-top: 10px;
+}
+/* Efeito elegante para rolar */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: #000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+/* ===== CATEGORIAS FIXAS ===== */
+.categorias {
+  position: sticky;
+  top: 140px; /* altura do header */
+  z-index: 998;
+}
+
+@media (max-width: 768px) {
+  .categorias {
+    top: 110px; /* ajuste fino para mobile */
+  }
+}
+
