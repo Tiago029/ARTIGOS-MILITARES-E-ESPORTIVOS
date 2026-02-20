@@ -324,3 +324,76 @@ header img {
     background-color: #fff;
     color: #000;
 }
+
+/* ================= ANIMAÇÃO AO CARRINHO ================= */
+
+.animar-carrinho {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    z-index: 2000;
+    pointer-events: none;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+}
+
+/* efeito ao finalizar */
+.animar-carrinho.finalizar {
+    opacity: 0;
+    transform: scale(0.3);
+}
+
+/* ================= CATEGORIAS SEM ESTILO DE BOTÃO ================= */
+
+.categoria a {
+    background: transparent !important;
+    border-radius: 0 !important;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+/* hover elegante */
+.categoria a:hover {
+    color: #c6ff00;
+}
+
+/* mobile continua horizontal sem caixas */
+@media (max-width: 768px) {
+    .categoria a {
+        background: transparent !important;
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+
+/* ===== ALTURA REAL DO HEADER (MOBILE) ===== */
+@media (max-width: 768px) {
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+}
+
+/* ===== CATEGORIAS FIXAS ===== */
+.categorias {
+  position: sticky;
+  top: 140px; /* altura do header desktop */
+  z-index: 998;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .categorias {
+    position: sticky;
+    top: 120px; /* ajuste fino para celular */
+    z-index: 998;
+  }
+}
+
+/* espaço para categorias fixas */
+.vitrine {
+  position: relative;
+  z-index: 1;
+}
