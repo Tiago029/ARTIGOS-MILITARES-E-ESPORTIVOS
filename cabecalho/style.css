@@ -630,3 +630,35 @@ header {
   }
 }
 
+/* ===== CATEGORIAS HORIZONTAIS ESTILO APP ===== */
+@media (max-width: 768px) {
+
+  .categorias {
+    display: flex !important;
+    flex-wrap: nowrap !important;   /* 🔥 impede quebrar linha */
+    overflow-x: auto;               /* permite rolar */
+    overflow-y: hidden;
+    white-space: nowrap;
+    gap: 10px;
+    padding: 10px;
+    scrollbar-width: none;          /* Firefox */
+  }
+
+  .categorias::-webkit-scrollbar {
+    display: none;                  /* Chrome */
+  }
+
+  .categoria {
+    flex: 0 0 auto;                 /* 🔥 impede encolher */
+  }
+
+  .categoria a {
+    display: inline-block;
+    padding: 10px 14px;
+    background: #5a5a5a;
+    border-radius: 8px;
+    font-size: 13px;
+    white-space: nowrap;            /* 🔥 texto não quebra */
+  }
+}
+
