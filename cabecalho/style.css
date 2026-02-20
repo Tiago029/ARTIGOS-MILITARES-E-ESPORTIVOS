@@ -420,3 +420,29 @@ body {
         margin-top: 80px;
     }
 }
+
+/* ================= CORRIGIR CORTE DOS BANNERS ================= */
+
+/* espaço total = header + categorias */
+:root {
+    --espaco-topo-desktop: 70px;  /* ajuste fino se necessário */
+    --espaco-topo-mobile: 700px;
+}
+
+/* empurra o conteúdo para baixo */
+main,
+.vitrine,
+.banner,
+.banners {
+    margin-top: var(--espaco-topo-desktop);
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+    main,
+    .vitrine,
+    .banner,
+    .banners {
+        margin-top: var(--espaco-topo-mobile);
+    }
+}
