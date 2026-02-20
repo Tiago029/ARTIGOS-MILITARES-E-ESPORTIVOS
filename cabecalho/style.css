@@ -19,10 +19,10 @@ header {
     align-items: center;
     padding: 0 40px;
 
-    position: sticky;
-    top: 0;
-    z-index: 5000; /* sempre no topo */
+    position: static;  /* header sobe normalmente */
+    z-index: 5000;
 }
+
 
 
 /* LOGO */
@@ -515,6 +515,25 @@ header img {
     .subcategorias {
         min-width: 120px;
     }
+}
+/* ================= CATEGORIAS FIXAS ================= */
+.categorias {
+    display: flex;
+    flex-wrap: nowrap;       /* linha única */
+    overflow-x: auto;        /* rolável horizontal */
+    gap: 10px;
+    padding: 15px 20px;
+    background-color: #4a4a4a;
+    white-space: nowrap;
+
+    position: sticky;        /* faz grudar ao rolar */
+    top: 0;                  /* fica grudada no topo da tela */
+    z-index: 5000;           /* acima do banner e conteúdo */
+}
+
+/* Esconder barra de rolagem */
+.categorias::-webkit-scrollbar {
+    display: none;
 }
 
 
