@@ -344,3 +344,79 @@ header img {
 html, body {
     overflow-x: hidden;
 }
+
+/* ================= FIXAR HEADER DE VERDADE (MOBILE) ================= */
+@media (max-width: 768px) {
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 9999;
+    }
+
+    /* evita que o conteúdo fique escondido atrás do header */
+    body {
+        padding-top: 180px; /* ajuste se necessário */
+    }
+}
+
+/* ================= HEADER FIXO UNIVERSAL ================= */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+    z-index: 9999;
+}
+
+/* cria espaço para o header fixo */
+body {
+    padding-top: 140px; /* mesma altura do header */
+}
+
+/* ================= MOBILE AJUSTE ================= */
+@media (max-width: 768px) {
+    body {
+        padding-top: 180px; /* header cresce no mobile */
+    }
+}
+
+/* ================= FIXAR CATEGORIAS ABAIXO DO HEADER ================= */
+
+/* altura do header no desktop */
+:root {
+    --altura-header: 140px;
+    --altura-header-mobile: 180px;
+}
+
+/* categorias fixas */
+.categorias {
+    position: fixed;
+    top: var(--altura-header);
+    left: 0;
+    width: 100%;
+    z-index: 9000;
+}
+
+/* evita que a vitrine fique escondida */
+.vitrine {
+    margin-top: 60px;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+    .categorias {
+        top: var(--altura-header-mobile);
+        overflow-x: auto;
+        white-space: nowrap;
+        justify-content: flex-start;
+        gap: 15px;
+        padding-left: 15px;
+    }
+
+    .vitrine {
+        margin-top: 80px;
+    }
+}
