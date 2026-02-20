@@ -18,9 +18,9 @@ header {
     display: flex;
     align-items: center;
     padding: 0 40px;
-    position: sticky;
+    position: sticky; /* 🔥 header fixo */
     top: 0;
-    z-index: 1000;
+    z-index: 5000;
 }
 
 /* LOGO */
@@ -124,8 +124,8 @@ header img {
     background-color: #4a4a4a;
     padding: 15px 40px;
     position: sticky;
-    top: 140px;
-    z-index: 3000;
+    top: 140px; /* abaixo do header */
+    z-index: 4000;
 }
 
 .categoria {
@@ -138,12 +138,7 @@ header img {
     font-size: 18px;
     padding: 10px;
     display: block;
-}
-
-/* 🔥 REMOVE FUNDO DE BOTÃO */
-.categoria a {
     background: transparent !important;
-    border-radius: 0 !important;
 }
 
 .categoria a:hover {
@@ -160,7 +155,7 @@ header img {
     min-width: 160px;
     border-radius: 5px;
     overflow: hidden;
-    z-index: 4000;
+    z-index: 6000; /* 🔥 na frente da vitrine */
     box-shadow: 0 8px 20px rgba(0,0,0,0.4);
 }
 
@@ -237,7 +232,7 @@ header img {
     position: fixed;
     width: 50px;
     height: 50px;
-    z-index: 3000;
+    z-index: 7000;
     pointer-events: none;
     border-radius: 8px;
     object-fit: cover;
@@ -276,9 +271,10 @@ header img {
     }
 }
 
-/* CELULAR */
+/* ================= MOBILE ================= */
 @media (max-width: 768px) {
 
+    /* HEADER FIXO MOBILE */
     header {
         flex-direction: column;
         align-items: center;
@@ -286,6 +282,9 @@ header img {
         padding: 15px;
         gap: 10px;
         text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 5000;
     }
 
     header img {
@@ -303,14 +302,19 @@ header img {
         gap: 25px;
     }
 
-    /* 🔥 CATEGORIAS FIXAS NO MOBILE */
+    /* CATEGORIAS FIXAS MOBILE */
     .categorias {
-        top: 120px; /* altura real do header mobile */
-        overflow-x: auto;
-        white-space: nowrap;
-        justify-content: flex-start;
-        gap: 15px;
-    }
+    position: sticky;
+    top: 120px; /* altura real do header mobile */
+    z-index: 4500;
+
+    overflow-x: auto;
+    white-space: nowrap;
+    justify-content: flex-start;
+    gap: 15px;
+
+    width: 100%;
+}
 
     .categoria {
         flex: 0 0 auto;
@@ -321,11 +325,7 @@ header img {
         padding: 8px 12px;
     }
 
-    .subcategorias {
-        display: none; /* evita bug mobile */
-    }
-
-    /* PRODUTOS */
+    /* PRODUTOS MOBILE */
     .grade-produtos {
         grid-template-columns: repeat(2, 1fr);
         gap: 12px;
