@@ -404,3 +404,26 @@ header img {
     }
 }
 
+/* ================= CENTRALIZAR HEADER NO CELULAR ================= */
+@media (max-width: 768px) { /* ajuste o valor conforme seu breakpoint */
+    header {
+        display: flex;
+        flex-direction: column;  /* empilha os elementos verticalmente */
+        align-items: center;     /* centraliza horizontalmente */
+        text-align: center;      /* centraliza textos dentro dos elementos */
+        gap: 10px;               /* espaço entre logo, pesquisa e ícones */
+    }
+
+    header .logo, 
+    header .pesquisa, 
+    header .icones {
+        width: 100%; /* faz os elementos ocuparem a largura máxima possível */
+        display: flex;
+        justify-content: center; /* centraliza horizontalmente cada elemento */
+    }
+
+    header .pesquisa input {
+        width: 80%; /* ajuste o tamanho da barra de pesquisa */
+    }
+}
+
