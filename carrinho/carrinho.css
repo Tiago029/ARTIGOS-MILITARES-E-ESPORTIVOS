@@ -33,7 +33,7 @@ body {
     height: 120px;      /* altura fixa */
     object-fit: contain; /* mantém proporção sem cortar */
     border-radius: 8px;
-    background-color: #f5f5f5; /* fundo uniforme */
+    /* background-color: #f5f5f5;  <-- REMOVIDO */
 }
 
 .item-carrinho .info {
@@ -212,4 +212,56 @@ body {
         padding: 20px 0;       /* ajusta altura em telas menores */
         font-size: 20px;       /* mantém legível */
     }
+}
+
+/* =================== ITENS ALINHADOS À ESQUERDA =================== */
+@media (max-width: 1024px) { /* aplica do tablet embaixo */
+    .item-carrinho {
+        flex-direction: row !important;       /* imagem e info lado a lado */
+        justify-content: flex-start !important; /* tudo colado à esquerda */
+        align-items: flex-start !important;    /* topo alinhado */
+        gap: 20px;
+    }
+
+    .item-carrinho img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .item-carrinho .info {
+        flex: 1;
+        text-align: left !important;         /* textos alinhados à esquerda */
+    }
+
+    .quantidade {
+        justify-content: flex-start !important; /* botões de quantidade à esquerda */
+    }
+}
+
+@media (max-width: 480px) { /* smartphones */
+    .item-carrinho {
+        flex-direction: column !important;  /* empilha imagem + info */
+        align-items: flex-start !important; /* tudo colado à esquerda */
+        gap: 10px;
+    }
+
+    .item-carrinho img {
+        width: 100%;
+        height: auto; /* proporcional à largura */
+    }
+
+    .item-carrinho .info {
+        width: 100%;
+        text-align: left !important;
+    }
+
+    .quantidade {
+        justify-content: flex-start !important;
+    }
+}
+
+.item-carrinho img {
+    width: 120px;       /* largura máxima fixa */
+    height: 120px;      /* altura máxima fixa */
+    object-fit: contain; /* mantém proporção */
 }
