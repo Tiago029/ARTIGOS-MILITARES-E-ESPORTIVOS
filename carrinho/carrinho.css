@@ -183,34 +183,39 @@ body {
     }
 }
 
-/* ================= BOTÃO WHATSAPP FIXO NO CELULAR ================= */
+/* ================= BOTÃO WHATSAPP SUPER GRANDE FIXO NO CELULAR ================= */
 @media (max-width: 768px) {
     .btn-whats {
         position: fixed;       /* fixa na tela */
-        bottom: 0;             /* cola na parte debaixo */
+        bottom: 0;             
         left: 0;
-        width: 100%;           /* ocupa toda a largura */
-        padding: 25px 0;       /* altura generosa */
-        font-size: 100px;       /* texto grande */
-        border-radius: 50px;      /* sem cantos arredondados, ocupa toda a largura */
-        background-color: #25d366;  /* verde WhatsApp */
+        width: 100%;           
+        padding: 50px 0;       /* altura bem generosa */
+        font-size: 32px;       /* texto grande e legível */
+        font-weight: bold;     
+        border-radius: 100px;      /* ocupa toda a largura */
+        background-color: #25d366;  
         color: #fff;
         border: none;
         cursor: pointer;
         text-align: center;
-        z-index: 9999;         /* acima de tudo */
+        z-index: 9999;         
     }
 
-    /* opcional: aumenta o container do resumo para não sumir atrás do botão */
+    /* dá espaço no final do container para o botão não sobrepor produtos */
     .resumo {
-        padding-bottom: 80px;  /* espaço para o botão fixo */
+        padding-bottom: 120px;  
     }
 }
 
 @media (max-width: 480px) {
     .btn-whats {
-        padding: 20px 0;       /* ajusta altura em telas menores */
-        font-size: 20px;       /* mantém legível */
+        padding: 45px 0;       /* ajusta altura para telas menores */
+        font-size: 28px;       
+    }
+
+    .resumo {
+        padding-bottom: 110px;  
     }
 }
 
