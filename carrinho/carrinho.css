@@ -266,29 +266,3 @@ body {
     object-fit: contain; /* mantém proporção */
 }
 
-/* 1️⃣ Imagem maior */
-.item-carrinho img {
-    width: 180px;      /* antes 120px */
-    height: 180px;     /* antes 120px */
-}
-
-/* 2️⃣ Card do item com mais padding */
-.item-carrinho {
-    padding: 25px;     /* antes 15px */
-    gap: 30px;         /* espaço entre imagem e infos */
-}
-
-/* 3️⃣ Fonte maior e botões maiores */
-.item-carrinho .info h3 {
-    font-size: 22px;   /* antes 18px */
-}
-
-.item-carrinho .info p {
-    font-size: 16px;   /* antes 14px */
-}
-
-.quantidade button {
-    width: 40px;       /* antes 30px */
-    height: 40px;      /* antes 30px */
-    font-size: 16px;   /* adiciona o tamanho da letra dentro do botão */
-}
