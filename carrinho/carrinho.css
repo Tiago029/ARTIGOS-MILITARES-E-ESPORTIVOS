@@ -224,8 +224,8 @@ body {
     }
 
     .item-carrinho img {
-        width: 120px;
-        height: 120px;
+        width: 180px;
+        height: 180px;
     }
 
     .item-carrinho .info {
@@ -261,8 +261,8 @@ body {
 }
 
 .item-carrinho img {
-    width: 120px;       /* largura máxima fixa */
-    height: 120px;      /* altura máxima fixa */
+    width: 180px;       /* largura máxima fixa */
+    height: 180px;      /* altura máxima fixa */
     object-fit: contain; /* mantém proporção */
 }
 
