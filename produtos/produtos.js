@@ -102,6 +102,7 @@ const PRODUTOS = [
     categoria: "produtos em destaques",
     preco: 199.90,
     imagem: "../produtosEmDestaques/FAIXA DE TREINO.jpeg",
+    descricao: "Faixa de treino resistente para exercícios funcionais.",
     cor: ["vermelho", "verde", "azul", "amarelo"] // NOVO CAMPO
   },
 
@@ -989,6 +990,7 @@ const PRODUTOS = [
     categoria: "fardamentos militar",
     preco: 299.90,
     imagem: "../fardamentosMilitares/fardasMilitaresFoto/CAMISA CAMUFLADA NOME.jpeg",
+    descricao: "Camisa camuflada com seu nome de guerra",
     tamanho: ["P", "M", "G", "GG"] // NOVO CAMPO
   },
 
@@ -1005,7 +1007,7 @@ const PRODUTOS = [
     id: 503,
     nome: "MEIA DE TFM",
     categoria: "fardamentos militar",
-    preco: 299.90,
+    preco: 20.00,
     imagem: "../fardamentosMilitares/fardasMilitaresFoto/meia tfm.jpg",
   },
 

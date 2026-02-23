@@ -54,11 +54,13 @@ function adicionarAoCarrinho(produto) {
 // ==========================
 function atualizarContadorCarrinho() {
     const carrinho = obterCarrinho();
-    const contador = document.querySelector(".contador-carrinho");
-    if (!contador) return;
+    const contadores = document.querySelectorAll(".contador-carrinho");
 
     const total = carrinho.reduce((soma, p) => soma + p.quantidade, 0);
-    contador.textContent = total;
+
+    contadores.forEach(contador => {
+        contador.textContent = total;
+    });
 }
 
 // ==========================
@@ -149,3 +151,56 @@ document.addEventListener("DOMContentLoaded", () => {
     atualizarContadorCarrinho();
     carregarCarrinho();
 });
+
+// ==========================
+// CARRINHO FLUTUANTE
+// ==========================
+document.addEventListener("scroll", () => {
+    const flutuante = document.querySelector(".carrinho-flutuante");
+    const header = document.querySelector("header");
+
+    if (!flutuante || !header) return;
+
+    const headerBottom = header.getBoundingClientRect().bottom;
+
+    // se o header saiu da tela → mostra botão flutuante
+    if (headerBottom < 0) {
+        flutuante.style.display = "flex";
+    } else {
+        flutuante.style.display = "none";
+    }
+});
+
+// ==========================
+// ANIMAÇÃO GLOBAL PARA O CARRINHO (FUNCIONA COM FLUTUANTE)
+// ==========================
+function animarParaCarrinho(imagemSrc, elementoOrigem) {
+    const img = document.createElement("img");
+    img.src = imagemSrc;
+    img.className = "animar-carrinho";
+
+    const rect = elementoOrigem.getBoundingClientRect();
+
+    img.style.left = rect.left + "px";
+    img.style.top = rect.top + "px";
+
+    document.body.appendChild(img);
+
+    // 🔥 prioridade: carrinho flutuante visível
+    let carrinhoIcon = document.querySelector(".carrinho-flutuante");
+
+    if (!carrinhoIcon || carrinhoIcon.style.display === "none") {
+        carrinhoIcon = document.querySelector(".carrinho");
+    }
+
+    if (!carrinhoIcon) return;
+
+    const destino = carrinhoIcon.getBoundingClientRect();
+
+    requestAnimationFrame(() => {
+        img.style.transform = `translate(${destino.left - rect.left}px, ${destino.top - rect.top}px) scale(0.2)`;
+        img.style.opacity = "0";
+    });
+
+    setTimeout(() => img.remove(), 800);
+}

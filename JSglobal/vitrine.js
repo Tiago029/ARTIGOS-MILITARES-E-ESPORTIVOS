@@ -35,7 +35,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // MONTA O CARD
         card.innerHTML = `
-            <img src="${produto.imagem}" alt="${produto.nome}">
+            <a href="/descricaoProdutos/produtosDescricao.html?id=${produto.id}">
+                <img src="${produto.imagem}" alt="${produto.nome}" onclick="abrirDetalhe(${produto.id})">
+            </a>
             <h3>${produto.nome}</h3>
             <p class="preco">R$ ${produto.preco.toFixed(2)}</p>
             ${selectTamanho}
@@ -117,4 +119,11 @@ function adicionarAoCarrinho(produto) {
 
     localStorage.setItem("carrinho", JSON.stringify(carrinho));
     atualizarContadorCarrinho();
+}
+
+// ==========================
+// ABRIR PÁGINA DO PRODUTO
+// ==========================
+function abrirDetalhe(id) {
+    window.location.href = `../descricaoProdutos/produtosDescricao.html?id=${id}`;
 }

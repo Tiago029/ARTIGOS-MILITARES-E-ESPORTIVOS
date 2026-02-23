@@ -559,4 +559,44 @@ header img {
     left: 0; /* pode ajustar dinamicamente com JS se necessário */
 }
 
+/* ================= CARRINHO FLUTUANTE ================= */
+
+.carrinho-flutuante {
+    position: fixed;
+    right: 15px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    background: #000;
+    border-radius: 50%;
+    display: none; /* começa escondido */
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.carrinho-flutuante img {
+    width: 28px;
+}
+
+.carrinho-flutuante .contador-carrinho {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.animar-carrinho {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    z-index: 9999;
+    pointer-events: none;
+    transition: transform 0.8s ease, opacity 0.8s ease;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+
+
 
