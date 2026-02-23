@@ -10,31 +10,43 @@ body {
     background-color: #f5f5f5;
 }
 
+/* ===== HEADER ===== */
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
 /* ===== CONTAINER PRINCIPAL ===== */
 .container-produto {
-    max-width: 1200px;
-    margin: 40px auto;
+    width: 100%;
     background: #fff;
-    padding: 30px;
-    border-radius: 10px;
+    padding: 40px;
+    border-radius: 16px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    gap: 50px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
 /* ===== IMAGEM ===== */
+/* ===== IMAGEM PADRONIZADA ===== */
+
 .imagem-produto {
+    width: 100%;
+    max-width: 450px;
+    height: 450px; /* altura fixa */
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #fff;
 }
 
 .imagem-produto img {
     width: 100%;
-    max-width: 450px;
-    height: auto;
-    object-fit: contain;
+    height: 100%;
+    object-fit: contain; /* mantém proporção */
 }
 
 /* ===== INFO ===== */
@@ -45,92 +57,63 @@ body {
 }
 
 .info-produto h1 {
-    font-size: 26px;
+    font-size: 28px;
     margin-bottom: 10px;
-    color: #000;
 }
 
 .preco {
     font-size: 24px;
     font-weight: bold;
-    color: #000;
+    margin-bottom: 15px;
+}
+
+#descricaoProduto {
+    font-size: 15px;
+    line-height: 1.6;
     margin-bottom: 20px;
 }
 
-/* descrição */
-#descricaoProduto {
-    font-size: 15px;
-    color: #555;
-    margin-bottom: 25px;
-    line-height: 1.5;
-}
-
-/* container da opção (cor e tamanho) */
+/* ===== OPÇÕES ===== */
 .opcao {
     display: flex;
     align-items: center;
-    gap: 10px; /* espaço entre texto e select */
-    margin-bottom: 12px;
+    gap: 10px;
+    margin-bottom: 15px;
 }
 
-/* texto: Cor / Tamanho */
 .opcao label {
     font-weight: bold;
     font-size: 14px;
-    min-width: 70px; /* mantém alinhado */
 }
 
-/* select menor e alinhado */
 .opcao select {
-    padding: 6px 10px;
+    padding: 8px 12px;
     border-radius: 6px;
     border: 1px solid #ccc;
     font-size: 14px;
-    width: 140px;
 }
 
 /* ===== BOTÃO ===== */
 #btnAdicionarCarrinho {
     background-color: #000;
     color: #fff;
-    padding: 15px;
+    padding: 16px;
     font-size: 16px;
     border: none;
-    border-radius: 8px;
+    border-radius: 12px;
     cursor: pointer;
     transition: 0.3s;
+    margin-top: 10px;
+    width: 250px;
 }
 
 #btnAdicionarCarrinho:hover {
     background-color: #c6ff00;
     color: #000;
-    transform: scale(1.03);
 }
 
-/* ===== RESPONSIVO ===== */
-@media (max-width: 768px) {
-    .container-produto {
-        grid-template-columns: 1fr;
-        gap: 20px;
-        padding: 20px;
-    }
-
-    .imagem-produto img {
-        max-width: 100%;
-    }
-
-    .info-produto h1 {
-        font-size: 22px;
-    }
-
-    .preco {
-        font-size: 20px;
-    }
-}
-
-/* ================= CARRINHO ================= */
+/* ===== CARRINHO ===== */
 .carrinho {
-    margin-left: auto;
     width: 42px;
     height: 42px;
     border-radius: 50%;
@@ -145,10 +128,8 @@ body {
 .carrinho img {
     width: 24px;
     height: 24px;
-    object-fit: contain;
 }
 
-/* CONTADOR */
 .contador-carrinho {
     position: absolute;
     top: -6px;
@@ -159,5 +140,57 @@ body {
     font-weight: bold;
     padding: 2px 6px;
     border-radius: 50%;
-    line-height: 1;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+
+    .imagem-produto {
+    height: 320px;
+    max-width: 100%;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    .container-produto {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        padding: 25px;
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .imagem-produto img {
+        max-width: 100%;
+    }
+
+    #btnAdicionarCarrinho {
+        width: 100%;
+    }
+}
+
+/* ================= CELULARES PEQUENOS ================= */
+@media (max-width: 480px) {
+     
+    .imagem-produto {
+    height: 260px;
+    }
+    .container-produto {
+        padding: 20px;
+    }
+
+    .imagem-produto img {
+        max-width: 240px;
+    }
+
+    .info-produto h1 {
+        font-size: 22px;
+    }
+
+    .preco {
+        font-size: 20px;
+    }
 }
