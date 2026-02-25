@@ -46,7 +46,11 @@ function adicionarAoCarrinho(produto) {
 
     localStorage.setItem("carrinho", JSON.stringify(carrinho));
     atualizarContadorCarrinho();
-    carregarCarrinho(); // atualiza a tela
+
+    // 🔥 só carrega a lista se estiver na página carrinho.html
+    if (document.getElementById("lista-carrinho")) {
+        carregarCarrinho();
+    }
 }
 
 // ==========================

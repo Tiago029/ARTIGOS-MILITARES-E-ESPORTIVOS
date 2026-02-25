@@ -208,3 +208,16 @@ header {
         font-size: 20px;
     }
 }
+
+/* ================= ANIMAÇÃO PARA O CARRINHO ================= */
+
+.animar-carrinho {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    z-index: 9999;
+    pointer-events: none;
+    border-radius: 10px;
+    transition: transform 0.8s cubic-bezier(.65,-0.3,.35,1.5), opacity 0.8s ease;
+}
