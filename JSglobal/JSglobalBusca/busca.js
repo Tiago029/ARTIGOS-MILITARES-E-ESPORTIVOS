@@ -16,8 +16,10 @@ function mostrarProdutos(lista) {
 
         // Usa o caminho do produto exatamente como definido no produtos.js
         card.innerHTML = `
-            <img src="${produto.imagem}" alt="${produto.nome}">
-            <h3>${produto.nome}</h3>
+            <a href="../descricaoProdutos/produtosDescricao.html?id=${produto.id}" class="link-produto">
+                <img src="${produto.imagem}" alt="${produto.nome}">
+                <h3>${produto.nome}</h3>
+            </a>
             <p class="preco">R$ ${produto.preco.toFixed(2)}</p>
             <button onclick="adicionarAoCarrinho({
                 nome: '${produto.nome}',
