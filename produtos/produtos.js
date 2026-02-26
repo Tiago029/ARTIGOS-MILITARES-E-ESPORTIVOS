@@ -83,7 +83,7 @@ const PRODUTOS = [
 
   {
     id: 110,
-    nome: ". Chave de corrente de 8 polegadas ID-2385C Idea ",
+    nome: "Chave de corrente de 8 polegadas ID-2385C Idea ",
     categoria: "produtos em destaques",
     preco: 199.90,
     imagem: "../produtosEmDestaques/CHAVES DE CORRENTE.jpeg",
@@ -192,7 +192,7 @@ const PRODUTOS = [
 
   {
     id: 122,
-    nome: " jogo de chaves Allen hexagonal de 9 peças da marca Idea (modelo ID-4907H).",
+    nome: "jogo de chaves Allen hexagonal de 9 peças da marca Idea (modelo ID-4907H).",
     categoria: "produtos em destaques",
     preco: 199.90,
     imagem: "../produtosEmDestaques/JOGO DE CHAVES ALLEN.jpeg",
@@ -219,7 +219,7 @@ const PRODUTOS = [
 
   {
     id: 125,
-    nome: ". Kit Jogo Chave Catraca Soquete Bit 46 Peças Holda/Bomvik",
+    nome: "Kit Jogo Chave Catraca Soquete Bit 46 Peças Holda/Bomvik",
     categoria: "produtos em destaques",
     preco: 199.90,
     imagem: "../produtosEmDestaques/KIT DE CHAVES.jpeg",
