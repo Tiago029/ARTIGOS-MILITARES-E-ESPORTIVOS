@@ -463,203 +463,228 @@ const PRODUTOS = [
   // ================= EQUIPAMENTOS MILITARES =================
   {
     id: 202,
-    nome: "CALÇA 3",
+    nome: "Calça Masculina Jogger Cargo em Moletom – Conforto Streetwear com Bolsos Laterais",
     categoria: "equipamentos militares",
     preco: 199.90,
-    imagem: "../equipamentosMilitares/equipamentosFoto/CALÇAS 3.jpeg"
+    imagem: "../equipamentosMilitares/equipamentosFoto/CALÇAS 3.jpeg",
+    descricao:"A Calça Jogger Cargo em Moletom é a peça-chave para quem busca unir o estilo urbano do streetwear ao máximo conforto térmico. Confeccionada em moletom de alta qualidade, muitas vezes com interior flanelado ou peluciado, ela é ideal para os dias mais frios e para o uso casual diário. Seu design moderno apresenta o prático corte jogger com punhos elásticos nos tornozelos e cintura ajustável por cordão, garantindo um caimento perfeito e arrojado. Os bolsos laterais estilo cargo não apenas conferem um visual utilitário e estiloso, mas também oferecem praticidade extra para carregar pequenos objetos com segurança. Versátil e resistente, esta calça é a escolha ideal para compor looks despojados, seja para atividades ao ar livre, treinos ou para relaxar com estilo."
   },
 
   {
     id: 203,
-    nome: "CALÇA 4",
+    nome: "Calça Masculina Jogger Cargo em Sarja – Bege Caqui com 6 Bolsos e Cordão Ajustável",
     categoria: "equipamentos militares",
     preco: 199.90,
-    imagem: "../equipamentosMilitares/equipamentosFoto/CALÇAS 4.jpeg"
+    imagem: "../equipamentosMilitares/equipamentosFoto/CALÇAS 4.jpeg",
+    descricao:"A Calça Masculina Jogger Cargo é a união definitiva entre o estilo utilitário e o conforto moderno, sendo ideal para compor looks urbanos e casuais com atitude. Confeccionada em sarja de alta qualidade, a peça apresenta uma modelagem ajustada ao corpo com punhos elásticos nos tornozelos e cós com cordão para um ajuste personalizado e seguro. Seu design funcional conta com 6 bolsos estratégicos, incluindo os icônicos bolsos laterais cargo, perfeitos para carregar itens essenciais como celular e carteira com praticidade. Disponível na versátil cor bege caqui, esta calça resistente oferece um caimento impecável e durabilidade para o uso diário, sendo a escolha certa para quem não abre mão de versatilidade e bem-estar."
   },
 
   {
     id: 204,
-    nome: "CALÇA 5",
+    nome: "Calça Tática Militar Cargo – Resistente à Água e Anti-Rasgo com 9 Bolsos Utilitários",
     categoria: "equipamentos militares",
     preco: 199.90,
-    imagem: "../equipamentosMilitares/equipamentosFoto/CALÇAS 5.jpeg"
+    imagem: "../equipamentosMilitares/equipamentosFoto/CALÇAS 5.jpeg",
+    descricao:"A Calça Tática Militar Cargo foi projetada para oferecer durabilidade extrema e funcionalidade superior em atividades ao ar livre, missões táticas ou trabalhos pesados. Confeccionada em tecido de alta resistência (Ripstop ou algodão com elastano), ela conta com tecnologia à prova d'água e proteção contra desgaste, garantindo conforto mesmo em condições adversas. Seu design inteligente inclui até 9 bolsos de desempenho, permitindo o armazenamento seguro de ferramentas e equipamentos essenciais com acesso rápido e organizado. Com corte reto e costuras reforçadas, esta peça une o estilo robusto do exército à flexibilidade necessária para escaladas, trilhas e treinamentos intensos."
   },
 
   {
     id: 205,
-    nome: "CALÇA 6",
+    nome: "Calça Tática Militar Masculina IX7 Verde Oliva – Impermeável com Bolsos Cargo e Reforço de Joelho",
     categoria: "equipamentos militares",
     preco: 199.90,
-    imagem: "../equipamentosMilitares/equipamentosFoto/CALÇAS 6.jpeg"
+    imagem: "../equipamentosMilitares/equipamentosFoto/CALÇAS 6.jpeg",
+    descricao:"A Calça Tática Militar IX7 Verde Oliva é o equipamento definitivo para profissionais e entusiastas de aventura que exigem máxima resistência e funcionalidade em terrenos desafiadores. Confeccionada em tecido Ripstop de alta densidade com acabamento repelente à água, esta peça é imune a rasgos e furos, proporcionando segurança em trilhas, treinamentos táticos ou missões operacionais. Seu design estratégico conta com 10 bolsos utilitários de rápido acesso, joelhos articulados e reforçados para maior mobilidade, além de um corte anatômico que garante conforto absoluto durante longas jornadas. Combinando a robustez do padrão exército com a versatilidade urbana, esta calça tática oferece a durabilidade necessária para enfrentar qualquer missão com estilo e eficiência."
   },
 
   {
     id: 206,
-    nome: "CALÇA 7",
+    nome: "Calça Tática Militar Masculina IX9 Cinza Wolf – Resistente à Água com Bolsos Táticos e Joelho Reforçado",
     categoria: "equipamentos militares",
     preco: 199.90,
-    imagem: "../equipamentosMilitares/equipamentosFoto/CALÇAS 7.jpeg"
+    imagem: "../equipamentosMilitares/equipamentosFoto/CALÇAS 7.jpeg",
+    descricao:"A Calça Tática Militar IX9 na cor Cinza Wolf é o equilíbrio perfeito entre discrição urbana e desempenho operacional extremo, sendo ideal para missões táticas, trabalho pesado ou aventuras ao ar livre. Confeccionada em tecido Ripstop de alta resistência com acabamento repelente a líquidos, esta peça é projetada para suportar rasgos e abrasões sem comprometer a flexibilidade do operador. Seu design estratégico conta com múltiplos bolsos de rápido acesso, incluindo compartimentos para canivetes e lanternas, além de joelhos articulados que proporcionam total liberdade de movimento em qualquer terreno. Com um corte slim moderno e durabilidade superior, esta calça une a funcionalidade do padrão exército a um visual versátil que transita perfeitamente entre a natureza e a cidade."
   },
 
   {
     id: 207,
-    nome: "CALÇA 8",
+    nome: "Calça Tática Militar Masculina Black Ops – Impermeável com 10 Bolsos e Tecido Ripstop Premium",
     categoria: "equipamentos militares",
     preco: 199.90,
-    imagem: "../equipamentosMilitares/equipamentosFoto/CALÇAS 8.jpeg"
+    imagem: "../equipamentosMilitares/equipamentosFoto/CALÇAS 8.jpeg",
+    descricao:"A Calça Tática Militar Black Ops é a escolha definitiva para profissionais de segurança, entusiastas de airsoft e aventureiros que não abrem mão de resistência extrema e funcionalidade no dia a dia. Confeccionada em tecido Ripstop de alta durabilidade, esta peça é projetada para ser imune a rasgos e furos, contando com um acabamento repelente à água que mantém o usuário seco mesmo em condições adversas. Seu design estratégico de combate apresenta até 10 bolsos utilitários de rápido acesso, ideais para carregar carregadores, lanternas e ferramentas essenciais com organização e agilidade. Com reforços nos joelhos e um corte anatômico que permite total liberdade de movimento, esta calça une a robustez do padrão militar a um visual urbano discreto e imponente, sendo perfeita para missões táticas ou uso casual robusto. "
   },
 
   {
     id: 208,
-    nome: "CINTO",
+    nome: "Cinto Tático Militar com Fivela de Metal e Engate Rápido – Nylon de Alta Resistência",
     categoria: "equipamentos militares",
     preco: 199.90,
-    imagem: "../equipamentosMilitares/equipamentosFoto/CINTO 1.jpeg"
+    imagem: "../equipamentosMilitares/equipamentosFoto/CINTO 1.jpeg",
+    descricao:"O Cinto Tático Militar com Fivela de Engate Rápido é o acessório definitivo para quem exige máxima segurança, agilidade e durabilidade em operações táticas ou no uso cotidiano. Fabricado em nylon ecológico de alta densidade, ele oferece uma estrutura respirável e extremamente resistente a deformações, suportando o peso de coldres e acessórios sem ceder. O grande destaque deste modelo é sua fivela metálica de liberação rápida (quick-release), que permite travar o cinto de forma segura com um clique e soltá-lo instantaneamente quando necessário, proporcionando uma praticidade inigualável. Com design unissex e ajuste totalmente personalizável, este cinto adapta-se perfeitamente a calças táticas, jeans ou uniformes operacionais, sendo a escolha ideal para profissionais de segurança, praticantes de airsoft e entusiastas de atividades ao ar livre."
   },
 
   {
     id: 209,
-    nome: "MOCHILA 1",
+    nome: "Mochila Tática Militar Assault 30L – Impermeável com Sistema MOLLE e 4 Compartimentos",
     categoria: "equipamentos militares",
     preco: 290.00,
-    imagem: "../equipamentosMilitares/equipamentosFoto/MOCHILA 1.jpeg"
+    imagem: "../equipamentosMilitares/equipamentosFoto/MOCHILA 1.jpeg",
+    descricao:"A Mochila Tática Assault de 30 Litros foi projetada para oferecer o máximo de organização e resistência, sendo a escolha ideal para militares, praticantes de airsoft, pescadores e entusiastas de atividades ao ar livre. Confeccionada em tecido Oxford 600D de alta densidade com forro interno resinado, esta mochila é resistente à água e a abrasões, garantindo a proteção dos seus equipamentos em qualquer clima. Seu design funcional conta com dois compartimentos principais espaçosos e dois bolsos frontais de fácil acesso, todos com zíperes duplos reforçados para maior segurança. O sistema MOLLE frontal e lateral permite a fixação modular de bolsos extras e acessórios, enquanto as alças acolchoadas e ajustáveis com cintas de peito e abdômen proporcionam um ajuste ergonômico e estável mesmo em longas jornadas."
   },
 
 
   {
     id: 210,
-    nome: "MOCHILA 2",
+    nome: "Mochila Tática Militar Assault 30L Black – Impermeável com Sistema MOLLE e Painel de Velcro",
     categoria: "equipamentos militares",
     preco: 290.00,
-    imagem: "../equipamentosMilitares/equipamentosFoto/MOCHILA 2.jpeg"
+    imagem: "../equipamentosMilitares/equipamentosFoto/MOCHILA 2.jpeg",
+    descricao:"A Mochila Tática Assault Black de 30 Litros é o equipamento definitivo para quem busca versatilidade e resistência extrema, seja no uso operacional, em trilhas ou no cotidiano urbano. Fabricada em tecido de alta densidade com revestimento interno resinado, ela oferece excelente resistência à água e proteção para seus equipamentos. Seu design inteligente conta com o sistema modular MOLLE, que permite a fixação de bolsos extras, e um painel de velcro frontal para personalização com patches. Composta por dois compartimentos principais amplos e dois bolsos externos frontais, ela garante organização total, enquanto as alças acolchoadas e as cintas de compressão lateral proporcionam conforto ergonômico e estabilidade de carga durante o uso prolongado."
   },
 
   {
     id: 211,
-    nome: "MOCHILA 3",
+    nome: "Mochila Tática Militar Combat 40L – Refletiva, Impermeável e com Sistema MOLLE",
     categoria: "equipamentos militares",
     preco: 290.00,
-    imagem: "../equipamentosMilitares/equipamentosFoto/MOCHILA 3.jpeg"
+    imagem: "../equipamentosMilitares/equipamentosFoto/MOCHILA 3.jpeg",
+    descricao:"A Mochila Tática Militar Combat de 40 Litros foi projetada para aventureiros e profissionais que exigem durabilidade extrema e organização superior em suas missões. Confeccionada em tecido Oxford 900D de alta densidade com revestimento interno em PVC, ela é altamente resistente à água e a abrasões. Seu design robusto conta com o sistema modular MOLLE completo, permitindo a fixação de bolsos extras e acessórios, além de uma tira em Y frontal com fivela ideal para prender jaquetas ou equipamentos leves. Um diferencial de segurança é a faixa refletora noturna, que garante visibilidade em ambientes de pouca luz. Com alças acolchoadas, ventiladas e ergonômicas, além de compartimento acolchoado para notebook de até 17 polegadas, esta mochila oferece o conforto necessário para trilhas, camping, viagens ou uso tático intenso."
   },
 
   {
     id: 212,
-    nome: "MOCHILA 4",
+    nome: "Mochila Tática Militar Combat 40L Verde Oliva – Impermeável com Sistema MOLLE e Faixa Refletiva",
     categoria: "equipamentos militares",
     preco: 290.00,
-    imagem: "../equipamentosMilitares/equipamentosFoto/MOCHILA 4.jpeg"
+    imagem: "../equipamentosMilitares/equipamentosFoto/MOCHILA 4.jpeg",
+    descricao:"A Mochila Tática Militar Combat de 40 Litros na cor verde oliva foi projetada para aventureiros e profissionais que exigem durabilidade extrema e organização superior em suas missões. Confeccionada em tecido Oxford 900D de alta densidade com revestimento interno em PVC, ela é altamente resistente à água e a abrasões, protegendo seus equipamentos em qualquer ambiente. Seu design robusto conta com o sistema modular MOLLE completo para fixação de acessórios, além de uma prática tira em Y frontal para prender jaquetas ou sacos de dormir. Equipada com uma faixa refletora para segurança noturna, alças ergonômicas ventiladas e compartimento acolchoado para notebook de até 17 polegadas, esta mochila oferece o conforto e a versatilidade necessários para trilhas, camping, viagens ou uso tático intenso."
   },
 
   {
     id: 213,
-    nome: "MOCHILA 5",
+    nome: "Mochila Tática Militar Combat 40L Black – Impermeável com Sistema MOLLE e Faixa Refletiva",
     categoria: "equipamentos militares",
     preco: 290.00,
-    imagem: "../equipamentosMilitares/equipamentosFoto/MOCHILA 5.jpeg"
+    imagem: "../equipamentosMilitares/equipamentosFoto/MOCHILA 5.jpeg",
+    descricao:"A Mochila Tática Militar Combat de 40 Litros na cor preta é o equipamento definitivo para quem busca resistência extrema e um visual imponente, seja em missões táticas, trilhas ou no cotidiano urbano. Confeccionada em tecido Oxford 900D de alta densidade com revestimento interno em PVC, ela é altamente resistente à água e a abrasões, garantindo a proteção total dos seus pertences. Seu design funcional conta com o sistema modular MOLLE completo para fixação de acessórios, uma prática tira em Y frontal para prender jaquetas e faixas refletoras que proporcionam segurança em ambientes de baixa visibilidade. Com compartimento acolchoado para notebook de até 17 polegadas e alças ergonômicas ventiladas, esta mochila oferece o equilíbrio perfeito entre ampla capacidade de carga e conforto prolongado para qualquer desafio."
   },
 
   {
     id: 214,
-    nome: "MOCHILA 6",
+    nome: "Mochila Tática Militar Assault 50L – Impermeável com Sistema MOLLE e Painel para Patches",
     categoria: "equipamentos militares",
     preco: 290.00,
-    imagem: "../equipamentosMilitares/equipamentosFoto/MOCHILA 6.jpeg"
+    imagem: "../equipamentosMilitares/equipamentosFoto/MOCHILA 6.jpeg",
+    descricao:"A Mochila Tática Assault de 50 Litros é o equipamento definitivo para quem busca o máximo de espaço e resistência em missões de longa duração, expedições de sobrevivência ou viagens de aventura. Confeccionada em tecido Oxford 600D de alta densidade com revestimento interno resinado, esta mochila é projetada para ser impermeável e altamente resistente a rasgos e abrasões. Seu design funcional de grande porte conta com diversos compartimentos estratégicos, incluindo divisórias para notebook de até 17 polegadas, sistema modular MOLLE para acoplagem de acessórios extras e um amplo painel de velcro frontal para personalização com patches e identificadores. Equipada com alças ergonômicas acolchoadas, cintas de compressão lateral e cinturão abdominal, ela garante uma distribuição de peso equilibrada e conforto superior mesmo em caminhadas prolongadas com carga máxima."
   },
 
   {
     id: 215,
-    nome: "MOCHILA 7",
+    nome: "Mochila Tática Militar Assault 45L/50L – Impermeável com Sistema MOLLE e Patch Bandeira",
     categoria: "equipamentos militares",
     preco: 290.00,
-    imagem: "../equipamentosMilitares/equipamentosFoto/MOCHILA 7.jpeg"
+    imagem: "../equipamentosMilitares/equipamentosFoto/MOCHILA 7.jpeg",
+    descricao:"A Mochila Tática Militar Assault é o equipamento definitivo para quem busca máxima capacidade e resistência em missões táticas, acampamentos ou no uso diário intenso. Confeccionada em tecido Oxford de alta densidade com revestimento impermeável, ela oferece proteção total contra água e desgaste, garantindo a segurança de seus pertences em qualquer ambiente. Seu design funcional conta com múltiplos compartimentos espaçosos, incluindo divisórias para notebook de até 17 polegadas, sistema modular MOLLE para acoplar acessórios extras e um painel de velcro frontal que acompanha o patch da bandeira. Com alças acolchoadas ergonômicas e cintas de compressão, esta mochila de 45 a 50 litros assegura conforto superior e estabilidade de carga para longas jornadas e aventuras extremas."
   },
 
   {
     id: 216,
-    nome: "MOCHILA 8",
+    nome: "Mochila Tática Militar Assault 50L Black – Impermeável com Sistema MOLLE e Patch EUA",
     categoria: "equipamentos militares",
     preco: 290.00,
-    imagem: "../equipamentosMilitares/equipamentosFoto/MOCHILA 8.jpeg"
+    imagem: "../equipamentosMilitares/equipamentosFoto/MOCHILA 8.jpeg",
+    descricao:"A Mochila Tática Assault Black de 50 Litros é o equipamento definitivo para quem busca versatilidade e resistência extrema, seja no uso operacional, em trilhas ou no cotidiano urbano. Fabricada em tecido de alta densidade (Nylon 900D ou 1000D) com revestimento interno resinado, ela oferece excelente resistência à água e proteção contra rasgos e abrasões. Seu design funcional conta com o sistema modular MOLLE, que permite a fixação de bolsos extras, e um painel de velcro frontal que acompanha o patch da bandeira dos EUA. Composta por dois compartimentos principais amplos e dois bolsos externos frontais, ela garante organização total, enquanto as alças acolchoadas ergonômicas e as cintas de compressão lateral proporcionam estabilidade de carga e conforto durante o uso prolongado."
   },
 
   {
     id: 217,
-    nome: "camelback baje",
+    nome: "Mochila de Hidratação Tática Militar Camelback cor Baje – Refil de 3 Litros à Prova D'água",
     categoria: "equipamentos militares",
     preco: 170.00,
-    imagem: "../produtosEmDestaques/camelback baje.jpeg"
+    imagem: "../produtosEmDestaques/camelback baje.jpeg",
+    descricao:"A Mochila de Hidratação Tática Militar é o acessório essencial para manter a performance e o corpo hidratado em atividades de alta intensidade e longa duração. Projetada para oferecer o máximo de estabilidade e conforto, ela é ideal para ciclistas, motociclistas, corredores e praticantes de trilhas que precisam de água ao alcance imediato sem interromper o percurso. Confeccionada em náilon 600D de alta resistência e à prova d'água, esta mochila protege seus pertences em ambientes úmidos e suporta o desgaste de terrenos acidentados. O conjunto acompanha um reservatório de 3 litros de fácil higienização, equipado com mangueira e bico de sucção prático que garante um fluxo contínuo de água. Com alças de ombro ajustáveis e tirante de peito reforçado, a mochila permanece fixa ao corpo mesmo durante movimentos bruscos, evitando vibrações indesejadas. Além do compartimento principal para o refil, ela possui bolsos adicionais para armazenar itens essenciais como chaves, celular e ferramentas, unindo funcionalidade tática a um design leve e aerodinâmico."
   },
 
   {
     id: 218,
-    nome: "camelback preto",
+    nome: "Mochila de Hidratação Tática Militar Camelback cor Black – Refil de 3 Litros à Prova D'água",
     categoria: "equipamentos militares",
     preco: 170.00,
-    imagem: "../produtosEmDestaques/camelback preto.jpeg"
+    imagem: "../produtosEmDestaques/camelback preto.jpeg",
+    descricao:"A Mochila de Hidratação Tática Militar é o acessório essencial para manter a performance e o corpo hidratado em atividades de alta intensidade e longa duração. Projetada para oferecer o máximo de estabilidade e conforto, ela é ideal para ciclistas, motociclistas, corredores e praticantes de trilhas que precisam de água ao alcance imediato sem interromper o percurso. Confeccionada em náilon 600D de alta resistência e à prova d'água, esta mochila protege seus pertences em ambientes úmidos e suporta o desgaste de terrenos acidentados. O conjunto acompanha um reservatório de 3 litros de fácil higienização, equipado com mangueira e bico de sucção prático que garante um fluxo contínuo de água. Com alças de ombro ajustáveis e tirante de peito reforçado, a mochila permanece fixa ao corpo mesmo durante movimentos bruscos, evitando vibrações indesejadas. Além do compartimento principal para o refil, ela possui bolsos adicionais para armazenar itens essenciais como chaves, celular e ferramentas, unindo funcionalidade tática a um design leve e aerodinâmico."
   },
 
   {
     id: 219,
-    nome: "camelback verde",
+    nome: "Mochila de Hidratação Tática Militar Verde Oliva – Refil de 3 Litros à Prova D'água",
     categoria: "equipamentos militares",
     preco: 170.00,
-    imagem: "../produtosEmDestaques/camelback verde.jpeg"
+    imagem: "../produtosEmDestaques/camelback verde.jpeg",
+    descricao:"A Mochila de Hidratação Tática Militar na cor verde-oliva é o equipamento essencial para quem busca performance e autonomia em atividades de longa duração como ciclismo, corrida de montanha, trilhas e operações de airsoft. Fabricada em náilon 600D de alta densidade, ela oferece resistência superior a rasgos e é à prova d'água, protegendo seu reservatório e itens pessoais em qualquer condição climática. O kit completo inclui um refil interno de 3 litros fabricado em material atóxico, com mangueira revestida e bico de sucção ergonômico com trava, permitindo uma hidratação rápida e contínua sem que você precise parar o movimento. Seu design leve e aerodinâmico conta com alças de ombro e peitorais totalmente ajustáveis que garantem um encaixe firme ao corpo, eliminando vibrações e proporcionando o máximo de conforto térmico e mobilidade em todos os seus desafios ao ar livre."
   },
 
   {
     id: 220,
-    nome: "cantil",
+    nome: "Cantil Militar de Polipropileno 900ml Verde Oliva – Padrão Forças Armadas",
     categoria: "equipamentos militares",
     preco: 50.00,
-    imagem: "../produtosEmDestaques/cantil.jpeg"
+    imagem: "../produtosEmDestaques/cantil.jpeg",
+    descricao:"O Cantil Militar de 900ml é um item indispensável para quem busca resistência e funcionalidade em operações táticas, acampamentos ou treinamentos de sobrevivência. Fabricado em polipropileno de alta densidade, este modelo é extremamente robusto, imune a furos e rachaduras, além de não amassar nem enferrujar. Seu design clássico apresenta o visor texturizado com a inscrição EXCLUSIVO PARA ÁGUA, garantindo segurança no armazenamento de líquidos. Possui tampa com vedação eficiente e alça plástica integrada para evitar a perda do acessório. Leve e ergonômico, o cantil encaixa-se perfeitamente em capas térmicas e porta-cantis de cinto, sendo o padrão confiável utilizado por diversas forças armadas para hidratação em campo."
   },
 
   {
     id: 221,
-    nome: "colete tático militar preto",
+    nome: "Colete Tático Militar Modular Assault – Sistema MOLLE e Multibolsos para Airsoft e Paintball",
     categoria: "equipamentos militares",
     preco: 199.90,
-    imagem: "../produtosEmDestaques/colete tático militar preto.jpeg"
+    imagem: "../produtosEmDestaques/colete tático militar preto.jpeg",
+    descricao:"O Colete Tático Militar Modular Assault foi desenvolvido para oferecer o máximo de funcionalidade, proteção e agilidade em operações de campo, treinamentos táticos ou jogos de Airsoft e Paintball. Confeccionado em poliéster de alta densidade (900D ou Oxford 600D), ele apresenta uma estrutura extremamente durável, resistente a rasgos e abrasões. Seu design versátil conta com o sistema modular MOLLE, permitindo que você reorganize ou adicione novos compartimentos conforme a necessidade da missão. O colete vem equipado com diversos bolsos estratégicos, incluindo três porta-carregadores frontais de fácil acesso, bolsos utilitários superiores para documentos ou rádio, e compartimentos laterais para equipamentos extras. Com alças de ombro acolchoadas e sistemas de ajuste lateral por fivelas de engate rápido, ele garante um caimento anatômico e confortável para diferentes biotipos (tamanho único ajustável). Além disso, o modelo permite a inserção de placas de proteção frontal e traseira, unindo segurança extrema a um visual operacional imponente e profissional."
   },
 
   {
     id: 222,
-    nome: "colete tático militar",
+    nome: "Colete Tático Modular Plate Carrier – Sistema MOLLE com Porta-Carregadores e Bolsos Utilitários",
     categoria: "equipamentos militares",
     preco: 199.90,
-    imagem: "../produtosEmDestaques/colete tático militar.jpeg"
+    imagem: "../produtosEmDestaques/colete tático militar.jpeg",
+    descricao:"O Colete Tático Modular Plate Carrier foi desenvolvido para oferecer o máximo de eficiência operacional e proteção em jogos de Airsoft, Paintball ou treinamentos militares. Confeccionado em Nylon 1000D de alta densidade, este modelo é extremamente resistente ao desgaste e à tração, garantindo durabilidade em condições severas. Seu design modular conta com o sistema MOLLE em toda a superfície, permitindo a personalização total com a adição de novos bolsos e acessórios. O colete já vem equipado com três porta-carregadores frontais, bolsos utilitários laterais e compartimento para rádio, além de permitir a inserção de placas de proteção interna. Com alças acolchoadas e sistemas de ajuste rápido na cintura e ombros, ele proporciona um encaixe anatômico e confortável para qualquer missão."
   },
 
   {
     id: 223,
-    nome: "lenço tático verde militar",
+    nome: "Lenço Tático Shemagh Militar Verde Oliva – Proteção contra Sol, Vento e Areia",
     categoria: "equipamentos militares",
     preco: 199.90,
-    imagem: "../produtosEmDestaques/lenço tático verde militar.jpeg"
+    imagem: "../produtosEmDestaques/lenço tático verde militar.jpeg",
+    descricao:"O Lenço Tático Shemagh (ou Keffiyeh) é um acessório envoltório extremamente versátil e tradicional, indispensável para quem busca proteção e estilo em ambientes externos. Originalmente utilizado no Oriente Médio para proteger a cabeça e o rosto de condições climáticas adversas, este modelo tornou-se um item padrão para praticantes de Airsoft, Paintball, trekking no deserto e entusiastas de sobrevivencialismo."
   },
 
   {
     id: 224,
-    nome: "lenço tático verde musgo-verde militar",
+    nome: "Lenço Tático Shemagh Militar – Proteção contra Sol, Vento e Poeira para Airsoft e Trekking",
     categoria: "equipamentos militares",
     preco: 199.90,
-    imagem: "../produtosEmDestaques/lenço tático verde musgo-verde militar.jpeg"
+    imagem: "../produtosEmDestaques/lenço tático verde musgo-verde militar.jpeg",
+    descricao:"O Lenço Tático Shemagh (Keffiyeh) é um acessório indispensável para operadores de Airsoft e aventureiros que buscam proteção extrema com um visual autêntico e funcional. Confeccionado em tecido de alta qualidade, sua trama respirável e leve garante conforto térmico tanto no calor intenso quanto no frio, protegendo eficazmente o rosto e o pescoço contra poeira, areia, vento e detritos. Com dimensões generosas (geralmente 110cm x 110cm), este lenço versátil permite diversas formas de amarração, podendo ser utilizado como máscara facial, turbante, cachecol ou até bandagem de emergência. Seu design tradicional com padrão camuflado e franjas laterais não apenas oferece camuflagem tática superior em ambientes de mata e cerrado, mas também se destaca como um acessório de moda militar atemporal e resistente para qualquer missão ou aventura ao ar livre"
   },
 
   {
     id: 225,
-    nome: "lenço tático verde musgo",
+    nome: "Lenço Tático Shemagh Militar Verde Oliva – Proteção para Cabeça e Rosto para Airsoft e Trilhas",
     categoria: "equipamentos militares",
     preco: 199.90,
-    imagem: "../produtosEmDestaques/lenço tático verde musgo.jpeg"
+    imagem: "../produtosEmDestaques/lenço tático verde musgo.jpeg",
+    descricao:"O Lenço Tático Shemagh (Keffiyeh) é o acessório definitivo para quem busca proteção absoluta contra as intempéries em missões de Airsoft, Paintball ou aventuras no deserto e mata fechada. Confeccionado em tecido de algodão de alta qualidade, ele oferece uma trama leve e respirável que garante conforto térmico tanto no calor quanto no frio, protegendo eficazmente o rosto, pescoço e cabeça contra sol intenso, vento, areia e insetos. Com dimensões aproximadas de 110cm x 110cm, sua versatilidade permite diversas formas de amarração, servindo como máscara facial, turbante ou até bandagem de emergência em situações críticas. Este modelo tradicional em verde oliva com padrão xadrez tático não apenas proporciona uma camuflagem eficiente em diversos ambientes, mas também agrega um visual robusto e profissional ao seu kit operacional."
   },
 
   {
     id: 226,
-    nome: "poncho verde militar",
+    nome: "Poncho Tático Militar Impermeável Patrol – Capa de Chuva com Compartimento para Mochila e Bolso Frontal",
     categoria: "equipamentos militares",
     preco: 199.90,
-    imagem: "../produtosEmDestaques/poncho verde militar.jpeg"
+    imagem: "../produtosEmDestaques/poncho verde militar.jpeg",
+    descricao:"O Poncho Tático Militar Patrol é o equipamento definitivo para proteção contra intempéries em missões de longa duração, trekking e atividades de sobrevivência. Desenvolvido com um corte oversized inteligente, ele foi projetado para cobrir totalmente não apenas o operador, mas também sua mochila e equipamentos, garantindo que tudo permaneça seco mesmo sob chuvas intensas. Confeccionado em material de alta resistência (como Nylon Ripstop ou Poliéster emborrachado), este poncho é 100% impermeável e conta com costuras seladas para máxima vedação."
   },
 
   // ================= CALÇADOS SOCIETY =================
