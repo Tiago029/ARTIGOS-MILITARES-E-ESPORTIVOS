@@ -690,20 +690,22 @@ const PRODUTOS = [
   // ================= CALÇADOS SOCIETY =================
   {
     id: 301,
-    nome: "SOCIETY ADIDAS",
+    nome: "Chuteira adidas Predator Accuracy.4 Futsal – Preta e Rosa com Solado de Alta Tração",
     categoria: "Society",
     preco: 180.00,
     imagem: "../calcados/society/SOCIETY ADIDAS.png",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A Chuteira adidas Predator Accuracy.4 foi projetada para jogadores que buscam controle absoluto e precisão cirúrgica em quadras de futsal. Seu cabedal sintético macio apresenta uma textura sutil que auxilia no domínio da bola, enquanto o design anatômico garante um ajuste firme e confortável durante movimentos rápidos e mudanças de direção. O grande destaque visual fica por conta da combinação icônica de preto com detalhes vibrantes em rosa e as clássicas três listras da marca. Equipada com um solado de borracha non-marking que não deixa marcas na quadra, esta chuteira oferece tração superior e estabilidade, sendo a escolha ideal para quem deseja ditar o ritmo do jogo com estilo e performance profissional."
   },
 
   {
     id: 302,
-    nome: "SOCIETY CR7",
+    nome: "Chuteira Society Botinha CR7 – Mercurial Flyknit com Cano Alto e Trava Fixa",
     categoria: "Society",
     preco: 180.00,
     imagem: "../calcados/society/SOCIETY CR7.png",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A Chuteira Society CR7 foi projetada para os pequenos craques que buscam velocidade, controle e o visual icônico de um dos maiores jogadores do mundo. Com um design de botinha e cano alto em nylon, este modelo oferece um ajuste firme e suporte extra ao tornozelo, garantindo segurança durante dribles e mudanças rápidas de direção. O cabedal sintético com tecnologia de microtextura proporciona um toque de bola preciso, enquanto o solado emborrachado com travas específicas para gramado sintético entrega máxima tração e estabilidade. Leve, resistente e totalmente costurada para maior durabilidade, esta chuteira une performance e estilo vibrante em branco e rosa para destacar o talento do seu filho em campo."
   },
 
   {
