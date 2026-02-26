@@ -835,218 +835,242 @@ const PRODUTOS = [
   // ================= CALÇADOS TENIS =================
   {
     id: 401,
-    nome: "novo 1",
+    nome: "Tênis Nike ZoomX Invincible Run 3 Feminino – Preto e Pink com Amortecimento de Alta Performance",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/novo 1.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"],
+    descricao:"O Tênis Nike ZoomX Invincible Run 3 foi projetado para oferecer o máximo de suporte e conforto, sendo a escolha ideal para corredoras que buscam uma experiência de amortecimento responsiva e estável. Sua entressola conta com a tecnologia ZoomX, que proporciona um retorno de energia inigualável e protege as articulações durante treinos intensos ou caminhadas prolongadas. O cabedal em mesh respirável garante ventilação constante, enquanto o design moderno em preto com detalhes vibrantes em pink une estilo e funcionalidade. Com um solado durável que oferece excelente tração, este modelo é perfeito para quem deseja elevar o desempenho esportivo com total segurança e leveza em cada passo." // NOVO CAMPO
   },
 
   {
     id: 402,
-    nome: "novo 2",
+    nome: "Tênis Nike Downshifter – Branco com Detalhes Roxos e Amortecimento Leve",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/novo 2.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"O Tênis Nike Downshifter 11 foi desenvolvido para oferecer o suporte leve e flexível necessário para manter você em movimento, seja em corridas, caminhadas ou treinos na academia. Seu cabedal é confeccionado em mesh de tramas abertas, que auxilia na ventilação interna e afasta o suor, garantindo flexibilidade e conforto durante todo o uso. A entressola em espuma macia proporciona um amortecimento duradouro e responsivo em cada passada, enquanto o solado de borracha resistente oferece excelente tração e aderência em diferentes superfícies. Com um design moderno e minimalista em branco com detalhes em roxo, este modelo une funcionalidade e estilo para atletas que buscam performance e bem-estar."
   },
 
   {
     id: 403,
-    nome: "novo 3",
+    nome: "Tênis Nike Air Zoom NK 47 Feminino – Preto e Pink com Solado Respingo e Amortecimento Reativo",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/novo 3.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"O Tênis Nike Air Zoom NK 47 foi projetado para mulheres que buscam alta performance sem abrir mão de um estilo marcante em seus treinos e corridas. Com um design aerodinâmico e moderno, este modelo apresenta um cabedal em mesh de tramas abertas que garante respirabilidade máxima e leveza em cada passada. O grande destaque visual é o seu solado robusto com acabamento em respingo de tinta, que abriga a tecnologia de amortecimento reativo para proteger as articulações e proporcionar um retorno de energia eficiente. Os detalhes em pink vibrante no logotipo e no contraforte contrastam perfeitamente com o preto profundo da peça, criando um visual arrojado ideal para a academia, caminhadas ou o uso casual esportivo de alta durabilidade."
   },
 
   {
     id: 404,
-    nome: "novo 4",
+    nome: "Tênis adidas Adizero Adios Pro 3 – Solar Red com Placa de Carbono e Espuma Lightstrike Pro",
     categoria: "tenis",
     preco:190.00,
     imagem: "../calcados/tenis/novo 4.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"O Adizero Adios Pro 3 é o ápice da linha racing da adidas, desenvolvido em colaboração com atletas de elite para quebrar recordes em maratonas e competições de longa distância. Sua entressola conta com duas camadas da inovadora espuma Lightstrike Pro, o material mais macio e responsivo da marca, que amortece cada passo e ajuda a manter a energia por mais tempo. O grande diferencial tecnológico são as hastes ENERGYRODS 2.0 com infusão de carbono, que proporcionam uma rigidez leve e anatomicamente projetada para uma transição de passada explosiva, ágil e eficiente. Com um cabedal em mesh ultraleve e respirável, o modelo oferece suporte preciso onde o atleta mais necessita, enquanto o solado de borracha Continental garante tração superior para dominar qualquer percurso."
   },
 
   {
     id: 405,
-    nome: "novo 5",
+    nome: "Tênis de Corrida Profissional Flame 6U – Placa de Carbono e Amortecimento Reativo",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/novo 5.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"O Tênis de Corrida Flame 6U é o equipamento definitivo para maratonistas e corredores que buscam quebrar recordes com o auxílio de tecnologia de ponta. Sua construção inovadora conta com uma placa de carbono de extensão total integrada à entressola, proporcionando uma propulsão explosiva e um retorno de energia incomparável a cada passada. O cabedal em mesh de dupla camada oferece máxima respirabilidade e um ajuste seguro, enquanto o sistema de amortecimento ultraleve absorve impactos severos, reduzindo a fadiga muscular em percursos de longa distância. Com um design aerodinâmico agressivo e solado de borracha de alta tração, este modelo une estabilidade extrema e leveza para garantir que você domine o asfalto com velocidade e estilo."
   },
 
   {
     id: 406,
-    nome: "novo 6",
+    nome: "Tênis de Corrida Profissional Velocity Carbon 3.0 – Placa de Carbono e Amortecimento Reativo",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/novo 6.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"O Tênis Velocity Carbon 3.0 é o equipamento definitivo para corredores que buscam superar seus limites e alcançar novos recordes no asfalto. Desenvolvido com a avançada tecnologia Carbon Board 3.0, este modelo integra uma placa de fibra de carbono na entressola que proporciona um rebote estável e uma propulsão explosiva a cada passada. Seu cabedal em Air Mesh respirável garante ventilação constante e um ajuste leve, enquanto o sistema de amortecimento de alta densidade absorve impactos severos para proteger suas articulações e reduzir a fadiga muscular. Com um design aerodinâmico marcante e solado em TPU de alta resistência ao desgaste, este supertênis oferece o equilíbrio perfeito entre tração superior e retorno de energia para dominar treinos de velocidade e maratonas com máxima eficiência."
   },
 
   {
     id: 407,
-    nome: "novo 7",
+    nome: "Tênis de Corrida Profissional Ravr Road 3.0 – Placa de Carbono e Amortecimento Reativo",
     categoria: "tenis",
     preco:190.00,
     imagem: "../calcados/tenis/novo 7.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"O Tênis Ravr Road 3.0 é o equipamento de elite projetado para corredores que buscam velocidade máxima e retorno de energia imbatível. Equipado com a tecnologia Carbon Board 3.0, este supertênis integra uma placa de fibra de carbono na entressola que proporciona uma propulsão explosiva e estabilidade excepcional a cada passada. Seu cabedal em Air Mesh de dupla camada oferece respirabilidade superior e leveza extrema, mantendo os pés frescos em percursos de longa distância. Com um design aerodinâmico agressivo e entressola de amortecimento reativo de alta densidade, o Ravr Road 3.0 minimiza a fadiga muscular e protege as articulações, garantindo que você domine maratonas e treinos de velocidade com o máximo desempenho e estilo."
   },
 
   {
     id: 408,
-    nome: "novo 8",
+    nome: "Tênis On Running Cloudboom Strike – Edição Prism White & Horizon",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/novo 8.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"O On Cloudboom Strike é o supertênis definitivo da On, projetado especificamente para maratonas e atletas que buscam quebrar recordes no dia da prova. Sua construção inovadora apresenta a tecnologia Bounceboard, uma estrutura que utiliza a hiperespuma Helion™ HF ultrarresponsiva para proporcionar uma propulsão explosiva e um retorno de energia inigualável a cada passo."
   },
 
   {
     id: 409,
-    nome: "novo 9",
+    nome: "Tênis de Corrida Profissional Run 9 Pro – Placa de Carbono e Amortecimento Reativo",
     categoria: "tenis",
     preco:190.00,
     imagem: "../calcados/tenis/novo 9.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"O Tênis Run 9 Pro é o equipamento de elite desenvolvido para corredores que buscam velocidade máxima e retorno de energia imbatível. Equipado com a avançada tecnologia de placa de fibra de carbono na entressola, este supertênis proporciona uma propulsão explosiva e estabilidade excepcional a cada passada, ajudando a reduzir a fadiga muscular em percursos de longa distância. Seu cabedal em mesh respirável de dupla camada oferece leveza extrema e ventilação superior, mantendo os pés frescos mesmo durante treinos intensos ou maratonas. Com um design aerodinâmico e moderno em degradê de azul e rosa, o Run 9 Pro apresenta um solado de alta densidade com amortecimento reativo que absorve impactos severos e protege as articulações. É a escolha definitiva para quem deseja dominar o asfalto com alta performance, conforto e um visual imponente."
   },
 
   {
     id: 410,
-    nome: "novo 10",
+    nome: "Tênis adidas Adizero Adios Pro 3 – Blue Lucid com Placa de Carbono e Espuma Lightstrike Pro",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/novo 10.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"O adidas Adizero Adios Pro 3 é o auge da tecnologia para corredores de elite, desenvolvido para quebrar recordes em maratonas e provas de longa distância. Sua entressola apresenta duas camadas da inovadora espuma Lightstrike Pro, o material mais responsivo da marca, que amortece cada impacto e garante um retorno de energia incomparável durante todo o percurso. O grande diferencial está nos ENERGYRODS 2.0, hastes com infusão de carbono integradas à entressola que proporcionam rigidez leve e uma transição de passada explosiva e eficiente. Com um cabedal em mesh ultraleve e respirável, ele oferece suporte preciso onde você mais precisa, enquanto o solado de borracha Continental™ entrega tração superior no asfalto. É o supertênis definitivo para quem busca máxima performance, velocidade e economia de energia do primeiro ao último quilômetro."
   },
 
   {
     id: 411,
-    nome: "TENIS 1",
+    nome: "Tênis Nike Air Zoom Pegasus 38 Masculino – Triple Black com Amortecimento Reativo",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/TENIS 1.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"O Nike Air Zoom Pegasus 38 é a evolução de um ícone, projetado para oferecer o máximo de desempenho e conforto em cada quilômetro da sua corrida. Sua construção conta com a renomada espuma Nike React, que é leve, elástica e durável, garantindo uma passada suave e responsiva. A unidade Air Zoom no antepé proporciona um retorno de energia imediato, ideal para corredores que buscam agilidade e suporte em treinos de velocidade ou longas distâncias. O cabedal em mesh de alta engenharia oferece respirabilidade superior e um ajuste clássico que se adapta ao formato do pé, mantendo o frescor necessário durante atividades intensas. Com um solado de borracha inspirado no padrão waffle, este modelo entrega tração excepcional em diversas superfícies, garantindo segurança e estabilidade. Seja para a maratona ou para o treino diário, o Pegasus 38 combina tecnologia de elite com um design Triple Black imponente e versátil."
   },
 
   {
     id: 412,
-    nome: "TENIS 2",
+    nome: "Tênis Nike Zoom Air Masculino – Preto e Verde Neon com Amortecimento Reativo",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/TENIS 2.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"O Tênis Nike Zoom Air foi desenvolvido para corredores e entusiastas do fitness que buscam o equilíbrio perfeito entre agilidade, suporte e estilo moderno. Seu cabedal é confeccionado em mesh de tramas abertas, proporcionando respirabilidade máxima e mantendo os pés frescos mesmo durante treinos intensos ou caminhadas prolongadas. A entressola conta com a tecnologia de amortecimento Nike Zoom, que oferece uma resposta rápida e protege as articulações ao absorver impactos severos com eficiência. O design em preto profundo com detalhes vibrantes em verde neon no solado e nos logotipos garante um visual esportivo imponente, enquanto o solado de borracha resistente entrega tração e aderência superiores em diversas superfícies urbanas."
   },
 
   {
     id: 413,
-    nome: "TENIS 3",
+    nome: "Tênis Nike Zoom 04 Masculino – Preto e Laranja com Amortecimento Zoom Air",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/TENIS 3.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"O Nike Zoom 04 é a fusão perfeita entre um design moderno e tecnologia de alta performance, projetado para impulsionar seu desempenho nos treinos e garantir estilo no dia a dia. Com um cabedal em mesh respirável, este modelo oferece leveza e ventilação estratégica, mantendo os pés frescos mesmo durante atividades intensas. A tecnologia Zoom Air integrada à entressola proporciona um amortecimento responsivo que absorve impactos e protege as articulações, oferecendo suporte e estabilidade em cada movimento. Versátil e arrojado, seu solado de borracha durável com padrão waffle garante tração superior em diversas superfícies, tornando-o o parceiro ideal tanto para a academia quanto para o asfalto. "
   },
 
   {
     id: 414,
-    nome: "TENIS 4",
+    nome: "Sapatênis Hugo Boss Casual Premium – Couro Off-White com Detalhe Lateral e Solado Robusto",
     categoria: "tenis",
     preco:190.00,
     imagem: "../calcados/tenis/TENIS 4.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"O Sapatênis Hugo Boss Casual Premium é a definição de sofisticação e conforto para o homem moderno que não abre mão de um visual impecável no dia a dia. Confeccionado em couro sintético (courino) de alta qualidade e totalmente forrado por dentro, este modelo oferece um toque macio e durabilidade superior. Seu design minimalista na cor off-white é realçado por uma faixa lateral contrastante com a icônica logomarca BOSS, conferindo um ar de exclusividade e presença. O solado plataforma de borracha, com acabamento em relevo, proporciona um amortecimento leve e excelente aderência, tornando-o a escolha ideal tanto para eventos casuais quanto para ocasiões semi-formais que exigem elegância e bem-estar."
   },
 
     {
     id: 415,
-    nome: "TENIS 5",
+    nome: "Tênis adidas Neo Premium – Preto e Branco com Design Casual e Conforto Excepcional",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/TENIS 5.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"O Tênis adidas Neo Premium é a escolha perfeita para quem busca um calçado que une o DNA esportivo da marca a um estilo casual sofisticado para o dia a dia. Confeccionado com materiais de alta qualidade, este modelo apresenta um cabedal em couro premium ou tecido resistente, garantindo durabilidade e um toque macio no calce. Seu design clássico em preto é destacado pelas icônicas três listras laterais em branco e pelo logotipo Trefoil no solado e na língua, conferindo um visual autêntico e versátil que combina com diversos looks. Equipado com uma entressola de espuma leve e palmilha macia, ele proporciona um amortecimento confortável para uso prolongado, tornando-o ideal para caminhadas, escola, trabalho ou momentos de lazer."
   },
 
     {
     id: 416,
-    nome: "TENIS 6",
+    nome: "Tênis Nike Air Zoom Pegasus 38 Masculino – Black & White com Amortecimento Reativo",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/TENIS 6.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"O Nike Air Zoom Pegasus 38 é a escolha definitiva para corredores que buscam o equilíbrio perfeito entre conforto duradouro e resposta imediata. Projetado com a renomada espuma Nike React, este modelo oferece uma passada suave e elástica, enquanto a unidade Zoom Air no antepé proporciona um impulso extra a cada decolagem. Seu cabedal em mesh de alta engenharia garante respirabilidade máxima e um ajuste firme, mantendo os pés frescos e seguros durante treinos de velocidade ou maratonas. Com um design Black & White atemporal e solado de borracha durável para tração superior, o Pegasus 38 une a tradição de uma lenda do asfalto a tecnologias de elite para elevar sua performance."
   },
 
     {
     id: 417,
-    nome: "TENIS 7",
+    nome: "Tênis Nike Zoom Masculino – Preto e Branco com Amortecimento Reativo",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/TENIS 7.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"O Tênis Nike Zoom é a escolha ideal para quem busca versatilidade e alto desempenho, unindo um design esportivo moderno ao conforto necessário para o dia a dia. Seu cabedal é confeccionado em mesh de tramas abertas, que garante respirabilidade máxima e leveza, mantendo os pés frescos durante caminhadas, treinos na academia ou uso casual. A entressola conta com a tecnologia de amortecimento Zoom Air, proporcionando uma resposta rápida e suave a cada passada, enquanto o solado de borracha resistente oferece excelente tração e durabilidade em diversas superfícies. Com um visual black & white atemporal, este modelo combina facilmente com qualquer look, entregando estilo e tecnologia para quem não abre mão de qualidade e bem-estar."
   },
 
     {
     id: 418,
-    nome: "TENIS 8",
+    nome: "Tênis adidas Runfalcon 3.0 – Preto e Branco com Amortecimento Cloudfoam",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/TENIS 8.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"O adidas Runfalcon 3.0 é o tênis multiesportivo ideal para quem busca o equilíbrio perfeito entre suporte, conforto e durabilidade, seja para uma corrida no parque ou para o uso casual diário. Seu cabedal é confeccionado em malha têxtil de tramas abertas, garantindo respirabilidade máxima e mantendo os pés frescos durante atividades físicas intensas. A entressola conta com a renomada tecnologia Cloudfoam, que proporciona um amortecimento macio e responsivo, oferecendo passadas suaves e reduzindo o impacto nas articulações. Com um solado de borracha de alta tração e um design Black & White atemporal, este modelo entrega segurança e estilo em qualquer superfície. Além disso, reafirmando o compromisso da marca com a sustentabilidade, o Runfalcon 3.0 é produzido com pelo menos 50% de materiais reciclados no cabedal."
   },
 
     {
     id: 419,
-    nome: "TENIS 9",
+    nome: "Tênis adidas Runfalcon 3.0 Feminino – Preto e Pink com Amortecimento Cloudfoam",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/TENIS 9.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"O adidas Runfalcon 3.0 é a escolha ideal para quem busca versatilidade, conforto e suporte em cada passo, seja na esteira ou nas ruas. Este modelo apresenta um cabedal em mesh de tripla camada, que garante respirabilidade excepcional e um ajuste flexível para manter os pés frescos durante todo o exercício. Sua entressola conta com a tecnologia de amortecimento Cloudfoam, proporcionando uma sensação de maciez e passadas suaves que protegem as articulações. Com um solado de borracha durável que oferece excelente tração e um calcanhar acolchoado para suporte extra, o Runfalcon 3.0 une o DNA esportivo da marca a um design moderno em preto com detalhes vibrantes em pink, entregando alta performance e estilo para a sua rotina."
   },
 
     {
     id: 420,
-    nome: "TENIS 10",
+    nome: "Sapatênis Hugo Boss Casual Premium – Couro Marrom Café com Solado Off-White",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/TENIS 10.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"O Sapatênis Hugo Boss Casual Premium é o equilíbrio perfeito entre elegância clássica e conforto moderno, projetado para o homem que busca sofisticação em todos os momentos do dia. Confeccionado em couro sintético de alta qualidade na cor marrom café, este modelo apresenta um toque macio e acabamento refinado que garante durabilidade superior. O design minimalista é realçado por uma faixa lateral estilizada com a icônica assinatura BOSS, conferindo um visual exclusivo e imponente. Equipado com um solado plataforma emborrachado na cor off-white, ele oferece um amortecimento leve e excelente aderência, sendo a peça-chave para elevar qualquer look, desde o jeans casual até calças de sarja para ocasiões semi-formais."
   },
 
     {
     id: 421,
-    nome: "TENIS 11",
+    nome: "Tênis Nike Zoom 04 Masculino – Preto e Branco com Amortecimento Reativo",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/TENIS 11.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"O Tênis Nike Zoom 04 é a união perfeita entre uma estética moderna e o máximo desempenho atlético. Projetado para oferecer velocidade e suporte, este modelo apresenta um cabedal em mesh respirável que garante leveza e ventilação estratégica durante toda a atividade física. Sua entressola conta com a tecnologia Zoom Air, proporcionando um amortecimento responsivo e um retorno de energia eficiente para tornar cada passada mais dinâmica. Com um design arrojado em preto e branco e solado emborrachado de alta tração, o Zoom 04 entrega segurança em diferentes terrenos e um visual futurista que se destaca tanto na academia quanto no uso casual. "
   },
 
     {
     id: 422,
-    nome: "TENIS 12",
+    nome: "Tênis Nike Revolution 5 Masculino – Black & White com Amortecimento Leve e Design Minimalista",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/TENIS 12.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"O Tênis Nike Revolution 5 é a escolha definitiva para corredores e entusiastas do fitness que buscam o equilíbrio perfeito entre conforto duradouro e um visual moderno. Seu cabedal é confeccionado em material leve e respirável, que envolve o pé com suporte flexível, garantindo o frescor necessário durante treinos intensos ou caminhadas prolongadas. A entressola em espuma macia proporciona um amortecimento estável e responsivo, enquanto o solado de borracha com design inovador oferece excelente tração em diversas superfícies urbanas. Com um acabamento clássico em preto e o icônico logo em branco, este modelo une funcionalidade e estilo para quem deseja elevar sua performance com o máximo de leveza e bem-estar. "
   },
 
     {
     id: 423,
-    nome: "TENIS 13",
+    nome: "Tênis Nike Renew Ride 2 Masculino – Triple Black com Amortecimento de Espuma Macia",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/TENIS 13.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"O Nike Renew Ride 2 foi projetado para corredores casuais e para o uso diário que exige o máximo de conforto e suporte estável. Sua entressola conta com a tecnologia de espuma Renew, que é mais alta e macia do que nas versões anteriores, proporcionando uma absorção de impacto superior e uma sensação de bem-estar a cada passada. O cabedal em mesh de tramas abertas oferece respirabilidade estratégica e leveza, enquanto as sobreposições sintéticas garantem a durabilidade necessária para enfrentar a rotina urbana. Com um design Triple Black robusto e sofisticado, este modelo une a funcionalidade esportiva a um visual versátil que combina perfeitamente com qualquer look, entregando segurança e amortecimento responsivo do treino ao lazer."
   },
 
     {
     id: 424,
-    nome: "TENIS 14",
+    nome: "Tênis Nike Legend React Masculino – Black & Orange com Amortecimento de Alta Resiliência",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/TENIS 14.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"O Nike Legend React foi projetado para corredores que buscam uma passada suave, estável e com excelente retorno de energia. Sua entressola conta com a tecnologia de espuma React, que oferece um amortecimento incrivelmente macio e responsivo, mantendo a leveza necessária para treinos diários e caminhadas. O cabedal em mesh de tramas abertas proporciona respirabilidade estratégica, enquanto as sobreposições sintéticas no mediopé garantem um ajuste seguro e durável. Com um design moderno em preto e detalhes vibrantes em laranja no Swoosh e no solado, este modelo une a funcionalidade esportiva a um visual arrojado que se destaca tanto na academia quanto no asfalto."
   },
 
   // ================= FARDAMENTOS MILITARES =================
