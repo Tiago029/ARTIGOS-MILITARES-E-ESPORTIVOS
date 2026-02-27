@@ -1131,7 +1131,7 @@ const PRODUTOS = [
     nome: "Perfume Invictus",
     categoria: "perfumes",
     preco: 399.90,
-    imagem: "../perfumes/perfume01.jpg"
+    imagem: "../perfumes/perfume1.jpeg"
   },
   {
     id: 601,
