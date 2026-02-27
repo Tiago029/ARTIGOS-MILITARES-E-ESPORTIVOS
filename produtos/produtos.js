@@ -1174,6 +1174,23 @@ const PRODUTOS = [
     imagem: "../eletronicos/caixaDeSomFoto/bombox.jpg"
   },
 
+  // ================= ELETRÔNICOS =================
+  {
+    id: 1100,
+    nome: "CARREGADOR",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/carregador3.jpeg"
+  },
+
+  {
+    id: 1101,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/FONE 1.jpeg"
+  },
+
   // ================= ACESSORIO RELÓGIO ================
   {
     id: 901,
