@@ -1109,7 +1109,7 @@ const PRODUTOS = [
 
   {
     id: 503,
-    nome: "Meia Esportiva Masculina Cano Médio – Branca Atoalhada Conforto",
+    nome: "Meia Esportiva Masculina Cano Médio – Branca Atoalhada Conforto",  
     categoria: "fardamentos militar",
     preco: 20.00,
     imagem: "../fardamentosMilitares/fardasMilitaresFoto/meia tfm.jpg",
@@ -1128,25 +1128,13 @@ const PRODUTOS = [
   // ================= PERFUMES =================
   {
     id: 600,
-    nome: "Perfume Invictus",
+    nome: "Perfume Lattafa Asad Masculino Eau de Parfum",
     categoria: "perfumes",
-    preco: 399.90,
-    imagem: "../perfumes/perfume1.jpeg"
+    preco: 190.00,
+    imagem: "../perfumes/perfume1.jpeg",
+    descricao:"O Lattafa Asad é a escolha definitiva para o homem que busca uma presença imponente, luxuosa e inesquecível. Lançado pela renomada casa de Dubai, este perfume árabe conquistou o mundo por sua semelhança excepcional com o Dior Sauvage Elixir, entregando uma sofisticação de alta perfumaria com um custo-benefício imbatível. Sua fragrância abre com uma explosão picante de pimenta preta e tabaco, evoluindo para um coração intrigante de café e patchouli, e finalizando com uma base quente de baunilha e âmbar que gruda na pele. Com performance de beast mode, ele oferece fixação prolongada e projeção marcante, sendo ideal para eventos noturnos, encontros ou climas amenos. O frasco de 100ml, com detalhes dourados e o icônico símbolo do leão, é um verdadeiro item de colecionador que reflete o poder e a autoridade de quem o usa."
   },
-  {
-    id: 601,
-    nome: "Perfume One Million",
-    categoria: "perfumes",
-    preco: 429.90,
-    imagem: "../perfumes/perfume01.jpg"
-  },
-  {
-    id: 602,
-    nome: "Perfume Malbec",
-    categoria: "perfumes",
-    preco: 199.90,
-    imagem: "../perfumes/perfume01.jpg"
-  },
+
 
   // ================= CELULAR =================
   {
