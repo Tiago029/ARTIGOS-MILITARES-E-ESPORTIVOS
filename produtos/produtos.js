@@ -2040,11 +2040,20 @@ const PRODUTOS = [
   // ================= BREVÊ E SUTACHE =================
 {
     id: 11000,
-    nome: "Óculos de Sol Esportivo Black Wrap – Proteção UV400 para Caminhada, Corrida e Pesca",
+    nome: "Distintivo Emborrachado de Comunicações ",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../acessorios/oculosFoto/Óculos black vision 1.jpeg",
-    descricao:"O Óculos de Sol Esportivo Black Wrap foi desenvolvido para oferecer proteção total e conforto durante a prática de esportes ao ar livre, apresentando um design curvo que se ajusta perfeitamente ao rosto e protege contra o vento e poeira. Suas lentes com tecnologia UV400 garantem segurança absoluta ao bloquear 100% dos raios UVA e UVB, enquanto a estrutura ultra leve em policarbonato ou acetato permite o uso prolongado sem causar fadiga. Ideal para ciclismo, pesca e corrida, o modelo conta com lentes escuras que reduzem o brilho excessivo e melhoram a nitidez visual em dias de sol intenso. Com acabamento em preto fosco e hastes anatômicas, este óculos combina um estilo tático moderno com a durabilidade necessária para enfrentar qualquer aventura ou treino cotidiano"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de comunicacao borracha.jpeg",
+    descricao:"Distintivo Emborrachado de Comunicações é uma insígnia oficial do Exército Brasileiro, utilizada para identificar militares pertencentes à Arma de Comunicações, conhecida como a Arma do Comando. O acessório é confeccionado em material emborrachado maleável e resistente, apresentando fundo verde-oliva com o símbolo de quatro setas saindo de um círculo central em alto relevo, seguindo rigorosamente os padrões do Regulamento de Uniformes do Exército (RUE). Geralmente vendido com fecho de contato tipo velcro para fixação em fardas ou mochilas táticas, ele é um item essencial para a identificação clara da especialidade do militar em campo."
+  },
+
+  {
+    id: 11001,
+    nome: "Distintivo bordado de Comunicações ",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de comunicacao.jpeg",
+    descricao:"Este patch bordado de Comunicações do Exército Brasileiro é uma insígnia de identificação militar em versão de baixa visibilidade, ideal para uso em fardas operacionais, bonés ou mochilas táticas. Confeccionado em tecido resistente com bordado em tons de cinza e preto sobre fundo verde-oliva, o emblema representa a Arma do Comando através do seu símbolo clássico de quatro setas partindo de um círculo central, simbolizando a irradiação das comunicações em todas as direções [1, 13, 21]. O item geralmente possui acabamento com velcro (fecho de contato) no verso para facilitar a aplicação e troca rápida, seguindo os padrões de camuflagem necessários para manter o sigilo e a discrição em ambientes de combate ou treinamento"
   },
 ];
 
