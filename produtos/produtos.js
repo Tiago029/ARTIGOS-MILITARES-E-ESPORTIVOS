@@ -753,10 +753,10 @@ const PRODUTOS = [
   // ================= FARDAMENTOS MILITARES =================
   {
     id: 500,
-    nome: "Calção tfm Oficiais e Sargentos",
+    nome: "CALÇÃO DE TFM ALUNO",
     categoria: "fardamentos militar",
-    preco: 299.90,
-    imagem: "../fardamentosMilitares/fardasMilitaresFoto/calção tfm.jpg",
+    preco: 55.00,
+    imagem: "../fardamentosMilitares/fardasMilitaresFoto/calção tfm aluno.jpeg",
     tamanho: ["P", "M", "G", "GG"],
     descricao:"O Calção TFM Oficial é a peça indispensável para o treinamento físico militar, projetado especificamente para atender aos padrões de regulamento de uniformes do Exército Brasileiro. Este modelo em verde oliva, caracterizado pelas duas listras brancas laterais, é o padrão utilizado por Oficiais, Subtenentes e Sargentos. Confeccionado em tecido leve de alta durabilidade (disponível em Nylon ou Poliéster), ele oferece máxima liberdade de movimento e secagem rápida durante atividades intensas. Possui cintura com elástico reforçado e cordão interno para um ajuste seguro e personalizado, além de pequenas aberturas laterais que garantem maior mobilidade em corridas e exercícios. É o acessório que une tradição militar com a performance necessária para o dia a dia na caserna." // NOVO CAMPO
   },
@@ -784,10 +784,11 @@ const PRODUTOS = [
 
   {
     id: 503,
-    nome: "Meia Esportiva Masculina Cano Médio – Branca Atoalhada Conforto",  
+    nome: "CUTURNO MODELO NOVO",  
     categoria: "fardamentos militar",
     preco: 20.00,
-    imagem: "../fardamentosMilitares/fardasMilitaresFoto/meia tfm.jpg",
+    imagem: "../fardamentosMilitares/fardasMilitaresFoto/cuturno novo.jpeg",
+    tamanho: ["37","38","39","40", "41", "42", "44"], // NOVO CAMPO
     descricao:"A Meia Esportiva Cano Médio é o acessório indispensável para quem busca o equilíbrio perfeito entre conforto e performance em seus treinos ou no dia a dia. Confeccionada com uma base majoritária de algodão, ela oferece um toque macio e alta respirabilidade, mantendo os pés secos através da eficiente absorção de suor. Seu design clássico com punho canelado garante que a meia permaneça no lugar sem apertar excessivamente, enquanto o acabamento interno atoalhado proporciona amortecimento extra e proteção contra o atrito no tornozelo. Versátil e durável, este modelo unissex é ideal para diversas modalidades, desde corridas e academia até o uso casual com tênis e botas."
   },
 
@@ -797,7 +798,67 @@ const PRODUTOS = [
     categoria: "fardamentos militar",
     preco: 299.90,
     imagem: "../fardamentosMilitares/fardasMilitaresFoto/CAMISA TFM NOME.jpeg",
+    tamanho: ["P", "M", "G", "GG"], // NOVO CAMPO
     descricao:"A Regata Masculina Dry Fit Branca é a peça essencial para quem busca máxima performance e conforto térmico, seja em treinamentos militares (TFM) ou em atividades intensas na academia e ao ar livre. Confeccionada em tecido tecnológico de alta hidrofilidade, ela absorve o suor e o dispersa rapidamente para a superfície, garantindo uma evaporação ágil que mantém o corpo seco por muito mais tempo. Sua modelagem anatômica com cavas amplas proporciona total liberdade de movimento, enquanto a costura reforçada e o material 100% poliéster oferecem alta durabilidade, resistência a rasgos e facilidade de manutenção, já que não amassa e seca rapidamente. O grande diferencial deste modelo é o espaço frontal dedicado para personalização, permitindo a estampa ou bordado do seu nome, unidade ou logomarca com acabamento profissional."
+  },
+
+  {
+    id: 505,
+    nome: "CALÇÃO DE TFM SGT",
+    categoria: "fardamentos militar",
+    preco: 55.00,
+    imagem: "../fardamentosMilitares/fardasMilitaresFoto/calção tfm sgt.jpeg",
+    tamanho: ["P", "M", "G", "GG"],
+    descricao:"O Calção TFM Oficial é a peça indispensável para o treinamento físico militar, projetado especificamente para atender aos padrões de regulamento de uniformes do Exército Brasileiro. Este modelo em verde oliva, caracterizado pelas duas listras brancas laterais, é o padrão utilizado por Oficiais, Subtenentes e Sargentos. Confeccionado em tecido leve de alta durabilidade (disponível em Nylon ou Poliéster), ele oferece máxima liberdade de movimento e secagem rápida durante atividades intensas. Possui cintura com elástico reforçado e cordão interno para um ajuste seguro e personalizado, além de pequenas aberturas laterais que garantem maior mobilidade em corridas e exercícios. É o acessório que une tradição militar com a performance necessária para o dia a dia na caserna." // NOVO CAMPO
+  },
+
+  {
+    id: 505,
+    nome: "CALÇÃO DE TFM SOLDADO",
+    categoria: "fardamentos militar",
+    preco: 50.00,
+    imagem: "../fardamentosMilitares/fardasMilitaresFoto/calção tfm soldado.jpeg",
+    tamanho: ["P", "M", "G", "GG"],
+    descricao:"O Calção TFM Oficial é a peça indispensável para o treinamento físico militar, projetado especificamente para atender aos padrões de regulamento de uniformes do Exército Brasileiro. Este modelo em verde oliva, caracterizado pelas duas listras brancas laterais, é o padrão utilizado por Oficiais, Subtenentes e Sargentos. Confeccionado em tecido leve de alta durabilidade (disponível em Nylon ou Poliéster), ele oferece máxima liberdade de movimento e secagem rápida durante atividades intensas. Possui cintura com elástico reforçado e cordão interno para um ajuste seguro e personalizado, além de pequenas aberturas laterais que garantem maior mobilidade em corridas e exercícios. É o acessório que une tradição militar com a performance necessária para o dia a dia na caserna." // NOVO CAMPO
+  },
+
+  {
+    id: 506,
+    nome: "GORRO DE SELVA",
+    categoria: "fardamentos militar",
+    preco: 60.00,
+    imagem: "../fardamentosMilitares/fardasMilitaresFoto/gorro de selva.jpeg",
+    descricao:"Gorro de Pala Mole camuflado no padrão do Exército Brasileiro é um item tático essencial confeccionado em tecido Ripstop de alta durabilidade, resistente a rasgos e desbotamento, projetado especificamente para missões em ambiente de selva e campo. O modelo apresenta uma copa estruturada de perfil baixo com aba maleável que permite fácil armazenamento, incluindo uma jugular ajustável para fixação segura durante movimentações intensas e um painel de velcro traseiro para aplicação de sutaches de identificação. É a escolha ideal para militares, colecionadores ou entusiastas de atividades ao ar livre que buscam proteção solar eficiente com a camuflagem oficial regulamentada pelas forças armadas." // NOVO CAMPO
+  },
+
+  {
+    id: 507,
+    nome: "GANDOLETA PRETA",
+    categoria: "fardamentos militar",
+    preco: 50.00,
+    imagem: "../fardamentosMilitares/fardasMilitaresFoto/GANDOLETA PRETA.jpeg",
+    tamanho: ["P", "M", "G", "GG"],
+    descricao:"é uma peça de vestuário tático de alto desempenho, projetada com um corpo em malha respirável para absorção de suor sob coletes e mangas em tecido Ripstop de alta resistência contra rasgos e abrasões. O modelo apresenta gola alta com fechamento em meio zíper, bolsos táticos nas mangas com painéis de velcro para identificação e punhos ajustáveis, oferecendo o equilíbrio ideal entre proteção térmica, mobilidade e durabilidade para operadores de segurança, praticantes de Airsoft ou entusiastas de atividades ao ar livre." // NOVO CAMPO
+  },
+
+  {
+    id: 508,
+    nome: "Calça Tática G3 Combat",
+    categoria: "fardamentos militar",
+    preco: 50.00,
+    imagem: "../fardamentosMilitares/fardasMilitaresFoto/CALÇA TATICA PRETA.jpeg",
+    tamanho: ["P", "M", "G", "GG"],
+    descricao:"Calça Tática G3 Combat na cor preta é um equipamento de elite confeccionado em tecido Ripstop de alta resistência, projetado com um design articulado que oferece mobilidade superior em operações táticas ou práticas de Airsoft. O modelo se destaca pelo sistema de joelheiras integradas (com compartimentos para inserção de protetores rígidos), múltiplos bolsos de carga estrategicamente posicionados e ajustes em velcro na cintura, atrás dos joelhos e nos tornozelos para um caimento personalizado. É uma peça robusta e funcional, ideal para profissionais de segurança que buscam durabilidade extrema e proteção contra abrasão em terrenos desafiadores." // NOVO CAMPO
+  },
+
+  {
+    id: 509,
+    nome: "CAMISETA DE SEGUANÇA",
+    categoria: "fardamentos militar",
+    preco: 50.00,
+    imagem: "../fardamentosMilitares/fardasMilitaresFoto/CAMISETA DE SEGUANÇA.jpeg",
+    tamanho: ["P", "M", "G", "GG"],
+    descricao:" é um item de uniforme profissional desenvolvido em malha leve e de secagem rápida, apresentando a inscrição SEGURANÇA estampada em branco em alta visibilidade tanto no peito quanto nas costas. O modelo possui gola redonda reforçada, mangas curtas com o detalhe da bandeira do Brasil aplicada lateralmente e um corte que prioriza o conforto e a mobilidade para longas jornadas de trabalho. É a escolha ideal para agentes de segurança privada, vigilantes e equipes de eventos que buscam uma vestimenta funcional, resistente ao uso diário e que transmita autoridade e identificação imediata." // NOVO CAMPO
   },
 
   // ================= PERFUMES =================
@@ -1378,11 +1439,11 @@ const PRODUTOS = [
 
   {
     id: 909,
-    nome: "",
+    nome: "Smartwatch Microwear W11 Pro (Série 11)",
     categoria: "relogio",
     preco: 199.90,
     imagem: "../acessorios/relogioFoto/9.jpeg",
-    descricao:""
+    descricao:"O Smartwatch Microwear W11 Pro (Série 11) é um relógio inteligente de alta performance que combina um design sofisticado com uma tela AMOLED ultra nítida de 46mm, oferecendo recursos avançados como integração com IA (ChatGPT), GPS dinâmico e a capacidade exclusiva de responder mensagens do WhatsApp diretamente pelo dispositivo. O kit acompanha acessórios essenciais, incluindo uma capa de proteção transparente, pulseiras extras em diferentes estilos (silicone e metal) e um carregador por indução, garantindo versatilidade para uso esportivo ou casual com monitoramento completo de saúde e mais de 100 modalidades esportivas."
   },
 
   // ================= ACESSORIO ÓCULOS =================
@@ -1489,14 +1550,59 @@ const PRODUTOS = [
     descricao:"O Óculos de Sol Esportivo Black Wrap foi desenvolvido para oferecer proteção total e conforto durante a prática de esportes ao ar livre, apresentando um design curvo que se ajusta perfeitamente ao rosto e protege contra o vento e poeira. Suas lentes com tecnologia UV400 garantem segurança absoluta ao bloquear 100% dos raios UVA e UVB, enquanto a estrutura ultra leve em policarbonato ou acetato permite o uso prolongado sem causar fadiga. Ideal para ciclismo, pesca e corrida, o modelo conta com lentes escuras que reduzem o brilho excessivo e melhoram a nitidez visual em dias de sol intenso. Com acabamento em preto fosco e hastes anatômicas, este óculos combina um estilo tático moderno com a durabilidade necessária para enfrentar qualquer aventura ou treino cotidiano"
   },
   // ================= BONÉ =================
-{
-    id: 6000,
-    nome: "Óculos de Sol Esportivo Black Wrap – Proteção UV400 para Caminhada, Corrida e Pesca",
-    categoria: "bone",
-    preco: 80.00,
-    imagem: "../acessorios/oculosFoto/Óculos black vision 1.jpeg",
-    descricao:"O Óculos de Sol Esportivo Black Wrap foi desenvolvido para oferecer proteção total e conforto durante a prática de esportes ao ar livre, apresentando um design curvo que se ajusta perfeitamente ao rosto e protege contra o vento e poeira. Suas lentes com tecnologia UV400 garantem segurança absoluta ao bloquear 100% dos raios UVA e UVB, enquanto a estrutura ultra leve em policarbonato ou acetato permite o uso prolongado sem causar fadiga. Ideal para ciclismo, pesca e corrida, o modelo conta com lentes escuras que reduzem o brilho excessivo e melhoram a nitidez visual em dias de sol intenso. Com acabamento em preto fosco e hastes anatômicas, este óculos combina um estilo tático moderno com a durabilidade necessária para enfrentar qualquer aventura ou treino cotidiano"
-  },
+  {
+      id: 6000,
+      nome: "Boné Tático The Punisher",
+      categoria: "bone",
+      preco: 80.00,
+      imagem: "../bone/boneFoto/boné chapeu black.jpeg",
+      descricao:"(O Justiceiro) é um acessório de estilo militar e casual projetado para durabilidade, apresentando um design de aba curva em tecido Ripstop na parte frontal e malha respirável (mesh) nas laterais e traseira para ventilação superior. O modelo se destaca pelo patch frontal com o icônico crânio bordado, muitas vezes fixado por um painel de velcro que permite a troca por outros emblemas, além de incluir ajuste traseiro tipo strapback ou velcro para um encaixe personalizado. Confeccionado em mistura de algodão e poliéster, é amplamente utilizado por entusiastas de Airsoft, praticantes de atividades ao ar livre e segurança privada, oferecendo proteção solar eficiente com um visual agressivo e funcional."
+    },
+
+    {
+      id: 6001,
+      nome: "Boné tático camuflado verde musgo",
+      categoria: "bone",
+      preco: 80.00,
+      imagem: "../bone/boneFoto/boné chapeu camuflado baje.jpeg",
+      descricao:"boné tático camuflado no padrão Multicam Arid é um acessório de alto desempenho, construído com uma frente em tecido Ripstop resistente e painéis traseiros em malha respirável (mesh) para ventilação máxima. O grande diferencial deste modelo é o painel de velcro frontal em formato hexagonal com o logo do Punisher (Justiceiro) bordado, permitindo a personalização com outros patches, além de possuir aba curva estruturada e ajuste traseiro para maior conforto em atividades de Airsoft, tiro esportivo ou uso outdoor."
+    },
+
+    {
+      id: 6002,
+      nome: "Boné tático camuflado preto",
+      categoria: "bone",
+      preco: 80.00,
+      imagem: "../bone/boneFoto/boné chapeu camuflado cinza.jpeg",
+      descricao:"boné tático camuflado no padrão Kryptek Typhon é um acessório de alto desempenho que combina uma frente em tecido Ripstop de alta resistência com painéis traseiros em malha respirável (mesh) perfurada a laser para ventilação superior. O modelo destaca-se pelo grande painel de velcro frontal em formato hexagonal com o logo do Punisher (Justiceiro), permitindo a troca por outros patches, além de possuir aba curva estruturada e ajuste traseiro, sendo ideal para operadores de Airsoft, tiro esportivo ou entusiastas do estilo militar que buscam durabilidade e conforto em ambientes quentes."
+    },
+
+    {
+      id: 6003,
+      nome: "Boné tático camuflado verde/bage",
+      categoria: "bone",
+      preco: 80.00,
+      imagem: "../bone/boneFoto/boné chapeu camuflado.jpeg",
+      descricao:"boné tático camuflado no padrão Kryptek Typhon é um acessório de alto desempenho que combina uma frente em tecido Ripstop de alta resistência com painéis traseiros em malha respirável (mesh) perfurada a laser para ventilação superior. O modelo destaca-se pelo grande painel de velcro frontal em formato hexagonal com o logo do Punisher (Justiceiro), permitindo a troca por outros patches, além de possuir aba curva estruturada e ajuste traseiro, sendo ideal para operadores de Airsoft, tiro esportivo ou entusiastas do estilo militar que buscam durabilidade e conforto em ambientes quentes."
+    },
+
+    {
+      id: 6004,
+      nome: "Boné tático militar na cor verde exército",
+      categoria: "bone",
+      preco: 80.00,
+      imagem: "../bone/boneFoto/boné chapeu verde militar.jpeg",
+      descricao:"Este boné tático militar na cor verde exército é um acessório de alto desempenho que combina uma frente robusta com painéis traseiros em malha respirável (mesh) para ventilação máxima em atividades intensas. O modelo destaca-se pelo grande painel de velcro frontal em formato hexagonal com o logo bordado do Punisher (Justiceiro), permitindo a personalização com outros patches, além de possuir aba curva estruturada e ajuste traseiro para um encaixe firme e confortável. Confeccionado em materiais duráveis como poliéster ou misturas de algodão Ripstop, ele é ideal para operadores de Airsoft, tiro esportivo, pesca ou uso casual por entusiastas do estilo militar que buscam proteção solar e resistência."
+    },
+
+    {
+      id: 6005,
+      nome: "Boné tático camuflado Black",
+      categoria: "bone",
+      preco: 80.00,
+      imagem: "../bone/boneFoto/boné chapeu verde musgo.jpeg",
+      descricao:"Este boné tático camuflado no padrão Woodland é um acessório robusto que combina uma frente em tecido Ripstop resistente com painéis traseiros em malha (mesh) perfurada a laser para ventilação otimizada. O modelo apresenta um painel de velcro frontal em formato hexagonal com o bordado do Punisher (Justiceiro), permitindo a personalização com outros patches, além de possuir aba curva estruturada e ajuste traseiro regulável. É ideal para operadores de Airsoft, praticantes de tiro esportivo ou uso casual, oferecendo durabilidade, conforto térmico e um visual militar moderno."
+    },
 
   // ================= PESCA E PRAIA =================
 {
