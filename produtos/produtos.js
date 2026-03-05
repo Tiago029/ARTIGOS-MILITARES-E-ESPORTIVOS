@@ -1325,19 +1325,49 @@ const PRODUTOS = [
   // ================= CAIXAS DE SOM =================
   {
     id: 800,
-    nome: "CAIXA DE SOM BOMBOX",
+    nome: "JBL Boombox 3",
     categoria: "caixa de som",
     preco: 199.90,
-    imagem: "../eletronicos/caixaDeSomFoto/bombox.jpg"
+    imagem: "../eletronicos/caixaDeSomFoto/bombox.jpg",
+    descricao: "JBL Boombox 3 com seu icônico design atualizado, conta com um novo sistema de alto-falantes de 3 vias que entrega maior clareza e fidelidade sonora, transformando qualquer ambiente em uma verdadeira festa. Sua bateria de longa duração oferece até 24 horas de reprodução contínua, garantindo música do amanhecer ao anoitecer. Além disso, é totalmente à prova d'água e poeira (IP67), sendo a companhia perfeita para a piscina ou a praia. Com a tecnologia PartyBoost, você pode conectar várias caixas compatíveis para uma experiência estéreo ainda mais imersiva e potente."
+  },
+
+   {
+    id: 803,
+    nome: "JBL Boombox 4 Squad",
+    categoria: "caixa de som",
+    preco: 199.90,
+    imagem: "../eletronicos/caixaDeSomFoto/caixa3.jpeg",
+    descricao: "JBL Boombox 4 Squad, uma caixa de som Bluetooth que une potência extrema e design camuflado robusto. Ideal para festas e ambientes externos, ela entrega o lendário Som JBL Pro com graves profundos e até 210W RMS de potência. Com certificação IP68, ela é totalmente à prova d'água e poeira, garantindo durabilidade na piscina ou na praia. Sua bateria impressionante oferece até 34 horas de reprodução (com Playtime Boost), e a tecnologia Auracast™ permite conectar múltiplas caixas compatíveis. É o equilíbrio perfeito entre estilo ousado e performance sonora profissional para quem não aceita menos que o melhor."
+  },
+
+  {
+    id: 805,
+    nome: "JBL Boombox 4 Azul",
+    categoria: "caixa de som",
+    preco: 199.90,
+    imagem: "../eletronicos/caixaDeSomFoto/caixa5.jpeg",
+    descricao: "JBL Boombox 4 Azul, edefine o conceito de som massivo com 210W RMS de potência e a inovadora tecnologia AI Sound Boost, que analisa a música em tempo real para otimizar a clareza e os graves sem distorções. Equipada com woofers maiores e radiadores passivos, ela entrega uma assinatura sonora profunda e cristalina, ideal para qualquer evento. Sua bateria de longa duração oferece até 34 horas de reprodução (com Playtime Boost), garantindo a festa o dia inteiro. Com proteção IP68 à prova d’água e poeira, você pode levá-la com total segurança para a praia ou piscina. Além disso, a conectividade Bluetooth 5.4 e a tecnologia Auracast™ permitem sincronizar múltiplas caixas para uma experiência sonora estéreo sem limites."
   },
 
   {
     id: 801,
-    nome: "CAIXA DE SOM JBL",
+    nome: "Caixa de Som Bluetooth Kapbom KA-8296 ",
     categoria: "caixa de som",
     preco: 199.90,
-    imagem: "../eletronicos/caixaDeSomFoto/bombox.jpg"
+    imagem: "../eletronicos/caixaDeSomFoto/caixa1.jpeg",
+    descricao: "Caixa de Som Bluetooth Kapbom KA-8296 com seu design moderno inclui iluminação LED RGB vibrante e uma construção resistente com certificação IPX6, que protege o aparelho contra jatos d'água e chuva leve. Oferece múltiplas formas de conexão, incluindo Bluetooth 5.3, entradas para pen drive (USB), cartão TF (até 32GB) e cabo auxiliar P2. A bateria de 2400mAh proporciona uma autonomia de 4 a 7 horas de reprodução contínua, dependendo do volume, com recarga rápida via cabo Tipo-C em apenas 3 horas. "
   },
+
+  {
+    id: 804,
+    nome: "Aiwa Boombox Plus BBS-01-B",
+    categoria: "caixa de som",
+    preco: 199.90,
+    imagem: "../eletronicos/caixaDeSomFoto/caixa4.jpeg",
+    descricao: "Aiwa Boombox Plus BBS-01-B uma caixa de som de alta performance com 200W RMS de potência. Seu sistema de som de 3 vias (1 subwoofer, 2 midrange e 2 tweeters) aliado a radiadores passivos laterais entrega graves profundos e agudos cristalinos com fidelidade sonora superior. Projetada para a máxima portabilidade, possui bateria de 10.400mAh que garante até 30 horas de reprodução contínua. Com certificação IP66, é resistente a jatos de água e poeira, sendo ideal para festas ao ar livre, piscina ou praia. Conta ainda com Bluetooth 5.3, tecnologia TWS para parear duas caixas e entrada USB, unindo potência, durabilidade e conectividade em um design moderno com alça integrada."
+  },
+
 
   // ================= ELETRÔNICOS =================
   {
@@ -1345,15 +1375,327 @@ const PRODUTOS = [
     nome: "CARREGADOR",
     categoria: "eletronicos",
     preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/bomba de ar.jpeg"
+  },
+
+  {
+   id: 1101,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/camera.jpeg"
+  },
+
+  {
+   id: 1102,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/caneta lazer.jpeg"
+  },
+
+  {
+   id: 1103,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
     imagem: "../eletronicos/eletronicosFoto/carregador3.jpeg"
   },
 
   {
-    id: 1101,
+   id: 1104,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/carregador4.jpeg"
+  },
+
+  {
+   id: 1105,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/carregador5.jpeg"
+  },
+
+  {
+   id: 1106,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/carregador6.jpeg"
+  },
+
+  {
+   id: 1107,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/carregador7.jpeg"
+  },
+
+  {
+   id: 1108,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/carregador8.jpeg"
+  },
+
+  {
+   id: 1109,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/carregador9.jpeg"
+  },
+
+  {
+   id: 1110,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/carregador10.jpeg"
+  },
+
+  {
+   id: 1111,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/carregador11.jpeg"
+  },
+
+  {
+   id: 1112,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/carregador12.jpeg"
+  },
+
+  {
+   id: 1113,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/carregador13.jpeg"
+  },
+
+  {
+   id: 1114,
     nome: "FONE",
     categoria: "eletronicos",
     preco: 199.90,
     imagem: "../eletronicos/eletronicosFoto/FONE 1.jpeg"
+  },
+
+  {
+   id: 1115,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/FONE 2.jpeg"
+  },
+
+  {
+   id: 1116,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/FONE 3.jpeg"
+  },
+
+  {
+   id: 1117,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/FONE 4.jpeg"
+  },
+
+  {
+   id: 1118,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/FONE.jpeg"
+  },
+   
+  {
+   id: 1119,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/fone5.jpeg"
+  },
+
+  {
+   id: 1120,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/fone6.jpeg"
+  },
+
+  {
+   id: 1121,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/fone7.jpeg"
+  },
+
+  {
+   id: 1122,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/FONO A FIO 1.jpeg"
+  },
+
+  {
+   id: 1123,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/FONO A FIO.jpeg"
+  },
+
+  {
+   id: 1124,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/FONO DE OUVIDO BLUETOOTH 1.jpeg"
+  },
+
+  {
+   id: 1125,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/FONO DE OUVIDO BLUETOOTH 2.jpeg"
+  },
+
+  {
+   id: 1126,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/FONO DE OUVIDO BLUETOOTH 3.jpeg"
+  },
+
+  {
+   id: 1127,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/FONO DE OUVIDO BLUETOOTH.jpeg"
+  },
+
+  {
+   id: 1128,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/game stick.jpeg"
+  },
+   
+  {
+   id: 1129,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/kit barba.jpeg"
+  },
+
+  {
+   id: 1130,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/kit barbeiro.jpeg"
+  },
+
+  {
+   id: 1131,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/maquina de cabelo 1.jpeg"
+  },
+
+  {
+   id: 1132,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/maquina de cabelo 2.jpeg"
+  },
+
+  {
+   id: 1133,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/mini teclado.jpeg"
+  },
+
+  {
+   id: 1134,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/mouse.jpeg"
+  },
+
+  {
+   id: 1135,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/PROJETOR.jpeg"
+  },
+
+  {
+   id: 1136,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/radio.jpeg"
+  },
+
+  {
+   id: 1137,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/SUPORTE DE CELULAR FRONTAL.jpeg"
+  },
+
+  {
+   id: 1138,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/SUPORTE DE CELULAR.jpeg"
+  },
+   
+  {
+   id: 1139,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/suporte.jpeg"
+  },
+
+  {
+   id: 1140,
+    nome: "FONE",
+    categoria: "eletronicos",
+    preco: 199.90,
+    imagem: "../eletronicos/eletronicosFoto/suporte1.jpeg"
   },
 
   // ================= ACESSORIO RELÓGIO ================
@@ -1535,11 +1877,38 @@ const PRODUTOS = [
     // ================= BRINQUEDOS =================
 {
     id: 5000,
-    nome: "Óculos de Sol Esportivo Black Wrap – Proteção UV400 para Caminhada, Corrida e Pesca",
+    nome: "Arminha de Gel Elétrica M416",
     categoria: "brinquedos",
     preco: 80.00,
-    imagem: "../acessorios/oculosFoto/Óculos black vision 1.jpeg",
-    descricao:"O Óculos de Sol Esportivo Black Wrap foi desenvolvido para oferecer proteção total e conforto durante a prática de esportes ao ar livre, apresentando um design curvo que se ajusta perfeitamente ao rosto e protege contra o vento e poeira. Suas lentes com tecnologia UV400 garantem segurança absoluta ao bloquear 100% dos raios UVA e UVB, enquanto a estrutura ultra leve em policarbonato ou acetato permite o uso prolongado sem causar fadiga. Ideal para ciclismo, pesca e corrida, o modelo conta com lentes escuras que reduzem o brilho excessivo e melhoram a nitidez visual em dias de sol intenso. Com acabamento em preto fosco e hastes anatômicas, este óculos combina um estilo tático moderno com a durabilidade necessária para enfrentar qualquer aventura ou treino cotidiano"
+    imagem: "../brinquedos/brinquedosFoto/ama gel 1.jpeg",
+    descricao:"Arminha de Gel Elétrica M416 é o brinquedo de alta performance perfeito para aventuras emocionantes ao ar livre. Com um sistema automático e disparos contínuos, ela utiliza bolinhas de gel biodegradáveis que se fragmentam no impacto, garantindo uma diversão segura e fácil de limpar. Seu design moderno com estampa de caveiras e acessórios como o silenciador removível oferece um visual realista e versátil para jogos de batalha. O kit costuma acompanhar bateria recarregável via USB e milhares de munições de gel, proporcionando horas de entretenimento dinâmico. É a escolha ideal para quem busca adrenalina em atividades como airsoft e brincadeiras em grupo."
+  },
+
+  {
+    id: 5001,
+    nome: "Rifle de Gel Elétrico AR Shoot",
+    categoria: "brinquedos",
+    preco: 80.00,
+    imagem: "../brinquedos/brinquedosFoto/arma gel.jpeg",
+    descricao:"Rifle de Gel Elétrico AR Shoot é o brinquedo de ação definitivo para batalhas ao ar livre, combinando um visual camuflado vibrante com alta performance. Este modelo automático dispara bolinhas de gel biodegradáveis que não sujam e são seguras, proporcionando uma experiência dinâmica para crianças acima de 14 anos e adultos."
+  },
+
+  {
+    id: 5002,
+    nome: "Kit Airsoft de Alta Performance",
+    categoria: "brinquedos",
+    preco: 80.00,
+    imagem: "../brinquedos/brinquedosFoto/kit airsoft 1.jpeg",
+    descricao:"Kit Airsoft de Alta Performance é o conjunto completo para entusiastas do tiro esportivo que buscam realismo e precisão em seus treinos ou jogos. O kit combina a versatilidade de um rifle com a praticidade de uma pistola, acompanhados de munição premium e alvos de treinamento. O rifle principal é um modelo inspirado na plataforma M4, amplamente utilizado por forças especiais. Este equipamento de airsoft, como o kit da Rossi Vigor, possui design ergonômico, coronha retrátil para melhor ajuste ao atirador e trilhos RIS que permitem a instalação de diversos acessórios como miras red dot e grips."
+  },
+
+  {
+    id: 5003,
+    nome: "Kit Combo Airsoft",
+    categoria: "brinquedos",
+    preco: 80.00,
+    imagem: "../brinquedos/brinquedosFoto/kit airsoft.jpeg",
+    descricao:"Kit Combo Airsoft é a escolha ideal para quem está iniciando no esporte ou busca um conjunto versátil para prática de tiro ao alvo. Ele combina a potência de um rifle longo com a agilidade de uma pistola secundária, ambos com excelente acabamento e realismo. O rifle é um modelo inspirado na plataforma M4A1, apresentando coronha retrátil e trilhos para acessórios, enquanto a pistola é uma réplica da Glock G17. Ambos operam via sistema spring (mola), sendo necessário engatilhar manualmente a cada disparo, o que garante baixo custo de manutenção e facilidade de uso. Fabricados em polímero de alta resistência, os equipamentos oferecem durabilidade e leveza para longas jornadas de lazer."
   },
   // ================= BONÉ =================
   {
@@ -1705,11 +2074,11 @@ const PRODUTOS = [
   // ================= CURSO E CAMPO =================
 {
     id: 8000,
-    nome: "Óculos de Sol Esportivo Black Wrap – Proteção UV400 para Caminhada, Corrida e Pesca",
+    nome: "Kit Militar Operacional Cerberus",
     categoria: "cursoCampo",
     preco: 80.00,
-    imagem: "../acessorios/oculosFoto/Óculos black vision 1.jpeg",
-    descricao:"O Óculos de Sol Esportivo Black Wrap foi desenvolvido para oferecer proteção total e conforto durante a prática de esportes ao ar livre, apresentando um design curvo que se ajusta perfeitamente ao rosto e protege contra o vento e poeira. Suas lentes com tecnologia UV400 garantem segurança absoluta ao bloquear 100% dos raios UVA e UVB, enquanto a estrutura ultra leve em policarbonato ou acetato permite o uso prolongado sem causar fadiga. Ideal para ciclismo, pesca e corrida, o modelo conta com lentes escuras que reduzem o brilho excessivo e melhoram a nitidez visual em dias de sol intenso. Com acabamento em preto fosco e hastes anatômicas, este óculos combina um estilo tático moderno com a durabilidade necessária para enfrentar qualquer aventura ou treino cotidiano"
+    imagem: "../cursoCampo/cursoCampoFoto/kit mlitar.jpeg",
+    descricao:"Kit Militar Operacional Cerberus foi projetado para manter seus equipamentos secos e organizados sob qualquer condição climática. Cada pote possui uma etiqueta específica para facilitar a logística: Higiene, Manutenção de Fuzil, Primeiro Socorros, Sobrevivência e Coturno. Fabricados em polímero robusto, os recipientes são extremamente duráveis — suportando até 120kg de pressão — e contam com vedação que protege contra água e poeira. É um item indispensável para militares e entusiastas de bushcraft que buscam otimizar o espaço na mochila e garantir a integridade dos seus suprimentos."
   },
 
   // ================= ORTOPÉDICO =================
