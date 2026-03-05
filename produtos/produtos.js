@@ -875,7 +875,7 @@ const PRODUTOS = [
 
   {
     id: 602,
-    nome: "Free Desodorante Colônia d'O Boticário",
+    nome: "Free O Boticário",
     categoria: "perfumes",
     preco: 120.00,
     imagem: "../perfumes/perfume2.jpeg",
@@ -884,11 +884,11 @@ const PRODUTOS = [
 
   {
     id: 603,
-    nome: "Egeo Bomb Black Desodorante Colônia",
+    nome: "Egeo Bomb Black",
     categoria: "perfumes",
     preco: 185.00,
     imagem: "../perfumes/perfume3.jpeg",
-    descricao:"Egeo Bomb Black Desodorante Colônia, destaca-se pelo contraste marcante entre notas de couro e o exclusivo acorde Sugar Booster Caramel, que combina caramelo salgado, baunilha e tiramisu para uma explosão doce e potente. Com uma fixação elogiada que pode ultrapassar 10 horas, a fragrância abre com toques cítricos de bergamota e limão antes de revelar seu corpo amadeirado e fundo ambarado"
+    descricao:"Egeo Bomb Black Desodorante Colônia, destaca-se pelo contraste marcante entre notas de couro e o exclusivo acorde Sugar Booster Caramel, que combina caramelo salgado, baunilha e tiramisu para uma explosão doce e potente. Com uma fixação elogiada que pode ultrapassar 10 horas, a fragrância abre com toques cítricos de bergamota e limão antes de revelar seu corpo amadeirado e fundo ambarado."
   },
 
   {
@@ -897,7 +897,7 @@ const PRODUTOS = [
     categoria: "perfumes",
     preco: 190.00,
     imagem: "../perfumes/perfume4.jpeg",
-    descricao:"Creme Acetinado Hidratante Corporal Lily, é um ícone de sofisticação com 250g de puro cuidado. Sua textura rica e acetinada forma uma película protetora que garante hidratação intensa por até 48 horas, evitando o ressecamento causado pelo clima. A fragrância é um floral inesquecível, extraída do lírio através do raro processo de enfleurage, que preserva a essência pura da flor. Com rápida absorção e toque seco, ele deixa a pele macia, iluminada e perfumada o dia todo. É um produto vegano, livre de parabenos e apresentado em uma elegante embalagem de vidro"
+    descricao:"Creme Acetinado Hidratante Corporal Lily, é um ícone de sofisticação com 250g de puro cuidado. Sua textura rica e acetinada forma uma película protetora que garante hidratação intensa por até 48 horas, evitando o ressecamento causado pelo clima. A fragrância é um floral inesquecível, extraída do lírio através do raro processo de enfleurage, que preserva a essência pura da flor. Com rápida absorção e toque seco, ele deixa a pele macia, iluminada e perfumada o dia todo. É um produto vegano, livre de parabenos e apresentado em uma elegante embalagem de vidro."
   },
 
   {
@@ -906,12 +906,12 @@ const PRODUTOS = [
     categoria: "perfumes",
     preco: 55.00,
     imagem: "../perfumes/perfume5.jpeg",
-    descricao:"Loção Hidratante Eudora Baby é um cuidado suave desenvolvido especialmente para a pele sensível dos bebês, podendo ser utilizada desde os primeiros dias de vida. Sua fórmula exclusiva combina o extrato de calêndula com o conforto do algodão, proporcionando até 24 horas de hidratação contínua e proteção contra o ressecamento. Com textura leve e de rápida absorção, o produto não deixa a pele pegajosa e possui uma fragrância delicada que reforça o vínculo entre pais e filhos. É um item totalmente vegano, livre de corantes e parabenos, garantindo máxima segurança para os pequenos. Além disso, é testado e recomendado por pediatras, assegurando uma rotina de cuidados hipoalergênica e eficaz"
+    descricao:"Loção Hidratante Eudora Baby é um cuidado suave desenvolvido especialmente para a pele sensível dos bebês, podendo ser utilizada desde os primeiros dias de vida. Sua fórmula exclusiva combina o extrato de calêndula com o conforto do algodão, proporcionando até 24 horas de hidratação contínua e proteção contra o ressecamento. Com textura leve e de rápida absorção, o produto não deixa a pele pegajosa e possui uma fragrância delicada que reforça o vínculo entre pais e filhos. É um item totalmente vegano, livre de corantes e parabenos, garantindo máxima segurança para os pequenos. Além disso, é testado e recomendado por pediatras, assegurando uma rotina de cuidados hipoalergênica e eficaz."
   },
 
   {
     id: 606,
-    nome: "Floratta Blue Desodorante Colônia",
+    nome: "Floratta Blue",
     categoria: "perfumes",
     preco: 170.00,
     imagem: "../perfumes/perfume6.jpeg",
@@ -924,7 +924,7 @@ const PRODUTOS = [
     categoria: "perfumes",
     preco: 35.00,
     imagem: "../perfumes/perfume7.jpeg",
-    descricao:"Sabonete em Barra Instance Morango Irresistível da Eudora oferece uma limpeza suave com base 100% vegetal. Sua fórmula vegana e livre de parabenos cria uma espuma cremosa que perfuma a pele com uma fragrância frutal envolvente. A caixa contém 4 unidades de 80g cada, ideais para o cuidado diário, deixando o corpo macio e hidratado sem agredir a barreira natural da pele"
+    descricao:"Sabonete em Barra Instance Morango Irresistível da Eudora oferece uma limpeza suave com base 100% vegetal. Sua fórmula vegana e livre de parabenos cria uma espuma cremosa que perfuma a pele com uma fragrância frutal envolvente. A caixa contém 4 unidades de 80g cada, ideais para o cuidado diário, deixando o corpo macio e hidratado sem agredir a barreira natural da pele."
   },
 
   {
@@ -933,7 +933,7 @@ const PRODUTOS = [
     categoria: "perfumes",
     preco: 175.00,
     imagem: "../perfumes/perfume8.jpeg",
-    descricao:"Kit Presente Egeo Dolce d'O Boticário é um conjunto vibrante ideal para quem ama fragrâncias doces e divertidas. O kit contém o Egeo Dolce Desodorante Colônia (90ml), um clássico da perfumaria feminina com notas de marshmallow, sorvete de framboesa e algodão-doce, e o Egeo Dolce Merengue Mousse Hidratante Corporal (85g), que oferece até 48 horas de hidratação com uma textura leve e deliciosa. Ambos os produtos são veganos, não testados em animais e vêm em uma caixa de presente estilizada e sustentável. É a escolha perfeita para um cuidado completo que deixa a pele macia e intensamente perfumada com um toque gourmand inconfundível"
+    descricao:"Kit Presente Egeo Dolce d'O Boticário é um conjunto vibrante ideal para quem ama fragrâncias doces e divertidas. O kit contém o Egeo Dolce Desodorante Colônia (90ml), um clássico da perfumaria feminina com notas de marshmallow, sorvete de framboesa e algodão-doce, e o Egeo Dolce Merengue Mousse Hidratante Corporal (85g), que oferece até 48 horas de hidratação com uma textura leve e deliciosa. Ambos os produtos são veganos, não testados em animais e vêm em uma caixa de presente estilizada e sustentável. É a escolha perfeita para um cuidado completo que deixa a pele macia e intensamente perfumada com um toque gourmand inconfundível."
   },
 
   {
@@ -942,7 +942,7 @@ const PRODUTOS = [
     categoria: "perfumes",
     preco: 180.00,
     imagem: "../perfumes/perfume9.jpeg",
-    descricao:"Arbo Botanic Desodorante Colônia (100ml) d'O Boticário é uma fragrância masculina ideal para o dia a dia. Inspirada na natureza, sua pirâmide olfativa combina notas de menta, capim-limão, sálvia e sândalo, resultando em um aroma revigorante e equilibrado. O frasco icônico com relevo de folha reforça o conceito de conexão com o verde e o frescor das montanhas. É um produto vegano e cruelty-free, conhecido por sua versatilidade e sensação de liberdade"
+    descricao:"Arbo Botanic Desodorante Colônia (100ml) de O Boticário é uma fragrância masculina ideal para o dia a dia. Inspirada na natureza, sua pirâmide olfativa combina notas de menta, capim-limão, sálvia e sândalo, resultando em um aroma revigorante e equilibrado. O frasco icônico com relevo de folha reforça o conceito de conexão com o verde e o frescor das montanhas. É um produto vegano e cruelty-free, conhecido por sua versatilidade e sensação de liberdade."
   },
 
   {
@@ -956,20 +956,20 @@ const PRODUTOS = [
 
   {
     id: 611,
-    nome: "Kit Presente L'eau de Lily Soleil",
+    nome: "Kit Presente Leau de Lily Soleil",
     categoria: "perfumes",
     preco: 250.00,
     imagem: "../perfumes/perfume11.jpeg",
-    descricao:"Kit Presente L'eau de Lily Soleil d'O Boticário é um conjunto sofisticado que celebra o brilho e o frescor do sol. O kit inclui o L'eau de Lily Soleil Desodorante Colônia (75ml), uma fragrância Floral Almiscarada que combina o icônico Lírio com o toque ensolarado do Ylang Ylang, e um Creme Acetinado Hidratante para Mãos (50g). Os produtos oferecem uma perfumação intensa e hidratação acetinada com toque seco, ideal para o cuidado diário. Apresentado em uma elegante caixa decorada, o kit é uma opção de presente refinada, unindo a clássica elegância da linha Lily a uma aura mais leve e luminosa"
+    descricao:"Kit Presente Leau de Lily Soleil d'O Boticário é um conjunto sofisticado que celebra o brilho e o frescor do sol. O kit inclui o L'eau de Lily Soleil Desodorante Colônia (75ml), uma fragrância Floral Almiscarada que combina o icônico Lírio com o toque ensolarado do Ylang Ylang, e um Creme Acetinado Hidratante para Mãos (50g). Os produtos oferecem uma perfumação intensa e hidratação acetinada com toque seco, ideal para o cuidado diário. Apresentado em uma elegante caixa decorada, o kit é uma opção de presente refinada, unindo a clássica elegância da linha Lily a uma aura mais leve e luminosa."
   },
 
   {
     id: 612,
-    nome: "Quasar Brave Desodorante Colônia",
+    nome: "Quasar Brave",
     categoria: "perfumes",
     preco: 180.00,
     imagem: "../perfumes/perfume12.jpeg",
-    descricao:"Quasar Brave Desodorante Colônia (100ml) d'O Boticário é uma fragrância masculina inspirada na coragem e no vigor da natureza. Sua pirâmide olfativa combina o frescor cítrico da bergamota e pera com um corpo potente que destaca a Folha de Chá Preto, um ingrediente raro e sofisticado. O fundo amadeirado de sândalo e cedro garante uma fixação marcante, ideal para o homem que busca uma perfumação versátil e autêntica. Com uma proposta revigorante, o produto é vegano e cruelty-free, equilibrando perfeitamente a elegância amadeirada com notas herbais"
+    descricao:"Quasar Brave Desodorante Colônia (100ml) de O Boticário é uma fragrância masculina inspirada na coragem e no vigor da natureza. Sua pirâmide olfativa combina o frescor cítrico da bergamota e pera com um corpo potente que destaca a Folha de Chá Preto, um ingrediente raro e sofisticado. O fundo amadeirado de sândalo e cedro garante uma fixação marcante, ideal para o homem que busca uma perfumação versátil e autêntica. Com uma proposta revigorante, o produto é vegano e cruelty-free, equilibrando perfeitamente a elegância amadeirada com notas herbais."
   },
 
   {
@@ -978,7 +978,7 @@ const PRODUTOS = [
     categoria: "perfumes",
     preco: 250.00,
     imagem: "../perfumes/perfume13.jpeg",
-    descricao:"Coffee Woman Seduction Desodorante Colônia (100ml) d'O Boticário é uma fragrância feminina da família Floriental Frutal, inspirada no ritual do café. Sua composição equilibra o dulçor do chocolate branco e da baunilha com o toque vibrante da lichia e do marmelo, resultando em um aroma envolvente e sedutor. O diferencial desta fragrância é o extrato de Café Arábica, que traz uma profundidade sofisticada e aconchegante à perfumação. Ideal para momentos especiais e climas amenos, o produto é vegano e cruelty-free, sendo um dos maiores sucessos da linha Coffee pela sua alta fixação e rastro marcante"
+    descricao:"Coffee Woman Seduction Desodorante Colônia (100ml) d'O Boticário é uma fragrância feminina da família Floriental Frutal, inspirada no ritual do café. Sua composição equilibra o dulçor do chocolate branco e da baunilha com o toque vibrante da lichia e do marmelo, resultando em um aroma envolvente e sedutor. O diferencial desta fragrância é o extrato de Café Arábica, que traz uma profundidade sofisticada e aconchegante à perfumação. Ideal para momentos especiais e climas amenos, o produto é vegano e cruelty-free, sendo um dos maiores sucessos da linha Coffee pela sua alta fixação e rastro marcante."
   },
 
   {
@@ -996,7 +996,7 @@ const PRODUTOS = [
     categoria: "perfumes",
     preco: 95.00,
     imagem: "../perfumes/perfume15.jpeg",
-    descricao:"Loção Noturna Desodorante Nativa SPA Orquídea Noire (400ml) d'O Boticário é um tratamento corporal intensivo desenvolvido para agir durante o sono. Sua fórmula exclusiva combina a sofisticação da Orquídea Noire com o poder do óleo de quinoa, acelerando em até dez vezes o processo de renovação celular natural da pele. Com uma textura cremosa e fragrância floral amadeirada exótica, ela proporciona uma hidratação profunda que deixa o corpo macio, nutrido e visivelmente saudável ao acordar. É um produto vegano, cruelty-free e composto por 94% de ingredientes naturais, sendo ideal para uma rotina de autocuidado noturno que une eficácia e relaxamento"
+    descricao:"Loção Noturna Desodorante Nativa SPA Orquídea Noire (400ml) d'O Boticário é um tratamento corporal intensivo desenvolvido para agir durante o sono. Sua fórmula exclusiva combina a sofisticação da Orquídea Noire com o poder do óleo de quinoa, acelerando em até dez vezes o processo de renovação celular natural da pele. Com uma textura cremosa e fragrância floral amadeirada exótica, ela proporciona uma hidratação profunda que deixa o corpo macio, nutrido e visivelmente saudável ao acordar. É um produto vegano, cruelty-free e composto por 94% de ingredientes naturais, sendo ideal para uma rotina de autocuidado noturno que une eficácia e relaxamento."
   },
 
   {
@@ -1005,7 +1005,7 @@ const PRODUTOS = [
     categoria: "perfumes",
     preco: 170.00,
     imagem: "../perfumes/perfume16.jpeg",
-    descricao:"Floratta Romance de Verão Desodorante Colônia (75ml) d'O Boticário é uma fragrância feminina da família Floral Frutal, inspirada no frescor e na intensidade dos amores de verão. Sua pirâmide olfativa combina o brilho cítrico do limão e da bergamota com a doçura suculenta do pêssego e de frutas tropicais. No corpo, notas florais delicadas se misturam ao toque ensolarado do ylang-ylang, enquanto o fundo amadeirado de sândalo e musk garante uma fixação confortável e acolhedora. O frasco degradê em tons quentes reflete a energia vibrante da estação, sendo uma escolha perfeita para o uso diário em climas tropicais. É um produto vegano e cruelty-free, ideal para mulheres que buscam uma perfumação alegre, romântica e cheia de frescor"
+    descricao:"Floratta Romance de Verão Desodorante Colônia (75ml) d'O Boticário é uma fragrância feminina da família Floral Frutal, inspirada no frescor e na intensidade dos amores de verão. Sua pirâmide olfativa combina o brilho cítrico do limão e da bergamota com a doçura suculenta do pêssego e de frutas tropicais. No corpo, notas florais delicadas se misturam ao toque ensolarado do ylang-ylang, enquanto o fundo amadeirado de sândalo e musk garante uma fixação confortável e acolhedora. O frasco degradê em tons quentes reflete a energia vibrante da estação, sendo uma escolha perfeita para o uso diário em climas tropicais. É um produto vegano e cruelty-free, ideal para mulheres que buscam uma perfumação alegre, romântica e cheia de frescor."
   },
 
   {
@@ -1023,7 +1023,7 @@ const PRODUTOS = [
     categoria: "perfumes",
     preco: 95.00,
     imagem: "../perfumes/perfume18.jpeg",
-    descricao:"Body Splash Nativa SPA Lilac (200ml) d'O Boticário é uma fragrância feminina da família Floral Floral, inspirada na delicadeza e na força renovadora das flores. Sua pirâmide olfativa apresenta um buquê elegante de lilás, íris, violeta e lavanda, resultando em um aroma fresco, atalcado e reconfortante. Ideal para ser usado após o banho, ele prolonga a sensação de limpeza e frescor na pele com uma perfumação suave e sofisticada. O produto é vegano, cruelty-free e formulado com ecoálcool, reforçando o compromisso sustentável da marca. Com 95,8% de ingredientes naturais, é a escolha perfeita para quem busca um momento de autocuidado leve e feminino ao longo do dia "
+    descricao:"Body Splash Nativa SPA Lilac (200ml) d'O Boticário é uma fragrância feminina da família Floral Floral, inspirada na delicadeza e na força renovadora das flores. Sua pirâmide olfativa apresenta um buquê elegante de lilás, íris, violeta e lavanda, resultando em um aroma fresco, atalcado e reconfortante. Ideal para ser usado após o banho, ele prolonga a sensação de limpeza e frescor na pele com uma perfumação suave e sofisticada. O produto é vegano, cruelty-free e formulado com ecoálcool, reforçando o compromisso sustentável da marca. Com 95,8% de ingredientes naturais, é a escolha perfeita para quem busca um momento de autocuidado leve e feminino ao longo do dia."
   },
 
   {
@@ -1032,7 +1032,7 @@ const PRODUTOS = [
     categoria: "perfumes",
     preco: 160.00,
     imagem: "../perfumes/perfume19.jpeg",
-    descricao:"Eudora Velvet Inspire Desodorante Colônia (100ml) é uma fragrância feminina da família Floriental Musk, desenvolvida para exaltar a autoconfiança e a força feminina. Sua pirâmide olfativa abre com o frescor vibrante da pera e do pêssego, evoluindo para um corpo floral sofisticado com notas de jasmim e osmanthus. O fundo é marcado pela cremosidade da baunilha e a robustez do sândalo, resultando em um rastro envolvente e marcante. Ideal para mulheres que buscam inspirar e ser inspiradas, o perfume é vegano e livre de testes em animais. Sua embalagem moderna em tons degradê reflete a elegância e o mistério contidos na fragrância"
+    descricao:"Eudora Velvet Inspire Desodorante Colônia (100ml) é uma fragrância feminina da família Floriental Musk, desenvolvida para exaltar a autoconfiança e a força feminina. Sua pirâmide olfativa abre com o frescor vibrante da pera e do pêssego, evoluindo para um corpo floral sofisticado com notas de jasmim e osmanthus. O fundo é marcado pela cremosidade da baunilha e a robustez do sândalo, resultando em um rastro envolvente e marcante. Ideal para mulheres que buscam inspirar e ser inspiradas, o perfume é vegano e livre de testes em animais. Sua embalagem moderna em tons degradê reflete a elegância e o mistério contidos na fragrância."
   },
 
   {
@@ -1046,272 +1046,272 @@ const PRODUTOS = [
 
   {
     id: 621,
-    nome: "",
+    nome: "Malbec Gold",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 250.00,
     imagem: "../perfumes/perfume21.jpeg",
-    descricao:""
+    descricao:"Malbec Gold de O Boticário é uma fragrância masculina intensa e marcante, ideal para homens que buscam atrair olhares com sofisticação. Sua pirâmide olfativa abre com o frescor da mandarina e maçã, evoluindo para um corpo especiado e finalizando com uma base robusta de âmbar e sândalo. É a escolha perfeita para ocasiões especiais e eventos noturnos, garantindo uma perfumação duradoura e cheia de personalidade."
   },
 
   {
     id: 622,
-    nome: "",
+    nome: "Liz Aura",
     categoria: "perfumes",
     preco: 190.00,
     imagem: "../perfumes/perfume22.jpeg",
-    descricao:""
+    descricao:"Liz Aura celebra a força e a luminosidade da mulher. A composição traz o contraste sofisticado entre a doçura da Baunilha de Madagascar e a elegância da exclusiva base Laire Íris Nobre. Nas notas de saída, percebem-se toques frescos de maçã verde, gengibre e gerânio, que evoluem para um coração com nuances de canela e flores. O fundo é robusto e marcante, combinando âmbar, raízes de cedro e sândalo para uma perfumação duradoura e sofisticada."
   },
 
   {
     id: 623,
-    nome: "",
+    nome: "Linda Irresistível",
     categoria: "perfumes",
     preco: 190.00,
     imagem: "../perfumes/perfume23.jpeg",
-    descricao:""
+    descricao:"Linda Irresistível destaca a feminilidade através de notas florais de Gardênia e Íris, equilibradas pela robustez das madeiras e a sensualidade de notas adocicadas. Na abertura, apresenta frescor com notas de bergamota, laranja e cassis. É uma fragrância vegana, livre de crueldade animal e ideal para quem busca uma perfumação sofisticada que destaca a beleza de se amar."
   },
 
   {
     id: 624,
-    nome: "",
+    nome: "Loção Hidratante Scapin 245 O.U.i",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 160.00,
     imagem: "../perfumes/perfume24.jpeg",
-    descricao:""
+    descricao:"A Loção Hidratante Desodorante Scapin 245 da O.U.i Paris é enriquecida com o exclusivo L’Essence de Grasse, um óleo essencial que traz a tradição da perfumaria francesa. As notas de Bergamota, Gardênia e Baunilha criam uma aura sofisticada e envolvente, ideal para prolongar a perfumação do Eau de Parfum. Com 400ml, é o item perfeito para transformar o ritual de cuidado corporal em um momento de puro prazer e elegância."
   },
 
   {
     id: 625,
-    nome: "",
+    nome: "Botica 214 Sevilla Dorada",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 180.00,
     imagem: "../perfumes/perfume25.jpeg",
-    descricao:""
+    descricao:"Botica 214 Sevilla Dorada  de O Boticário é um Eau de Parfum feminino que transporta você para a vibrante primavera de Sevilha, na Espanha. Sua pirâmide olfativa abre com o frescor cítrico da laranja e notas suculentas de pera Anjou. No coração, revela-se um buquê floral potente com Flor de Laranjeira, osmanto e violeta, que evolui para uma base cremosa e envolvente de Sândalo, âmbar e cedro. Com alta concentração de essência, oferece excelente fixação e projeção, tornando-se a escolha perfeita para ocasiões especiais ou para iluminar o dia a dia com um toque solar."
   },
 
   {
     id: 626,
-    nome: "",
+    nome: "Celebre Agora Feminino",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 130.00,
     imagem: "../perfumes/perfume26.jpeg",
-    descricao:""
+    descricao:"Celebre Agora Feminino bre com uma saída frutal contagiante de mandarina e notas cítricas, evoluindo para um coração floral multifacetado com toques de flor de cravo e peônia. No fundo, apresenta um amadeirado confortável com nuances adocicadas de caramelo, que conferem uma leve cremosidade sem ser excessivamente doce. É uma escolha versátil e refrescante, ideal para momentos casuais e para quem busca uma perfumação que transmite felicidade."
   },
 
   {
     id: 627,
-    nome: "",
+    nome: "Coffee Unique Woman",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 250.00,
     imagem: "../perfumes/perfume27.jpeg",
-    descricao:""
+    descricao:"Coffee Unique Woman, o grande destaque deste perfume é a harmonia entre o amargor do Café Arábica e o frescor aromático da Lavanda, envoltos pelo dulçor sofisticado do Caramelo. Essa mistura cria um contraste moderno: ao mesmo tempo em que é aconchegante, possui uma vibração urbana e elegante. É a escolha perfeita para eventos noturnos ou dias mais frios, proporcionando uma perfumação intensa que exala confiança e autenticidade."
   },
 
   {
     id: 628,
-    nome: "",
+    nome: "Yaha",
     categoria: "perfumes",
     preco: 190.00,
     imagem: "../perfumes/perfume28.jpeg",
-    descricao:""
+    descricao:"Yaha da Linha Bortoletto (Atlântica Natural) é um Parfum feminino luxuoso, inspirado no icônico perfume árabe Yara. Esta fragrância destaca-se por sua composição Floral Frutada Gourmand. As notas de topo trazem a delicadeza da Orquídea, Heliotrópio e Tangerina, que evoluem para um coração pulsante de acorde Gourmand e Frutas Tropicais. Sua base é sustentada por Baunilha, Sândalo e Almíscar, garantindo uma excelente fixação que varia de 6 a 12 horas. Com uma alta concentração de essência (33%), o Yaha é a escolha perfeita para mulheres que buscam elegância, sofisticação e uma presença marcante em qualquer ocasião."
   },
 
   {
     id: 629,
-    nome: "",
+    nome: "Al-Asad ",
     categoria: "perfumes",
     preco: 190.00,
     imagem: "../perfumes/perfume29.jpeg",
-    descricao:""
+    descricao:"Al-Asad da Linha Bortoletto (Atlântica Natural) é um Parfum masculino de presença imponente, inspirado na perfumaria árabe e no aclamado Asad de Lattafa. Sua composição abre com notas picantes de Pimenta Preta e Tabaco, evoluindo para um coração rico em especiarias, café e patchouli. A base é profunda e quente, destacando notas de Âmbar, Baunilha e Madeira Seca, que conferem uma fixação excepcional e um rastro marcante."
   },
 
   {
     id: 630,
-    nome: "",
+    nome: "Fortune",
     categoria: "perfumes",
     preco: 190.00,
     imagem: "../perfumes/perfume30.jpeg",
-    descricao:""
+    descricao:"Fortune da Linha Bortoletto (Atlântica Natural) é um Parfum masculino magnético e ousado, inspirado no icônico One Million de Paco Rabanne. Sua pirâmide olfativa abre com o frescor vibrante da Mandarina Sanguínea, Toranja e Hortelã. No coração, revela notas intensas de Canela e Rosa, acompanhadas de acordes especiados que conferem um calor sedutor. O fundo é robusto e sofisticado, combinando Couro, Âmbar, Patchouli Indiano e notas amadeiradas. Com uma alta concentração de 33% de essência, o Fortune oferece excelente projeção e uma fixação que pode durar até 12 horas."
   },
 
   {
     id: 631,
-    nome: "",
+    nome: "521 VIP Men",
     categoria: "perfumes",
     preco: 190.00,
     imagem: "../perfumes/perfume31.jpeg",
-    descricao:""
+    descricao:"521 VIP Men da Linha Bortoletto (Atlântica Natural) é um Parfum masculino magnético, inspirado no icônico 212 VIP Men de Carolina Herrera. Sua composição abre com notas vibrantes de Lima e Caviar de Limão, que se misturam ao toque picante da Pimenta e do Gengibre. O coração revela uma personalidade única com o acorde de Vodka e Hortelã Congelada, enquanto a base é sustentada por Âmbar, Couro e Notas Amadeiradas. Com uma concentração de 33% de essência, o 521 VIP Men garante uma fixação prolongada de até 12 horas, exalando sofisticação e atitude."
   },
 
   {
     id: 632,
-    nome: "",
+    nome: "Amore Mio ",
     categoria: "perfumes",
     preco: 190.00,
     imagem: "../perfumes/perfume32.jpeg",
-    descricao:""
+    descricao:"A'more Mio da Linha Bortoletto (Atlântica Natural) é um Parfum feminino que exala sofisticação e feminilidade, inspirado no clássico icônico J'adore de Dior. Sua pirâmide olfativa é rica e luminosa: abre com o frescor da bergamota, pêssego, melão e pera. No coração, revela um buquê floral luxuoso de jasmim, lírio-do-vale, tuberosa, rosa e violeta, evoluindo para uma base confortável de almíscar, baunilha, cedro e sândalo. Com uma alta concentração de 33% de essência, o A'more Mio oferece excelente projeção e uma fixação prolongada que pode durar até 12 horas na pele."
   },
 
   {
     id: 633,
-    nome: "",
+    nome: "212 VIP",
     categoria: "perfumes",
     preco: 190.00,
     imagem: "../perfumes/perfume33.jpeg",
-    descricao:""
+    descricao:"212 VIP de Carolina Herrera abre com o toque exótico do maracujá e do rum, evoluindo para um coração sofisticado de jasmim e gardênia. A base é envolvente e cremosa, combinando a doçura da baunilha com a sensualidade da fava tonka. É o perfume ideal para quem deseja ser o centro das atenções, oferecendo uma perfumação duradoura e sofisticada que combina perfeitamente com festas e ocasiões especiais."
   },
 
   {
     id: 634,
-    nome: "",
+    nome: "212 Heroes For Her Forever Young",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 120.00,
     imagem: "../perfumes/perfume34.jpeg",
-    descricao:""
+    descricao:"212 Heroes For Her Forever Young de Carolina Herrera é um Eau de Parfum feminino que celebra a liberdade, a autenticidade e o espírito jovem. Com uma proposta moderna e 100% vegana, sua fragrância pertence à família olfativa Floral Frutada, abrindo com uma explosão vibrante de framboesa e tangerina."
   },
 
   {
     id: 635,
-    nome: "",
+    nome: "Loção Desodorante Hidratante Cuide-se Bem Cereja de Fases",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 55.00,
     imagem: "../perfumes/perfume35.jpeg",
-    descricao:""
+    descricao:"Loção Desodorante Hidratante Cuide-se Bem Cereja de Fases de O Boticário foi especialmente desenvolvida para oferecer cuidado e conforto durante o ciclo menstrual. Com uma fragrância Floriental Frutal acolhedora, ela combina a doçura da cereja com notas que proporcionam uma sensação de bem-estar. Sua fórmula contém Pantenol e Manteiga de Karité, garantindo uma hidratação profunda por até 48 horas. Com textura leve e de rápida absorção, a loção não deixa a pele pegajosa, sendo ideal para um momento de autocuidado completo. Além disso, o produto é vegano, possui 95,3% de ingredientes naturais e vem em uma embalagem sustentável feita de plástico vegetal."
   },
 
   {
     id: 636,
-    nome: "",
+    nome: "Ekos Frescor Açaí ",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 80.00,
     imagem: "../perfumes/perfume36.jpeg",
-    descricao:""
+    descricao:"Ekos Frescor Açaí  da Natura é uma colônia vibrante e tropical que captura a energia da floresta Amazônica em um frasco compacto de 75 ml. Sua fragrância, classificada como Frutal Leve, combina notas verdes e frescas com o aroma icônico do fruto, finalizando com um delicado toque floral. A pirâmide olfativa traz uma saída suculenta de goiaba, maçã, pera e açaí, evoluindo para um corpo de flores como peônia, rosa e violeta. O fundo é composto por notas de sândalo, musk e cumaru, que conferem conforto e durabilidade à perfumação. Além de refrescante, o produto é 100% vegano, utiliza álcool orgânico e contribui para o fortalecimento de 368 famílias guardiãs da Amazônia."
   },
 
   {
     id: 637,
-    nome: "",
+    nome: "Essencial Exclusivo",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 250.00,
     imagem: "../perfumes/perfume37.jpeg",
-    descricao:""
+    descricao:"Essencial Exclusivo da Natura é um Deo Parfum feminino que traduz sofisticação e elegância através de um envolvente buquê floral. Sua fragrância, classificada como Âmbar Floral, é intensa e marcante, ideal para ocasiões especiais onde se deseja deixar uma impressão duradoura."
   },
 
   {
     id: 638,
-    nome: "",
+    nome: "Linda Irresistível",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 210.00,
     imagem: "../perfumes/perfume38.jpeg",
-    descricao:""
+    descricao:"Linda Irresistível de O Boticário é um desodorante colônia feminino que celebra a autoconfiança e o poder da mulher. A composição equilibra a feminilidade de notas florais de Gardênia e Íris com a força das madeiras e a sensualidade de notas adocicadas. Na saída, traz o frescor cítrico da bergamota e laranja combinado com cassis. Além de sua alta qualidade olfativa, o produto é vegano e livre de crueldade animal, sendo ideal para destacar a beleza e a segurança feminina no dia a dia."
   },
 
   {
     id: 639,
-    nome: "",
+    nome: "Meu Primeiro Humor ",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 175.00,
     imagem: "../perfumes/perfume39.jpeg",
-    descricao:""
+    descricao:"Meu Primeiro Humor destaca-se pelo contraste entre o frescor da pera e das notas cítricas com o brilho da priprioca, ingrediente exclusivo da biodiversidade brasileira. O corpo floral traz jasmim e lírio-do-vale, evoluindo para um fundo confortável de sândalo e âmbar. É um produto vegano, cruelty-free e que utiliza álcool 100% orgânico, ideal para quem valoriza uma perfumação alegre, refrescante e sustentável."
   },
 
   {
     id: 640,
-    nome: "",
+    nome: "Luna Liberdade",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 180.00,
     imagem: "../perfumes/perfume40.jpeg",
-    descricao:""
+    descricao:"Luna Liberdade abre com a vibração da maçã cristalizada e pimenta rosa, evoluindo para um coração floral de jasmim e rosa. O fundo é marcado pela profundidade do patchouli combinada à sensualidade da baunilha, garantindo uma perfumação envolvente e duradoura. Além de marcante, o produto é vegano, cruelty-free e utiliza álcool 100% orgânico em sua composição, sendo a escolha ideal para momentos em que se deseja destacar a própria liberdade."
   },
 
   {
     id: 641,
-    nome: "",
+    nome: " Luna Tradicional",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 180.00,
     imagem: "../perfumes/perfume41.jpeg",
-    descricao:""
+    descricao:" Luna Tradicional, abre com o frescor vibrante de notas cítricas e frutais, evoluindo para um corpo floral delicado e feminino. O fundo é marcado pela profundidade do patchouli, marca registrada da linha, combinada a madeiras e notas de âmbar que garantem um rastro sofisticado e duradouro. É um produto vegano, cruelty-free e utiliza álcool 100% orgânico, ideal para mulheres que buscam uma perfumação versátil e refinada para o dia a dia."
   },
 
   {
     id: 642,
-    nome: "",
+    nome: "Desodorante Hidratante Corporal Perfumado Luna Tradicional",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 180.00,
     imagem: "../perfumes/perfume42.jpeg",
-    descricao:""
+    descricao:"Desodorante Hidratante Corporal Perfumado Luna Tradicional, Este hidratante possui a fragrância icônica da linha, classificada como Chipre Frutal Moderado, que combina um fundo amadeirado de patchouli com notas de frutas vermelhas e um toque floral delicado. Sua fórmula cremosa oferece hidratação profunda por até 48 horas, tem rápida absorção e deixa a pele com um toque aveludado."
   },
 
   {
     id: 643,
-    nome: "",
+    nome: "Imensi Infinite",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 150.00,
     imagem: "../perfumes/perfume43.jpeg",
-    descricao:""
+    descricao:"Imensi Infinite de Eudora é um desodorante colônia feminino inspirado na liberdade e na imensidão do horizonte. A pirâmide olfativa destaca-se pela combinação exótica da Flor do Deserto com notas de íris e o exclusivo Segredo de Eudora. Na abertura, apresenta frescor com toques de bergamota e pera, evoluindo para um corpo floral elegante e finalizando com uma base cremosa de âmbar e baunilha. Com excelente fixação e projeção, o Imensi Infinite de 100ml é ideal para o dia a dia de mulheres que não abrem mão de uma perfumação marcante e solar."
   },
 
   {
     id: 644,
-    nome: "",
+    nome: "Luna Intenso",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 220.00,
     imagem: "../perfumes/perfume44.jpeg",
-    descricao:""
+    descricao:"Luna Intenso da Natura é um Deo Parfum feminino que representa a expressão máxima de sofisticação e sensualidade da linha. A pirâmide olfativa destaca-se pela potência do patchouli combinada à cremosidade da baunilha e ao toque aveludado do pêssego. Na abertura, apresenta notas de groselha preta e pera, evoluindo para um coração floral luxuoso de rosa e jasmim. É um produto vegano, cruelty-free e com alta concentração de essência, garantindo uma perfumação duradoura que exalta a força e a sofisticação da mulher contemporânea."
   },
 
   {
     id: 645,
-    nome: "",
+    nome: "O.U.i Rivière Bleue ",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 160.00,
     imagem: "../perfumes/perfume45.jpeg",
-    descricao:""
+    descricao:"O.U.i Rivière Bleue é um Eau de Parfum masculino que traz uma proposta amadeirada especiada, inspirada na fluidez e ambivalência do Rio Sena, em Paris. A composição abre com o toque vibrante das folhas de violeta, evoluindo para um coração aromático de sálvia e lavanda que confere um caráter moderno e eclético. A base é sustentada pela robustez do cedro e do patchouli, garantindo uma assinatura marcante e de alta fixação. É a escolha ideal para o homem que busca uma perfumação sofisticada e versátil, capaz de transitar com naturalidade do dia para a noite."
   },
 
   {
     id: 646,
-    nome: "",
+    nome: "Sabonetes Cremosos Avon Encanto Irresistível & Poderosa",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 35.00,
     imagem: "../perfumes/perfume46.jpeg",
-    descricao:""
+    descricao:"Sabonetes Cremosos Avon Encanto Irresistível & Poderosa promove uma limpeza suave, enquanto a espuma rica e perfumada deixa a pele com um toque macio e aveludado por muito mais tempo. Ideal para todos os tipos de pele, o sabonete ajuda a manter a hidratação natural, proporcionando uma sensação de frescor e bem-estar imediato. É o presente ideal para quem busca praticidade com um toque extra de sofisticação no dia a dia."
   },
 
   {
     id: 647,
-    nome: "",
+    nome: "Refil Deo Corporal Luna",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 45.00,
     imagem: "../perfumes/perfume47.jpeg",
-    descricao:""
+    descricao:"Refil Deo Corporal Luna da Natura é a escolha inteligente e sustentável para manter sua perfumação favorita sempre em dia. Sua fragrância icônica traz o caminho olfativo Chipre Frutal, que combina notas de patchouli com um toque floral delicado, ideal para mulheres que buscam elegância e praticidade. Além de oferecer uma perfumação leve para o corpo todo, o uso do refil reduz o impacto ambiental e garante uma excelente relação custo-benefício. Basta transferir o conteúdo para o frasco original e continuar desfrutando da sofisticação característica da linha Luna."
   },
 
   {
     id: 648,
-    nome: "",
+    nome: "Creme para o Corpo Natura Ekos Açaí",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 85.00,
     imagem: "../perfumes/perfume48.jpeg",
-    descricao:""
+    descricao:"Creme para o Corpo Natura Ekos Açaí é um potente tratamento antioxidante que ilumina, hidrata e revitaliza a pele de forma imediata. Com sua embalagem de 400ml, ele utiliza o óleo bruto do açaí para combater os sinais de opacidade, deixando a pele com um brilho natural e aspecto saudável desde a primeira aplicação. Sua textura cremosa e de rápida absorção envolve o corpo com uma fragrância frutal vibrante e fresca, característica da linha Ekos. Além de cuidar da sua beleza, este hidratante é vegano, cruelty-free e formulado com 95% de ingredientes de origem natural, apoiando o fortalecimento de comunidades guardiãs da Amazônia. É a escolha perfeita para quem busca uma pele macia, iluminada e cheia de vida todos os dias."
   },
 
   {
     id: 649,
-    nome: "",
+    nome: "Natura Tododia Jambo Rosa e Flor de Caju",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 170.00,
     imagem: "../perfumes/perfume49.jpeg",
-    descricao:""
+    descricao:"Natura Tododia Jambo Rosa e Flor de Caju(400ml) possui uma fórmula potente com Niacinamida, Pantenol e Óleo de Gergelim, que auxilia na recuperação da uniformidade e do brilho natural da pele. Já o Body Splash (200ml) prolonga a sensação de frescor do banho com um aroma surpreendente e envolvente. Ambos utilizam tecnologia prebiótica, que se adapta às mudanças da sua pele, garantindo maciez e saúde em todos os momentos."
   },
 
   {
     id: 650,
-    nome: "",
+    nome: "Creme Sorbet para o Corpo Natura Tododia Acerola e Hibisco",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 85.00,
     imagem: "../perfumes/perfume50.jpeg",
-    descricao:""
+    descricao:"Creme Sorbet para o Corpo Natura Tododia Acerola e Hibisco de 400ml, conta com Nutrição Prebiótica, que se adapta de forma inteligente às necessidades de cada tipo de pele, mantendo-a firme e macia. A fragrância é uma explosão cítrica e floral, combinando a energia da acerola com a delicadeza do hibisco. Sendo um produto vegano e cruelty-free, ele garante uma pele iluminada, nutrida e intensamente perfumada com uma sensação de leveza incomparável."
   },
   // ================= CELULAR =================
   {
@@ -1599,11 +1599,107 @@ const PRODUTOS = [
   // ================= PESCA E PRAIA =================
 {
     id: 7000,
-    nome: "Óculos de Sol Esportivo Black Wrap – Proteção UV400 para Caminhada, Corrida e Pesca",
+    nome: "Camiseta de Pesca Winfisher estampa de peixe Traíra",
     categoria: "pescaPraia",
     preco: 80.00,
-    imagem: "../acessorios/oculosFoto/Óculos black vision 1.jpeg",
-    descricao:"O Óculos de Sol Esportivo Black Wrap foi desenvolvido para oferecer proteção total e conforto durante a prática de esportes ao ar livre, apresentando um design curvo que se ajusta perfeitamente ao rosto e protege contra o vento e poeira. Suas lentes com tecnologia UV400 garantem segurança absoluta ao bloquear 100% dos raios UVA e UVB, enquanto a estrutura ultra leve em policarbonato ou acetato permite o uso prolongado sem causar fadiga. Ideal para ciclismo, pesca e corrida, o modelo conta com lentes escuras que reduzem o brilho excessivo e melhoram a nitidez visual em dias de sol intenso. Com acabamento em preto fosco e hastes anatômicas, este óculos combina um estilo tático moderno com a durabilidade necessária para enfrentar qualquer aventura ou treino cotidiano"
+    imagem: "../pescaPraia/pescaPraiaFoto/camista de pesca .jpeg",
+    descricao:"Camiseta de Pesca Winfisher com estampa de peixe Traíra é o equipamento ideal para quem busca performance e proteção em atividades ao ar livre. Fabricada com tecido Dry Fit de alta tecnologia, ela oferece uma secagem ultra rápida e mantém o corpo fresco mesmo em dias de calor intenso. O modelo conta com proteção solar UV50+, garantindo segurança contra os raios UV-A e UV-B durante longas horas de exposição ao sol. Com gola tipo padre e zíper frontal, proporciona um ajuste confortável e prático. Sua estampa digital de alta definição apresenta cores vibrantes que não desbotam com o uso, unindo um visual moderno à durabilidade necessária para a pesca esportiva.",
+    tamanho:["P","M","G","GG","XG"]
+
+  },
+
+  {
+    id: 7001,
+    nome: "Camiseta de Pesca Winfisher estampa de peixe Tucunaré Azul",
+    categoria: "pescaPraia",
+    preco: 80.00,
+    imagem: "../pescaPraia/pescaPraiaFoto/camista de pesca azul-preto.jpeg",
+    descricao:" Camiseta de Pesca Winfisher com estampa de peixe Tucunaré Azul é o equipamento ideal para quem busca performance e estilo em suas pescarias. Fabricada com tecido Dry Fit de alta tecnologia, ela oferece uma secagem ultra rápida e transporta o suor para a camada externa, mantendo o corpo fresco e confortável mesmo sob sol intenso. O modelo conta com proteção solar UV50+, garantindo segurança essencial contra os efeitos nocivos dos raios UVA e UVB. Com gola tipo padre e fechamento por zíper, proporciona um ajuste prático e proteção adicional ao pescoço. Sua estampa digital de alta definição apresenta cores vibrantes e alta durabilidade, sendo recomendada para todas as atividades ao ar livre com exposição solar.",
+    tamanho:["P","M","G","GG","XG"]
+  },
+
+  {
+    id: 7002,
+    nome: "Camiseta de Pesca Extremo Brasil",
+    categoria: "pescaPraia",
+    preco: 80.00,
+    imagem: "../pescaPraia/pescaPraiaFoto/camista de pesca camuflada.jpeg",
+    descricao:"amiseta de Pesca Extremo Brasil com estampa camuflada verde é o equipamento ideal para quem busca performance e proteção em atividades ao ar livre. Fabricada com o exclusivo tecido Ultra Dry Technologic, ela oferece uma secagem ultra rápida e mantém o corpo fresco, sendo recomendada para esportes como pesca, ciclismo e caminhada. O modelo conta com proteção solar UV50+, garantindo segurança essencial contra os efeitos nocivos do sol durante longas exposições. Com gola tipo padre e zíper frontal de 20 cm, permite um ajuste prático e ventilação personalizada conforme a necessidade. Sua estampa digital de alta definição em tons militares une um visual moderno à durabilidade, não desbotando mesmo após várias lavagens.",
+    tamanho:["P","M","G","GG","XG"]
+  },
+
+  {
+    id: 7003,
+    nome: "Camiseta de Pesca Winfisher Bandeira do Brasil e Peixe Traíra ",
+    categoria: "pescaPraia",
+    preco: 80.00,
+    imagem: "../pescaPraia/pescaPraiaFoto/camista de pesca modelo brasil.jpeg",
+    descricao:"Camiseta de Pesca Winfisher com estampa da bandeira do Brasil e peixe Traíra é o equipamento perfeito para demonstrar o orgulho nacional durante as suas pescarias. Desenvolvida com tecido Dry Fit de alta tecnologia, ela garante uma secagem ultra rápida e máximo conforto térmico em ambientes de exposição solar direta. O modelo oferece proteção solar UV50+, essencial para proteger a pele dos raios UVA e UVB durante longos períodos ao ar livre. Com acabamento de alta qualidade, a peça possui gola tipo padre e zíper frontal, unindo funcionalidade e um design moderno que não desbota. É uma escolha excelente para pescadores que buscam durabilidade, proteção e um visual marcante para suas aventuras.",
+    tamanho:["P","M","G","GG","XG"]
+  },
+
+  {
+    id: 7004,
+    nome: "Camiseta de Pesca Extremo Brasil Peixe Tambaqui",
+    categoria: "pescaPraia",
+    preco: 80.00,
+    imagem: "../pescaPraia/pescaPraiaFoto/camista de pesca verde-preto.jpeg",
+    descricao:"Camiseta de Pesca Extremo Brasil com estampa de peixe Tambaqui é o equipamento ideal para quem busca performance e estilo em suas pescarias. Fabricada com o exclusivo tecido Ultra Dry Technologic, ela oferece uma secagem ultra rápida e mantém o corpo fresco e leve, sendo recomendada para diversos esportes ao ar livre como pesca, ciclismo e caminhada. O modelo conta com proteção solar UV50+, garantindo segurança essencial contra os efeitos nocivos dos raios solares durante longas exposições. Com gola tipo padre e zíper frontal, proporciona um ajuste prático e confortável. Sua estampa digital de alta definição apresenta cores vibrantes que não desbotam, unindo um visual moderno à durabilidade necessária para enfrentar os desafios da natureza.",
+    tamanho:["P","M","G","GG","XG"]
+  },
+
+  {
+    id: 7005,
+    nome: "Kit com 10 Iscas Artificiais Meia Água",
+    categoria: "pescaPraia",
+    preco: 80.00,
+    imagem: "../pescaPraia/pescaPraiaFoto/isca.jpeg",
+    descricao:"Kit com 10 Iscas Artificiais Meia Água é o conjunto indispensável para elevar o nível da sua pescaria esportiva. Com design aerodinâmico e cores vibrantes, essas iscas tipo minnow possuem um nado realista que imita perfeitamente pequenos peixes em fuga, sendo irresistíveis para predadores como Tucunarés, Robalos e Traíras. Cada isca é equipada com duas garateias em aço carbono de alta resistência e olhos 3D hiper-realistas para máxima eficiência na fisgada. O kit oferece uma grande variedade de padrões de cores, permitindo que você se adapte rapidamente a diferentes condições de luz e transparência da água. Com barbela de precisão para atingir a profundidade ideal, este conjunto une versatilidade e durabilidade para garantir grandes capturas em rios, lagos ou mar."
+  },
+
+  {
+    id: 7006,
+    nome: "Molinete Shimano FX FC",
+    categoria: "pescaPraia",
+    preco: 80.00,
+    imagem: "../pescaPraia/pescaPraiaFoto/molinete de pesca dourado.jpeg",
+    descricao:"Molinete Shimano FX FC é a escolha ideal para pescadores que buscam a confiabilidade de uma marca líder com excelente custo-benefício. Reprojetado para maior suavidade, ele conta com o sistema Propulsion Line Management, que reduz cabeleiras e permite arremessos mais longos e precisos em rios, lagos ou mar. Seu corpo em grafite de alta resistência garante durabilidade e leveza, enquanto o carretel em alumínio dourado confere um visual clássico e sofisticado. Equipado com rolamentos blindados, oferece um recolhimento macio e um sistema de fricção (drag) preciso para o controle total durante a briga com o peixe. É um equipamento versátil e robusto, perfeito tanto para iniciantes quanto para veteranos da pesca esportiva."
+  },
+
+  {
+    id: 7007,
+    nome: "Molinete Shimano Sienna FG",
+    categoria: "pescaPraia",
+    preco: 80.00,
+    imagem: "../pescaPraia/pescaPraiaFoto/molinete de pesca.jpeg",
+    descricao:"Molinete Shimano Sienna FG, esta versão foi otimizada para máxima performance, apresentando um corpo redesenhado com a tecnologia Free Body G, que desloca o centro de gravidade para mais perto da vara, reduzindo a fadiga do pescador. Equipado com o sistema Propulsion Line Management, o Sienna FG possui um carretel de alumínio com borda invertida que permite a liberação da linha em espirais acentuadas, minimizando cabeleiras e proporcionando arremessos muito mais longos e precisos. Além disso, conta com o sistema anti-reverso Super Stopper II para fisgadas imediatas e o conceito Dyna Balance, que elimina oscilações no rotor para um recolhimento suave e livre de vibrações."
+  },
+
+  {
+    id: 7008,
+    nome: "Kit de Pesca Completo com Vara Telescópica e Molinete",
+    categoria: "pescaPraia",
+    preco: 80.00,
+    imagem: "../pescaPraia/pescaPraiaFoto/vara de pesca azul.jpeg",
+    descricao:"Kit de Pesca Completo com Vara Telescópica e Molinete, design ultra compacto, a vara retrátil é fabricada em fibra de vidro e carbono, garantindo leveza para o transporte e resistência para fisgar peixes em rios, lagos e pesqueiros. O molinete que acompanha o kit possui carretel de alumínio e sistema de fricção dianteira, oferecendo um recolhimento suave e preciso. O cabo com acabamento em espuma EVA proporciona uma pegada ergonômica e antiderrapante, essencial para longas jornadas à beira d'água. Disponível em diversas cores vibrantes, este conjunto é perfeito tanto para iniciantes quanto para pescadores experientes que não abrem mão de um equipamento fácil de carregar em qualquer mochila ou porta-malas."
+  },
+
+  {
+    id: 7009,
+    nome: "Kit Pesca Pesada Alto Mar",
+    categoria: "pescaPraia",
+    preco: 80.00,
+    imagem: "../pescaPraia/pescaPraiaFoto/vara de pesca kit black.jpeg",
+    descricao:"Kit Pesca Pesada Alto Mar é o conjunto definitivo para quem busca potência e resistência em grandes pescarias. A vara de 1,80m é construída em fibra de vidro maciça, garantindo a flexibilidade e a força necessárias para suportar briga com peixes de até 40lb (aproximadamente 18kg), sem risco de quebra. O molinete de tamanho 5000 é o grande destaque, equipado com 14 rolamentos que proporcionam um recolhimento extremamente suave e preciso. Com corpo em grafite reforçado e carretel de alta capacidade, ele oferece um sistema de fricção potente para o controle total durante a captura. Com cabo ergonômico em EVA, este kit une durabilidade e conforto para enfrentar os desafios do mar ou de rios de grande porte."
+  },
+
+  {
+    id: 7010,
+    nome: "Kit de Pesca Ultra Compacto",
+    categoria: "pescaPraia",
+    preco: 80.00,
+    imagem: "../pescaPraia/pescaPraiaFoto/vara de pesca.jpeg",
+    descricao:"Kit de Pesca Ultra Compacto, design retrátil, a vara é fabricada em fibra de vidro leve e resistente, tornando-se pequena o suficiente para caber em qualquer mochila ou porta-luvas, ideal para levar em viagens e acampamentos. O molinete que acompanha o conjunto possui carretel metálico colorido e sistema de fricção suave, proporcionando um recolhimento preciso para peixes de pequeno e médio porte. O cabo com acabamento em espuma EVA ergonômica garante uma pegada firme e confortável durante todo o uso. Disponível em cores vibrantes, este kit une versatilidade e facilidade de transporte para você estar sempre pronto para uma pescaria em rios, lagos ou pesqueiros."
   },
 
   // ================= CURSO E CAMPO =================
