@@ -2731,362 +2731,371 @@ const PRODUTOS = [
 
   {
     id: 11026,
-    nome: "",
+      nome: "Distintivo de Organização Militar do Comando de Fronteira Japurá/17º Batalhão de Infantaria de Selva Bordado (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
     imagem: "../fardamentosMilitares/breveSutacheFoto/dinstitivo de gorro.jpeg",
-    descricao:"E"
+    descricao:"Este patch bordado identifica o Comando de Fronteira Japurá/17º Batalhão de Infantaria de Selva (C Fron Japurá/17º BIS), unidade do Exército Brasileiro sediada em Tefé, Amazonas, e conhecida como Regimento Curupayty. Confeccionado em lona de nylon PVC no padrão de baixa visibilidade, o distintivo apresenta fundo verde-militar com bordados em linha preta e cinza, garantindo a camuflagem necessária para operações em ambiente de selva. Seu design exibe, na parte superior, a inscrição da unidade e, ao centro de um escudo, a face de uma onça-pintada sobreposta a fuzis cruzados, símbolos que representam a força e a especialização da infantaria de selva. Com dimensões regulamentares de 50 mm x 50 mm, o acessório segue rigorosamente o Regulamento de Uniformes do Exército (RUE) para aplicação no bolso da gandola camuflada. A fixação é feita por fecho de contato (velcro) verde-oliva costurado na parte traseira, proporcionando praticidade e alta durabilidade para o uso em missões reais de vigilância e defesa da fronteira amazônica. Trata-se de uma insígnia de orgulho para os militares que servem nesta organização estratégica, responsável por garantir a soberania nacional em uma das regiões mais isoladas do país. O item é resistente a lavagens e ao clima úmido da região, mantendo a nitidez dos detalhes heráldicos fundamentais para a identificação da tropa."
   },
 
   {
     id: 11027,
-    nome: "",
+    nome: "Distintivo de Organização Militar da 16ª Brigada de Infantaria de Selva Bordado (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/dinstitivo gorro 16 bgd.jpeg",
+    descricao:"Este patch bordado identifica a unidade da 16ª Brigada de Infantaria de Selva (16ª Bda Inf Sl) do Exército Brasileiro, sendo um distintivo de bolso obrigatório para o uso em uniformes operacionais. Confeccionado em lona de nylon PVC de alta resistência, o item apresenta o padrão de baixa visibilidade com fundo verde-militar e bordados em tons discretos de preto e cinza-claro para garantir a eficácia da camuflagem em ambientes de selva amazônica. O design exibe o brasão histórico da brigada, que inclui elementos heráldicos como uma onça-pintada e fuzis cruzados, simbolizando a prontidão e a força das tropas de selva na defesa da soberania nacional. Com dimensões regulamentares de 58 mm x 80 mm, o acessório atende rigorosamente às especificações do Regulamento de Uniformes do Exército (RUE) para aplicação em gandoletas e blusas de combate. A fixação é realizada por fecho de contato (velcro) verde-oliva costurado na parte traseira, o que proporciona praticidade e alta durabilidade para o uso em missões reais e exercícios de adestramento. Trata-se de um símbolo de identidade e orgulho para os militares do Comando de Fronteira Japurá, sediado em Tefé, Amazonas, representando a especialização técnica do combatente de selva. Sua estrutura robusta é projetada para resistir ao clima úmido e ao desgaste natural das operações, mantendo a nitidez da identificação da unidade. Este distintivo é essencial para a padronização e o reconhecimento dos integrantes da brigada em formaturas e operações de vigilância estratégica na Amazônia"
   },
 
   {
     id: 11028,
-    nome: "",
+    nome: "Distintivo Companhia de Comando da 16ª Brigada de Infantaria de Selva Bordado (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/dinstitivo gorro cia cmd.jpeg",
+    descricao:"Este patch bordado identifica a unidade militar da Companhia de Comando da 16ª Brigada de Infantaria de Selva (Cia C/16ª Bda Inf Sl), sendo um distintivo de bolso utilizado em uniformes operacionais do Exército Brasileiro. Confeccionado em lona de nylon PVC de alta resistência, o item segue o padrão de baixa visibilidade com fundo verde-militar e bordados em tons discretos de preto e cinza para garantir a eficácia da camuflagem em ambientes de selva. O design heráldico apresenta, na parte superior, a inscrição da unidade e, ao centro de um losango, um escudo dividido contendo elementos históricos e regionais, como as ruínas de São Miguel Arcanjo e a face estilizada de uma onça-pintada, símbolo das tropas de elite de selva. Com dimensões regulamentares de 50 mm x 50 mm, o acessório segue as normas do Regulamento de Uniformes do Exército (RUE) para aplicação em gandoletas e blusas de combate. A fixação é feita por fecho de contato (velcro) verde-oliva costurado na parte traseira, o que proporciona praticidade na aplicação e durabilidade para o uso intenso em missões reais e exercícios de adestramento. Este distintivo é um símbolo de identidade e orgulho para os militares que servem nesta brigada estratégica, sediada em Tefé, Amazonas, responsável pela defesa da soberania nacional na vasta região amazônica."
   },
 
   {
     id: 11029,
-    nome: "",
+    nome: "Distintivo de Organização Militar do 34º Pelotão de Polícia do Exército Bordado (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/dinstitivo pel pe.jpeg",
+    descricao:"Este patch bordado identifica a unidade do 34º Pelotão de Polícia do Exército (34º Pel PE), pertencente à 16ª Brigada de Infantaria de Selva do Exército Brasileiro, sediada em Tefé, Amazonas. Confeccionado em lona de nylon PVC de alta resistência no padrão de baixa visibilidade, o item apresenta fundo verde-militar com bordados em linha preta e cinza, garantindo a camuflagem necessária para operações em ambientes de selva amazônica. O design heráldico exibe, na parte superior, a inscrição da unidade e, ao centro de um losango, o símbolo da Polícia do Exército — duas pistolas cruzadas sobrepostas a um círculo — representando a autoridade e a segurança militar. Com dimensões regulamentares de 50 mm x 50 mm, o acessório segue rigorosamente o Regulamento de Uniformes do Exército (RUE) para aplicação no bolso da gandola camuflada. A fixação é feita por fecho de contato (velcro) verde-oliva costurado na parte traseira, proporcionando praticidade e alta durabilidade para o uso em missões reais de policiamento e escolta. Este distintivo é um símbolo de orgulho e identidade para os militares que garantem a lei e a ordem em uma das regiões estratégicas mais isoladas do país. Sua estrutura robusta é projetada para resistir ao clima úmido e ao desgaste natural das operações na selva, mantendo a nitidez dos detalhes fundamentais para a identificação da tropa."
   },
 
   {
     id: 11030,
-    nome: "",
+    nome: "Distintivo de Organização Militar do 34º Pelotão de Polícia do Exército em Borracha (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/dis.jpeg",
+    descricao:"Este distintivo emborrachado identifica o 34º Pelotão de Polícia do Exército (34º Pel PE), unidade do Exército Brasileiro sediada em Tefé, Amazonas, subordinada à 16ª Brigada de Infantaria de Selva. Fabricado em PVC de alta resistência pelo processo de moldagem a quente, o item apresenta o padrão de baixa visibilidade com fundo verde-militar camuflado e elementos em relevo na cor cinza, garantindo durabilidade superior contra umidade e atrito em ambientes de selva. O design exibe a inscrição da unidade na parte superior e, ao centro de um losango, o símbolo da Polícia do Exército — duas pistolas cruzadas sobre um círculo — representando a autoridade, a segurança e a ordem militar. Com dimensões regulamentares de aproximadamente 50 mm x 50 mm, o acessório segue as normas do Regulamento de Uniformes do Exército (RUE) para uso no bolso da gandola camuflada. A fixação é feita por fecho de contato (velcro) costurado na parte traseira, o que proporciona praticidade na aplicação e manutenção do fardamento operacional. Este modelo em borracha é altamente valorizado por não desfiar e manter a nitidez dos detalhes heráldicos mesmo sob condições climáticas extremas. É um símbolo de identidade essencial para o reconhecimento dos integrantes da PE em missões de escolta, guarda e policiamento na região amazônica."
   },
 
   {
     id: 11031,
-    nome: "",
+    nome: "Distintivo de Organização Militar do 16º Batalhão Logístico de Selva Bordado (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/distintivo de braço balog.jpeg",
+    descricao:"Este patch bordado identifica o 16º Batalhão Logístico de Selva (16º B Log Sl), unidade do Exército Brasileiro sediada em Tefé, Amazonas, e subordinada à 16ª Brigada de Infantaria de Selva. Confeccionado em lona de nylon PVC de alta resistência no padrão de baixa visibilidade, o item apresenta fundo verde-militar com bordados em linha preta e cinza, garantindo a camuflagem ideal para operações em ambiente de selva amazônica. O design heráldico exibe, na parte superior, a inscrição 16º BA LOG e, ao centro de um losango, os símbolos que representam o apoio logístico: uma engrenagem (manutenção) e uma onça-pintada estilizada, ícone das tropas de selva. Com dimensões regulamentares de 58 mm x 80 mm, o acessório segue rigorosamente o Regulamento de Uniformes do Exército (RUE) para aplicação no bolso da gandola camuflada. A fixação é feita por fecho de contato (velcro) verde-oliva costurado na parte traseira, o que proporciona praticidade na aplicação e alta durabilidade para o uso em missões reais de suprimento, transporte e manutenção. Este distintivo é um símbolo de orgulho e identidade para os militares que garantem a sustentabilidade logística da Brigada das Missões em uma das regiões mais desafiadoras do país. Sua estrutura robusta é projetada para resistir ao clima úmido e ao desgaste natural das operações ribeirinhas e de selva, mantendo a nitidez dos detalhes fundamentais para a identificação da tropa."
   },
 
   {
     id: 11032,
-    nome: "",
+    nome: "Distintivo de Organização Militar da Companhia de Comando da 16ª Brigada de Infantaria de Selva Bordado (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/distintivo de braço cia cmd.jpeg",
+    descricao:"Este patch bordado identifica a unidade militar da Companhia de Comando da 16ª Brigada de Infantaria de Selva (Cia C/16ª Bda Inf Sl), sendo um distintivo de bolso utilizado em uniformes operacionais do Exército Brasileiro. Confeccionado em lona de nylon PVC de alta resistência, o item segue o padrão de baixa visibilidade com fundo verde-militar e bordados em tons discretos de preto e cinza para garantir a eficácia da camuflagem em ambientes de selva. O design heráldico apresenta, na parte superior, a inscrição da unidade e, ao centro de um losango, um escudo dividido contendo elementos históricos e regionais, como as ruínas de São Miguel Arcanjo e a face estilizada de uma onça-pintada, símbolo das tropas de elite de selva. Com dimensões regulamentares de 50 mm x 50 mm, o acessório segue as normas do Regulamento de Uniformes do Exército (RUE) para aplicação em gandoletas e blusas de combate. A fixação é feita por fecho de contato (velcro) verde-oliva costurado na parte traseira, o que proporciona praticidade na aplicação e durabilidade para o uso intenso em missões reais e exercícios de adestramento. Este distintivo é um símbolo de identidade e orgulho para os militares que servem nesta brigada estratégica, sediada em Tefé, Amazonas, responsável pela defesa da soberania nacional na vasta região amazônica."
   },
 
   {
     id: 11033,
-    nome: "",
+    nome: "Distintivo de Organização Militar do Comando de Fronteira Japurá/17º Batalhão de Infantaria de Selva Bordado (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/distintivo de braço cmd fronteira.jpeg",
+    descricao:"Este patch bordado identifica o Comando de Fronteira Japurá/17º Batalhão de Infantaria de Selva (C Fron Japurá/17º BIS), unidade estratégica do Exército Brasileiro sediada em Tefé, Amazonas. Confeccionado em lona de nylon PVC no padrão de baixa visibilidade, o distintivo apresenta fundo verde-militar com bordados em linha preta e cinza, garantindo a camuflagem necessária para operações reais em ambiente de selva. Seu design exibe, na parte superior, a inscrição da unidade e, ao centro de um escudo, a face de uma onça-pintada sobreposta a fuzis cruzados e uma granada, símbolos que representam a força, a prontidão e a especialização da infantaria de selva. Com dimensões regulamentares de aproximadamente 50 mm x 50 mm, o acessório segue rigorosamente o Regulamento de Uniformes do Exército (RUE) para aplicação no bolso da gandola camuflada. A fixação é feita por fecho de contato (velcro) verde-oliva costurado na parte traseira, o que proporciona praticidade na aplicação e alta durabilidade para o uso em missões de vigilância de fronteira. Trata-se de uma insígnia de orgulho para os militares do Regimento Curupayty, representando a dedicação e a soberania nacional na região amazônica. O item é projetado para resistir ao clima úmido e ao desgaste natural das operações ribeirinhas, mantendo a nitidez dos detalhes fundamentais para a identificação da tropa."
   },
 
   {
     id: 11034,
-    nome: "",
+    nome: "Distintivo de Organização Militar do 34º Pelotão de Polícia do Exército Bordado (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/distintivo de braço pel pe.jpeg",
+    descricao:"Este patch bordado identifica a unidade do 34º Pelotão de Polícia do Exército (34º Pel PE), pertencente à 16ª Brigada de Infantaria de Selva do Exército Brasileiro, sediada em Tefé, Amazonas. Confeccionado em lona de nylon PVC no padrão de baixa visibilidade, o item apresenta fundo verde-militar com bordados em tons de preto e cinza para manter a camuflagem em operações de selva. O design exibe a inscrição da unidade e, ao centro de um losango, o símbolo da Polícia do Exército com duas pistolas cruzadas sobre um círculo, representando a autoridade e a segurança militar. Com dimensões regulamentares de 50 mm x 50 mm, o acessório segue as normas do Regulamento de Uniformes do Exército (RUE) para aplicação no bolso da gandola camuflada. A fixação é realizada por fecho de contato (velcro) costurado na parte posterior, garantindo praticidade e durabilidade no uso diário. Este distintivo é um símbolo de orgulho e identidade essencial para o reconhecimento dos integrantes da PE em missões de escolta e policiamento na região amazônica. Sua estrutura robusta é projetada para resistir ao clima úmido e ao desgaste das operações reais, preservando a nitidez dos detalhes heráldicos fundamentais para a identificação da tropa."
   },
 
   {
     id: 11035,
-    nome: "",
+    nome: "Distintivo de Organização Militar do Posto Médico de Guarnição de Tefé Bordado (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/distintivo de braço pmgu.jpeg",
+    descricao:"Este patch bordado identifica o Posto Médico de Guarnição de Tefé (PMGu Tefé), unidade de saúde do Exército Brasileiro subordinada à 16ª Brigada de Infantaria de Selva no Amazonas. Confeccionado em lona de nylon PVC de alta resistência no padrão de baixa visibilidade, o item apresenta fundo cinza-escuro com bordados em tons discretos de preto e cinza-claro para garantir a camuflagem operacional. O design heráldico exibe, na parte superior, a inscrição da unidade e, ao centro, a face de uma onça-pintada sobreposta a uma cruz grega, simbolizando a união entre a força do combatente de selva e a missão de salvar vidas. Com dimensões regulamentares de aproximadamente 50 mm x 70 mm, o acessório segue as normas do Regulamento de Uniformes do Exército (RUE) para uso no bolso da gandola camuflada. A fixação é feita por fecho de contato (velcro) costurado na parte traseira, o que proporciona praticidade na aplicação e alta durabilidade para o uso em missões reais de apoio de saúde na Amazônia. Este distintivo é um símbolo de orgulho e identidade para os militares de saúde que garantem o suporte médico estratégico em uma das regiões mais isoladas do país. Sua estrutura robusta é projetada para resistir ao clima úmido e ao desgaste natural das operações na selva, mantendo a nitidez dos detalhes fundamentais para a identificação da tropa."
   },
 
   {
     id: 11036,
-    nome: "",
+    nome: "Este é o Distintivo de Curso do CFC (Curso de Formação de Cabos) do Exército Brasileiro, em sua versão de baixa visibilidade.",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/distintivo de cfc bordado.jpeg",
+    descricao:"O distintivo, conhecido no meio militar como Quaderna ou Trevo, simboliza a capacitação técnica das praças que concluíram com êxito o curso para a graduação de cabo. Fabricado em lona de nylon PVC de alta resistência, o patch apresenta o símbolo do trevo bordado em tons discretos de cinza e preto sobre um fundo verde-militar, respeitando os padrões de camuflagem do fardamento operacional. Com dimensões regulamentares de 50 mm x 50 mm, ele segue as especificações do Regulamento de Uniformes do Exército (RUE) e possui fixação por fecho de contato (velcro) para facilitar a aplicação na gandola. A posse e o uso deste distintivo representam que o militar está habilitado a exercer funções de liderança em pequenas frações e possui conhecimentos técnicos e táticos avançados em sua qualificação militar. Sua estrutura é projetada para suportar o rigor das atividades de campo, mantendo a integridade visual mesmo sob condições de umidade e atrito intenso. A quaderna é um dos símbolos mais tradicionais de ascensão na carreira das praças do Exército, marcando o primeiro nível de comando e responsabilidade do graduado."
   },
 
   {
     id: 11037,
-    nome: "",
+    nome: "Distintivo de Organização Militar da Companhia de Comando da 16ª Brigada de Infantaria de Selva em Borracha (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/distintivo de gorro cia cmd antigo.jpeg",
+    descricao:"Este distintivo emborrachado identifica a unidade da Companhia de Comando da 16ª Brigada de Infantaria de Selva (Cia C/16ª Bda Inf Sl), sendo uma insígnia de bolso oficial para uniformes operacionais do Exército Brasileiro. O acessório é fabricado em PVC de alta resistência pelo processo de moldagem a quente, apresentando fundo verde-militar com relevos em tons discretos de cinza e preto para garantir a eficácia da camuflagem em ambientes de selva. Seu design heráldico exibe a inscrição da unidade na parte superior e, ao centro de um losango, um escudo dividido que contém elementos regionais e militares, como as ruínas de São Miguel Arcanjo e a face de uma onça-pintada. Com dimensões regulamentares de 50 mm x 50 mm, o item segue rigorosamente as normas do Regulamento de Uniformes do Exército (RUE) para aplicação em gandoletas e blusas de combate. A fixação é realizada por fecho de contato (velcro) costurado na parte traseira, o que proporciona praticidade na aplicação e alta durabilidade para o uso intenso em missões reais. Este modelo em borracha é altamente valorizado por militares que servem na Amazônia, pois resiste melhor à umidade e ao desgaste natural das operações ribeirinhas e de selva sem desfiar. Trata-se de um símbolo de orgulho e identidade para os integrantes da Brigada das Missões, sediada estrategicamente em Tefé, Amazonas. O uso correto desta insígnia é fundamental para a padronização e o reconhecimento da organização militar durante exercícios de campanha, instruções e formaturas operacionais. "
   },
 
   {
     id: 11038,
-    nome: "",
+    nome: "Distintivo de Organização Militar do Comando de Fronteira Japurá/17º Batalhão de Infantaria de Selva em Borracha (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/distintivo de gorro modelo antigo cmd fron japura.jpeg",
+    descricao:"Este distintivo emborrachado identifica o Comando de Fronteira Japurá/17º Batalhão de Infantaria de Selva (C Fron Japurá/17º BIS), unidade estratégica do Exército Brasileiro sediada em Tefé, Amazonas. Fabricado em PVC de alta resistência pelo processo de moldagem a quente, o item apresenta o padrão de baixa visibilidade com fundo verde-militar e elementos em relevo na cor cinza, garantindo durabilidade superior contra umidade e atrito em ambientes de selva. O design heráldico exibe, na parte superior, a inscrição da unidade e, ao centro, os símbolos da Infantaria de Selva: a face de uma onça-pintada sobreposta a dois fuzis cruzados com uma granada de mão. Com dimensões regulamentares de 50 mm x 50 mm, o acessório atende às especificações do Regulamento de Uniformes do Exército (RUE) para aplicação no bolso da gandola camuflada. A fixação é feita por fecho de contato (velcro) costurado na parte traseira, o que proporciona praticidade na aplicação e manutenção do fardamento operacional. Este modelo em borracha é altamente valorizado por não desfiar e manter a nitidez dos detalhes mesmo sob condições climáticas extremas da região amazônica. Trata-se de um símbolo de identidade essencial para o reconhecimento dos integrantes do Regimento Curupayty em missões de vigilância de fronteira e exercícios de adestramento. Sua estrutura robusta é projetada para o uso intenso, representando o orgulho e a prontidão das tropas que defendem a soberania nacional na Amazônia Ocidental."
   },
 
   {
     id: 11039,
-    nome: "",
+    nome: "Distintivo de Organização Militar do 16º Pelotão de Comunicações de Selva em Borracha (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/distintivo de gorro pel com antigo.jpeg",
+    descricao:"Este distintivo emborrachado identifica o 16º Pelotão de Comunicações de Selva (16º Pel Com Sl) do Exército Brasileiro, sendo uma insígnia de bolso oficial para uniformes operacionais. Fabricado em PVC de alta resistência pelo processo de moldagem a quente, o item apresenta o padrão de baixa visibilidade com fundo verde-militar e elementos em relevo na cor cinza, garantindo durabilidade superior contra umidade e atrito em ambientes de selva. O design heráldico exibe a inscrição da unidade na parte superior e, ao centro de um losango, a face de uma onça-pintada sobreposta ao símbolo das comunicações, representando a prontidão e a conectividade das tropas na Amazônia. Com dimensões regulamentares de 50 mm x 50 mm, o acessório atende às especificações do Regulamento de Uniformes do Exército (RUE) para uso no bolso da gandola camuflada. A fixação é feita por fecho de contato (velcro) costurado na parte traseira, o que proporciona praticidade na aplicação e manutenção do fardamento. Este modelo em borracha é altamente valorizado por não desfiar e manter a nitidez dos detalhes mesmo sob condições climáticas extremas. Trata-se de um símbolo de identidade essencial para o reconhecimento dos integrantes da unidade em missões de apoio ao comando e comunicações táticas."
   },
 
   {
     id: 11040,
-    nome: "",
+    nome: "Divisa de 3º Sargento do Exército Brasileiro em Borracha (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/divisa 3 sgt borracha.jpeg",
+    descricao:"Este distintivo emborrachado identifica a graduação de 3º Sargento do Exército Brasileiro, sendo uma insígnia de gola oficial para uniformes operacionais como a gandola camuflada. O acessório é fabricado em PVC de alta resistência através do processo de moldagem a quente, apresentando três divisas em relevo na cor cinza sobre um suporte de borracha verde-militar para garantir o padrão de baixa visibilidade em campo. Com dimensões regulamentares de acordo com o Regulamento de Uniformes do Exército (RUE), o item possui acabamento com bordas reforçadas e fixação por fecho de contato (velcro) costurado na parte posterior, facilitando a aplicação e remoção rápida no fardamento. Este modelo em borracha é altamente valorizado pela sua praticidade, pois é resistente à umidade, não desfia e mantém a nitidez dos traços mesmo sob condições climáticas extremas e uso intenso em missões de selva ou instrução. Trata-se de um símbolo de liderança e responsabilidade, representando a primeira graduação do corpo de graduados da força terrestre. A padronização desta insígnia é essencial para a correta identificação da hierarquia militar durante exercícios de campanha, formaturas e rotinas administrativas nas unidades. Sua estrutura robusta garante uma longa vida útil, sendo um item indispensável para a apresentação individual impecável do sargento em todas as suas atividades profissionais."
   },
 
   {
     id: 11041,
-    nome: "",
+    nome: "Divisa de 3º Sargento do Exército Brasileiro Bordada (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/divisa 3 sgt.jpeg",
+    descricao:"Este patch bordado identifica a graduação de 3º Sargento do Exército Brasileiro, sendo uma insígnia de bolso oficial para uso em uniformes operacionais, como a gandola camuflada. Confeccionado em lona de nylon PVC de alta resistência, o item apresenta o padrão de baixa visibilidade com fundo verde-militar e os três ângulos (divisas) bordados em linha preta, garantindo a camuflagem necessária em ambientes de campo. Com dimensões regulamentares de 50 mm x 50 mm, o acessório segue rigorosamente as normas do Regulamento de Uniformes do Exército (RUE) para manter a padronização da hierarquia militar. A fixação é feita por fecho de contato (velcro) verde-oliva costurado na parte posterior, o que proporciona praticidade na aplicação e alta durabilidade para o uso intenso em missões reais e exercícios de adestramento. Trata-se de um símbolo de liderança intermediária e experiência, representando um posto de confiança na condução de pequenas frações e no apoio ao comando. Sua estrutura robusta é projetada para resistir ao clima úmido e ao desgaste natural das operações, preservando a nitidez da graduação mesmo sob condições extremas. Este distintivo é essencial para a correta identificação visual da autoridade do sargento em formaturas e rotinas administrativas das unidades militares."
   },
 
   {
     id: 11042,
-    nome: "",
+    nome: "Distintivo de Aluno do CFC (Curso de Formação de Cabos) do Exército Brasileiro Bordado (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/divisa al cfc 1.jpeg",
+    descricao:"Este patch bordado identifica o militar que está matriculado e frequentando o Curso de Formação de Cabos (CFC) do Exército Brasileiro, sendo uma insígnia de bolso obrigatória para uniformes operacionais. Confeccionado em lona de nylon PVC de alta resistência no padrão de baixa visibilidade, o item apresenta fundo verde-militar com a sigla CFC bordada em linha preta, garantindo a discrição necessária para atividades de campo e instrução. Com dimensões regulamentares de 50 mm x 50 mm, o acessório segue rigorosamente as normas do Regulamento de Uniformes do Exército (RUE) para aplicação na gandola camuflada. A fixação é realizada por fecho de contato (velcro) verde-oliva costurado na parte traseira, o que proporciona praticidade na aplicação e alta durabilidade para suportar o rigor físico do curso. Este distintivo é um símbolo de transição e esforço, representando o período em que o soldado se especializa para assumir futuras responsabilidades de comando como graduado. Sua estrutura robusta é projetada para resistir ao suor, umidade e atrito constante durante as pistas de treinamento e exercícios táticos. O uso correto desta identificação é fundamental para a padronização do turno de alunos e para o reconhecimento da hierarquia escolar dentro da unidade militar. Trata-se de um item essencial para o enxoval do militar que busca a ascensão profissional na carreira das praças da força terrestre."
   },
 
   {
     id: 11043,
-    nome: "",
+    nome: "Distintivo de Aluno do CFC (Curso de Formação de Cabos) do Exército Brasileiro Bordado (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/divisa al cfc.jpeg",
+    descricao:"Este patch bordado identifica o militar que está matriculado e frequentando o Curso de Formação de Cabos (CFC) do Exército Brasileiro, sendo uma insígnia de bolso obrigatória para uniformes operacionais. Confeccionado em lona de nylon PVC de alta resistência no padrão de baixa visibilidade, o item apresenta fundo verde-militar com a sigla CFC e a divisa de aluno bordadas em linha preta para garantir a discrição necessária em campo. Com dimensões regulamentares de 50 mm x 50 mm, o acessório segue rigorosamente as normas do Regulamento de Uniformes do Exército (RUE) para aplicação na gandola camuflada. A fixação é realizada por fecho de contato (velcro) verde-oliva costurado na parte traseira, o que proporciona praticidade na aplicação e alta durabilidade para suportar o rigor físico das instruções. Este distintivo é um símbolo de transição e esforço, representando o período em que o soldado se especializa para assumir futuras responsabilidades de comando. Sua estrutura robusta é projetada para resistir ao suor, umidade e atrito constante durante as pistas de treinamento e exercícios táticos de infantaria. O uso correto desta identificação é fundamental para a padronização do turno de alunos e para o reconhecimento da hierarquia escolar dentro da unidade militar. Trata-se de um item essencial para o enxoval do militar que busca a ascensão profissional na carreira das praças da força terrestre."
   },
 
   {
     id: 11044,
-    nome: "",
+    nome: "Distintivo de Aluno do CFC (Curso de Formação de Cabos) do Exército Brasileiro em Borracha.",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/divisa cfc borracha.jpeg",
+    descricao:"Este distintivo emborrachado identifica o militar que está matriculado no Curso de Formação de Cabos (CFC) do Exército Brasileiro, sendo uma insígnia de gola ou peito para uniformes de serviço e instrução. Fabricado em PVC de alta resistência pelo processo de moldagem a quente, o item apresenta fundo verde-militar com a sigla CFC e a moldura em relevo na cor branca, garantindo excelente contraste e fácil identificação visual. Com dimensões regulamentares conforme o Regulamento de Uniformes do Exército (RUE), o acessório possui fixação por fecho de contato (velcro) costurado na parte traseira, o que proporciona praticidade na aplicação e alta durabilidade para suportar o rigor físico das atividades militares. Este modelo em borracha é especialmente valorizado por sua impermeabilidade e facilidade de limpeza, não desfiando mesmo sob condições extremas de umidade e atrito. Trata-se de um símbolo de transição na carreira das praças, representando o período de especialização técnica e tática do soldado para assumir futuras responsabilidades de comando. A padronização desta insígnia é fundamental para a organização dos turnos de alunos dentro da unidade militar e para o reconhecimento da hierarquia escolar durante as formaturas e exercícios."
   },
 
   {
     id: 11045,
-    nome: "",
+    nome: "Insígnia de Primeiro-Tenente do Exército Brasileiro Bordada (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/divisa de 1 ten.jpeg",
+    descricao:"Este patch bordado identifica o posto de Primeiro-Tenente, pertencente à categoria de Oficiais Subalternos do Exército Brasileiro, sendo utilizado exclusivamente em uniformes operacionais como a gandola camuflada. Confeccionado em lona de nylon PVC de alta resistência no padrão de baixa visibilidade, o distintivo apresenta fundo verde-militar com duas estrelas bordadas em linha preta dispostas verticalmente, respeitando as normas de camuflagem para operações de campo. Com dimensões regulamentares de 50 mm x 50 mm, o acessório segue rigorosamente as especificações do Regulamento de Uniformes do Exército (RUE) para aplicação no bolso do fardamento. A fixação é realizada por fecho de contato (velcro) verde-oliva costurado na parte traseira, o que proporciona praticidade na aplicação e alta durabilidade para suportar o rigor das missões reais e exercícios de adestramento. Trata-se de um símbolo de liderança e responsabilidade, representando um oficial que geralmente exerce funções de comandante de pelotão ou oficial de estado-maior em unidades militares. Sua estrutura robusta é projetada para resistir ao clima úmido e ao desgaste natural das operações, mantendo a nitidez da insígnia que sinaliza a autoridade do tenente. O uso correto desta identificação é fundamental para a manutenção da hierarquia e do profissionalismo visual dentro da força terrestre brasileira."
   },
 
   {
     id: 11046,
-    nome: "",
+    nome: "Divisa de 2º Sargento do Exército Brasileiro Bordada (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/divisa de 1sgt.jpeg",
+    descricao:"Este patch bordado identifica a graduação de 2º Sargento do Exército Brasileiro, sendo uma insígnia de bolso oficial para uso em uniformes operacionais, como a gandola camuflada. Confeccionado em lona de nylon PVC de alta resistência, o item apresenta o padrão de baixa visibilidade com fundo verde-militar e os três ângulos (divisas) bordados em linha preta, garantindo a camuflagem necessária em ambientes de campo. Com dimensões regulamentares de 50 mm x 50 mm, o acessório segue rigorosamente as normas do Regulamento de Uniformes do Exército (RUE) para manter a padronização da hierarquia militar. A fixação é feita por fecho de contato (velcro) verde-oliva costurado na parte posterior, o que proporciona praticidade na aplicação e alta durabilidade para o uso intenso em missões reais e exercícios de adestramento. Trata-se de um símbolo de liderança intermediária e experiência, representando um posto de confiança na condução de pequenas frações e no apoio ao comando. Sua estrutura robusta é projetada para resistir ao clima úmido e ao desgaste natural das operações, preservando a nitidez da graduação mesmo sob condições extremas. Este distintivo é essencial para a correta identificação visual da autoridade do sargento em formaturas e rotinas administrativas das unidades militares."
   },
 
   {
     id: 11047,
-    nome: "",
+    nome: "Divisa de 2º Sargento do Exército Brasileiro Bordada (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/divisa de 2 sgt borracha.jpeg",
+    descricao:"Este patch bordado identifica a graduação de 2º Sargento do Exército Brasileiro, sendo uma insígnia de bolso oficial para uso em uniformes operacionais, como a gandola camuflada. Confeccionado em lona de nylon PVC de alta resistência, o item apresenta o padrão de baixa visibilidade com fundo verde-militar e os três ângulos (divisas) bordados em linha preta, garantindo a camuflagem necessária em ambientes de campo. Com dimensões regulamentares de 50 mm x 50 mm, o acessório segue rigorosamente as normas do Regulamento de Uniformes do Exército (RUE) para manter a padronização da hierarquia militar. A fixação é feita por fecho de contato (velcro) verde-oliva costurado na parte posterior, o que proporciona praticidade na aplicação e alta durabilidade para o uso intenso em missões reais e exercícios de adestramento. Trata-se de um símbolo de liderança intermediária e experiência, representando um posto de confiança na condução de pequenas frações e no apoio ao comando. Sua estrutura robusta é projetada para resistir ao clima úmido e ao desgaste natural das operações, preservando a nitidez da graduação mesmo sob condições extremas. Este distintivo é essencial para a correta identificação visual da autoridade do sargento em formaturas e rotinas administrativas das unidades militares."
   },
 
   {
     id: 11048,
-    nome: "",
+    nome: "Divisa de 2º Sargento do Exército Brasileiro Bordada (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/divisa de 2 sgt.jpeg",
+    descricao:"Este patch bordado identifica a graduação de 2º Sargento do Exército Brasileiro, sendo uma insígnia de bolso oficial para uso em uniformes operacionais, como a gandola camuflada. Confeccionado em lona de nylon PVC de alta resistência, o item apresenta o padrão de baixa visibilidade com fundo verde-militar e as três divisas bordadas em linha preta, com o destaque central em linha cinza-clara. Com dimensões regulamentares de 50 mm x 50 mm, o acessório segue rigorosamente as normas do Regulamento de Uniformes do Exército (RUE) para manter a padronização da hierarquia militar em campo. A fixação é feita por fecho de contato (velcro) verde-oliva costurado na parte posterior, o que proporciona praticidade na aplicação e alta durabilidade para o uso intenso em missões reais. Trata-se de um símbolo de liderança intermediária, representando um graduado com experiência na condução de pequenas frações e no apoio direto ao comando da subunidade. Sua estrutura robusta é projetada para resistir ao clima úmido e ao desgaste natural das operações, preservando a nitidez da graduação mesmo sob condições extremas de adestramento. Este distintivo é essencial para a correta identificação visual da autoridade do sargento em formaturas e rotinas administrativas das organizações militares. O acabamento com bordas reforçadas evita o desfiamento, garantindo uma apresentação individual impecável ao militar em todas as suas atividades profissionais."
   },
 
   {
     id: 11049,
-    nome: "",
+    nome: "Insígnia de Capitão do Exército Brasileiro Bordada (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/divisa de cap.jpeg",
+    descricao:"Este patch bordado identifica o posto de Capitão, pertencente à categoria de Oficiais Intermediários do Exército Brasileiro, sendo utilizado exclusivamente em uniformes operacionais como a gandola camuflada. Confeccionado em lona de nylon PVC de alta resistência no padrão de baixa visibilidade, o distintivo apresenta fundo verde-militar com três estrelas bordadas em linha preta dispostas verticalmente, respeitando rigorosamente as normas de camuflagem. Com dimensões regulamentares de 50 mm x 50 mm, o acessório segue as especificações do Regulamento de Uniformes do Exército (RUE) para aplicação no bolso do fardamento de combate. A fixação é realizada por fecho de contato (velcro) verde-oliva costurado na parte traseira, o que proporciona praticidade na aplicação e alta durabilidade para suportar o rigor das missões reais e exercícios de adestramento. Trata-se de um símbolo de liderança e autoridade, representando um oficial que geralmente exerce funções de comandante de companhia, bateria ou esquadrão em unidades militares. Sua estrutura robusta é projetada para resistir ao clima úmido e ao desgaste natural das operações, mantendo a nitidez da insígnia que sinaliza o posto do oficial. O uso correto desta identificação é fundamental para a manutenção da hierarquia e do profissionalismo visual dentro da força terrestre brasileira."
   },
 
   {
     id: 11050,
-    nome: "",
+    nome: "Divisa de Cabo do Exército Brasileiro em Borracha (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/divisa de cb borracha.jpeg",
+    descricao:"Este distintivo emborrachado identifica a graduação de Cabo no Exército Brasileiro, sendo uma insígnia de gola oficial utilizada em uniformes operacionais. O acessório é fabricado em PVC de alta resistência através do processo de moldagem a quente, apresentando duas divisas em relevo na cor cinza ou branca sobre um suporte de borracha verde-militar. Com dimensões regulamentares de aproximadamente 4,5 cm x 2,5 cm, o item segue as normas do Regulamento de Uniformes do Exército (RUE) para garantir a padronização visual. A fixação é feita por fecho de contato (velcro) costurado na parte posterior, facilitando a aplicação e remoção rápida na gandola camuflada. Este modelo em borracha é altamente valorizado por militares pela sua praticidade, pois é resistente à umidade, não desfia e mantém a nitidez dos traços mesmo sob uso intenso em missões de campo. Trata-se de um símbolo de liderança inicial entre as praças, representando um militar com responsabilidades de comando sobre pequenas frações. A padronização desta insígnia é essencial para a correta identificação da hierarquia durante exercícios de campanha e rotinas administrativas. Sua estrutura robusta garante uma longa vida útil, sendo um item indispensável para a apresentação individual impecável do cabo em todas as suas atividades profissionais."
   },
 
   {
     id: 11051,
-    nome: "",
+    nome: "Divisa de Soldado do Exército Brasileiro em Borracha (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/divisa de sd borracha.jpeg",
+    descricao:"Este distintivo emborrachado identifica a graduação de Soldado no Exército Brasileiro, sendo uma insígnia de gola oficial utilizada em uniformes operacionais para manter o padrão de baixa visibilidade. O acessório é fabricado em PVC de alta resistência através do processo de moldagem a quente, apresentando uma única divisa (ângulo) em relevo na cor cinza sobre um suporte de borracha verde-militar. Com dimensões regulamentares de aproximadamente 4,5 cm x 2,5 cm, o item segue rigorosamente as normas do Regulamento de Uniformes do Exército (RUE) para garantir a padronização visual da tropa. A fixação é feita por fecho de contato (velcro) costurado na parte posterior, o que facilita a aplicação e remoção rápida na gola da gandola camuflada durante o serviço. Este modelo em borracha é altamente prático para o uso diário, pois é resistente à umidade, não desfia e mantém a nitidez do símbolo mesmo sob condições climáticas extremas e atrito constante. Trata-se da identificação hierárquica básica da força terrestre, representando o militar que executa as missões de base e segurança nas unidades. Sua estrutura robusta garante uma longa vida útil, sendo um item essencial para a apresentação individual impecável do soldado em todas as suas atividades profissionais. A padronização desta insígnia é fundamental para a organização e o reconhecimento da hierarquia militar em formaturas, instruções e exercícios de campanha."
   },
 
   {
     id: 11052,
-    nome: "",
+    nome: "Insígnia de 2º Tenente do Exército Brasileiro em Borracha (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/divisa de ten boracha.jpeg",
+    descricao:"Este distintivo emborrachado identifica o posto de 2º Tenente, pertencente à categoria de Oficiais Subalternos do Exército Brasileiro, sendo uma insígnia de gola obrigatória para uniformes operacionais. Fabricado em PVC de alta resistência pelo processo de moldagem a quente, o acessório apresenta uma única estrela de cinco pontas em relevo na cor cinza, posicionada centralmente sobre um suporte retangular verde-militar. Com dimensões regulamentares aproximadas de 4,5 cm x 2,5 cm, o item segue rigorosamente as normas do Regulamento de Uniformes do Exército (RUE) para manter a padronização visual e a baixa visibilidade em campo. A fixação é feita por fecho de contato (velcro) costurado na parte traseira, o que proporciona praticidade na aplicação e alta durabilidade para suportar o rigor das missões reais e exercícios de adestramento. Este modelo em borracha é altamente valorizado por não desfiar, ser resistente à umidade e manter a nitidez dos detalhes mesmo sob condições climáticas extremas. Trata-se de um símbolo de liderança inicial no oficialato, representando um profissional que geralmente exerce funções de comandante de pelotão em diversas armas, quadros ou serviços da força terrestre. A estrela prateada (ou cinza no padrão subdued) no centro da insígnia é o ícone tradicional que sinaliza a autoridade do oficial subalterno em ambiente de combate ou serviço diário"
   },
 
   {
     id: 11053,
-    nome: "",
+    nome: "Insígnia de Aspirante a Oficial do Exército Brasileiro Bordada (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/divisa de ten.jpeg",
+    descricao:"Este patch bordado identifica o posto de Aspirante a Oficial, o estágio inicial da carreira de oficial após a conclusão do curso de formação na AMAN ou no CPOR/NPOR, sendo utilizado em uniformes operacionais. Confeccionado em lona de nylon PVC de alta resistência no padrão de baixa visibilidade, o distintivo apresenta fundo verde-militar com uma única estrela bordada em linha preta vazada, garantindo a discrição necessária para operações de campo. Com dimensões regulamentares de 50 mm x 50 mm, o acessório segue rigorosamente as normas do Regulamento de Uniformes do Exército (RUE) para aplicação no bolso da gandola camuflada. A fixação é realizada por fecho de contato (velcro) verde-oliva costurado na parte traseira, o que proporciona praticidade na aplicação e alta durabilidade para suportar o rigor das missões reais e exercícios de adestramento. Trata-se de um símbolo de liderança em formação, representando o oficial que exerce funções de comando de pelotão sob supervisão técnica. Sua estrutura robusta é projetada para resistir ao clima úmido e ao desgaste natural das operações, mantendo a nitidez da insígnia que sinaliza a autoridade do aspirante. O uso correto desta identificação é fundamental para a manutenção da hierarquia e do profissionalismo visual dentro da força terrestre brasileira."
   },
 
   {
     id: 11054,
-    nome: "",
+    nome: "Insígnia de Major do Exército Brasileiro Bordada (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/divisa major.jpeg",
+    descricao:"Este patch bordado identifica o posto de Major, o primeiro posto da categoria de Oficiais Superiores do Exército Brasileiro, sendo utilizado em uniformes operacionais para manter o padrão de camuflagem. Confeccionado em lona de nylon PVC de alta resistência no padrão de baixa visibilidade, o distintivo apresenta fundo verde-militar com três estrelas dispostas verticalmente: a estrela superior é bordada com contorno cinza-claro (prateada), enquanto as duas estrelas inferiores são bordadas inteiramente em linha preta. Com dimensões regulamentares de 50 mm x 50 mm, o acessório segue rigorosamente as especificações do Regulamento de Uniformes do Exército (RUE) para aplicação no bolso da gandola camuflada. A fixação é realizada por fecho de contato (velcro) verde-oliva costurado na parte traseira, o que proporciona praticidade na aplicação e alta durabilidade para suportar o rigor das missões reais e exercícios de adestramento. Trata-se de um símbolo de liderança intermediária e vasta experiência técnica, representando um oficial que geralmente exerce funções de subcomandante de unidade ou oficial de estado-maior. Sua estrutura robusta é projetada para resistir ao clima úmido e ao desgaste natural das operações, preservando a nitidez da insígnia que sinaliza a autoridade do oficial superior. O uso correto desta identificação é fundamental para a manutenção da hierarquia e do profissionalismo visual dentro da força terrestre brasileira, sendo um item essencial para a apresentação individual do Major."
   },
 
   {
     id: 11055,
-    nome: "",
+    nome: "Insígnia de Subtenente do Exército Brasileiro Bordada (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/divisa ST.jpeg",
+    descricao:"Este patch bordado identifica a graduação de Subtenente, o posto mais alto entre as praças do Exército Brasileiro, sendo utilizado exclusivamente em uniformes operacionais. Confeccionado em lona de nylon oxford ou PVC de alta resistência, o distintivo apresenta o símbolo de um losango (diamante) bordado em linha preta sobre um fundo verde-militar, garantindo a discrição necessária para missões de campo e adestramento. Com dimensões regulamentares de 50 mm x 50 mm e acabamento com borda preta de 1 mm, o item segue rigorosamente as normas do Regulamento de Uniformes do Exército (RUE) para aplicação no bolso da gandola camuflada ou macacões de serviço. A fixação é geralmente realizada por fecho de contato (velcro) verde-oliva costurado na parte traseira, o que proporciona praticidade na aplicação e alta durabilidade sob condições climáticas extremas. Trata-se de um símbolo de vasta experiência e liderança técnica, representando um militar que exerce funções cruciais de assessoria ao comando e gestão em diversas áreas da força terrestre. Sua estrutura robusta é projetada para resistir ao desgaste natural das operações, mantendo a integridade visual da insígnia que sinaliza a autoridade do graduado em ambiente de combate"
   },
 
   {
     id: 11056,
-    nome: "",
+    nome: "Manicaca de Montanha do Exército Brasileiro Bordada (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/manicaca de montanha.jpeg",
+    descricao:"Este patch bordado, conhecido militarmente como manicaca, identifica os militares que concluíram com êxito o Estágio de Adaptação à Vida na Montanha ou o Curso de Guia de Montanha do Exército Brasileiro. Confeccionado em lona de nylon PVC de alta resistência no padrão de baixa visibilidade, o item apresenta fundo verde-militar com a inscrição MONTANHA bordada em linha preta, respeitando rigorosamente os padrões de camuflagem para operações de campo. O acessório possui formato em arco e dimensões regulamentares para ser aplicado na manga da gandola camuflada, logo abaixo do distintivo de organização militar. A fixação é geralmente realizada por fecho de contato (velcro) verde-oliva costurado na parte traseira, o que proporciona praticidade na aplicação e alta durabilidade para suportar o rigor das instruções em terrenos acidentados. Trata-se de um símbolo de prestígio e resistência, representando a qualificação técnica para operar em ambientes de montanha sob condições climáticas adversas. Sua estrutura robusta é projetada para resistir ao desgaste natural das operações, mantendo a nitidez da identificação que sinaliza a especialização do combatente. O uso desta manicaca é uma tradição de orgulho para as tropas de montanha, sendo essencial para a padronização e o profissionalismo visual do militar especializado."
   },
 
   {
     id: 11057,
-    nome: "",
+    nome: "Manicaca de Selva do Exército Brasileiro Bordada (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/manicaca de selva.jpeg",
+    descricao:"Este patch bordado, conhecido militarmente como manicaca, identifica os militares que concluíram com êxito o Curso de Guerra na Selva ou o Estágio de Adaptação à Vida na Selva do Exército Brasileiro. Confeccionado em lona de nylon PVC de alta resistência no padrão de baixa visibilidade, o item apresenta fundo verde-militar com a inscrição SELVA bordada em linha preta, respeitando rigorosamente os padrões de camuflagem para operações de campo. O acessório possui formato semicircular e dimensões regulamentares (aproximadamente 100 mm x 25 mm) para ser aplicado na manga da gandola camuflada ou em macacões de combate. A fixação é geralmente realizada por fecho de contato (velcro) verde-oliva costurado na parte traseira, o que proporciona praticidade na aplicação e alta durabilidade para suportar as condições extremas de umidade e calor típicas da região amazônica. Trata-se de um símbolo de prestígio e resistência, representando a qualificação técnica para operar e sobreviver no ambiente de selva, sendo uma das especializações mais reconhecidas mundialmente. Sua estrutura robusta é projetada para resistir ao desgaste natural das operações, mantendo a nitidez da identificação que sinaliza a experiência do combatente especializado. O uso desta manicaca é obrigatório para a padronização do fardamento daqueles que possuem a referida qualificação, garantindo o profissionalismo visual exigido pelo Regulamento de Uniformes do Exército (RUE)"
   },
 
   {
     id: 11058,
-    nome: "",
+    nome: "Manicaca de Pantanal do Exército Brasileiro Bordada (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/manicaca pantanal.jpeg",
+    descricao:"Este patch bordado, conhecido no meio militar como manicaca, identifica os militares que concluíram com êxito o Estágio de Operações no Pantanal (EOPan), sendo uma insígnia de especialização utilizada em uniformes operacionais. Confeccionado em lona de nylon PVC de alta resistência no padrão de baixa visibilidade, o item apresenta fundo verde-militar com a inscrição PANTANAL bordada em linha preta, respeitando rigorosamente os padrões de camuflagem para operações de campo. O acessório possui formato semicircular e dimensões regulamentares de 100 mm x 25 mm para ser aplicado na manga da gandola camuflada, logo abaixo do distintivo de organização militar. A fixação é geralmente realizada por fecho de contato (velcro) verde-oliva costurado na parte traseira, o que proporciona praticidade na aplicação e alta durabilidade para suportar o rigor das instruções em ambientes de pantanais e áreas alagadas. Trata-se de um símbolo de prestígio e resistência, representando a qualificação técnica para operar em um dos biomas mais complexos do Brasil, sob condições climáticas de calor extremo e umidade. Sua estrutura robusta é projetada para resistir ao desgaste natural das operações, mantendo a nitidez da identificação que sinaliza o profissionalismo do combatente especializado. O uso desta manicaca é uma tradição de orgulho para as tropas pantaneiras, sendo essencial para a padronização e o reconhecimento dos integrantes habilitados durante formaturas e exercícios de campanha."
   },
 
   {
     id: 11059,
-    nome: "",
+    nome: "Manicaca de Aeromóvel do Exército Brasileiro Bordada (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/sutache aeromovel.jpeg",
+    descricao:"Este patch bordado, conhecido no meio militar como manicaca, identifica os militares que concluíram com êxito o Estágio de Operações Aeromóveis, sendo uma insígnia de especialização utilizada em uniformes operacionais. Confeccionado em lona de nylon PVC de alta resistência no padrão de baixa visibilidade, o item apresenta fundo verde-militar com a inscrição AEROMÓVEL bordada em linha preta, respeitando rigorosamente os padrões de camuflagem para missões de campo. O acessório possui formato semicircular e dimensões regulamentares de 100 mm x 25 mm para ser aplicado na manga da gandola camuflada, logo abaixo do distintivo de organização militar. A fixação é geralmente realizada por fecho de contato (velcro) verde-oliva costurado na parte traseira, o que proporciona praticidade na aplicação e alta durabilidade para suportar o rigor das instruções com helicópteros e infiltrações rápidas. Trata-se de um símbolo de prestígio e agilidade, representando a qualificação técnica para operar em missões de assalto aéreo sob condições dinâmicas de combate. Sua estrutura robusta é projetada para resistir ao desgaste natural das operações, mantendo a nitidez da identificação que sinaliza o profissionalismo do combatente especializado. O uso desta manicaca é uma tradição de orgulho para as tropas aeromóveis, sendo essencial para a padronização e o reconhecimento dos integrantes habilitados durante formaturas e exercícios de campanha."
   },
 
   {
     id: 11060,
-    nome: "",
+    nome: "Sutache do Comando de Fronteira Japurá/17º Batalhão de Infantaria de Selva Bordado (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/sutache antigo cmd fron japura.jpeg",
+    descricao:"Este patch bordado, conhecido tecnicamente como sutache ou tarjeta de identificação, identifica a unidade militar do Comando de Fronteira Japurá/17º Batalhão de Infantaria de Selva (C Fron Japurá/17º BIS) do Exército Brasileiro. Confeccionado em lona de nylon PVC de alta resistência no padrão de baixa visibilidade, o item apresenta fundo verde-militar com a inscrição da unidade bordada em linha preta, garantindo a camuflagem ideal para operações em ambiente de selva. Com dimensões regulamentares de acordo com o Regulamento de Uniformes do Exército (RUE), o acessório é destinado ao uso acima do bolso direito da gandola camuflada ou em macacões operacionais. A fixação é realizada por fecho de contato (velcro) verde-oliva costurado na parte traseira, o que proporciona praticidade na aplicação e alta durabilidade para suportar o rigor das missões de vigilância de fronteira na Amazônia. O 17º BIS, sediado em Tefé, Amazonas, é uma unidade estratégica de elite para o combate em selva, e este sutache é um símbolo essencial de identidade para seus integrantes. Sua estrutura robusta é projetada para resistir ao clima extremamente úmido da região, mantendo a nitidez da identificação da organização militar mesmo sob uso intenso. O uso correto desta tarjeta é fundamental para a padronização e o profissionalismo visual do combatente especializado durante exercícios de campanha, instruções e formaturas. Trata-se de um item indispensável para o enxoval tático do militar que serve no Regimento Curupayty, representando a prontidão e a soberania nacional na fronteira oeste do país."
   },
 
   {
     id: 11061,
-    nome: "",
+    nome: "Sutache do 34º Pelotão de Polícia do Exército Bordado (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/sutache antigo pel pe.jpeg",
+    descricao:"EEste patch bordado, tecnicamente conhecido como sutache ou tarjeta de identificação, identifica os militares pertencentes ao 34º Pelotão de Polícia do Exército (34º Pel PE), unidade sediada em Tefé, Amazonas, e subordinada à 16ª Brigada de Infantaria de Selva. Confeccionado em lona de nylon PVC de alta resistência no padrão de baixa visibilidade, o item apresenta fundo verde-militar com a inscrição da unidade bordada em linha preta, garantindo a camuflagem ideal para operações em ambiente de selva. Com dimensões regulamentares de acordo com o Regulamento de Uniformes do Exército (RUE), o acessório é destinado ao uso acima do bolso direito da gandola camuflada ou em macacões operacionais de serviço. A fixação é realizada por fecho de contato (velcro) verde-oliva costurado na parte traseira, o que proporciona praticidade na aplicação e alta durabilidade para suportar o rigor das missões de policiamento, escolta e segurança na Amazônia. O 34º Pel PE desempenha um papel crucial na manutenção da ordem e disciplina militar na região, e este sutache é um símbolo essencial de identidade para seus integrantes. Sua estrutura robusta é projetada para resistir ao clima extremamente úmido, mantendo a nitidez da identificação mesmo sob uso intenso em exercícios de campanha e formaturas. O uso correto desta tarjeta é fundamental para a padronização e o profissionalismo visual do combatente especializado durante as rotinas administrativas e operacionais da guarnição. Trata-se de um item indispensável para o enxoval tático do militar que serve nesta unidade estratégica, representando a autoridade e a prontidão da Polícia do Exército na fronteira norte do país."
   },
 
   {
     id: 11062,
-    nome: "",
+    nome: "Distintivo da Seção de Cães de Guerra do Exército Brasileiro Bordado (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/sutache caes de guerra bordado.jpeg",
+    descricao:"Este patch bordado identifica militares pertencentes à Seção de Cães de Guerra (SCG) do Exército Brasileiro, sendo uma insígnia de especialidade utilizada em uniformes operacionais. Confeccionado em lona de nylon PVC de alta resistência, o item segue o padrão de baixa visibilidade com fundo verde-militar e bordados em linha preta e cinza para garantir a discrição necessária em missões de campo. O design heráldico apresenta a silhueta da cabeça de um cão (pastor-alemão ou belga malinois) circundada por uma corrente e ladeada por ramos de louro, contendo a sigla SCG em destaque. Com dimensões regulamentares aproximadas de 70 mm x 30 mm, o acessório segue rigorosamente o Regulamento de Uniformes do Exército (RUE) para aplicação no peito da gandola camuflada ou em macacões operacionais. A fixação é realizada por fecho de contato (velcro) verde-oliva costurado na parte traseira, o que proporciona praticidade e alta durabilidade para o uso em ambientes de adestramento e operações reais. Este distintivo é um símbolo de orgulho para os cinotécnicos militares, representando a especialização no emprego de cães para guarda, detecção e operações especiais. Sua estrutura robusta é projetada para resistir ao clima úmido e ao desgaste natural das atividades operacionais com os animais. O uso correto desta insígnia é fundamental para a padronização e o reconhecimento dos integrantes das seções de cães de guerra durante exercícios e formaturas. "
   },
 
   {
     id: 11063,
-    nome: "",
+    nome: "Sutache da Companhia de Comando da 16ª Brigada de Infantaria de Selva Bordado (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/sutache cia cmd.jpeg",
+    descricao:"Este patch bordado, conhecido tecnicamente como sutache ou tarjeta de identificação, identifica a unidade militar da Companhia de Comando da 16ª Brigada de Infantaria de Selva (Cia C/16ª Bda Inf Sl) do Exército Brasileiro. Confeccionado em lona de nylon PVC de alta resistência no padrão de baixa visibilidade, o item apresenta fundo verde-militar com a sigla da unidade bordada em linha preta, garantindo a discrição necessária para operações em ambientes de selva amazônica. Com dimensões regulamentares de acordo com o Regulamento de Uniformes do Exército (RUE), o acessório é destinado ao uso acima do bolso direito da gandola camuflada ou em macacões operacionais de serviço. A fixação é realizada por fecho de contato (velcro) verde-oliva costurado na parte traseira, o que proporciona praticidade na aplicação e alta durabilidade para suportar o rigor das missões de comando, controle e logística na região de Tefé, Amazonas. Trata-se de um item indispensável para a padronização e o profissionalismo visual do combatente especializado, sendo projetado para resistir ao clima úmido e ao desgaste natural das atividades militares em campo. O uso correto desta identificação é fundamental para o reconhecimento da organização militar durante formaturas, instruções e exercícios de adestramento da brigada estratégica. Este sutache representa a identidade e a prontidão dos militares que compõem o núcleo de comando de uma das unidades mais importantes na defesa da soberania nacional na Amazônia Ocidental."
   },
 
   {
     id: 11064,
-    nome: "",
+    nome: "Sutache EXÉRCITO do Exército Brasileiro Bordado (Baixa Visibilidade).",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/sutache EB.jpeg",
+    descricao:"Este patch bordado, conhecido tecnicamente como sutache ou tarjeta de identificação, é o distintivo oficial que identifica a Força Terrestre, sendo utilizado obrigatoriamente por todos os militares em seus uniformes operacionais. Confeccionado em lona de nylon PVC de alta resistência no padrão de baixa visibilidade, o item apresenta fundo verde-militar com a inscrição EXÉRCITO bordada em linha preta, garantindo a camuflagem ideal para missões de campo e adestramento. Com dimensões regulamentares de acordo com o Regulamento de Uniformes do Exército (RUE), o acessório é destinado ao uso centralizado acima do bolso esquerdo da gandola camuflada, gandoleta ou macacões de serviço. A fixação é realizada por fecho de contato (velcro) verde-oliva costurado na parte traseira, o que proporciona praticidade na aplicação e alta durabilidade para suportar o rigor do uso diário em diversas condições climáticas. Sua estrutura robusta é projetada para resistir ao desbotamento e ao desgaste natural, mantendo a nitidez da identificação institucional indispensável para a padronização e o profissionalismo visual do combatente. Trata-se de um item básico e essencial do enxoval tático, simbolizando o pertencimento à instituição e a prontidão do militar para o cumprimento do dever em qualquer ambiente operacional."
   },
 
   {
     id: 11065,
-    nome: "",
+    nome: "Sutache Bordado com Nome e Tipo Sanguíneo.",
     categoria: "breveSutache",
     preco: 80.00,
-    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
-    descricao:"E"
+    imagem: "../fardamentosMilitares/breveSutacheFoto/sutache modelo antigo.jpeg",
+    descricao:"Este patch bordado, conhecido militarmente como sutache ou tarjeta de identificação, é utilizado para a personalização de uniformes operacionais, coletes táticos e bornais. Confeccionado em tecido de alta qualidade, como lona ou nylon PVC, o item apresenta o nome de guerra do militar (neste caso, BATISTA) bordado em linha branca ou preta, acompanhado pela indicação do grupo sanguíneo e fator Rh (como O+) em destaque na cor vermelha. Com dimensões personalizáveis que variam entre 12 cm e 16 cm de largura por 2,5 cm de altura, o sutache segue padrões de identificação que visam facilitar o atendimento médico de emergência em campo. A fixação é geralmente realizada por fecho de contato (velcro) na cor verde-oliva ou preta, garantindo praticidade e durabilidade sob uso intenso e condições climáticas adversas. Além de sua função técnica, o acessório contribui para a padronização e o profissionalismo visual no fardamento de militares, brigadistas e socorristas."
+  },
+
+  {
+    id: 11066,
+    nome: "Manicaca de Operações de Guarda do Exército Brasileiro Bordada.",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/sutache operacao com caes.jpeg",
+    descricao:"Este patch bordado, tecnicamente chamado de manicaca, identifica militares qualificados para atuar em missões de Operações de Guarda, sendo uma insígnia de especialização utilizada em diversos uniformes da força terrestre. Confeccionado com fios de alta resistência sobre uma base de tecido firme, o item apresenta um design semicircular com a inscrição OPERAÇÕES DE GUARDA em destaque na cor branca sobre um fundo preto, cercado por bordas nas cores verde e amarela. Com dimensões regulamentares para aplicação na manga do fardamento, o acessório segue os padrões estéticos e técnicos exigidos para a correta identificação da qualificação militar. A peça geralmente conta com acabamento reforçado em suas extremidades para evitar o desfiamento, garantindo uma vida útil prolongada mesmo sob condições de uso intenso em guardas de quartéis ou escoltas. Sua fixação é comumente feita por fecho de contato (velcro) ou costura direta, permitindo que o militar exiba com clareza sua prontidão para tarefas de segurança e proteção de instalações. O uso deste distintivo é fundamental para a padronização visual da tropa e para destacar a expertise técnica do combatente em procedimentos de vigilância e controle de acesso. Trata-se de um símbolo de responsabilidade e disciplina, essencial para compor a apresentação individual do militar designado para tais funções estratégicas dentro da unidade."
   },
 
 ];
