@@ -871,184 +871,177 @@ const PRODUTOS = [
     descricao:"O Lattafa Asad é a escolha definitiva para o homem que busca uma presença imponente, luxuosa e inesquecível. Lançado pela renomada casa de Dubai, este perfume árabe conquistou o mundo por sua semelhança excepcional com o Dior Sauvage Elixir, entregando uma sofisticação de alta perfumaria com um custo-benefício imbatível. Sua fragrância abre com uma explosão picante de pimenta preta e tabaco, evoluindo para um coração intrigante de café e patchouli, e finalizando com uma base quente de baunilha e âmbar que gruda na pele. Com performance de beast mode, ele oferece fixação prolongada e projeção marcante, sendo ideal para eventos noturnos, encontros ou climas amenos. O frasco de 100ml, com detalhes dourados e o icônico símbolo do leão, é um verdadeiro item de colecionador que reflete o poder e a autoridade de quem o usa."
   },
 
-  {
-    id: 601,
-    nome: "",
-    categoria: "perfumes",
-    preco: 190.00,
-    imagem: "../perfumes/perfume2.jpeg",
-    descricao:""
-  },
+
 
   {
     id: 602,
-    nome: "",
+    nome: "Free Desodorante Colônia d'O Boticário",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 120.00,
     imagem: "../perfumes/perfume2.jpeg",
-    descricao:""
+    descricao:"Free Desodorante Colônia, um clássico da linha Boticollection d'O Boticário que equilibra intensidade e frescor de forma atemporal. Pertencente à família olfativa Cítrico Amadeirada, a fragrância abre com notas vibrantes de limão e bergamota, evoluindo para um corpo aromático com lavanda e sálvia, e finalizando com um fundo sólido de musgo de carvalho e cedro. Originalmente lançada em 1981, ela é amplamente reconhecida como uma colônia compartilhável e versátil, ideal para quem busca uma sensação de liberdade e leveza no uso diário. Além de seu perfil revigorante, o produto é totalmente vegano, não testado em animais e integra a coleção que resgata os maiores sucessos históricos da perfumaria da marca."
   },
 
   {
     id: 603,
-    nome: "",
+    nome: "Egeo Bomb Black Desodorante Colônia",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 185.00,
     imagem: "../perfumes/perfume3.jpeg",
-    descricao:""
+    descricao:"Egeo Bomb Black Desodorante Colônia, destaca-se pelo contraste marcante entre notas de couro e o exclusivo acorde Sugar Booster Caramel, que combina caramelo salgado, baunilha e tiramisu para uma explosão doce e potente. Com uma fixação elogiada que pode ultrapassar 10 horas, a fragrância abre com toques cítricos de bergamota e limão antes de revelar seu corpo amadeirado e fundo ambarado"
   },
 
   {
     id: 604,
-    nome: "",
+    nome: "Creme Acetinado Hidratante Corporal Lily",
     categoria: "perfumes",
     preco: 190.00,
     imagem: "../perfumes/perfume4.jpeg",
-    descricao:""
+    descricao:"Creme Acetinado Hidratante Corporal Lily, é um ícone de sofisticação com 250g de puro cuidado. Sua textura rica e acetinada forma uma película protetora que garante hidratação intensa por até 48 horas, evitando o ressecamento causado pelo clima. A fragrância é um floral inesquecível, extraída do lírio através do raro processo de enfleurage, que preserva a essência pura da flor. Com rápida absorção e toque seco, ele deixa a pele macia, iluminada e perfumada o dia todo. É um produto vegano, livre de parabenos e apresentado em uma elegante embalagem de vidro"
   },
 
   {
     id: 605,
-    nome: "",
+    nome: "Loção Hidratante Eudora Baby",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 55.00,
     imagem: "../perfumes/perfume5.jpeg",
-    descricao:""
+    descricao:"Loção Hidratante Eudora Baby é um cuidado suave desenvolvido especialmente para a pele sensível dos bebês, podendo ser utilizada desde os primeiros dias de vida. Sua fórmula exclusiva combina o extrato de calêndula com o conforto do algodão, proporcionando até 24 horas de hidratação contínua e proteção contra o ressecamento. Com textura leve e de rápida absorção, o produto não deixa a pele pegajosa e possui uma fragrância delicada que reforça o vínculo entre pais e filhos. É um item totalmente vegano, livre de corantes e parabenos, garantindo máxima segurança para os pequenos. Além disso, é testado e recomendado por pediatras, assegurando uma rotina de cuidados hipoalergênica e eficaz"
   },
 
   {
     id: 606,
-    nome: "",
+    nome: "Floratta Blue Desodorante Colônia",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 170.00,
     imagem: "../perfumes/perfume6.jpeg",
-    descricao:""
+    descricao:"Floratta Blue Desodorante Colônia, é um clássico d'O Boticário, ideal para quem busca uma perfumação leve e confortável. Sua fragrância Floral Musk combina notas de chá de lima, musk e gardênia, resultando em um aroma fresco que remete à sensação de banho tomado. É uma escolha versátil e atemporal para o dia a dia, sendo um dos maiores sucessos da perfumaria feminina nacional."
   },
 
   {
     id: 607,
-    nome: "",
+    nome: "Sabonete em Barra Instance Morango Irresistível Eudora",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 35.00,
     imagem: "../perfumes/perfume7.jpeg",
-    descricao:""
+    descricao:"Sabonete em Barra Instance Morango Irresistível da Eudora oferece uma limpeza suave com base 100% vegetal. Sua fórmula vegana e livre de parabenos cria uma espuma cremosa que perfuma a pele com uma fragrância frutal envolvente. A caixa contém 4 unidades de 80g cada, ideais para o cuidado diário, deixando o corpo macio e hidratado sem agredir a barreira natural da pele"
   },
 
   {
     id: 608,
-    nome: "",
+    nome: "Kit Presente Egeo Dolce O Boticário ",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 175.00,
     imagem: "../perfumes/perfume8.jpeg",
-    descricao:""
+    descricao:"Kit Presente Egeo Dolce d'O Boticário é um conjunto vibrante ideal para quem ama fragrâncias doces e divertidas. O kit contém o Egeo Dolce Desodorante Colônia (90ml), um clássico da perfumaria feminina com notas de marshmallow, sorvete de framboesa e algodão-doce, e o Egeo Dolce Merengue Mousse Hidratante Corporal (85g), que oferece até 48 horas de hidratação com uma textura leve e deliciosa. Ambos os produtos são veganos, não testados em animais e vêm em uma caixa de presente estilizada e sustentável. É a escolha perfeita para um cuidado completo que deixa a pele macia e intensamente perfumada com um toque gourmand inconfundível"
   },
 
   {
     id: 609,
-    nome: "",
+    nome: "Arbo Botanic",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 180.00,
     imagem: "../perfumes/perfume9.jpeg",
-    descricao:""
+    descricao:"Arbo Botanic Desodorante Colônia (100ml) d'O Boticário é uma fragrância masculina ideal para o dia a dia. Inspirada na natureza, sua pirâmide olfativa combina notas de menta, capim-limão, sálvia e sândalo, resultando em um aroma revigorante e equilibrado. O frasco icônico com relevo de folha reforça o conceito de conexão com o verde e o frescor das montanhas. É um produto vegano e cruelty-free, conhecido por sua versatilidade e sensação de liberdade"
   },
 
   {
     id: 610,
-    nome: "",
+    nome: "Arbo Tradicional",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 180.00,
     imagem: "../perfumes/perfume10.jpeg",
-    descricao:""
+    descricao:"Arbo Tradicional é focado no ar da montanha, sendo mais cítrico, gelado e mentolado. Suas notas principais são menta, notas verdes e sândalo, oferecendo um frescor mais clássico e revigorante."
   },
 
   {
     id: 611,
-    nome: "",
+    nome: "Kit Presente L'eau de Lily Soleil",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 250.00,
     imagem: "../perfumes/perfume11.jpeg",
-    descricao:""
+    descricao:"Kit Presente L'eau de Lily Soleil d'O Boticário é um conjunto sofisticado que celebra o brilho e o frescor do sol. O kit inclui o L'eau de Lily Soleil Desodorante Colônia (75ml), uma fragrância Floral Almiscarada que combina o icônico Lírio com o toque ensolarado do Ylang Ylang, e um Creme Acetinado Hidratante para Mãos (50g). Os produtos oferecem uma perfumação intensa e hidratação acetinada com toque seco, ideal para o cuidado diário. Apresentado em uma elegante caixa decorada, o kit é uma opção de presente refinada, unindo a clássica elegância da linha Lily a uma aura mais leve e luminosa"
   },
 
   {
     id: 612,
-    nome: "",
+    nome: "Quasar Brave Desodorante Colônia",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 180.00,
     imagem: "../perfumes/perfume12.jpeg",
-    descricao:""
+    descricao:"Quasar Brave Desodorante Colônia (100ml) d'O Boticário é uma fragrância masculina inspirada na coragem e no vigor da natureza. Sua pirâmide olfativa combina o frescor cítrico da bergamota e pera com um corpo potente que destaca a Folha de Chá Preto, um ingrediente raro e sofisticado. O fundo amadeirado de sândalo e cedro garante uma fixação marcante, ideal para o homem que busca uma perfumação versátil e autêntica. Com uma proposta revigorante, o produto é vegano e cruelty-free, equilibrando perfeitamente a elegância amadeirada com notas herbais"
   },
 
   {
     id: 613,
-    nome: "",
+    nome: "Coffee Woman Seduction",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 250.00,
     imagem: "../perfumes/perfume13.jpeg",
-    descricao:""
+    descricao:"Coffee Woman Seduction Desodorante Colônia (100ml) d'O Boticário é uma fragrância feminina da família Floriental Frutal, inspirada no ritual do café. Sua composição equilibra o dulçor do chocolate branco e da baunilha com o toque vibrante da lichia e do marmelo, resultando em um aroma envolvente e sedutor. O diferencial desta fragrância é o extrato de Café Arábica, que traz uma profundidade sofisticada e aconchegante à perfumação. Ideal para momentos especiais e climas amenos, o produto é vegano e cruelty-free, sendo um dos maiores sucessos da linha Coffee pela sua alta fixação e rastro marcante"
   },
 
   {
     id: 614,
-    nome: "",
+    nome: "Egeo Blue",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 185.00,
     imagem: "../perfumes/perfume14.jpeg",
-    descricao:""
+    descricao:"Egeo Blue Desodorante Colônia (90ml) d'O Boticário é uma fragrância masculina da família Orientais Amadeirada, conhecida por ser jovem, intensa e viciante. Sua pirâmide olfativa combina notas de saída frescas de bergamota e gengibre com um corpo quente de pimenta preta e açafrão, finalizando com um fundo envolvente de baunilha, sândalo e o toque doce do malte. Essa combinação cria um aroma marcante e sedutor, ideal para o dia a dia ou momentos de lazer. O produto é vegano, cruelty-free e apresenta um frasco moderno que reflete a personalidade vibrante e autêntica da linha Egeo"
   },
 
   {
     id: 615,
-    nome: "",
+    nome: "Loção Noturna Nativa SPA Orquídea Noire",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 95.00,
     imagem: "../perfumes/perfume15.jpeg",
-    descricao:""
+    descricao:"Loção Noturna Desodorante Nativa SPA Orquídea Noire (400ml) d'O Boticário é um tratamento corporal intensivo desenvolvido para agir durante o sono. Sua fórmula exclusiva combina a sofisticação da Orquídea Noire com o poder do óleo de quinoa, acelerando em até dez vezes o processo de renovação celular natural da pele. Com uma textura cremosa e fragrância floral amadeirada exótica, ela proporciona uma hidratação profunda que deixa o corpo macio, nutrido e visivelmente saudável ao acordar. É um produto vegano, cruelty-free e composto por 94% de ingredientes naturais, sendo ideal para uma rotina de autocuidado noturno que une eficácia e relaxamento"
   },
 
   {
     id: 616,
-    nome: "",
+    nome: "Floratta Romance de Verão Desodorante Colônia",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 170.00,
     imagem: "../perfumes/perfume16.jpeg",
-    descricao:""
+    descricao:"Floratta Romance de Verão Desodorante Colônia (75ml) d'O Boticário é uma fragrância feminina da família Floral Frutal, inspirada no frescor e na intensidade dos amores de verão. Sua pirâmide olfativa combina o brilho cítrico do limão e da bergamota com a doçura suculenta do pêssego e de frutas tropicais. No corpo, notas florais delicadas se misturam ao toque ensolarado do ylang-ylang, enquanto o fundo amadeirado de sândalo e musk garante uma fixação confortável e acolhedora. O frasco degradê em tons quentes reflete a energia vibrante da estação, sendo uma escolha perfeita para o uso diário em climas tropicais. É um produto vegano e cruelty-free, ideal para mulheres que buscam uma perfumação alegre, romântica e cheia de frescor"
   },
 
   {
     id: 617,
-    nome: "",
+    nome: "Body Splash Nativa SPA Cereja Rouge",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 95.00,
     imagem: "../perfumes/perfume17.jpeg",
-    descricao:""
+    descricao:"Body Splash Nativa SPA Cereja Rouge (200ml) d'O Boticário é uma colônia feminina da família Floral Frutal, inspirada no poder de sedução da cereja. Sua pirâmide olfativa combina notas suculentas de cereja com o toque sofisticado da rosa e um fundo adocicado e ambarado, resultando em uma fragrância intensa, envolvente e sensual. Ideal para ser usado após o banho ou ao longo do dia, ele oferece uma perfumação refrescante que prolonga a sensação de cuidado na pele."
   },
 
   {
     id: 618,
-    nome: "",
+    nome: "Body Splash Nativa SPA Lilac",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 95.00,
     imagem: "../perfumes/perfume18.jpeg",
-    descricao:""
+    descricao:"Body Splash Nativa SPA Lilac (200ml) d'O Boticário é uma fragrância feminina da família Floral Floral, inspirada na delicadeza e na força renovadora das flores. Sua pirâmide olfativa apresenta um buquê elegante de lilás, íris, violeta e lavanda, resultando em um aroma fresco, atalcado e reconfortante. Ideal para ser usado após o banho, ele prolonga a sensação de limpeza e frescor na pele com uma perfumação suave e sofisticada. O produto é vegano, cruelty-free e formulado com ecoálcool, reforçando o compromisso sustentável da marca. Com 95,8% de ingredientes naturais, é a escolha perfeita para quem busca um momento de autocuidado leve e feminino ao longo do dia "
   },
 
   {
     id: 619,
-    nome: "",
+    nome: "Eudora Velvet Inspire",
     categoria: "perfumes",
-    preco: 190.00,
+    preco: 160.00,
     imagem: "../perfumes/perfume19.jpeg",
-    descricao:""
+    descricao:"Eudora Velvet Inspire Desodorante Colônia (100ml) é uma fragrância feminina da família Floriental Musk, desenvolvida para exaltar a autoconfiança e a força feminina. Sua pirâmide olfativa abre com o frescor vibrante da pera e do pêssego, evoluindo para um corpo floral sofisticado com notas de jasmim e osmanthus. O fundo é marcado pela cremosidade da baunilha e a robustez do sândalo, resultando em um rastro envolvente e marcante. Ideal para mulheres que buscam inspirar e ser inspiradas, o perfume é vegano e livre de testes em animais. Sua embalagem moderna em tons degradê reflete a elegância e o mistério contidos na fragrância"
   },
 
   {
     id: 620,
-    nome: "",
+    nome: "Glamour Midnight",
     categoria: "perfumes",
     preco: 190.00,
     imagem: "../perfumes/perfume20.jpeg",
-    descricao:""
+    descricao:"Glamour Midnight Desodorante Colônia (75ml) d'O Boticário é uma fragrância feminina da família Oriental Amadeirada, ideal para quem busca sofisticação e mistério nas noites. Sua pirâmide olfativa destaca-se pela intensidade das notas orientais, combinando a doçura da amêndoa com o calor do âmbar e o toque exótico da Orquídea Negra. O exclusivo acorde Hypnotic Dark traz uma densidade envolvente e sedutora, garantindo uma perfumação marcante e de alta fixação. É um produto vegano e cruelty-free, apresentado em um frasco degradê elegante que remete ao céu estrelado da meia-noite. Perfeito para momentos especiais, ele equilibra perfeitamente o brilho cítrico inicial com um fundo amadeirado profundo e luxuoso."
   },
 
   {
@@ -1320,7 +1313,6 @@ const PRODUTOS = [
     imagem: "../perfumes/perfume50.jpeg",
     descricao:""
   },
-
   // ================= CELULAR =================
   {
     id: 700,
