@@ -2047,5 +2047,582 @@ const PRODUTOS = [
     imagem: "../fardamentosMilitares/breveSutacheFoto/arma de comunicacao.jpeg",
     descricao:"Este patch bordado de Comunicações do Exército Brasileiro é uma insígnia de identificação militar em versão de baixa visibilidade, ideal para uso em fardas operacionais, bonés ou mochilas táticas. Confeccionado em tecido resistente com bordado em tons de cinza e preto sobre fundo verde-oliva, o emblema representa a Arma do Comando através do seu símbolo clássico de quatro setas partindo de um círculo central, simbolizando a irradiação das comunicações em todas as direções [1, 13, 21]. O item geralmente possui acabamento com velcro (fecho de contato) no verso para facilitar a aplicação e troca rápida, seguindo os padrões de camuflagem necessários para manter o sigilo e a discrição em ambientes de combate ou treinamento"
   },
+
+  {
+    id: 11002,
+    nome: "Distintivo Bordado de Corneteiro do Exército Brasileiro (Baixa Visibilidade).",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de cornoteiro bordado.jpeg",
+    descricao:"Este patch bordado identifica militares especializados na função de corneteiro ou clarim, sendo um acessório oficial utilizado em uniformes operacionais de campo, como a gandola camuflada. Confeccionado em lona ou nylon PVC resinado no padrão de baixa visibilidade, o distintivo apresenta fundo verde militar com bordados em tons discretos para manter a camuflagem e evitar reflexos. O item possui dimensões aproximadas de 50 mm x 30 mm, acabamento com borda preta e geralmente conta com fixação por fecho de contato (velcro), facilitando a aplicação e remoção rápida no fardamento. Sua função principal é a sinalização visual da qualificação do militar, responsável por emitir os toques de comando e rotina que regem o cotidiano nas unidades do Exército."
+  },
+
+  {
+    id: 11003,
+    nome: "Distintivo Bordado de Infantaria do Exército Brasileiro (Baixa Visibilidade).",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de infantaria.jpeg",
+    descricao:"Este patch bordado é uma insígnia de especialidade que identifica militares pertencentes à Arma de Infantaria do Exército Brasileiro, sendo utilizado em uniformes operacionais como a gandola camuflada. O distintivo é confeccionado em lona ou nylon PVC resinado com padrão de baixa visibilidade, apresentando fundo verde militar e bordados em tons discretos de linha preta e verde-clara para não comprometer a camuflagem do combatente. Seu design exibe os símbolos tradicionais da infantaria: dois fuzis cruzados sobrepostos por uma granada de mão. Com dimensões padrão de aproximadamente 50 mm x 30 mm e borda de acabamento preta, o item geralmente possui fixação por fecho de contato (velcro) para facilitar a aplicação rápida no fardamento. Trata-se de um símbolo de prestígio que representa a dedicação e a especialização do infante dentro da força terrestre."
+  },
+
+  {
+    id: 11004,
+    nome: "Distintivo do Serviço de Intendência do Exército Brasileiro Bordado (Baixa Visibilidade).",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de intendencia.jpeg",
+    descricao:"Este patch bordado é o distintivo de especialidade que identifica militares do Quadro de Intendência do Exército Brasileiro, sendo aplicado em uniformes operacionais para manter o padrão de baixa visibilidade em campo. Confeccionado em lona de nylon PVC resinado na cor verde militar, o item apresenta o símbolo da Intendência — uma folha de acanto estilizada — bordado em linha preta e verde-clara para garantir a discrição necessária à camuflagem. Com dimensões regulamentares de 50 mm x 30 mm e acabamento em borda preta, o distintivo segue as especificações do Regulamento de Uniformes do Exército (RUE) para uso em gandoletas e blusas de combate. Sua fixação geralmente ocorre por fecho de contato (velcro), permitindo a rápida identificação do militar responsável pela logística, suprimento e administração financeira nas unidades militares. O design da folha de acanto remonta à tradição militar, simbolizando a gestão e o apoio vital às tropas em operações e guarnições."
+  },
+
+  {
+    id: 11005,
+    nome: "Distintivo do Quadro de Material Bélico do Exército Brasileiro Bordado (Baixa Visibilidade).",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de material belico.jpeg",
+    descricao:"Este patch bordado identifica militares pertencentes ao Quadro de Material Bélico (QMB) do Exército Brasileiro, sendo uma insígnia de especialidade utilizada em uniformes operacionais. Confeccionado em lona ou nylon PVC resinado com padrão de baixa visibilidade, o distintivo apresenta fundo verde militar e bordados em tons discretos para não comprometer a camuflagem em campo. Seu design exibe o símbolo tradicional do quadro: dois canhões antigos (bombardas) cruzados, que remetem à história e à missão técnica da unidade. Com dimensões regulamentares de aproximadamente 50 mm x 30 mm e acabamento com borda preta, o item segue as normas do Regulamento de Uniformes do Exército (RUE) para aplicação em gandoletas e blusas de combate. A fixação geralmente é feita por fecho de contato (velcro), permitindo a rápida identificação do militar responsável pela manutenção de armamentos, viaturas e suprimentos técnicos."
+  },
+
+  {
+    id: 11006,
+    nome: "Distintivo de Músico do Exército Brasileiro Bordado (Baixa Visibilidade).",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"Este patch bordado é a insígnia de especialidade que identifica militares músicos do Exército Brasileiro, sendo utilizado em uniformes operacionais para manter o padrão de camuflagem. Confeccionado em lona ou nylon PVC resinado na cor verde militar, o distintivo apresenta o símbolo universal da música — a lira — bordado em tons de linha preta e verde-clara, garantindo a discrição necessária em ambientes de campo. Com dimensões regulamentares de aproximadamente 50 mm x 30 mm e acabamento com borda preta, o item segue as normas do Regulamento de Uniformes do Exército (RUE) para uso em gandoletas e blusas de combate. A fixação geralmente é feita por fecho de contato (velcro), o que permite a aplicação prática e a rápida identificação dos integrantes das bandas e fanfarras militares durante missões e solenidades. Representando a tradição e a cultura musical dentro da força terrestre, este modelo de baixa visibilidade é essencial para compor o enxoval tático do militar especializado"
+  },
+
+  {
+    id: 11007,
+    nome: "Distintivo do Serviço de Saúde do Exército Brasileiro Bordado (Baixa Visibilidade).",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de saude.jpeg",
+    descricao:"Este patch bordado identifica militares do Serviço de Saúde do Exército Brasileiro, sendo uma insígnia de especialidade essencial para o reconhecimento de profissionais médicos, enfermeiros e auxiliares de saúde em campo. Confeccionado em lona ou nylon PVC resinado com padrão de baixa visibilidade, o distintivo apresenta o clássico símbolo da cruz bordado em tons de cinza ou verde-claro sobre um fundo verde militar, garantindo a discrição necessária em ambientes operacionais. Com dimensões padrão de aproximadamente 50 mm x 30 mm e acabamento com borda preta, o item segue rigorosamente as normas do Regulamento de Uniformes do Exército (RUE) para uso em gandoletas e blusas de combate. Sua fixação por fecho de contato (velcro) permite praticidade na substituição e manutenção do fardamento, assegurando que a identificação da equipe de apoio à vida esteja sempre visível e protegida durante missões e exercícios militares."
+  },
+
+  {
+    id: 11008,
+    nome: "Distintivo do Quadro Técnico Temporário do Exército Brasileiro Bordado (Baixa Visibilidade).",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de tecnico bordado.jpeg",
+    descricao:"Este patch bordado é a insígnia de especialidade que identifica militares do Quadro Técnico Temporário (QTT) ou Serviço Técnico Temporário (STT) do Exército Brasileiro, sendo utilizado em uniformes operacionais para manter a camuflagem. O distintivo é confeccionado em lona ou nylon PVC resinado com padrão de baixa visibilidade, apresentando fundo verde militar e bordados em tons discretos de linha preta e verde-clara. Seu design característico exibe uma roda dentada (engrenagem) circunscrevendo a letra T centralizada, simbolizando a atuação técnica e administrativa desses profissionais na força terrestre. Com dimensões regulamentares de aproximadamente 50 mm x 30 mm e acabamento com borda preta, o item segue as normas do Regulamento de Uniformes do Exército (RUE) para uso em gandoletas e blusas de combate. A fixação geralmente é feita por fecho de contato (velcro), o que facilita a aplicação prática no fardamento e a identificação visual rápida da qualificação do militar em ambientes de serviço ou instrução."
+  },
+
+  {
+    id: 11009,
+    nome: "Distintivo de Infantaria do Exército Brasileiro em Borracha (Baixa Visibilidade).",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma infantaria borracha.jpeg",
+    descricao:"Este distintivo emborrachado identifica militares da Arma de Infantaria do Exército Brasileiro, sendo uma versão moderna e resistente para uso em uniformes operacionais [10, 13, 20]. Fabricado pelo processo de moldagem a quente, o item apresenta fundo verde militar com o símbolo dos fuzis cruzados e a granada em relevo na cor branca ou cinza, garantindo alta durabilidade e facilidade de limpeza [8, 9, 10]. Com dimensões regulamentares de aproximadamente 50 mm x 30 mm, ele possui acabamento com borda destacada e fixação por fecho de contato (velcro) costurado na parte traseira, o que permite a aplicação rápida na gola ou no peito da gandola [6, 9, 10]. Este modelo em borracha é amplamente utilizado por sua praticidade em campo, resistindo bem à umidade e ao atrito sem desfiar, mantendo sempre a nitidez da insígnia que representa a Rainha das Armas"
+  },
+
+  {
+    id: 11010,
+    nome: "Distintivo do Quadro de Material Bélico do Exército Brasileiro em Borracha (Baixa Visibilidade).",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma mat belico borracha.jpeg",
+    descricao:"Este distintivo emborrachado identifica militares pertencentes ao Quadro de Material Bélico (QMB) do Exército Brasileiro, sendo uma versão moderna e resistente utilizada em uniformes operacionais. Fabricado em borracha (PVC) pelo processo de moldagem a quente, o item apresenta o símbolo tradicional do quadro — dois canhões antigos (bombardas) cruzados — em relevo na cor cinza ou branca sobre um suporte verde militar, garantindo durabilidade e baixa visibilidade em campo. Com dimensões regulamentares de 40 mm x 30 mm ou 50 mm x 30 mm, o acessório segue as normas do Regulamento de Uniformes do Exército (RUE) para aplicação em golas de gandoletas e blusas de combate. A fixação é feita por fecho de contato (velcro) costurado na parte traseira, o que permite a aplicação prática e rápida no fardamento, identificando o militar responsável pelo apoio logístico e manutenção de armamentos e viaturas."
+  },
+
+  {
+    id: 11011,
+    nome: "Bordado Cruz Vermelha Socorrista Tático.",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/bandeira de saude.jpeg",
+    descricao:"Este patch bordado é um distintivo de identificação médica utilizado por socorristas, paramédicos e profissionais de saúde em contextos táticos ou civis. Confeccionado com linhas de alta resistência sobre uma base de tecido cinza ou branco, o item apresenta a clássica cruz vermelha centralizada, símbolo universal de ajuda humanitária e cuidados médicos. Com dimensões aproximadas de 5 cm x 3 cm, o acessório possui acabamento em borda reforçada e costuma ser equipado com fecho de contato (velcro) na parte traseira para fixação em mochilas, coletes, bonés ou jaquetas. Sua principal função é permitir a localização visual imediata do kit de primeiros socorros ou do profissional capacitado para prestar atendimento emergencial em situações críticas. Por ser um item de alta visibilidade, destaca-se em equipamentos escuros ou camuflados, facilitando a identificação rápida por quem necessita de socorro."
+  },
+
+  {
+    id: 11012,
+    nome: "Bandeira do Brasil Emborrachada com Velcro.",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/bandeira do brasil borracha.jpeg",
+    descricao:"Este patch emborrachado da bandeira do Brasil é um item de identificação de alta qualidade, amplamente utilizado em fardamentos militares, mochilas táticas, coletes, bonés e jaquetas. Fabricado em PVC pelo processo de moldagem a quente, o acessório apresenta as cores oficiais da bandeira nacional com detalhes em relevo, garantindo durabilidade, resistência à umidade e facilidade de limpeza em ambientes operacionais. O modelo possui dimensões regulamentares de aproximadamente 8 cm x 5,5 cm e vem equipado com fecho de contato (velcro) costurado na parte traseira para uma fixação rápida e segura em qualquer superfície aderente. Esta versão colorida é comumente empregada em formaturas, solenidades oficiais e por entusiastas de atividades ao ar livre como o airsoft, servindo tanto para personalização de equipamentos quanto para exibição de orgulho nacional."
+  },
+
+  {
+    id: 11013,
+    nome: "Bandeira do Brasil Bordado (Colorido).",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/bandeira do brasil.jpeg",
+    descricao:"Este patch bordado da bandeira do Brasil é um acessório de identificação visual clássico, utilizado em uniformes militares, roupas táticas, mochilas e bonés para exibir o patriotismo ou a nacionalidade do usuário. Confeccionado em tecido resistente com bordados em linha de alta definição, o item reproduz fielmente as cores verde, amarela e azul, incluindo a faixa branca central e as estrelas da constelação nacional. Com dimensões padrão de aproximadamente 8,5 cm x 5,5 cm, o distintivo possui uma borda costurada reforçada que evita o desfiamento e garante maior durabilidade mesmo após lavagens frequentes. A maioria desses modelos conta com fecho de contato (velcro) na parte traseira, o que permite a fixação e remoção rápida em superfícies aderentes de jaquetas ou equipamentos de campo. É um item indispensável para militares em missões oficiais, praticantes de airsoft e entusiastas que buscam personalizar seu fardamento com um símbolo de alta qualidade."
+  },
+
+  {
+    id: 11014,
+    nome: "Distintivo do Estágio de Operações Aeromóveis do Exército Brasileiro Bordado (Baixa Visibilidade).",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/brave de operacao aeromovel.jpeg",
+    descricao:"Este patch bordado identifica militares que concluíram o Estágio de Operações Aeromóveis (Estg Op Amv) do Exército Brasileiro, sendo uma insígnia de bolso utilizada em uniformes operacionais. Confeccionado em lona de nylon PVC resinado no padrão de baixa visibilidade, o distintivo apresenta fundo verde-militar com bordados em tons discretos de linha preta e cinza para não comprometer a camuflagem. Seu design característico exibe uma asa estilizada unida a um emblema circular, simbolizando a especialização tática e a mobilidade aérea das tropas aeromóveis. Com dimensões regulamentares de 50 mm x 50 mm, o item segue rigorosamente as especificações do Regulamento de Uniformes do Exército (RUE) para aplicação em gandoletas e blusas de combate. A fixação geralmente é feita por fecho de contato (velcro) verde-oliva, o que permite a aplicação prática no fardamento e a rápida identificação da qualificação técnica do militar em ambientes de instrução ou operações reais."
+  },
+
+  {
+    id: 11015,
+    nome: "Distintivo de Embacação do Exército Brasileiro Bordado (Baixa Visibilidade).",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/breve curso de embarcacao.jpeg",
+    descricao:"Este patch bordado identifica militares que possuem a habilitação de Arrais Amador, capacitados para operar embarcações nos limites da navegação interior, como rios, lagos e baías. Confeccionado em lona de nylon PVC de alta resistência, o item apresenta o símbolo de um nó em oito estilizado, bordado em linha de tons discretos sobre um fundo verde militar para manter o padrão de camuflagem operacional. Com dimensões regulamentares de 40 mm x 40 mm (ou 50 mm x 50 mm para uso em bolsos), o distintivo possui uma borda preta de acabamento e fixação por fecho de contato (velcro), permitindo a aplicação prática em gandoletas e uniformes de campo. Este modelo é classificado como um distintivo peculiar, destinado a sinalizar cursos e especializações técnicas realizadas dentro ou fora da força."
+  },
+
+  {
+    id: 11016,
+    nome: "Distintivo de Estágios do IEFEx do Exército Brasileiro Bordado (Baixa Visibilidade).",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/breve de curso de of.jpeg",
+    descricao:"Este patch bordado é a insígnia de identificação para militares que concluíram estágios no Instituto de Economia e Finanças do Exército (IEFEx), anteriormente conhecido como ICFEx. Confeccionado em lona de nylon PVC de alta resistência, o distintivo segue o padrão de baixa visibilidade (subdued), apresentando fundo verde-militar com bordados em tons discretos de preto e cinza para não comprometer a camuflagem operacional. O design apresenta elementos simbólicos como uma espada central, asas e ramos de louro sobrepostos a um globo terrestre com meridianos e paralelos, tudo envolto por uma borda circular. Com dimensões regulamentares de 50 mm x 50 mm, o item é destinado ao uso no bolso da gandola camuflada e geralmente possui fixação por fecho de contato (velcro) para facilitar a aplicação prática no fardamento. Sua produção e uso seguem as especificações do Regulamento de Uniformes do Exército (RUE), sendo um símbolo de qualificação técnica para os militares da força terrestre"
+  },
+
+  {
+    id: 11017,
+    nome: "Distintivo do Estágio de Motorista Militar de Viatura Sobre Rodas Bordado (Baixa Visibilidade).",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/breve de motorista.jpeg",
+    descricao:"Este patch bordado identifica militares que concluíram o Estágio de Motorista Militar de Viatura Sobre Rodas (Estg Mot Mil Vtr SR) do Exército Brasileiro, sendo uma insígnia de bolso para uniformes operacionais. Confeccionado em lona e nylon PVC de alta resistência no padrão de baixa visibilidade, o distintivo apresenta fundo verde-militar com o símbolo de uma roda dentada estilizada bordado em tons discretos de preto e cinza. Com dimensões regulamentares de 50 mm x 50 mm, o item segue rigorosamente as especificações do Regulamento de Uniformes do Exército (RUE) para aplicação em gandoletas e blusas de combate. A fixação é feita por fecho de contato (velcro) verde-oliva, garantindo praticidade e durabilidade em ambientes de campo e missões reais."
+  },
+
+  {
+    id: 11018,
+    nome: "Distintivo do Curso de Navegação Fluvial do Exército Brasileiro Bordado (Baixa Visibilidade).",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/breve de piloto de embarcacao.jpeg",
+    descricao:"Este patch bordado identifica militares que concluíram o Curso de Navegação Fluvial, sendo uma insígnia de peito utilizada em uniformes operacionais. Confeccionado em lona e nylon PVC de alta resistência, o distintivo segue o padrão de baixa visibilidade, com fundo verde-militar e bordados em tons discretos de preto e cinza para garantir a camuflagem em campo. O design apresenta elementos náuticos como um timão central sobreposto a uma âncora, ladeado por asas e ramos de louro, tudo encimado por uma estrela. Com dimensões regulamentares de 70 mm x 30 mm, o item possui acabamento com borda preta e fixação por fecho de contato (velcro) verde-oliva, facilitando a aplicação em gandoletas e blusas de combate conforme as normas do RUE."
+  },
+
+  {
+    id: 11019,
+    nome: "Distintivo de Praça Mais Distinta do Exército Brasileiro Bordado (Baixa Visibilidade).",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/breve de praca.jpeg",
+    descricao:"Este patch bordado é o distintivo de Distinção, concedido ao militar que se destaca como a Praça Mais Distinta de sua unidade, sendo uma honraria utilizada em uniformes operacionais. Confeccionado em lona de nylon PVC de alta resistência no padrão de baixa visibilidade, o item apresenta fundo verde-militar com a palavra DISTINÇÃO e uma coroa de louros bordadas em tons discretos de preto e cinza. Com dimensões regulamentares de 50 mm x 50 mm, o distintivo é destinado ao uso no bolso da gandola camuflada, seguindo rigorosamente as especificações do Regulamento de Uniformes do Exército (RUE). A fixação é feita por fecho de contato (velcro) verde-oliva, o que garante praticidade na aplicação e durabilidade para o uso diário em ambientes de instrução e serviço. Trata-se de um símbolo de reconhecimento ao mérito, disciplina e desempenho exemplar do soldado ou cabo durante o período de serviço militar."
+  },
+
+  {
+    id: 11020,
+    nome: "Distintivo de Arrais Amador do Exército Brasileiro em Borracha (Baixa Visibilidade).",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/curdo de embarcacao borracha.jpeg",
+    descricao:"Este distintivo emborrachado identifica militares qualificados como Arrais Amador, capacitados para a condução de embarcações nos limites da navegação interior em rios, lagos e áreas abrigadas. O acessório é fabricado em PVC de alta resistência através do processo de moldagem a quente, garantindo durabilidade superior contra umidade e atrito em ambientes náuticos ou de campo. Seu design apresenta o tradicional nó em oito estilizado em relevo na cor cinza, sobre um suporte de formato hexagonal na cor verde-militar para manter o padrão de baixa visibilidade exigido em operações. Com dimensões regulamentares de acordo com as normas do Exército Brasileiro, o patch possui acabamento com bordas reforçadas e fixação por fecho de contato (velcro) costurado na parte posterior. Esta peça é essencial para a correta identificação da especialidade técnica do militar em gandoletas, mochilas ou bonés táticos durante o serviço. Por ser feito de borracha, o item facilita a higienização e não desfia, sendo uma escolha prática e funcional para o uso diário em fardamentos operacionais. A simbologia do nó em oito remete diretamente à segurança e maestria técnica necessárias para a navegação segura de tropas e suprimentos em vias fluviais. O item segue rigorosamente as diretrizes visuais do Regulamento de Uniformes do Exército (RUE), garantindo padronização e profissionalismo na apresentação individual do combatente especializado."
+  },
+
+  {
+    id: 11021,
+    nome: "Distintivo do Estágio do CECMA (Centro de Embarcações do Comando Militar da Amazônia) Bordado.",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/curso piloto de embarcacao.jpeg",
+    descricao:"Este patch bordado identifica militares que concluíram o estágio de especialização no Centro de Embarcações do Comando Militar da Amazônia (CECMA), sendo uma insígnia de bolso voltada para o uso em uniformes operacionais. Confeccionado em lona de nylon PVC de alta resistência, o distintivo apresenta o padrão de baixa visibilidade com fundo verde-militar e bordados em linha preta e cinza, garantindo a discrição necessária em ambientes de selva. Seu design característico exibe a silhueta de uma embarcação de transporte fluvial estilizada dentro de um círculo, simbolizando a expertise técnica em navegação e logística nos rios da bacia amazônica. Com dimensões regulamentares de 50 mm x 50 mm, o item segue as normas do Regulamento de Uniformes do Exército (RUE) para aplicação em gandoletas e blusas de combate. A fixação é realizada por fecho de contato (velcro) verde-militar costurado na parte traseira, o que proporciona praticidade na aplicação e durabilidade para o uso intenso em missões reais. O CECMA é a unidade responsável pelo transporte por água de tropas e suprimentos, tornando este distintivo um símbolo de orgulho e qualificação técnica para os combatentes de selva. Por ser um modelo bordado, oferece um acabamento refinado e resistente a múltiplas lavagens sem perder a nitidez da imagem. Este acessório é indispensável para a correta identificação da formação do militar em cursos de transporte fluvial e operações ribeirinhas."
+  },
+
+  {
+    id: 11022,
+    nome: "Distintivo de Organização Militar da Companhia de Comando da 16ª Brigada de Infantaria de Selva (Baixa Visibilidade).",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/dinstitivo cia cmd.jpeg",
+    descricao:"Este patch bordado identifica a unidade militar da Companhia de Comando da 16ª Brigada de Infantaria de Selva (Cia C/16ª Bda Inf Sl), sendo um distintivo de bolso utilizado em uniformes operacionais do Exército Brasileiro. Confeccionado em lona de nylon PVC de alta resistência, o item segue o padrão de baixa visibilidade com fundo verde-militar e bordados em tons discretos de preto e cinza para garantir a eficácia da camuflagem em ambientes de selva. O design heráldico apresenta, na parte superior, a inscrição da unidade e, ao centro de um losango, um escudo dividido contendo elementos históricos e regionais, como as ruínas de São Miguel Arcanjo e a face estilizada de uma onça-pintada, símbolo das tropas de elite de selva. Com dimensões regulamentares de 50 mm x 50 mm, o acessório segue as normas do Regulamento de Uniformes do Exército (RUE) para aplicação em gandoletas e blusas de combate. A fixação é feita por fecho de contato (velcro) verde-oliva costurado na parte traseira, o que proporciona praticidade na aplicação e durabilidade para o uso intenso em missões reais e exercícios de adestramento. Este distintivo é um símbolo de identidade e orgulho para os militares que servem nesta brigada estratégica, sediada em Tefé, Amazonas, responsável pela defesa da soberania nacional na vasta região amazônica."
+  },
+
+  {
+    id: 11023,
+    nome: "Distintivo de Organização Militar do 16º Pelotão de Comunicações de Selva Bordado (Baixa Visibilidade).",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/dinstitivo de goro comunicacao.jpeg",
+    descricao:"Este patch bordado identifica a unidade do 16º Pelotão de Comunicações de Selva (16º Pel Com Sl) do Exército Brasileiro, sendo um distintivo de bolso utilizado exclusivamente em uniformes operacionais. Confeccionado em lona de nylon PVC de alta resistência, o item apresenta o padrão de baixa visibilidade com fundo verde-militar e bordados em linha preta e cinza para garantir a eficácia da camuflagem em ambientes de selva amazônica. O design exibe, na parte superior, a inscrição da unidade e, ao centro de um losango, o símbolo das comunicações — uma estrela de cinco pontas sobreposta a raios estilizados — indicando a missão de estabelecer e manter os elos de comando. Com dimensões regulamentares de 50 mm x 50 mm, o acessório segue rigorosamente as normas do Regulamento de Uniformes do Exército (RUE) para aplicação em gandoletas e blusas de combate. A fixação é feita por fecho de contato (velcro) verde-oliva costurado na parte traseira, o que proporciona praticidade na aplicação e durabilidade para o uso intenso em missões de apoio ao combate. Este distintivo representa o profissionalismo e a especialização técnica dos militares que garantem a conectividade das tropas da 16ª Brigada de Infantaria de Selva. Sua estrutura robusta é projetada para resistir ao clima úmido e ao desgaste natural das operações em ambiente de selva, mantendo a nitidez da identificação da unidade. É um símbolo de identidade essencial para a padronização e o reconhecimento dos integrantes do pelotão em formaturas e exercícios de campanha."
+  },
+
+  {
+    id: 11024,
+    nome: "Distintivo de Organização Militar do 16º Batalhão Logístico de Selva Bordado (Baixa Visibilidade).",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/dinstitivo de gorro balog.jpeg",
+    descricao:"Este patch bordado identifica a unidade do 16º Batalhão Logístico de Selva (16º B Log Sl) do Exército Brasileiro, sendo um distintivo de bolso essencial para uniformes operacionais. Confeccionado em lona de nylon PVC de alta resistência, o item segue o padrão de baixa visibilidade com fundo verde-militar e bordados em tons discretos de preto e cinza-claro para garantir a camuflagem em ambientes de selva amazônica. O design exibe o brasão histórico da unidade, que inclui a face de uma onça-pintada sobreposta a um símbolo heráldico em formato de losango, representando a força e o apoio logístico às tropas da 16ª Brigada de Infantaria de Selva. Com dimensões regulamentares de 50 mm x 50 mm ou 58 mm x 80 mm dependendo do modelo, o acessório atende às especificações do Regulamento de Uniformes do Exército (RUE) para aplicação em gandoletas e blusas de combate. A fixação é realizada por fecho de contato (velcro) verde-oliva costurado na parte traseira, o que proporciona praticidade e durabilidade para o uso em missões reais. Este distintivo simboliza o lema de apoio logístico ao combate na Amazônia, sendo um item de identificação obrigatório para o reconhecimento da organização militar em exercícios de campanha e formaturas."
+  },
+
+  {
+    id: 11025,
+    nome: "Distintivo de Gorro do Curso de Guerra na Selva (Baixa Visibilidade).",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/dinstitivo de gorro guerra selva.jpeg",
+    descricao:"Este patch bordado identifica militares que concluíram com sucesso o curso de especialização no Centro de Instrução de Guerra na Selva (CIGS), sendo uma insígnia destinada ao uso em gorros e coberturas operacionais. Confeccionado em lona de nylon PVC de alta resistência no padrão de baixa visibilidade, o distintivo apresenta fundo verde-militar com a icônica face da onça-pintada e a inscrição GUERRA NA SELVA bordadas em tons discretos de preto e cinza. Com dimensões regulamentares de aproximadamente 45 mm x 37 mm, o item segue rigorosamente as especificações do Regulamento de Uniformes do Exército (RUE) para manter o padrão de camuflagem em ambientes de selva amazônica. A fixação é geralmente realizada por fecho de contato (velcro) costurado na parte traseira, o que proporciona praticidade na aplicação e alta durabilidade para enfrentar as condições climáticas adversas de operações reais. Trata-se de um símbolo de prestígio mundial, representando a qualificação técnica e o espírito de corpo dos combatentes de elite especializados na defesa da soberania brasileira na Amazônia."
+  },
+
+  {
+    id: 11026,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/dinstitivo de gorro.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11027,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11028,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11029,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11030,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11031,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11032,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11033,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11034,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11035,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11036,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11037,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11038,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11039,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11040,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11041,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11042,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11043,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11044,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11045,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11046,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11047,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11048,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11049,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11050,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11051,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11052,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11053,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11054,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11055,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11056,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11057,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11058,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11059,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11060,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11061,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11062,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11063,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11064,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
+  {
+    id: 11065,
+    nome: "",
+    categoria: "breveSutache",
+    preco: 80.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/arma de musica.jpeg",
+    descricao:"E"
+  },
+
 ];
 
