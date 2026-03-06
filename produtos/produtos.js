@@ -1907,7 +1907,7 @@ const PRODUTOS = [
     id: 800,
     nome: "JBL Boombox 3",
     categoria: "caixa de som",
-    preco: 199.90,
+    preco: 3200.00,
     imagem: "../eletronicos/caixaDeSomFoto/bombox.jpg",
     descricao: "JBL Boombox 3 com seu icônico design atualizado, conta com um novo sistema de alto-falantes de 3 vias que entrega maior clareza e fidelidade sonora, transformando qualquer ambiente em uma verdadeira festa. Sua bateria de longa duração oferece até 24 horas de reprodução contínua, garantindo música do amanhecer ao anoitecer. Além disso, é totalmente à prova d'água e poeira (IP67), sendo a companhia perfeita para a piscina ou a praia. Com a tecnologia PartyBoost, você pode conectar várias caixas compatíveis para uma experiência estéreo ainda mais imersiva e potente."
   },
@@ -1916,7 +1916,7 @@ const PRODUTOS = [
     id: 803,
     nome: "JBL Boombox 4 Squad",
     categoria: "caixa de som",
-    preco: 199.90,
+    preco: 3200.00,
     imagem: "../eletronicos/caixaDeSomFoto/caixa3.jpeg",
     descricao: "JBL Boombox 4 Squad, uma caixa de som Bluetooth que une potência extrema e design camuflado robusto. Ideal para festas e ambientes externos, ela entrega o lendário Som JBL Pro com graves profundos e até 210W RMS de potência. Com certificação IP68, ela é totalmente à prova d'água e poeira, garantindo durabilidade na piscina ou na praia. Sua bateria impressionante oferece até 34 horas de reprodução (com Playtime Boost), e a tecnologia Auracast™ permite conectar múltiplas caixas compatíveis. É o equilíbrio perfeito entre estilo ousado e performance sonora profissional para quem não aceita menos que o melhor."
   },
@@ -1925,7 +1925,7 @@ const PRODUTOS = [
     id: 805,
     nome: "JBL Boombox 4 Azul",
     categoria: "caixa de som",
-    preco: 199.90,
+    preco: 3200.00,
     imagem: "../eletronicos/caixaDeSomFoto/caixa5.jpeg",
     descricao: "JBL Boombox 4 Azul, edefine o conceito de som massivo com 210W RMS de potência e a inovadora tecnologia AI Sound Boost, que analisa a música em tempo real para otimizar a clareza e os graves sem distorções. Equipada com woofers maiores e radiadores passivos, ela entrega uma assinatura sonora profunda e cristalina, ideal para qualquer evento. Sua bateria de longa duração oferece até 34 horas de reprodução (com Playtime Boost), garantindo a festa o dia inteiro. Com proteção IP68 à prova d’água e poeira, você pode levá-la com total segurança para a praia ou piscina. Além disso, a conectividade Bluetooth 5.4 e a tecnologia Auracast™ permitem sincronizar múltiplas caixas para uma experiência sonora estéreo sem limites."
   },
@@ -1943,7 +1943,7 @@ const PRODUTOS = [
     id: 804,
     nome: "Aiwa Boombox Plus BBS-01-B",
     categoria: "caixa de som",
-    preco: 199.90,
+    preco: 2400.00,
     imagem: "../eletronicos/caixaDeSomFoto/caixa4.jpeg",
     descricao: "Aiwa Boombox Plus BBS-01-B uma caixa de som de alta performance com 200W RMS de potência. Seu sistema de som de 3 vias (1 subwoofer, 2 midrange e 2 tweeters) aliado a radiadores passivos laterais entrega graves profundos e agudos cristalinos com fidelidade sonora superior. Projetada para a máxima portabilidade, possui bateria de 10.400mAh que garante até 30 horas de reprodução contínua. Com certificação IP66, é resistente a jatos de água e poeira, sendo ideal para festas ao ar livre, piscina ou praia. Conta ainda com Bluetooth 5.3, tecnologia TWS para parear duas caixas e entrada USB, unindo potência, durabilidade e conectividade em um design moderno com alça integrada."
   },
@@ -2566,7 +2566,7 @@ const PRODUTOS = [
     id: 4000,
     nome: "Diabo Verde #Pre-Workout da FTW",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 120.00,
     imagem: "../suplementoEsporte/suplementosFotos/creatina1.jpeg",
     descricao:"O Diabo Verde #Pre-Workout é o combustível ideal para levar seus treinos a um nível insano. Com uma combinação poderosa de 200mg de cafeína, beta-alanina, arginina, taurina e tirosina, ele proporciona um aumento imediato de disposição e concentração. Sua fórmula exclusiva com Palatinose™ garante uma liberação gradual de energia, evitando picos e quedas bruscas de rendimento. Seja para musculação ou atividades de alta intensidade, este pré-treino auxilia na vasodilatação e na melhora da percepção de esforço, permitindo que você supere seus limites a cada sessão."
   },
@@ -2575,7 +2575,7 @@ const PRODUTOS = [
     id: 4001,
     nome: "Haze Hardcore Pré-Workout da Growth Supplements",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 120.00,
     imagem: "../suplementoEsporte/suplementosFotos/creatina2.jpeg",
     descricao:"O Haze Hardcore entrega uma combinação estratégica de ingredientes que potencializam o foco e a energia. Sua fórmula conta com 2g de Beta-Alanina para retardar a fadiga muscular, além de 1000mg de Arginina e 1000mg de Taurina, que auxiliam na vasodilatação e no transporte de nutrientes para os músculos. Com 150mg de Cafeína e 250mg de Tirosina, ele garante alerta mental e disposição sem causar o crash pós-treino. No delicioso sabor Laranja, este suplemento em pó de 300g oferece praticidade e resultados reais para quem leva o treino a sério."
   },
@@ -2584,7 +2584,7 @@ const PRODUTOS = [
     id: 4002,
     nome: "Creatina Monohidratada Max Titanium (300g)",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 100.00,
     imagem: "../suplementoEsporte/suplementosFotos/creatina3.jpeg",
     descricao:"A Creatina Max Titanium é o combustível que seus músculos precisam para alcançar um novo nível de performance. Desenvolvida com creatina monohidratada 100% pura, ela auxilia no aumento da força máxima e na rápida ressíntese de energia, permitindo treinos mais longos e intensos. Além de favorecer a hipertrofia e a hidratação celular, este suplemento é livre de glúten e sódio, garantindo máxima pureza e absorção para resultados reais e duradouros."
   },
@@ -2593,7 +2593,7 @@ const PRODUTOS = [
     id: 4003,
     nome: "Diabo Verde Dilabol Pump da FTW (300g)",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 120.00,
     imagem: "../suplementoEsporte/suplementosFotos/creatina4.jpeg",
     descricao:"Diabo Verde Dilabol Pump da FTW (300g), foi formulado estrategicamente para potencializar a vasodilatação e a resistência muscular. Sua combinação de Beta-Alanina, Arginina, Taurina e Tirosina atua diretamente no retardamento da fadiga e na melhora do fluxo sanguíneo para os músculos. Com o delicioso sabor de Energético, este suplemento garante que você mantenha a intensidade do início ao fim do treino, promovendo aquele volume muscular desejado e foco mental apurado, tudo isso com a segurança de uma fórmula livre de substâncias que causam agitação excessiva."
   },
@@ -2602,7 +2602,7 @@ const PRODUTOS = [
     id: 4004,
     nome: "Panic Pré-Workout Adaptogen - Energia e Foco",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 120.00,
     imagem: "../suplementoEsporte/suplementosFotos/creatina5.jpeg",
     descricao:"Panic Pré-Workout (300g) da Adaptogen é um suplemento de alta performance focado em fornecer energia explosiva e foco total para seus treinos. Com fórmula reformulada e sabor Maçã Verde, ele combina Beta-Alanina, Arginina e Cafeína para retardar a fadiga muscular e aumentar a resistência. O grande diferencial é a Creatina adicionada, que potencializa o ganho de força e a recuperação. É a escolha ideal para atletas que buscam máxima intensidade e rendimento físico em cada sessão."
   },
@@ -2620,7 +2620,7 @@ const PRODUTOS = [
     id: 4006,
     nome: "Prohibido Hardcore (180g)",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 120.00,
     imagem: "../suplementoEsporte/suplementosFotos/creatina7.jpeg",
     descricao:"Prohibido Hardcore (180g), da linha Underground Series da 3VS Nutrition, é um pré-treino de alta intensidade projetado para quem busca energia extrema e vasodilatação. Sua fórmula poderosa combina 8 ingredientes chave, incluindo 3000mg de Arginina, 2000mg de Beta-Alanina e 200mg de Cafeína, garantindo foco, resistência e redução da fadiga. O diferencial fica por conta da adição de Palatinose, um carboidrato de baixo índice glicêmico que fornece energia constante, e Creatina para explosão muscular. No sabor Green Apple (Maçã Verde), ele oferece uma experiência refrescante para elevar o nível dos seus treinos mais insanos."
   },
@@ -2629,7 +2629,7 @@ const PRODUTOS = [
     id: 4007,
     nome: "Creatina Hardcore (300g) ",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 100.00,
     imagem: "../suplementoEsporte/suplementosFotos/creatina8.jpeg",
     descricao:"Creatina Hardcore (300g) da Integralmedica é um suplemento de pureza elevada, composta por creatina monohidratada na forma micronizada para garantir rápida absorção e solubilidade. É o combustível essencial para aumentar a força muscular, o desempenho em treinos de explosão e a hidratação das células musculares, favorecendo o ganho de massa. Sua fórmula é 100% pura, livre de sódio, açúcares ou aditivos artificiais, sendo ideal para quem busca resultados sólidos e recuperação acelerada. O pote de 300g oferece um excelente rendimento para o uso diário contínuo, fundamental para manter os estoques musculares sempre saturados."
   },
@@ -2638,7 +2638,7 @@ const PRODUTOS = [
     id: 4008,
     nome: "Creatina Monohidratada (300g)",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 100.00,
     imagem: "../suplementoEsporte/suplementosFotos/creatina9.jpeg",
     descricao:"Creatina Monohidratada (300g) da Probiótica é um suplemento de alta qualidade, desenvolvido com tecnologia de ponta para auxiliar no ganho de massa muscular e na performance física. Sua fórmula é composta por creatina 100% pura, com alto grau de concentração e pureza, sendo livre de glúten e aditivos como açúcares ou gorduras. Ao aumentar a disponibilidade de ATP nas células musculares, ela proporciona mais força, resistência e explosão durante exercícios de alta intensidade e curta duração. Com excelente solubilidade, este pote de 300g rende aproximadamente 100 doses de 3g, sendo uma escolha confiável e eficaz para atletas que buscam evolução constante nos treinos."
   },
@@ -2647,7 +2647,7 @@ const PRODUTOS = [
     id: 4009,
     nome: "Pure Creatine (300g)",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 100.00,
     imagem: "../suplementoEsporte/suplementosFotos/creatina10.jpeg",
     descricao:"Pure Creatine (300g) da Dark Lab é reconhecida por sua pureza extrema e excelente custo-benefício. Composta por creatina monohidratada de matéria-prima importada, ela passa por processos rigorosos de filtragem para garantir 100% de aproveitamento pelo organismo. Seu uso contínuo promove o aumento da síntese de ATP, resultando em mais explosão, força muscular e uma recuperação mais rápida entre as séries. Livre de corantes, sabores ou conservantes, é o suplemento base para quem deseja maximizar a hipertrofia e o rendimento físico com um produto de confiança."
   },
@@ -2656,7 +2656,7 @@ const PRODUTOS = [
     id: 4010,
     nome: "Creatina Monohidratada Creapure (250g)",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 160.00,
     imagem: "../suplementoEsporte/suplementosFotos/creatina11.jpeg",
     descricao:" Creatina Monohidratada Creapure (250g) da Growth Supplements é o padrão ouro em suplementação de creatina. O selo Creapure® garante uma matéria-prima alemã de pureza inigualável, livre de impurezas e com processos de fabricação rigorosos. Ela potencializa a ressíntese de energia (ATP), resultando em ganho real de força, aumento do volume muscular e recuperação acelerada entre as séries. Ideal para atletas exigentes, sua fórmula é 100% autêntica, sem aditivos, e oferece a máxima biodisponibilidade para resultados consistentes e seguros. É a escolha definitiva para quem não abre mão de qualidade internacional e performance máxima."
   },
@@ -2665,7 +2665,7 @@ const PRODUTOS = [
     id: 4011,
     nome: "Creatina Monohidratada (300g)",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 100.00,
     imagem: "../suplementoEsporte/suplementosFotos/creatina12.jpeg",
     descricao:"Creatina Monohidratada (300g) da Dux Nutrition é um suplemento de grau farmacêutico, reconhecido por sua pureza e controle de qualidade excepcionais. Composta por creatina 100% monohidratada, ela é livre de substâncias banidas, corantes ou ingredientes artificiais, sendo ideal para atletas de elite e praticantes exigentes. Sua fórmula acelera a ressíntese de ATP, garantindo força explosiva, ganho de massa magra e melhor recuperação muscular. No formato sem sabor, oferece versatilidade total para ser misturada ao seu shake ou bebida favorita com excelente solubilidade. É a nutrição muscular definitiva para quem busca performance superior com total segurança."
   },
@@ -2674,7 +2674,7 @@ const PRODUTOS = [
     id: 4012,
     nome: "Creatine (300g)",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 100.00,
     imagem: "../suplementoEsporte/suplementosFotos/creatina13.jpeg",
     descricao:"Creatine (300g) da Under Labz é um suplemento desenvolvido sob o conceito #BORNTODISRUPT, focado em atletas que buscam quebrar barreiras e atingir o próximo nível. Composta por creatina monohidratada de alta pureza, ela garante o aporte necessário para a ressíntese de ATP, resultando em ganho real de força e explosão muscular. Sua fórmula sem sabor é altamente versátil e possui excelente solubilidade, facilitando a mistura em qualquer bebida. O pote oferece um rendimento superior de 100 doses, sendo a escolha estratégica para quem busca hipertrofia, resistência e recuperação acelerada com um visual moderno e agressivo."
   },
@@ -2683,7 +2683,7 @@ const PRODUTOS = [
     id: 4013,
     nome: "Diabo Verde #Pre-Workout The Tank (300g)",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 120.00,
     imagem: "../suplementoEsporte/suplementosFotos/creatina14.jpeg",
     descricao:"Diabo Verde #Pre-Workout The Tank (300g) da FTW é um suplemento desenvolvido para envenenar seus treinos com energia brutal e foco implacável. No sabor refrescante de Cherry Lemonade, sua fórmula de elite combina Beta-Alanina, Arginina, Tirosina, Cafeína e Taurina, garantindo máxima vasodilatação e resistência contra a fadiga muscular. Ideal para atletas que buscam ultrapassar limites, ele oferece o suporte necessário para treinos de alta intensidade, explosão e concentração total. O pote de 300g proporciona um rendimento excelente, sendo o combustível definitivo para quem quer transformar cada sessão de treino em uma verdadeira batalha vencida."
   },
@@ -2692,7 +2692,7 @@ const PRODUTOS = [
     id: 4014,
     nome: "Colágeno Tipo II (30 cápsulas)",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 120.00,
     imagem: "../suplementoEsporte/suplementosFotos/creatina15.jpeg",
     descricao:"Colágeno Tipo II (30 cápsulas) da Lion Sports Nutrition é o suplemento essencial para quem treina pesado e quer proteger suas articulações. Desenvolvido com colágeno não desnaturado, ele age diretamente na regeneração das cartilagens e na redução de dores e inflamações articulares, garantindo mais mobilidade e flexibilidade. Ideal para atletas que buscam superar limites sem comprometer a saúde do corpo a longo prazo. Com apenas uma cápsula ao dia, você previne lesões e mantém a estrutura óssea e articular pronta para os maiores desafios."
   },
@@ -2701,16 +2701,16 @@ const PRODUTOS = [
     id: 4015,
     nome: "Sparta Pre-Workout (300g)",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 120.00,
     imagem: "../suplementoEsporte/suplementosFotos/creatina16.jpeg",
     descricao:"Sparta Pre-Workout (300g) da Lion Sports Nutrition é o suplemento ideal para quem busca força e foco de um verdadeiro guerreiro. No sabor Green Energy (Maçã Verde), sua fórmula combina Beta-Alanina, Arginina, Taurina e Cafeína, oferecendo energia explosiva, maior resistência muscular e uma vasodilatação incrível. Ele foi desenhado para retardar a fadiga e aumentar a concentração, permitindo que você supere seus limites em cada treino. Com excelente solubilidade e rendimento, é o aliado perfeito para maximizar sua performance física e mental."
   },
 
   {
     id: 4016,
-    nome: "Dry-Flex Extreme Thermo Shot (300g) da Lion Sports Nutrition",
+    nome: "Pré Treino Noturno Dry-Flex Extreme Thermo Shot (300g) da Lion Sports Nutrition",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 120.00,
     imagem: "../suplementoEsporte/suplementosFotos/creatina17.jpeg",
     descricao:"Dry-Flex Extreme Thermo Shot (300g) da Lion Sports Nutrition é o suplemento ideal para quem busca definição muscular e queima de gordura eficiente. No sabor refrescante de Abacaxi com Gengibre, sua fórmula potente combina Hibisco, Chá Preto, Chá Verde e Matcha, poderosos ativos termogênicos e diuréticos. Ele acelera o metabolismo, aumenta o gasto calórico e auxilia na redução da retenção de líquidos, combatendo o inchaço. Com adição de polpa de laranja em pó, oferece um suporte antioxidante enquanto você esculpe seu corpo. É a escolha definitiva para maximizar a queima calórica e atingir a definição desejada com energia e vitalidade."
   },
@@ -2719,7 +2719,7 @@ const PRODUTOS = [
     id: 4017,
     nome: "Colágeno + Ácido Hialurônico (300g) da Lion Sports Nutrition",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 120.00,
     imagem: "../suplementoEsporte/suplementosFotos/creatina18.jpeg",
     descricao:"Colágeno + Ácido Hialurônico (300g) da Lion Sports Nutrition é o suplemento completo para quem busca saúde e beleza de dentro para fora. No delicioso sabor Frutas Vermelhas, sua fórmula combina o colágeno, essencial para a firmeza e elasticidade da pele, com o ácido hialurônico, um poderoso hidratante que preenche os tecidos e lubrifica as articulações. Juntos, eles combatem os sinais de envelhecimento, fortalecem unhas e cabelos e garantem uma aparência renovada e saudável. Com excelente solubilidade, é a escolha ideal para integrar sua rotina de cuidados diários com praticidade e eficácia."
   },
@@ -2728,7 +2728,7 @@ const PRODUTOS = [
     id: 4018,
     nome: "100% Whey (900g) da Max Titanium",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 160.00,
     imagem: "../suplementoEsporte/suplementosFotos/whey1.jpeg",
     descricao:"100% Whey (900g) da Max Titanium é um dos suplementos proteicos mais premiados e confiáveis do mercado brasileiro. Elaborado com proteína concentrada do soro do leite de alta qualidade, ele entrega 21g de proteína e 4.814mg de BCAAs por porção, garantindo o aporte ideal para a construção e recuperação muscular pós-treino. No clássico sabor Baunilha, possui excelente solubilidade e um perfil completo de aminoácidos essenciais. É a escolha estratégica para atletas de todos os níveis que buscam hipertrofia, manutenção da massa magra e um suplemento livre de glúten com alto valor biológico."
   },
@@ -2737,7 +2737,7 @@ const PRODUTOS = [
     id: 4019,
     nome: "Whey 100% Pure (907g) ",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 185.00,
     imagem: "../suplementoEsporte/suplementosFotos/whey2.jpeg",
     descricao:"Whey 100% Pure (907g) da Integralmedica é o suplemento proteico ideal para quem busca ganho de massa muscular e recuperação pós-treino. Elaborado com proteína concentrada do soro do leite de alta qualidade, ele entrega 21g de proteína, 9g de EAAs (aminoácidos essenciais) e 4,6g de BCAA por dose. No sabor Baunilha, possui excelente solubilidade e um perfil de aminoácidos de alto valor biológico, garantindo rápida absorção pelo organismo. É a escolha estratégica para atletas que não abrem mão de uma nutrição muscular pura, eficaz e com o selo de confiança da marca número 1 do Brasil."
   },
@@ -2746,7 +2746,7 @@ const PRODUTOS = [
     id: 4020,
     nome: "Top Whey 80% Concentrado (1kg) da Growth Supplements",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 185.00,
     imagem: "../suplementoEsporte/suplementosFotos/whey3.jpeg",
     descricao:"Top Whey 80% Concentrado (1kg) da Growth Supplements é um dos suplementos mais vendidos do Brasil, unindo alto valor biológico e o melhor custo-benefício. No sabor Mousse de Maracujá, entrega 24g de proteína por porção, além de 5,4g de BCAAs e 4,5g de Glutamina, garantindo suporte total para a síntese proteica e recuperação muscular. Elaborado com matéria-prima importada de alta qualidade, possui excelente solubilidade e um perfil de aminoácidos completo. É a escolha estratégica para atletas que buscam ganho de massa magra com uma proteína pura, deliciosa e com transparência total de tabela nutricional."
   },
@@ -2755,7 +2755,7 @@ const PRODUTOS = [
     id: 4021,
     nome: "Top Whey 80% Concentrado (1kg) da Growth Supplements",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 185.00,
     imagem: "../suplementoEsporte/suplementosFotos/whey4.jpeg",
     descricao:"Top Whey 80% Concentrado (1kg) da Growth Supplements, agora no irresistível sabor Beijinho, une alta performance ao prazer de um doce clássico. Com 24g de proteína por porção e rico em BCAAs (5,4g) e Glutamina (4,5g), ele garante o suporte ideal para a hipertrofia e uma recuperação muscular acelerada. Sua matéria-prima importada de alta qualidade oferece excelente solubilidade e um perfil completo de aminoácidos essenciais. É a proteína pura e eficiente que você já conhece, com o sabor de coco que transforma o seu pós-treino em um momento de recompensa."
   },
@@ -2764,7 +2764,7 @@ const PRODUTOS = [
     id: 4022,
     nome: "Nutri Whey Protein (907g) da Integralmedica",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 185.00,
     imagem: "../suplementoEsporte/suplementosFotos/whey5.jpeg",
     descricao:" Nutri Whey Protein (907g) da Integralmedica é o suplemento ideal para quem busca o ganho de massa muscular com foco em volume e força. Sua fórmula equilibrada entrega impressionantes 30g de proteína por porção, unindo proteínas do soro do leite (Whey Protein), albumina e carboidratos complexos de alta absorção. É livre de glúten e possui baixo teor de gordura (Low Fat), garantindo o aporte energético necessário para treinos intensos e uma recuperação acelerada. Com excelente custo-benefício, é a escolha estratégica para atletas que precisam de uma nutrição muscular completa para atingir resultados sólidos e duradouros."
   },
@@ -2773,7 +2773,7 @@ const PRODUTOS = [
     id: 4023,
     nome: " Whey 80% Concentrado (1kg) da Growth Supplements Doce de Leite",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 185.00,
     imagem: "../suplementoEsporte/suplementosFotos/whey7.jpeg",
     descricao:"O Top Whey 80% Concentrado (1kg) da Growth Supplements no sabor Doce de Leite é a combinação perfeita entre alta performance e um sabor irresistível. Com 24g de proteína de alto valor biológico por porção, ele fornece o suporte ideal para a hipertrofia e recuperação muscular. Sua fórmula é rica em BCAAs (5,4g) e Glutamina (4,5g), utilizando matéria-prima importada de pureza garantida e excelente solubilidade. É a escolha estratégica para quem busca uma proteína eficiente, com transparência nutricional e o prazer de um dos sabores mais amados do Brasil em cada shake."
   },
@@ -2782,7 +2782,7 @@ const PRODUTOS = [
     id: 4024,
     nome: "Whey 80% Concentrado (1kg) da Growth Supplements Milkshake de Chocolate",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 185.00,
     imagem: "../suplementoEsporte/suplementosFotos/whey8.jpeg",
     descricao:"O Top Whey 80% Concentrado (1kg) da Growth Supplements, no sabor Milkshake de Chocolate, é a escolha imbatível para quem busca sabor e performance. Com 24g de proteína de alta qualidade por porção e 5,2g de BCAAs, ele fornece o suporte ideal para a hipertrofia e recuperação muscular. Sua fórmula utiliza matéria-prima importada de alto valor biológico, garantindo excelente solubilidade e um perfil completo de aminoácidos. É a proteína pura e eficiente que seu corpo precisa, com a cremosidade de um milkshake real para tornar seu pós-treino muito mais prazeroso."
   },
@@ -2791,7 +2791,7 @@ const PRODUTOS = [
     id: 4025,
     nome: "100% Whey Gold Lion (900g) da Lion Sports Nutrition Strawberry Cream",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 170.00,
     imagem: "../suplementoEsporte/suplementosFotos/whey9.jpeg",
     descricao:"100% Whey Gold Lion (900g) da Lion Sports Nutrition é a escolha de elite para quem busca máxima pureza e sabor inigualável. No sabor cremoso de Strawberry Cream, sua fórmula de alto valor biológico entrega o aporte de proteínas e aminoácidos essenciais necessários para uma hipertrofia sólida e uma recuperação muscular acelerada. Desenvolvido com matéria-prima de excelente procedência, ele garante ótima solubilidade e rápida absorção pelo organismo. É o combustível ideal para atletas determinados que buscam superar seus limites e garantir a manutenção da massa magra com um shake delicioso e nutritivo."
   },
@@ -2800,7 +2800,7 @@ const PRODUTOS = [
     id: 4026,
     nome: "Whey 3W Lion Gourmet Series (900g) da Lion Sports Nutrition",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 170.00,
     imagem: "../suplementoEsporte/suplementosFotos/whey10.jpeg",
     descricao:"Whey 3W Lion Gourmet Series (900g) da Lion Sports Nutrition é um suplemento proteico de elite, desenvolvido com um blend das três formas de whey: concentrado, isolado e hidrolisado. No sabor irresistível de Mousse de Chocolate, sua fórmula garante uma absorção gradual e eficiente, fornecendo aminoácidos essenciais por mais tempo para a hipertrofia e recuperação muscular. Fazendo parte da linha Gourmet Series, ele se destaca pela cremosidade e sabor superior, sem abrir mão do alto valor biológico. É a escolha perfeita para atletas exigentes que buscam resultados sólidos com uma experiência de consumo prazerosa e sofisticada."
   },
@@ -2809,7 +2809,7 @@ const PRODUTOS = [
     id: 4027,
     nome: "Whey Combat (900g) da Lion Sports Nutrition",
     categoria: "suplementos",
-    preco: 80.00,
+    preco: 170.00,
     imagem: "../suplementoEsporte/suplementosFotos/whey11.jpeg",
     descricao:"Whey Combat (900g) da Lion Sports Nutrition é o suplemento proteico desenvolvido para quem busca máxima performance com excelente custo-benefício. No sabor Chocolate, sua fórmula combina um blend de proteínas de alto valor biológico que garante o aporte necessário de aminoácidos para a construção e reparação muscular pós-treino. Ideal para atletas que precisam de uma nutrição sólida para encarar a rotina de treinos intensos, ele auxilia no ganho de massa magra e na redução da fadiga. Com boa solubilidade e sabor marcante, é o combustível de combate diário para você superar seus limites e atingir seus objetivos físicos."
   },
