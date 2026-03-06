@@ -1,5 +1,192 @@
 const PRODUTOS = [
   // ================= PRODUTOS EM DESTAQUES =================
+  {
+    id: 220,
+    nome: "Cantil Militar de Polipropileno 900ml Verde Oliva – Padrão Forças Armadas",
+    categoria: "produtos em destaques",
+    preco: 50.00,
+    imagem: "../produtosEmDestaques/cantil.jpeg",
+    descricao:"O Cantil Militar de 900ml é um item indispensável para quem busca resistência e funcionalidade em operações táticas, acampamentos ou treinamentos de sobrevivência. Fabricado em polipropileno de alta densidade, este modelo é extremamente robusto, imune a furos e rachaduras, além de não amassar nem enferrujar. Seu design clássico apresenta o visor texturizado com a inscrição EXCLUSIVO PARA ÁGUA, garantindo segurança no armazenamento de líquidos. Possui tampa com vedação eficiente e alça plástica integrada para evitar a perda do acessório. Leve e ergonômico, o cantil encaixa-se perfeitamente em capas térmicas e porta-cantis de cinto, sendo o padrão confiável utilizado por diversas forças armadas para hidratação em campo."
+  },
+
+  {
+    id: 227,
+    nome: "Letras Vazadas ABC 45 mm Compactor.",
+    categoria: "produtos em destaques",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/MOLDE DE NUMEROS.jpeg",
+    descricao:"Este conjunto contém 37 moldes (stencils) de letras maiúsculas e números fabricados em polipropileno de alta resistência, ideal para a criação de cartazes escolares, trabalhos de artesanato e sinalizações em geral. Com o tamanho de 45 mm, as letras oferecem excelente visibilidade e precisão, permitindo o uso com diversos tipos de marcadores, canetas hidrográficas ou tintas. O material plástico é lavável e reutilizável, garantindo uma longa vida útil ao produto mesmo sob uso frequente em ambientes educativos ou artísticos. A embalagem compacta facilita o armazenamento e a organização das peças, evitando perdas e danos aos moldes durante o transporte. O uso do stencil proporciona um acabamento profissional e padronizado, eliminando falhas de caligrafia e proporcionando agilidade na produção de mensagens e títulos. Trata-se de uma ferramenta clássica de papelaria, essencial para estudantes e profissionais que buscam praticidade e qualidade visual em seus projetos manuais. A Compactor garante a durabilidade e a flexibilidade das placas, que se adaptam bem a superfícies planas ou levemente curvas."
+  },
+
+  {
+    id: 228,
+    nome: "Shorte Térmico Cueca Under Armour Tech 9 Boxerjock.",
+    categoria: "produtos em destaques",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/shorte termico.jpeg",
+    descricao:"Esta cueca boxer de alta performance foi projetada para oferecer máximo conforto e suporte durante atividades físicas ou uso diário prolongado. Confeccionada com tecido UA Tech™ incrivelmente macio e respirável, a peça conta com tecnologia que absorve o suor e seca rapidamente, mantendo o corpo fresco e seco por mais tempo. O modelo possui um corte de 23 cm (9 polegadas) de costura interna, o que proporciona uma cobertura maior nas pernas e evita que o tecido suba ou cause atritos desconfortáveis durante o movimento. Sua estrutura elástica em 4 direções permite total liberdade de movimentos, enquanto o design sem costuras laterais ou traseiras minimiza irritações na pele. Além disso, a cintura de desempenho garante que a peça permaneça no lugar sem apertar excessivamente, oferecendo um ajuste seguro e discreto sob outras roupas. Ideal para quem busca um item leve, funcional e com alta durabilidade, esta cueca boxer combina a tradição de inovação da Under Armour com um design focado na ergonomia masculina. Trata-se de uma escolha premium para atletas e pessoas com rotina ativa que não abrem mão de qualidade e bem-estar em suas roupas íntimas.",
+    tamanho:["P","M","G","GG"]
+  },
+  
+  {
+    id: 233,
+    nome: "Lanterna Tática Militar X900 Profissional com LED T6 e Zoom Ajustável",
+    categoria: "produtos em destaques",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/lanterna.jpeg",
+    descricao:"A Lanterna Tática Militar X900 é a ferramenta de iluminação definitiva para quem exige potência, durabilidade e versatilidade em um único equipamento. Construída em liga de alumínio aeronáutico de alta resistência, esta lanterna é projetada para suportar as condições mais extremas, sendo resistente à água, choques e corrosões. Equipada com a avançada tecnologia LED T6, ela entrega uma luminosidade impressionante com cinco modos de operação (Forte, Médio, Econômico, Strobo e SOS), permitindo total adaptação a qualquer cenário, desde acampamentos e trilhas até situações de emergência ou vigilância. O seu sistema de foco ajustável com zoom de até 2000x possibilita alternar rapidamente entre um feixe de luz amplo para iluminar grandes áreas ou um foco fechado de longo alcance para visualização precisa à distância. Alimentada por uma bateria recarregável de longa duração, a X900 garante autonomia para horas de uso contínuo, tornando-se o acessório indispensável para profissionais de segurança, entusiastas de esportes ao ar livre e para o kit de emergência do seu veículo. Com design ergonômico, acabamento antiderrapante e cordão de pulso incluso, ela oferece um manuseio firme e seguro, unindo a robustez militar com a eficiência necessária para iluminar o seu caminho com total confiança."
+  },
+
+  {
+    id: 234,
+    nome: "Lanterna Tática Profissional USB com LED Ultra Potente e Luz Lateral COB",
+    categoria: "produtos em destaques",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/lanterna 1.jpeg",
+    descricao:"Esta lanterna tática de última geração é a ferramenta de iluminação definitiva para quem busca potência extrema, versatilidade e praticidade em um único equipamento robusto. Construída em liga de alumínio aeronáutico de alta resistência e com acabamento antiderrapante, ela apresenta um LED central de longo alcance com foco ajustável (zoom) para iluminar grandes distâncias com precisão cirúrgica. O grande diferencial deste modelo é a sua potente luz lateral COB integrada, que transforma a lanterna em um prático lampião para iluminar ambientes amplos de forma suave e uniforme, ideal para acampamentos, manutenções mecânicas ou leituras em emergências. Totalmente recarregável via USB, ela dispensa o uso de pilhas descartáveis e conta com um prático indicador de bateria por LEDs, permitindo que você monitore a carga em tempo real e nunca fique no escuro. Seu design ergonômico inclui um clipe de fixação tático e cordão de pulso, oferecendo múltiplas formas de transporte seguro para profissionais de segurança, entusiastas de trilhas, pesca e uso doméstico preventivo. Resistente a respingos d'água e impactos, esta lanterna une a durabilidade militar com a tecnologia de carregamento moderno para garantir que você tenha sempre a melhor luz à mão, seja para explorar a natureza ou enfrentar imprevistos na cidade com total segurança."
+  },
+
+   {
+    id: 235,
+    nome: "Mini Lanterna Tática Recarregável USB com LED COB Lateral e Estojo Rígido",
+    categoria: "produtos em destaques",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/kit lanterna.jpeg",
+    descricao:"Este kit exclusivo de mini lanterna tática é a solução definitiva para quem busca uma iluminação potente, ultracompacta e extremamente versátil para o dia a dia ou situações de emergência. Desenvolvida em liga de alumínio de alta resistência com acabamento premium, a lanterna possui um LED principal com foco ajustável (zoom) para longo alcance e uma poderosa luz lateral COB que funciona como luminária para preencher ambientes amplos. Totalmente recarregável via USB através de sua porta traseira protegida, ela elimina a necessidade de pilhas, oferecendo praticidade total com carregamento em computadores, power banks ou tomadas veiculares. O grande diferencial deste kit é o seu estojo tático rígido com revestimento interno em espuma, garantindo que a lanterna e o cabo de carregamento estejam sempre protegidos e organizados para transporte em mochilas, porta-luvas ou cintos. Ideal para campismo, pesca, ciclismo noturno, serviços de manutenção ou como item essencial no kit de sobrevivência urbana, esta mini lanterna une durabilidade militar com um design minimalista que cabe na palma da mão. Resistente a impactos e respingos d'água, é a ferramenta de iluminação profissional que garante segurança e visibilidade máxima onde quer que você esteja, unindo tecnologia moderna com uma eficiência tática inigualável para enfrentar qualquer desafio no escuro."
+  },
+
+  {
+    id: 256,
+    nome: "Facão Tático Militar com Lâmina em Aço Inox e Bainha de Couro Legítimo",
+    categoria: "produtos em destaques",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/faca20.jpeg",
+    descricao:"Este facão tático de alto desempenho é a ferramenta definitiva para quem exige força bruta, durabilidade e precisão em tarefas pesadas de desbravamento, bushcraft ou manutenção em propriedades rurais. Construído com uma lâmina longa e robusta em aço inoxidável de alta qualidade, ele oferece uma resistência excepcional à corrosão e um fio de corte duradouro, ideal para abrir trilhas, cortar galhos grossos e preparar abrigos com o mínimo esforço. O grande diferencial deste modelo é a sua luxuosa bainha em couro legítimo preto, que apresenta costuras reforçadas e botões de pressão estratégicos para garantir um transporte seguro e um saque rápido e silencioso em qualquer situação de campo. O cabo ergonômico com talas fixadas por rebites metálicos proporciona uma empunhadura firme, equilibrada e extremamente confortável, reduzindo a fadiga da mão durante o uso prolongado e garantindo um controle absoluto sobre cada golpe. Com um design que une a eficiência militar com a tradição da cutelaria robusta, este facão é o acessório indispensável para aventureiros, mateiros e profissionais que não abrem mão de um equipamento confiável para enfrentar os desafios mais brutos da natureza. Sua construção sólida e acabamento premium garantem que esta ferramenta suporte as condições mais severas, proporcionando máxima segurança e uma vida útil incomparável."
+  },
+
+   {
+    id: 258,
+    nome: "Graxa em Pasta Nugget Preto 36g - Máximo Brilho e Proteção à Água",
+    categoria: "produtos em destaques",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/graxa preta.jpeg",
+    descricao:"A graxa em pasta Nugget é a solução definitiva para quem busca renovar, nutrir e proteger calçados de couro com máxima eficiência e um acabamento profissional. Desenvolvida com uma fórmula de cuidado intensivo que penetra nas fibras do couro, esta pasta proporciona um brilho instantâneo e profundo, devolvendo a vivacidade da cor preta e escondendo pequenos riscos ou sinais de desgaste natural. O grande diferencial deste produto é a sua avançada barreira de resistência à água, que cria uma camada protetora invisível contra a umidade e sujeiras externas, garantindo que seus sapatos e botas permaneçam impecáveis por muito mais tempo. Ideal para o uso diário em calçados sociais, militares ou de passeio, ela une a tradição de uma marca líder desde 1953 com a tecnologia necessária para manter o couro macio e hidratado, evitando rachaduras precoces. Sua aplicação é simples e rápida, oferecendo uma cobertura uniforme que realça a elegância de qualquer peça de couro legítimo ou sintético com total segurança. Indispensável para o cuidado pessoal e manutenção de uniformes, esta pasta de 36g garante um rendimento superior e uma durabilidade incomparável para que você caminhe sempre com confiança e sofisticação."
+  },
+
+   {
+    id: 260,
+    nome: "Suspensório Tático Militar em Cordura Verde Oliva com Sistema de Engate Rápido",
+    categoria: "produtos em destaques",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/cinto suspensorio operacional com bolso.jpeg",
+    descricao:"Este suspensório tático de alta performance é a solução definitiva para quem busca o máximo de conforto, ergonomia e distribuição de peso em operações militares, segurança ou práticas de Airsoft e Paintball. Construído integralmente em tecido Cordura 1000D de padrão internacional, ele oferece uma resistência incomparável contra abrasão, rasgos e condições climáticas extremas, garantindo uma vida útil prolongada mesmo sob uso severo. O grande diferencial deste modelo é o seu design em H com alças largas e acolchoadas, que aliviam a pressão nos ombros e mantêm o cinto de guarnição estável, permitindo que você carregue equipamentos pesados por longos períodos sem fadiga. Equipado com quatro pontos de fixação e fivelas de engate rápido em polímero de alta densidade, ele permite um ajuste preciso ao corpo e um saque ágil do equipamento em situações de emergência. Suas costuras reforçadas e o sistema de passadores integrados oferecem versatilidade para acoplar acessórios extras, unindo a funcionalidade tática com uma estética militar autêntica e profissional. Leve, respirável e extremamente robusto, este suspensório é o acessório indispensável para compor o seu fardamento com total segurança, estabilidade e a confiança de um equipamento de elite feito para durar."
+  },
+
+  {
+    id: 261,
+    nome: "Suspensório Tático Militar Modelo H-Harness Verde Oliva em Nylon Reforçado",
+    categoria: "produtos em destaques",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/cinto suspensorio operacional guerra na selva.jpeg",
+    descricao:"Este suspensório tático de alta performance é a solução definitiva para quem busca o máximo de conforto, ergonomia e distribuição de peso em operações militares, segurança ou práticas de Airsoft e Paintball. Construído integralmente em nylon de alta densidade e padrão profissional, ele oferece uma resistência incomparável contra abrasão e rasgos, garantindo uma vida útil prolongada mesmo sob uso severo em ambientes de mata ou urbanos. O grande diferencial deste modelo é o seu design em H com alças largas e reforçadas, que aliviam a pressão nos ombros e mantêm o cinto de guarnição estável, permitindo que você carregue porta-carregadores e outros equipamentos pesados por longos períodos sem fadiga. Equipado com quatro pontos de fixação ajustáveis por fivelas de polímero de alta resistência, ele permite um ajuste preciso ao corpo e uma estabilidade absoluta durante movimentações táticas intensas. Suas costuras duplas e o sistema de passadores integrados oferecem versatilidade para acoplar acessórios extras, unindo a funcionalidade tática com uma estética militar autêntica e profissional. Leve, respirável e extremamente robusto, este suspensório é o acessório indispensável para compor o seu fardamento com total segurança, estabilidade e a confiança de um equipamento tático feito para durar."
+  },
+
+  {
+    id: 262,
+    nome: "Conjunto Tático Militar Verde Oliva com Suspensório em Y e Cinto de Guarnição",
+    categoria: "produtos em destaques",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/cinto e suspensorio.jpeg",
+    descricao:"Este conjunto tático completo é a solução definitiva para quem busca o máximo em ergonomia, distribuição de carga e estabilidade em operações militares, segurança, Airsoft ou Paintball. Construído integralmente em nylon de alta densidade e padrão profissional na cor verde oliva, o kit apresenta um suspensório em modelo Y com alças largas e acolchoadas que distribuem o peso dos equipamentos de forma equilibrada entre os ombros e o cinto, evitando a fadiga durante o uso prolongado. O grande diferencial deste conjunto é o cinto de guarnição robusto com ilhoses metálicos duplos e uma fivela central de engate rápido em polímero de alta resistência, permitindo a acoplagem segura de diversos acessórios modulares, porta-carregadores e coldres. Equipado com presilhas metálicas e passadores ajustáveis, ele oferece uma fixação absoluta ao corpo e permite movimentos ágeis sem que o equipamento se desloque, unindo a funcionalidade tática com uma durabilidade excepcional contra abrasão e rasgos em terrenos de mata densa. Leve, respirável e extremamente robusto, este sistema de transporte é o acessório indispensável para compor o seu fardamento com total segurança, organização e a confiança de um equipamento militar de elite feito para durar."
+  },
+
+  {
+    id: 263,
+    nome: "Porta-Carregador Duplo Tático Universal com Fechamento em Fivela de Engate Rápido",
+    categoria: "produtos em destaques",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/porta carregador fuzil.jpeg",
+    descricao:"Este porta-carregador tático universal é a solução definitiva para quem busca máxima organização, agilidade e proteção para seus equipamentos em operações militares, segurança, Airsoft ou Paintball. Construído integralmente em nylon de alta densidade e padrão profissional, ele oferece uma resistência incomparável contra abrasão e rasgos, garantindo uma vida útil prolongada mesmo sob uso severo em terrenos de mata ou urbanos. O grande diferencial deste modelo é o seu fechamento robusto com fivela de engate rápido em polímero de alta resistência, que proporciona um travamento absoluto dos itens internos enquanto permite um acesso silencioso e veloz em situações de alta pressão. Equipado com um sistema de fixação versátil na parte traseira, ele pode ser acoplado com facilidade a cintos de guarnição ou coletes modulares, mantendo-se estável e firme durante movimentações táticas intensas sem que o equipamento se desloque. Suas costuras reforçadas e o design de perfil otimizado oferecem uma durabilidade excepcional e um ajuste preciso para diversos tamanhos de acessórios, unindo a funcionalidade tática com uma estética profissional e moderna. Leve, compacto e extremamente robusto, este acessório é o item indispensável para compor o seu fardamento com total segurança, praticidade e a confiança de um equipamento tático feito para durar."
+  },
+
+  {
+    id: 264,
+    nome: "Porta-Cantil Tático Militar em Nylon com Bolso Auxiliar e Engate Rápido",
+    categoria: "produtos em destaques",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/porta cantil.jpeg",
+    descricao:"Este porta-cantil tático é a solução definitiva para quem busca hidratação acessível, proteção térmica e durabilidade em operações militares, acampamentos, trilhas ou práticas de Airsoft. Construído integralmente em nylon de alta densidade e padrão profissional, ele oferece uma resistência incomparável contra abrasão e rasgos em terrenos de mata densa, garantindo uma vida útil prolongada mesmo sob uso severo. O grande diferencial deste modelo é o seu design funcional que inclui um bolso lateral auxiliar com fechamento em velcro, ideal para carregar pastilhas purificadoras de água ou pequenos itens de emergência, além de um sistema de travamento central por fivela de engate rápido em polímero, que mantém o cantil absolutamente firme e seguro durante movimentações intensas. Equipado com um revestimento interno que auxilia na manutenção da temperatura do líquido e passadores traseiros reforçados para fixação em cintos de guarnição ou mochilas, ele une a funcionalidade tática com uma estética militar autêntica e profissional. Leve, compacto e extremamente robusto, este acessório é o item indispensável para compor o seu kit de sobrevivência com total praticidade, segurança e a confiança de um equipamento tático feito para durar."
+  },
+
+  {
+    id: 265,
+    nome: "Bússola de Mapa Profissional com Lupa, Réguas de Escala e Cordão de Segurança",
+    categoria: "produtos em destaques",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/bussola de campo.jpeg",
+    descricao:"Esta bússola de mapa profissional é a ferramenta de navegação definitiva para quem busca precisão cirúrgica e confiança em expedições de trekking, orientação, bushcraft ou treinamentos militares. Construída em acrílico transparente de alta resistência e padrão profissional, ela apresenta uma base plana que permite a leitura clara de mapas e cartas topográficas sem distorções, integrando réguas de escala em milímetros e proporções de 1:25.000 e 1:50.000 para cálculos de distância rápidos e exatos. O grande diferencial deste modelo é a sua lente de aumento (lupa) centralizada e o disco graduado de 360° em alto contraste, que garantem uma leitura de azimute sem erros mesmo sob condições de luz adversas, enquanto a agulha magnética de alta estabilidade assegura um apontamento norte rápido e confiável. Equipada com um cordão de nylon amarelo de alta visibilidade, ela oferece um transporte seguro junto ao corpo ou fixada à mochila, unindo a funcionalidade tática com uma durabilidade excepcional contra impactos e variações térmicas em campo. Leve, compacta e extremamente robusta, esta bússola é o acessório indispensável para compor o seu kit de sobrevivência com total praticidade, segurança e a precisão de um equipamento de navegação de elite feito para durar."
+  },
+
+   {
+    id: 267,
+    nome: "Saco de Gelo ipermeável",
+    categoria: "produtos em destaques",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/saco ipermeavel para campo.jpeg",
+    descricao:"Saco de Gelo ipermeável é a solução prática e indispensável para quem busca proteção imediata contra imprevistos climáticos em eventos ao ar livre, estádios, shows, parques ou situações de emergência. Fabricada em polietileno de baixa densidade (plástico PE), ela apresenta um material leve, 100% impermeável e totalmente transparente, garantindo que você se mantenha seco sem comprometer a visibilidade ou o conforto durante o uso. O grande diferencial deste modelo é o seu design ultracompacto com embalagem individual selada, que permite carregá-la facilmente no bolso, na mochila, no porta-luvas do carro ou até mesmo dentro de kits de sobrevivência e primeiros socorros sem ocupar espaço. Equipada com um capuz integrado e mangas largas, ela oferece uma cobertura eficiente para adultos de diversos tamanhos, unindo a funcionalidade de uma proteção rápida com a praticidade de um item descartável de baixo custo. Suas costuras soldadas e o acabamento simplificado proporcionam uma barreira absoluta contra a água e o vento, sendo o acessório de conveniência ideal para empresas, organizadores de eventos ou para ter sempre à mão em dias de clima instável. Higiênica, leve e extremamente versátil, esta capa de chuva garante a sua tranquilidade e a de seus clientes, oferecendo segurança e bem-estar em qualquer lugar com total agilidade."
+  },
+
+   {
+    id: 268,
+    nome: "Gorro de Selva",
+    categoria: "produtos em destaques",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/gorro de campo.jpeg",
+    descricao:"Gorro de Selva, é a ferramenta de proteção definitiva para quem busca máxima eficiência e furtividade em operações de campo, bushcraft, pesca ou aventuras na selva. Construído integralmente com um padrão de camuflagem de alta definição em tecido Ripstop reforçado, ele oferece uma resistência incomparável contra rasgos e abrasão em terrenos de mata densa, garantindo uma durabilidade excepcional sob as condições mais hostis. O grande diferencial deste modelo é a sua aba larga e flexível, que proporciona uma proteção solar absoluta para o rosto e pescoço, além de uma fita tática com múltiplos passadores externos para a fixação de vegetação natural ou pequenos acessórios de camuflagem. Equipado com aberturas laterais que garantem ventilação constante e conforto térmico sob sol intenso, ele apresenta uma modelagem anatômica que se ajusta perfeitamente à cabeça, unindo a funcionalidade militar clássica com uma estética tática profissional e moderna. Leve, dobrável e extremamente robusto, este acessório é o item indispensável para compor o seu fardamento com total praticidade, segurança e a confiança de um equipamento de proteção de elite feito para durar."
+  },
+
+   {
+    id: 500,
+    nome: "CALÇÃO DE TFM ALUNO",
+    categoria: "produtos em destaques",
+    preco: 55.00,
+    imagem: "../fardamentosMilitares/fardasMilitaresFoto/calção tfm aluno.jpeg",
+    tamanho: ["P", "M", "G", "GG"],
+    descricao:"O Calção TFM Oficial é a peça indispensável para o treinamento físico militar, projetado especificamente para atender aos padrões de regulamento de uniformes do Exército Brasileiro. Este modelo em verde oliva, caracterizado pelas duas listras brancas laterais, é o padrão utilizado por Oficiais, Subtenentes e Sargentos. Confeccionado em tecido leve de alta durabilidade (disponível em Nylon ou Poliéster), ele oferece máxima liberdade de movimento e secagem rápida durante atividades intensas. Possui cintura com elástico reforçado e cordão interno para um ajuste seguro e personalizado, além de pequenas aberturas laterais que garantem maior mobilidade em corridas e exercícios. É o acessório que une tradição militar com a performance necessária para o dia a dia na caserna." // NOVO CAMPO
+  },
+
+  {
+    id: 501,
+    nome: "CAMISA CAMUFLADA + NOME",
+    categoria: "produtos em destaques",
+    preco: 299.90,
+    imagem: "../fardamentosMilitares/fardasMilitaresFoto/CAMISA CAMUFLADA NOME.jpeg",
+    descricao: "Camisa camuflada com seu nome de guerra",
+    tamanho: ["P", "M", "G", "GG"], // NOVO CAMPO
+    descricao:"A Camiseta Camuflada Dry Fit Padrão EB é desenvolvida para oferecer o máximo desempenho em atividades de alta intensidade e uso tático militar. Confeccionada com tecnologia Dry Fit de alta qualidade, seu tecido sintético afasta o suor da pele e acelera a evaporação, mantendo o corpo seco, ventilado e com conforto térmico em climas quentes. A estampa segue o padrão oficial do Exército Brasileiro em tons de verde, marrom e bege, ideal para camuflagem em ambientes de mata atlântica. Com modelagem que se ajusta ao corpo e toque macio, esta peça é extremamente leve, resistente e de secagem rápida, sendo a escolha perfeita para treinamentos militares, academia, airsoft ou aventuras ao ar livre."
+  },
+
+  {
+    id: 502,
+    nome: "Farda Exército Brasileiro Modelo Novo (RUE 2026) – Conjunto Gandola e Calça Camuflada",
+    categoria: "produtos em destaques",
+    preco: 299.90,
+    imagem: "../fardamentosMilitares/fardasMilitaresFoto/FARDA MODELO NOVO.jpeg",
+    tamanho: ["P", "M", "G", "GG"], // NOVO CAMPO
+    descricao:"O novo fardamento operacional do Exército Brasileiro foi desenvolvido sob as diretrizes atualizadas do RUE, combinando alta tecnologia têxtil com funcionalidade tática superior. A gandola apresenta um design moderno com gola tipo padre, fechamento frontal por zíper e fechos de contato, além de bolsos inclinados nas mangas para facilitar o acesso rápido a equipamentos. A calça foi reforçada para máxima durabilidade, contando agora com oito bolsos estratégicos e um sistema de fechamento por velcro na barra, eliminando a necessidade do uso de bombacho. Confeccionado em tecido de alta solidez (Rip Stop ou liso), este conjunto oferece resistência a rasgos, baixa retenção de líquidos e conforto térmico essencial para operações prolongadas e treinamentos intensos."
+  },
+
+  {
+    id: 504,
+    nome: "CAMISA TFM + NOME",
+    categoria: "produtos em destaques",
+    preco: 299.90,
+    imagem: "../fardamentosMilitares/fardasMilitaresFoto/CAMISA TFM NOME.jpeg",
+    tamanho: ["P", "M", "G", "GG"], // NOVO CAMPO
+    descricao:"A Regata Masculina Dry Fit Branca é a peça essencial para quem busca máxima performance e conforto térmico, seja em treinamentos militares (TFM) ou em atividades intensas na academia e ao ar livre. Confeccionada em tecido tecnológico de alta hidrofilidade, ela absorve o suor e o dispersa rapidamente para a superfície, garantindo uma evaporação ágil que mantém o corpo seco por muito mais tempo. Sua modelagem anatômica com cavas amplas proporciona total liberdade de movimento, enquanto a costura reforçada e o material 100% poliéster oferecem alta durabilidade, resistência a rasgos e facilidade de manutenção, já que não amassa e seca rapidamente. O grande diferencial deste modelo é o espaço frontal dedicado para personalização, permitindo a estampa ou bordado do seu nome, unidade ou logomarca com acabamento profissional."
+  },
+
+
   
   // ================= EQUIPAMENTOS MILITARES =================
   {
@@ -228,6 +415,377 @@ const PRODUTOS = [
     descricao:"O Poncho Tático Militar Patrol é o equipamento definitivo para proteção contra intempéries em missões de longa duração, trekking e atividades de sobrevivência. Desenvolvido com um corte oversized inteligente, ele foi projetado para cobrir totalmente não apenas o operador, mas também sua mochila e equipamentos, garantindo que tudo permaneça seco mesmo sob chuvas intensas. Confeccionado em material de alta resistência (como Nylon Ripstop ou Poliéster emborrachado), este poncho é 100% impermeável e conta com costuras seladas para máxima vedação."
   },
 
+  {
+    id: 227,
+    nome: "Letras Vazadas ABC 45 mm Compactor.",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/MOLDE DE NUMEROS.jpeg",
+    descricao:"Este conjunto contém 37 moldes (stencils) de letras maiúsculas e números fabricados em polipropileno de alta resistência, ideal para a criação de cartazes escolares, trabalhos de artesanato e sinalizações em geral. Com o tamanho de 45 mm, as letras oferecem excelente visibilidade e precisão, permitindo o uso com diversos tipos de marcadores, canetas hidrográficas ou tintas. O material plástico é lavável e reutilizável, garantindo uma longa vida útil ao produto mesmo sob uso frequente em ambientes educativos ou artísticos. A embalagem compacta facilita o armazenamento e a organização das peças, evitando perdas e danos aos moldes durante o transporte. O uso do stencil proporciona um acabamento profissional e padronizado, eliminando falhas de caligrafia e proporcionando agilidade na produção de mensagens e títulos. Trata-se de uma ferramenta clássica de papelaria, essencial para estudantes e profissionais que buscam praticidade e qualidade visual em seus projetos manuais. A Compactor garante a durabilidade e a flexibilidade das placas, que se adaptam bem a superfícies planas ou levemente curvas."
+  },
+
+  {
+    id: 228,
+    nome: "Shorte Térmico Cueca Under Armour Tech 9 Boxerjock.",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/shorte termico.jpeg",
+    descricao:"Esta cueca boxer de alta performance foi projetada para oferecer máximo conforto e suporte durante atividades físicas ou uso diário prolongado. Confeccionada com tecido UA Tech™ incrivelmente macio e respirável, a peça conta com tecnologia que absorve o suor e seca rapidamente, mantendo o corpo fresco e seco por mais tempo. O modelo possui um corte de 23 cm (9 polegadas) de costura interna, o que proporciona uma cobertura maior nas pernas e evita que o tecido suba ou cause atritos desconfortáveis durante o movimento. Sua estrutura elástica em 4 direções permite total liberdade de movimentos, enquanto o design sem costuras laterais ou traseiras minimiza irritações na pele. Além disso, a cintura de desempenho garante que a peça permaneça no lugar sem apertar excessivamente, oferecendo um ajuste seguro e discreto sob outras roupas. Ideal para quem busca um item leve, funcional e com alta durabilidade, esta cueca boxer combina a tradição de inovação da Under Armour com um design focado na ergonomia masculina. Trata-se de uma escolha premium para atletas e pessoas com rotina ativa que não abrem mão de qualidade e bem-estar em suas roupas íntimas.",
+    tamanho:["P","M","G","GG"]
+  },
+
+  {
+    id: 229,
+    nome: "Luva Tática Militar Meio Dedo com Proteção Hard Knuckle (Impacto)",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/luva tatica.jpeg",
+    descricao:"Esta luva tática de meio dedo é a escolha ideal para quem busca o equilíbrio perfeito entre proteção robusta e máxima destreza em atividades de alto impacto. Fabricada com uma combinação de nylon de alta resistência e microfibra respirável, ela apresenta o reforço Hard Knuckle em polímero rígido para absorver choques e proteger os nós dos dedos contra detritos ou quedas. Seu design sem pontas permite o manuseio preciso de equipamentos, ferramentas e dispositivos touchscreen, enquanto a palma reforçada com material antiderrapante garante uma pegada firme e segura em qualquer condição. O sistema de ventilação estratégica mantém as mãos secas durante o uso prolongado, e o fechamento em velcro de alta aderência no pulso proporciona um ajuste personalizado e extremamente firme. Desenvolvida para resistir ao desgaste severo, é o acessório indispensável para praticantes de Airsoft, Paintball, Motociclismo e Ciclismo que não abrem mão da segurança. Com acabamento premium na cor preta, esta luva une estética militar moderna com funcionalidade tática superior para enfrentar os desafios mais exigentes do dia a dia ou de aventuras ao ar livre."
+  },
+
+  {
+    id: 230,
+    nome: "Luva Tática Militar Meio Dedo Verde com Proteção de Carbono e Respiros de Ar",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/luva tatica 1.jpeg",
+    descricao:"Esta luva tática de meio dedo na cor verde militar é o equipamento definitivo para quem busca proteção de elite e ventilação superior em atividades intensas ao ar livre. Construída com um design tático avançado, ela apresenta uma proteção rígida anatômica nos nós dos dedos para absorção total de impactos, além de quatro respiros emborrachados exclusivos nas falanges que garantem o fluxo de ar contínuo, evitando o suor excessivo. O corte sem as pontas dos dedos oferece sensibilidade máxima para o manuseio de gatilhos, ferramentas de precisão ou telas de smartphones, enquanto a palma reforçada com material antiderrapante proporciona uma aderência inabalável em qualquer superfície ou clima. Seu tecido de nylon balístico e microfibra elástica se molda perfeitamente ao formato da mão, oferecendo conforto térmico e resistência extrema contra abrasão ou rasgos comuns no Airsoft e Motociclismo. O fechamento robusto em velcro no pulso, somado à alça de saque rápido na base, permite um ajuste firme e uma remoção ágil do acessório após o uso prolongado. Ideal para compor fardamentos ou kits de aventura, esta luva combina uma estética militar autêntica com uma durabilidade excepcional para enfrentar os terrenos mais desafiadores com total segurança."
+  },
+
+  {
+    id: 231,
+    nome: "Luva Tática Militar Full Finger Verde com Proteção Rígida e Touchscreen",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/luva tatica 2.jpeg",
+    descricao:"Esta luva tática de dedo inteiro na cor verde militar oferece o máximo em proteção integral e tecnologia funcional para operações de alta intensidade e esportes de aventura. Desenvolvida com tecido de microfibra de alta densidade e nylon elástico, ela apresenta um escudo rígido anatômico sobre os nós dos dedos para dissipação de energia em impactos, além de aberturas de borracha nas falanges que permitem uma ventilação constante e proteção adicional contra abrasão. Um grande diferencial deste modelo é o revestimento condutivo no polegar e indicador, que permite o uso total de dispositivos touchscreen sem a necessidade de remover as luvas, garantindo agilidade em campo. A palma é estrategicamente reforçada com material antiderrapante e costuras duplas para uma pegada firme e resistente ao desgaste severo, enquanto o design ergonômico no pulso com fechamento em velcro proporciona um ajuste seguro e confortável. Projetada para resistir aos elementos e ao uso prolongado, é o acessório indispensável para praticantes de Airsoft, Motociclismo, Ciclismo MTB e Treinamentos Táticos que buscam segurança completa sem sacrificar a precisão. Com um visual robusto e acabamento premium, esta luva combina durabilidade militar com a praticidade moderna necessária para enfrentar qualquer desafio com confiança e eficiência tecnológica."
+  },
+
+  {
+    id: 232,
+    nome: "Luva Tática Militar Full Finger Preta com Proteção Hard Knuckle e Touchscreen",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/luva tatica3.jpeg",
+    descricao:"Esta luva tática de dedo inteiro na cor preta é o equipamento definitivo para quem busca proteção integral, máxima resistência e funcionalidade tecnológica em operações ou esportes de aventura. Desenvolvida com uma combinação robusta de nylon balístico e microfibra elástica, ela apresenta um escudo anatômico rígido sobre os nós dos dedos para dissipação total de energia em impactos, além de quatro respiros de borracha nas falanges que garantem ventilação constante e proteção extra contra abrasão. Um grande diferencial deste modelo é a tecnologia touchscreen nos dedos polegar e indicador, permitindo o uso preciso de smartphones e tablets sem a necessidade de remover as luvas em campo. A palma é estrategicamente reforçada com material antiderrapante e costuras duplas para assegurar uma pegada firme e resistente ao desgaste severo, enquanto o design ergonômico no pulso com fechamento em velcro de alta aderência proporciona um ajuste seguro e confortável durante todo o dia. Projetada para resistir aos elementos e ao uso prolongado, é o acessório indispensável para praticantes de Airsoft, Motociclismo, Ciclismo MTB e Treinamentos Táticos que exigem segurança completa com agilidade. Com acabamento premium e visual low profile, esta luva une a durabilidade militar com a praticidade moderna necessária para enfrentar os desafios mais exigentes com total confiança e eficiência"
+  },
+
+  {
+    id: 233,
+    nome: "Lanterna Tática Militar X900 Profissional com LED T6 e Zoom Ajustável",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/lanterna.jpeg",
+    descricao:"A Lanterna Tática Militar X900 é a ferramenta de iluminação definitiva para quem exige potência, durabilidade e versatilidade em um único equipamento. Construída em liga de alumínio aeronáutico de alta resistência, esta lanterna é projetada para suportar as condições mais extremas, sendo resistente à água, choques e corrosões. Equipada com a avançada tecnologia LED T6, ela entrega uma luminosidade impressionante com cinco modos de operação (Forte, Médio, Econômico, Strobo e SOS), permitindo total adaptação a qualquer cenário, desde acampamentos e trilhas até situações de emergência ou vigilância. O seu sistema de foco ajustável com zoom de até 2000x possibilita alternar rapidamente entre um feixe de luz amplo para iluminar grandes áreas ou um foco fechado de longo alcance para visualização precisa à distância. Alimentada por uma bateria recarregável de longa duração, a X900 garante autonomia para horas de uso contínuo, tornando-se o acessório indispensável para profissionais de segurança, entusiastas de esportes ao ar livre e para o kit de emergência do seu veículo. Com design ergonômico, acabamento antiderrapante e cordão de pulso incluso, ela oferece um manuseio firme e seguro, unindo a robustez militar com a eficiência necessária para iluminar o seu caminho com total confiança."
+  },
+
+  {
+    id: 234,
+    nome: "Lanterna Tática Profissional USB com LED Ultra Potente e Luz Lateral COB",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/lanterna 1.jpeg",
+    descricao:"Esta lanterna tática de última geração é a ferramenta de iluminação definitiva para quem busca potência extrema, versatilidade e praticidade em um único equipamento robusto. Construída em liga de alumínio aeronáutico de alta resistência e com acabamento antiderrapante, ela apresenta um LED central de longo alcance com foco ajustável (zoom) para iluminar grandes distâncias com precisão cirúrgica. O grande diferencial deste modelo é a sua potente luz lateral COB integrada, que transforma a lanterna em um prático lampião para iluminar ambientes amplos de forma suave e uniforme, ideal para acampamentos, manutenções mecânicas ou leituras em emergências. Totalmente recarregável via USB, ela dispensa o uso de pilhas descartáveis e conta com um prático indicador de bateria por LEDs, permitindo que você monitore a carga em tempo real e nunca fique no escuro. Seu design ergonômico inclui um clipe de fixação tático e cordão de pulso, oferecendo múltiplas formas de transporte seguro para profissionais de segurança, entusiastas de trilhas, pesca e uso doméstico preventivo. Resistente a respingos d'água e impactos, esta lanterna une a durabilidade militar com a tecnologia de carregamento moderno para garantir que você tenha sempre a melhor luz à mão, seja para explorar a natureza ou enfrentar imprevistos na cidade com total segurança."
+  },
+
+  {
+    id: 235,
+    nome: "Mini Lanterna Tática Recarregável USB com LED COB Lateral e Estojo Rígido",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/kit lanterna.jpeg",
+    descricao:"Este kit exclusivo de mini lanterna tática é a solução definitiva para quem busca uma iluminação potente, ultracompacta e extremamente versátil para o dia a dia ou situações de emergência. Desenvolvida em liga de alumínio de alta resistência com acabamento premium, a lanterna possui um LED principal com foco ajustável (zoom) para longo alcance e uma poderosa luz lateral COB que funciona como luminária para preencher ambientes amplos. Totalmente recarregável via USB através de sua porta traseira protegida, ela elimina a necessidade de pilhas, oferecendo praticidade total com carregamento em computadores, power banks ou tomadas veiculares. O grande diferencial deste kit é o seu estojo tático rígido com revestimento interno em espuma, garantindo que a lanterna e o cabo de carregamento estejam sempre protegidos e organizados para transporte em mochilas, porta-luvas ou cintos. Ideal para campismo, pesca, ciclismo noturno, serviços de manutenção ou como item essencial no kit de sobrevivência urbana, esta mini lanterna une durabilidade militar com um design minimalista que cabe na palma da mão. Resistente a impactos e respingos d'água, é a ferramenta de iluminação profissional que garante segurança e visibilidade máxima onde quer que você esteja, unindo tecnologia moderna com uma eficiência tática inigualável para enfrentar qualquer desafio no escuro."
+  },
+
+  {
+    id: 236,
+    nome: "Faca de Sobrevivência Tática Militar Luatek com Lâmina Serrilhada e Bainha",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/faca.jpeg",
+    descricao:"A Faca de Sobrevivência Tática Luatek é a ferramenta indispensável para entusiastas de camping, pesca, trilhas e colecionadores que buscam robustez e precisão em um único equipamento. Construída em aço inoxidável de alta qualidade com acabamento preto fosco antirreflexo, sua lâmina de fio liso extremamente afiado é complementada por um dorso serrilhado estratégico, ideal para cortes de galhos, cordas ou materiais mais resistentes em situações de emergência. O cabo ergonômico em polímero de alta densidade possui ranhuras antiderrapantes que garantem uma empunhadura firme e segura mesmo com as mãos molhadas, além de uma guarda de proteção dupla para evitar deslizamentos acidentais em direção ao fio. Um grande diferencial deste modelo é o pomo traseiro reforçado e o fiel de segurança incluso, permitindo que a faca fique presa ao pulso ou seja utilizada para tarefas de impacto leve. Projetada para suportar o uso severo em ambientes hostis, ela acompanha uma bainha resistente para transporte seguro no cinto, mantendo o equipamento sempre pronto para a ação. Unindo o design militar clássico com uma durabilidade excepcional, esta faca Luatek é o acessório de cutelaria tática que oferece a confiança necessária para superar qualquer desafio na natureza com máxima eficiência e segurança."
+  },
+
+  {
+    id: 237,
+    nome: "Faca Tática Militar de Combate e Sobrevivência com Lâmina Bowie Serrilhada",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/faca1.jpeg",
+    descricao:"Esta faca tática de combate foi projetada para quem exige uma ferramenta de corte imponente, robusta e extremamente eficiente em situações de sobrevivência ou bushcraft. Construída em aço inoxidável de alta resistência com acabamento preto fosco antirreflexo, sua lâmina estilo Bowie apresenta um fio liso de alta precisão e um dorso serrilhado agressivo, ideal para serrar cordas, galhos e materiais fibrosos com facilidade. O design conta com um furo estratégico na lâmina para redução de peso e maior equilíbrio, além de um cabo ergonômico em polímero de alta densidade com ranhuras para os dedos, garantindo uma empunhadura firme e segura mesmo sob condições extremas ou mãos molhadas. A guarda dupla integrada oferece proteção total, impedindo que a mão deslize para o fio durante o uso intenso, enquanto o pomo traseiro reforçado permite aplicações de impacto em emergências. Seja para acampamentos, trilhas desafiadoras ou como item de defesa e coleção, esta faca une a estética militar clássica com uma durabilidade excepcional para enfrentar os ambientes mais hostis. É o acessório de cutelaria tática indispensável para aventureiros que não abrem mão de um equipamento confiável, combinando um corte afiado com a versatilidade necessária para superar qualquer obstáculo na natureza com total segurança."
+  },
+
+  {
+    id: 238,
+    nome: "Faca Artesanal de Sobrevivência com Cabo de Madeira e Costura em Couro",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/faca2.jpeg",
+    descricao:"Esta faca artesanal de estilo clássico é a escolha perfeita para colecionadores e entusiastas da vida ao ar livre que valorizam a união entre rusticidade, elegância e eficiência de corte. Sua lâmina em aço polido apresenta um dorso robusto e um fio liso extremamente afiado, projetada para tarefas que exigem precisão e durabilidade em acampamentos, churrascos ou atividades de bushcraft. O grande diferencial deste modelo é o seu cabo ergonômico em madeira nobre, que ostenta um detalhe exclusivo de costura trançada em couro, proporcionando não apenas um visual autêntico e tradicional, mas também uma empunhadura firme e confortável que se adapta perfeitamente à mão. A guarda dupla em metal oferece segurança adicional, impedindo o deslizamento acidental dos dedos em direção à lâmina durante o uso intenso, enquanto o detalhe do fiel no pomo traseiro permite prender a faca ao pulso para maior controle. Unindo a força de uma ferramenta de sobrevivência com o acabamento de uma peça de cutelaria fina, esta faca é um acessório indispensável para quem busca um equipamento confiável e com personalidade única para enfrentar qualquer desafio na natureza. Com sua estética atemporal e construção sólida, ela garante uma experiência de uso superior e uma durabilidade que atravessa gerações com total segurança."
+  },
+
+  {
+    id: 239,
+    nome: "Faca Tática Militar Camuflada com Anel de Saque Rápido e Lâmina de Precisão",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/faca3.jpeg",
+    descricao:"Esta faca tática camuflada é a ferramenta definitiva para quem busca furtividade, agilidade e um controle inigualável em operações de campo ou aventuras na selva. Construída integralmente com uma estampa camuflada de alta definição, sua lâmina de fio liso extremamente afiado oferece cortes precisos e durabilidade superior contra a corrosão, integrando-se perfeitamente a ambientes de mata densa. O grande diferencial deste modelo é o seu design ergonômico que inclui um anel de retenção (estilo karambit) no pomo traseiro, permitindo um saque ultra-rápido, manuseio tático avançado e uma segurança absoluta, impedindo que a faca seja desarmada ou caia durante o uso intenso. O cabo apresenta ranhuras de aderência e uma guarda inferior pronunciada que protege os dedos, garantindo uma empunhadura firme mesmo sob condições de umidade ou uso de luvas. Leve, equilibrada e com perfil aerodinâmico, esta faca une a estética militar moderna com uma funcionalidade agressiva, sendo o acessório indispensável para praticantes de bushcraft, sobrevivencialismo e colecionadores que exigem um equipamento de alto desempenho com personalidade única. Com sua construção sólida e acabamento premium, ela oferece a confiança necessária para superar os desafios mais complexos com total precisão e segurança tática."
+  },
+
+  {
+    id: 240,
+    nome: "Faca Tática de Combate com Cabo Soco-Inglês e Lâmina Gravada a Laser",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/faca4.jpeg",
+    descricao:"Esta faca de combate é a união definitiva entre poder de impacto, precisão de corte e uma estética imponente, projetada para quem busca um equipamento de defesa e sobrevivência fora do comum. Sua lâmina em aço polido de alto desempenho apresenta um fio liso extremamente afiado, valorizado por intrincadas gravuras a laser que conferem um acabamento artístico e exclusivo à peça. O grande diferencial deste modelo é o seu cabo ergonômico integrado com um soco-inglês em metal, proporcionando uma proteção total para a mão e uma segurança inabalável, impedindo que a faca seja desarmada mesmo em situações de contato extremo. O revestimento do cabo em material texturizado que imita chifre de cervo garante uma empunhadura firme e confortável, unindo a robustez de uma ferramenta militar com o visual clássico da cutelaria tradicional. Com um design balanceado e construção de peça única (Full Tang), esta faca é o acessório indispensável para colecionadores, praticantes de artes marciais e aventureiros que exigem um equipamento versátil para cortes precisos ou defesa pessoal tática. Resistente e visualmente impactante, ela oferece a confiança necessária para enfrentar os cenários mais desafiadores com uma eficiência letal e um estilo inigualável."
+  },
+
+  {
+    id: 241,
+    nome: "Faca Tática de Combate com Cabo Soco-Inglês e Lâmina Gravada a Laser",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/faca5.jpeg",
+    descricao:"Esta faca de combate é a união definitiva entre poder de impacto, precisão de corte e uma estética imponente, projetada para quem busca um equipamento de defesa e sobrevivência fora do comum. Sua lâmina em aço polido de alto desempenho apresenta um fio liso extremamente afiado, valorizado por intrincadas gravuras a laser que conferem um acabamento artístico e exclusivo à peça. O grande diferencial deste modelo é o seu cabo ergonômico integrado com um soco-inglês em metal, proporcionando uma proteção total para a mão e uma segurança inabalável, impedindo que a faca seja desarmada mesmo em situações de contato extremo. O revestimento do cabo em material texturizado que imita madeira garante uma empunhadura firme e confortável, unindo a robustez de uma ferramenta militar com o visual clássico da cutelaria tradicional. Com um design balanceado e construção sólida, esta faca é o acessório indispensável para colecionadores, praticantes de artes marciais e aventureiros que exigem um equipamento versátil para cortes precisos ou defesa pessoal tática. Resistente e visualmente impactante, ela oferece a confiança necessária para enfrentar os cenários mais desafiadores com uma eficiência estratégica e um estilo inigualável."
+  },
+
+  {
+    id: 242,
+    nome: "Faca Tática de Combate Militar Black com Cabo Soco-Inglês e Dorso Serrilhado",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/faca6.jpeg",
+    descricao:"Esta faca tática de combate na cor preta fosca é a combinação definitiva entre robustez, proteção e versatilidade para operações severas e sobrevivência em campo. Sua lâmina em aço de alta resistência apresenta um fio liso extremamente afiado com ponta estilo tanto para maior poder de perfuração, complementada por um dorso serrilhado agressivo capaz de cortar cordas e materiais fibrosos com facilidade. O grande diferencial deste modelo é o cabo ergonômico com proteção integral em estilo soco-inglês, que oferece uma defesa total para a mão e garante que o equipamento permaneça firme mesmo em situações de impacto ou uso extremo. O cabo possui texturização antiderrapante em losangos para uma empunhadura segura em qualquer condição climática, unindo a força de uma ferramenta de impacto com a precisão de uma faca de combate profissional. Projetada para ser um item essencial em kits de sobrevivência, bushcraft e coleções militares, esta faca une durabilidade excepcional com uma estética tática imponente. Com construção sólida e acabamento antirreflexo, ela oferece a confiança necessária para superar os desafios mais hostis com total eficiência e segurança estratégica."
+  },
+
+  {
+    id: 243,
+    nome: "Faca Artesanal de Sobrevivência com Cabo Texturizado e Guarda Gravada",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/faca7.jpeg",
+    descricao:"Esta faca de sobrevivência combina um design clássico e rústico com a funcionalidade necessária para atividades ao ar livre, sendo uma peça indispensável para entusiastas de camping, pesca e colecionadores de cutelaria. Sua lâmina em aço polido apresenta um fio liso extremamente afiado e um dorso robusto, projetada para oferecer cortes precisos e resistência em diversas tarefas de campo ou bushcraft. O grande diferencial deste modelo é o seu cabo ergonômico com acabamento que imita madeira escura, apresentando um detalhe exclusivo de cordão tático (paracord) trançado que amplia a aderência e oferece um recurso extra em situações de emergência. A guarda em metal trabalhado com gravuras clássicas em relevo não apenas confere sofisticação à peça, mas também garante uma proteção total, impedindo o deslizamento acidental dos dedos em direção ao fio. Com um design equilibrado e o pomo traseiro com fiel incluso, esta faca une a beleza de uma peça artesanal com a força de uma ferramenta de sobrevivência profissional, proporcionando uma empunhadura firme e segura sob qualquer condição. Resistente e visualmente impactante, ela é a escolha ideal para quem busca um equipamento confiável que une tradição, estilo e máxima eficiência para enfrentar os desafios na natureza com total segurança."
+  },
+
+  {
+    id: 244,
+    nome: "Faca Tática de Sobrevivência Militar Black com Lâmina Bowie e Dorso Serrilhado",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/faca8.jpeg",
+    descricao:"Esta faca tática de sobrevivência na cor preta fosca é a ferramenta definitiva para quem busca robustez, precisão e funcionalidade extrema em atividades de camping, pesca, bushcraft ou coleções militares. Construída em aço de alta resistência com acabamento antirreflexo, sua lâmina estilo Bowie apresenta um fio liso de alto desempenho e um dorso serrilhado estratégico, ideal para serrar cordas, galhos e materiais fibrosos com facilidade em situações críticas. O grande diferencial deste modelo é o seu cabo ergonômico com textura recartilhada profunda, que garante uma empunhadura firme, segura e antiderrapante mesmo sob condições de umidade ou uso de luvas táticas. A guarda dupla em metal oferece proteção total contra deslizes em direção ao fio, enquanto o pomo traseiro reforçado inclui um fiel de segurança (paracord) para evitar a perda do equipamento durante o manuseio intenso. Projetada para suportar o uso severo em ambientes hostis, esta faca une a estética militar tradicional com uma durabilidade excepcional para enfrentar os desafios mais exigentes da natureza. É o acessório de cutelaria indispensável para aventureiros que não abrem mão de um equipamento confiável, combinando um corte afiado com a versatilidade necessária para superar qualquer obstáculo com total segurança e eficiência."
+  },
+
+  {
+    id: 245,
+    nome: "Faca Esportiva Tática Xingu com Lâmina Curva e Cabo em Madeira Nobre",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/faca9.jpeg",
+    descricao:"Esta faca esportiva da renomada marca Xingu é a escolha definitiva para quem busca uma ferramenta que une a elegância da cutelaria clássica com a força necessária para atividades de sobrevivência, camping e pesca. Sua lâmina em aço polido apresenta um design curvo agressivo e um fio liso extremamente afiado, projetada para oferecer cortes profundos e precisos com o mínimo esforço em diversos materiais. O grande diferencial deste modelo é o seu cabo ergonômico em madeira nobre com acabamento encerado, que proporciona uma empunhadura quente, firme e confortável, adaptando-se perfeitamente ao formato da mão para um controle absoluto durante o manuseio. A guarda em metal integrada oferece segurança adicional, impedindo o deslizamento acidental dos dedos em direção à lâmina, enquanto o pomo traseiro conta com um furo passante para fiel, permitindo a fixação de cordões de segurança. Com uma construção robusta e um equilíbrio ideal entre peso e agilidade, esta faca é o acessório indispensável para entusiastas do bushcraft e colecionadores que não abrem mão de um equipamento durável com visual rústico e sofisticado. Resistente e pronta para o uso severo, ela garante a confiança necessária para enfrentar os desafios da natureza com máxima eficiência e uma estética atemporal de alta qualidade."
+  },
+
+  {
+    id: 246,
+    nome: "Faca de Sobrevivência Luxo com Cabo em Madeira Resinada e Guarda Trabalhada",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/faca10.jpeg",
+    descricao:"Esta faca de sobrevivência de luxo é a escolha definitiva para colecionadores e entusiastas que buscam uma peça que une a estética da cutelaria clássica com a robustez necessária para atividades de campo. Sua lâmina em aço polido apresenta um fio liso extremamente afiado e um dorso com serrilhado parcial, projetada para oferecer cortes precisos e versatilidade em acampamentos, bushcraft ou pesca. O grande diferencial deste modelo é o seu cabo ergonômico fabricado em madeira resinada com tons avermelhados e detalhes em preto, proporcionando uma empunhadura firme, quente e visualmente deslumbrante que se destaca em qualquer coleção. A guarda em metal é finamente ornamentada com gravuras clássicas em relevo, garantindo proteção total e impedindo o deslizamento acidental dos dedos em direção ao fio durante o uso intenso. Com um design equilibrado e construção sólida, esta faca possui um furo para fiel no pomo traseiro, permitindo a fixação de cordões para maior segurança no transporte. Resistente e imponente, ela é o acessório indispensável para quem não abre mão de um equipamento de alta durabilidade com um acabamento sofisticado, garantindo máxima eficiência e uma presença inigualável em suas aventuras ao ar livre."
+  },
+
+  {
+    id: 247,
+    nome: "Faca Tática de Combate com Lâmina Bowie Curva e Dorso em Serra",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/faca11.jpeg",
+    descricao:"Esta faca tática de combate foi projetada para quem exige uma ferramenta de corte imponente, robusta e extremamente eficiente em situações de sobrevivência ou bushcraft. Construída em aço de alta resistência com acabamento polido, sua lâmina estilo Bowie apresenta um fio liso de alto desempenho e um dorso com serrilha agressiva e profunda, ideal para serrar cordas, galhos e materiais fibrosos com facilidade. O grande diferencial deste modelo é o seu cabo ergonômico em madeira resinada com tons avermelhados e ranhuras naturais, que proporciona uma empunhadura firme, quente e visualmente deslumbrante, adaptando-se perfeitamente à mão para um controle absoluto. A guarda em metal integrada com detalhes em cruz (X) oferece segurança adicional e proteção total, impedindo o deslizamento acidental dos dedos em direção ao fio durante o uso intenso em campo. Com uma construção sólida e um equilíbrio ideal entre peso e agilidade, esta faca une a estética militar clássica com uma durabilidade excepcional para enfrentar os ambientes mais hostis e desafiadores. É o acessório de cutelaria indispensável para aventureiros, colecionadores e entusiastas da vida ao ar livre que não abrem mão de um equipamento confiável, combinando um corte afiado com a versatilidade necessária para superar qualquer obstáculo com total segurança."
+  },
+
+  {
+    id: 248,
+    nome: "Faca de Sobrevivência Tática Black com Dorso Serrilhado e Bainha com Bússola",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/faca12.jpeg",
+    descricao:"Este kit de sobrevivência tático é a ferramenta definitiva para aventureiros que buscam máxima funcionalidade e segurança em ambientes hostis e expedições de longa duração. A faca apresenta uma lâmina robusta em aço com acabamento preto fosco antirreflexo, equipada com um fio liso de alta precisão e um dorso com serrilha agressiva e profunda, ideal para tarefas pesadas como serrar cordas, galhos e preparar abrigos. O cabo ergonômico em polímero de alta densidade possui uma textura recartilhada antiderrapante e descanso para o dedo indicador, garantindo uma empunhadura firme e controle total mesmo sob condições de chuva ou lama. O grande diferencial deste conjunto é a sua bainha tática rígida multifuncional, que além de proteger a lâmina com um sistema de trava seguro, integra uma bússola de precisão e uma pederneira acoplada, permitindo a orientação geográfica e o início de fogueiras em qualquer situação de emergência. Projetada para ser um item central em kits de bushcraft, camping e operações militares, esta faca une a durabilidade de uma ferramenta de combate com a versatilidade de um kit de sobrevivência completo. Com construção sólida e acabamento premium, ela oferece a confiança necessária para superar os desafios mais imprevisíveis da natureza com total eficiência e prontidão."
+  },
+
+  {
+    id: 249,
+    nome: "Kit Tático de Sobrevivência Black com Faca Principal, Faca de Arremesso e Bainha Rígida",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/faca13.jpeg",
+    descricao:"Este kit tático de sobrevivência é a solução completa e versátil para quem exige prontidão e múltiplas opções de corte em expedições de bushcraft, camping e operações militares. A faca principal apresenta uma lâmina imponente em aço com acabamento preto fosco antirreflexo, equipada com um fio liso de alta precisão e um dorso com serrilha agressiva, ideal para serrar cordas, galhos e preparar abrigos. O grande diferencial deste conjunto é a inclusão de uma faca auxiliar compacta, perfeita para tarefas de precisão, arremesso ou como lâmina de emergência, apresentando um design de peça única (Full Tang) com furos para equilíbrio e fixação. Ambas as lâminas são acondicionadas em uma bainha rígida de polímero de alta resistência, que conta com sistema de trava seguro, aberturas para ventilação e suporte de nylon reforçado para acoplagem em cintos ou mochilas. O cabo da faca principal possui um design ergonômico com ranhuras profundas para os dedos e textura antiderrapante, garantindo uma empunhadura firme e controle total sob qualquer condição climática. Projetado para suportar o uso severo em ambientes hostis, este kit une a durabilidade militar com a praticidade de ter duas ferramentas complementares sempre à mão, oferecendo a confiança necessária para superar os desafios mais complexos da natureza com total eficiência e segurança."
+  },
+
+  {
+    id: 250,
+    nome: "Faca de Sobrevivência Luxo com Cabo em Madeira Resinada e Guarda Trabalhada",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/faca14.jpeg",
+    descricao:"Esta faca de sobrevivência de luxo é a escolha definitiva para colecionadores e entusiastas que buscam uma peça que une a estética da cutelaria clássica com a robustez necessária para atividades de campo. Sua lâmina em aço polido apresenta um fio liso extremamente afiado e um dorso com serrilhado parcial, projetada para oferecer cortes precisos e versatilidade em acampamentos, bushcraft ou pesca. O grande diferencial deste modelo é o seu cabo ergonômico fabricado em madeira resinada com tons avermelhados e detalhes em preto, proporcionando uma empunhadura firme, quente e visualmente deslumbrante que se destaca em qualquer coleção. A guarda em metal é finamente ornamentada com gravuras clássicas em relevo, garantindo proteção total e impedindo o deslizamento acidental dos dedos em direção ao fio durante o uso intenso. Com um design equilibrado e construção sólida, esta faca possui um furo para fiel no pomo traseiro, permitindo a fixação de cordões para maior segurança no transporte. Resistente e imponente, ela é o acessório indispensável para quem não abre mão de um equipamento de alta durabilidade com um acabamento sofisticado, garantindo máxima eficiência e uma presença inigualável em suas aventuras ao ar livre."
+  },
+
+  {
+    id: 251,
+    nome: "Faca Artesanal de Sobrevivência com Cabo de Madeira e Detalhes de Estrela",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/faca15.jpeg",
+    descricao:"Esta faca artesanal de estilo clássico é a escolha ideal para colecionadores e entusiastas que buscam uma peça com personalidade única e robustez para atividades ao ar livre. Sua lâmina em aço polido apresenta um fio liso de alta precisão e uma ponta ligeiramente elevada, projetada para oferecer cortes eficientes e versatilidade em acampamentos, pesca ou bushcraft. O grande diferencial deste modelo é o seu cabo ergonômico em madeira com acabamento envernizado, que ostenta dois embutidos metálicos em formato de estrela e pinos aparentes, conferindo um visual rústico e autêntico que remete à cutelaria tradicional. A guarda em metal integrada oferece segurança adicional, protegendo os dedos durante o manuseio e garantindo uma empunhadura firme e confortável para diversos tipos de corte. Com uma construção sólida e um equilíbrio perfeito entre peso e agilidade, esta faca une a beleza de um item decorativo com a funcionalidade de uma ferramenta de campo confiável. Resistente e visualmente impactante, ela é o acessório indispensável para quem valoriza a tradição da cutelaria artesanal, garantindo máxima eficiência e uma estética exclusiva para enfrentar qualquer desafio na natureza com total segurança."
+  },
+
+  {
+    id: 252,
+    nome: "Faca Tática de Combate Militar Black com Lâmina Vazada e Cabo Anatômico",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/faca16.jpeg",
+    descricao:"Esta faca tática de combate foi projetada para quem exige máxima agilidade, leveza e eficiência em operações de campo ou atividades de sobrevivência extrema. Construída em aço de alta resistência com acabamento preto fosco antirreflexo, sua lâmina estilo Bowie apresenta um fio liso de alta precisão e aberturas vazadas estratégicas que reduzem o peso total da peça, proporcionando um equilíbrio superior para manuseios rápidos. O grande diferencial deste modelo é o seu cabo ergonômico em polímero de alta densidade com ranhuras profundas para os dedos e textura antiderrapante, garantindo uma empunhadura firme e controle absoluto mesmo sob condições de umidade ou uso de luvas táticas. A guarda dupla integrada oferece proteção total contra deslizes em direção ao fio, enquanto o pomo traseiro metálico reforçado pode ser utilizado para tarefas de impacto em situações de emergência. Com uma construção sólida e design agressivo, esta faca une a durabilidade militar com a funcionalidade necessária para enfrentar os terrenos mais hostis. É o acessório de cutelaria indispensável para aventureiros, praticantes de bushcraft e colecionadores que buscam um equipamento confiável que combina um corte afiado com uma estética tática inigualável para superar qualquer desafio com total segurança."
+  },
+
+  {
+    id: 253,
+    nome: "Faca Tática Militar Camuflada com Dorso Serrilhado e Guarda Dupla",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/faca17.jpeg",
+    descricao:"Esta faca tática camuflada é a ferramenta definitiva para quem busca máxima eficiência e furtividade em operações de campo, bushcraft ou aventuras na selva. Construída integralmente com uma estampa camuflada de alta definição, sua lâmina de aço de alto desempenho apresenta um fio liso extremamente afiado para cortes precisos e um dorso com serrilha agressiva, ideal para serrar cordas, galhos e materiais fibrosos em situações críticas. O grande diferencial deste modelo é o seu design ergonômico com cabo texturizado e ranhuras profundas para os dedos, que garantem uma empunhadura firme e controle absoluto mesmo sob condições de umidade ou lama. A guarda dupla integrada oferece proteção total contra deslizes acidentais em direção ao fio, enquanto o pomo traseiro conta com um furo para fiel, permitindo a fixação de cordões de segurança para evitar a perda do equipamento em manuseios intensos. Leve, equilibrada e com acabamento antirreflexo, esta faca une a estética militar autêntica com uma durabilidade excepcional para enfrentar os terrenos mais hostis. É o acessório de cutelaria indispensável para sobrevivencialistas e colecionadores que buscam um equipamento confiável que combina um corte potente com a versatilidade necessária para superar qualquer desafio com total segurança tática."
+  },
+
+  {
+    id: 254,
+    nome: "Faca Tática de Combate com Lâmina Curva Vazada e Cabo de Madeira Nobre",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/faca18.jpeg",
+    descricao:"Esta faca de combate apresenta um design agressivo e aerodinâmico, projetado para quem busca uma peça de impacto visual aliada a uma funcionalidade superior em atividades de campo ou coleções de elite. Sua lâmina em aço polido de alto desempenho possui uma curvatura acentuada e recortes vazados estratégicos ao longo do corpo, que reduzem o peso total da ferramenta e garantem um equilíbrio perfeito para manuseios rápidos e precisos. O grande diferencial deste modelo é o seu cabo ergonômico em madeira nobre com ranhuras para os dedos e pinos metálicos aparentes, proporcionando uma empunhadura firme, quente e extremamente confortável para diversos tipos de corte. A guarda em metal em formato de cruz oferece uma proteção total, impedindo o deslizamento acidental da mão em direção ao fio, enquanto a ponta extremamente afiada e o dorso trabalhado conferem versatilidade para perfurações e tarefas de sobrevivência. Com uma construção robusta e estética que remete à cutelaria de fantasia e militar, esta faca une durabilidade excepcional com um acabamento refinado para enfrentar os desafios mais exigentes. É o acessório indispensável para entusiastas do bushcraft e colecionadores que exigem um equipamento confiável que combina um corte potente com uma presença tática inigualável e total segurança."
+  },
+
+  {
+    id: 255,
+    nome: "Faca Tática de Combate Militar Black com Lâmina Bowie Vazada e Dorso Serrilhado",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/faca19.jpeg",
+    descricao:"Esta faca tática de combate foi projetada para quem exige máxima agilidade, leveza e eficiência em operações de campo ou atividades de sobrevivência extrema. Construída em aço de alta resistência com acabamento polido, sua lâmina estilo Bowie apresenta um fio liso de alta precisão e uma série de oito furos vazados estratégicos que reduzem o peso total da peça, proporcionando um equilíbrio superior e uma estética agressiva inigualável. O grande diferencial deste modelo é o seu dorso com serrilha profunda, ideal para tarefas pesadas como serrar cordas ou galhos, aliado a uma guarda dupla estendida que oferece proteção total contra deslizes em direção ao fio. O cabo ergonômico em polímero de alta densidade possui uma textura antiderrapante e um design anatômico para os dedos, garantindo uma empunhadura firme e controle absoluto mesmo sob as condições mais hostis ou uso de luvas táticas. Com uma construção sólida e um pomo traseiro que permite a fixação de fiel, esta faca une a durabilidade militar com a funcionalidade necessária para enfrentar qualquer desafio na natureza. É o acessório de cutelaria indispensável para aventureiros, colecionadores e entusiastas do bushcraft que buscam um equipamento confiável que combina um corte potente com uma presença tática imponente e total segurança."
+  },
+
+  {
+    id: 256,
+    nome: "Facão Tático Militar com Lâmina em Aço Inox e Bainha de Couro Legítimo",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/faca20.jpeg",
+    descricao:"Este facão tático de alto desempenho é a ferramenta definitiva para quem exige força bruta, durabilidade e precisão em tarefas pesadas de desbravamento, bushcraft ou manutenção em propriedades rurais. Construído com uma lâmina longa e robusta em aço inoxidável de alta qualidade, ele oferece uma resistência excepcional à corrosão e um fio de corte duradouro, ideal para abrir trilhas, cortar galhos grossos e preparar abrigos com o mínimo esforço. O grande diferencial deste modelo é a sua luxuosa bainha em couro legítimo preto, que apresenta costuras reforçadas e botões de pressão estratégicos para garantir um transporte seguro e um saque rápido e silencioso em qualquer situação de campo. O cabo ergonômico com talas fixadas por rebites metálicos proporciona uma empunhadura firme, equilibrada e extremamente confortável, reduzindo a fadiga da mão durante o uso prolongado e garantindo um controle absoluto sobre cada golpe. Com um design que une a eficiência militar com a tradição da cutelaria robusta, este facão é o acessório indispensável para aventureiros, mateiros e profissionais que não abrem mão de um equipamento confiável para enfrentar os desafios mais brutos da natureza. Sua construção sólida e acabamento premium garantem que esta ferramenta suporte as condições mais severas, proporcionando máxima segurança e uma vida útil incomparável."
+  },
+
+  {
+    id: 257,
+    nome: "Kit 2 Escovas de Limpeza Multiuso com Cabo de Madeira e Cerdas de Nylon",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/escova de cuturno.jpeg",
+    descricao:"Este kit com duas escovas de limpeza premium é a solução definitiva para quem busca eficiência, durabilidade e cuidado no tratamento de diversas superfícies e materiais. Construídas com um cabo ergonômico em madeira natural de alta resistência e acabamento liso, estas escovas oferecem uma empunhadura firme e confortável, permitindo aplicar a pressão ideal sem causar fadiga nas mãos durante o uso prolongado. O grande diferencial deste modelo são as suas cerdas de nylon densas e flexíveis, projetadas para remover sujeiras profundas, manchas e detritos com facilidade, sem agredir tecidos delicados como couro, camurça ou fibras de estofados. Ideais para a limpeza de calçados, roupas, bancos de automóveis e móveis, estas escovas unem o design clássico da cutelaria doméstica com a funcionalidade necessária para garantir resultados impecáveis em segundos. Leves e compactas, elas são o acessório indispensável para manter a organização e a conservação dos seus itens favoritos com total praticidade. Com uma construção sólida que evita a queda das cerdas e um visual rústico sofisticado, este conjunto garante uma vida útil prolongada e uma versatilidade inigualável para enfrentar qualquer desafio de limpeza doméstica ou profissional com máxima segurança e suavidade."
+  },
+
+  {
+    id: 258,
+    nome: "Graxa em Pasta Nugget Preto 36g - Máximo Brilho e Proteção à Água",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/graxa preta.jpeg",
+    descricao:"A graxa em pasta Nugget é a solução definitiva para quem busca renovar, nutrir e proteger calçados de couro com máxima eficiência e um acabamento profissional. Desenvolvida com uma fórmula de cuidado intensivo que penetra nas fibras do couro, esta pasta proporciona um brilho instantâneo e profundo, devolvendo a vivacidade da cor preta e escondendo pequenos riscos ou sinais de desgaste natural. O grande diferencial deste produto é a sua avançada barreira de resistência à água, que cria uma camada protetora invisível contra a umidade e sujeiras externas, garantindo que seus sapatos e botas permaneçam impecáveis por muito mais tempo. Ideal para o uso diário em calçados sociais, militares ou de passeio, ela une a tradição de uma marca líder desde 1953 com a tecnologia necessária para manter o couro macio e hidratado, evitando rachaduras precoces. Sua aplicação é simples e rápida, oferecendo uma cobertura uniforme que realça a elegância de qualquer peça de couro legítimo ou sintético com total segurança. Indispensável para o cuidado pessoal e manutenção de uniformes, esta pasta de 36g garante um rendimento superior e uma durabilidade incomparável para que você caminhe sempre com confiança e sofisticação."
+  },
+
+  {
+    id: 260,
+    nome: "Suspensório Tático Militar em Cordura Verde Oliva com Sistema de Engate Rápido",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/cinto suspensorio operacional com bolso.jpeg",
+    descricao:"Este suspensório tático de alta performance é a solução definitiva para quem busca o máximo de conforto, ergonomia e distribuição de peso em operações militares, segurança ou práticas de Airsoft e Paintball. Construído integralmente em tecido Cordura 1000D de padrão internacional, ele oferece uma resistência incomparável contra abrasão, rasgos e condições climáticas extremas, garantindo uma vida útil prolongada mesmo sob uso severo. O grande diferencial deste modelo é o seu design em H com alças largas e acolchoadas, que aliviam a pressão nos ombros e mantêm o cinto de guarnição estável, permitindo que você carregue equipamentos pesados por longos períodos sem fadiga. Equipado com quatro pontos de fixação e fivelas de engate rápido em polímero de alta densidade, ele permite um ajuste preciso ao corpo e um saque ágil do equipamento em situações de emergência. Suas costuras reforçadas e o sistema de passadores integrados oferecem versatilidade para acoplar acessórios extras, unindo a funcionalidade tática com uma estética militar autêntica e profissional. Leve, respirável e extremamente robusto, este suspensório é o acessório indispensável para compor o seu fardamento com total segurança, estabilidade e a confiança de um equipamento de elite feito para durar."
+  },
+
+  {
+    id: 261,
+    nome: "Suspensório Tático Militar Modelo H-Harness Verde Oliva em Nylon Reforçado",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/cinto suspensorio operacional guerra na selva.jpeg",
+    descricao:"Este suspensório tático de alta performance é a solução definitiva para quem busca o máximo de conforto, ergonomia e distribuição de peso em operações militares, segurança ou práticas de Airsoft e Paintball. Construído integralmente em nylon de alta densidade e padrão profissional, ele oferece uma resistência incomparável contra abrasão e rasgos, garantindo uma vida útil prolongada mesmo sob uso severo em ambientes de mata ou urbanos. O grande diferencial deste modelo é o seu design em H com alças largas e reforçadas, que aliviam a pressão nos ombros e mantêm o cinto de guarnição estável, permitindo que você carregue porta-carregadores e outros equipamentos pesados por longos períodos sem fadiga. Equipado com quatro pontos de fixação ajustáveis por fivelas de polímero de alta resistência, ele permite um ajuste preciso ao corpo e uma estabilidade absoluta durante movimentações táticas intensas. Suas costuras duplas e o sistema de passadores integrados oferecem versatilidade para acoplar acessórios extras, unindo a funcionalidade tática com uma estética militar autêntica e profissional. Leve, respirável e extremamente robusto, este suspensório é o acessório indispensável para compor o seu fardamento com total segurança, estabilidade e a confiança de um equipamento tático feito para durar."
+  },
+
+  {
+    id: 262,
+    nome: "Conjunto Tático Militar Verde Oliva com Suspensório em Y e Cinto de Guarnição",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/cinto e suspensorio.jpeg",
+    descricao:"Este conjunto tático completo é a solução definitiva para quem busca o máximo em ergonomia, distribuição de carga e estabilidade em operações militares, segurança, Airsoft ou Paintball. Construído integralmente em nylon de alta densidade e padrão profissional na cor verde oliva, o kit apresenta um suspensório em modelo Y com alças largas e acolchoadas que distribuem o peso dos equipamentos de forma equilibrada entre os ombros e o cinto, evitando a fadiga durante o uso prolongado. O grande diferencial deste conjunto é o cinto de guarnição robusto com ilhoses metálicos duplos e uma fivela central de engate rápido em polímero de alta resistência, permitindo a acoplagem segura de diversos acessórios modulares, porta-carregadores e coldres. Equipado com presilhas metálicas e passadores ajustáveis, ele oferece uma fixação absoluta ao corpo e permite movimentos ágeis sem que o equipamento se desloque, unindo a funcionalidade tática com uma durabilidade excepcional contra abrasão e rasgos em terrenos de mata densa. Leve, respirável e extremamente robusto, este sistema de transporte é o acessório indispensável para compor o seu fardamento com total segurança, organização e a confiança de um equipamento militar de elite feito para durar."
+  },
+
+  {
+    id: 263,
+    nome: "Porta-Carregador Duplo Tático Universal com Fechamento em Fivela de Engate Rápido",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/porta carregador fuzil.jpeg",
+    descricao:"Este porta-carregador tático universal é a solução definitiva para quem busca máxima organização, agilidade e proteção para seus equipamentos em operações militares, segurança, Airsoft ou Paintball. Construído integralmente em nylon de alta densidade e padrão profissional, ele oferece uma resistência incomparável contra abrasão e rasgos, garantindo uma vida útil prolongada mesmo sob uso severo em terrenos de mata ou urbanos. O grande diferencial deste modelo é o seu fechamento robusto com fivela de engate rápido em polímero de alta resistência, que proporciona um travamento absoluto dos itens internos enquanto permite um acesso silencioso e veloz em situações de alta pressão. Equipado com um sistema de fixação versátil na parte traseira, ele pode ser acoplado com facilidade a cintos de guarnição ou coletes modulares, mantendo-se estável e firme durante movimentações táticas intensas sem que o equipamento se desloque. Suas costuras reforçadas e o design de perfil otimizado oferecem uma durabilidade excepcional e um ajuste preciso para diversos tamanhos de acessórios, unindo a funcionalidade tática com uma estética profissional e moderna. Leve, compacto e extremamente robusto, este acessório é o item indispensável para compor o seu fardamento com total segurança, praticidade e a confiança de um equipamento tático feito para durar."
+  },
+
+  {
+    id: 264,
+    nome: "Porta-Cantil Tático Militar em Nylon com Bolso Auxiliar e Engate Rápido",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/porta cantil.jpeg",
+    descricao:"Este porta-cantil tático é a solução definitiva para quem busca hidratação acessível, proteção térmica e durabilidade em operações militares, acampamentos, trilhas ou práticas de Airsoft. Construído integralmente em nylon de alta densidade e padrão profissional, ele oferece uma resistência incomparável contra abrasão e rasgos em terrenos de mata densa, garantindo uma vida útil prolongada mesmo sob uso severo. O grande diferencial deste modelo é o seu design funcional que inclui um bolso lateral auxiliar com fechamento em velcro, ideal para carregar pastilhas purificadoras de água ou pequenos itens de emergência, além de um sistema de travamento central por fivela de engate rápido em polímero, que mantém o cantil absolutamente firme e seguro durante movimentações intensas. Equipado com um revestimento interno que auxilia na manutenção da temperatura do líquido e passadores traseiros reforçados para fixação em cintos de guarnição ou mochilas, ele une a funcionalidade tática com uma estética militar autêntica e profissional. Leve, compacto e extremamente robusto, este acessório é o item indispensável para compor o seu kit de sobrevivência com total praticidade, segurança e a confiança de um equipamento tático feito para durar."
+  },
+
+  {
+    id: 265,
+    nome: "Bússola de Mapa Profissional com Lupa, Réguas de Escala e Cordão de Segurança",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/bussola de campo.jpeg",
+    descricao:"Esta bússola de mapa profissional é a ferramenta de navegação definitiva para quem busca precisão cirúrgica e confiança em expedições de trekking, orientação, bushcraft ou treinamentos militares. Construída em acrílico transparente de alta resistência e padrão profissional, ela apresenta uma base plana que permite a leitura clara de mapas e cartas topográficas sem distorções, integrando réguas de escala em milímetros e proporções de 1:25.000 e 1:50.000 para cálculos de distância rápidos e exatos. O grande diferencial deste modelo é a sua lente de aumento (lupa) centralizada e o disco graduado de 360° em alto contraste, que garantem uma leitura de azimute sem erros mesmo sob condições de luz adversas, enquanto a agulha magnética de alta estabilidade assegura um apontamento norte rápido e confiável. Equipada com um cordão de nylon amarelo de alta visibilidade, ela oferece um transporte seguro junto ao corpo ou fixada à mochila, unindo a funcionalidade tática com uma durabilidade excepcional contra impactos e variações térmicas em campo. Leve, compacta e extremamente robusta, esta bússola é o acessório indispensável para compor o seu kit de sobrevivência com total praticidade, segurança e a precisão de um equipamento de navegação de elite feito para durar."
+  },
+
+  {
+    id: 266,
+    nome: "Bolsa de Transporte Militar Tática de Grande Capacidade com Alça Reforçada",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/saco VO.jpeg",
+    descricao:"Esta bolsa de transporte tática é a solução definitiva para quem busca máxima capacidade de carga, resistência e organização em expedições militares, viagens de longa duração, acampamentos ou práticas de Airsoft. Construída integralmente em nylon de alta densidade e padrão profissional na cor verde oliva, ela oferece uma durabilidade incomparável contra abrasão, rasgos e condições climáticas adversas, garantindo a proteção total dos seus equipamentos mesmo sob uso severo. O grande diferencial deste modelo é o seu design cilíndrico de grande volume com sistema de fechamento por zíper de alta resistência e alças de mão reforçadas que envolvem toda a estrutura da bolsa, proporcionando uma distribuição de peso equilibrada e segurança absoluta durante o transporte de cargas pesadas. Equipada com um visor transparente de identificação lateral e cintas de compressão externas com fivelas de polímero, ela permite estabilizar o conteúdo interno e personalizar o tamanho da bolsa conforme a necessidade, unindo a funcionalidade tática com uma estética militar autêntica e profissional. Leve, dobrável quando vazia e extremamente robusta, esta bolsa de transporte é o acessório indispensável para organizar o seu fardamento e kits de sobrevivência com total praticidade, segurança e a confiança de um equipamento de carga de elite feito para durar."
+  },
+
+  {
+    id: 267,
+    nome: "Saco de Gelo ipermeável",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/saco ipermeavel para campo.jpeg",
+    descricao:"Saco de Gelo ipermeável é a solução prática e indispensável para quem busca proteção imediata contra imprevistos climáticos em eventos ao ar livre, estádios, shows, parques ou situações de emergência. Fabricada em polietileno de baixa densidade (plástico PE), ela apresenta um material leve, 100% impermeável e totalmente transparente, garantindo que você se mantenha seco sem comprometer a visibilidade ou o conforto durante o uso. O grande diferencial deste modelo é o seu design ultracompacto com embalagem individual selada, que permite carregá-la facilmente no bolso, na mochila, no porta-luvas do carro ou até mesmo dentro de kits de sobrevivência e primeiros socorros sem ocupar espaço. Equipada com um capuz integrado e mangas largas, ela oferece uma cobertura eficiente para adultos de diversos tamanhos, unindo a funcionalidade de uma proteção rápida com a praticidade de um item descartável de baixo custo. Suas costuras soldadas e o acabamento simplificado proporcionam uma barreira absoluta contra a água e o vento, sendo o acessório de conveniência ideal para empresas, organizadores de eventos ou para ter sempre à mão em dias de clima instável. Higiênica, leve e extremamente versátil, esta capa de chuva garante a sua tranquilidade e a de seus clientes, oferecendo segurança e bem-estar em qualquer lugar com total agilidade."
+  },
+
+  {
+    id: 268,
+    nome: "Gorro de Selva",
+    categoria: "equipamentos militares",
+    preco: 199.90,
+    imagem: "../equipamentosMilitares/equipamentosFoto/gorro de campo.jpeg",
+    descricao:"Gorro de Selva, é a ferramenta de proteção definitiva para quem busca máxima eficiência e furtividade em operações de campo, bushcraft, pesca ou aventuras na selva. Construído integralmente com um padrão de camuflagem de alta definição em tecido Ripstop reforçado, ele oferece uma resistência incomparável contra rasgos e abrasão em terrenos de mata densa, garantindo uma durabilidade excepcional sob as condições mais hostis. O grande diferencial deste modelo é a sua aba larga e flexível, que proporciona uma proteção solar absoluta para o rosto e pescoço, além de uma fita tática com múltiplos passadores externos para a fixação de vegetação natural ou pequenos acessórios de camuflagem. Equipado com aberturas laterais que garantem ventilação constante e conforto térmico sob sol intenso, ele apresenta uma modelagem anatômica que se ajusta perfeitamente à cabeça, unindo a funcionalidade militar clássica com uma estética tática profissional e moderna. Leve, dobrável e extremamente robusto, este acessório é o item indispensável para compor o seu fardamento com total praticidade, segurança e a confiança de um equipamento de proteção de elite feito para durar."
+  },
+
+
   // ================= CALÇADOS SOCIETY =================
   {
     id: 301,
@@ -251,200 +809,222 @@ const PRODUTOS = [
 
   {
     id: 303,
-    nome: "SOCIETY MESSI LARANJA",
+    nome: "Chuteira Society Messi X Speedportal – Edição Especial Laranja e Rosa",
     categoria: "Society",
     preco: 180.00,
     imagem: "../calcados/society/SOCIETY MESSI LARANJA.png",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A Chuteira Society Messi X Speedportal é a escolha definitiva para jogadores que buscam velocidade explosiva, controle preciso e o estilo inconfundível de um dos maiores jogadores de todos os tempos. Construída com um cabedal sintético leve e texturizado, ela apresenta uma padronagem em relevo que garante uma aderência superior com a bola, permitindo dribles rápidos e finalizações cirúrgicas mesmo em alta velocidade. O grande diferencial deste modelo é o seu design aerodinâmico e vibrante em tons de laranja, rosa e amarelo, com a assinatura MESSI em destaque no calcanhar, unindo a funcionalidade de uma chuteira de elite com uma estética de colecionador. Equipada com um solado de borracha de alta tração com travas baixas e multidirecionais, ela assegura estabilidade total e propulsão máxima em gramados sintéticos, enquanto o forro interno acolchoado e o fechamento por cadarço proporcionam um ajuste firme e extremamente confortável durante toda a partida. Leve, estável e esteticamente impactante, esta chuteira une a engenharia de performance com a inspiração tática necessária para dominar o campo e superar qualquer adversário com total confiança e agilidade."
   },
 
   {
     id: 304,
-    nome: "SOCIETY MESSI PRETA",
+    nome: "Chuteira Futsal Messi X Speedportal Black Edition – Controle e Velocidade",
     categoria: "Society",
     preco: 180.00,
     imagem: "../calcados/society/SOCIETY MESSI PRETA.png",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A Chuteira Futsal Messi X Speedportal Black Edition é a escolha definitiva para jogadores que buscam velocidade explosiva, controle preciso e o estilo inconfundível do maior craque do mundo nas quadras. Construída com um cabedal sintético leve e de alta durabilidade na cor preta, ela apresenta microperfurações estratégicas e uma textura em relevo que garantem aderência superior com a bola, permitindo dribles rápidos e finalizações cirúrgicas com o máximo de precisão. O grande diferencial deste modelo é o seu design aerodinâmico com detalhes em branco e a assinatura MESSI em destaque, unindo a funcionalidade de uma chuteira de elite com uma estética clássica e imponente. Equipada com um solado de borracha non-marking de perfil baixo, ela assegura tração multidirecional e estabilidade total em quadras de salão, enquanto o forro interno acolchoado e o fechamento por cadarço proporcionam um ajuste firme e extremamente confortável durante toda a partida. Leve, estável e tecnicamente superior, esta chuteira une a engenharia de performance com a inspiração necessária para dominar o jogo e superar qualquer adversário com total confiança e agilidade."
   },
 
   {
     id: 305,
-    nome: "SOCIETY MESSI",
+    nome: "Chuteira Futsal Messi X Speedportal Azul e Neon – Controle e Agilidade",
     categoria: "Society",
     preco: 180.00,
     imagem: "../calcados/society/SOCIETY MESSI.png",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A Chuteira Futsal Messi X Speedportal Azul é a escolha definitiva para jogadores que buscam velocidade explosiva, controle preciso e o estilo vibrante do maior craque do mundo nas quadras de salão. Construída com um cabedal sintético leve e de alta durabilidade na cor azul celeste, ela apresenta microperfurações estratégicas e texturas em relevo que garantem uma aderência superior com a bola, permitindo dribles rápidos e finalizações cirúrgicas com o máximo de precisão. O grande diferencial deste modelo é o seu design aerodinâmico com detalhes em amarelo neon e a assinatura MESSI em destaque no calcanhar, unindo a funcionalidade de uma chuteira de elite com uma estética moderna e impactante. Equipada com um solado de borracha non-marking de perfil baixo e biqueira costurada para maior resistência, ela assegura tração multidirecional e estabilidade total em quadras de salão, enquanto o forro interno acolchoado e o fechamento por cadarço proporcionam um ajuste firme e extremamente confortável durante toda a partida. Leve, estável e tecnicamente superior, esta chuteira une a engenharia de performance com a inspiração necessária para dominar o jogo e superar qualquer adversário com total confiança e agilidade."
   },
 
   {
     id: 306,
-    nome: "SOCIETY NIKE CINZA AZUL",
+    nome: "Chuteira Futsal Nike Total 90 III – Edição Clássica Prata e Azul",
     categoria: "Society",
     preco: 180.00,
     imagem: "../calcados/society/SOCIETY NIKE CINZA AZUL.png",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A Chuteira Futsal Nike Total 90 III é o retorno triunfal de um dos designs mais lendários da história do futebol, projetada para jogadores que buscam o equilíbrio perfeito entre potência, precisão e estilo retrô inigualável nas quadras. Construída com um cabedal sintético de alta durabilidade e acabamento metalizado na cor prata, ela apresenta a clássica biqueira em azul vibrante com costuras reforçadas que garantem um controle de bola superior e chutes potentes com o máximo de precisão. O grande diferencial deste modelo é o icônico logotipo 90 em destaque na lateral e o sistema de cadarços descentralizados, que amplia a área de contato com a bola para finalizações cirúrgicas e passes mais assertivos. Equipada com um solado de borracha gum non-marking de perfil baixo e entressola em EVA, ela assegura uma tração multidirecional e amortecimento leve em quadras de salão, enquanto o forro interno acolchoado proporciona um ajuste firme e extremamente confortável durante toda a partida. Leve, estável e carregada de nostalgia, esta chuteira une a engenharia de performance clássica com a inspiração necessária para dominar o jogo e superar qualquer adversário com a autoridade de um verdadeiro craque."
   },
 
   {
     id: 307,
-    nome: "SOCIETY NIKE CR7",
+    nome: "Chuteira Futsal CR7 Black Edition – Edição Especial com Solado em Amarelo Neon",
     categoria: "Society",
     preco: 180.00,
     imagem: "../calcados/society/SOCIETY NIKE CR7.png",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A Chuteira Futsal CR7 Black Edition é a escolha definitiva para jogadores que buscam velocidade explosiva, controle absoluto e a mentalidade vencedora do maior artilheiro do mundo nas quadras de salão. Construída com um cabedal sintético de alta densidade na cor preta, ela apresenta ranhuras verticais e texturas em relevo que garantem uma aderência superior com a bola, permitindo dribles ágeis e finalizações potentes com máxima precisão. O grande diferencial deste modelo é a sua estética imponente com detalhes em prata e laranja, ostentando a icônica marca CR7 com as cores de Portugal e o logotipo personalizado no calcanhar, unindo a funcionalidade de uma chuteira de elite com um design de colecionador. Equipada com um solado de borracha non-marking costurado na biqueira e em um vibrante amarelo neon, ela assegura uma tração multidirecional imbatível e estabilidade total em quadras de futsal, enquanto o forro interno acolchoado proporciona um ajuste firme e extremamente confortável durante toda a partida. Leve, estável e tecnicamente superior, esta chuteira une a engenharia de performance com a inspiração necessária para dominar o jogo e superar qualquer adversário com total autoridade e agilidade."
   },
 
   {
     id: 308,
-    nome: "SOCIETY NIKE PRETA AMARELA",
+    nome: "SChuteira Futsal Nike Total 90 III – Edição Clássica Black & Gold",
     categoria: "Society",
     preco: 180.00,
     imagem: "../calcados/society/SOCIETY NIKE PRETA AMARELA.png",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A Chuteira Futsal Nike Total 90 III é o retorno triunfal de um dos designs mais lendários da história do futebol, projetada para jogadores que buscam o equilíbrio perfeito entre potência, precisão e um estilo retrô inigualável nas quadras. Construída com um cabedal sintético de alta durabilidade na cor preta, ela apresenta a clássica biqueira em dourado metalizado com costuras reforçadas que garantem um controle de bola superior e chutes potentes com o máximo de precisão. O grande diferencial deste modelo é o icônico logotipo 90 em destaque na lateral e o sistema de cadarços descentralizados, que amplia a área de contato com a bola para finalizações cirúrgicas e passes mais assertivos em alta velocidade. Equipada com um solado de borracha gum non-marking de perfil baixo e entressola em EVA, ela assegura uma tração multidirecional imbatível e amortecimento leve em quadras de salão, enquanto o forro interno acolchoado proporciona um ajuste firme e extremamente confortável durante toda a partida. Leve, estável e carregada de nostalgia, esta chuteira une a engenharia de performance clássica com a inspiração necessária para dominar o jogo e superar qualquer adversário com a autoridade de um verdadeiro craque."
   },
 
   {
     id: 309,
-    nome: "SOCIETY NIKE",
+    nome: "Chuteira Futsal Nike Total 90 III – Edição Clássica Prata e Laranja",
     categoria: "Society",
     preco: 180.00,
     imagem: "../calcados/society/SOCIETY NIKE.png",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A Chuteira Futsal Nike Total 90 III é o retorno triunfal de um dos designs mais lendários da história do futebol, projetada para jogadores que buscam o equilíbrio perfeito entre potência, precisão e um estilo retrô inigualável nas quadras. Construída com um cabedal sintético de alta durabilidade e acabamento metalizado na cor prata, ela apresenta a clássica biqueira com costuras reforçadas que garantem um controle de bola superior e chutes potentes com o máximo de precisão. O grande diferencial deste modelo é o icônico logotipo 90 circulado em laranja vibrante na lateral e o sistema de cadarços descentralizados, que amplia a área de contato com a bola para finalizações cirúrgicas e passes mais assertivos. Equipada com um solado de borracha gum non-marking de perfil baixo, ela assegura uma tração multidirecional imbatível e estabilidade total em quadras de salão, enquanto o forro interno acolchoado proporciona um ajuste firme e extremamente confortável durante toda a partida. Leve, estável e carregada de nostalgia, esta chuteira une a engenharia de performance clássica com a estética marcante dos anos 2000, oferecendo a autoridade necessária para dominar o jogo e superar qualquer adversário com total confiança."
   },
 
   {
     id: 310,
-    nome: "SOCIETY UMBRO AZUL",
+    nome: "Chuteira Futsal Umbro Cosmic Masculina – Azul e Amarela",
     categoria: "Society",
     preco:180.00,
     imagem: "../calcados/society/SOCIETY UMBRO AZUL.png",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A Chuteira Futsal Umbro Cosmic é a escolha ideal para jogadores que buscam o equilíbrio perfeito entre agilidade, resistência e um design vibrante para dominar as quadras de salão. Construída com um cabedal sintético de alta durabilidade na cor azul royal, ela apresenta grafismos modernos e o icônico logotipo da Umbro em destaque branco, garantindo um visual dinâmico e esportivo. O grande diferencial deste modelo é a sua biqueira reforçada e a textura leve no material sintético, que proporciona um controle de bola superior e chutes precisos com máxima estabilidade em alta velocidade. Equipada com um solado de borracha gum antiderrapante na cor amarela, ela assegura uma tração multidirecional imbatível e segurança total durante as mudanças rápidas de direção típicas do futsal. Seu forro interno acolchoado e o fechamento por cadarço oferecem um ajuste firme e extremamente confortável para suportar o ritmo intenso das partidas. Leve, estável e tecnicamente eficiente, esta chuteira une a tradição da Umbro no futebol com a funcionalidade necessária para superar qualquer adversário com total confiança e autoridade em quadra."
   },
 
   {
     id: 311,
-    nome: "SOCIETY UMBRO BRANCO AZUL",
+    nome: "Chuteira Society Umbro Ultraskin Masculina – Azul Royal e Branco",
     categoria: "Society",
     preco: 180.00,
     imagem: "../calcados/society/SOCIETY UMBRO BRANCO AZUL.png",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A Chuteira Society Umbro Ultraskin é a escolha definitiva para jogadores que buscam velocidade explosiva, leveza extrema e um controle de bola superior em gramados sintéticos. Construída com o inovador cabedal Ultraskin de alta tecnologia, ela oferece uma estrutura sintética fina e resistente que se molda ao pé, garantindo uma sensibilidade tátil inigualável e chutes potentes com máxima precisão. O grande diferencial deste modelo é o seu design aerodinâmico em azul vibrante com grafismos em degradê e o icônico diamante da Umbro em destaque no calcanhar, unindo a funcionalidade de uma chuteira de performance com uma estética moderna e agressiva. Equipada com um solado de borracha de alta tração e microtravas multidirecionais, ela assegura estabilidade total e arranques rápidos em qualquer condição de jogo, enquanto o forro interno acolchoado e o fechamento por cadarço proporcionam um ajuste firme e extremamente confortável durante toda a partida. Leve, estável e tecnicamente superior, esta chuteira une a engenharia de precisão da Umbro com a durabilidade necessária para dominar o campo e superar qualquer adversário com total confiança e agilidade."
   },
 
   {
     id: 312,
-    nome: "SOCIETY UMBRO BRANCO E PRETO",
+    nome: "Chuteira Futsal Umbro Pro 5 Bump Club – Preta, Branca e Vermelha",
     categoria: "Society",
     preco: 180.00,
     imagem: "../calcados/society/SOCIETY UMBRO BRANCO E PRETO.png",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A Chuteira Futsal Umbro Pro 5 Bump Club é a escolha definitiva para jogadores que buscam o equilíbrio perfeito entre amortecimento de elite, controle absoluto e durabilidade extrema nas quadras de salão. Construída com um cabedal híbrido em material sintético resistente e tecido respirável, ela apresenta uma biqueira reforçada em camurça e costuras estratégicas que garantem uma aderência superior com a bola, permitindo chutes potentes e passes cirúrgicos com o máximo de precisão. O grande diferencial deste modelo é a tecnologia Bump na entressola, que oferece um amortecimento de impacto superior e um retorno de energia explosivo em cada passada, minimizando a fadiga durante as partidas mais intensas. Equipada com um solado de borracha gum non-marking de alta tração e costura frontal para maior resistência, ela assegura estabilidade total e mudanças rápidas de direção sem deslizes, enquanto o forro interno acolchoado e o fechamento por cadarço proporcionam um ajuste firme e extremamente confortável. Leve, estável e tecnicamente superior, esta chuteira une a engenharia de precisão da Umbro com a funcionalidade necessária para dominar o jogo e superar qualquer adversário com total confiança e agilidade."
   },
 
   {
     id: 313,
-    nome: "SOCIETY UMBRO CINZA",
+    nome: "Chuteira Futsal Umbro Pro 5 Club Masculina – Cinza e Laranja",
     categoria: "Society",
     preco: 180.00,
     imagem: "../calcados/society/SOCIETY UMBRO CINZA.png",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A Chuteira Futsal Umbro Pro 5 Club é a escolha definitiva para jogadores que buscam o equilíbrio perfeito entre controle absoluto, durabilidade extrema e um amortecimento superior nas quadras de salão. Construída com um cabedal híbrido em material sintético resistente e tecido respirável na cor cinza grafite, ela apresenta uma biqueira reforçada em camurça e costuras estratégicas que garantem uma aderência excepcional com a bola, permitindo chutes potentes e passes cirúrgicos com o máximo de precisão. O grande diferencial deste modelo é a sua entressola em EVA de alta densidade, que oferece uma absorção de impacto eficiente e conforto prolongado durante as partidas mais intensas e competitivas. Equipada com um solado de borracha gum non-marking de alta tração na cor laranja vibrante, ela assegura estabilidade total e mudanças rápidas de direção sem deixar marcas na quadra, enquanto o forro interno acolchoado e o fechamento por cadarço proporcionam um ajuste firme e extremamente seguro. Leve, estável e tecnicamente superior, esta chuteira une a engenharia de precisão da Umbro com a funcionalidade necessária para dominar o jogo e superar qualquer adversário com total confiança e agilidade."
   },
 
   {
     id: 314,
-    nome: "SOCIETY UMBRO LARANJA AZUL",
+    nome: "Chuteira Society Umbro Pro 5 Club – Azul Celeste e Laranja Neon",
     categoria: "Society",
     preco: 180.00,
     imagem: "../calcados/society/SOCIETY UMBRO LARANJA AZUL.png",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A Chuteira Society Umbro Pro 5 Club é a escolha definitiva para jogadores que buscam o equilíbrio perfeito entre agilidade explosiva, controle absoluto e durabilidade extrema nos gramados sintéticos. Construída com um cabedal híbrido em material sintético premium de alta resistência e tecido respirável na cor azul celeste, ela apresenta costuras estratégicas na biqueira que garantem uma aderência superior com a bola, permitindo chutes potentes e passes cirúrgicos com máxima precisão. O grande diferencial deste modelo é a sua entressola em EVA de alta densidade, que oferece uma absorção de impacto eficiente e conforto prolongado durante as partidas mais intensas e competitivas. Equipada com um solado de borracha de alta tração com microtravas multidirecionais e biqueira totalmente costurada para maior longevidade, ela assegura estabilidade total e mudanças rápidas de direção sem deslizes, enquanto o forro interno acolchoado e o fechamento por cadarço proporcionam um ajuste firme e extremamente seguro. Leve, estável e tecnicamente superior, esta chuteira une a engenharia de precisão da Umbro com a funcionalidade necessária para dominar o campo e superar qualquer adversário com total confiança e agilidade."
   },
 
   {
     id: 315,
-    nome: "SOCIETY UMBRO PRETA VERDE",
+    nome: "Chuteira Futsal Umbro Pro 5 Bump Club – Preta, Amarela e Branca",
     categoria: "Society",
     preco: 180.00,
     imagem: "../calcados/society/SOCIETY UMBRO PRETA VERDE.png",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A Chuteira Futsal Umbro Pro 5 Bump Club é a escolha definitiva para jogadores que buscam o equilíbrio perfeito entre amortecimento de elite, controle absoluto e durabilidade extrema nas quadras de salão. Construída com um cabedal híbrido em material sintético premium de alta resistência e recortes em mesh respirável na cor preta, ela apresenta uma biqueira reforçada em camurça e costuras estratégicas que garantem uma aderência superior com a bola, permitindo chutes potentes e passes cirúrgicos com o máximo de precisão. O grande diferencial deste modelo é a tecnologia Bump na entressola, que oferece um amortecimento de impacto superior e um retorno de energia explosivo em cada passada, minimizando a fadiga durante as partidas mais intensas e competitivas. Equipada com um solado de borracha gum non-marking de alta tração na cor âmbar e biqueira totalmente costurada para maior longevidade, ela assegura estabilidade total e mudanças rápidas de direção sem deslizes, enquanto o forro interno acolchoado e o fechamento por cadarço proporcionam um ajuste firme e extremamente seguro. Leve, estável e tecnicamente superior, esta chuteira une a engenharia de precisão da Umbro com a funcionalidade necessária para dominar o jogo e superar qualquer adversário com total confiança e agilidade."
   },
 
   {
     id: 316,
-    nome: "SOCIETY UMBRO PRETO PRATA",
+    nome: "Chuteira Futsal Umbro Pro 5 Bump Club – Preta e Dourada",
     categoria: "Society",
     preco:180.00,
     imagem: "../calcados/society/SOCIETY UMBRO PRETO PRATA.png",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A Chuteira Futsal Umbro Pro 5 Bump Club é a escolha definitiva para jogadores que buscam o equilíbrio perfeito entre amortecimento de elite, controle absoluto e um visual imponente nas quadras de salão. Construída com um cabedal híbrido em material sintético premium e recortes em mesh respirável na cor preta, ela apresenta uma biqueira reforçada em camurça e costuras estratégicas que garantem uma aderência superior com a bola, permitindo chutes potentes e passes cirúrgicos com o máximo de precisão. O grande diferencial deste modelo é a tecnologia Bump na entressola, que oferece um amortecimento de impacto superior e um retorno de energia explosivo em cada passada, minimizando a fadiga durante as partidas mais intensas e competitivas. Equipada com um solado de borracha gum non-marking de alta tração na cor âmbar e detalhes em dourado metalizado, ela assegura estabilidade total e mudanças rápidas de direção sem deslizes, enquanto o forro interno acolchoado proporciona um ajuste firme e extremamente seguro. Leve, estável e tecnicamente superior, esta chuteira une a engenharia de precisão da Umbro com a elegância necessária para dominar o jogo e superar qualquer adversário com total confiança e autoridade em quadra."
   },
 
   {
     id: 317,
-    nome: "",
+    nome: "Chuteira Society Nike Air Zoom Mercurial Superfly 9 Elite TF – Cinza e Verde Neon",
     categoria: "Society",
     preco:180.00,
     imagem: "../calcados/society/SOCIETY1.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A Chuteira Nike Air Zoom Mercurial Superfly 9 Elite TF é a escolha definitiva para jogadores que buscam velocidade explosiva, controle absoluto e um ajuste de segunda pele nos gramados sintéticos. Construída com o revolucionário cabedal em Flyknit e camadas de NikeSkin, ela envolve o pé com precisão, garantindo durabilidade extrema e uma sensibilidade tátil inigualável para dribles rápidos e finalizações precisas. O grande diferencial deste modelo é a unidade Zoom Air integrada no solado, que oferece um amortecimento responsivo de elite e um retorno de energia superior em cada passada, minimizando a fadiga durante as partidas mais intensas. O colarinho Dynamic Fit de cano médio proporciona suporte adicional ao tornozelo, mantendo a estabilidade total em mudanças bruscas de direção. Equipada com uma sola de borracha antiderrapante de alta tração, ela assegura uma aderência imbatível e propulsão máxima em superfícies de society e turf. Leve, estável e esteticamente impactante com seus detalhes em cinza e neon, esta chuteira une a engenharia de performance da Nike com a funcionalidade necessária para dominar o jogo com total confiança e agilidade tática."
   },
 
   {
     id: 318,
-    nome: "",
+    nome: "Chuteira Society Messi X Speedportal Canelada – Edição Especial Roxo e Turquesa",
     categoria: "Society",
     preco:180.00,
     imagem: "../calcados/society/SOCIETY2.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A Chuteira Society Messi X Speedportal Canelada é a escolha definitiva para jogadores que buscam velocidade explosiva, suporte superior e o estilo inconfundível do maior camisa 10 da história nos gramados sintéticos. Construída com um cabedal híbrido em mesh texturizado e tecido canelado de alta elasticidade, ela apresenta um colarinho de cano alto que envolve o tornozelo com precisão, garantindo um ajuste de segunda pele e estabilidade total em mudanças bruscas de direção. O grande diferencial deste modelo é o seu design aerodinâmico em tons vibrantes de roxo e turquesa, ostentando o icônico número 10 no calcanhar e grafismos dinâmicos que proporcionam uma aderência superior com a bola para dribles rápidos e finalizações cirúrgicas. Equipada com um solado de borracha de alta tração e microtravas multidirecionais, ela assegura uma propulsão máxima e segurança absoluta em qualquer condição de jogo, enquanto a palmilha acolchoada oferece conforto prolongado durante as partidas mais intensas. Leve, estável e esteticamente impactante, esta chuteira une a engenharia de performance com a inspiração tática necessária para dominar o campo e superar qualquer adversário com total confiança e agilidade."
   },
 
   {
     id: 319,
-    nome: "",
+    nome: "Chuteira Society Nike Air Zoom Mercurial Superfly 9 Academy TF – Lemon/Black",
     categoria: "Society",
     preco:180.00,
     imagem: "../calcados/society/SOCIETY3.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A Chuteira Nike Air Zoom Mercurial Superfly 9 Academy TF é a ferramenta definitiva para jogadores que buscam velocidade explosiva e controle total nos gramados sintéticos. Construída com um cabedal texturizado que proporciona uma aderência superior com a bola em alta velocidade, ela apresenta o icônico colarinho Dynamic Fit em tecido elástico, que envolve o tornozelo para uma sensação de suporte e ajuste de segunda pele. O grande diferencial deste modelo é a unidade Zoom Air articulada no calcanhar, que oferece um amortecimento responsivo de elite e um impulso extra a cada passada, minimizando a fadiga durante as partidas mais intensas. Equipada com um solado de borracha com microtravas multidirecionais projetadas para superfícies de turf (society), ela assegura tração imbatível e arranques rápidos em qualquer direção. Leve, estável e visualmente impactante com a estampa AIR em destaque, esta chuteira une a engenharia de performance da Nike com a funcionalidade necessária para dominar o jogo e superar qualquer adversário com total confiança e agilidade."
   },
 
   {
     id: 320,
-    nome: "",
+    nome: "Chuteira Society Nike Air Zoom Mercurial Superfly 9 Academy TF – Pink/White",
     categoria: "Society",
     preco:180.00,
     imagem: "../calcados/society/SOCIETY4.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A Chuteira Nike Air Zoom Mercurial Superfly 9 Academy TF é a ferramenta definitiva para jogadores que buscam velocidade explosiva e controle total nos gramados sintéticos. Construída com um cabedal texturizado que proporciona uma aderência superior com a bola em alta velocidade, ela apresenta o icônico colarinho Dynamic Fit em tecido elástico, que envolve o tornozelo para uma sensação de suporte e ajuste de segunda pele. O grande diferencial deste modelo é a unidade Zoom Air articulada no calcanhar, que oferece um amortecimento responsivo de elite e um impulso extra a cada passada, minimizando a fadiga durante as partidas mais intensas. Equipada com um solado de borracha com microtravas multidirecionais projetadas para superfícies de turf (society), ela assegura tração imbatível e arranques rápidos em qualquer direção. Leve, estável e visualmente impactante com a estampa AIR em destaque, esta chuteira une a engenharia de performance da Nike com a funcionalidade necessária para dominar o jogo e superar qualquer adversário com total confiança e agilidade."
   },
 
   {
     id: 321,
-    nome: "",
+    nome: "Chuteira Futsal Air Zoom Mercurial Vapor 15 Black & Blue Edition",
     categoria: "Society",
     preco:180.00,
     imagem: "../calcados/society/SOCIETY5.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A Chuteira Futsal Air Zoom Mercurial Vapor 15 é a ferramenta definitiva para jogadores que buscam velocidade explosiva, controle absoluto e um ajuste de segunda pele nas quadras de salão. Construída com um cabedal texturizado de alta durabilidade e padrão de micro ranhuras, ela oferece uma aderência superior com a bola para dribles rápidos e finalizações precisas mesmo sob máxima pressão. O grande diferencial deste modelo é a sua entressola de perfil baixo com tecnologia de amortecimento responsivo, que garante um retorno de energia superior e proteção contra impactos em cada passada. O colarinho em tecido elástico proporciona um calce firme e anatômico, enquanto o solado de borracha non-marking de alta tração assegura estabilidade total e mudanças rápidas de direção sem deixar marcas na quadra. Leve, estável e esteticamente impactante com seus detalhes em azul neon, esta chuteira une a engenharia de performance com a funcionalidade necessária para dominar o jogo e superar qualquer adversário com total confiança e agilidade tática."
   },
 
   {
     id: 322,
-    nome: "",
+    nome: "Chuteira Futsal Mercurial Air Zoom Vapor 15 Purple & Lemon – Edição de Elite",
     categoria: "Society",
     preco:180.00,
     imagem: "../calcados/society/SOCIETY6.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A Chuteira Futsal Mercurial Air Zoom Vapor 15 é a ferramenta definitiva para jogadores que buscam velocidade explosiva, controle absoluto e um ajuste de segunda pele nas quadras de salão. Construída com um cabedal texturizado de alta durabilidade e padrão de micro ranhuras em zigue-zague, ela oferece uma aderência superior com a bola para dribles rápidos e finalizações precisas mesmo sob máxima pressão. O grande diferencial deste modelo é a sua entressola de perfil baixo com tecnologia de amortecimento responsivo, que garante um retorno de energia superior e proteção contra impactos em cada passada. O colarinho em tecido elástico (Primeknit) proporciona um calce firme e anatômico, enquanto o solado de borracha non-marking de alta tração assegura estabilidade total e mudanças rápidas de direção sem deixar marcas na quadra. Leve, estável e esteticamente impactante com seus detalhes em amarelo vibrante, esta chuteira une a engenharia de performance com a funcionalidade necessária para dominar o jogo e superar qualquer adversário com total confiança e agilidade tática."
   },
 
   {
     id: 323,
-    nome: "",
+    nome: "Chuteira Society Nike Air Zoom Mercurial Superfly 9 Elite TF – Branca e Rosa",
     categoria: "Society",
     preco:180.00,
     imagem: "../calcados/society/SOCIETY7.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A Chuteira Nike Air Zoom Mercurial Superfly 9 Elite TF é a escolha definitiva para jogadores que buscam velocidade explosiva, controle absoluto e um ajuste de segunda pele nos gramados sintéticos. Construída com o revolucionário cabedal em Flyknit e camadas de NikeSkin, ela envolve o pé com precisão, garantindo durabilidade extrema e uma sensibilidade tátil inigualável para dribles rápidos e finalizações precisas. O grande diferencial deste modelo é a unidade Zoom Air integrada no solado, que oferece um amortecimento responsivo de elite e um retorno de energia superior em cada passada, minimizando a fadiga durante as partidas mais intensas. O colarinho Dynamic Fit de cano médio proporciona suporte adicional ao tornozelo, mantendo a estabilidade total em mudanças bruscas de direção. Equipada com uma sola de borracha antiderrapante de alta tração, ela assegura uma aderência imbatível e propulsão máxima em superfícies de society e turf. Leve, estável e esteticamente impactante com seus tons vibrantes de rosa, esta chuteira une a engenharia de performance da Nike com a funcionalidade necessária para dominar o jogo com total confiança e agilidade tática."
   },
 
   {
     id: 324,
-    nome: "",
+    nome: "Chuteira Society Nike Air Zoom Mercurial Superfly 9 Elite TF – Verde Água e Roxo",
     categoria: "Society",
     preco:180.00,
     imagem: "../calcados/society/SOCIETY8.jpeg",
-    tamanho: ["38", "39", "40", "41"] // NOVO CAMPO
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A Chuteira Nike Air Zoom Mercurial Superfly 9 Elite TF é a escolha definitiva para jogadores que buscam velocidade explosiva, controle absoluto e um ajuste de segunda pele nos gramados sintéticos. Construída com o revolucionário cabedal em Flyknit e camadas de NikeSkin, ela envolve o pé com precisão, garantindo durabilidade extrema e uma sensibilidade tátil inigualável para dribles rápidos e finalizações precisas. O grande diferencial deste modelo é a unidade Zoom Air integrada no solado, que oferece um amortecimento responsivo de elite e um retorno de energia superior em cada passada, minimizando a fadiga durante as partidas mais intensas. O colarinho Dynamic Fit de cano médio proporciona suporte adicional ao tornozelo, mantendo a estabilidade total em mudanças bruscas de direção. Equipada com uma sola de borracha antiderrapante de alta tração, ela assegura uma aderência imbatível e propulsão máxima em superfícies de society e turf. Leve, estável e esteticamente impactante com seus tons vibrantes de roxo, esta chuteira une a engenharia de performance da Nike com a funcionalidade necessária para dominar o jogo com total confiança e agilidade tática."
   },
 
   // ================= CALÇADOS TENIS =================
@@ -690,64 +1270,64 @@ const PRODUTOS = [
 
   {
     id: 425,
-    nome: "",
+    nome: "Tênis Esportivo Pro 9 Performance com Sistema de Ajuste por Disco e Solado Aero",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/TENIS 15.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
-    descricao:""
+    descricao:"O Tênis Pro 9 Performance é a escolha definitiva para atletas que buscam velocidade, conforto e tecnologia de ponta em cada passada, seja em corridas de rua ou treinos de alta intensidade. Construído com um cabedal em mesh tecnológico de alta respirabilidade e padrão de cores em degradê vibrante, ele apresenta uma estrutura leve e sem costuras que se molda perfeitamente ao pé, garantindo uma ventilação constante e suporte estratégico. O grande diferencial deste modelo é o seu avançado sistema de fechamento por disco rotativo (BOA style), que substitui os cadarços tradicionais por um ajuste milimétrico e uniforme com apenas um clique, permitindo um calce rápido e uma fixação absoluta durante movimentos explosivos. Equipado com uma entressola Aero Road de geometria ultra-responsiva, ele oferece um amortecimento de elite com alto retorno de energia, enquanto o solado de borracha antiderrapante com tração multidirecional assegura estabilidade total em qualquer superfície. Leve, aerodinâmico e extremamente robusto, este calçado une a estética esportiva moderna com a funcionalidade necessária para superar seus limites pessoais. Com acabamento premium e detalhes refletivos para maior segurança em treinos noturnos, o Pro 9 é o acessório indispensável para quem não abre mão de performance superior e tecnologia de calce rápido para vencer qualquer desafio com total confiança."
   },
 
   {
     id: 426,
-    nome: "",
+    nome: "Tênis de Corrida Li-Ning Feidian 6 Elite – Performance de Elite com Placa de Carbono",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/TENIS 16.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
-    descricao:""
+    descricao:"O Li-Ning Feidian 6 Elite é a evolução definitiva em calçados de alta performance, projetado especificamente para maratonistas e corredores de elite que buscam quebrar recordes pessoais com o máximo de eficiência tecnológica. Construído com um cabedal em mesh ultra-respirável de camada única, ele oferece uma leveza extrema e um ajuste de segunda pele que minimiza o atrito e garante ventilação constante durante os 42km. O grande diferencial deste modelo é a sua entressola de dupla camada com tecnologia de espuma BOOM, que trabalha em conjunto com uma placa de fibra de carbono de comprimento total, proporcionando um retorno de energia explosivo e uma propulsão inigualável em cada passada. Equipado com um solado de borracha de alta tração e durabilidade, ele assegura estabilidade total em curvas e superfícies molhadas, enquanto a geometria agressiva do calcanhar e do antepé favorece uma transição rápida e fluida. Leve, aerodinâmico e esteticamente impactante com seus detalhes em degradê, o Feidian 6 Elite une a engenharia de ponta com a funcionalidade necessária para suportar o desgaste de competições de alto nível. Com acabamento premium e amortecimento de elite que reduz a fadiga muscular, este tênis é o acessório indispensável para quem não abre mão de tecnologia de pódio para vencer qualquer desafio com total confiança e velocidade."
   },
 
 
 
   {
     id: 427,
-    nome: "",
+    nome: "Tênis Esportivo Road Pro 8 Performance com Solado de Alta Resposta e Ajuste Rápido",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/TENIS 17.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
-    descricao:""
+    descricao:"O Tênis Road Pro 8 Performance é a escolha definitiva para corredores e atletas que buscam velocidade, amortecimento de elite e um design visualmente impactante para superar seus limites. Construído com um cabedal em mesh tecnológico de alta respirabilidade e um degradê vibrante, ele apresenta uma estrutura leve e sem costuras que se molda perfeitamente ao pé, garantindo ventilação constante e suporte estratégico durante treinos de alta intensidade. O grande diferencial deste modelo é o seu solado de geometria agressiva e responsiva, com entressola espessa que oferece um retorno de energia superior e absorção total de impactos em cada passada, enquanto os detalhes refletivos em neon asseguram visibilidade e segurança em corridas noturnas. Equipado com um sistema de ajuste rápido e acabamento premium com detalhes salpicados na entressola, ele une a estética futurista com a funcionalidade necessária para uma transição de passada fluida e potente em qualquer superfície. Leve, estável e extremamente robusto, este calçado é o acessório indispensável para quem não abre mão de tecnologia de ponta e máximo conforto para vencer os desafios das pistas ou das ruas com total confiança."
   },
 
   {
     id: 428,
-    nome: "",
+    nome: "Tênis de Corrida Saucaunv Pro Max – Amortecimento Ultra e Propulsão de Elite",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/TENIS 18.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
-    descricao:""
+    descricao:"O Tênis de Corrida Saucaunv Pro Max é a escolha definitiva para maratonistas e atletas que buscam o equilíbrio perfeito entre amortecimento extremo e retorno de energia explosivo em cada passada. Construído com um cabedal em mesh de alta respirabilidade na cor laranja vibrante, ele apresenta uma estrutura leve e aerodinâmica com detalhes gráficos dinâmicos que garantem suporte estratégico e ventilação constante, mantendo os pés secos durante treinos de longa distância. O grande diferencial deste modelo é a sua entressola de geometria oversized com tecnologia de espuma de alta responsividade e placa interna, proporcionando uma transição de passada fluida, suave e com uma propulsão incomparável que minimiza a fadiga muscular. Equipado com um solado de borracha de alta tração e durabilidade, ele assegura estabilidade total em curvas e superfícies variadas, enquanto o design agressivo do calcanhar favorece o impulso inicial e a velocidade constante. Leve, estável e esteticamente impactante, o Saucaunv Pro Max une a engenharia de ponta com a funcionalidade necessária para superar seus limites pessoais e vencer qualquer desafio nas pistas ou ruas com total confiança."
   },
 
   {
     id: 429,
-    nome: "",
+    nome: "Tênis de Corrida Saucaunv Carbonstrike – Performance de Elite com Amortecimento Máximo",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/TENIS 19.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
-    descricao:""
+    descricao:"O Tênis de Corrida Saucaunv Carbonstrike é a escolha definitiva para maratonistas e corredores de alta performance que buscam o equilíbrio perfeito entre leveza extrema, amortecimento de elite e propulsão explosiva em cada passada. Construído com um cabedal em mesh tecnológico de alta respirabilidade e um design aerodinâmico em tons de preto e cinza, ele apresenta uma estrutura leve e sem costuras que se molda perfeitamente ao pé, garantindo uma ventilação constante e suporte estratégico durante treinos de longa distância. O grande diferencial deste modelo é a sua entressola de geometria agressiva e oversized com tecnologia de espuma de alta responsividade, proporcionando uma transição de passada fluida, suave e com um retorno de energia superior que minimiza a fadiga muscular e potencializa a velocidade. Equipado com um solado de borracha de alta tração e durabilidade, ele assegura estabilidade total em curvas e superfícies variadas, enquanto o design futurista do calcanhar favorece o impulso inicial e a fluidez constante. Leve, estável e esteticamente impactante, o Carbonstrike une a engenharia de ponta com a funcionalidade necessária para superar seus limites pessoais e vencer qualquer desafio nas pistas ou ruas com total confiança e eficiência tecnológica."
   },
 
   {
     id: 430,
-    nome: "",
+    nome: "Tênis de Corrida NS Athletic V.Fore 5.0 – Performance de Elite e Amortecimento Ultra",
     categoria: "tenis",
     preco: 190.00,
     imagem: "../calcados/tenis/TENIS 20.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
-    descricao:""
+    descricao:"O Tênis de Corrida NS Athletic V.Fore 5.0 é a escolha definitiva para maratonistas e corredores de alta performance que buscam o equilíbrio perfeito entre leveza extrema, amortecimento de elite e propulsão explosiva em cada passada. Construído com um cabedal em mesh tecnológico de alta respirabilidade e um design aerodinâmico em tons de preto e branco, ele apresenta uma estrutura leve e sem costuras que se molda perfeitamente ao pé, garantindo uma ventilação constante e suporte estratégico durante treinos de longa distância. O grande diferencial deste modelo é a sua entressola de geometria agressiva e oversized com tecnologia de espuma de alta responsividade, proporcionando uma transição de passada fluida, suave e com um retorno de energia superior que minimiza a fadiga muscular e potencializa a velocidade. Equipado com um solado de borracha de alta tração e durabilidade, ele assegura estabilidade total em curvas e superfícies variadas, enquanto o design futurista do calcanhar favorece o impulso inicial e a fluidez constante. Leve, estável e esteticamente impactante, o V.Fore 5.0 une a engenharia de ponta com a funcionalidade necessária para superar seus limites pessoais e vencer qualquer desafio nas pistas ou ruas com total confiança e eficiência tecnológica."
   },
 
   // ================= FARDAMENTOS MILITARES =================
@@ -801,7 +1381,7 @@ const PRODUTOS = [
     tamanho: ["P", "M", "G", "GG"], // NOVO CAMPO
     descricao:"A Regata Masculina Dry Fit Branca é a peça essencial para quem busca máxima performance e conforto térmico, seja em treinamentos militares (TFM) ou em atividades intensas na academia e ao ar livre. Confeccionada em tecido tecnológico de alta hidrofilidade, ela absorve o suor e o dispersa rapidamente para a superfície, garantindo uma evaporação ágil que mantém o corpo seco por muito mais tempo. Sua modelagem anatômica com cavas amplas proporciona total liberdade de movimento, enquanto a costura reforçada e o material 100% poliéster oferecem alta durabilidade, resistência a rasgos e facilidade de manutenção, já que não amassa e seca rapidamente. O grande diferencial deste modelo é o espaço frontal dedicado para personalização, permitindo a estampa ou bordado do seu nome, unidade ou logomarca com acabamento profissional."
   },
-
+ 
   {
     id: 505,
     nome: "CALÇÃO DE TFM SGT",
