@@ -2855,6 +2855,17 @@ const PRODUTOS = [
     imagem: "../brinquedos/brinquedosFoto/ping pong.jpeg",
     descricao:"O kit de ping pong completo é um conjunto versátil e portátil desenvolvido para proporcionar diversão imediata em família ou entre amigos, podendo ser instalado em diversos tipos de superfícies planas para transformar qualquer mesa em uma área de lazer. Este conjunto inclui duas raquetes robustas, geralmente fabricadas em madeira com revestimento de borracha texturizada que oferece melhor controle e aderência à bolinha, além de três bolinhas de tamanho oficial e uma rede de nylon acompanhada por suportes metálicos ajustáveis. O sistema de fixação da rede é projetado com grampos de pressão que se adaptam a diferentes espessuras de mesa, facilitando a montagem rápida sem a necessidade de ferramentas adicionais. Ideal tanto para iniciantes quanto para jogadores amadores, o kit estimula a coordenação motora, o reflexo e a agilidade, sendo uma excelente opção para atividades físicas recreativas em ambientes internos ou externos. Sua embalagem compacta permite o transporte fácil para viagens, festas e encontros sociais, garantindo que o entretenimento esteja sempre acessível. O design funcional dos componentes assegura durabilidade e resistência ao uso frequente, enquanto as cores vibrantes das bolinhas e o acabamento das raquetes conferem um visual esportivo clássico. Muitos modelos disponíveis no mercado brasileiro oferecem um excelente custo-benefício, unindo materiais de qualidade a um preço acessível para quem busca iniciar no esporte de forma prática."
   },
+
+  {
+    id: 5005,
+    nome: "Cavalinhos do brasileirão",
+    categoria: "brinquedos",
+    preco: 60.00,
+    imagem: "../brinquedos/brinquedosFoto/cavalinhos brasileirão.jpeg",
+    descricao:"O Cavalinho do Fantástico é um brinquedo de pelúcia inspirado nos icônicos personagens que aparecem semanalmente no programa da TV Globo para representar a classificação dos clubes no Campeonato Brasileiro. Confeccionados em material antialérgico de alta qualidade e com enchimento de fibra siliconada, esses bonecos apresentam as cores e o escudo oficial de diversos times, como Corinthians, Palmeiras, Flamengo e São Paulo. Cada modelo possui aproximadamente 40 a 45 centímetros de altura e conta com detalhes característicos, como o sorriso de dentes grandes e os olhos expressivos que cativaram tanto o público infantil quanto os colecionadores adultos."
+  },
+
+  
   // ================= BONÉ =================
   {
       id: 6000,

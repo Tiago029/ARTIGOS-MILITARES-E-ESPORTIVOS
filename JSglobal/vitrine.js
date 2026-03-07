@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
                <select id="cor-${produto.id}">
                    ${produto.cor.map(c => `<option value="${c}">${c}</option>`).join("")}
                </select>`
-            : "";
+            : ""; 
 
         // MONTA O CARD
         card.innerHTML = `
