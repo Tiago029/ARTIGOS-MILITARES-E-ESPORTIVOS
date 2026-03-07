@@ -13,7 +13,7 @@ const PRODUTOS = [
     id: 227,
     nome: "Letras Vazadas ABC 45 mm Compactor.",
     categoria: "produtos em destaques",
-    preco: 199.90,
+    preco: 55.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/MOLDE DE NUMEROS.jpeg",
     descricao:"Este conjunto contém 37 moldes (stencils) de letras maiúsculas e números fabricados em polipropileno de alta resistência, ideal para a criação de cartazes escolares, trabalhos de artesanato e sinalizações em geral. Com o tamanho de 45 mm, as letras oferecem excelente visibilidade e precisão, permitindo o uso com diversos tipos de marcadores, canetas hidrográficas ou tintas. O material plástico é lavável e reutilizável, garantindo uma longa vida útil ao produto mesmo sob uso frequente em ambientes educativos ou artísticos. A embalagem compacta facilita o armazenamento e a organização das peças, evitando perdas e danos aos moldes durante o transporte. O uso do stencil proporciona um acabamento profissional e padronizado, eliminando falhas de caligrafia e proporcionando agilidade na produção de mensagens e títulos. Trata-se de uma ferramenta clássica de papelaria, essencial para estudantes e profissionais que buscam praticidade e qualidade visual em seus projetos manuais. A Compactor garante a durabilidade e a flexibilidade das placas, que se adaptam bem a superfícies planas ou levemente curvas."
   },
@@ -22,7 +22,7 @@ const PRODUTOS = [
     id: 228,
     nome: "Shorte Térmico Cueca Under Armour Tech 9 Boxerjock.",
     categoria: "produtos em destaques",
-    preco: 199.90,
+    preco: 60.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/shorte termico.jpeg",
     descricao:"Esta cueca boxer de alta performance foi projetada para oferecer máximo conforto e suporte durante atividades físicas ou uso diário prolongado. Confeccionada com tecido UA Tech™ incrivelmente macio e respirável, a peça conta com tecnologia que absorve o suor e seca rapidamente, mantendo o corpo fresco e seco por mais tempo. O modelo possui um corte de 23 cm (9 polegadas) de costura interna, o que proporciona uma cobertura maior nas pernas e evita que o tecido suba ou cause atritos desconfortáveis durante o movimento. Sua estrutura elástica em 4 direções permite total liberdade de movimentos, enquanto o design sem costuras laterais ou traseiras minimiza irritações na pele. Além disso, a cintura de desempenho garante que a peça permaneça no lugar sem apertar excessivamente, oferecendo um ajuste seguro e discreto sob outras roupas. Ideal para quem busca um item leve, funcional e com alta durabilidade, esta cueca boxer combina a tradição de inovação da Under Armour com um design focado na ergonomia masculina. Trata-se de uma escolha premium para atletas e pessoas com rotina ativa que não abrem mão de qualidade e bem-estar em suas roupas íntimas.",
     tamanho:["P","M","G","GG"]
@@ -32,7 +32,7 @@ const PRODUTOS = [
     id: 233,
     nome: "Lanterna Tática Militar X900 Profissional com LED T6 e Zoom Ajustável",
     categoria: "produtos em destaques",
-    preco: 199.90,
+    preco: 38.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/lanterna.jpeg",
     descricao:"A Lanterna Tática Militar X900 é a ferramenta de iluminação definitiva para quem exige potência, durabilidade e versatilidade em um único equipamento. Construída em liga de alumínio aeronáutico de alta resistência, esta lanterna é projetada para suportar as condições mais extremas, sendo resistente à água, choques e corrosões. Equipada com a avançada tecnologia LED T6, ela entrega uma luminosidade impressionante com cinco modos de operação (Forte, Médio, Econômico, Strobo e SOS), permitindo total adaptação a qualquer cenário, desde acampamentos e trilhas até situações de emergência ou vigilância. O seu sistema de foco ajustável com zoom de até 2000x possibilita alternar rapidamente entre um feixe de luz amplo para iluminar grandes áreas ou um foco fechado de longo alcance para visualização precisa à distância. Alimentada por uma bateria recarregável de longa duração, a X900 garante autonomia para horas de uso contínuo, tornando-se o acessório indispensável para profissionais de segurança, entusiastas de esportes ao ar livre e para o kit de emergência do seu veículo. Com design ergonômico, acabamento antiderrapante e cordão de pulso incluso, ela oferece um manuseio firme e seguro, unindo a robustez militar com a eficiência necessária para iluminar o seu caminho com total confiança."
   },
@@ -41,7 +41,7 @@ const PRODUTOS = [
     id: 234,
     nome: "Lanterna Tática Profissional USB com LED Ultra Potente e Luz Lateral COB",
     categoria: "produtos em destaques",
-    preco: 199.90,
+    preco: 30.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/lanterna 1.jpeg",
     descricao:"Esta lanterna tática de última geração é a ferramenta de iluminação definitiva para quem busca potência extrema, versatilidade e praticidade em um único equipamento robusto. Construída em liga de alumínio aeronáutico de alta resistência e com acabamento antiderrapante, ela apresenta um LED central de longo alcance com foco ajustável (zoom) para iluminar grandes distâncias com precisão cirúrgica. O grande diferencial deste modelo é a sua potente luz lateral COB integrada, que transforma a lanterna em um prático lampião para iluminar ambientes amplos de forma suave e uniforme, ideal para acampamentos, manutenções mecânicas ou leituras em emergências. Totalmente recarregável via USB, ela dispensa o uso de pilhas descartáveis e conta com um prático indicador de bateria por LEDs, permitindo que você monitore a carga em tempo real e nunca fique no escuro. Seu design ergonômico inclui um clipe de fixação tático e cordão de pulso, oferecendo múltiplas formas de transporte seguro para profissionais de segurança, entusiastas de trilhas, pesca e uso doméstico preventivo. Resistente a respingos d'água e impactos, esta lanterna une a durabilidade militar com a tecnologia de carregamento moderno para garantir que você tenha sempre a melhor luz à mão, seja para explorar a natureza ou enfrentar imprevistos na cidade com total segurança."
   },
@@ -50,7 +50,7 @@ const PRODUTOS = [
     id: 235,
     nome: "Mini Lanterna Tática Recarregável USB com LED COB Lateral e Estojo Rígido",
     categoria: "produtos em destaques",
-    preco: 199.90,
+    preco: 38.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/kit lanterna.jpeg",
     descricao:"Este kit exclusivo de mini lanterna tática é a solução definitiva para quem busca uma iluminação potente, ultracompacta e extremamente versátil para o dia a dia ou situações de emergência. Desenvolvida em liga de alumínio de alta resistência com acabamento premium, a lanterna possui um LED principal com foco ajustável (zoom) para longo alcance e uma poderosa luz lateral COB que funciona como luminária para preencher ambientes amplos. Totalmente recarregável via USB através de sua porta traseira protegida, ela elimina a necessidade de pilhas, oferecendo praticidade total com carregamento em computadores, power banks ou tomadas veiculares. O grande diferencial deste kit é o seu estojo tático rígido com revestimento interno em espuma, garantindo que a lanterna e o cabo de carregamento estejam sempre protegidos e organizados para transporte em mochilas, porta-luvas ou cintos. Ideal para campismo, pesca, ciclismo noturno, serviços de manutenção ou como item essencial no kit de sobrevivência urbana, esta mini lanterna une durabilidade militar com um design minimalista que cabe na palma da mão. Resistente a impactos e respingos d'água, é a ferramenta de iluminação profissional que garante segurança e visibilidade máxima onde quer que você esteja, unindo tecnologia moderna com uma eficiência tática inigualável para enfrentar qualquer desafio no escuro."
   },
@@ -59,7 +59,7 @@ const PRODUTOS = [
     id: 256,
     nome: "Facão Tático Militar com Lâmina em Aço Inox e Bainha de Couro Legítimo",
     categoria: "produtos em destaques",
-    preco: 199.90,
+    preco: 195.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/faca20.jpeg",
     descricao:"Este facão tático de alto desempenho é a ferramenta definitiva para quem exige força bruta, durabilidade e precisão em tarefas pesadas de desbravamento, bushcraft ou manutenção em propriedades rurais. Construído com uma lâmina longa e robusta em aço inoxidável de alta qualidade, ele oferece uma resistência excepcional à corrosão e um fio de corte duradouro, ideal para abrir trilhas, cortar galhos grossos e preparar abrigos com o mínimo esforço. O grande diferencial deste modelo é a sua luxuosa bainha em couro legítimo preto, que apresenta costuras reforçadas e botões de pressão estratégicos para garantir um transporte seguro e um saque rápido e silencioso em qualquer situação de campo. O cabo ergonômico com talas fixadas por rebites metálicos proporciona uma empunhadura firme, equilibrada e extremamente confortável, reduzindo a fadiga da mão durante o uso prolongado e garantindo um controle absoluto sobre cada golpe. Com um design que une a eficiência militar com a tradição da cutelaria robusta, este facão é o acessório indispensável para aventureiros, mateiros e profissionais que não abrem mão de um equipamento confiável para enfrentar os desafios mais brutos da natureza. Sua construção sólida e acabamento premium garantem que esta ferramenta suporte as condições mais severas, proporcionando máxima segurança e uma vida útil incomparável."
   },
@@ -68,7 +68,7 @@ const PRODUTOS = [
     id: 258,
     nome: "Graxa em Pasta Nugget Preto 36g - Máximo Brilho e Proteção à Água",
     categoria: "produtos em destaques",
-    preco: 199.90,
+    preco: 20.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/graxa preta.jpeg",
     descricao:"A graxa em pasta Nugget é a solução definitiva para quem busca renovar, nutrir e proteger calçados de couro com máxima eficiência e um acabamento profissional. Desenvolvida com uma fórmula de cuidado intensivo que penetra nas fibras do couro, esta pasta proporciona um brilho instantâneo e profundo, devolvendo a vivacidade da cor preta e escondendo pequenos riscos ou sinais de desgaste natural. O grande diferencial deste produto é a sua avançada barreira de resistência à água, que cria uma camada protetora invisível contra a umidade e sujeiras externas, garantindo que seus sapatos e botas permaneçam impecáveis por muito mais tempo. Ideal para o uso diário em calçados sociais, militares ou de passeio, ela une a tradição de uma marca líder desde 1953 com a tecnologia necessária para manter o couro macio e hidratado, evitando rachaduras precoces. Sua aplicação é simples e rápida, oferecendo uma cobertura uniforme que realça a elegância de qualquer peça de couro legítimo ou sintético com total segurança. Indispensável para o cuidado pessoal e manutenção de uniformes, esta pasta de 36g garante um rendimento superior e uma durabilidade incomparável para que você caminhe sempre com confiança e sofisticação."
   },
@@ -77,7 +77,7 @@ const PRODUTOS = [
     id: 260,
     nome: "Suspensório Tático Militar em Cordura Verde Oliva com Sistema de Engate Rápido",
     categoria: "produtos em destaques",
-    preco: 199.90,
+    preco: 195.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/cinto suspensorio operacional com bolso.jpeg",
     descricao:"Este suspensório tático de alta performance é a solução definitiva para quem busca o máximo de conforto, ergonomia e distribuição de peso em operações militares, segurança ou práticas de Airsoft e Paintball. Construído integralmente em tecido Cordura 1000D de padrão internacional, ele oferece uma resistência incomparável contra abrasão, rasgos e condições climáticas extremas, garantindo uma vida útil prolongada mesmo sob uso severo. O grande diferencial deste modelo é o seu design em H com alças largas e acolchoadas, que aliviam a pressão nos ombros e mantêm o cinto de guarnição estável, permitindo que você carregue equipamentos pesados por longos períodos sem fadiga. Equipado com quatro pontos de fixação e fivelas de engate rápido em polímero de alta densidade, ele permite um ajuste preciso ao corpo e um saque ágil do equipamento em situações de emergência. Suas costuras reforçadas e o sistema de passadores integrados oferecem versatilidade para acoplar acessórios extras, unindo a funcionalidade tática com uma estética militar autêntica e profissional. Leve, respirável e extremamente robusto, este suspensório é o acessório indispensável para compor o seu fardamento com total segurança, estabilidade e a confiança de um equipamento de elite feito para durar."
   },
@@ -86,7 +86,7 @@ const PRODUTOS = [
     id: 261,
     nome: "Suspensório Tático Militar Modelo H-Harness Verde Oliva em Nylon Reforçado",
     categoria: "produtos em destaques",
-    preco: 199.90,
+    preco: 195.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/cinto suspensorio operacional guerra na selva.jpeg",
     descricao:"Este suspensório tático de alta performance é a solução definitiva para quem busca o máximo de conforto, ergonomia e distribuição de peso em operações militares, segurança ou práticas de Airsoft e Paintball. Construído integralmente em nylon de alta densidade e padrão profissional, ele oferece uma resistência incomparável contra abrasão e rasgos, garantindo uma vida útil prolongada mesmo sob uso severo em ambientes de mata ou urbanos. O grande diferencial deste modelo é o seu design em H com alças largas e reforçadas, que aliviam a pressão nos ombros e mantêm o cinto de guarnição estável, permitindo que você carregue porta-carregadores e outros equipamentos pesados por longos períodos sem fadiga. Equipado com quatro pontos de fixação ajustáveis por fivelas de polímero de alta resistência, ele permite um ajuste preciso ao corpo e uma estabilidade absoluta durante movimentações táticas intensas. Suas costuras duplas e o sistema de passadores integrados oferecem versatilidade para acoplar acessórios extras, unindo a funcionalidade tática com uma estética militar autêntica e profissional. Leve, respirável e extremamente robusto, este suspensório é o acessório indispensável para compor o seu fardamento com total segurança, estabilidade e a confiança de um equipamento tático feito para durar."
   },
@@ -95,7 +95,7 @@ const PRODUTOS = [
     id: 262,
     nome: "Conjunto Tático Militar Verde Oliva com Suspensório em Y e Cinto de Guarnição",
     categoria: "produtos em destaques",
-    preco: 199.90,
+    preco: 195.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/cinto e suspensorio.jpeg",
     descricao:"Este conjunto tático completo é a solução definitiva para quem busca o máximo em ergonomia, distribuição de carga e estabilidade em operações militares, segurança, Airsoft ou Paintball. Construído integralmente em nylon de alta densidade e padrão profissional na cor verde oliva, o kit apresenta um suspensório em modelo Y com alças largas e acolchoadas que distribuem o peso dos equipamentos de forma equilibrada entre os ombros e o cinto, evitando a fadiga durante o uso prolongado. O grande diferencial deste conjunto é o cinto de guarnição robusto com ilhoses metálicos duplos e uma fivela central de engate rápido em polímero de alta resistência, permitindo a acoplagem segura de diversos acessórios modulares, porta-carregadores e coldres. Equipado com presilhas metálicas e passadores ajustáveis, ele oferece uma fixação absoluta ao corpo e permite movimentos ágeis sem que o equipamento se desloque, unindo a funcionalidade tática com uma durabilidade excepcional contra abrasão e rasgos em terrenos de mata densa. Leve, respirável e extremamente robusto, este sistema de transporte é o acessório indispensável para compor o seu fardamento com total segurança, organização e a confiança de um equipamento militar de elite feito para durar."
   },
@@ -104,7 +104,7 @@ const PRODUTOS = [
     id: 263,
     nome: "Porta-Carregador Duplo Tático Universal com Fechamento em Fivela de Engate Rápido",
     categoria: "produtos em destaques",
-    preco: 199.90,
+    preco: 55.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/porta carregador fuzil.jpeg",
     descricao:"Este porta-carregador tático universal é a solução definitiva para quem busca máxima organização, agilidade e proteção para seus equipamentos em operações militares, segurança, Airsoft ou Paintball. Construído integralmente em nylon de alta densidade e padrão profissional, ele oferece uma resistência incomparável contra abrasão e rasgos, garantindo uma vida útil prolongada mesmo sob uso severo em terrenos de mata ou urbanos. O grande diferencial deste modelo é o seu fechamento robusto com fivela de engate rápido em polímero de alta resistência, que proporciona um travamento absoluto dos itens internos enquanto permite um acesso silencioso e veloz em situações de alta pressão. Equipado com um sistema de fixação versátil na parte traseira, ele pode ser acoplado com facilidade a cintos de guarnição ou coletes modulares, mantendo-se estável e firme durante movimentações táticas intensas sem que o equipamento se desloque. Suas costuras reforçadas e o design de perfil otimizado oferecem uma durabilidade excepcional e um ajuste preciso para diversos tamanhos de acessórios, unindo a funcionalidade tática com uma estética profissional e moderna. Leve, compacto e extremamente robusto, este acessório é o item indispensável para compor o seu fardamento com total segurança, praticidade e a confiança de um equipamento tático feito para durar."
   },
@@ -113,7 +113,7 @@ const PRODUTOS = [
     id: 264,
     nome: "Porta-Cantil Tático Militar em Nylon com Bolso Auxiliar e Engate Rápido",
     categoria: "produtos em destaques",
-    preco: 199.90,
+    preco: 60.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/porta cantil.jpeg",
     descricao:"Este porta-cantil tático é a solução definitiva para quem busca hidratação acessível, proteção térmica e durabilidade em operações militares, acampamentos, trilhas ou práticas de Airsoft. Construído integralmente em nylon de alta densidade e padrão profissional, ele oferece uma resistência incomparável contra abrasão e rasgos em terrenos de mata densa, garantindo uma vida útil prolongada mesmo sob uso severo. O grande diferencial deste modelo é o seu design funcional que inclui um bolso lateral auxiliar com fechamento em velcro, ideal para carregar pastilhas purificadoras de água ou pequenos itens de emergência, além de um sistema de travamento central por fivela de engate rápido em polímero, que mantém o cantil absolutamente firme e seguro durante movimentações intensas. Equipado com um revestimento interno que auxilia na manutenção da temperatura do líquido e passadores traseiros reforçados para fixação em cintos de guarnição ou mochilas, ele une a funcionalidade tática com uma estética militar autêntica e profissional. Leve, compacto e extremamente robusto, este acessório é o item indispensável para compor o seu kit de sobrevivência com total praticidade, segurança e a confiança de um equipamento tático feito para durar."
   },
@@ -122,7 +122,7 @@ const PRODUTOS = [
     id: 265,
     nome: "Bússola de Mapa Profissional com Lupa, Réguas de Escala e Cordão de Segurança",
     categoria: "produtos em destaques",
-    preco: 199.90,
+    preco: 70.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/bussola de campo.jpeg",
     descricao:"Esta bússola de mapa profissional é a ferramenta de navegação definitiva para quem busca precisão cirúrgica e confiança em expedições de trekking, orientação, bushcraft ou treinamentos militares. Construída em acrílico transparente de alta resistência e padrão profissional, ela apresenta uma base plana que permite a leitura clara de mapas e cartas topográficas sem distorções, integrando réguas de escala em milímetros e proporções de 1:25.000 e 1:50.000 para cálculos de distância rápidos e exatos. O grande diferencial deste modelo é a sua lente de aumento (lupa) centralizada e o disco graduado de 360° em alto contraste, que garantem uma leitura de azimute sem erros mesmo sob condições de luz adversas, enquanto a agulha magnética de alta estabilidade assegura um apontamento norte rápido e confiável. Equipada com um cordão de nylon amarelo de alta visibilidade, ela oferece um transporte seguro junto ao corpo ou fixada à mochila, unindo a funcionalidade tática com uma durabilidade excepcional contra impactos e variações térmicas em campo. Leve, compacta e extremamente robusta, esta bússola é o acessório indispensável para compor o seu kit de sobrevivência com total praticidade, segurança e a precisão de um equipamento de navegação de elite feito para durar."
   },
@@ -131,7 +131,7 @@ const PRODUTOS = [
     id: 267,
     nome: "Saco de Gelo ipermeável",
     categoria: "produtos em destaques",
-    preco: 199.90,
+    preco: 35.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/saco ipermeavel para campo.jpeg",
     descricao:"Saco de Gelo ipermeável é a solução prática e indispensável para quem busca proteção imediata contra imprevistos climáticos em eventos ao ar livre, estádios, shows, parques ou situações de emergência. Fabricada em polietileno de baixa densidade (plástico PE), ela apresenta um material leve, 100% impermeável e totalmente transparente, garantindo que você se mantenha seco sem comprometer a visibilidade ou o conforto durante o uso. O grande diferencial deste modelo é o seu design ultracompacto com embalagem individual selada, que permite carregá-la facilmente no bolso, na mochila, no porta-luvas do carro ou até mesmo dentro de kits de sobrevivência e primeiros socorros sem ocupar espaço. Equipada com um capuz integrado e mangas largas, ela oferece uma cobertura eficiente para adultos de diversos tamanhos, unindo a funcionalidade de uma proteção rápida com a praticidade de um item descartável de baixo custo. Suas costuras soldadas e o acabamento simplificado proporcionam uma barreira absoluta contra a água e o vento, sendo o acessório de conveniência ideal para empresas, organizadores de eventos ou para ter sempre à mão em dias de clima instável. Higiênica, leve e extremamente versátil, esta capa de chuva garante a sua tranquilidade e a de seus clientes, oferecendo segurança e bem-estar em qualquer lugar com total agilidade."
   },
@@ -140,7 +140,7 @@ const PRODUTOS = [
     id: 268,
     nome: "Gorro de Selva",
     categoria: "produtos em destaques",
-    preco: 199.90,
+    preco: 35.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/gorro de campo.jpeg",
     descricao:"Gorro de Selva, é a ferramenta de proteção definitiva para quem busca máxima eficiência e furtividade em operações de campo, bushcraft, pesca ou aventuras na selva. Construído integralmente com um padrão de camuflagem de alta definição em tecido Ripstop reforçado, ele oferece uma resistência incomparável contra rasgos e abrasão em terrenos de mata densa, garantindo uma durabilidade excepcional sob as condições mais hostis. O grande diferencial deste modelo é a sua aba larga e flexível, que proporciona uma proteção solar absoluta para o rosto e pescoço, além de uma fita tática com múltiplos passadores externos para a fixação de vegetação natural ou pequenos acessórios de camuflagem. Equipado com aberturas laterais que garantem ventilação constante e conforto térmico sob sol intenso, ele apresenta uma modelagem anatômica que se ajusta perfeitamente à cabeça, unindo a funcionalidade militar clássica com uma estética tática profissional e moderna. Leve, dobrável e extremamente robusto, este acessório é o item indispensável para compor o seu fardamento com total praticidade, segurança e a confiança de um equipamento de proteção de elite feito para durar."
   },
@@ -159,7 +159,7 @@ const PRODUTOS = [
     id: 501,
     nome: "CAMISA CAMUFLADA + NOME",
     categoria: "produtos em destaques",
-    preco: 299.90,
+    preco: 55.00,
     imagem: "../fardamentosMilitares/fardasMilitaresFoto/CAMISA CAMUFLADA NOME.jpeg",
     descricao: "Camisa camuflada com seu nome de guerra",
     tamanho: ["P", "M", "G", "GG"], // NOVO CAMPO
@@ -170,7 +170,7 @@ const PRODUTOS = [
     id: 502,
     nome: "Farda Exército Brasileiro Modelo Novo (RUE 2026) – Conjunto Gandola e Calça Camuflada",
     categoria: "produtos em destaques",
-    preco: 299.90,
+    preco: 450.00,
     imagem: "../fardamentosMilitares/fardasMilitaresFoto/FARDA MODELO NOVO.jpeg",
     tamanho: ["P", "M", "G", "GG"], // NOVO CAMPO
     descricao:"O novo fardamento operacional do Exército Brasileiro foi desenvolvido sob as diretrizes atualizadas do RUE, combinando alta tecnologia têxtil com funcionalidade tática superior. A gandola apresenta um design moderno com gola tipo padre, fechamento frontal por zíper e fechos de contato, além de bolsos inclinados nas mangas para facilitar o acesso rápido a equipamentos. A calça foi reforçada para máxima durabilidade, contando agora com oito bolsos estratégicos e um sistema de fechamento por velcro na barra, eliminando a necessidade do uso de bombacho. Confeccionado em tecido de alta solidez (Rip Stop ou liso), este conjunto oferece resistência a rasgos, baixa retenção de líquidos e conforto térmico essencial para operações prolongadas e treinamentos intensos."
@@ -180,7 +180,7 @@ const PRODUTOS = [
     id: 504,
     nome: "CAMISA TFM + NOME",
     categoria: "produtos em destaques",
-    preco: 299.90,
+    preco: 55.00,
     imagem: "../fardamentosMilitares/fardasMilitaresFoto/CAMISA TFM NOME.jpeg",
     tamanho: ["P", "M", "G", "GG"], // NOVO CAMPO
     descricao:"A Regata Masculina Dry Fit Branca é a peça essencial para quem busca máxima performance e conforto térmico, seja em treinamentos militares (TFM) ou em atividades intensas na academia e ao ar livre. Confeccionada em tecido tecnológico de alta hidrofilidade, ela absorve o suor e o dispersa rapidamente para a superfície, garantindo uma evaporação ágil que mantém o corpo seco por muito mais tempo. Sua modelagem anatômica com cavas amplas proporciona total liberdade de movimento, enquanto a costura reforçada e o material 100% poliéster oferecem alta durabilidade, resistência a rasgos e facilidade de manutenção, já que não amassa e seca rapidamente. O grande diferencial deste modelo é o espaço frontal dedicado para personalização, permitindo a estampa ou bordado do seu nome, unidade ou logomarca com acabamento profissional."
@@ -2469,14 +2469,7 @@ const PRODUTOS = [
   },
 
   // ================= CAMISAS =================
-{
-    id: 2000,
-    nome: "Óculos de Sol Esportivo Black Wrap – Proteção UV400 para Caminhada, Corrida e Pesca",
-    categoria: "camisas",
-    preco: 80.00,
-    imagem: "../acessorios/oculosFoto/Óculos black vision 1.jpeg",
-    descricao:"O Óculos de Sol Esportivo Black Wrap foi desenvolvido para oferecer proteção total e conforto durante a prática de esportes ao ar livre, apresentando um design curvo que se ajusta perfeitamente ao rosto e protege contra o vento e poeira. Suas lentes com tecnologia UV400 garantem segurança absoluta ao bloquear 100% dos raios UVA e UVB, enquanto a estrutura ultra leve em policarbonato ou acetato permite o uso prolongado sem causar fadiga. Ideal para ciclismo, pesca e corrida, o modelo conta com lentes escuras que reduzem o brilho excessivo e melhoram a nitidez visual em dias de sol intenso. Com acabamento em preto fosco e hastes anatômicas, este óculos combina um estilo tático moderno com a durabilidade necessária para enfrentar qualquer aventura ou treino cotidiano"
-  },
+
 
    // ================= ESPORTES =================
 {
