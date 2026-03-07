@@ -1946,330 +1946,371 @@ const PRODUTOS = [
   // ================= ELETRÔNICOS =================
   {
     id: 1100,
-    nome: "CARREGADOR",
+    nome: "Mini Compressor de Ar Digital Portátil",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/bomba de ar.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/bomba de ar.jpeg",
+    descricao: "Mini Compressor de Ar Digital Portátil, oferece praticidade total com seu design sem fio e compacto, cabendo facilmente no porta-luvas ou mochila. Equipado com um display digital inteligente, permite predefinir a pressão desejada (até 150 PSI) e desliga automaticamente ao atingi-la, garantindo segurança e precisão. Sua bateria recarregável de 4000mAh via USB-C também funciona como um powerbank para carregar seu celular em emergências."
   },
 
   {
    id: 1101,
-    nome: "FONE",
+    nome: "Câmera de Segurança Lâmpada IP WiFi 360°",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/camera.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/camera.jpeg",
+    descricao: "Câmera de Segurança Lâmpada IP WiFi 360°, une praticidade e tecnologia avançada para proteger sua casa ou escritório sem a necessidade de furos ou cabos extras. Com visão noturna colorida e infravermelho, ela garante imagens nítidas 24h por dia, mesmo no escuro total. Possui detecção inteligente de movimento que envia alertas em tempo real para o seu celular e rastreia alvos automaticamente. Além disso, conta com áudio bidirecional, permitindo que você ouça e fale com quem estiver no ambiente através do aplicativo. É a segurança que você precisa, com a facilidade de rosquear uma lâmpada comum."
   },
 
   {
    id: 1102,
-    nome: "FONE",
+    nome: " Laser Pointer Verde Exdecor de Alta PotênciaE",
     categoria: "eletronicos",
-    preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/caneta lazer.jpeg"
+    preco: 60.00,
+    imagem: "../eletronicos/eletronicosFoto/caneta lazer.jpeg",
+    descricao: " Laser Pointer Verde Exdecor de Alta Potência, da Exdecor destaca-se pela sua incrível potência e nitidez, sendo ideal para apontar estrelas, realizar sinalizações em trilhas ou apresentações profissionais. Ele acompanha uma ponteira de efeito caleidoscópio, que permite criar padrões de luz incríveis para festas e decoração. Sua construção em alumínio aeronáutico garante alta durabilidade, e o sistema de travamento com chave traseira oferece segurança total contra o uso indevido por crianças."
   },
 
   {
    id: 1103,
-    nome: "FONE",
+    nome: "Carregador Turbo Xiaomi 67W Charging Combo",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/carregador3.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/carregador3.jpeg",
+    descricao: "Carregador Turbo Xiaomi 67W Charging Combo, entrega potência máxima para carregar seus dispositivos em tempo recorde, chegando a 100% de bateria em poucos minutos. O kit acompanha uma fonte ultra robusta e um cabo USB-C de 6A reforçado, otimizado para transferências de dados rápidas e carregamento estável. Equipado com chip inteligente, ele identifica automaticamente a voltagem necessária, protegendo contra superaquecimento e curto-circuitos. Seu design compacto e bivolt automático o torna o parceiro de viagem ideal, garantindo energia máxima onde quer que você esteja."
   },
 
   {
    id: 1104,
-    nome: "FONE",
+    nome: "Adaptador de Energia Apple USB-C de 20W",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/carregador4.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/carregador4.jpeg",
+    descricao: "Adaptador de Energia Apple USB-C de 20W, compatível com qualquer dispositivo USB-C, ele é otimizado para o melhor desempenho em modelos a partir do iPhone 8 e iPads Pro/Air. Suas camadas de proteção integradas garantem que seu dispositivo carregue sem riscos de superaquecimento ou sobrecarga, preservando a saúde da sua bateria por muito mais tempo."
   },
 
   {
    id: 1105,
-    nome: "FONE",
+    nome: "Carregador Inteligente Plug-In Oberon OR-IC019/ME",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/carregador5.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/carregador5.jpeg",
+    descricao: "Carregador Inteligente Plug-In Oberon OR-IC019/M, é bivolt automático (110V/240V) e acompanha um cabo Micro USB (V8) de 1 metro, garantindo praticidade imediata para carregar smartphones, tablets e outros eletrônicos compatíveis. Sua construção inteligente foca na segurança, oferecendo proteção contra sobrecarga e superaquecimento, além de ser um produto homologado pela Anatel, o que assegura sua confiabilidade e qualidade."
   },
 
   {
    id: 1106,
-    nome: "FONE",
+    nome: "Carregador Veicular BYZ DAY-C822m ",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/carregador6.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/carregador6.jpeg",
+    descricao: "Carregador Veicular BYZ DAY-C822m é o acessório ideal para quem busca estilo e eficiência para carregar seus dispositivos enquanto dirige. Com um design inovador e acabamento transparente, ele permite visualizar seus componentes internos, trazendo um toque moderno ao interior do seu veículo. Ele oferece uma saída de 2.4A, garantindo um carregamento rápido e estável para smartphones e tablets. Equipado com duas portas USB, este modelo permite carregar dois aparelhos simultaneamente sem perda de performance. Para sua tranquilidade, conta com um chip inteligente que ativa diversos filtros de proteção contra sobrecarga, superaquecimento e curto-circuito, preservando a saúde da bateria dos seus dispositivos"
   },
 
   {
    id: 1107,
-    nome: "FONE",
+    nome: "Cabo de Carregamento Super Rápido BYZ BC-1521",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/carregador7.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/carregador7.jpeg",
+    descricao: "Cabo de Carregamento Super Rápido BYZ BC-1521, Com suporte para saída de 5A, ele é projetado para carregamento ultrarrápido e transmissão de dados estável, sendo ideal para dispositivos modernos que exigem alta performance. Com um comprimento de 1,5 metros, este cabo oferece maior liberdade de movimento enquanto seu aparelho carrega. Ele possui conectores reforçados e um acabamento emborrachado de alta qualidade que evita emaranhados e resiste a dobras diárias. Sua tecnologia inteligente garante proteção contra sobrecarga, protegendo a vida útil da bateria do seu smartphone ou tablet."
   },
 
   {
    id: 1108,
-    nome: "FONE",
+    nome: "Air Remote Mouse G10s",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/carregador8.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/carregador8.jpeg",
+    descricao: "Air Remote Mouse G10s equipado com giroscópio de 6 eixos, ele permite controlar o cursor apenas movendo o controle no ar, como um mouse aéreo. Seu grande diferencial é a função de comando de voz, que facilita buscas rápidas por conteúdos no Google Assistente ou YouTube. Com tecnologia Wireless 2.4GHz, oferece alcance de até 10 metros via receptor USB (Plug and Play). Além disso, possui um botão programável com aprendizado infravermelho (IR) para copiar funções do seu controle original, como ligar e desligar a TV."
   },
 
   {
    id: 1109,
-    nome: "FONE",
+    nome: "Caixa de Som Bluetooth Transparente K07",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/carregador9.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/carregador9.jpeg",
+    descricao: "Caixa de Som Bluetooth Transparente K07 com 5W de potência, ela entrega um som nítido e graves surpreendentes para o seu tamanho. O grande destaque é o seu acabamento transparente com luzes LED integradas, que criam um efeito visual incrível em qualquer ambiente. Equipada com Bluetooth 5.0, garante uma conexão estável e rápida com smartphones, tablets e notebooks. Além disso, suporta a tecnologia TWS, permitindo conectar duas caixas K07 simultaneamente para uma experiência de som estéreo real."
   },
 
   {
    id: 1110,
-    nome: "FONE",
+    nome: "Carregador Turbo Xiaomi 120W Charging Combo",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/carregador10.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/carregador10.jpeg",
+    descricao: "Carregador Turbo Xiaomi 120W Charging Combot acompanha uma fonte ultra robusta e um cabo USB-C para USB-C (5A) reforçado, garantindo a máxima eficiência e estabilidade na condução da energia. Equipado com um sistema de proteção de 10 camadas, ele monitora a temperatura e a voltagem em tempo real, evitando superaquecimento e protegendo a vida útil da bateria do seu aparelho. É o acessório indispensável para quem vive em movimento e não pode perder tempo esperando o celular carregar."
   },
 
   {
    id: 1111,
-    nome: "FONE",
+    nome: "Carregador Turbo Awei C-842",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/carregador11.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/carregador11.jpeg",
+    descricao: "Carregador Turbo Awei C-842, oferece o equilíbrio perfeito entre velocidade e versatilidade. Com tecnologia Power Delivery (PD) de 20W, ele é capaz de carregar smartphones modernos, como as linhas mais recentes de iPhones e Androids, em tempo recorde. Seu design inteligente com dupla interface elimina a necessidade de escolher qual aparelho carregar primeiro. Construído com materiais de alta durabilidade, ele possui proteção contra sobreaquecimento e curto-circuitos, garantindo que sua bateria seja preservada. É bivolt e compacto, sendo o acessório ideal para manter em casa ou levar em viagens."
   },
 
   {
    id: 1112,
-    nome: "FONE",
+    nome: "Samsung 67W PD AdapterE",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/carregador12.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/carregador12.jpeg",
+    descricao: "Samsung 67W PD Adapter, com impressionantes 67W de potência, ele é capaz de carregar desde smartphones topo de linha até notebooks compatíveis com entrada USB-C em velocidade máxima. Seu grande diferencial é o design de dupla porta (USB-C e USB-A), permitindo carregar dois aparelhos simultaneamente com inteligência e segurança. O kit já acompanha um cabo USB-C para USB-C de 1 metro, otimizado para suportar a alta corrente de carga. Equipado com tecnologia Power Delivery (PD), ele ajusta a voltagem automaticamente para cada dispositivo, protegendo a saúde da bateria contra sobrecargas e superaquecimento."
   },
 
   {
    id: 1113,
-    nome: "FONE",
+    nome: "Adaptador de Energia AC/DC Adweixun Orvesion",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/carregador13.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/carregador13.jpeg",
+    descricao: "Adaptador de Energia AC/DC Adweixun Orvesion, conta com um conector de pino fino (P4), sendo ideal para roteadores, switches, câmeras de segurança (CFTV), fitas LED e diversos outros periféricos. Sua construção robusta com bivolt automático (110V/220V) permite o uso em qualquer região sem preocupações. Projetado com sistemas de proteção contra curto-circuito e sobrecarga, ele preserva a vida útil dos seus equipamentos, evitando danos por instabilidade na rede elétrica."
   },
 
   {
    id: 1114,
-    nome: "FONE",
+    nome: "Awei PC-21 Mini Stereo",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/FONE 1.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/FONE 1.jpeg",
+    descricao: "Os fones Awei PC-21 entregam um som estéreo de alta fidelidade com graves marcantes, ideais para músicas, podcasts e chamadas do dia a dia. Equipados com um microfone embutido de alta sensibilidade e controle no cabo, permitem atender ligações e pausar suas faixas favoritas com apenas um toque, sem precisar tirar o celular do bolso. Seu cabo de 1,2 metros é fabricado em material resistente, evitando emaranhados e garantindo maior durabilidade. Por possuírem o conector padrão P2 de 3,5 mm, são compatíveis com a grande maioria dos smartphones, tablets e notebooks do mercado."
   },
 
   {
    id: 1115,
-    nome: "FONE",
+    nome: "Awei A847BL Wireless Sports Headset",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/FONE 2.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/FONE 2.jpeg",
+    descricao: "Awei A847BL Wireless Sports Headset, é o parceiro ideal para os seus treinos, combinando resistência e alta fidelidade sonora. Equipado com proteção IPX4, ele é resistente ao suor e a respingos d'água, permitindo que você se exercite sem preocupações em qualquer ambiente. Sua tecnologia Bluetooth 4.2 oferece uma conexão estável em um alcance de até 10 metros, enquanto o sistema de cancelamento de ruído garante que você foque apenas na sua música. Além disso, conta com um microfone integrado para chamadas em modo mãos-livres e uma bateria que acompanha o seu ritmo por até 6 horas de reprodução contínua. "
   },
 
   {
    id: 1116,
-    nome: "FONE",
+    nome: "Awei ES-160i Ear-hook Smart Sports",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/FONE 3.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/FONE 3.jpeg",
+    descricao: "Awei ES-160i Ear-hook Smart Sports, combina conforto e performance sonora com tecnologia Super Bass, entregando graves profundos e um som estéreo cristalino. Seu cabo de 1,2 metros conta com um controle inteligente e microfone integrado, permitindo gerenciar músicas e atender chamadas sem interromper seu treino. Construído com materiais resistentes, ele oferece isolamento de ruído passivo e possui um plug de 3,5 mm banhado a ouro para garantir a melhor fidelidade sonora e durabilidade. É a escolha certa para quem precisa de um fone robusto, leve e que acompanhe o ritmo de uma rotina ativa."
   },
 
   {
    id: 1117,
-    nome: "FONE",
+    nome: "Awei ES-70TY",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/FONE 4.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/FONE 4.jpeg",
+    descricao: "Awei ES-70TY entrega o lendário Powerful Sound Experience, com graves profundos e agudos cristalinos que dão vida a qualquer estilo musical. Equipado com um cabo flat (chato) que evita emaranhados, ele conta com um controle inteligente de 3 botões e microfone integrado de alta fidelidade, permitindo ajustar o volume, trocar de faixa e atender chamadas com total praticidade. Seu conector P2 de 3,5 mm banhado a ouro garante uma transmissão de áudio sem perdas e é compatível com a grande maioria dos dispositivos. É o fone ideal para quem não abre mão de fidelidade sonora no dia a dia."
   },
 
   {
    id: 1118,
-    nome: "FONE",
+    nome: "Fone Bluetooth Monofone Altomex A-W3",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/FONE.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/FONE.jpeg",
+    descricao: "Fone Bluetooth Monofone Altomex A-W3, oferece uma conexão estável e rápida com baixo consumo de energia. Seu grande diferencial é a tecnologia de Som HD com redução de ruídos, permitindo chamadas nítidas em qualquer ambiente. Com uma bateria impressionante, ele entrega até 6 horas de uso contínuo, sendo ideal para longas jornadas de trabalho ou viagens, permitindo que você mantenha o foco no que realmente importa."
   },
    
   {
    id: 1119,
-    nome: "FONE",
+    nome: "Kit Carregador Rápido Lehmox LE-485TYPEC",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/fone5.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/fone5.jpeg",
+    descricao: " Kit Carregador Rápido Lehmox LE-485TYPEC, o grande diferencial deste modelo é a sua dupla porta USB, que permite carregar dois aparelhos simultaneamente sem perda de performance. O kit já acompanha um cabo USB para USB-C reforçado, compatível com os smartphones e tablets mais modernos. Por ser um produto homologado pela Anatel, ele garante total confiabilidade, possuindo proteção integrada contra sobrecarga, curto-circuito e superaquecimento."
   },
 
   {
    id: 1120,
-    nome: "FONE",
+    nome: "Cabo Turbo Lehmox LE-818 Type-C ",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/fone6.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/fone6.jpeg",
+    descricao: "Cabo Turbo Lehmox LE-818 Type-C, este cabo possui um design flat (chato) que evita emaranhados e aumenta a resistência contra dobras no uso diário. Seus conectores reforçados e o acabamento emborrachado de alta qualidade garantem uma vida útil prolongada, sendo perfeito tanto para carregamento quanto para a transmissão de dados em alta velocidade. É a solução prática e robusta para manter seus dispositivos sempre prontos para o uso."
   },
 
   {
    id: 1121,
-    nome: "FONE",
+    nome: " Fone Bluetooth Monofone Altomex A-W3",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/fone7.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/fone7.jpeg",
+    descricao: "Fone Bluetooth Monofone Altomex A-W3, oferece uma conexão estável e rápida com baixo consumo de energia. Seu grande diferencial é a tecnologia de Som HD com redução de ruídos, permitindo chamadas nítidas em qualquer ambiente. Com uma bateria impressionante, ele entrega até 6 horas de uso contínuo, sendo ideal para longas jornadas de trabalho ou viagens, permitindo que você mantenha o foco no que realmente importa."
   },
 
   {
    id: 1122,
-    nome: "FONE",
+    nome: "Awei ES-770i Head-Mounted E-Sports Wired Headset",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/FONO A FIO 1.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/FONO A FIO 1.jpeg",
+    descricao: "Awei ES-770i Head-Mounted E-Sports Wired Headset, entrega uma experiência sonora de 7.1 canais, proporcionando áudio surround que permite identificar a direção de cada passo ou disparo nos seus jogos favoritos. Equipado com drivers de 50mm, ele oferece graves potentes e agudos cristalinos para máxima imersão. Seu cabo de 2,1 metros garante liberdade de movimento, enquanto o microfone omnidirecional de alta definição assegura uma comunicação clara com sua equipe. Com conectores 3.5mm e USB (para os LEDs), ele é altamente versátil e compatível com PCs, notebooks, smartphones e consoles como PS4 e Xbox."
   },
 
   {
    id: 1123,
-    nome: "FONE",
+    nome: "Awei GM-5",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/FONO A FIO.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/FONO A FIO.jpeg",
+    descricao:"Awei GM-5 é um headset gamer com fio do tipo over-ear, projetado para oferecer alta performance sonora e conforto durante longas sessões de e-sports. Com um design moderno e agressivo, ele foca em imersão total e comunicação clara."
   },
 
   {
    id: 1124,
-    nome: "FONE",
+    nome: "Fones de Ouvido Sem Fio Pro TWS",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/FONO DE OUVIDO BLUETOOTH 1.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/FONO DE OUVIDO BLUETOOTH 1.jpeg",
+    descricao: "Fones de Ouvido Sem Fio Pro TWS, oferecem a combinação perfeita entre design ergonômico e tecnologia de áudio avançada. Equipados com Cancelamento Ativo de Ruído (ANC), eles proporcionam uma experiência sonora imersiva, bloqueando distrações externas para que você foque apenas na sua música ou chamadas. O estojo de recarga compacto, com detalhes metálicos premium, garante que seus fones estejam sempre prontos para o uso, oferecendo uma autonomia total de até 33 horas de reprodução."
   },
 
   {
    id: 1125,
-    nome: "FONE",
+    nome: "Lenovo Thinkplus XT80",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/FONO DE OUVIDO BLUETOOTH 2.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/FONO DE OUVIDO BLUETOOTH 2.jpeg",
+    descricao: "Lenovo Thinkplus XT80 combina a liberdade do Bluetooth 5.3 com uma performance sonora superior. Equipado com um display digital inteligente no estojo, ele permite acompanhar a porcentagem exata da bateria em tempo real. Sua proteção IPX7 à prova d'água garante resistência total ao suor e à chuva, permitindo que você se exercite em qualquer condição. Além disso, conta com microfones de alta definição e cancelamento de ruído em chamadas, assegurando uma comunicação clara. É o fone robusto e tecnológico que une conforto prolongado com graves potentes."
   },
 
   {
    id: 1126,
-    nome: "FONE",
+    nome: " Gamer TWS U60",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/FONO DE OUVIDO BLUETOOTH 3.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/FONO DE OUVIDO BLUETOOTH 3.jpeg",
+    descricao: "Fone Gamer U60 redefine a sua experiência de jogo com a tecnologia de Modo de Jogo Exclusivo, garantindo latência zero e sincronização perfeita entre áudio e vídeo. Seus drivers potentes entregam graves pesados e imersivos, permitindo que você ouça cada detalhe tático com clareza. Com uma bateria robusta, oferece até 18 horas de reprodução total com o estojo de recarga, que possui um display LED integrado para monitoramento da carga. Equipado com Bluetooth 5.3, ele assegura uma conexão estável, rápida e com baixo consumo de energia para suas maratonas de jogos ou playlists favoritas."
   },
 
   {
    id: 1127,
-    nome: "FONE",
+    nome: "Fone de Ouvido TWS M10",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/FONO DE OUVIDO BLUETOOTH.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/FONO DE OUVIDO BLUETOOTH.jpeg",
+    descricao: "Fone de Ouvido TWS M10, oferecem a liberdade total do Bluetooth 5.3, garantindo uma conexão ultrarrápida e estável com baixo consumo de bateria. Seu grande diferencial é o estojo de recarga de alta capacidade com display LED inteligente, que mostra a porcentagem exata da bateria de cada fone e da base. Além de carregar seus fones, o estojo funciona como um Power Bank de emergência para o seu celular. Com som estéreo de alta fidelidade e tecnologia de redução de ruído, ele é ideal para músicas, filmes e chamadas nítidas em qualquer lugar."
   },
 
   {
    id: 1128,
-    nome: "FONE",
+    nome: "Game Stick Lite 4K",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/game stick.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/game stick.jpeg",
+    descricao: "Game Stick Lite 4K garante imagens nítidas em TVs modernas, preservando a essência dos jogos retrô. O kit acompanha dois controles sem fio de 2.4GHz, permitindo jogar com amigos e familiares sem a confusão de cabos. Sua instalação é no estilo Plug & Play: basta conectar o stick na TV, o receptor USB dos controles e começar a jogar. É o presente ideal para todas as idades, unindo praticidade e uma biblioteca gigantesca de entretenimento."
   },
    
   {
    id: 1129,
-    nome: "FONE",
+    nome: "Kit de Barbearia e Corte de Cabelo Kapbom KA-2192 ",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/kit barba.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/kit barba.jpeg",
+    descrição: "Kit de Barbearia e Corte de Cabelo Kapbom KA-2192 reúne durabilidade e ergonomia em um único pacote. A tesoura de corte em aço inoxidável garante fios nítidos, enquanto a navalha clássica permite acabamentos impecáveis na barba e no pezinho. O kit conta ainda com dois pentes especializados: um pente de corte tradicional e um pente de textura, ideais para desembaraçar, separar mechas e finalizar o penteado. Leve e fácil de manusear, é a escolha perfeita para iniciantes e profissionais que não abrem mão de um kit completo e versátil."
   },
 
   {
    id: 1130,
-    nome: "FONE",
+    nome: "Kit de Tesouras para Cabelo Kapbom KA-5066",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/kit barbeiro.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/kit barbeiro.jpeg",
+    descricao: "Kit de Tesouras para Cabelo Kapbom KA-5066 oferece ferramentas de alta performance com design ergonômico, garantindo conforto durante o uso prolongado e resultados impecáveis. As tesouras possuem acabamento dourado sofisticado e lâminas em aço inoxidável de alta durabilidade, ideais para cortes retos, desfiados e acabamentos detalhados. O conjunto é organizado em um estojo luxuoso com zíper, facilitando o transporte e a proteção dos seus instrumentos de trabalho. Seja para uso profissional ou doméstico avançado, este kit reúne tudo o que você precisa para elevar o nível do seu serviço."
   },
 
   {
    id: 1131,
-    nome: "FONE",
+    nome: "Altomex AL-2928",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/maquina de cabelo 1.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/maquina de cabelo 1.jpeg",
+    descricao: "Altomex AL-2928 Altomex AL-2928 une estilo e tecnologia em uma ferramenta de alta precisão para barbeiros e uso pessoal. Com um corpo metálico resistente e design ergonômico, ela oferece cortes impecáveis em cabelos e barbas, sendo ideal também para acabamentos como o pezinho, desenhos e depilação corporal. Seu grande diferencial é o display LED inteligente, que monitora o nível da bateria em tempo real, garantindo que você nunca seja pego de surpresa."
   },
 
   {
    id: 1132,
-    nome: "FONE",
+    nome: "Máquina de cortar cabelo One-X MQ-7039",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/maquina de cabelo 2.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/maquina de cabelo 2.jpeg",
+    descricao: "Máquina de cortar cabelo One-X MQ-7039  foi projetada para barbeiros e usuários que buscam precisão cirúrgica no dia a dia. Com lâminas de aço inoxidável de alta durabilidade, ela é perfeita para realizar desde cortes completos até os acabamentos mais detalhados, como o pezinho e desenhos. Seu motor potente trabalha de forma equilibrada com a bateria de carregamento rápido, oferecendo autonomia e eficiência para uma rotina de cuidados sem interrupções."
   },
 
   {
    id: 1133,
-    nome: "FONE",
+    nome: "Mini Teclado Wireless Lehmox LEY-183",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/mini teclado.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/mini teclado.jpeg",
+    descricao: "Mini Teclado Wireless Lehmox LEY-183, redefine a navegação em sua Smart TV, TV Box ou PC. Equipado com tecnologia Dual (Bluetooth + 2.4GHz), ele oferece uma conexão estável e sem atrasos em um alcance de até 10 metros. Seu grande diferencial é o touchpad integrado com sensibilidade ajustável e a iluminação RGB, que permite personalizar as cores das teclas para facilitar o uso no escuro. É o acessório Plug and Play indispensável para quem quer digitar senhas, buscar vídeos e navegar na internet com total conforto e agilidade."
   },
 
   {
    id: 1134,
-    nome: "FONE",
+    nome: "Mouse Gamer B-Max BM-614",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/mouse.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/mouse.jpeg",
+    descricao: "Mouse Gamer B-Max BM-614 Seu grande diferencial visual é a iluminação LED em 7 cores, que transita de forma rítmica, criando um efeito dinâmico que combina com qualquer setup gamer. Equipado com um sensor óptico de alta precisão, ele garante movimentos fluidos e respostas rápidas. Sua instalação é Plug & Play via USB, dispensando drivers complicados — basta conectar e começar a jogar em PCs ou notebooks."
   },
 
   {
    id: 1135,
-    nome: "FONE",
+    nome: "Projetor Inteligente Magcubic HY300",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/PROJETOR.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/PROJETOR.jpeg",
+    descricao: "Projetor Inteligente Magcubic HY300, com um design inovador de corpo giratório em 180°, este projetor permite exibir imagens nítidas em qualquer parede ou até mesmo no teto com total facilidade. Ele entrega resolução Nativa 720p com suporte para decodificação de vídeo 4K, garantindo cores vibrantes e detalhes impressionantes em uma tela de até 130 polegadas. Equipado com Dual Band Wi-Fi 6 e Bluetooth 5.0, oferece conexões ultrarrápidas para streaming sem travamentos e emparelhamento simples com caixas de som externas. É a solução perfeita para quem busca um cinema particular compacto, potente e versátil."
   },
 
   {
    id: 1136,
-    nome: "FONE",
+    nome: "Rádio de Bolso Altomex AL-356",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/radio.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/radio.jpeg",
+    descricao: "Rádio de Bolso Altomex AL-356 equipado com 2 bandas (FM e AM), ele oferece uma recepção de sinal estável e clara através de sua antena telescópica de alta sensibilidade. Sua operação é simples e intuitiva, com botões analógicos para ajuste de volume e sintonia. Além do alto-falante integrado com som nítido, ele possui uma saída para fones de ouvido, permitindo que você ouça sua programação favorita com total privacidade em qualquer lugar."
   },
 
   {
    id: 1137,
-    nome: "FONE",
+    nome: "Colete Esportivo para Corrida com Suporte para Celular",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/SUPORTE DE CELULAR FRONTAL.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/SUPORTE DE CELULAR FRONTAL.jpeg",
+    descrição: "Colete Esportivo para Corrida com Suporte para Celular foi projetado para oferecer o equilíbrio perfeito entre conforto e funcionalidade. Seu compartimento central acomoda smartphones de diversos tamanhos com total estabilidade, permitindo fácil acesso durante a atividade. Fabricado em material respirável (neoprene de alta qualidade), ele evita o acúmulo de suor e possui detalhes refletivos em 360°, garantindo sua visibilidade e segurança em treinos noturnos. Além do suporte para celular, conta com bolsos estratégicos para chaves, cartões e géis de carboidrato, mantendo tudo o que você precisa ao alcance das mãos."
   },
 
   {
    id: 1138,
-    nome: "FONE",
+    nome: "Braçadeira Esportiva Premuim",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/SUPORTE DE CELULAR.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/SUPORTE DE CELULAR.jpeg",
+    descricao: "Braçadeira Esportiva Premuim,  combina um design robusto e ergonômico para garantir que seu smartphone permaneça estável e protegido em qualquer movimento. Fabricada em neoprene e nylon leves e respiráveis, ela é resistente ao suor e a respingos, mantendo seus pertences secos mesmo em condições adversas. Seu diferencial são os dois compartimentos com zíper, que permitem organizar separadamente o celular de itens como chaves, documentos e cartões, evitando riscos na tela."
   },
    
   {
    id: 1139,
-    nome: "FONE",
+    nome: "Suporte de Mesa em Liga de Metal H'maston CJ77",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/suporte.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/suporte.jpeg",
+    descricao: "Suporte de Mesa em Liga de Metal H'maston CJ77 destaca-se pela sua construção em liga de metal de alta durabilidade, garantindo firmeza total para smartphones e tablets de diversos tamanhos. Seu grande diferencial é a base giratória 360° com sistema de ajuste multiangular, permitindo encontrar o ângulo de visão perfeito para videochamadas, estudos ou consumo de mídia. O suporte é totalmente dobrável, tornando-o ultraportátil e fácil de guardar. Além disso, possui almofadas de silicone antiderrapantes que protegem seu aparelho contra riscos e evitam deslizes indesejados na mesa."
   },
 
   {
    id: 1140,
-    nome: "FONE",
+    nome: "Suporte Veicular Universal H'maston CJ71",
     categoria: "eletronicos",
     preco: 199.90,
-    imagem: "../eletronicos/eletronicosFoto/suporte1.jpeg"
+    imagem: "../eletronicos/eletronicosFoto/suporte1.jpeg",
+    descricao: "Suporte Veicular Universal H'maston CJ71 destaca-se pelo seu braço articulado de longo alcance e base de sucção ultra aderente, que se fixa firmemente em superfícies lisas ou texturizadas. Com um sistema de rotação 360°, ele permite ajustar o celular tanto na vertical quanto na horizontal, garantindo o melhor ângulo de visão sem obstruir o seu campo visual. Suas garras laterais possuem proteção emborrachada para segurar o aparelho com firmeza sem riscá-lo, sendo compatível com praticamente todos os smartphones do mercado."
   },
 
   // ================= ACESSORIO RELÓGIO ================
@@ -2431,21 +2472,340 @@ const PRODUTOS = [
    // ================= ESPORTES =================
 {
     id: 3000,
-    nome: "Óculos de Sol Esportivo Black Wrap – Proteção UV400 para Caminhada, Corrida e Pesca",
+    nome: "Coqueteleira Growth Supplements",
+    categoria: "esporte", 
+    preco: 80.00,
+    imagem: "../suplementoEsporte/esporteFotos/copo1.jpeg",
+    descricao:" Coqueteleiras Growth Supplements são os acessórios indispensáveis para quem busca praticidade e estilo na hora de preparar seus shakes. Com design ergonômico e tampa de fechamento seguro (sistema click), elas garantem uma vedação perfeita, evitando vazamentos indesejados na sua mochila de treino. Disponíveis em cores vibrantes como azul, preto, vermelho e rosa, possuem marcação lateral de volume para uma dosagem precisa de água ou leite. Fabricadas com material de alta durabilidade e livre de BPA, são fáceis de higienizar e ideais para misturar seus suplementos de forma rápida e eficiente em qualquer lugar.",
+    cor: ["azul","preto","vermelho","rosa"]
+  },
+
+  {
+    id: 3001,
+    nome: "Coqueteleira FTW (Fitoway Labs)",
     categoria: "esporte",
     preco: 80.00,
-    imagem: "../acessorios/oculosFoto/Óculos black vision 1.jpeg",
-    descricao:"O Óculos de Sol Esportivo Black Wrap foi desenvolvido para oferecer proteção total e conforto durante a prática de esportes ao ar livre, apresentando um design curvo que se ajusta perfeitamente ao rosto e protege contra o vento e poeira. Suas lentes com tecnologia UV400 garantem segurança absoluta ao bloquear 100% dos raios UVA e UVB, enquanto a estrutura ultra leve em policarbonato ou acetato permite o uso prolongado sem causar fadiga. Ideal para ciclismo, pesca e corrida, o modelo conta com lentes escuras que reduzem o brilho excessivo e melhoram a nitidez visual em dias de sol intenso. Com acabamento em preto fosco e hastes anatômicas, este óculos combina um estilo tático moderno com a durabilidade necessária para enfrentar qualquer aventura ou treino cotidiano"
+    imagem: "../suplementoEsporte/esporteFotos/copo2.jpeg",
+    descricao:"Coqueteleira FTW (Fitoway Labs) na cor vermelha é o acessório perfeito para quem busca praticidade e estilo no dia a dia de treinos. Com design robusto e ergonômico, ela conta com uma tampa de fechamento seguro que evita vazamentos, permitindo o transporte seguro na mochila. Sua marcação lateral facilita a dosagem exata dos seus suplementos, enquanto o material de alta resistência garante durabilidade. Ideal para preparar seu pré-treino Diabo Verde ou seu pós-treino com rapidez, ela une funcionalidade e a identidade visual marcante da FTW para elevar o nível da sua rotina fitness."
   },
+
+  {
+    id: 3002,
+    nome: "Coqueteleira Dux Nutrition",
+    categoria: "esporte",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/esporteFotos/copo3.jpeg",
+    descricao:"Coqueteleira Dux Nutrition na cor fumê é a escolha premium para quem busca elegância e funcionalidade. Com um design clean e sofisticado, ela possui marcações externas de volume em oz e ml, garantindo a precisão total no preparo dos seus suplementos. Sua tampa de alta vedação com bocal ergonômico evita vazamentos, tornando-a ideal para levar na mochila ou treinar ao ar livre. Fabricada com materiais de alta qualidade e livre de BPA, ela une a estética minimalista da marca Dux à durabilidade necessária para o uso intenso no dia a dia."
+  },
+
+  {
+    id: 3003,
+    nome: "Coqueteleira Growth Supplements Transparente",
+    categoria: "esporte",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/esporteFotos/copo4.jpeg",
+    descricao:"Coqueteleira Growth Supplements Transparente é o clássico indispensável para o seu dia a dia de treinos. Com visual clean e corpo translúcido, ela permite a visualização exata do conteúdo e do nível de mistura do seu shake. Equipada com uma tampa de fechamento seguro por sistema de click, garante vedação total contra vazamentos, sendo ideal para carregar na mochila. É fabricada com material livre de BPA, resistente e fácil de lavar, unindo a durabilidade que você precisa com a identidade visual da marca mais amada do Brasil."
+  },
+
+  {
+    id: 3004,
+    nome: "Coqueteleira Diabo Verde",
+    categoria: "esporte",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/esporteFotos/copo5.jpeg",
+    descricao:" Coqueteleira Diabo Verde na cor verde neon é o acessório com a pegada mais agressiva e energética para o seu treino. Com visual marcante que remete à linha de pré-treinos da FTW, ela possui tampa preta de alta vedação, garantindo que seu shake não vaze mesmo em movimentos bruscos. Seu corpo translúcido permite acompanhar a mistura e a dosagem exata do seu suplemento através das marcações laterais. Fabricada com material resistente e livre de BPA, é fácil de lavar e ideal para quem quer destacar o seu estilo de batalha na academia com um acessório de personalidade única."
+  },
+
+  {
+    id: 3005,
+    nome: "Coqueteleira Integralmédica Transparente (600ml)",
+    categoria: "esporte",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/esporteFotos/copo6.jpeg",
+    descricao:"Coqueteleira Integralmédica Transparente (600ml) é o acessório clássico da marca número 1 do Brasil, ideal para preparar seus shakes com precisão e estilo. Com corpo translúcido e marcações laterais, ela permite visualizar facilmente a dosagem e a mistura dos suplementos. Sua tampa preta possui um fechamento de alta pressão na cor vermelha, garantindo vedação total e segurança contra vazamentos durante o transporte. Fabricada em material resistente, livre de BPA e fácil de limpar, é a escolha funcional para quem carrega o DNA da musculação em cada treino."
+  },
+
+  {
+    id: 3006,
+    nome: "Mini Bands",
+    categoria: "esporte",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/esporteFotos/FAIXA DE TREINO.jpeg",
+    descricao:"Mini Bands é o acessório versátil e indispensável para treinos em casa, academia ou viagens. Fabricadas em látex de alta resistência, as faixas elásticas permitem trabalhar o corpo todo, com foco especial no fortalecimento de glúteos, pernas e braços, permitindo que você evolua o nível de esforço conforme seu condicionamento. Portáteis e fáceis de usar, são ideais para exercícios de funcional, fisioterapia, alongamento e ativação muscular, garantindo resultados eficientes em qualquer lugar.",
+    cor: ["Amarelo", "Vermelho", "Azul", "Verde", "Preta"]
+  },
+
+  {
+    id: 3007,
+    nome: "Par de Joelheiras Articuladas com Amortecimento (25x17cm)",
+    categoria: "esporte",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/esporteFotos/JOELHEIRA 3.jpeg",
+    descricao:"Par de Joelheiras Articuladas com Amortecimento (25x17cm) é o acessório de proteção ideal para esportes de alto impacto como vôlei, futsal, basquete e dança. Fabricadas em tecido elástico de alta compressão e respirável, elas oferecem suporte firme à articulação, prevenindo entorses e lesões. O grande diferencial é a almofada frontal em EVA espesso, que absorve impactos severos contra o solo, garantindo segurança e conforto durante quedas e movimentos bruscos. Com design anatômico que não limita os movimentos, este par é a escolha estratégica para atletas que buscam máxima performance com proteção total para os joelhos."
+  },
+
+  {
+    id: 3008,
+    nome: "Meias Antiderrapantes de Alta Performance",
+    categoria: "esporte",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/esporteFotos/MEIAS.jpeg",
+    descricao:"Meias Antiderrapantes de Alta Performance são o acessório definitivo para atletas de futebol, futsal, basquete e esportes de impacto. Seu grande diferencial é a tecnologia de pads emborrachados na sola, que elimina o deslize do pé dentro do calçado, garantindo estabilidade máxima em mudanças de direção e arrancadas explosivas. Fabricadas com tecido respirável e de compressão média, elas oferecem conforto térmico e ajuste anatômico superior. Disponíveis em diversas cores vibrantes, são ideais para prevenir bolhas e melhorar a segurança do atleta durante toda a partida.",
+    cor:["Branco", "Azul", "Verde", "Laranja", "Vermelho", "Amarelo", "Preto", "Azul Marinho", "Azul"],
+  },
+
 
      // ================= SUPLEMENTOS =================
 {
     id: 4000,
-    nome: "Óculos de Sol Esportivo Black Wrap – Proteção UV400 para Caminhada, Corrida e Pesca",
+    nome: "Diabo Verde #Pre-Workout da FTW",
     categoria: "suplementos",
     preco: 80.00,
-    imagem: "../acessorios/oculosFoto/Óculos black vision 1.jpeg",
-    descricao:"O Óculos de Sol Esportivo Black Wrap foi desenvolvido para oferecer proteção total e conforto durante a prática de esportes ao ar livre, apresentando um design curvo que se ajusta perfeitamente ao rosto e protege contra o vento e poeira. Suas lentes com tecnologia UV400 garantem segurança absoluta ao bloquear 100% dos raios UVA e UVB, enquanto a estrutura ultra leve em policarbonato ou acetato permite o uso prolongado sem causar fadiga. Ideal para ciclismo, pesca e corrida, o modelo conta com lentes escuras que reduzem o brilho excessivo e melhoram a nitidez visual em dias de sol intenso. Com acabamento em preto fosco e hastes anatômicas, este óculos combina um estilo tático moderno com a durabilidade necessária para enfrentar qualquer aventura ou treino cotidiano"
+    imagem: "../suplementoEsporte/suplementosFotos/creatina1.jpeg",
+    descricao:"O Diabo Verde #Pre-Workout é o combustível ideal para levar seus treinos a um nível insano. Com uma combinação poderosa de 200mg de cafeína, beta-alanina, arginina, taurina e tirosina, ele proporciona um aumento imediato de disposição e concentração. Sua fórmula exclusiva com Palatinose™ garante uma liberação gradual de energia, evitando picos e quedas bruscas de rendimento. Seja para musculação ou atividades de alta intensidade, este pré-treino auxilia na vasodilatação e na melhora da percepção de esforço, permitindo que você supere seus limites a cada sessão."
+  },
+
+  {
+    id: 4001,
+    nome: "Haze Hardcore Pré-Workout da Growth Supplements",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/creatina2.jpeg",
+    descricao:"O Haze Hardcore entrega uma combinação estratégica de ingredientes que potencializam o foco e a energia. Sua fórmula conta com 2g de Beta-Alanina para retardar a fadiga muscular, além de 1000mg de Arginina e 1000mg de Taurina, que auxiliam na vasodilatação e no transporte de nutrientes para os músculos. Com 150mg de Cafeína e 250mg de Tirosina, ele garante alerta mental e disposição sem causar o crash pós-treino. No delicioso sabor Laranja, este suplemento em pó de 300g oferece praticidade e resultados reais para quem leva o treino a sério."
+  },
+
+  {
+    id: 4002,
+    nome: "Creatina Monohidratada Max Titanium (300g)",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/creatina3.jpeg",
+    descricao:"A Creatina Max Titanium é o combustível que seus músculos precisam para alcançar um novo nível de performance. Desenvolvida com creatina monohidratada 100% pura, ela auxilia no aumento da força máxima e na rápida ressíntese de energia, permitindo treinos mais longos e intensos. Além de favorecer a hipertrofia e a hidratação celular, este suplemento é livre de glúten e sódio, garantindo máxima pureza e absorção para resultados reais e duradouros."
+  },
+
+  {
+    id: 4003,
+    nome: "Diabo Verde Dilabol Pump da FTW (300g)",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/creatina4.jpeg",
+    descricao:"Diabo Verde Dilabol Pump da FTW (300g), foi formulado estrategicamente para potencializar a vasodilatação e a resistência muscular. Sua combinação de Beta-Alanina, Arginina, Taurina e Tirosina atua diretamente no retardamento da fadiga e na melhora do fluxo sanguíneo para os músculos. Com o delicioso sabor de Energético, este suplemento garante que você mantenha a intensidade do início ao fim do treino, promovendo aquele volume muscular desejado e foco mental apurado, tudo isso com a segurança de uma fórmula livre de substâncias que causam agitação excessiva."
+  },
+
+  {
+    id: 4004,
+    nome: "Panic Pré-Workout Adaptogen - Energia e Foco",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/creatina5.jpeg",
+    descricao:"Panic Pré-Workout (300g) da Adaptogen é um suplemento de alta performance focado em fornecer energia explosiva e foco total para seus treinos. Com fórmula reformulada e sabor Maçã Verde, ele combina Beta-Alanina, Arginina e Cafeína para retardar a fadiga muscular e aumentar a resistência. O grande diferencial é a Creatina adicionada, que potencializa o ganho de força e a recuperação. É a escolha ideal para atletas que buscam máxima intensidade e rendimento físico em cada sessão."
+  },
+
+  {
+    id: 4005,
+    nome: "Pure Creatine (300g) da 3VS Nutrition",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/creatina6.jpeg",
+    descricao:"Pure Creatine (300g) da 3VS Nutrition é um suplemento de alta pureza, composto exclusivamente por creatina monohidratada, sem adição de açúcares ou carboidratos. Desenvolvida para atletas de alta intensidade, sua principal função é aumentar a ressíntese de ATP, proporcionando mais energia celular e explosão muscular. O uso diário auxilia no ganho de força, melhora a resistência e acelera a recuperação pós-treino. Com excelente custo-benefício, o pote contém 100 doses de 3g, rendendo por mais de três meses de uso contínuo. É a escolha ideal para quem busca performance máxima e evolução consistente na musculatura."
+  },
+
+  {
+    id: 4006,
+    nome: "Prohibido Hardcore (180g)",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/creatina7.jpeg",
+    descricao:"Prohibido Hardcore (180g), da linha Underground Series da 3VS Nutrition, é um pré-treino de alta intensidade projetado para quem busca energia extrema e vasodilatação. Sua fórmula poderosa combina 8 ingredientes chave, incluindo 3000mg de Arginina, 2000mg de Beta-Alanina e 200mg de Cafeína, garantindo foco, resistência e redução da fadiga. O diferencial fica por conta da adição de Palatinose, um carboidrato de baixo índice glicêmico que fornece energia constante, e Creatina para explosão muscular. No sabor Green Apple (Maçã Verde), ele oferece uma experiência refrescante para elevar o nível dos seus treinos mais insanos."
+  },
+
+  {
+    id: 4007,
+    nome: "Creatina Hardcore (300g) ",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/creatina8.jpeg",
+    descricao:"Creatina Hardcore (300g) da Integralmedica é um suplemento de pureza elevada, composta por creatina monohidratada na forma micronizada para garantir rápida absorção e solubilidade. É o combustível essencial para aumentar a força muscular, o desempenho em treinos de explosão e a hidratação das células musculares, favorecendo o ganho de massa. Sua fórmula é 100% pura, livre de sódio, açúcares ou aditivos artificiais, sendo ideal para quem busca resultados sólidos e recuperação acelerada. O pote de 300g oferece um excelente rendimento para o uso diário contínuo, fundamental para manter os estoques musculares sempre saturados."
+  },
+
+  {
+    id: 4008,
+    nome: "Creatina Monohidratada (300g)",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/creatina9.jpeg",
+    descricao:"Creatina Monohidratada (300g) da Probiótica é um suplemento de alta qualidade, desenvolvido com tecnologia de ponta para auxiliar no ganho de massa muscular e na performance física. Sua fórmula é composta por creatina 100% pura, com alto grau de concentração e pureza, sendo livre de glúten e aditivos como açúcares ou gorduras. Ao aumentar a disponibilidade de ATP nas células musculares, ela proporciona mais força, resistência e explosão durante exercícios de alta intensidade e curta duração. Com excelente solubilidade, este pote de 300g rende aproximadamente 100 doses de 3g, sendo uma escolha confiável e eficaz para atletas que buscam evolução constante nos treinos."
+  },
+
+  {
+    id: 4009,
+    nome: "Pure Creatine (300g)",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/creatina10.jpeg",
+    descricao:"Pure Creatine (300g) da Dark Lab é reconhecida por sua pureza extrema e excelente custo-benefício. Composta por creatina monohidratada de matéria-prima importada, ela passa por processos rigorosos de filtragem para garantir 100% de aproveitamento pelo organismo. Seu uso contínuo promove o aumento da síntese de ATP, resultando em mais explosão, força muscular e uma recuperação mais rápida entre as séries. Livre de corantes, sabores ou conservantes, é o suplemento base para quem deseja maximizar a hipertrofia e o rendimento físico com um produto de confiança."
+  },
+
+  {
+    id: 4010,
+    nome: "Creatina Monohidratada Creapure (250g)",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/creatina11.jpeg",
+    descricao:" Creatina Monohidratada Creapure (250g) da Growth Supplements é o padrão ouro em suplementação de creatina. O selo Creapure® garante uma matéria-prima alemã de pureza inigualável, livre de impurezas e com processos de fabricação rigorosos. Ela potencializa a ressíntese de energia (ATP), resultando em ganho real de força, aumento do volume muscular e recuperação acelerada entre as séries. Ideal para atletas exigentes, sua fórmula é 100% autêntica, sem aditivos, e oferece a máxima biodisponibilidade para resultados consistentes e seguros. É a escolha definitiva para quem não abre mão de qualidade internacional e performance máxima."
+  },
+
+  {
+    id: 4011,
+    nome: "Creatina Monohidratada (300g)",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/creatina12.jpeg",
+    descricao:"Creatina Monohidratada (300g) da Dux Nutrition é um suplemento de grau farmacêutico, reconhecido por sua pureza e controle de qualidade excepcionais. Composta por creatina 100% monohidratada, ela é livre de substâncias banidas, corantes ou ingredientes artificiais, sendo ideal para atletas de elite e praticantes exigentes. Sua fórmula acelera a ressíntese de ATP, garantindo força explosiva, ganho de massa magra e melhor recuperação muscular. No formato sem sabor, oferece versatilidade total para ser misturada ao seu shake ou bebida favorita com excelente solubilidade. É a nutrição muscular definitiva para quem busca performance superior com total segurança."
+  },
+
+  {
+    id: 4012,
+    nome: "Creatine (300g)",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/creatina13.jpeg",
+    descricao:"Creatine (300g) da Under Labz é um suplemento desenvolvido sob o conceito #BORNTODISRUPT, focado em atletas que buscam quebrar barreiras e atingir o próximo nível. Composta por creatina monohidratada de alta pureza, ela garante o aporte necessário para a ressíntese de ATP, resultando em ganho real de força e explosão muscular. Sua fórmula sem sabor é altamente versátil e possui excelente solubilidade, facilitando a mistura em qualquer bebida. O pote oferece um rendimento superior de 100 doses, sendo a escolha estratégica para quem busca hipertrofia, resistência e recuperação acelerada com um visual moderno e agressivo."
+  },
+
+  {
+    id: 4013,
+    nome: "Diabo Verde #Pre-Workout The Tank (300g)",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/creatina14.jpeg",
+    descricao:"Diabo Verde #Pre-Workout The Tank (300g) da FTW é um suplemento desenvolvido para envenenar seus treinos com energia brutal e foco implacável. No sabor refrescante de Cherry Lemonade, sua fórmula de elite combina Beta-Alanina, Arginina, Tirosina, Cafeína e Taurina, garantindo máxima vasodilatação e resistência contra a fadiga muscular. Ideal para atletas que buscam ultrapassar limites, ele oferece o suporte necessário para treinos de alta intensidade, explosão e concentração total. O pote de 300g proporciona um rendimento excelente, sendo o combustível definitivo para quem quer transformar cada sessão de treino em uma verdadeira batalha vencida."
+  },
+
+  {
+    id: 4014,
+    nome: "Colágeno Tipo II (30 cápsulas)",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/creatina15.jpeg",
+    descricao:"Colágeno Tipo II (30 cápsulas) da Lion Sports Nutrition é o suplemento essencial para quem treina pesado e quer proteger suas articulações. Desenvolvido com colágeno não desnaturado, ele age diretamente na regeneração das cartilagens e na redução de dores e inflamações articulares, garantindo mais mobilidade e flexibilidade. Ideal para atletas que buscam superar limites sem comprometer a saúde do corpo a longo prazo. Com apenas uma cápsula ao dia, você previne lesões e mantém a estrutura óssea e articular pronta para os maiores desafios."
+  },
+
+  {
+    id: 4015,
+    nome: "Sparta Pre-Workout (300g)",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/creatina16.jpeg",
+    descricao:"Sparta Pre-Workout (300g) da Lion Sports Nutrition é o suplemento ideal para quem busca força e foco de um verdadeiro guerreiro. No sabor Green Energy (Maçã Verde), sua fórmula combina Beta-Alanina, Arginina, Taurina e Cafeína, oferecendo energia explosiva, maior resistência muscular e uma vasodilatação incrível. Ele foi desenhado para retardar a fadiga e aumentar a concentração, permitindo que você supere seus limites em cada treino. Com excelente solubilidade e rendimento, é o aliado perfeito para maximizar sua performance física e mental."
+  },
+
+  {
+    id: 4016,
+    nome: "Dry-Flex Extreme Thermo Shot (300g) da Lion Sports Nutrition",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/creatina17.jpeg",
+    descricao:"Dry-Flex Extreme Thermo Shot (300g) da Lion Sports Nutrition é o suplemento ideal para quem busca definição muscular e queima de gordura eficiente. No sabor refrescante de Abacaxi com Gengibre, sua fórmula potente combina Hibisco, Chá Preto, Chá Verde e Matcha, poderosos ativos termogênicos e diuréticos. Ele acelera o metabolismo, aumenta o gasto calórico e auxilia na redução da retenção de líquidos, combatendo o inchaço. Com adição de polpa de laranja em pó, oferece um suporte antioxidante enquanto você esculpe seu corpo. É a escolha definitiva para maximizar a queima calórica e atingir a definição desejada com energia e vitalidade."
+  },
+
+  {
+    id: 4017,
+    nome: "Colágeno + Ácido Hialurônico (300g) da Lion Sports Nutrition",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/creatina18.jpeg",
+    descricao:"Colágeno + Ácido Hialurônico (300g) da Lion Sports Nutrition é o suplemento completo para quem busca saúde e beleza de dentro para fora. No delicioso sabor Frutas Vermelhas, sua fórmula combina o colágeno, essencial para a firmeza e elasticidade da pele, com o ácido hialurônico, um poderoso hidratante que preenche os tecidos e lubrifica as articulações. Juntos, eles combatem os sinais de envelhecimento, fortalecem unhas e cabelos e garantem uma aparência renovada e saudável. Com excelente solubilidade, é a escolha ideal para integrar sua rotina de cuidados diários com praticidade e eficácia."
+  },
+
+  {
+    id: 4018,
+    nome: "100% Whey (900g) da Max Titanium",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/whey1.jpeg",
+    descricao:"100% Whey (900g) da Max Titanium é um dos suplementos proteicos mais premiados e confiáveis do mercado brasileiro. Elaborado com proteína concentrada do soro do leite de alta qualidade, ele entrega 21g de proteína e 4.814mg de BCAAs por porção, garantindo o aporte ideal para a construção e recuperação muscular pós-treino. No clássico sabor Baunilha, possui excelente solubilidade e um perfil completo de aminoácidos essenciais. É a escolha estratégica para atletas de todos os níveis que buscam hipertrofia, manutenção da massa magra e um suplemento livre de glúten com alto valor biológico."
+  },
+
+  {
+    id: 4019,
+    nome: "Whey 100% Pure (907g) ",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/whey2.jpeg",
+    descricao:"Whey 100% Pure (907g) da Integralmedica é o suplemento proteico ideal para quem busca ganho de massa muscular e recuperação pós-treino. Elaborado com proteína concentrada do soro do leite de alta qualidade, ele entrega 21g de proteína, 9g de EAAs (aminoácidos essenciais) e 4,6g de BCAA por dose. No sabor Baunilha, possui excelente solubilidade e um perfil de aminoácidos de alto valor biológico, garantindo rápida absorção pelo organismo. É a escolha estratégica para atletas que não abrem mão de uma nutrição muscular pura, eficaz e com o selo de confiança da marca número 1 do Brasil."
+  },
+
+  {
+    id: 4020,
+    nome: "Top Whey 80% Concentrado (1kg) da Growth Supplements",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/whey3.jpeg",
+    descricao:"Top Whey 80% Concentrado (1kg) da Growth Supplements é um dos suplementos mais vendidos do Brasil, unindo alto valor biológico e o melhor custo-benefício. No sabor Mousse de Maracujá, entrega 24g de proteína por porção, além de 5,4g de BCAAs e 4,5g de Glutamina, garantindo suporte total para a síntese proteica e recuperação muscular. Elaborado com matéria-prima importada de alta qualidade, possui excelente solubilidade e um perfil de aminoácidos completo. É a escolha estratégica para atletas que buscam ganho de massa magra com uma proteína pura, deliciosa e com transparência total de tabela nutricional."
+  },
+
+    {
+    id: 4021,
+    nome: "Top Whey 80% Concentrado (1kg) da Growth Supplements",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/whey4.jpeg",
+    descricao:"Top Whey 80% Concentrado (1kg) da Growth Supplements, agora no irresistível sabor Beijinho, une alta performance ao prazer de um doce clássico. Com 24g de proteína por porção e rico em BCAAs (5,4g) e Glutamina (4,5g), ele garante o suporte ideal para a hipertrofia e uma recuperação muscular acelerada. Sua matéria-prima importada de alta qualidade oferece excelente solubilidade e um perfil completo de aminoácidos essenciais. É a proteína pura e eficiente que você já conhece, com o sabor de coco que transforma o seu pós-treino em um momento de recompensa."
+  },
+
+    {
+    id: 4022,
+    nome: "Nutri Whey Protein (907g) da Integralmedica",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/whey5.jpeg",
+    descricao:" Nutri Whey Protein (907g) da Integralmedica é o suplemento ideal para quem busca o ganho de massa muscular com foco em volume e força. Sua fórmula equilibrada entrega impressionantes 30g de proteína por porção, unindo proteínas do soro do leite (Whey Protein), albumina e carboidratos complexos de alta absorção. É livre de glúten e possui baixo teor de gordura (Low Fat), garantindo o aporte energético necessário para treinos intensos e uma recuperação acelerada. Com excelente custo-benefício, é a escolha estratégica para atletas que precisam de uma nutrição muscular completa para atingir resultados sólidos e duradouros."
+  },
+
+    {
+    id: 4023,
+    nome: " Whey 80% Concentrado (1kg) da Growth Supplements Doce de Leite",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/whey7.jpeg",
+    descricao:"O Top Whey 80% Concentrado (1kg) da Growth Supplements no sabor Doce de Leite é a combinação perfeita entre alta performance e um sabor irresistível. Com 24g de proteína de alto valor biológico por porção, ele fornece o suporte ideal para a hipertrofia e recuperação muscular. Sua fórmula é rica em BCAAs (5,4g) e Glutamina (4,5g), utilizando matéria-prima importada de pureza garantida e excelente solubilidade. É a escolha estratégica para quem busca uma proteína eficiente, com transparência nutricional e o prazer de um dos sabores mais amados do Brasil em cada shake."
+  },
+
+    {
+    id: 4024,
+    nome: "Whey 80% Concentrado (1kg) da Growth Supplements Milkshake de Chocolate",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/whey8.jpeg",
+    descricao:"O Top Whey 80% Concentrado (1kg) da Growth Supplements, no sabor Milkshake de Chocolate, é a escolha imbatível para quem busca sabor e performance. Com 24g de proteína de alta qualidade por porção e 5,2g de BCAAs, ele fornece o suporte ideal para a hipertrofia e recuperação muscular. Sua fórmula utiliza matéria-prima importada de alto valor biológico, garantindo excelente solubilidade e um perfil completo de aminoácidos. É a proteína pura e eficiente que seu corpo precisa, com a cremosidade de um milkshake real para tornar seu pós-treino muito mais prazeroso."
+  },
+
+    {
+    id: 4025,
+    nome: "100% Whey Gold Lion (900g) da Lion Sports Nutrition Strawberry Cream",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/whey9.jpeg",
+    descricao:"100% Whey Gold Lion (900g) da Lion Sports Nutrition é a escolha de elite para quem busca máxima pureza e sabor inigualável. No sabor cremoso de Strawberry Cream, sua fórmula de alto valor biológico entrega o aporte de proteínas e aminoácidos essenciais necessários para uma hipertrofia sólida e uma recuperação muscular acelerada. Desenvolvido com matéria-prima de excelente procedência, ele garante ótima solubilidade e rápida absorção pelo organismo. É o combustível ideal para atletas determinados que buscam superar seus limites e garantir a manutenção da massa magra com um shake delicioso e nutritivo."
+  },
+
+  {
+    id: 4026,
+    nome: "Whey 3W Lion Gourmet Series (900g) da Lion Sports Nutrition",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/whey10.jpeg",
+    descricao:"Whey 3W Lion Gourmet Series (900g) da Lion Sports Nutrition é um suplemento proteico de elite, desenvolvido com um blend das três formas de whey: concentrado, isolado e hidrolisado. No sabor irresistível de Mousse de Chocolate, sua fórmula garante uma absorção gradual e eficiente, fornecendo aminoácidos essenciais por mais tempo para a hipertrofia e recuperação muscular. Fazendo parte da linha Gourmet Series, ele se destaca pela cremosidade e sabor superior, sem abrir mão do alto valor biológico. É a escolha perfeita para atletas exigentes que buscam resultados sólidos com uma experiência de consumo prazerosa e sofisticada."
+  },
+
+    {
+    id: 4027,
+    nome: "Whey Combat (900g) da Lion Sports Nutrition",
+    categoria: "suplementos",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/suplementosFotos/whey11.jpeg",
+    descricao:"Whey Combat (900g) da Lion Sports Nutrition é o suplemento proteico desenvolvido para quem busca máxima performance com excelente custo-benefício. No sabor Chocolate, sua fórmula combina um blend de proteínas de alto valor biológico que garante o aporte necessário de aminoácidos para a construção e reparação muscular pós-treino. Ideal para atletas que precisam de uma nutrição sólida para encarar a rotina de treinos intensos, ele auxilia no ganho de massa magra e na redução da fadiga. Com boa solubilidade e sabor marcante, é o combustível de combate diário para você superar seus limites e atingir seus objetivos físicos."
   },
   
     // ================= BRINQUEDOS =================
