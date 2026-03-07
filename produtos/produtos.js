@@ -2074,7 +2074,7 @@ const PRODUTOS = [
    id: 1114,
     nome: "Awei PC-21 Mini Stereo",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 48.00,
     imagem: "../eletronicos/eletronicosFoto/FONE 1.jpeg",
     descricao: "Os fones Awei PC-21 entregam um som estéreo de alta fidelidade com graves marcantes, ideais para músicas, podcasts e chamadas do dia a dia. Equipados com um microfone embutido de alta sensibilidade e controle no cabo, permitem atender ligações e pausar suas faixas favoritas com apenas um toque, sem precisar tirar o celular do bolso. Seu cabo de 1,2 metros é fabricado em material resistente, evitando emaranhados e garantindo maior durabilidade. Por possuírem o conector padrão P2 de 3,5 mm, são compatíveis com a grande maioria dos smartphones, tablets e notebooks do mercado."
   },
@@ -2083,7 +2083,7 @@ const PRODUTOS = [
    id: 1115,
     nome: "Awei A847BL Wireless Sports Headset",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 135.00,
     imagem: "../eletronicos/eletronicosFoto/FONE 2.jpeg",
     descricao: "Awei A847BL Wireless Sports Headset, é o parceiro ideal para os seus treinos, combinando resistência e alta fidelidade sonora. Equipado com proteção IPX4, ele é resistente ao suor e a respingos d'água, permitindo que você se exercite sem preocupações em qualquer ambiente. Sua tecnologia Bluetooth 4.2 oferece uma conexão estável em um alcance de até 10 metros, enquanto o sistema de cancelamento de ruído garante que você foque apenas na sua música. Além disso, conta com um microfone integrado para chamadas em modo mãos-livres e uma bateria que acompanha o seu ritmo por até 6 horas de reprodução contínua. "
   },
@@ -2092,7 +2092,7 @@ const PRODUTOS = [
    id: 1116,
     nome: "Awei ES-160i Ear-hook Smart Sports",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 80.00,
     imagem: "../eletronicos/eletronicosFoto/FONE 3.jpeg",
     descricao: "Awei ES-160i Ear-hook Smart Sports, combina conforto e performance sonora com tecnologia Super Bass, entregando graves profundos e um som estéreo cristalino. Seu cabo de 1,2 metros conta com um controle inteligente e microfone integrado, permitindo gerenciar músicas e atender chamadas sem interromper seu treino. Construído com materiais resistentes, ele oferece isolamento de ruído passivo e possui um plug de 3,5 mm banhado a ouro para garantir a melhor fidelidade sonora e durabilidade. É a escolha certa para quem precisa de um fone robusto, leve e que acompanhe o ritmo de uma rotina ativa."
   },
@@ -2101,7 +2101,7 @@ const PRODUTOS = [
    id: 1117,
     nome: "Awei ES-70TY",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 60.00,
     imagem: "../eletronicos/eletronicosFoto/FONE 4.jpeg",
     descricao: "Awei ES-70TY entrega o lendário Powerful Sound Experience, com graves profundos e agudos cristalinos que dão vida a qualquer estilo musical. Equipado com um cabo flat (chato) que evita emaranhados, ele conta com um controle inteligente de 3 botões e microfone integrado de alta fidelidade, permitindo ajustar o volume, trocar de faixa e atender chamadas com total praticidade. Seu conector P2 de 3,5 mm banhado a ouro garante uma transmissão de áudio sem perdas e é compatível com a grande maioria dos dispositivos. É o fone ideal para quem não abre mão de fidelidade sonora no dia a dia."
   },
@@ -2110,7 +2110,7 @@ const PRODUTOS = [
    id: 1118,
     nome: "Fone Bluetooth Monofone Altomex A-W3",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 55.00,
     imagem: "../eletronicos/eletronicosFoto/FONE.jpeg",
     descricao: "Fone Bluetooth Monofone Altomex A-W3, oferece uma conexão estável e rápida com baixo consumo de energia. Seu grande diferencial é a tecnologia de Som HD com redução de ruídos, permitindo chamadas nítidas em qualquer ambiente. Com uma bateria impressionante, ele entrega até 6 horas de uso contínuo, sendo ideal para longas jornadas de trabalho ou viagens, permitindo que você mantenha o foco no que realmente importa."
   },
@@ -2137,7 +2137,7 @@ const PRODUTOS = [
    id: 1121,
     nome: " Fone Bluetooth Monofone Altomex A-W3",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 55.00,
     imagem: "../eletronicos/eletronicosFoto/fone7.jpeg",
     descricao: "Fone Bluetooth Monofone Altomex A-W3, oferece uma conexão estável e rápida com baixo consumo de energia. Seu grande diferencial é a tecnologia de Som HD com redução de ruídos, permitindo chamadas nítidas em qualquer ambiente. Com uma bateria impressionante, ele entrega até 6 horas de uso contínuo, sendo ideal para longas jornadas de trabalho ou viagens, permitindo que você mantenha o foco no que realmente importa."
   },
@@ -2146,7 +2146,7 @@ const PRODUTOS = [
    id: 1122,
     nome: "Awei ES-770i Head-Mounted E-Sports Wired Headset",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 190.00,
     imagem: "../eletronicos/eletronicosFoto/FONO A FIO 1.jpeg",
     descricao: "Awei ES-770i Head-Mounted E-Sports Wired Headset, entrega uma experiência sonora de 7.1 canais, proporcionando áudio surround que permite identificar a direção de cada passo ou disparo nos seus jogos favoritos. Equipado com drivers de 50mm, ele oferece graves potentes e agudos cristalinos para máxima imersão. Seu cabo de 2,1 metros garante liberdade de movimento, enquanto o microfone omnidirecional de alta definição assegura uma comunicação clara com sua equipe. Com conectores 3.5mm e USB (para os LEDs), ele é altamente versátil e compatível com PCs, notebooks, smartphones e consoles como PS4 e Xbox."
   },
@@ -2155,7 +2155,7 @@ const PRODUTOS = [
    id: 1123,
     nome: "Awei GM-5",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 190.00,
     imagem: "../eletronicos/eletronicosFoto/FONO A FIO.jpeg",
     descricao:"Awei GM-5 é um headset gamer com fio do tipo over-ear, projetado para oferecer alta performance sonora e conforto durante longas sessões de e-sports. Com um design moderno e agressivo, ele foca em imersão total e comunicação clara."
   },
@@ -2164,7 +2164,7 @@ const PRODUTOS = [
    id: 1124,
     nome: "Fones de Ouvido Sem Fio Pro TWS",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 190.00,
     imagem: "../eletronicos/eletronicosFoto/FONO DE OUVIDO BLUETOOTH 1.jpeg",
     descricao: "Fones de Ouvido Sem Fio Pro TWS, oferecem a combinação perfeita entre design ergonômico e tecnologia de áudio avançada. Equipados com Cancelamento Ativo de Ruído (ANC), eles proporcionam uma experiência sonora imersiva, bloqueando distrações externas para que você foque apenas na sua música ou chamadas. O estojo de recarga compacto, com detalhes metálicos premium, garante que seus fones estejam sempre prontos para o uso, oferecendo uma autonomia total de até 33 horas de reprodução."
   },
@@ -2173,7 +2173,7 @@ const PRODUTOS = [
    id: 1125,
     nome: "Lenovo Thinkplus XT80",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 195.00,
     imagem: "../eletronicos/eletronicosFoto/FONO DE OUVIDO BLUETOOTH 2.jpeg",
     descricao: "Lenovo Thinkplus XT80 combina a liberdade do Bluetooth 5.3 com uma performance sonora superior. Equipado com um display digital inteligente no estojo, ele permite acompanhar a porcentagem exata da bateria em tempo real. Sua proteção IPX7 à prova d'água garante resistência total ao suor e à chuva, permitindo que você se exercite em qualquer condição. Além disso, conta com microfones de alta definição e cancelamento de ruído em chamadas, assegurando uma comunicação clara. É o fone robusto e tecnológico que une conforto prolongado com graves potentes."
   },
@@ -2182,7 +2182,7 @@ const PRODUTOS = [
    id: 1126,
     nome: " Gamer TWS U60",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 120.00,
     imagem: "../eletronicos/eletronicosFoto/FONO DE OUVIDO BLUETOOTH 3.jpeg",
     descricao: "Fone Gamer U60 redefine a sua experiência de jogo com a tecnologia de Modo de Jogo Exclusivo, garantindo latência zero e sincronização perfeita entre áudio e vídeo. Seus drivers potentes entregam graves pesados e imersivos, permitindo que você ouça cada detalhe tático com clareza. Com uma bateria robusta, oferece até 18 horas de reprodução total com o estojo de recarga, que possui um display LED integrado para monitoramento da carga. Equipado com Bluetooth 5.3, ele assegura uma conexão estável, rápida e com baixo consumo de energia para suas maratonas de jogos ou playlists favoritas."
   },
@@ -2191,7 +2191,7 @@ const PRODUTOS = [
    id: 1127,
     nome: "Fone de Ouvido TWS M10",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 70.00,
     imagem: "../eletronicos/eletronicosFoto/FONO DE OUVIDO BLUETOOTH.jpeg",
     descricao: "Fone de Ouvido TWS M10, oferecem a liberdade total do Bluetooth 5.3, garantindo uma conexão ultrarrápida e estável com baixo consumo de bateria. Seu grande diferencial é o estojo de recarga de alta capacidade com display LED inteligente, que mostra a porcentagem exata da bateria de cada fone e da base. Além de carregar seus fones, o estojo funciona como um Power Bank de emergência para o seu celular. Com som estéreo de alta fidelidade e tecnologia de redução de ruído, ele é ideal para músicas, filmes e chamadas nítidas em qualquer lugar."
   },
@@ -2263,7 +2263,7 @@ const PRODUTOS = [
    id: 1135,
     nome: "Projetor Inteligente Magcubic HY300",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 480.00,
     imagem: "../eletronicos/eletronicosFoto/PROJETOR.jpeg",
     descricao: "Projetor Inteligente Magcubic HY300, com um design inovador de corpo giratório em 180°, este projetor permite exibir imagens nítidas em qualquer parede ou até mesmo no teto com total facilidade. Ele entrega resolução Nativa 720p com suporte para decodificação de vídeo 4K, garantindo cores vibrantes e detalhes impressionantes em uma tela de até 130 polegadas. Equipado com Dual Band Wi-Fi 6 e Bluetooth 5.0, oferece conexões ultrarrápidas para streaming sem travamentos e emparelhamento simples com caixas de som externas. É a solução perfeita para quem busca um cinema particular compacto, potente e versátil."
   },
@@ -2281,7 +2281,7 @@ const PRODUTOS = [
    id: 1137,
     nome: "Colete Esportivo para Corrida com Suporte para Celular",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 45.00,
     imagem: "../eletronicos/eletronicosFoto/SUPORTE DE CELULAR FRONTAL.jpeg",
     descrição: "Colete Esportivo para Corrida com Suporte para Celular foi projetado para oferecer o equilíbrio perfeito entre conforto e funcionalidade. Seu compartimento central acomoda smartphones de diversos tamanhos com total estabilidade, permitindo fácil acesso durante a atividade. Fabricado em material respirável (neoprene de alta qualidade), ele evita o acúmulo de suor e possui detalhes refletivos em 360°, garantindo sua visibilidade e segurança em treinos noturnos. Além do suporte para celular, conta com bolsos estratégicos para chaves, cartões e géis de carboidrato, mantendo tudo o que você precisa ao alcance das mãos."
   },
@@ -2290,7 +2290,7 @@ const PRODUTOS = [
    id: 1138,
     nome: "Braçadeira Esportiva Premuim",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 45.00,
     imagem: "../eletronicos/eletronicosFoto/SUPORTE DE CELULAR.jpeg",
     descricao: "Braçadeira Esportiva Premuim,  combina um design robusto e ergonômico para garantir que seu smartphone permaneça estável e protegido em qualquer movimento. Fabricada em neoprene e nylon leves e respiráveis, ela é resistente ao suor e a respingos, mantendo seus pertences secos mesmo em condições adversas. Seu diferencial são os dois compartimentos com zíper, que permitem organizar separadamente o celular de itens como chaves, documentos e cartões, evitando riscos na tela."
   },
@@ -2318,7 +2318,7 @@ const PRODUTOS = [
     id: 901,
     nome: "Relógio esportivo digital C-SHOCK - BLACK",
     categoria: "relogio",
-    preco: 199.90,
+    preco: 95.00,
     imagem: "../acessorios/relogioFoto/1.jpeg",
     descricao:"Resistência à água: Possui classificação de pelo menos 5 ATM (50 metros), adequado para natação e atividades aquáticas superficiais.\nRecursos: Inclui luz LED, cronômetro e alarme. Design: Conta com uma caixa de aproximadamente 47 mm. Uso indicado Ideal para esportes, academia, trabalho e aventura. "
   },
@@ -2327,7 +2327,7 @@ const PRODUTOS = [
     id: 902,
     nome: "Relógio esportivo digital C-SHOCK - VERELHO",
     categoria: "relogio",
-    preco: 199.90,
+    preco: 95.00,
     imagem: "../acessorios/relogioFoto/2.jpeg",
     descricao:"Resistência à água: Possui classificação de pelo menos 5 ATM (50 metros), adequado para natação e atividades aquáticas superficiais.\nRecursos: Inclui luz LED, cronômetro e alarme. Design: Conta com uma caixa de aproximadamente 47 mm. Uso indicado Ideal para esportes, academia, trabalho e aventura. "
   },
@@ -2336,7 +2336,7 @@ const PRODUTOS = [
     id: 903,
     nome: "Relógio esportivo digital C-SHOCK - CINZA",
     categoria: "relogio",
-    preco: 199.90,
+    preco: 95.00,
     imagem: "../acessorios/relogioFoto/3.jpeg",
     descricao:"Resistência à água: Possui classificação de pelo menos 5 ATM (50 metros), adequado para natação e atividades aquáticas superficiais.\nRecursos: Inclui luz LED, cronômetro e alarme. Design: Conta com uma caixa de aproximadamente 47 mm. Uso indicado Ideal para esportes, academia, trabalho e aventura. "
   },
@@ -2345,7 +2345,7 @@ const PRODUTOS = [
     id: 904,
     nome: "Relógio esportivo digital marca Aqua, modelo AQ-37. ",
     categoria: "relogio",
-    preco: 199.90,
+    preco: 75.00,
     imagem: "../acessorios/relogioFoto/4.jpeg",
     descricao:"Resistência à Água: Suporta submersão de até 200 metros (20ATM). Recursos: Possui alarme, cronógrafo, calendário e luz de fundo. Estrutura: Construído em material resistente com pulseira de borracha/silicone para maior conforto. Tipo: Relógio digital masculino ou unissex de uso esportivo ou tático. "
   },
@@ -2354,7 +2354,7 @@ const PRODUTOS = [
     id: 905,
     nome: "Relógio Masculino Digital Sport Militar – Resistente à Água com Cronômetro e LED",
     categoria: "relogio",
-    preco: 199.90,
+    preco: 85.00,
     imagem: "../acessorios/relogioFoto/5.jpeg",
     descricao:"Estilo e Durabilidade para o Seu Dia a Dia. O Relógio Digital Sport Militar é o acessório ideal para homens que buscam um design robusto unido à funcionalidade. Inspirado no estilo tático, ele é perfeito tanto para atividades físicas (academia, corrida, trilhas) quanto para o uso casual diário.Principais Funções:Visor Digital Completo: Exibição clara de horas, minutos e segundos.Calendário Automático: Visualize o dia do mês e o dia da semana com um toque.Cronômetro de Precisão: Função 1/100 segundos, ideal para cronometrar treinos e atividades.Alarme Diário: Programe seus lembretes e nunca perca um compromisso.Iluminação LED: Luz de fundo para visualização perfeita em ambientes escuros.Dual Time: Suporte para formato 12h ou 24h.Especificações Técnicas:Material da Pulseira: Borracha/Silicone de alta resistência e conforto.Material da Caixa: Resina/ABS reforçado.Resistência à Água: 30M / 3 ATM (Resistente a respingos e lavagem de mãos).Fecho: Fivela em aço inoxidável.O pacote inclui:1x Relógio Digital Sport Militar."
   },
@@ -2363,7 +2363,7 @@ const PRODUTOS = [
     id: 906,
     nome: "Relógio Digital Unissex Sport Square – Resistente à Água com Alarme e LED",
     categoria: "relogio",
-    preco: 199.90,
+    preco: 60.00,
     imagem: "../acessorios/relogioFoto/6.jpeg",
     descricao:"O Relógio Digital Sport Square combina um design robusto e minimalista, sendo ideal para quem busca praticidade em atividades esportivas ou no cotidiano. Equipado com um visor digital de fácil leitura, ele oferece funções essenciais como cronômetro, alarme, calendário completo com dia da semana e iluminação LED para ambientes escuros. Sua construção em resina com pulseira de silicone ajustável garante leveza e durabilidade, enquanto a resistência à água de até 30 metros permite o uso seguro em situações de contato moderado com líquidos, como lavagem das mãos ou respingos de chuva. Este modelo unissex é a escolha perfeita para estudantes e adultos que valorizam um acessório funcional com excelente custo-benefício e um visual moderno de inspiração militar."
   },
@@ -2372,7 +2372,7 @@ const PRODUTOS = [
     id: 907,
     nome: "Relógio Digital Xufeng Sport Militar Verde – À Prova D'água 30M com LED e Cronômetro",
     categoria: "relogio",
-    preco: 199.90,
+    preco: 120.00,
     imagem: "../acessorios/relogioFoto/7.jpeg",
     descricao:"O Relógio Xufeng Digital Sport é a combinação perfeita de resistência e funcionalidade, apresentando um design robusto em verde militar ideal para quem possui um estilo de vida ativo. Com visor digital completo, ele oferece recursos essenciais como alarme, cronômetro de precisão, calendário (mês, dia e semana) e uma potente iluminação LED para facilitar a leitura em qualquer ambiente. Sua estrutura em acetato com pulseira de borracha confortável garante leveza no pulso, enquanto a vedação para até 30 metros de profundidade permite o uso seguro em natação e atividades aquáticas superficiais. Este modelo original é reconhecido por sua durabilidade e excelente custo-benefício, sendo um acessório indispensável para treinos, trabalho ou uso casual."
   },
@@ -2381,7 +2381,7 @@ const PRODUTOS = [
     id: 908,
     nome: "Relógio Casio G-Shock Urban Utility DW-5610UU-3DR – Verde Militar",
     categoria: "relogio",
-    preco: 199.90,
+    preco: 130.00,
     imagem: "../acessorios/relogioFoto/8.jpeg",
     descricao:"O G-Shock DW-5610UU-3DR une a icônica resistência absoluta da Casio a um design moderno inspirado na tendência gorpcore e no estilo utilitário urbano. Com sua clássica caixa quadrada em tom verde-oliva, o modelo é construído com resina de base biológica e conta com a estrutura Carbon Core Guard, garantindo proteção extrema contra choques e impactos em um corpo leve e sustentável. Equipado com resistência à água de até 200 metros, ele oferece funcionalidades completas como cronômetro de precisão, múltiplos alarmes, calendário automático e iluminação LED de alto brilho para visibilidade total. É a escolha definitiva para quem busca um acessório de alta durabilidade que transita perfeitamente entre aventuras ao ar livre e o uso cotidiano na cidade."
   },
@@ -2390,7 +2390,7 @@ const PRODUTOS = [
     id: 909,
     nome: "Smartwatch Microwear W11 Pro (Série 11)",
     categoria: "relogio",
-    preco: 199.90,
+    preco: 580.00,
     imagem: "../acessorios/relogioFoto/9.jpeg",
     descricao:"O Smartwatch Microwear W11 Pro (Série 11) é um relógio inteligente de alta performance que combina um design sofisticado com uma tela AMOLED ultra nítida de 46mm, oferecendo recursos avançados como integração com IA (ChatGPT), GPS dinâmico e a capacidade exclusiva de responder mensagens do WhatsApp diretamente pelo dispositivo. O kit acompanha acessórios essenciais, incluindo uma capa de proteção transparente, pulseiras extras em diferentes estilos (silicone e metal) e um carregador por indução, garantindo versatilidade para uso esportivo ou casual com monitoramento completo de saúde e mais de 100 modalidades esportivas."
   },
@@ -2904,7 +2904,7 @@ const PRODUTOS = [
     id: 7000,
     nome: "Camiseta de Pesca Winfisher estampa de peixe Traíra",
     categoria: "pescaPraia",
-    preco: 80.00,
+    preco: 95.00,
     imagem: "../pescaPraia/pescaPraiaFoto/camista de pesca .jpeg",
     descricao:"Camiseta de Pesca Winfisher com estampa de peixe Traíra é o equipamento ideal para quem busca performance e proteção em atividades ao ar livre. Fabricada com tecido Dry Fit de alta tecnologia, ela oferece uma secagem ultra rápida e mantém o corpo fresco mesmo em dias de calor intenso. O modelo conta com proteção solar UV50+, garantindo segurança contra os raios UV-A e UV-B durante longas horas de exposição ao sol. Com gola tipo padre e zíper frontal, proporciona um ajuste confortável e prático. Sua estampa digital de alta definição apresenta cores vibrantes que não desbotam com o uso, unindo um visual moderno à durabilidade necessária para a pesca esportiva.",
     tamanho:["P","M","G","GG","XG"]
@@ -2915,7 +2915,7 @@ const PRODUTOS = [
     id: 7001,
     nome: "Camiseta de Pesca Winfisher estampa de peixe Tucunaré Azul",
     categoria: "pescaPraia",
-    preco: 80.00,
+    preco: 95.00,
     imagem: "../pescaPraia/pescaPraiaFoto/camista de pesca azul-preto.jpeg",
     descricao:" Camiseta de Pesca Winfisher com estampa de peixe Tucunaré Azul é o equipamento ideal para quem busca performance e estilo em suas pescarias. Fabricada com tecido Dry Fit de alta tecnologia, ela oferece uma secagem ultra rápida e transporta o suor para a camada externa, mantendo o corpo fresco e confortável mesmo sob sol intenso. O modelo conta com proteção solar UV50+, garantindo segurança essencial contra os efeitos nocivos dos raios UVA e UVB. Com gola tipo padre e fechamento por zíper, proporciona um ajuste prático e proteção adicional ao pescoço. Sua estampa digital de alta definição apresenta cores vibrantes e alta durabilidade, sendo recomendada para todas as atividades ao ar livre com exposição solar.",
     tamanho:["P","M","G","GG","XG"]
@@ -2925,7 +2925,7 @@ const PRODUTOS = [
     id: 7002,
     nome: "Camiseta de Pesca Extremo Brasil",
     categoria: "pescaPraia",
-    preco: 80.00,
+    preco: 95.00,
     imagem: "../pescaPraia/pescaPraiaFoto/camista de pesca camuflada.jpeg",
     descricao:"amiseta de Pesca Extremo Brasil com estampa camuflada verde é o equipamento ideal para quem busca performance e proteção em atividades ao ar livre. Fabricada com o exclusivo tecido Ultra Dry Technologic, ela oferece uma secagem ultra rápida e mantém o corpo fresco, sendo recomendada para esportes como pesca, ciclismo e caminhada. O modelo conta com proteção solar UV50+, garantindo segurança essencial contra os efeitos nocivos do sol durante longas exposições. Com gola tipo padre e zíper frontal de 20 cm, permite um ajuste prático e ventilação personalizada conforme a necessidade. Sua estampa digital de alta definição em tons militares une um visual moderno à durabilidade, não desbotando mesmo após várias lavagens.",
     tamanho:["P","M","G","GG","XG"]
@@ -2935,7 +2935,7 @@ const PRODUTOS = [
     id: 7003,
     nome: "Camiseta de Pesca Winfisher Bandeira do Brasil e Peixe Traíra ",
     categoria: "pescaPraia",
-    preco: 80.00,
+    preco: 95.00,
     imagem: "../pescaPraia/pescaPraiaFoto/camista de pesca modelo brasil.jpeg",
     descricao:"Camiseta de Pesca Winfisher com estampa da bandeira do Brasil e peixe Traíra é o equipamento perfeito para demonstrar o orgulho nacional durante as suas pescarias. Desenvolvida com tecido Dry Fit de alta tecnologia, ela garante uma secagem ultra rápida e máximo conforto térmico em ambientes de exposição solar direta. O modelo oferece proteção solar UV50+, essencial para proteger a pele dos raios UVA e UVB durante longos períodos ao ar livre. Com acabamento de alta qualidade, a peça possui gola tipo padre e zíper frontal, unindo funcionalidade e um design moderno que não desbota. É uma escolha excelente para pescadores que buscam durabilidade, proteção e um visual marcante para suas aventuras.",
     tamanho:["P","M","G","GG","XG"]
@@ -2945,7 +2945,7 @@ const PRODUTOS = [
     id: 7004,
     nome: "Camiseta de Pesca Extremo Brasil Peixe Tambaqui",
     categoria: "pescaPraia",
-    preco: 80.00,
+    preco: 95.00,
     imagem: "../pescaPraia/pescaPraiaFoto/camista de pesca verde-preto.jpeg",
     descricao:"Camiseta de Pesca Extremo Brasil com estampa de peixe Tambaqui é o equipamento ideal para quem busca performance e estilo em suas pescarias. Fabricada com o exclusivo tecido Ultra Dry Technologic, ela oferece uma secagem ultra rápida e mantém o corpo fresco e leve, sendo recomendada para diversos esportes ao ar livre como pesca, ciclismo e caminhada. O modelo conta com proteção solar UV50+, garantindo segurança essencial contra os efeitos nocivos dos raios solares durante longas exposições. Com gola tipo padre e zíper frontal, proporciona um ajuste prático e confortável. Sua estampa digital de alta definição apresenta cores vibrantes que não desbotam, unindo um visual moderno à durabilidade necessária para enfrentar os desafios da natureza.",
     tamanho:["P","M","G","GG","XG"]
@@ -2955,7 +2955,7 @@ const PRODUTOS = [
     id: 7005,
     nome: "Kit com 10 Iscas Artificiais Meia Água",
     categoria: "pescaPraia",
-    preco: 80.00,
+    preco: 25.00,
     imagem: "../pescaPraia/pescaPraiaFoto/isca.jpeg",
     descricao:"Kit com 10 Iscas Artificiais Meia Água é o conjunto indispensável para elevar o nível da sua pescaria esportiva. Com design aerodinâmico e cores vibrantes, essas iscas tipo minnow possuem um nado realista que imita perfeitamente pequenos peixes em fuga, sendo irresistíveis para predadores como Tucunarés, Robalos e Traíras. Cada isca é equipada com duas garateias em aço carbono de alta resistência e olhos 3D hiper-realistas para máxima eficiência na fisgada. O kit oferece uma grande variedade de padrões de cores, permitindo que você se adapte rapidamente a diferentes condições de luz e transparência da água. Com barbela de precisão para atingir a profundidade ideal, este conjunto une versatilidade e durabilidade para garantir grandes capturas em rios, lagos ou mar."
   },
@@ -2964,7 +2964,7 @@ const PRODUTOS = [
     id: 7006,
     nome: "Molinete Shimano FX FC",
     categoria: "pescaPraia",
-    preco: 80.00,
+    preco: 220.00,
     imagem: "../pescaPraia/pescaPraiaFoto/molinete de pesca dourado.jpeg",
     descricao:"Molinete Shimano FX FC é a escolha ideal para pescadores que buscam a confiabilidade de uma marca líder com excelente custo-benefício. Reprojetado para maior suavidade, ele conta com o sistema Propulsion Line Management, que reduz cabeleiras e permite arremessos mais longos e precisos em rios, lagos ou mar. Seu corpo em grafite de alta resistência garante durabilidade e leveza, enquanto o carretel em alumínio dourado confere um visual clássico e sofisticado. Equipado com rolamentos blindados, oferece um recolhimento macio e um sistema de fricção (drag) preciso para o controle total durante a briga com o peixe. É um equipamento versátil e robusto, perfeito tanto para iniciantes quanto para veteranos da pesca esportiva."
   },
@@ -2973,7 +2973,7 @@ const PRODUTOS = [
     id: 7007,
     nome: "Molinete Shimano Sienna FG",
     categoria: "pescaPraia",
-    preco: 80.00,
+    preco: 220.00,
     imagem: "../pescaPraia/pescaPraiaFoto/molinete de pesca.jpeg",
     descricao:"Molinete Shimano Sienna FG, esta versão foi otimizada para máxima performance, apresentando um corpo redesenhado com a tecnologia Free Body G, que desloca o centro de gravidade para mais perto da vara, reduzindo a fadiga do pescador. Equipado com o sistema Propulsion Line Management, o Sienna FG possui um carretel de alumínio com borda invertida que permite a liberação da linha em espirais acentuadas, minimizando cabeleiras e proporcionando arremessos muito mais longos e precisos. Além disso, conta com o sistema anti-reverso Super Stopper II para fisgadas imediatas e o conceito Dyna Balance, que elimina oscilações no rotor para um recolhimento suave e livre de vibrações."
   },
@@ -2982,7 +2982,7 @@ const PRODUTOS = [
     id: 7008,
     nome: "Kit de Pesca Completo com Vara Telescópica e Molinete",
     categoria: "pescaPraia",
-    preco: 80.00,
+    preco: 130.00,
     imagem: "../pescaPraia/pescaPraiaFoto/vara de pesca azul.jpeg",
     descricao:"Kit de Pesca Completo com Vara Telescópica e Molinete, design ultra compacto, a vara retrátil é fabricada em fibra de vidro e carbono, garantindo leveza para o transporte e resistência para fisgar peixes em rios, lagos e pesqueiros. O molinete que acompanha o kit possui carretel de alumínio e sistema de fricção dianteira, oferecendo um recolhimento suave e preciso. O cabo com acabamento em espuma EVA proporciona uma pegada ergonômica e antiderrapante, essencial para longas jornadas à beira d'água. Disponível em diversas cores vibrantes, este conjunto é perfeito tanto para iniciantes quanto para pescadores experientes que não abrem mão de um equipamento fácil de carregar em qualquer mochila ou porta-malas."
   },
@@ -2991,7 +2991,7 @@ const PRODUTOS = [
     id: 7009,
     nome: "Kit Pesca Pesada Alto Mar",
     categoria: "pescaPraia",
-    preco: 80.00,
+    preco: 130.00,
     imagem: "../pescaPraia/pescaPraiaFoto/vara de pesca kit black.jpeg",
     descricao:"Kit Pesca Pesada Alto Mar é o conjunto definitivo para quem busca potência e resistência em grandes pescarias. A vara de 1,80m é construída em fibra de vidro maciça, garantindo a flexibilidade e a força necessárias para suportar briga com peixes de até 40lb (aproximadamente 18kg), sem risco de quebra. O molinete de tamanho 5000 é o grande destaque, equipado com 14 rolamentos que proporcionam um recolhimento extremamente suave e preciso. Com corpo em grafite reforçado e carretel de alta capacidade, ele oferece um sistema de fricção potente para o controle total durante a captura. Com cabo ergonômico em EVA, este kit une durabilidade e conforto para enfrentar os desafios do mar ou de rios de grande porte."
   },
@@ -3000,7 +3000,7 @@ const PRODUTOS = [
     id: 7010,
     nome: "Kit de Pesca Ultra Compacto",
     categoria: "pescaPraia",
-    preco: 80.00,
+    preco: 130.00,
     imagem: "../pescaPraia/pescaPraiaFoto/vara de pesca.jpeg",
     descricao:"Kit de Pesca Ultra Compacto, design retrátil, a vara é fabricada em fibra de vidro leve e resistente, tornando-se pequena o suficiente para caber em qualquer mochila ou porta-luvas, ideal para levar em viagens e acampamentos. O molinete que acompanha o conjunto possui carretel metálico colorido e sistema de fricção suave, proporcionando um recolhimento preciso para peixes de pequeno e médio porte. O cabo com acabamento em espuma EVA ergonômica garante uma pegada firme e confortável durante todo o uso. Disponível em cores vibrantes, este kit une versatilidade e facilidade de transporte para você estar sempre pronto para uma pescaria em rios, lagos ou pesqueiros."
   },
@@ -3020,7 +3020,7 @@ const PRODUTOS = [
     id: 9000,
     nome: "Cotoveleira de compressão ortopédica verde",
     categoria: "ortopedico",
-    preco: 199.90,
+    preco: 35.00,
     imagem: "../ortopedico/ortopedicoFoto/COTOVELEIRA.jpeg",
     descricao:"Cotoveleira de compressão ortopédica, design elástico e respirável, oferecendo conforto durante os movimentos e suporte para alívio de dores ou prevenção de lesões. Produzida com tecidos respiráveis e tecnologia de tecelagem tridimensional 3D para ajuste superior e compressão terapêutica. ",
   },
@@ -3029,7 +3029,7 @@ const PRODUTOS = [
     id: 9001,
     nome: "Faixa Sub Patelar Ajustável para joelho MBFit",
     categoria: "ortopedico",
-    preco: 199.90,
+    preco: 35.00,
     imagem: "../ortopedico/ortopedicoFoto/JOELHEIRA 2.jpeg",
     descricao:"Faixa Sub Patelar Ajustável para joelho MBFit, indicada para suporte e alívio de dores, prevenção e tratamento de lesões médias na região do joelho, Síndrome de Osgood Schlater, e prevenção de lesões durante a prática de exercícios;",
   },
@@ -3038,7 +3038,7 @@ const PRODUTOS = [
     id: 9003,
     nome: "Joelheira Ortopédica Tensor Joelho Ajustável Verde",
     categoria: "ortopedico",
-    preco: 199.90,
+    preco: 50.00,
     imagem: "../ortopedico/ortopedicoFoto/JOELHEIRA 4.jpeg",
     descricao:"Joelheira ortopédica de compressão Tensor possui faixas elásticas ajustáveis para estabilidade patelar e tecido confortável.",
   },
@@ -3047,7 +3047,7 @@ const PRODUTOS = [
     id: 9004,
     nome: "Luva de Musculação e Crossfit IT-BLUE LE-6107",
     categoria: "ortopedico",
-    preco: 199.90,
+    preco: 35.00,
     imagem: "../ortopedico/ortopedicoFoto/LUVA 2.jpeg",
     descricao:"Luva de Musculação e Crossfit IT-BLUE LE-6107 desenvolvida para atletas de musculação, crossfit e ciclismo, ela combina proteção superior com um design ergonômico que garante máxima aderência e estabilidade. Fabricada em borracha de cloropreno (neoprene) de célula fechada, revestida com nylon elástico em ambos os lados, proporcionando durabilidade e um ajuste leve.",
   },
@@ -3056,7 +3056,7 @@ const PRODUTOS = [
     id: 9005,
     nome: "Munhequeira Ortopédica de Compressão Ajustável",
     categoria: "ortopedico",
-    preco: 199.90,
+    preco: 35.00,
     imagem: "../ortopedico/ortopedicoFoto/LUVA.jpeg",
     descricao:"Munhequeira Ortopédica de Compressão Ajustável projetada para oferecer suporte máximo, estabilidade e alívio de dores na região do punho e palma da mão. É o acessório ideal tanto para a prática esportiva quanto para auxílio na recuperação de lesões.  Possui uma bandagem elástica externa com fecho de alta aderência, permitindo que o usuário controle o nível de pressão conforme a necessidade.",
   },
@@ -3065,7 +3065,7 @@ const PRODUTOS = [
     id: 9006,
     nome: "Mini Massageador Elétrico Portátil",
     categoria: "ortopedico",
-    preco: 199.90,
+    preco: 18.00,
     imagem: "../ortopedico/ortopedicoFoto/MASSAGEADOR.jpeg",
     descricao:"Mini Massageador Elétrico Portátil ideal para relaxamento muscular e alívio de tensões. Utiliza estimulação elétrica nervosa transcutânea (TENS) e eletroestimulação muscular (EMS). Possui chip inteligente, desligamento automático (Timed Close) e cinco modos de massagem. ",
   },
@@ -3074,7 +3074,7 @@ const PRODUTOS = [
     id: 9007,
     nome: "Corretor de Postura",
     categoria: "ortopedico",
-    preco: 199.90,
+    preco: 85.00,
     imagem: "../ortopedico/ortopedicoFoto/SUPORTE DE COLUNA 1.jpeg",
     descricao:"Corretor de Postura auxilia no alinhamento da coluna e dos ombros, promovendo uma postura mais ereta e ajudando a aliviar dores nas costas e no pescoço. Possui um reforço lombar e alças ajustáveis que puxam os ombros para trás para corrigir o arqueamento das costas.  É um item unissex, podendo ser utilizado por baixo da roupa em atividades do dia a dia, no trabalho ou durante exercícios físicos.",
   },
@@ -3083,7 +3083,7 @@ const PRODUTOS = [
     id: 9008,
     nome: "Cinta Ergonômica Lombar VIC41110 Vicsa",
     categoria: "ortopedico",
-    preco: 199.90,
+    preco: 85.00,
     imagem: "../ortopedico/ortopedicoFoto/SUPORTE DE COLUNA.jpeg",
     descricao:"Cinta Ergonômica Lombar VIC41110 Vicsa, projetada para oferecer suporte à região lombar e abdominal durante atividades físicas que exigem esforço, como o levantamento de cargas. Confeccionada em elástico reforçado com costuras em nylon de alta resistência. Conta com suspensórios reguláveis e fechamento em velcro para um ajuste seguro e confortável ao corpo. Utilizada para prevenir dores e lesões na coluna.",
   },
@@ -3092,7 +3092,7 @@ const PRODUTOS = [
     id: 9009,
     nome: "Ombreira Ortopédica",
     categoria: "ortopedico",
-    preco: 199.90,
+    preco: 50.00,
     imagem: "../produtosEmDestaques/UMBREIRA.jpeg",
     descricao:"Ombreira Ortopédica um suporte ajustável projetado para fornecer compressão e estabilidade à articulação do ombro. Auxilia no tratamento de lesões como tendinite, bursite, luxações e problemas no manguito rotador. Oferece suporte extra durante atividades físicas (como basquete, vôlei ou musculação) para evitar novas lesões. Ajuda a manter o ombro na posição correta e a reduzir a tensão muscular.",
   },
