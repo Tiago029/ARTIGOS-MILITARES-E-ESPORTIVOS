@@ -501,7 +501,7 @@ const PRODUTOS = [
     id: 236,
     nome: "Faca de Sobrevivência Tática Militar Luatek com Lâmina Serrilhada e Bainha",
     categoria: "equipamentos militares",
-    preco: 199.90,
+    preco: 85.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/faca.jpeg",
     descricao:"A Faca de Sobrevivência Tática Luatek é a ferramenta indispensável para entusiastas de camping, pesca, trilhas e colecionadores que buscam robustez e precisão em um único equipamento. Construída em aço inoxidável de alta qualidade com acabamento preto fosco antirreflexo, sua lâmina de fio liso extremamente afiado é complementada por um dorso serrilhado estratégico, ideal para cortes de galhos, cordas ou materiais mais resistentes em situações de emergência. O cabo ergonômico em polímero de alta densidade possui ranhuras antiderrapantes que garantem uma empunhadura firme e segura mesmo com as mãos molhadas, além de uma guarda de proteção dupla para evitar deslizamentos acidentais em direção ao fio. Um grande diferencial deste modelo é o pomo traseiro reforçado e o fiel de segurança incluso, permitindo que a faca fique presa ao pulso ou seja utilizada para tarefas de impacto leve. Projetada para suportar o uso severo em ambientes hostis, ela acompanha uma bainha resistente para transporte seguro no cinto, mantendo o equipamento sempre pronto para a ação. Unindo o design militar clássico com uma durabilidade excepcional, esta faca Luatek é o acessório de cutelaria tática que oferece a confiança necessária para superar qualquer desafio na natureza com máxima eficiência e segurança."
   },
@@ -510,7 +510,7 @@ const PRODUTOS = [
     id: 237,
     nome: "Faca Tática Militar de Combate e Sobrevivência com Lâmina Bowie Serrilhada",
     categoria: "equipamentos militares",
-    preco: 199.90,
+    preco: 85.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/faca1.jpeg",
     descricao:"Esta faca tática de combate foi projetada para quem exige uma ferramenta de corte imponente, robusta e extremamente eficiente em situações de sobrevivência ou bushcraft. Construída em aço inoxidável de alta resistência com acabamento preto fosco antirreflexo, sua lâmina estilo Bowie apresenta um fio liso de alta precisão e um dorso serrilhado agressivo, ideal para serrar cordas, galhos e materiais fibrosos com facilidade. O design conta com um furo estratégico na lâmina para redução de peso e maior equilíbrio, além de um cabo ergonômico em polímero de alta densidade com ranhuras para os dedos, garantindo uma empunhadura firme e segura mesmo sob condições extremas ou mãos molhadas. A guarda dupla integrada oferece proteção total, impedindo que a mão deslize para o fio durante o uso intenso, enquanto o pomo traseiro reforçado permite aplicações de impacto em emergências. Seja para acampamentos, trilhas desafiadoras ou como item de defesa e coleção, esta faca une a estética militar clássica com uma durabilidade excepcional para enfrentar os ambientes mais hostis. É o acessório de cutelaria tática indispensável para aventureiros que não abrem mão de um equipamento confiável, combinando um corte afiado com a versatilidade necessária para superar qualquer obstáculo na natureza com total segurança."
   },
@@ -519,7 +519,7 @@ const PRODUTOS = [
     id: 238,
     nome: "Faca Artesanal de Sobrevivência com Cabo de Madeira e Costura em Couro",
     categoria: "equipamentos militares",
-    preco: 199.90,
+    preco: 85.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/faca2.jpeg",
     descricao:"Esta faca artesanal de estilo clássico é a escolha perfeita para colecionadores e entusiastas da vida ao ar livre que valorizam a união entre rusticidade, elegância e eficiência de corte. Sua lâmina em aço polido apresenta um dorso robusto e um fio liso extremamente afiado, projetada para tarefas que exigem precisão e durabilidade em acampamentos, churrascos ou atividades de bushcraft. O grande diferencial deste modelo é o seu cabo ergonômico em madeira nobre, que ostenta um detalhe exclusivo de costura trançada em couro, proporcionando não apenas um visual autêntico e tradicional, mas também uma empunhadura firme e confortável que se adapta perfeitamente à mão. A guarda dupla em metal oferece segurança adicional, impedindo o deslizamento acidental dos dedos em direção à lâmina durante o uso intenso, enquanto o detalhe do fiel no pomo traseiro permite prender a faca ao pulso para maior controle. Unindo a força de uma ferramenta de sobrevivência com o acabamento de uma peça de cutelaria fina, esta faca é um acessório indispensável para quem busca um equipamento confiável e com personalidade única para enfrentar qualquer desafio na natureza. Com sua estética atemporal e construção sólida, ela garante uma experiência de uso superior e uma durabilidade que atravessa gerações com total segurança."
   },
@@ -528,7 +528,7 @@ const PRODUTOS = [
     id: 239,
     nome: "Faca Tática Militar Camuflada com Anel de Saque Rápido e Lâmina de Precisão",
     categoria: "equipamentos militares",
-    preco: 199.90,
+    preco: 85.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/faca3.jpeg",
     descricao:"Esta faca tática camuflada é a ferramenta definitiva para quem busca furtividade, agilidade e um controle inigualável em operações de campo ou aventuras na selva. Construída integralmente com uma estampa camuflada de alta definição, sua lâmina de fio liso extremamente afiado oferece cortes precisos e durabilidade superior contra a corrosão, integrando-se perfeitamente a ambientes de mata densa. O grande diferencial deste modelo é o seu design ergonômico que inclui um anel de retenção (estilo karambit) no pomo traseiro, permitindo um saque ultra-rápido, manuseio tático avançado e uma segurança absoluta, impedindo que a faca seja desarmada ou caia durante o uso intenso. O cabo apresenta ranhuras de aderência e uma guarda inferior pronunciada que protege os dedos, garantindo uma empunhadura firme mesmo sob condições de umidade ou uso de luvas. Leve, equilibrada e com perfil aerodinâmico, esta faca une a estética militar moderna com uma funcionalidade agressiva, sendo o acessório indispensável para praticantes de bushcraft, sobrevivencialismo e colecionadores que exigem um equipamento de alto desempenho com personalidade única. Com sua construção sólida e acabamento premium, ela oferece a confiança necessária para superar os desafios mais complexos com total precisão e segurança tática."
   },
@@ -537,7 +537,7 @@ const PRODUTOS = [
     id: 240,
     nome: "Faca Tática de Combate com Cabo Soco-Inglês e Lâmina Gravada a Laser",
     categoria: "equipamentos militares",
-    preco: 199.90,
+    preco: 85.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/faca4.jpeg",
     descricao:"Esta faca de combate é a união definitiva entre poder de impacto, precisão de corte e uma estética imponente, projetada para quem busca um equipamento de defesa e sobrevivência fora do comum. Sua lâmina em aço polido de alto desempenho apresenta um fio liso extremamente afiado, valorizado por intrincadas gravuras a laser que conferem um acabamento artístico e exclusivo à peça. O grande diferencial deste modelo é o seu cabo ergonômico integrado com um soco-inglês em metal, proporcionando uma proteção total para a mão e uma segurança inabalável, impedindo que a faca seja desarmada mesmo em situações de contato extremo. O revestimento do cabo em material texturizado que imita chifre de cervo garante uma empunhadura firme e confortável, unindo a robustez de uma ferramenta militar com o visual clássico da cutelaria tradicional. Com um design balanceado e construção de peça única (Full Tang), esta faca é o acessório indispensável para colecionadores, praticantes de artes marciais e aventureiros que exigem um equipamento versátil para cortes precisos ou defesa pessoal tática. Resistente e visualmente impactante, ela oferece a confiança necessária para enfrentar os cenários mais desafiadores com uma eficiência letal e um estilo inigualável."
   },
@@ -546,7 +546,7 @@ const PRODUTOS = [
     id: 241,
     nome: "Faca Tática de Combate com Cabo Soco-Inglês e Lâmina Gravada a Laser",
     categoria: "equipamentos militares",
-    preco: 199.90,
+    preco: 85.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/faca5.jpeg",
     descricao:"Esta faca de combate é a união definitiva entre poder de impacto, precisão de corte e uma estética imponente, projetada para quem busca um equipamento de defesa e sobrevivência fora do comum. Sua lâmina em aço polido de alto desempenho apresenta um fio liso extremamente afiado, valorizado por intrincadas gravuras a laser que conferem um acabamento artístico e exclusivo à peça. O grande diferencial deste modelo é o seu cabo ergonômico integrado com um soco-inglês em metal, proporcionando uma proteção total para a mão e uma segurança inabalável, impedindo que a faca seja desarmada mesmo em situações de contato extremo. O revestimento do cabo em material texturizado que imita madeira garante uma empunhadura firme e confortável, unindo a robustez de uma ferramenta militar com o visual clássico da cutelaria tradicional. Com um design balanceado e construção sólida, esta faca é o acessório indispensável para colecionadores, praticantes de artes marciais e aventureiros que exigem um equipamento versátil para cortes precisos ou defesa pessoal tática. Resistente e visualmente impactante, ela oferece a confiança necessária para enfrentar os cenários mais desafiadores com uma eficiência estratégica e um estilo inigualável."
   },
@@ -555,7 +555,7 @@ const PRODUTOS = [
     id: 242,
     nome: "Faca Tática de Combate Militar Black com Cabo Soco-Inglês e Dorso Serrilhado",
     categoria: "equipamentos militares",
-    preco: 199.90,
+    preco: 95.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/faca6.jpeg",
     descricao:"Esta faca tática de combate na cor preta fosca é a combinação definitiva entre robustez, proteção e versatilidade para operações severas e sobrevivência em campo. Sua lâmina em aço de alta resistência apresenta um fio liso extremamente afiado com ponta estilo tanto para maior poder de perfuração, complementada por um dorso serrilhado agressivo capaz de cortar cordas e materiais fibrosos com facilidade. O grande diferencial deste modelo é o cabo ergonômico com proteção integral em estilo soco-inglês, que oferece uma defesa total para a mão e garante que o equipamento permaneça firme mesmo em situações de impacto ou uso extremo. O cabo possui texturização antiderrapante em losangos para uma empunhadura segura em qualquer condição climática, unindo a força de uma ferramenta de impacto com a precisão de uma faca de combate profissional. Projetada para ser um item essencial em kits de sobrevivência, bushcraft e coleções militares, esta faca une durabilidade excepcional com uma estética tática imponente. Com construção sólida e acabamento antirreflexo, ela oferece a confiança necessária para superar os desafios mais hostis com total eficiência e segurança estratégica."
   },
@@ -564,7 +564,7 @@ const PRODUTOS = [
     id: 243,
     nome: "Faca Artesanal de Sobrevivência com Cabo Texturizado e Guarda Gravada",
     categoria: "equipamentos militares",
-    preco: 199.90,
+    preco: 85.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/faca7.jpeg",
     descricao:"Esta faca de sobrevivência combina um design clássico e rústico com a funcionalidade necessária para atividades ao ar livre, sendo uma peça indispensável para entusiastas de camping, pesca e colecionadores de cutelaria. Sua lâmina em aço polido apresenta um fio liso extremamente afiado e um dorso robusto, projetada para oferecer cortes precisos e resistência em diversas tarefas de campo ou bushcraft. O grande diferencial deste modelo é o seu cabo ergonômico com acabamento que imita madeira escura, apresentando um detalhe exclusivo de cordão tático (paracord) trançado que amplia a aderência e oferece um recurso extra em situações de emergência. A guarda em metal trabalhado com gravuras clássicas em relevo não apenas confere sofisticação à peça, mas também garante uma proteção total, impedindo o deslizamento acidental dos dedos em direção ao fio. Com um design equilibrado e o pomo traseiro com fiel incluso, esta faca une a beleza de uma peça artesanal com a força de uma ferramenta de sobrevivência profissional, proporcionando uma empunhadura firme e segura sob qualquer condição. Resistente e visualmente impactante, ela é a escolha ideal para quem busca um equipamento confiável que une tradição, estilo e máxima eficiência para enfrentar os desafios na natureza com total segurança."
   },
@@ -573,7 +573,7 @@ const PRODUTOS = [
     id: 244,
     nome: "Faca Tática de Sobrevivência Militar Black com Lâmina Bowie e Dorso Serrilhado",
     categoria: "equipamentos militares",
-    preco: 199.90,
+    preco: 90.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/faca8.jpeg",
     descricao:"Esta faca tática de sobrevivência na cor preta fosca é a ferramenta definitiva para quem busca robustez, precisão e funcionalidade extrema em atividades de camping, pesca, bushcraft ou coleções militares. Construída em aço de alta resistência com acabamento antirreflexo, sua lâmina estilo Bowie apresenta um fio liso de alto desempenho e um dorso serrilhado estratégico, ideal para serrar cordas, galhos e materiais fibrosos com facilidade em situações críticas. O grande diferencial deste modelo é o seu cabo ergonômico com textura recartilhada profunda, que garante uma empunhadura firme, segura e antiderrapante mesmo sob condições de umidade ou uso de luvas táticas. A guarda dupla em metal oferece proteção total contra deslizes em direção ao fio, enquanto o pomo traseiro reforçado inclui um fiel de segurança (paracord) para evitar a perda do equipamento durante o manuseio intenso. Projetada para suportar o uso severo em ambientes hostis, esta faca une a estética militar tradicional com uma durabilidade excepcional para enfrentar os desafios mais exigentes da natureza. É o acessório de cutelaria indispensável para aventureiros que não abrem mão de um equipamento confiável, combinando um corte afiado com a versatilidade necessária para superar qualquer obstáculo com total segurança e eficiência."
   },
@@ -582,7 +582,7 @@ const PRODUTOS = [
     id: 245,
     nome: "Faca Esportiva Tática Xingu com Lâmina Curva e Cabo em Madeira Nobre",
     categoria: "equipamentos militares",
-    preco: 199.90,
+    preco: 85.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/faca9.jpeg",
     descricao:"Esta faca esportiva da renomada marca Xingu é a escolha definitiva para quem busca uma ferramenta que une a elegância da cutelaria clássica com a força necessária para atividades de sobrevivência, camping e pesca. Sua lâmina em aço polido apresenta um design curvo agressivo e um fio liso extremamente afiado, projetada para oferecer cortes profundos e precisos com o mínimo esforço em diversos materiais. O grande diferencial deste modelo é o seu cabo ergonômico em madeira nobre com acabamento encerado, que proporciona uma empunhadura quente, firme e confortável, adaptando-se perfeitamente ao formato da mão para um controle absoluto durante o manuseio. A guarda em metal integrada oferece segurança adicional, impedindo o deslizamento acidental dos dedos em direção à lâmina, enquanto o pomo traseiro conta com um furo passante para fiel, permitindo a fixação de cordões de segurança. Com uma construção robusta e um equilíbrio ideal entre peso e agilidade, esta faca é o acessório indispensável para entusiastas do bushcraft e colecionadores que não abrem mão de um equipamento durável com visual rústico e sofisticado. Resistente e pronta para o uso severo, ela garante a confiança necessária para enfrentar os desafios da natureza com máxima eficiência e uma estética atemporal de alta qualidade."
   },
@@ -591,7 +591,7 @@ const PRODUTOS = [
     id: 246,
     nome: "Faca de Sobrevivência Luxo com Cabo em Madeira Resinada e Guarda Trabalhada",
     categoria: "equipamentos militares",
-    preco: 199.90,
+    preco: 85.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/faca10.jpeg",
     descricao:"Esta faca de sobrevivência de luxo é a escolha definitiva para colecionadores e entusiastas que buscam uma peça que une a estética da cutelaria clássica com a robustez necessária para atividades de campo. Sua lâmina em aço polido apresenta um fio liso extremamente afiado e um dorso com serrilhado parcial, projetada para oferecer cortes precisos e versatilidade em acampamentos, bushcraft ou pesca. O grande diferencial deste modelo é o seu cabo ergonômico fabricado em madeira resinada com tons avermelhados e detalhes em preto, proporcionando uma empunhadura firme, quente e visualmente deslumbrante que se destaca em qualquer coleção. A guarda em metal é finamente ornamentada com gravuras clássicas em relevo, garantindo proteção total e impedindo o deslizamento acidental dos dedos em direção ao fio durante o uso intenso. Com um design equilibrado e construção sólida, esta faca possui um furo para fiel no pomo traseiro, permitindo a fixação de cordões para maior segurança no transporte. Resistente e imponente, ela é o acessório indispensável para quem não abre mão de um equipamento de alta durabilidade com um acabamento sofisticado, garantindo máxima eficiência e uma presença inigualável em suas aventuras ao ar livre."
   },
@@ -600,7 +600,7 @@ const PRODUTOS = [
     id: 247,
     nome: "Faca Tática de Combate com Lâmina Bowie Curva e Dorso em Serra",
     categoria: "equipamentos militares",
-    preco: 199.90,
+    preco: 85.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/faca11.jpeg",
     descricao:"Esta faca tática de combate foi projetada para quem exige uma ferramenta de corte imponente, robusta e extremamente eficiente em situações de sobrevivência ou bushcraft. Construída em aço de alta resistência com acabamento polido, sua lâmina estilo Bowie apresenta um fio liso de alto desempenho e um dorso com serrilha agressiva e profunda, ideal para serrar cordas, galhos e materiais fibrosos com facilidade. O grande diferencial deste modelo é o seu cabo ergonômico em madeira resinada com tons avermelhados e ranhuras naturais, que proporciona uma empunhadura firme, quente e visualmente deslumbrante, adaptando-se perfeitamente à mão para um controle absoluto. A guarda em metal integrada com detalhes em cruz (X) oferece segurança adicional e proteção total, impedindo o deslizamento acidental dos dedos em direção ao fio durante o uso intenso em campo. Com uma construção sólida e um equilíbrio ideal entre peso e agilidade, esta faca une a estética militar clássica com uma durabilidade excepcional para enfrentar os ambientes mais hostis e desafiadores. É o acessório de cutelaria indispensável para aventureiros, colecionadores e entusiastas da vida ao ar livre que não abrem mão de um equipamento confiável, combinando um corte afiado com a versatilidade necessária para superar qualquer obstáculo com total segurança."
   },
@@ -609,7 +609,7 @@ const PRODUTOS = [
     id: 248,
     nome: "Faca de Sobrevivência Tática Black com Dorso Serrilhado e Bainha com Bússola",
     categoria: "equipamentos militares",
-    preco: 199.90,
+    preco: 65.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/faca12.jpeg",
     descricao:"Este kit de sobrevivência tático é a ferramenta definitiva para aventureiros que buscam máxima funcionalidade e segurança em ambientes hostis e expedições de longa duração. A faca apresenta uma lâmina robusta em aço com acabamento preto fosco antirreflexo, equipada com um fio liso de alta precisão e um dorso com serrilha agressiva e profunda, ideal para tarefas pesadas como serrar cordas, galhos e preparar abrigos. O cabo ergonômico em polímero de alta densidade possui uma textura recartilhada antiderrapante e descanso para o dedo indicador, garantindo uma empunhadura firme e controle total mesmo sob condições de chuva ou lama. O grande diferencial deste conjunto é a sua bainha tática rígida multifuncional, que além de proteger a lâmina com um sistema de trava seguro, integra uma bússola de precisão e uma pederneira acoplada, permitindo a orientação geográfica e o início de fogueiras em qualquer situação de emergência. Projetada para ser um item central em kits de bushcraft, camping e operações militares, esta faca une a durabilidade de uma ferramenta de combate com a versatilidade de um kit de sobrevivência completo. Com construção sólida e acabamento premium, ela oferece a confiança necessária para superar os desafios mais imprevisíveis da natureza com total eficiência e prontidão."
   },
@@ -618,7 +618,7 @@ const PRODUTOS = [
     id: 249,
     nome: "Kit Tático de Sobrevivência Black com Faca Principal, Faca de Arremesso e Bainha Rígida",
     categoria: "equipamentos militares",
-    preco: 199.90,
+    preco: 95.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/faca13.jpeg",
     descricao:"Este kit tático de sobrevivência é a solução completa e versátil para quem exige prontidão e múltiplas opções de corte em expedições de bushcraft, camping e operações militares. A faca principal apresenta uma lâmina imponente em aço com acabamento preto fosco antirreflexo, equipada com um fio liso de alta precisão e um dorso com serrilha agressiva, ideal para serrar cordas, galhos e preparar abrigos. O grande diferencial deste conjunto é a inclusão de uma faca auxiliar compacta, perfeita para tarefas de precisão, arremesso ou como lâmina de emergência, apresentando um design de peça única (Full Tang) com furos para equilíbrio e fixação. Ambas as lâminas são acondicionadas em uma bainha rígida de polímero de alta resistência, que conta com sistema de trava seguro, aberturas para ventilação e suporte de nylon reforçado para acoplagem em cintos ou mochilas. O cabo da faca principal possui um design ergonômico com ranhuras profundas para os dedos e textura antiderrapante, garantindo uma empunhadura firme e controle total sob qualquer condição climática. Projetado para suportar o uso severo em ambientes hostis, este kit une a durabilidade militar com a praticidade de ter duas ferramentas complementares sempre à mão, oferecendo a confiança necessária para superar os desafios mais complexos da natureza com total eficiência e segurança."
   },
@@ -627,7 +627,7 @@ const PRODUTOS = [
     id: 250,
     nome: "Faca de Sobrevivência Luxo com Cabo em Madeira Resinada e Guarda Trabalhada",
     categoria: "equipamentos militares",
-    preco: 199.90,
+    preco: 90.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/faca14.jpeg",
     descricao:"Esta faca de sobrevivência de luxo é a escolha definitiva para colecionadores e entusiastas que buscam uma peça que une a estética da cutelaria clássica com a robustez necessária para atividades de campo. Sua lâmina em aço polido apresenta um fio liso extremamente afiado e um dorso com serrilhado parcial, projetada para oferecer cortes precisos e versatilidade em acampamentos, bushcraft ou pesca. O grande diferencial deste modelo é o seu cabo ergonômico fabricado em madeira resinada com tons avermelhados e detalhes em preto, proporcionando uma empunhadura firme, quente e visualmente deslumbrante que se destaca em qualquer coleção. A guarda em metal é finamente ornamentada com gravuras clássicas em relevo, garantindo proteção total e impedindo o deslizamento acidental dos dedos em direção ao fio durante o uso intenso. Com um design equilibrado e construção sólida, esta faca possui um furo para fiel no pomo traseiro, permitindo a fixação de cordões para maior segurança no transporte. Resistente e imponente, ela é o acessório indispensável para quem não abre mão de um equipamento de alta durabilidade com um acabamento sofisticado, garantindo máxima eficiência e uma presença inigualável em suas aventuras ao ar livre."
   },
@@ -636,7 +636,7 @@ const PRODUTOS = [
     id: 251,
     nome: "Faca Artesanal de Sobrevivência com Cabo de Madeira e Detalhes de Estrela",
     categoria: "equipamentos militares",
-    preco: 199.90,
+    preco: 85.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/faca15.jpeg",
     descricao:"Esta faca artesanal de estilo clássico é a escolha ideal para colecionadores e entusiastas que buscam uma peça com personalidade única e robustez para atividades ao ar livre. Sua lâmina em aço polido apresenta um fio liso de alta precisão e uma ponta ligeiramente elevada, projetada para oferecer cortes eficientes e versatilidade em acampamentos, pesca ou bushcraft. O grande diferencial deste modelo é o seu cabo ergonômico em madeira com acabamento envernizado, que ostenta dois embutidos metálicos em formato de estrela e pinos aparentes, conferindo um visual rústico e autêntico que remete à cutelaria tradicional. A guarda em metal integrada oferece segurança adicional, protegendo os dedos durante o manuseio e garantindo uma empunhadura firme e confortável para diversos tipos de corte. Com uma construção sólida e um equilíbrio perfeito entre peso e agilidade, esta faca une a beleza de um item decorativo com a funcionalidade de uma ferramenta de campo confiável. Resistente e visualmente impactante, ela é o acessório indispensável para quem valoriza a tradição da cutelaria artesanal, garantindo máxima eficiência e uma estética exclusiva para enfrentar qualquer desafio na natureza com total segurança."
   },
@@ -645,7 +645,7 @@ const PRODUTOS = [
     id: 252,
     nome: "Faca Tática de Combate Militar Black com Lâmina Vazada e Cabo Anatômico",
     categoria: "equipamentos militares",
-    preco: 199.90,
+    preco: 65.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/faca16.jpeg",
     descricao:"Esta faca tática de combate foi projetada para quem exige máxima agilidade, leveza e eficiência em operações de campo ou atividades de sobrevivência extrema. Construída em aço de alta resistência com acabamento preto fosco antirreflexo, sua lâmina estilo Bowie apresenta um fio liso de alta precisão e aberturas vazadas estratégicas que reduzem o peso total da peça, proporcionando um equilíbrio superior para manuseios rápidos. O grande diferencial deste modelo é o seu cabo ergonômico em polímero de alta densidade com ranhuras profundas para os dedos e textura antiderrapante, garantindo uma empunhadura firme e controle absoluto mesmo sob condições de umidade ou uso de luvas táticas. A guarda dupla integrada oferece proteção total contra deslizes em direção ao fio, enquanto o pomo traseiro metálico reforçado pode ser utilizado para tarefas de impacto em situações de emergência. Com uma construção sólida e design agressivo, esta faca une a durabilidade militar com a funcionalidade necessária para enfrentar os terrenos mais hostis. É o acessório de cutelaria indispensável para aventureiros, praticantes de bushcraft e colecionadores que buscam um equipamento confiável que combina um corte afiado com uma estética tática inigualável para superar qualquer desafio com total segurança."
   },
@@ -654,7 +654,7 @@ const PRODUTOS = [
     id: 253,
     nome: "Faca Tática Militar Camuflada com Dorso Serrilhado e Guarda Dupla",
     categoria: "equipamentos militares",
-    preco: 199.90,
+    preco: 85.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/faca17.jpeg",
     descricao:"Esta faca tática camuflada é a ferramenta definitiva para quem busca máxima eficiência e furtividade em operações de campo, bushcraft ou aventuras na selva. Construída integralmente com uma estampa camuflada de alta definição, sua lâmina de aço de alto desempenho apresenta um fio liso extremamente afiado para cortes precisos e um dorso com serrilha agressiva, ideal para serrar cordas, galhos e materiais fibrosos em situações críticas. O grande diferencial deste modelo é o seu design ergonômico com cabo texturizado e ranhuras profundas para os dedos, que garantem uma empunhadura firme e controle absoluto mesmo sob condições de umidade ou lama. A guarda dupla integrada oferece proteção total contra deslizes acidentais em direção ao fio, enquanto o pomo traseiro conta com um furo para fiel, permitindo a fixação de cordões de segurança para evitar a perda do equipamento em manuseios intensos. Leve, equilibrada e com acabamento antirreflexo, esta faca une a estética militar autêntica com uma durabilidade excepcional para enfrentar os terrenos mais hostis. É o acessório de cutelaria indispensável para sobrevivencialistas e colecionadores que buscam um equipamento confiável que combina um corte potente com a versatilidade necessária para superar qualquer desafio com total segurança tática."
   },
@@ -663,7 +663,7 @@ const PRODUTOS = [
     id: 254,
     nome: "Faca Tática de Combate com Lâmina Curva Vazada e Cabo de Madeira Nobre",
     categoria: "equipamentos militares",
-    preco: 199.90,
+    preco: 170.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/faca18.jpeg",
     descricao:"Esta faca de combate apresenta um design agressivo e aerodinâmico, projetado para quem busca uma peça de impacto visual aliada a uma funcionalidade superior em atividades de campo ou coleções de elite. Sua lâmina em aço polido de alto desempenho possui uma curvatura acentuada e recortes vazados estratégicos ao longo do corpo, que reduzem o peso total da ferramenta e garantem um equilíbrio perfeito para manuseios rápidos e precisos. O grande diferencial deste modelo é o seu cabo ergonômico em madeira nobre com ranhuras para os dedos e pinos metálicos aparentes, proporcionando uma empunhadura firme, quente e extremamente confortável para diversos tipos de corte. A guarda em metal em formato de cruz oferece uma proteção total, impedindo o deslizamento acidental da mão em direção ao fio, enquanto a ponta extremamente afiada e o dorso trabalhado conferem versatilidade para perfurações e tarefas de sobrevivência. Com uma construção robusta e estética que remete à cutelaria de fantasia e militar, esta faca une durabilidade excepcional com um acabamento refinado para enfrentar os desafios mais exigentes. É o acessório indispensável para entusiastas do bushcraft e colecionadores que exigem um equipamento confiável que combina um corte potente com uma presença tática inigualável e total segurança."
   },
@@ -672,7 +672,7 @@ const PRODUTOS = [
     id: 255,
     nome: "Faca Tática de Combate Militar Black com Lâmina Bowie Vazada e Dorso Serrilhado",
     categoria: "equipamentos militares",
-    preco: 199.90,
+    preco: 160.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/faca19.jpeg",
     descricao:"Esta faca tática de combate foi projetada para quem exige máxima agilidade, leveza e eficiência em operações de campo ou atividades de sobrevivência extrema. Construída em aço de alta resistência com acabamento polido, sua lâmina estilo Bowie apresenta um fio liso de alta precisão e uma série de oito furos vazados estratégicos que reduzem o peso total da peça, proporcionando um equilíbrio superior e uma estética agressiva inigualável. O grande diferencial deste modelo é o seu dorso com serrilha profunda, ideal para tarefas pesadas como serrar cordas ou galhos, aliado a uma guarda dupla estendida que oferece proteção total contra deslizes em direção ao fio. O cabo ergonômico em polímero de alta densidade possui uma textura antiderrapante e um design anatômico para os dedos, garantindo uma empunhadura firme e controle absoluto mesmo sob as condições mais hostis ou uso de luvas táticas. Com uma construção sólida e um pomo traseiro que permite a fixação de fiel, esta faca une a durabilidade militar com a funcionalidade necessária para enfrentar qualquer desafio na natureza. É o acessório de cutelaria indispensável para aventureiros, colecionadores e entusiastas do bushcraft que buscam um equipamento confiável que combina um corte potente com uma presença tática imponente e total segurança."
   },
@@ -681,7 +681,7 @@ const PRODUTOS = [
     id: 256,
     nome: "Facão Tático Militar com Lâmina em Aço Inox e Bainha de Couro Legítimo",
     categoria: "equipamentos militares",
-    preco: 199.90,
+    preco: 195.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/faca20.jpeg",
     descricao:"Este facão tático de alto desempenho é a ferramenta definitiva para quem exige força bruta, durabilidade e precisão em tarefas pesadas de desbravamento, bushcraft ou manutenção em propriedades rurais. Construído com uma lâmina longa e robusta em aço inoxidável de alta qualidade, ele oferece uma resistência excepcional à corrosão e um fio de corte duradouro, ideal para abrir trilhas, cortar galhos grossos e preparar abrigos com o mínimo esforço. O grande diferencial deste modelo é a sua luxuosa bainha em couro legítimo preto, que apresenta costuras reforçadas e botões de pressão estratégicos para garantir um transporte seguro e um saque rápido e silencioso em qualquer situação de campo. O cabo ergonômico com talas fixadas por rebites metálicos proporciona uma empunhadura firme, equilibrada e extremamente confortável, reduzindo a fadiga da mão durante o uso prolongado e garantindo um controle absoluto sobre cada golpe. Com um design que une a eficiência militar com a tradição da cutelaria robusta, este facão é o acessório indispensável para aventureiros, mateiros e profissionais que não abrem mão de um equipamento confiável para enfrentar os desafios mais brutos da natureza. Sua construção sólida e acabamento premium garantem que esta ferramenta suporte as condições mais severas, proporcionando máxima segurança e uma vida útil incomparável."
   },
@@ -690,7 +690,7 @@ const PRODUTOS = [
     id: 257,
     nome: "Kit 2 Escovas de Limpeza Multiuso com Cabo de Madeira e Cerdas de Nylon",
     categoria: "equipamentos militares",
-    preco: 199.90,
+    preco: 20.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/escova de cuturno.jpeg",
     descricao:"Este kit com duas escovas de limpeza premium é a solução definitiva para quem busca eficiência, durabilidade e cuidado no tratamento de diversas superfícies e materiais. Construídas com um cabo ergonômico em madeira natural de alta resistência e acabamento liso, estas escovas oferecem uma empunhadura firme e confortável, permitindo aplicar a pressão ideal sem causar fadiga nas mãos durante o uso prolongado. O grande diferencial deste modelo são as suas cerdas de nylon densas e flexíveis, projetadas para remover sujeiras profundas, manchas e detritos com facilidade, sem agredir tecidos delicados como couro, camurça ou fibras de estofados. Ideais para a limpeza de calçados, roupas, bancos de automóveis e móveis, estas escovas unem o design clássico da cutelaria doméstica com a funcionalidade necessária para garantir resultados impecáveis em segundos. Leves e compactas, elas são o acessório indispensável para manter a organização e a conservação dos seus itens favoritos com total praticidade. Com uma construção sólida que evita a queda das cerdas e um visual rústico sofisticado, este conjunto garante uma vida útil prolongada e uma versatilidade inigualável para enfrentar qualquer desafio de limpeza doméstica ou profissional com máxima segurança e suavidade."
   },
@@ -1415,7 +1415,7 @@ const PRODUTOS = [
     id: 507,
     nome: "GANDOLETA PRETA",
     categoria: "fardamentos militar",
-    preco: 50.00,
+    preco: 140.00,
     imagem: "../fardamentosMilitares/fardasMilitaresFoto/GANDOLETA PRETA.jpeg",
     tamanho: ["P", "M", "G", "GG"],
     descricao:"é uma peça de vestuário tático de alto desempenho, projetada com um corpo em malha respirável para absorção de suor sob coletes e mangas em tecido Ripstop de alta resistência contra rasgos e abrasões. O modelo apresenta gola alta com fechamento em meio zíper, bolsos táticos nas mangas com painéis de velcro para identificação e punhos ajustáveis, oferecendo o equilíbrio ideal entre proteção térmica, mobilidade e durabilidade para operadores de segurança, praticantes de Airsoft ou entusiastas de atividades ao ar livre." // NOVO CAMPO
@@ -1425,7 +1425,7 @@ const PRODUTOS = [
     id: 508,
     nome: "Calça Tática G3 Combat",
     categoria: "fardamentos militar",
-    preco: 50.00,
+    preco: 145.00,
     imagem: "../fardamentosMilitares/fardasMilitaresFoto/CALÇA TATICA PRETA.jpeg",
     tamanho: ["P", "M", "G", "GG"],
     descricao:"Calça Tática G3 Combat na cor preta é um equipamento de elite confeccionado em tecido Ripstop de alta resistência, projetado com um design articulado que oferece mobilidade superior em operações táticas ou práticas de Airsoft. O modelo se destaca pelo sistema de joelheiras integradas (com compartimentos para inserção de protetores rígidos), múltiplos bolsos de carga estrategicamente posicionados e ajustes em velcro na cintura, atrás dos joelhos e nos tornozelos para um caimento personalizado. É uma peça robusta e funcional, ideal para profissionais de segurança que buscam durabilidade extrema e proteção contra abrasão em terrenos desafiadores." // NOVO CAMPO
@@ -1435,7 +1435,7 @@ const PRODUTOS = [
     id: 509,
     nome: "CAMISETA DE SEGUANÇA",
     categoria: "fardamentos militar",
-    preco: 50.00,
+    preco: 80.00,
     imagem: "../fardamentosMilitares/fardasMilitaresFoto/CAMISETA DE SEGUANÇA.jpeg",
     tamanho: ["P", "M", "G", "GG"],
     descricao:" é um item de uniforme profissional desenvolvido em malha leve e de secagem rápida, apresentando a inscrição SEGURANÇA estampada em branco em alta visibilidade tanto no peito quanto nas costas. O modelo possui gola redonda reforçada, mangas curtas com o detalhe da bandeira do Brasil aplicada lateralmente e um corte que prioriza o conforto e a mobilidade para longas jornadas de trabalho. É a escolha ideal para agentes de segurança privada, vigilantes e equipes de eventos que buscam uma vestimenta funcional, resistente ao uso diário e que transmita autoridade e identificação imediata." // NOVO CAMPO
