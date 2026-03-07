@@ -1928,7 +1928,7 @@ const PRODUTOS = [
     id: 801,
     nome: "Caixa de Som Bluetooth Kapbom KA-8296 ",
     categoria: "caixa de som",
-    preco: 199.90,
+    preco: 190.00,
     imagem: "../eletronicos/caixaDeSomFoto/caixa1.jpeg",
     descricao: "Caixa de Som Bluetooth Kapbom KA-8296 com seu design moderno inclui iluminação LED RGB vibrante e uma construção resistente com certificação IPX6, que protege o aparelho contra jatos d'água e chuva leve. Oferece múltiplas formas de conexão, incluindo Bluetooth 5.3, entradas para pen drive (USB), cartão TF (até 32GB) e cabo auxiliar P2. A bateria de 2400mAh proporciona uma autonomia de 4 a 7 horas de reprodução contínua, dependendo do volume, com recarga rápida via cabo Tipo-C em apenas 3 horas. "
   },
@@ -1946,9 +1946,9 @@ const PRODUTOS = [
   // ================= ELETRÔNICOS =================
   {
     id: 1100,
-    nome: "Mini Compressor de Ar Digital Portátil",
+    nome: "Compressor de Ar Digital Portátil",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 185.00,
     imagem: "../eletronicos/eletronicosFoto/bomba de ar.jpeg",
     descricao: "Mini Compressor de Ar Digital Portátil, oferece praticidade total com seu design sem fio e compacto, cabendo facilmente no porta-luvas ou mochila. Equipado com um display digital inteligente, permite predefinir a pressão desejada (até 150 PSI) e desliga automaticamente ao atingi-la, garantindo segurança e precisão. Sua bateria recarregável de 4000mAh via USB-C também funciona como um powerbank para carregar seu celular em emergências."
   },
@@ -1957,7 +1957,7 @@ const PRODUTOS = [
    id: 1101,
     nome: "Câmera de Segurança Lâmpada IP WiFi 360°",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 170.00,
     imagem: "../eletronicos/eletronicosFoto/camera.jpeg",
     descricao: "Câmera de Segurança Lâmpada IP WiFi 360°, une praticidade e tecnologia avançada para proteger sua casa ou escritório sem a necessidade de furos ou cabos extras. Com visão noturna colorida e infravermelho, ela garante imagens nítidas 24h por dia, mesmo no escuro total. Possui detecção inteligente de movimento que envia alertas em tempo real para o seu celular e rastreia alvos automaticamente. Além disso, conta com áudio bidirecional, permitindo que você ouça e fale com quem estiver no ambiente através do aplicativo. É a segurança que você precisa, com a facilidade de rosquear uma lâmpada comum."
   },
@@ -1975,7 +1975,7 @@ const PRODUTOS = [
    id: 1103,
     nome: "Carregador Turbo Xiaomi 67W Charging Combo",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 60.00,
     imagem: "../eletronicos/eletronicosFoto/carregador3.jpeg",
     descricao: "Carregador Turbo Xiaomi 67W Charging Combo, entrega potência máxima para carregar seus dispositivos em tempo recorde, chegando a 100% de bateria em poucos minutos. O kit acompanha uma fonte ultra robusta e um cabo USB-C de 6A reforçado, otimizado para transferências de dados rápidas e carregamento estável. Equipado com chip inteligente, ele identifica automaticamente a voltagem necessária, protegendo contra superaquecimento e curto-circuitos. Seu design compacto e bivolt automático o torna o parceiro de viagem ideal, garantindo energia máxima onde quer que você esteja."
   },
@@ -1984,7 +1984,7 @@ const PRODUTOS = [
    id: 1104,
     nome: "Adaptador de Energia Apple USB-C de 20W",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 60.00,
     imagem: "../eletronicos/eletronicosFoto/carregador4.jpeg",
     descricao: "Adaptador de Energia Apple USB-C de 20W, compatível com qualquer dispositivo USB-C, ele é otimizado para o melhor desempenho em modelos a partir do iPhone 8 e iPads Pro/Air. Suas camadas de proteção integradas garantem que seu dispositivo carregue sem riscos de superaquecimento ou sobrecarga, preservando a saúde da sua bateria por muito mais tempo."
   },
@@ -1993,7 +1993,7 @@ const PRODUTOS = [
    id: 1105,
     nome: "Carregador Inteligente Plug-In Oberon OR-IC019/ME",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 28.00,
     imagem: "../eletronicos/eletronicosFoto/carregador5.jpeg",
     descricao: "Carregador Inteligente Plug-In Oberon OR-IC019/M, é bivolt automático (110V/240V) e acompanha um cabo Micro USB (V8) de 1 metro, garantindo praticidade imediata para carregar smartphones, tablets e outros eletrônicos compatíveis. Sua construção inteligente foca na segurança, oferecendo proteção contra sobrecarga e superaquecimento, além de ser um produto homologado pela Anatel, o que assegura sua confiabilidade e qualidade."
   },
@@ -2002,7 +2002,7 @@ const PRODUTOS = [
    id: 1106,
     nome: "Carregador Veicular BYZ DAY-C822m ",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 30.00,
     imagem: "../eletronicos/eletronicosFoto/carregador6.jpeg",
     descricao: "Carregador Veicular BYZ DAY-C822m é o acessório ideal para quem busca estilo e eficiência para carregar seus dispositivos enquanto dirige. Com um design inovador e acabamento transparente, ele permite visualizar seus componentes internos, trazendo um toque moderno ao interior do seu veículo. Ele oferece uma saída de 2.4A, garantindo um carregamento rápido e estável para smartphones e tablets. Equipado com duas portas USB, este modelo permite carregar dois aparelhos simultaneamente sem perda de performance. Para sua tranquilidade, conta com um chip inteligente que ativa diversos filtros de proteção contra sobrecarga, superaquecimento e curto-circuito, preservando a saúde da bateria dos seus dispositivos"
   },
@@ -2011,7 +2011,7 @@ const PRODUTOS = [
    id: 1107,
     nome: "Cabo de Carregamento Super Rápido BYZ BC-1521",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 65.00,
     imagem: "../eletronicos/eletronicosFoto/carregador7.jpeg",
     descricao: "Cabo de Carregamento Super Rápido BYZ BC-1521, Com suporte para saída de 5A, ele é projetado para carregamento ultrarrápido e transmissão de dados estável, sendo ideal para dispositivos modernos que exigem alta performance. Com um comprimento de 1,5 metros, este cabo oferece maior liberdade de movimento enquanto seu aparelho carrega. Ele possui conectores reforçados e um acabamento emborrachado de alta qualidade que evita emaranhados e resiste a dobras diárias. Sua tecnologia inteligente garante proteção contra sobrecarga, protegendo a vida útil da bateria do seu smartphone ou tablet."
   },
@@ -2020,16 +2020,16 @@ const PRODUTOS = [
    id: 1108,
     nome: "Air Remote Mouse G10s",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 60.00,
     imagem: "../eletronicos/eletronicosFoto/carregador8.jpeg",
     descricao: "Air Remote Mouse G10s equipado com giroscópio de 6 eixos, ele permite controlar o cursor apenas movendo o controle no ar, como um mouse aéreo. Seu grande diferencial é a função de comando de voz, que facilita buscas rápidas por conteúdos no Google Assistente ou YouTube. Com tecnologia Wireless 2.4GHz, oferece alcance de até 10 metros via receptor USB (Plug and Play). Além disso, possui um botão programável com aprendizado infravermelho (IR) para copiar funções do seu controle original, como ligar e desligar a TV."
   },
 
   {
    id: 1109,
-    nome: "Caixa de Som Bluetooth Transparente K07",
+    nome: "Mine Caixa de Som Bluetooth K07",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 60.00,
     imagem: "../eletronicos/eletronicosFoto/carregador9.jpeg",
     descricao: "Caixa de Som Bluetooth Transparente K07 com 5W de potência, ela entrega um som nítido e graves surpreendentes para o seu tamanho. O grande destaque é o seu acabamento transparente com luzes LED integradas, que criam um efeito visual incrível em qualquer ambiente. Equipada com Bluetooth 5.0, garante uma conexão estável e rápida com smartphones, tablets e notebooks. Além disso, suporta a tecnologia TWS, permitindo conectar duas caixas K07 simultaneamente para uma experiência de som estéreo real."
   },
@@ -2038,7 +2038,7 @@ const PRODUTOS = [
    id: 1110,
     nome: "Carregador Turbo Xiaomi 120W Charging Combo",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 120.00,
     imagem: "../eletronicos/eletronicosFoto/carregador10.jpeg",
     descricao: "Carregador Turbo Xiaomi 120W Charging Combot acompanha uma fonte ultra robusta e um cabo USB-C para USB-C (5A) reforçado, garantindo a máxima eficiência e estabilidade na condução da energia. Equipado com um sistema de proteção de 10 camadas, ele monitora a temperatura e a voltagem em tempo real, evitando superaquecimento e protegendo a vida útil da bateria do seu aparelho. É o acessório indispensável para quem vive em movimento e não pode perder tempo esperando o celular carregar."
   },
@@ -2047,7 +2047,7 @@ const PRODUTOS = [
    id: 1111,
     nome: "Carregador Turbo Awei C-842",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 65.00,
     imagem: "../eletronicos/eletronicosFoto/carregador11.jpeg",
     descricao: "Carregador Turbo Awei C-842, oferece o equilíbrio perfeito entre velocidade e versatilidade. Com tecnologia Power Delivery (PD) de 20W, ele é capaz de carregar smartphones modernos, como as linhas mais recentes de iPhones e Androids, em tempo recorde. Seu design inteligente com dupla interface elimina a necessidade de escolher qual aparelho carregar primeiro. Construído com materiais de alta durabilidade, ele possui proteção contra sobreaquecimento e curto-circuitos, garantindo que sua bateria seja preservada. É bivolt e compacto, sendo o acessório ideal para manter em casa ou levar em viagens."
   },
@@ -2056,7 +2056,7 @@ const PRODUTOS = [
    id: 1112,
     nome: "Samsung 67W PD AdapterE",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 60.00,
     imagem: "../eletronicos/eletronicosFoto/carregador12.jpeg",
     descricao: "Samsung 67W PD Adapter, com impressionantes 67W de potência, ele é capaz de carregar desde smartphones topo de linha até notebooks compatíveis com entrada USB-C em velocidade máxima. Seu grande diferencial é o design de dupla porta (USB-C e USB-A), permitindo carregar dois aparelhos simultaneamente com inteligência e segurança. O kit já acompanha um cabo USB-C para USB-C de 1 metro, otimizado para suportar a alta corrente de carga. Equipado com tecnologia Power Delivery (PD), ele ajusta a voltagem automaticamente para cada dispositivo, protegendo a saúde da bateria contra sobrecargas e superaquecimento."
   },
@@ -2065,7 +2065,7 @@ const PRODUTOS = [
    id: 1113,
     nome: "Adaptador de Energia AC/DC Adweixun Orvesion",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 25.00,
     imagem: "../eletronicos/eletronicosFoto/carregador13.jpeg",
     descricao: "Adaptador de Energia AC/DC Adweixun Orvesion, conta com um conector de pino fino (P4), sendo ideal para roteadores, switches, câmeras de segurança (CFTV), fitas LED e diversos outros periféricos. Sua construção robusta com bivolt automático (110V/220V) permite o uso em qualquer região sem preocupações. Projetado com sistemas de proteção contra curto-circuito e sobrecarga, ele preserva a vida útil dos seus equipamentos, evitando danos por instabilidade na rede elétrica."
   },
@@ -2119,7 +2119,7 @@ const PRODUTOS = [
    id: 1119,
     nome: "Kit Carregador Rápido Lehmox LE-485TYPEC",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 35.00,
     imagem: "../eletronicos/eletronicosFoto/fone5.jpeg",
     descricao: " Kit Carregador Rápido Lehmox LE-485TYPEC, o grande diferencial deste modelo é a sua dupla porta USB, que permite carregar dois aparelhos simultaneamente sem perda de performance. O kit já acompanha um cabo USB para USB-C reforçado, compatível com os smartphones e tablets mais modernos. Por ser um produto homologado pela Anatel, ele garante total confiabilidade, possuindo proteção integrada contra sobrecarga, curto-circuito e superaquecimento."
   },
@@ -2128,7 +2128,7 @@ const PRODUTOS = [
    id: 1120,
     nome: "Cabo Turbo Lehmox LE-818 Type-C ",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 35.00,
     imagem: "../eletronicos/eletronicosFoto/fone6.jpeg",
     descricao: "Cabo Turbo Lehmox LE-818 Type-C, este cabo possui um design flat (chato) que evita emaranhados e aumenta a resistência contra dobras no uso diário. Seus conectores reforçados e o acabamento emborrachado de alta qualidade garantem uma vida útil prolongada, sendo perfeito tanto para carregamento quanto para a transmissão de dados em alta velocidade. É a solução prática e robusta para manter seus dispositivos sempre prontos para o uso."
   },
@@ -2200,7 +2200,7 @@ const PRODUTOS = [
    id: 1128,
     nome: "Game Stick Lite 4K",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 140.00,
     imagem: "../eletronicos/eletronicosFoto/game stick.jpeg",
     descricao: "Game Stick Lite 4K garante imagens nítidas em TVs modernas, preservando a essência dos jogos retrô. O kit acompanha dois controles sem fio de 2.4GHz, permitindo jogar com amigos e familiares sem a confusão de cabos. Sua instalação é no estilo Plug & Play: basta conectar o stick na TV, o receptor USB dos controles e começar a jogar. É o presente ideal para todas as idades, unindo praticidade e uma biblioteca gigantesca de entretenimento."
   },
@@ -2209,7 +2209,7 @@ const PRODUTOS = [
    id: 1129,
     nome: "Kit de Barbearia e Corte de Cabelo Kapbom KA-2192 ",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 58.00,
     imagem: "../eletronicos/eletronicosFoto/kit barba.jpeg",
     descrição: "Kit de Barbearia e Corte de Cabelo Kapbom KA-2192 reúne durabilidade e ergonomia em um único pacote. A tesoura de corte em aço inoxidável garante fios nítidos, enquanto a navalha clássica permite acabamentos impecáveis na barba e no pezinho. O kit conta ainda com dois pentes especializados: um pente de corte tradicional e um pente de textura, ideais para desembaraçar, separar mechas e finalizar o penteado. Leve e fácil de manusear, é a escolha perfeita para iniciantes e profissionais que não abrem mão de um kit completo e versátil."
   },
@@ -2218,7 +2218,7 @@ const PRODUTOS = [
    id: 1130,
     nome: "Kit de Tesouras para Cabelo Kapbom KA-5066",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 85.00,
     imagem: "../eletronicos/eletronicosFoto/kit barbeiro.jpeg",
     descricao: "Kit de Tesouras para Cabelo Kapbom KA-5066 oferece ferramentas de alta performance com design ergonômico, garantindo conforto durante o uso prolongado e resultados impecáveis. As tesouras possuem acabamento dourado sofisticado e lâminas em aço inoxidável de alta durabilidade, ideais para cortes retos, desfiados e acabamentos detalhados. O conjunto é organizado em um estojo luxuoso com zíper, facilitando o transporte e a proteção dos seus instrumentos de trabalho. Seja para uso profissional ou doméstico avançado, este kit reúne tudo o que você precisa para elevar o nível do seu serviço."
   },
@@ -2227,7 +2227,7 @@ const PRODUTOS = [
    id: 1131,
     nome: "Altomex AL-2928",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 120.00,
     imagem: "../eletronicos/eletronicosFoto/maquina de cabelo 1.jpeg",
     descricao: "Altomex AL-2928 Altomex AL-2928 une estilo e tecnologia em uma ferramenta de alta precisão para barbeiros e uso pessoal. Com um corpo metálico resistente e design ergonômico, ela oferece cortes impecáveis em cabelos e barbas, sendo ideal também para acabamentos como o pezinho, desenhos e depilação corporal. Seu grande diferencial é o display LED inteligente, que monitora o nível da bateria em tempo real, garantindo que você nunca seja pego de surpresa."
   },
@@ -2236,7 +2236,7 @@ const PRODUTOS = [
    id: 1132,
     nome: "Máquina de cortar cabelo One-X MQ-7039",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 85.00,
     imagem: "../eletronicos/eletronicosFoto/maquina de cabelo 2.jpeg",
     descricao: "Máquina de cortar cabelo One-X MQ-7039  foi projetada para barbeiros e usuários que buscam precisão cirúrgica no dia a dia. Com lâminas de aço inoxidável de alta durabilidade, ela é perfeita para realizar desde cortes completos até os acabamentos mais detalhados, como o pezinho e desenhos. Seu motor potente trabalha de forma equilibrada com a bateria de carregamento rápido, oferecendo autonomia e eficiência para uma rotina de cuidados sem interrupções."
   },
@@ -2245,7 +2245,7 @@ const PRODUTOS = [
    id: 1133,
     nome: "Mini Teclado Wireless Lehmox LEY-183",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 45.00,
     imagem: "../eletronicos/eletronicosFoto/mini teclado.jpeg",
     descricao: "Mini Teclado Wireless Lehmox LEY-183, redefine a navegação em sua Smart TV, TV Box ou PC. Equipado com tecnologia Dual (Bluetooth + 2.4GHz), ele oferece uma conexão estável e sem atrasos em um alcance de até 10 metros. Seu grande diferencial é o touchpad integrado com sensibilidade ajustável e a iluminação RGB, que permite personalizar as cores das teclas para facilitar o uso no escuro. É o acessório Plug and Play indispensável para quem quer digitar senhas, buscar vídeos e navegar na internet com total conforto e agilidade."
   },
@@ -2254,7 +2254,7 @@ const PRODUTOS = [
    id: 1134,
     nome: "Mouse Gamer B-Max BM-614",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 40.00,
     imagem: "../eletronicos/eletronicosFoto/mouse.jpeg",
     descricao: "Mouse Gamer B-Max BM-614 Seu grande diferencial visual é a iluminação LED em 7 cores, que transita de forma rítmica, criando um efeito dinâmico que combina com qualquer setup gamer. Equipado com um sensor óptico de alta precisão, ele garante movimentos fluidos e respostas rápidas. Sua instalação é Plug & Play via USB, dispensando drivers complicados — basta conectar e começar a jogar em PCs ou notebooks."
   },
@@ -2272,7 +2272,7 @@ const PRODUTOS = [
    id: 1136,
     nome: "Rádio de Bolso Altomex AL-356",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 60.00,
     imagem: "../eletronicos/eletronicosFoto/radio.jpeg",
     descricao: "Rádio de Bolso Altomex AL-356 equipado com 2 bandas (FM e AM), ele oferece uma recepção de sinal estável e clara através de sua antena telescópica de alta sensibilidade. Sua operação é simples e intuitiva, com botões analógicos para ajuste de volume e sintonia. Além do alto-falante integrado com som nítido, ele possui uma saída para fones de ouvido, permitindo que você ouça sua programação favorita com total privacidade em qualquer lugar."
   },
@@ -2299,7 +2299,7 @@ const PRODUTOS = [
    id: 1139,
     nome: "Suporte de Mesa em Liga de Metal H'maston CJ77",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 25.00,
     imagem: "../eletronicos/eletronicosFoto/suporte.jpeg",
     descricao: "Suporte de Mesa em Liga de Metal H'maston CJ77 destaca-se pela sua construção em liga de metal de alta durabilidade, garantindo firmeza total para smartphones e tablets de diversos tamanhos. Seu grande diferencial é a base giratória 360° com sistema de ajuste multiangular, permitindo encontrar o ângulo de visão perfeito para videochamadas, estudos ou consumo de mídia. O suporte é totalmente dobrável, tornando-o ultraportátil e fácil de guardar. Além disso, possui almofadas de silicone antiderrapantes que protegem seu aparelho contra riscos e evitam deslizes indesejados na mesa."
   },
@@ -2308,7 +2308,7 @@ const PRODUTOS = [
    id: 1140,
     nome: "Suporte Veicular Universal H'maston CJ71",
     categoria: "eletronicos",
-    preco: 199.90,
+    preco: 35.00,
     imagem: "../eletronicos/eletronicosFoto/suporte1.jpeg",
     descricao: "Suporte Veicular Universal H'maston CJ71 destaca-se pelo seu braço articulado de longo alcance e base de sucção ultra aderente, que se fixa firmemente em superfícies lisas ou texturizadas. Com um sistema de rotação 360°, ele permite ajustar o celular tanto na vertical quanto na horizontal, garantindo o melhor ângulo de visão sem obstruir o seu campo visual. Suas garras laterais possuem proteção emborrachada para segurar o aparelho com firmeza sem riscá-lo, sendo compatível com praticamente todos os smartphones do mercado."
   },
@@ -2474,7 +2474,7 @@ const PRODUTOS = [
     id: 3000,
     nome: "Coqueteleira Growth Supplements",
     categoria: "esporte", 
-    preco: 80.00,
+    preco: 35.00,
     imagem: "../suplementoEsporte/esporteFotos/copo1.jpeg",
     descricao:" Coqueteleiras Growth Supplements são os acessórios indispensáveis para quem busca praticidade e estilo na hora de preparar seus shakes. Com design ergonômico e tampa de fechamento seguro (sistema click), elas garantem uma vedação perfeita, evitando vazamentos indesejados na sua mochila de treino. Disponíveis em cores vibrantes como azul, preto, vermelho e rosa, possuem marcação lateral de volume para uma dosagem precisa de água ou leite. Fabricadas com material de alta durabilidade e livre de BPA, são fáceis de higienizar e ideais para misturar seus suplementos de forma rápida e eficiente em qualquer lugar.",
     cor: ["azul","preto","vermelho","rosa"]
@@ -2484,7 +2484,7 @@ const PRODUTOS = [
     id: 3001,
     nome: "Coqueteleira FTW (Fitoway Labs)",
     categoria: "esporte",
-    preco: 80.00,
+    preco: 35.00,
     imagem: "../suplementoEsporte/esporteFotos/copo2.jpeg",
     descricao:"Coqueteleira FTW (Fitoway Labs) na cor vermelha é o acessório perfeito para quem busca praticidade e estilo no dia a dia de treinos. Com design robusto e ergonômico, ela conta com uma tampa de fechamento seguro que evita vazamentos, permitindo o transporte seguro na mochila. Sua marcação lateral facilita a dosagem exata dos seus suplementos, enquanto o material de alta resistência garante durabilidade. Ideal para preparar seu pré-treino Diabo Verde ou seu pós-treino com rapidez, ela une funcionalidade e a identidade visual marcante da FTW para elevar o nível da sua rotina fitness."
   },
@@ -2493,7 +2493,7 @@ const PRODUTOS = [
     id: 3002,
     nome: "Coqueteleira Dux Nutrition",
     categoria: "esporte",
-    preco: 80.00,
+    preco: 35.00,
     imagem: "../suplementoEsporte/esporteFotos/copo3.jpeg",
     descricao:"Coqueteleira Dux Nutrition na cor fumê é a escolha premium para quem busca elegância e funcionalidade. Com um design clean e sofisticado, ela possui marcações externas de volume em oz e ml, garantindo a precisão total no preparo dos seus suplementos. Sua tampa de alta vedação com bocal ergonômico evita vazamentos, tornando-a ideal para levar na mochila ou treinar ao ar livre. Fabricada com materiais de alta qualidade e livre de BPA, ela une a estética minimalista da marca Dux à durabilidade necessária para o uso intenso no dia a dia."
   },
@@ -2502,7 +2502,7 @@ const PRODUTOS = [
     id: 3003,
     nome: "Coqueteleira Growth Supplements Transparente",
     categoria: "esporte",
-    preco: 80.00,
+    preco: 35.00,
     imagem: "../suplementoEsporte/esporteFotos/copo4.jpeg",
     descricao:"Coqueteleira Growth Supplements Transparente é o clássico indispensável para o seu dia a dia de treinos. Com visual clean e corpo translúcido, ela permite a visualização exata do conteúdo e do nível de mistura do seu shake. Equipada com uma tampa de fechamento seguro por sistema de click, garante vedação total contra vazamentos, sendo ideal para carregar na mochila. É fabricada com material livre de BPA, resistente e fácil de lavar, unindo a durabilidade que você precisa com a identidade visual da marca mais amada do Brasil."
   },
@@ -2511,7 +2511,7 @@ const PRODUTOS = [
     id: 3004,
     nome: "Coqueteleira Diabo Verde",
     categoria: "esporte",
-    preco: 80.00,
+    preco: 35.00,
     imagem: "../suplementoEsporte/esporteFotos/copo5.jpeg",
     descricao:" Coqueteleira Diabo Verde na cor verde neon é o acessório com a pegada mais agressiva e energética para o seu treino. Com visual marcante que remete à linha de pré-treinos da FTW, ela possui tampa preta de alta vedação, garantindo que seu shake não vaze mesmo em movimentos bruscos. Seu corpo translúcido permite acompanhar a mistura e a dosagem exata do seu suplemento através das marcações laterais. Fabricada com material resistente e livre de BPA, é fácil de lavar e ideal para quem quer destacar o seu estilo de batalha na academia com um acessório de personalidade única."
   },
@@ -2520,7 +2520,7 @@ const PRODUTOS = [
     id: 3005,
     nome: "Coqueteleira Integralmédica Transparente (600ml)",
     categoria: "esporte",
-    preco: 80.00,
+    preco: 35.00,
     imagem: "../suplementoEsporte/esporteFotos/copo6.jpeg",
     descricao:"Coqueteleira Integralmédica Transparente (600ml) é o acessório clássico da marca número 1 do Brasil, ideal para preparar seus shakes com precisão e estilo. Com corpo translúcido e marcações laterais, ela permite visualizar facilmente a dosagem e a mistura dos suplementos. Sua tampa preta possui um fechamento de alta pressão na cor vermelha, garantindo vedação total e segurança contra vazamentos durante o transporte. Fabricada em material resistente, livre de BPA e fácil de limpar, é a escolha funcional para quem carrega o DNA da musculação em cada treino."
   },
@@ -2529,7 +2529,7 @@ const PRODUTOS = [
     id: 3006,
     nome: "Mini Bands",
     categoria: "esporte",
-    preco: 80.00,
+    preco: 50.00,
     imagem: "../suplementoEsporte/esporteFotos/FAIXA DE TREINO.jpeg",
     descricao:"Mini Bands é o acessório versátil e indispensável para treinos em casa, academia ou viagens. Fabricadas em látex de alta resistência, as faixas elásticas permitem trabalhar o corpo todo, com foco especial no fortalecimento de glúteos, pernas e braços, permitindo que você evolua o nível de esforço conforme seu condicionamento. Portáteis e fáceis de usar, são ideais para exercícios de funcional, fisioterapia, alongamento e ativação muscular, garantindo resultados eficientes em qualquer lugar.",
     cor: ["Amarelo", "Vermelho", "Azul", "Verde", "Preta"]
@@ -2539,7 +2539,7 @@ const PRODUTOS = [
     id: 3007,
     nome: "Par de Joelheiras Articuladas com Amortecimento (25x17cm)",
     categoria: "esporte",
-    preco: 80.00,
+    preco: 50.00,
     imagem: "../suplementoEsporte/esporteFotos/JOELHEIRA 3.jpeg",
     descricao:"Par de Joelheiras Articuladas com Amortecimento (25x17cm) é o acessório de proteção ideal para esportes de alto impacto como vôlei, futsal, basquete e dança. Fabricadas em tecido elástico de alta compressão e respirável, elas oferecem suporte firme à articulação, prevenindo entorses e lesões. O grande diferencial é a almofada frontal em EVA espesso, que absorve impactos severos contra o solo, garantindo segurança e conforto durante quedas e movimentos bruscos. Com design anatômico que não limita os movimentos, este par é a escolha estratégica para atletas que buscam máxima performance com proteção total para os joelhos."
   },
@@ -2548,7 +2548,7 @@ const PRODUTOS = [
     id: 3008,
     nome: "Meias Antiderrapantes de Alta Performance",
     categoria: "esporte",
-    preco: 80.00,
+    preco: 30.00,
     imagem: "../suplementoEsporte/esporteFotos/MEIAS.jpeg",
     descricao:"Meias Antiderrapantes de Alta Performance são o acessório definitivo para atletas de futebol, futsal, basquete e esportes de impacto. Seu grande diferencial é a tecnologia de pads emborrachados na sola, que elimina o deslize do pé dentro do calçado, garantindo estabilidade máxima em mudanças de direção e arrancadas explosivas. Fabricadas com tecido respirável e de compressão média, elas oferecem conforto térmico e ajuste anatômico superior. Disponíveis em diversas cores vibrantes, são ideais para prevenir bolhas e melhorar a segurança do atleta durante toda a partida.",
     cor:["Branco", "Azul", "Verde", "Laranja", "Vermelho", "Amarelo", "Preto", "Azul Marinho", "Azul"],
@@ -2813,7 +2813,7 @@ const PRODUTOS = [
     id: 5000,
     nome: "Arminha de Gel Elétrica M416",
     categoria: "brinquedos",
-    preco: 80.00,
+    preco: 160.00,
     imagem: "../brinquedos/brinquedosFoto/ama gel 1.jpeg",
     descricao:"Arminha de Gel Elétrica M416 é o brinquedo de alta performance perfeito para aventuras emocionantes ao ar livre. Com um sistema automático e disparos contínuos, ela utiliza bolinhas de gel biodegradáveis que se fragmentam no impacto, garantindo uma diversão segura e fácil de limpar. Seu design moderno com estampa de caveiras e acessórios como o silenciador removível oferece um visual realista e versátil para jogos de batalha. O kit costuma acompanhar bateria recarregável via USB e milhares de munições de gel, proporcionando horas de entretenimento dinâmico. É a escolha ideal para quem busca adrenalina em atividades como airsoft e brincadeiras em grupo."
   },
@@ -2822,7 +2822,7 @@ const PRODUTOS = [
     id: 5001,
     nome: "Rifle de Gel Elétrico AR Shoot",
     categoria: "brinquedos",
-    preco: 80.00,
+    preco: 160.00,
     imagem: "../brinquedos/brinquedosFoto/arma gel.jpeg",
     descricao:"Rifle de Gel Elétrico AR Shoot é o brinquedo de ação definitivo para batalhas ao ar livre, combinando um visual camuflado vibrante com alta performance. Este modelo automático dispara bolinhas de gel biodegradáveis que não sujam e são seguras, proporcionando uma experiência dinâmica para crianças acima de 14 anos e adultos."
   },
@@ -2831,7 +2831,7 @@ const PRODUTOS = [
     id: 5002,
     nome: "Kit Airsoft de Alta Performance",
     categoria: "brinquedos",
-    preco: 80.00,
+    preco: 450.00,
     imagem: "../brinquedos/brinquedosFoto/kit airsoft 1.jpeg",
     descricao:"Kit Airsoft de Alta Performance é o conjunto completo para entusiastas do tiro esportivo que buscam realismo e precisão em seus treinos ou jogos. O kit combina a versatilidade de um rifle com a praticidade de uma pistola, acompanhados de munição premium e alvos de treinamento. O rifle principal é um modelo inspirado na plataforma M4, amplamente utilizado por forças especiais. Este equipamento de airsoft, como o kit da Rossi Vigor, possui design ergonômico, coronha retrátil para melhor ajuste ao atirador e trilhos RIS que permitem a instalação de diversos acessórios como miras red dot e grips."
   },
@@ -2840,7 +2840,7 @@ const PRODUTOS = [
     id: 5003,
     nome: "Kit Combo Airsoft",
     categoria: "brinquedos",
-    preco: 80.00,
+    preco: 450.00,
     imagem: "../brinquedos/brinquedosFoto/kit airsoft.jpeg",
     descricao:"Kit Combo Airsoft é a escolha ideal para quem está iniciando no esporte ou busca um conjunto versátil para prática de tiro ao alvo. Ele combina a potência de um rifle longo com a agilidade de uma pistola secundária, ambos com excelente acabamento e realismo. O rifle é um modelo inspirado na plataforma M4A1, apresentando coronha retrátil e trilhos para acessórios, enquanto a pistola é uma réplica da Glock G17. Ambos operam via sistema spring (mola), sendo necessário engatilhar manualmente a cada disparo, o que garante baixo custo de manutenção e facilidade de uso. Fabricados em polímero de alta resistência, os equipamentos oferecem durabilidade e leveza para longas jornadas de lazer."
   },
