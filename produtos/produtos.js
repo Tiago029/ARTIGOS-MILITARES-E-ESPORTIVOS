@@ -2862,6 +2862,7 @@ const PRODUTOS = [
     categoria: "brinquedos",
     preco: 60.00,
     imagem: "../brinquedos/brinquedosFoto/cavalinhos brasileirão.jpeg",
+    time: ["Flamengo","Corinthians","Palmeiras","São Paulo","Grêmio","Internacional"],
     descricao:"O Cavalinho do Fantástico é um brinquedo de pelúcia inspirado nos icônicos personagens que aparecem semanalmente no programa da TV Globo para representar a classificação dos clubes no Campeonato Brasileiro. Confeccionados em material antialérgico de alta qualidade e com enchimento de fibra siliconada, esses bonecos apresentam as cores e o escudo oficial de diversos times, como Corinthians, Palmeiras, Flamengo e São Paulo. Cada modelo possui aproximadamente 40 a 45 centímetros de altura e conta com detalhes característicos, como o sorriso de dentes grandes e os olhos expressivos que cativaram tanto o público infantil quanto os colecionadores adultos."
   },
 

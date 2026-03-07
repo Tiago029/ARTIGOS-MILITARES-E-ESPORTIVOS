@@ -32,6 +32,13 @@ document.addEventListener("DOMContentLoaded", () => {
                    ${produto.cor.map(c => `<option value="${c}">${c}</option>`).join("")}
                </select>`
             : ""; 
+        // SELECT DE TIME
+        const selectTime = produto.time && produto.time.length > 0
+            ? `<label for="time-${produto.id}">Time:</label>
+            <select id="time-${produto.id}">
+                ${produto.time.map(t => `<option value="${t}">${t}</option>`).join("")}
+            </select>`
+            : "";    
 
         // MONTA O CARD
         card.innerHTML = `
@@ -40,13 +47,19 @@ document.addEventListener("DOMContentLoaded", () => {
             </a>
             <h3>${produto.nome}</h3>
             <p class="preco">R$ ${produto.preco.toFixed(2)}</p>
+
             ${selectTamanho}
             ${selectCor}
+            ${selectTime}
+
             <button onclick="
                 const selectT = document.getElementById('tamanho-${produto.id}');
                 const selectC = document.getElementById('cor-${produto.id}');
+                const selectTime = document.getElementById('time-${produto.id}');
+
                 const tamanhoSelecionado = selectT ? selectT.value : null;
                 const corSelecionada = selectC ? selectC.value : null;
+                const timeSelecionado = selectTime ? selectTime.value : null;
 
                 animarParaCarrinho('${produto.imagem}');
                 adicionarAoCarrinho({
@@ -54,7 +67,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     preco: ${produto.preco},
                     imagem: '${produto.imagem}',
                     tamanho: tamanhoSelecionado,
-                    cor: corSelecionada
+                    cor: corSelecionada,
+                    time: timeSelecionado
                 });
             ">Adicionar ao carrinho</button>
         `;
