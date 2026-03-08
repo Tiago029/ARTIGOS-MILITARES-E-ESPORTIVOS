@@ -186,6 +186,34 @@ const PRODUTOS = [
     descricao:"A Regata Masculina Dry Fit Branca é a peça essencial para quem busca máxima performance e conforto térmico, seja em treinamentos militares (TFM) ou em atividades intensas na academia e ao ar livre. Confeccionada em tecido tecnológico de alta hidrofilidade, ela absorve o suor e o dispersa rapidamente para a superfície, garantindo uma evaporação ágil que mantém o corpo seco por muito mais tempo. Sua modelagem anatômica com cavas amplas proporciona total liberdade de movimento, enquanto a costura reforçada e o material 100% poliéster oferecem alta durabilidade, resistência a rasgos e facilidade de manutenção, já que não amassa e seca rapidamente. O grande diferencial deste modelo é o espaço frontal dedicado para personalização, permitindo a estampa ou bordado do seu nome, unidade ou logomarca com acabamento profissional."
   },
 
+  {
+    id: 505,
+    nome: "",
+    categoria: "produtos em destaques",
+    preco: 80.00,
+    imagem: "../produtosEmDestaques/banco de praia.jpeg",
+    descricao:""
+  },
+
+  {
+    id: 506,
+    nome: "",
+    categoria: "produtos em destaques",
+    preco: 90.00,
+    imagem: "../produtosEmDestaques/bermuda1.jpeg",
+    tamanho: ["P", "M", "G", "GG"], // NOVO CAMPO
+    descricao:""
+  },
+
+  {
+    id: 507,
+    nome: "",
+    categoria: "produtos em destaques",
+    preco: 160.00,
+    imagem: "../produtosEmDestaques/rede.jpeg",
+    descricao:""
+  },
+
 
   
   // ================= EQUIPAMENTOS MILITARES =================
@@ -256,7 +284,7 @@ const PRODUTOS = [
     id: 209,
     nome: "Mochila Tática Militar Assault 30L – Impermeável com Sistema MOLLE e 4 Compartimentos",
     categoria: "equipamentos militares",
-    preco: 290.00,
+    preco: 260.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/MOCHILA 1.jpeg",
     descricao:"A Mochila Tática Assault de 30 Litros foi projetada para oferecer o máximo de organização e resistência, sendo a escolha ideal para militares, praticantes de airsoft, pescadores e entusiastas de atividades ao ar livre. Confeccionada em tecido Oxford 600D de alta densidade com forro interno resinado, esta mochila é resistente à água e a abrasões, garantindo a proteção dos seus equipamentos em qualquer clima. Seu design funcional conta com dois compartimentos principais espaçosos e dois bolsos frontais de fácil acesso, todos com zíperes duplos reforçados para maior segurança. O sistema MOLLE frontal e lateral permite a fixação modular de bolsos extras e acessórios, enquanto as alças acolchoadas e ajustáveis com cintas de peito e abdômen proporcionam um ajuste ergonômico e estável mesmo em longas jornadas."
   },
@@ -266,7 +294,7 @@ const PRODUTOS = [
     id: 210,
     nome: "Mochila Tática Militar Assault 30L Black – Impermeável com Sistema MOLLE e Painel de Velcro",
     categoria: "equipamentos militares",
-    preco: 290.00,
+    preco: 260.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/MOCHILA 2.jpeg",
     descricao:"A Mochila Tática Assault Black de 30 Litros é o equipamento definitivo para quem busca versatilidade e resistência extrema, seja no uso operacional, em trilhas ou no cotidiano urbano. Fabricada em tecido de alta densidade com revestimento interno resinado, ela oferece excelente resistência à água e proteção para seus equipamentos. Seu design inteligente conta com o sistema modular MOLLE, que permite a fixação de bolsos extras, e um painel de velcro frontal para personalização com patches. Composta por dois compartimentos principais amplos e dois bolsos externos frontais, ela garante organização total, enquanto as alças acolchoadas e as cintas de compressão lateral proporcionam conforto ergonômico e estabilidade de carga durante o uso prolongado."
   },
@@ -794,6 +822,69 @@ const PRODUTOS = [
     descricao:"A lanterna COBA CB-802 é um dispositivo de iluminação de alta performance projetado para situações que exigem potência extrema e longo alcance, chegando a projetar luz por até 3000 metros através de seu LED TG de última geração. Construída em liga de alumínio de alta resistência, ela possui um design robusto que inclui tiras fluorescentes coloridas no corpo para fácil localização e um visor digital que indica o percentual exato da carga disponível. Sua alimentação é feita por um conjunto de quatro baterias recarregáveis de grande capacidade, totalizando até 40.000 mAh, o que permite que o dispositivo também funcione como um power bank para carregar smartphones via porta USB integrada. O modelo conta com zoom telescópico para ajuste de foco, múltiplos modos de luz (como alto, baixo e estrobo) e possui certificação IP45, garantindo resistência contra água e poeira em ambientes externos desafiadores. Além de sua funcionalidade tática, a lanterna se destaca pelo carregamento rápido via interface Tipo-C e pela durabilidade de seus componentes internos, sendo amplamente utilizada em atividades de camping, busca, salvamento e segurança profissional devido à sua confiabilidade. No mercado brasileiro, é comum encontrar este mesmo projeto técnico sendo vendido sob a marca B-Max, mantendo as mesmas especificações de lúmens e autonomia de bateria para o usuário final."
   },
 
+  {
+    id: 270,
+    nome: "Banco de Campanha verde militar",
+    categoria: "equipamentos militares",
+    preco: 80.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/banco verde militar.jpeg",
+    descricao:""
+  },
+
+  {
+    id: 271,
+    nome: "Cordão Militar",
+    categoria: "equipamentos militares",
+    preco: 30.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/cordão militar.jpeg",
+    descricao:""
+  },
+
+  {
+    id: 272,
+    nome: "Fiel",
+    categoria: "equipamentos militares",
+    preco: 65.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/fiel.jpeg",
+    descricao:""
+  },
+
+  {
+    id: 273,
+    nome: "Fiel modelo telefone",
+    categoria: "equipamentos militares",
+    preco: 65.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/fiel1.jpeg",
+    descricao:""
+  },
+
+  {
+    id: 274,
+    nome: "Fivela Preta",
+    categoria: "equipamentos militares",
+    preco: 20.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/fivela.jpeg",
+    descricao:""
+  },
+
+  {
+    id: 275,
+    nome: "Fivela Verde Militar Plástico",
+    categoria: "equipamentos militares",
+    preco: 15.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/fivela1.jpeg",
+    descricao:""
+  },
+
+  {
+    id: 276,
+    nome: "Porta Algemas",
+    categoria: "equipamentos militares",
+    preco: 35.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/porta algema.jpeg",
+    descricao:""
+  },
+
 
   // ================= CALÇADOS SOCIETY =================
   {
@@ -1071,7 +1162,7 @@ const PRODUTOS = [
     id: 404,
     nome: "Tênis adidas Adizero Adios Pro 3 – Solar Red com Placa de Carbono e Espuma Lightstrike Pro",
     categoria: "tenis",
-    preco:190.00,
+    preco: 750.00,
     imagem: "../calcados/tenis/novo 4.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
     descricao:"O Adizero Adios Pro 3 é o ápice da linha racing da adidas, desenvolvido em colaboração com atletas de elite para quebrar recordes em maratonas e competições de longa distância. Sua entressola conta com duas camadas da inovadora espuma Lightstrike Pro, o material mais macio e responsivo da marca, que amortece cada passo e ajuda a manter a energia por mais tempo. O grande diferencial tecnológico são as hastes ENERGYRODS 2.0 com infusão de carbono, que proporcionam uma rigidez leve e anatomicamente projetada para uma transição de passada explosiva, ágil e eficiente. Com um cabedal em mesh ultraleve e respirável, o modelo oferece suporte preciso onde o atleta mais necessita, enquanto o solado de borracha Continental garante tração superior para dominar qualquer percurso."
@@ -1081,7 +1172,7 @@ const PRODUTOS = [
     id: 405,
     nome: "Tênis de Corrida Profissional Flame 6U – Placa de Carbono e Amortecimento Reativo",
     categoria: "tenis",
-    preco: 190.00,
+    preco: 450.00,
     imagem: "../calcados/tenis/novo 5.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
     descricao:"O Tênis de Corrida Flame 6U é o equipamento definitivo para maratonistas e corredores que buscam quebrar recordes com o auxílio de tecnologia de ponta. Sua construção inovadora conta com uma placa de carbono de extensão total integrada à entressola, proporcionando uma propulsão explosiva e um retorno de energia incomparável a cada passada. O cabedal em mesh de dupla camada oferece máxima respirabilidade e um ajuste seguro, enquanto o sistema de amortecimento ultraleve absorve impactos severos, reduzindo a fadiga muscular em percursos de longa distância. Com um design aerodinâmico agressivo e solado de borracha de alta tração, este modelo une estabilidade extrema e leveza para garantir que você domine o asfalto com velocidade e estilo."
@@ -1091,7 +1182,7 @@ const PRODUTOS = [
     id: 406,
     nome: "Tênis de Corrida Profissional Velocity Carbon 3.0 – Placa de Carbono e Amortecimento Reativo",
     categoria: "tenis",
-    preco: 190.00,
+    preco: 450.00,
     imagem: "../calcados/tenis/novo 6.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
     descricao:"O Tênis Velocity Carbon 3.0 é o equipamento definitivo para corredores que buscam superar seus limites e alcançar novos recordes no asfalto. Desenvolvido com a avançada tecnologia Carbon Board 3.0, este modelo integra uma placa de fibra de carbono na entressola que proporciona um rebote estável e uma propulsão explosiva a cada passada. Seu cabedal em Air Mesh respirável garante ventilação constante e um ajuste leve, enquanto o sistema de amortecimento de alta densidade absorve impactos severos para proteger suas articulações e reduzir a fadiga muscular. Com um design aerodinâmico marcante e solado em TPU de alta resistência ao desgaste, este supertênis oferece o equilíbrio perfeito entre tração superior e retorno de energia para dominar treinos de velocidade e maratonas com máxima eficiência."
@@ -1101,7 +1192,7 @@ const PRODUTOS = [
     id: 407,
     nome: "Tênis de Corrida Profissional Ravr Road 3.0 – Placa de Carbono e Amortecimento Reativo",
     categoria: "tenis",
-    preco:190.00,
+    preco:450.00,
     imagem: "../calcados/tenis/novo 7.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
     descricao:"O Tênis Ravr Road 3.0 é o equipamento de elite projetado para corredores que buscam velocidade máxima e retorno de energia imbatível. Equipado com a tecnologia Carbon Board 3.0, este supertênis integra uma placa de fibra de carbono na entressola que proporciona uma propulsão explosiva e estabilidade excepcional a cada passada. Seu cabedal em Air Mesh de dupla camada oferece respirabilidade superior e leveza extrema, mantendo os pés frescos em percursos de longa distância. Com um design aerodinâmico agressivo e entressola de amortecimento reativo de alta densidade, o Ravr Road 3.0 minimiza a fadiga muscular e protege as articulações, garantindo que você domine maratonas e treinos de velocidade com o máximo desempenho e estilo."
@@ -1111,7 +1202,7 @@ const PRODUTOS = [
     id: 408,
     nome: "Tênis On Running Cloudboom Strike – Edição Prism White & Horizon",
     categoria: "tenis",
-    preco: 190.00,
+    preco: 700.00,
     imagem: "../calcados/tenis/novo 8.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
     descricao:"O On Cloudboom Strike é o supertênis definitivo da On, projetado especificamente para maratonas e atletas que buscam quebrar recordes no dia da prova. Sua construção inovadora apresenta a tecnologia Bounceboard, uma estrutura que utiliza a hiperespuma Helion™ HF ultrarresponsiva para proporcionar uma propulsão explosiva e um retorno de energia inigualável a cada passo."
@@ -1121,7 +1212,7 @@ const PRODUTOS = [
     id: 409,
     nome: "Tênis de Corrida Profissional Run 9 Pro – Placa de Carbono e Amortecimento Reativo",
     categoria: "tenis",
-    preco:190.00,
+    preco:450.00,
     imagem: "../calcados/tenis/novo 9.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
     descricao:"O Tênis Run 9 Pro é o equipamento de elite desenvolvido para corredores que buscam velocidade máxima e retorno de energia imbatível. Equipado com a avançada tecnologia de placa de fibra de carbono na entressola, este supertênis proporciona uma propulsão explosiva e estabilidade excepcional a cada passada, ajudando a reduzir a fadiga muscular em percursos de longa distância. Seu cabedal em mesh respirável de dupla camada oferece leveza extrema e ventilação superior, mantendo os pés frescos mesmo durante treinos intensos ou maratonas. Com um design aerodinâmico e moderno em degradê de azul e rosa, o Run 9 Pro apresenta um solado de alta densidade com amortecimento reativo que absorve impactos severos e protege as articulações. É a escolha definitiva para quem deseja dominar o asfalto com alta performance, conforto e um visual imponente."
@@ -1131,7 +1222,7 @@ const PRODUTOS = [
     id: 410,
     nome: "Tênis adidas Adizero Adios Pro 3 – Blue Lucid com Placa de Carbono e Espuma Lightstrike Pro",
     categoria: "tenis",
-    preco: 190.00,
+    preco: 700.00,
     imagem: "../calcados/tenis/novo 10.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
     descricao:"O adidas Adizero Adios Pro 3 é o auge da tecnologia para corredores de elite, desenvolvido para quebrar recordes em maratonas e provas de longa distância. Sua entressola apresenta duas camadas da inovadora espuma Lightstrike Pro, o material mais responsivo da marca, que amortece cada impacto e garante um retorno de energia incomparável durante todo o percurso. O grande diferencial está nos ENERGYRODS 2.0, hastes com infusão de carbono integradas à entressola que proporcionam rigidez leve e uma transição de passada explosiva e eficiente. Com um cabedal em mesh ultraleve e respirável, ele oferece suporte preciso onde você mais precisa, enquanto o solado de borracha Continental™ entrega tração superior no asfalto. É o supertênis definitivo para quem busca máxima performance, velocidade e economia de energia do primeiro ao último quilômetro."
@@ -1281,7 +1372,7 @@ const PRODUTOS = [
     id: 425,
     nome: "Tênis Esportivo Pro 9 Performance com Sistema de Ajuste por Disco e Solado Aero",
     categoria: "tenis",
-    preco: 190.00,
+    preco: 450.00,
     imagem: "../calcados/tenis/TENIS 15.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
     descricao:"O Tênis Pro 9 Performance é a escolha definitiva para atletas que buscam velocidade, conforto e tecnologia de ponta em cada passada, seja em corridas de rua ou treinos de alta intensidade. Construído com um cabedal em mesh tecnológico de alta respirabilidade e padrão de cores em degradê vibrante, ele apresenta uma estrutura leve e sem costuras que se molda perfeitamente ao pé, garantindo uma ventilação constante e suporte estratégico. O grande diferencial deste modelo é o seu avançado sistema de fechamento por disco rotativo (BOA style), que substitui os cadarços tradicionais por um ajuste milimétrico e uniforme com apenas um clique, permitindo um calce rápido e uma fixação absoluta durante movimentos explosivos. Equipado com uma entressola Aero Road de geometria ultra-responsiva, ele oferece um amortecimento de elite com alto retorno de energia, enquanto o solado de borracha antiderrapante com tração multidirecional assegura estabilidade total em qualquer superfície. Leve, aerodinâmico e extremamente robusto, este calçado une a estética esportiva moderna com a funcionalidade necessária para superar seus limites pessoais. Com acabamento premium e detalhes refletivos para maior segurança em treinos noturnos, o Pro 9 é o acessório indispensável para quem não abre mão de performance superior e tecnologia de calce rápido para vencer qualquer desafio com total confiança."
@@ -1291,7 +1382,7 @@ const PRODUTOS = [
     id: 426,
     nome: "Tênis de Corrida Li-Ning Feidian 6 Elite – Performance de Elite com Placa de Carbono",
     categoria: "tenis",
-    preco: 190.00,
+    preco: 450.00,
     imagem: "../calcados/tenis/TENIS 16.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
     descricao:"O Li-Ning Feidian 6 Elite é a evolução definitiva em calçados de alta performance, projetado especificamente para maratonistas e corredores de elite que buscam quebrar recordes pessoais com o máximo de eficiência tecnológica. Construído com um cabedal em mesh ultra-respirável de camada única, ele oferece uma leveza extrema e um ajuste de segunda pele que minimiza o atrito e garante ventilação constante durante os 42km. O grande diferencial deste modelo é a sua entressola de dupla camada com tecnologia de espuma BOOM, que trabalha em conjunto com uma placa de fibra de carbono de comprimento total, proporcionando um retorno de energia explosivo e uma propulsão inigualável em cada passada. Equipado com um solado de borracha de alta tração e durabilidade, ele assegura estabilidade total em curvas e superfícies molhadas, enquanto a geometria agressiva do calcanhar e do antepé favorece uma transição rápida e fluida. Leve, aerodinâmico e esteticamente impactante com seus detalhes em degradê, o Feidian 6 Elite une a engenharia de ponta com a funcionalidade necessária para suportar o desgaste de competições de alto nível. Com acabamento premium e amortecimento de elite que reduz a fadiga muscular, este tênis é o acessório indispensável para quem não abre mão de tecnologia de pódio para vencer qualquer desafio com total confiança e velocidade."
@@ -1303,7 +1394,7 @@ const PRODUTOS = [
     id: 427,
     nome: "Tênis Esportivo Road Pro 8 Performance com Solado de Alta Resposta e Ajuste Rápido",
     categoria: "tenis",
-    preco: 190.00,
+    preco: 450.00,
     imagem: "../calcados/tenis/TENIS 17.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
     descricao:"O Tênis Road Pro 8 Performance é a escolha definitiva para corredores e atletas que buscam velocidade, amortecimento de elite e um design visualmente impactante para superar seus limites. Construído com um cabedal em mesh tecnológico de alta respirabilidade e um degradê vibrante, ele apresenta uma estrutura leve e sem costuras que se molda perfeitamente ao pé, garantindo ventilação constante e suporte estratégico durante treinos de alta intensidade. O grande diferencial deste modelo é o seu solado de geometria agressiva e responsiva, com entressola espessa que oferece um retorno de energia superior e absorção total de impactos em cada passada, enquanto os detalhes refletivos em neon asseguram visibilidade e segurança em corridas noturnas. Equipado com um sistema de ajuste rápido e acabamento premium com detalhes salpicados na entressola, ele une a estética futurista com a funcionalidade necessária para uma transição de passada fluida e potente em qualquer superfície. Leve, estável e extremamente robusto, este calçado é o acessório indispensável para quem não abre mão de tecnologia de ponta e máximo conforto para vencer os desafios das pistas ou das ruas com total confiança."
@@ -1313,7 +1404,7 @@ const PRODUTOS = [
     id: 428,
     nome: "Tênis de Corrida Saucaunv Pro Max – Amortecimento Ultra e Propulsão de Elite",
     categoria: "tenis",
-    preco: 190.00,
+    preco: 450.00,
     imagem: "../calcados/tenis/TENIS 18.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
     descricao:"O Tênis de Corrida Saucaunv Pro Max é a escolha definitiva para maratonistas e atletas que buscam o equilíbrio perfeito entre amortecimento extremo e retorno de energia explosivo em cada passada. Construído com um cabedal em mesh de alta respirabilidade na cor laranja vibrante, ele apresenta uma estrutura leve e aerodinâmica com detalhes gráficos dinâmicos que garantem suporte estratégico e ventilação constante, mantendo os pés secos durante treinos de longa distância. O grande diferencial deste modelo é a sua entressola de geometria oversized com tecnologia de espuma de alta responsividade e placa interna, proporcionando uma transição de passada fluida, suave e com uma propulsão incomparável que minimiza a fadiga muscular. Equipado com um solado de borracha de alta tração e durabilidade, ele assegura estabilidade total em curvas e superfícies variadas, enquanto o design agressivo do calcanhar favorece o impulso inicial e a velocidade constante. Leve, estável e esteticamente impactante, o Saucaunv Pro Max une a engenharia de ponta com a funcionalidade necessária para superar seus limites pessoais e vencer qualquer desafio nas pistas ou ruas com total confiança."
@@ -1323,7 +1414,7 @@ const PRODUTOS = [
     id: 429,
     nome: "Tênis de Corrida Saucaunv Carbonstrike – Performance de Elite com Amortecimento Máximo",
     categoria: "tenis",
-    preco: 190.00,
+    preco: 450.00,
     imagem: "../calcados/tenis/TENIS 19.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
     descricao:"O Tênis de Corrida Saucaunv Carbonstrike é a escolha definitiva para maratonistas e corredores de alta performance que buscam o equilíbrio perfeito entre leveza extrema, amortecimento de elite e propulsão explosiva em cada passada. Construído com um cabedal em mesh tecnológico de alta respirabilidade e um design aerodinâmico em tons de preto e cinza, ele apresenta uma estrutura leve e sem costuras que se molda perfeitamente ao pé, garantindo uma ventilação constante e suporte estratégico durante treinos de longa distância. O grande diferencial deste modelo é a sua entressola de geometria agressiva e oversized com tecnologia de espuma de alta responsividade, proporcionando uma transição de passada fluida, suave e com um retorno de energia superior que minimiza a fadiga muscular e potencializa a velocidade. Equipado com um solado de borracha de alta tração e durabilidade, ele assegura estabilidade total em curvas e superfícies variadas, enquanto o design futurista do calcanhar favorece o impulso inicial e a fluidez constante. Leve, estável e esteticamente impactante, o Carbonstrike une a engenharia de ponta com a funcionalidade necessária para superar seus limites pessoais e vencer qualquer desafio nas pistas ou ruas com total confiança e eficiência tecnológica."
@@ -1333,7 +1424,7 @@ const PRODUTOS = [
     id: 430,
     nome: "Tênis de Corrida NS Athletic V.Fore 5.0 – Performance de Elite e Amortecimento Ultra",
     categoria: "tenis",
-    preco: 190.00,
+    preco: 450.00,
     imagem: "../calcados/tenis/TENIS 20.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
     descricao:"O Tênis de Corrida NS Athletic V.Fore 5.0 é a escolha definitiva para maratonistas e corredores de alta performance que buscam o equilíbrio perfeito entre leveza extrema, amortecimento de elite e propulsão explosiva em cada passada. Construído com um cabedal em mesh tecnológico de alta respirabilidade e um design aerodinâmico em tons de preto e branco, ele apresenta uma estrutura leve e sem costuras que se molda perfeitamente ao pé, garantindo uma ventilação constante e suporte estratégico durante treinos de longa distância. O grande diferencial deste modelo é a sua entressola de geometria agressiva e oversized com tecnologia de espuma de alta responsividade, proporcionando uma transição de passada fluida, suave e com um retorno de energia superior que minimiza a fadiga muscular e potencializa a velocidade. Equipado com um solado de borracha de alta tração e durabilidade, ele assegura estabilidade total em curvas e superfícies variadas, enquanto o design futurista do calcanhar favorece o impulso inicial e a fluidez constante. Leve, estável e esteticamente impactante, o V.Fore 5.0 une a engenharia de ponta com a funcionalidade necessária para superar seus limites pessoais e vencer qualquer desafio nas pistas ou ruas com total confiança e eficiência tecnológica."
@@ -1415,7 +1506,7 @@ const PRODUTOS = [
     id: 506,
     nome: "GORRO DE SELVA",
     categoria: "fardamentos militar",
-    preco: 35.00,
+    preco: 60.00,
     imagem: "../fardamentosMilitares/fardasMilitaresFoto/gorro de selva.jpeg",
     descricao:"Gorro de Pala Mole camuflado no padrão do Exército Brasileiro é um item tático essencial confeccionado em tecido Ripstop de alta durabilidade, resistente a rasgos e desbotamento, projetado especificamente para missões em ambiente de selva e campo. O modelo apresenta uma copa estruturada de perfil baixo com aba maleável que permite fácil armazenamento, incluindo uma jugular ajustável para fixação segura durante movimentações intensas e um painel de velcro traseiro para aplicação de sutaches de identificação. É a escolha ideal para militares, colecionadores ou entusiastas de atividades ao ar livre que buscam proteção solar eficiente com a camuflagem oficial regulamentada pelas forças armadas." // NOVO CAMPO
   },
@@ -1448,6 +1539,46 @@ const PRODUTOS = [
     imagem: "../fardamentosMilitares/fardasMilitaresFoto/CAMISETA DE SEGUANÇA.jpeg",
     tamanho: ["P", "M", "G", "GG"],
     descricao:" é um item de uniforme profissional desenvolvido em malha leve e de secagem rápida, apresentando a inscrição SEGURANÇA estampada em branco em alta visibilidade tanto no peito quanto nas costas. O modelo possui gola redonda reforçada, mangas curtas com o detalhe da bandeira do Brasil aplicada lateralmente e um corte que prioriza o conforto e a mobilidade para longas jornadas de trabalho. É a escolha ideal para agentes de segurança privada, vigilantes e equipes de eventos que buscam uma vestimenta funcional, resistente ao uso diário e que transmita autoridade e identificação imediata." // NOVO CAMPO
+  },
+
+  {
+    id: 510,
+    nome: "Conjunto Gandoleta + Calça Azul",
+    categoria: "fardamentos militar",
+    preco: 280.00,
+    imagem: "../fardamentosMilitares/fardasMilitaresFoto/conjunto roupa azul.jpeg",
+    tamanho: ["P", "M", "G", "GG"],
+    descricao:"" // NOVO CAMPO
+  },
+
+  {
+    id: 511,
+    nome: "Conjunto Gandoleta + Calça Preta",
+    categoria: "fardamentos militar",
+    preco: 280.00,
+    imagem: "../fardamentosMilitares/fardasMilitaresFoto/conjunto roupa preta.jpeg",
+    tamanho: ["P", "M", "G", "GG"],
+    descricao:"" // NOVO CAMPO
+  },
+
+  {
+    id: 512,
+    nome: "Meia de TFM",
+    categoria: "fardamentos militar",
+    preco: 12.00,
+    imagem: "../fardamentosMilitares/fardasMilitaresFoto/meia tfm.jpeg",
+    tamanho: ["P", "M", "G", "GG"],
+    descricao:"" // NOVO CAMPO
+  },
+
+  {
+    id: 513,
+    nome: "Meia Verde Oliva",
+    categoria: "fardamentos militar",
+    preco: 13.00,
+    imagem: "../fardamentosMilitares/fardasMilitaresFoto/meia VO.jpeg",
+    tamanho: ["P", "M", "G", "GG"],
+    descricao:"" // NOVO CAMPO
   },
 
   // ================= PERFUMES =================
@@ -1910,7 +2041,7 @@ const PRODUTOS = [
     id: 800,
     nome: "JBL Boombox 3",
     categoria: "caixa de som",
-    preco: 3200.00,
+    preco: 2450.00,
     imagem: "../eletronicos/caixaDeSomFoto/bombox.jpg",
     descricao: "JBL Boombox 3 com seu icônico design atualizado, conta com um novo sistema de alto-falantes de 3 vias que entrega maior clareza e fidelidade sonora, transformando qualquer ambiente em uma verdadeira festa. Sua bateria de longa duração oferece até 24 horas de reprodução contínua, garantindo música do amanhecer ao anoitecer. Além disso, é totalmente à prova d'água e poeira (IP67), sendo a companhia perfeita para a piscina ou a praia. Com a tecnologia PartyBoost, você pode conectar várias caixas compatíveis para uma experiência estéreo ainda mais imersiva e potente."
   },
@@ -2322,6 +2453,15 @@ const PRODUTOS = [
     descricao: "Suporte Veicular Universal H'maston CJ71 destaca-se pelo seu braço articulado de longo alcance e base de sucção ultra aderente, que se fixa firmemente em superfícies lisas ou texturizadas. Com um sistema de rotação 360°, ele permite ajustar o celular tanto na vertical quanto na horizontal, garantindo o melhor ângulo de visão sem obstruir o seu campo visual. Suas garras laterais possuem proteção emborrachada para segurar o aparelho com firmeza sem riscá-lo, sendo compatível com praticamente todos os smartphones do mercado."
   },
 
+  {
+   id: 1141,
+    nome: "Arma de Choque",
+    categoria: "eletronicos",
+    preco: 120.00,
+    imagem: "../eletronicos/eletronicosFoto/arma de choque.jpeg",
+    descricao: ""
+  },
+
   // ================= ACESSORIO RELÓGIO ================
   {
     id: 901,
@@ -2469,7 +2609,303 @@ const PRODUTOS = [
   },
 
   // ================= CAMISAS =================
+   {
+    id: 12000,
+    nome: "",
+    categoria: "camisas",
+    preco: 85.00,
+    imagem: "../suplementoEsporte/camisasFotos/blusa3.jpeg",
+    tamanho: ["P","M","G","GG"],
+    cor: ["preto","verde","azul","baje areia"],
+    descricao:""
+  },
 
+  {
+    id: 12001,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa1.jpeg",
+    tamanho: ["P","M","G","GG"],
+    cor: ["azul","azul bebê","preto","cinza","vermelho"],
+    descricao:""
+  },
+
+  {
+    id: 12002,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa2.jpeg",
+    tamanho: ["P","M","G","GG"],
+    cor: ["vermelho","azul","marrom","baje areia","preto","branco"],
+    descricao:""
+  },
+
+  {
+    id: 12003,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa3.jpeg",
+    tamanho: ["P","M","G","GG"],
+    cor: ["preto","vermelho"],
+    descricao:""
+  },
+
+  {
+    id: 12004,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa4.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:""
+  },
+
+  {
+    id: 12005,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa5.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:""
+  },
+
+  {
+    id: 12006,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa6.jpeg",
+    tamanho: ["P","M","G","GG"],
+    cor: ["preto","vermelho"],
+    descricao:""
+  },
+
+  {
+    id: 12007,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa7.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:""
+  },
+
+  {
+    id: 12008,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa8.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:""
+  },
+
+  {
+    id: 12009,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa9.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:""
+  },
+
+  {
+    id: 12010,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa10.jpeg",
+    tamanho: ["P","M","G","GG"],
+    cor: ["branco","cinza","preto"],
+    descricao:""
+  },
+
+  {
+    id: 12011,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa11.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:""
+  },
+
+  {
+    id: 12012,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa12.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:""
+  },
+
+  {
+    id: 12013,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa13.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:""
+  },
+
+  {
+    id: 12014,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa14.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:""
+  },
+
+  {
+    id: 12015,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa15.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:""
+  },
+
+  {
+    id: 12016,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa16.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:""
+  },
+
+  {
+    id: 12017,
+    nome: "",
+    categoria: "camisas",
+    preco: 200.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa17.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:""
+  },
+
+  {
+    id: 12018,
+    nome: "",
+    categoria: "camisas",
+    preco: 200.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa18.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:""
+  },
+
+  {
+    id: 12019,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa19.jpeg",
+    tamanho: ["P","M","G","GG"],
+    cor: ["azul","preto","vermelho"],
+    descricao:""
+  },
+
+  {
+    id: 12020,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa20.jpeg",
+    tamanho: ["P","M","G","GG"],
+    cor: ["branco","preto","vermelho"],
+    descricao:""
+  },
+
+  {
+    id: 12021,
+    nome: "",
+    categoria: "camisas",
+    preco: 95.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa21.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:""
+  },
+
+  {
+    id: 12022,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa22.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:""
+  },
+
+  {
+    id: 12023,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa23.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:""
+  },
+
+  {
+    id: 12024,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa24.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:""
+  },
+
+  {
+    id: 12025,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa25.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:""
+  },
+
+  {
+    id: 12026,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa26.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:""
+  },
+
+  {
+    id: 12027,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa27.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:""
+  },
+
+  {
+    id: 12028,
+    nome: "",
+    categoria: "camisas",
+    preco: 80.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa28.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:""
+  },
 
    // ================= ESPORTES =================
 {
@@ -2760,7 +3196,7 @@ const PRODUTOS = [
     id: 4022,
     nome: "Nutri Whey Protein (907g) da Integralmedica",
     categoria: "suplementos",
-    preco: 185.00,
+    preco: 175.00,
     imagem: "../suplementoEsporte/suplementosFotos/whey5.jpeg",
     descricao:" Nutri Whey Protein (907g) da Integralmedica é o suplemento ideal para quem busca o ganho de massa muscular com foco em volume e força. Sua fórmula equilibrada entrega impressionantes 30g de proteína por porção, unindo proteínas do soro do leite (Whey Protein), albumina e carboidratos complexos de alta absorção. É livre de glúten e possui baixo teor de gordura (Low Fat), garantindo o aporte energético necessário para treinos intensos e uma recuperação acelerada. Com excelente custo-benefício, é a escolha estratégica para atletas que precisam de uma nutrição muscular completa para atingir resultados sólidos e duradouros."
   },
@@ -2864,6 +3300,61 @@ const PRODUTOS = [
     imagem: "../brinquedos/brinquedosFoto/cavalinhos brasileirão.jpeg",
     time: ["Flamengo","Corinthians","Palmeiras","São Paulo","Grêmio","Internacional"],
     descricao:"O Cavalinho do Fantástico é um brinquedo de pelúcia inspirado nos icônicos personagens que aparecem semanalmente no programa da TV Globo para representar a classificação dos clubes no Campeonato Brasileiro. Confeccionados em material antialérgico de alta qualidade e com enchimento de fibra siliconada, esses bonecos apresentam as cores e o escudo oficial de diversos times, como Corinthians, Palmeiras, Flamengo e São Paulo. Cada modelo possui aproximadamente 40 a 45 centímetros de altura e conta com detalhes característicos, como o sorriso de dentes grandes e os olhos expressivos que cativaram tanto o público infantil quanto os colecionadores adultos."
+  },
+
+  {
+    id: 5006,
+    nome: "Bola de Futebol DUTE azul",
+    categoria: "brinquedos",
+    preco: 45.00,
+    imagem: "../brinquedos/brinquedosFoto/bola de praia 1.jpeg",
+    descricao:""
+  },
+
+  {
+    id: 5007,
+    nome: "Bola de Futebol DUTE verde",
+    categoria: "brinquedos",
+    preco: 45.00,
+    imagem: "../brinquedos/brinquedosFoto/bola de praia 2.jpeg",
+    descricao:""
+  },
+
+  {
+    id: 5008,
+    nome: "Bola de Futebol DUTE amarela",
+    categoria: "brinquedos",
+    preco: 45.00,
+    imagem: "../brinquedos/brinquedosFoto/bola de praia 3.jpeg",
+    descricao:""
+  },
+
+  {
+    id: 5009,
+    nome: "Bola de Futebol",
+    categoria: "brinquedos",
+    preco: 45.00,
+    imagem: "../brinquedos/brinquedosFoto/bola de praia.jpeg",
+    cor:["branco","vermelho","azul","verde","amarelo"],
+    descricao:""
+  },
+
+  {
+    id: 5010,
+    nome: "Bola de Vôlei RUIXING",
+    categoria: "brinquedos",
+    preco: 45.00,
+    imagem: "../brinquedos/brinquedosFoto/bola de vôlei.jpeg",
+    descricao:""
+  },
+
+  {
+    id: 5011,
+    nome: "Rede de  Vôlei",
+    categoria: "brinquedos",
+    preco: 120.00,
+    imagem: "../brinquedos/brinquedosFoto/rede de vôlei.jpeg",
+    descricao:""
   },
 
   
@@ -3033,9 +3524,109 @@ const PRODUTOS = [
     id: 8000,
     nome: "Kit Militar Operacional Cerberus",
     categoria: "cursoCampo",
-    preco: 80.00,
+    preco: 270.00,
     imagem: "../cursoCampo/cursoCampoFoto/kit mlitar.jpeg",
     descricao:"Kit Militar Operacional Cerberus foi projetado para manter seus equipamentos secos e organizados sob qualquer condição climática. Cada pote possui uma etiqueta específica para facilitar a logística: Higiene, Manutenção de Fuzil, Primeiro Socorros, Sobrevivência e Coturno. Fabricados em polímero robusto, os recipientes são extremamente duráveis — suportando até 120kg de pressão — e contam com vedação que protege contra água e poeira. É um item indispensável para militares e entusiastas de bushcraft que buscam otimizar o espaço na mochila e garantir a integridade dos seus suprimentos."
+  },
+
+  {
+    id: 8001,
+    nome: "Cabo Sotero 5 metros",
+    categoria: "cursoCampo",
+    preco: 50.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/cabo solteiro.jpeg",
+    descricao:""
+  },
+
+  {
+    id: 8002,
+    nome: "Copo verde militar",
+    categoria: "cursoCampo",
+    preco: 8.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/coppo verde oliva.jpeg",
+    descricao:""
+  },
+
+  {
+    id: 8003,
+    nome: "Kit talher articulado",
+    categoria: "cursoCampo",
+    preco: 30.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/kit talher articulado.jpeg",
+    descricao:""
+  },
+
+  {
+    id: 8010,
+    nome: "Liga de Cantil",
+    categoria: "cursoCampo",
+    preco: 10.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/liga de cantil.jpeg",
+    descricao:""
+  },
+
+  {
+    id: 8011,
+    nome: "Lona Preta para cursos/campo",
+    categoria: "cursoCampo",
+    preco: 10.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/lona preta curso-campo.jpeg",
+    descricao:""
+  },
+
+  {
+    id: 8012,
+    nome: "Cyalume",
+    categoria: "cursoCampo",
+    preco: 20.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/luminaria.jpeg",
+    descricao:""
+  },
+
+  {
+    id: 8013,
+    nome: "Mosquetão",
+    categoria: "cursoCampo",
+    preco: 20.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/mosquetão.jpeg",
+    descricao:""
+  },
+
+  {
+    id: 8015,
+    nome: "Pulseira Pedemeira verde",
+    categoria: "cursoCampo",
+    preco: 35.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/pulseira pederneira verde.jpeg",
+    descricao:""
+  },
+  
+
+  {
+    id: 8016,
+    nome: "Pulseira Pedemeira preta",
+    categoria: "cursoCampo",
+    preco: 35.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/pulseira pederneira.jpeg",
+    descricao:""
+  },
+
+  {
+    id: 8017,
+    nome: "Tinta para Camuflagem",
+    categoria: "cursoCampo",
+    preco: 30.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/tinta camuflagem 1.jpeg",
+    descricao:""
+  },
+
+  {
+    id: 8018,
+    nome: "Tinta para Camuflagem + Espelho",
+    categoria: "cursoCampo",
+    preco: 35.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/tinta camuflagem.jpeg",
+    descricao:""
   },
 
   // ================= ORTOPÉDICO =================
