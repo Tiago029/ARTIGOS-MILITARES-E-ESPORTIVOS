@@ -539,14 +539,18 @@ header img {
 /* SUBCATEGORIAS FLUTUANTES FORA DA BARRA */
 .subcategorias {
     display: none;
+    position: absolute;   /* ESSENCIAL */
+    top: 100%;
+    left: 0;
 
     background-color: #333;
     border-radius: 5px;
     min-width: 160px;
     padding: 5px 0;
+
     z-index: 9999;
     flex-direction: column;
-
+    
 }
 
 /* ================= CARRINHO FLUTUANTE ================= */
