@@ -1044,7 +1044,7 @@ const PRODUTOS = [
     id: 317,
     nome: "Chuteira Society Nike Air Zoom Mercurial Superfly 9 Elite TF – Cinza e Verde Neon",
     categoria: "Society",
-    preco:180.00,
+    preco:300.00,
     imagem: "../calcados/society/SOCIETY1.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
     descricao:"A Chuteira Nike Air Zoom Mercurial Superfly 9 Elite TF é a escolha definitiva para jogadores que buscam velocidade explosiva, controle absoluto e um ajuste de segunda pele nos gramados sintéticos. Construída com o revolucionário cabedal em Flyknit e camadas de NikeSkin, ela envolve o pé com precisão, garantindo durabilidade extrema e uma sensibilidade tátil inigualável para dribles rápidos e finalizações precisas. O grande diferencial deste modelo é a unidade Zoom Air integrada no solado, que oferece um amortecimento responsivo de elite e um retorno de energia superior em cada passada, minimizando a fadiga durante as partidas mais intensas. O colarinho Dynamic Fit de cano médio proporciona suporte adicional ao tornozelo, mantendo a estabilidade total em mudanças bruscas de direção. Equipada com uma sola de borracha antiderrapante de alta tração, ela assegura uma aderência imbatível e propulsão máxima em superfícies de society e turf. Leve, estável e esteticamente impactante com seus detalhes em cinza e neon, esta chuteira une a engenharia de performance da Nike com a funcionalidade necessária para dominar o jogo com total confiança e agilidade tática."
@@ -1054,7 +1054,7 @@ const PRODUTOS = [
     id: 318,
     nome: "Chuteira Society Messi X Speedportal Canelada – Edição Especial Roxo e Turquesa",
     categoria: "Society",
-    preco:180.00,
+    preco:300.00,
     imagem: "../calcados/society/SOCIETY2.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
     descricao:"A Chuteira Society Messi X Speedportal Canelada é a escolha definitiva para jogadores que buscam velocidade explosiva, suporte superior e o estilo inconfundível do maior camisa 10 da história nos gramados sintéticos. Construída com um cabedal híbrido em mesh texturizado e tecido canelado de alta elasticidade, ela apresenta um colarinho de cano alto que envolve o tornozelo com precisão, garantindo um ajuste de segunda pele e estabilidade total em mudanças bruscas de direção. O grande diferencial deste modelo é o seu design aerodinâmico em tons vibrantes de roxo e turquesa, ostentando o icônico número 10 no calcanhar e grafismos dinâmicos que proporcionam uma aderência superior com a bola para dribles rápidos e finalizações cirúrgicas. Equipada com um solado de borracha de alta tração e microtravas multidirecionais, ela assegura uma propulsão máxima e segurança absoluta em qualquer condição de jogo, enquanto a palmilha acolchoada oferece conforto prolongado durante as partidas mais intensas. Leve, estável e esteticamente impactante, esta chuteira une a engenharia de performance com a inspiração tática necessária para dominar o campo e superar qualquer adversário com total confiança e agilidade."
@@ -1064,7 +1064,7 @@ const PRODUTOS = [
     id: 319,
     nome: "Chuteira Society Nike Air Zoom Mercurial Superfly 9 Academy TF – Lemon/Black",
     categoria: "Society",
-    preco:180.00,
+    preco:300.00,
     imagem: "../calcados/society/SOCIETY3.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
     descricao:"A Chuteira Nike Air Zoom Mercurial Superfly 9 Academy TF é a ferramenta definitiva para jogadores que buscam velocidade explosiva e controle total nos gramados sintéticos. Construída com um cabedal texturizado que proporciona uma aderência superior com a bola em alta velocidade, ela apresenta o icônico colarinho Dynamic Fit em tecido elástico, que envolve o tornozelo para uma sensação de suporte e ajuste de segunda pele. O grande diferencial deste modelo é a unidade Zoom Air articulada no calcanhar, que oferece um amortecimento responsivo de elite e um impulso extra a cada passada, minimizando a fadiga durante as partidas mais intensas. Equipada com um solado de borracha com microtravas multidirecionais projetadas para superfícies de turf (society), ela assegura tração imbatível e arranques rápidos em qualquer direção. Leve, estável e visualmente impactante com a estampa AIR em destaque, esta chuteira une a engenharia de performance da Nike com a funcionalidade necessária para dominar o jogo e superar qualquer adversário com total confiança e agilidade."
@@ -1074,7 +1074,7 @@ const PRODUTOS = [
     id: 320,
     nome: "Chuteira Society Nike Air Zoom Mercurial Superfly 9 Academy TF – Pink/White",
     categoria: "Society",
-    preco:180.00,
+    preco:300.00,
     imagem: "../calcados/society/SOCIETY4.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
     descricao:"A Chuteira Nike Air Zoom Mercurial Superfly 9 Academy TF é a ferramenta definitiva para jogadores que buscam velocidade explosiva e controle total nos gramados sintéticos. Construída com um cabedal texturizado que proporciona uma aderência superior com a bola em alta velocidade, ela apresenta o icônico colarinho Dynamic Fit em tecido elástico, que envolve o tornozelo para uma sensação de suporte e ajuste de segunda pele. O grande diferencial deste modelo é a unidade Zoom Air articulada no calcanhar, que oferece um amortecimento responsivo de elite e um impulso extra a cada passada, minimizando a fadiga durante as partidas mais intensas. Equipada com um solado de borracha com microtravas multidirecionais projetadas para superfícies de turf (society), ela assegura tração imbatível e arranques rápidos em qualquer direção. Leve, estável e visualmente impactante com a estampa AIR em destaque, esta chuteira une a engenharia de performance da Nike com a funcionalidade necessária para dominar o jogo e superar qualquer adversário com total confiança e agilidade."
@@ -1084,7 +1084,7 @@ const PRODUTOS = [
     id: 321,
     nome: "Chuteira Futsal Air Zoom Mercurial Vapor 15 Black & Blue Edition",
     categoria: "Society",
-    preco:180.00,
+    preco:300.00,
     imagem: "../calcados/society/SOCIETY5.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
     descricao:"A Chuteira Futsal Air Zoom Mercurial Vapor 15 é a ferramenta definitiva para jogadores que buscam velocidade explosiva, controle absoluto e um ajuste de segunda pele nas quadras de salão. Construída com um cabedal texturizado de alta durabilidade e padrão de micro ranhuras, ela oferece uma aderência superior com a bola para dribles rápidos e finalizações precisas mesmo sob máxima pressão. O grande diferencial deste modelo é a sua entressola de perfil baixo com tecnologia de amortecimento responsivo, que garante um retorno de energia superior e proteção contra impactos em cada passada. O colarinho em tecido elástico proporciona um calce firme e anatômico, enquanto o solado de borracha non-marking de alta tração assegura estabilidade total e mudanças rápidas de direção sem deixar marcas na quadra. Leve, estável e esteticamente impactante com seus detalhes em azul neon, esta chuteira une a engenharia de performance com a funcionalidade necessária para dominar o jogo e superar qualquer adversário com total confiança e agilidade tática."
@@ -1094,7 +1094,7 @@ const PRODUTOS = [
     id: 322,
     nome: "Chuteira Futsal Mercurial Air Zoom Vapor 15 Purple & Lemon – Edição de Elite",
     categoria: "Society",
-    preco:180.00,
+    preco:300.00,
     imagem: "../calcados/society/SOCIETY6.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
     descricao:"A Chuteira Futsal Mercurial Air Zoom Vapor 15 é a ferramenta definitiva para jogadores que buscam velocidade explosiva, controle absoluto e um ajuste de segunda pele nas quadras de salão. Construída com um cabedal texturizado de alta durabilidade e padrão de micro ranhuras em zigue-zague, ela oferece uma aderência superior com a bola para dribles rápidos e finalizações precisas mesmo sob máxima pressão. O grande diferencial deste modelo é a sua entressola de perfil baixo com tecnologia de amortecimento responsivo, que garante um retorno de energia superior e proteção contra impactos em cada passada. O colarinho em tecido elástico (Primeknit) proporciona um calce firme e anatômico, enquanto o solado de borracha non-marking de alta tração assegura estabilidade total e mudanças rápidas de direção sem deixar marcas na quadra. Leve, estável e esteticamente impactante com seus detalhes em amarelo vibrante, esta chuteira une a engenharia de performance com a funcionalidade necessária para dominar o jogo e superar qualquer adversário com total confiança e agilidade tática."
@@ -1104,7 +1104,7 @@ const PRODUTOS = [
     id: 323,
     nome: "Chuteira Society Nike Air Zoom Mercurial Superfly 9 Elite TF – Branca e Rosa",
     categoria: "Society",
-    preco:180.00,
+    preco:300.00,
     imagem: "../calcados/society/SOCIETY7.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
     descricao:"A Chuteira Nike Air Zoom Mercurial Superfly 9 Elite TF é a escolha definitiva para jogadores que buscam velocidade explosiva, controle absoluto e um ajuste de segunda pele nos gramados sintéticos. Construída com o revolucionário cabedal em Flyknit e camadas de NikeSkin, ela envolve o pé com precisão, garantindo durabilidade extrema e uma sensibilidade tátil inigualável para dribles rápidos e finalizações precisas. O grande diferencial deste modelo é a unidade Zoom Air integrada no solado, que oferece um amortecimento responsivo de elite e um retorno de energia superior em cada passada, minimizando a fadiga durante as partidas mais intensas. O colarinho Dynamic Fit de cano médio proporciona suporte adicional ao tornozelo, mantendo a estabilidade total em mudanças bruscas de direção. Equipada com uma sola de borracha antiderrapante de alta tração, ela assegura uma aderência imbatível e propulsão máxima em superfícies de society e turf. Leve, estável e esteticamente impactante com seus tons vibrantes de rosa, esta chuteira une a engenharia de performance da Nike com a funcionalidade necessária para dominar o jogo com total confiança e agilidade tática."
@@ -1114,7 +1114,7 @@ const PRODUTOS = [
     id: 324,
     nome: "Chuteira Society Nike Air Zoom Mercurial Superfly 9 Elite TF – Verde Água e Roxo",
     categoria: "Society",
-    preco:180.00,
+    preco:300.00,
     imagem: "../calcados/society/SOCIETY8.jpeg",
     tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
     descricao:"A Chuteira Nike Air Zoom Mercurial Superfly 9 Elite TF é a escolha definitiva para jogadores que buscam velocidade explosiva, controle absoluto e um ajuste de segunda pele nos gramados sintéticos. Construída com o revolucionário cabedal em Flyknit e camadas de NikeSkin, ela envolve o pé com precisão, garantindo durabilidade extrema e uma sensibilidade tátil inigualável para dribles rápidos e finalizações precisas. O grande diferencial deste modelo é a unidade Zoom Air integrada no solado, que oferece um amortecimento responsivo de elite e um retorno de energia superior em cada passada, minimizando a fadiga durante as partidas mais intensas. O colarinho Dynamic Fit de cano médio proporciona suporte adicional ao tornozelo, mantendo a estabilidade total em mudanças bruscas de direção. Equipada com uma sola de borracha antiderrapante de alta tração, ela assegura uma aderência imbatível e propulsão máxima em superfícies de society e turf. Leve, estável e esteticamente impactante com seus tons vibrantes de roxo, esta chuteira une a engenharia de performance da Nike com a funcionalidade necessária para dominar o jogo com total confiança e agilidade tática."
@@ -1541,7 +1541,7 @@ const PRODUTOS = [
     preco: 280.00,
     imagem: "../fardamentosMilitares/fardasMilitaresFoto/conjunto roupa azul.jpeg",
     tamanho: ["P", "M", "G", "GG"],
-    descricao:"" // NOVO CAMPO
+    descricao:"Este fardamento tático azul noturno, composto por uma Combat Shirt e calça cargo, foi projetado para missões que exigem alta performance e proteção. A Combat Shirt combina o tronco em tecido Dri-Fit, que se molda ao corpo e melhora o resfriamento natural, com mangas e gola em tecido Ripstop altamente resistente a trações e rasgos. Oferece proteção solar UV50+, possui dois bolsos táticos nas mangas com velcro para identificações e gola com fechamento em zíper reforçado. A calça operacional é confeccionada em tecido Ripstop reforçado, garantindo durabilidade extrema para atividades como airsoft ou patrulhamento. Apresenta modelagem anatômica com 6 bolsos funcionais (2 frontais, 2 laterais cargo e 2 traseiros), costuras duplas e reforço nos joelhos para maior segurança e mobilidade." // NOVO CAMPO
   },
 
   {
@@ -1551,7 +1551,7 @@ const PRODUTOS = [
     preco: 280.00,
     imagem: "../fardamentosMilitares/fardasMilitaresFoto/conjunto roupa preta.jpeg",
     tamanho: ["P", "M", "G", "GG"],
-    descricao:"" // NOVO CAMPO
+    descricao:"Este fardamento tático cinza, composto por uma Combat Shirt e calça cargo, é a escolha definitiva para profissionais e entusiastas que buscam resistência e agilidade em missões ou esportes de aventura. Projetada para máximo conforto sob coletes, esta camisa combina o tronco em tecido Dry Fit de secagem rápida com mangas em Ripstop reforçado. Possui bolsos táticos nas mangas com velcro para identificação, gola com zíper invisível e proteção solar UV50+.Confeccionada em tecido Ripstop de alta durabilidade, esta calça conta com costuras duplas e reforço nos joelhos para suportar terrenos irregulares. Oferece praticidade com 6 bolsos estratégicos (2 faca, 2 laterais cargo e 2 traseiros) e modelagem anatômica para total mobilidade." // NOVO CAMPO
   },
 
   {
@@ -1561,7 +1561,7 @@ const PRODUTOS = [
     preco: 12.00,
     imagem: "../fardamentosMilitares/fardasMilitaresFoto/meia tfm.jpeg",
     tamanho: ["P", "M", "G", "GG"],
-    descricao:"" // NOVO CAMPO
+    descricao:"Esta meia branca de cano alto para TFM é o item essencial para garantir conforto e conformidade no treinamento físico militar. Com design totalmente branco e cano alto, ela atende aos padrões regulamentares em quartéis e academias de polícia. Fabricada com alta concentração de algodão, proporciona excelente conforto térmico e absorção de suor, mantendo os pés secos durante atividades intensas. O punho canelado de alta elasticidade garante um ajuste firme que não escorrega em corridas ou marchas, enquanto os reforços estratégicos no calcanhar e nas pontas aumentam a durabilidade contra o atrito. É a escolha perfeita para evitar bolhas e garantir máxima performance em exercícios de alto impacto." // NOVO CAMPO
   },
 
   {
@@ -1571,7 +1571,7 @@ const PRODUTOS = [
     preco: 13.00,
     imagem: "../fardamentosMilitares/fardasMilitaresFoto/meia VO.jpeg",
     tamanho: ["P", "M", "G", "GG"],
-    descricao:"" // NOVO CAMPO
+    descricao:" Desenvolvida para uso tático e militar, ela apresenta um design canelado de alta elasticidade que mantém a meia firme no lugar sem apertar excessivamente a panturrilha. Confeccionada com material de alta qualidade e respirabilidade, promove uma excelente absorção de suor, mantendo os pés secos mesmo após longas marchas ou períodos prolongados com coturno. O tecido reforçado nas áreas de maior atrito, como calcanhar e pontas, aumenta significativamente a durabilidade do produto e previne a formação de bolhas. Sua tonalidade verde oliva segue rigorosamente os padrões regulamentares, sendo a escolha ideal para profissionais que buscam performance, proteção e resistência em qualquer missão ou atividade ao ar livre." // NOVO CAMPO
   },
 
   {
@@ -2631,300 +2631,300 @@ const PRODUTOS = [
   // ================= CAMISAS =================
    {
     id: 12000,
-    nome: "",
+    nome: "Camisa Polo",
     categoria: "camisas",
     preco: 85.00,
     imagem: "../suplementoEsporte/camisasFotos/blusa3.jpeg",
     tamanho: ["P","M","G","GG"],
     cor: ["preto","verde","azul","baje areia"],
-    descricao:""
+    descricao:"Confeccionada em tecido de alta performance, ela oferece excelente respirabilidade e secagem rápida, mantendo o conforto térmico mesmo sob uso intenso. O design conta com bolsos funcionais e painéis de velcro nas mangas para a fixação de patches e identificações, facilitando a personalização. Suas costuras reforçadas e gola estruturada garantem durabilidade e resistência contra o desgaste do dia a dia. "
   },
 
   {
     id: 12001,
-    nome: "",
+    nome: "Camisa Nike",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa1.jpeg",
     tamanho: ["P","M","G","GG"],
     cor: ["azul","azul bebê","preto","cinza","vermelho"],
-    descricao:""
+    descricao:"A camisa Nike apresenta tecnologia Dri-Fit, que afasta o suor da pele para uma evaporação mais rápida, mantendo o corpo seco e confortável. Com um caimento Slim Fit ou de compressão, ela se ajusta perfeitamente ao corpo, destacando a musculatura e oferecendo total liberdade de movimento."
   },
 
   {
     id: 12002,
-    nome: "",
+    nome: "Camisa Nike Pro Dri-Fit",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa2.jpeg",
     tamanho: ["P","M","G","GG"],
     cor: ["vermelho","azul","marrom","baje areia","preto","branco"],
-    descricao:""
+    descricao:"A camiseta de compressão Nike Pro Dri-Fit foi desenvolvida para atletas que buscam performance superior e conforto térmico em qualquer modalidade. Fabricadas em tecido de alta tecnologia, elas promovem uma compressão estratégica que auxilia na recuperação muscular e reduz a fadiga durante exercícios intensos. A tecnologia Dri-Fit afasta o suor da pele para uma evaporação mais rápida, mantendo o corpo seco e leve o tempo todo. Com modelagem anatômica e costuras reforçadas que evitam o atrito, estas peças oferecem total liberdade de movimento e durabilidade extrema."
   },
 
   {
     id: 12003,
-    nome: "",
+    nome: "Camiseta Esportiva Integralmedica",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa3.jpeg",
     tamanho: ["P","M","G","GG"],
     cor: ["preto","vermelho"],
-    descricao:""
+    descricao:"Fabricada em tecido Dry Fit de alta qualidade com proteção UV 35+, esta peça garante secagem rápida do suor e total liberdade de movimento. A modelagem raglan e a gola rebatida proporcionam um ajuste anatômico superior que valoriza o shape, enquanto a estampa em Silk Screen de alta durabilidade resiste a inúmeras lavagens sem desbotar. Ideal para musculação e atividades ao ar livre, o modelo combina funcionalidade técnica com a icônica frase Good Design is Aesthetics, unindo o legado do fisiculturismo ao conforto moderno."
   },
 
   {
     id: 12004,
-    nome: "",
+    nome: "Camiseta Esportiva Growth Supplements ",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa4.jpeg",
     tamanho: ["P","M","G","GG"],
-    descricao:""
+    descricao:" A Camiseta Esportiva Growth Supplements é a escolha ideal para quem busca máximo desempenho e estilo durante os treinos. Confeccionada em tecido tecnológico Dry Fit, ela proporciona excelente respirabilidade e rápida absorção de suor, mantendo o corpo seco e confortável mesmo em atividades de alta intensidade. A modelagem raglan com mangas anatômicas garante total liberdade de movimento para os braços, sendo perfeita para musculação, corrida ou crossfit. O design moderno em preto conta com o logotipo clássico estampado no peitoral e um selo de autenticidade nas costas, reforçando o compromisso com a qualidade da marca. Resistente e de secagem ultra-rápida, esta peça une durabilidade e praticidade para o seu dia a dia fitness."
   },
 
   {
     id: 12005,
-    nome: "",
+    nome: "Camiseta Esportiva do UFC ",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa5.jpeg",
     tamanho: ["P","M","G","GG"],
-    descricao:""
+    descricao:"Esta camiseta esportiva do UFC em parceria com a Venum é o item indispensável para quem busca o máximo desempenho em treinos de alta intensidade ou no dia a dia. Confeccionada em tecido tecnológico Dry Fit, ela promove excelente respirabilidade e rápida absorção de suor, mantendo o corpo seco e confortável. O design conta com mangas raglan que garantem total amplitude de movimento, ideal para lutas, musculação ou crossfit. Sua modelagem anatômica valoriza o shape enquanto as estampas frontais de alta durabilidade reforçam a autenticidade e o estilo de quem vive o espírito de combate. Resistente, leve e de secagem ultra-rápida, esta peça une a autoridade da maior organização de MMA do mundo com a tecnologia de ponta da Venum."
   },
 
   {
     id: 12006,
-    nome: "",
+    nome: "Camiseta de Treino Integralmedica e Darkness",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa6.jpeg",
     tamanho: ["P","M","G","GG"],
     cor: ["preto","vermelho"],
-    descricao:""
+    descricao:"Camiseta de Treino Integralmedica e Darkness confeccionadas em tecido Dry Fit de alta performance com proteção UV 35+, ambas garantem respirabilidade superior e secagem rápida do suor. A modelagem raglan e as costuras reforçadas oferecem um ajuste anatômico que valoriza o shape e permite total liberdade de movimento em treinos de alta intensidade. Com estampas em Silk Screen de alta durabilidade, estas peças são resistentes ao desgaste e não desbotam, sendo a escolha definitiva para quem busca conforto e atitude dentro e fora da academia."
   },
 
   {
     id: 12007,
-    nome: "",
+    nome: "Camiseta Integralmedica ",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa7.jpeg",
     tamanho: ["P","M","G","GG"],
-    descricao:""
+    descricao:"Camiseta Integralmedica inspirada no estilo Zyzz, é o item definitivo para quem busca estética e performance em treinos de alta intensidade. Confeccionada em tecido Dry Fit premium com proteção UV 35+, ela oferece respirabilidade superior e secagem ultra-rápida, mantendo o corpo fresco durante toda a atividade. O design conta com modelagem raglan e gola rebatida, garantindo um ajuste anatômico que valoriza o shape e permite total amplitude de movimento. No peito, ostenta a logo clássica da marca, enquanto as costas trazem a icônica estampa Good Design is Aesthetics em Silk Screen de alta durabilidade que não desbota. Resistente e leve, é a escolha perfeita para unir o legado do fisiculturismo ao conforto técnico moderno."
   },
 
   {
     id: 12008,
-    nome: "",
+    nome: "Camisa Max Titaanium e Integralmedica",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa8.jpeg",
     tamanho: ["P","M","G","GG"],
-    descricao:""
+    descricao:"Camisa Max Titaanium e Integralmedica, fabricadas em tecido Dry Fit premium com proteção UV 35+, as peças garantem respirabilidade superior e secagem ultra-rápida, ideais para treinos intensos. O design conta com modelagem raglan e gola rebatida, proporcionando um ajuste anatômico que valoriza o shape e permite total liberdade de movimento. Enquanto um modelo destaca a logo clássica da Max Titanium, o outro traz a icônica estampa Good Design is Aesthetics! inspirada no legado Zyzz em Silk Screen de alta durabilidade. Resistentes e leves, estas camisetas não desbotam e são a escolha definitiva para quem busca unir conforto técnico e atitude dentro e fora da academia."
   },
 
   {
     id: 12009,
-    nome: "",
+    nome: "Camiseta Esportiva LKF",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa9.jpeg",
     tamanho: ["P","M","G","GG"],
-    descricao:""
+    descricao:"Camiseta Esportiva LKF na cor azul royal é a escolha ideal para quem busca motivação e conforto em cada quilômetro. Confeccionada em tecido tecnológico Dry Fit, ela garante excelente respirabilidade e rápida absorção de suor, mantendo o corpo seco durante corridas ou treinos intensos. O design apresenta modelagem raglan, que proporciona maior liberdade de movimento para os braços, e gola rebatida para maior durabilidade. A estampa central Run Your Own Race é feita em Silk Screen de alta qualidade, garantindo que a mensagem não desbote com as lavagens. Leve, resistente e com secagem ultra-rápida, esta peça une funcionalidade técnica e um visual moderno para atletas de todos os níveis."
   },
 
   {
     id: 12010,
-    nome: "",
+    nome: "Camiseta Dark Lab ",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa10.jpeg",
     tamanho: ["P","M","G","GG"],
     cor: ["branco","cinza","preto"],
-    descricao:""
+    descricao:"Camiseta Dark Lab confeccionada em tecido tecnológico Dry Fit com proteção UV 35+, as peças garantem respirabilidade superior e secagem ultra-rápida, mantendo o corpo seco mesmo em atividades de alta intensidade. O design conta com modelagem raglan e gola rebatida, proporcionando um ajuste anatômico que valoriza o shape e permite total liberdade de movimento. A icônica logo Dark Lab é estampada em Silk Screen de alta durabilidade, assegurando que o visual não desbote com as lavagens frequentes."
   },
 
   {
     id: 12011,
-    nome: "",
+    nome: "Camisa Esportiva LKF",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa11.jpeg",
     tamanho: ["P","M","G","GG"],
-    descricao:""
+    descricao:"Esta camiseta esportiva LKF na cor vermelha é o item perfeito para injetar energia e motivação nos seus treinos de corrida. Confeccionada em tecido tecnológico Dry Fit, ela oferece respirabilidade superior e secagem ultra-rápida, mantendo você seco e focado na sua meta. O design conta com modelagem raglan e mangas anatômicas que garantem total amplitude de movimento, enquanto a gola rebatida assegura maior durabilidade à peça. A estampa central Run Your Own Race é feita em Silk Screen de alta qualidade, resistindo a inúmeras lavagens sem desbotar ou rachar. Leve, funcional e vibrante, esta camiseta une alta performance técnica a um visual moderno para quem busca superar seus próprios limites com conforto e atitude."
   },
 
   {
     id: 12012,
-    nome: "",
+    nome: "Camisa Esportiva LKF",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa12.jpeg",
     tamanho: ["P","M","G","GG"],
-    descricao:""
+    descricao:"Esta camiseta esportiva LKF na cor cinza chumbo é a escolha definitiva para quem busca foco e alta performance em cada treino. Confeccionada em tecido tecnológico Dry Fit, ela oferece respirabilidade superior e secagem ultra-rápida, mantendo você seco mesmo nos treinos mais intensos. O design conta com modelagem raglan e mangas anatômicas que garantem total amplitude de movimento, enquanto a gola rebatida assegura maior durabilidade à peça. A estampa centra Run Your Own Race é feita em Silk Screen de alta qualidade, resistindo a inúmeras lavagens sem desbotar ou rachar. Leve, funcional e de visual moderno, esta camiseta une resistência técnica a uma mensagem motivadora para quem busca superar seus próprios limites com conforto."
   },
 
   {
     id: 12013,
-    nome: "",
+    nome: "Camisa Growth Supplements",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa13.jpeg",
     tamanho: ["P","M","G","GG"],
-    descricao:""
+    descricao:"Confeccionada em tecido de alta qualidade, ela oferece um toque macio e excelente respirabilidade, garantindo conforto térmico mesmo nos treinos mais pesados. O design apresenta a icônica frase motivacional Cresce, Sobe, Segura, Esmaga, assinada pelo atleta Leo Stronda, reforçando a atitude de quem busca a hipertrofia máxima. Sua modelagem anatômica valoriza o shape e permite total liberdade de movimento para exercícios de braços e peitoral. A estampa em Silk Screen de alta durabilidade resiste a inúmeras lavagens sem desbotar ou rachar. É a peça perfeita para unir o legado da musculação brasileira à resistência técnica exigida no dia a dia da academia."
   },
 
   {
     id: 12014,
-    nome: "",
+    nome: "Camisa Integralmedica",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa14.jpeg",
     tamanho: ["P","M","G","GG"],
-    descricao:""
+    descricao:"Camisa Integralmedica preta, inspirada no lendário estilo Zyzz, é a peça definitiva para quem busca estética e performance superior. Confeccionada em tecido Dry Fit premium com proteção UV 35+, ela oferece respirabilidade máxima e secagem ultra-rápida, mantendo o corpo seco durante treinos intensos. O design conta com modelagem raglan e gola rebatida, garantindo um ajuste anatômico que valoriza o shape e permite total liberdade de movimento. No peito, ostenta a logo clássica da marca, enquanto as costas trazem a icônica estampa Good Design is Aesthetics! em Silk Screen de alta durabilidade que não desbota. Resistente, leve e cheia de atitude, é a escolha perfeita para unir o legado do fisiculturismo ao conforto técnico moderno."
   },
 
   {
     id: 12015,
-    nome: "",
+    nome: "Camisa Growth Supplements",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa15.jpeg",
     tamanho: ["P","M","G","GG"],
-    descricao:""
+    descricao:"Camisa Growth Supplements é o item clássico indispensável para quem vive a cultura do bodybuilding com intensidade. Confeccionada em tecido de alta qualidade, ela oferece um toque macio e excelente respirabilidade, garantindo conforto térmico mesmo nos treinos mais pesados. O design apresenta a icônica frase The Iron Never Lies, simbolizando a disciplina e a verdade por trás de cada repetição. Sua modelagem anatômica valoriza o shape e permite total liberdade de movimento para exercícios de braços e peitoral. A estampa frontal em Silk Screen de alta durabilidade resiste a inúmeras lavagens sem desbotar ou rachar. É a peça perfeita para unir o legado da musculação à resistência técnica exigida no dia a dia da academia."
   },
 
   {
     id: 12016,
-    nome: "",
+    nome: "Camisa Dux Nutrition Lab",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa16.jpeg",
     tamanho: ["P","M","G","GG"],
-    descricao:""
+    descricao:"Camisa Dux Nutrition Lab confeccionada em tecido de alta qualidade, ela oferece um toque macio e excelente respirabilidade, garantindo conforto térmico mesmo nos treinos mais pesados. O design apresenta o logotipo icônico da marca estampado no peitoral, simbolizando a performance e a nutrição avançada. Sua modelagem anatômica valoriza o shape e permite total liberdade de movimento para exercícios de braços e peitoral. A estampa frontal em Silk Screen de alta durabilidade resiste a inúmeras lavagens sem desbotar ou rachar. É a peça perfeita para unir o legado da suplementação à resistência técnica exigida no dia a dia da academia."
   },
 
   {
     id: 12017,
-    nome: "",
+    nome: "Moletom Growth Supplements",
     categoria: "camisas",
     preco: 200.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa17.jpeg",
     tamanho: ["P","M","G","GG"],
-    descricao:""
+    descricao:"Moletom Growth Supplements confeccionado em algodão de alta qualidade com interior flanelado, ele oferece um toque macio e excelente isolamento para os dias mais frios. O design moderno em dois tons apresenta o logotipo icônico estampado no peitoral com acabamento de alta durabilidade que não desbota. Possui capuz ajustável com forro interno e o prático bolso frontal estilo canguru para maior funcionalidade. Sua modelagem anatômica valoriza o shape e garante total liberdade de movimento para o dia a dia. É o item essencial para unir a atitude do fisiculturismo à resistência técnica e durabilidade de uma peça premium." 
   },
 
   {
     id: 12018,
-    nome: "",
+    nome: "Moletom Growth Under",
     categoria: "camisas",
     preco: 200.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa18.jpeg",
     tamanho: ["P","M","G","GG"],
-    descricao:""
+    descricao:"Moletom Growth Under na cor bege é a peça ideal para quem busca o máximo de conforto e um visual sofisticado para o dia a dia ou momentos de lazer. Confeccionado em uma mistura equilibrada de algodão e poliéster, ele oferece um toque macio, excelente isolamento térmico e durabilidade para enfrentar dias mais frios com estilo."
   },
 
   {
     id: 12019,
-    nome: "",
+    nome: "Camisa Alpha",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa19.jpeg",
     tamanho: ["P","M","G","GG"],
     cor: ["azul","preto","vermelho"],
-    descricao:""
+    descricao:"Camisa Alpha é a escolha definitiva para quem busca alta performance em treinos de musculação e crossfit. Confeccionada em tecido tecnológico de secagem rápida, ela promove uma compressão estratégica que auxilia na recuperação muscular e reduz a fadiga durante exercícios intensos. O design conta com modelagem raglan e mangas anatômicas que garantem total amplitude de movimento, enquanto as costuras reforçadas evitam o atrito com a pele. Com a estampa Hungry for Success, esta peça une um visual agressivo e moderno à funcionalidade exigida por atletas de alto nível. Leve, resistente e respirável, está disponível nas cores azul royal, vermelho e preto, sendo perfeita para destacar o shape com máximo conforto."
   },
 
   {
     id: 12020,
-    nome: "",
+    nome: "Camisa Alpha",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa20.jpeg",
     tamanho: ["P","M","G","GG"],
     cor: ["branco","preto","vermelho"],
-    descricao:""
+    descricao:"Camisa Alpha confeccionada em tecido tecnológico de secagem rápida, ela promove uma compressão estratégica que auxilia na recuperação muscular e reduz a fadiga durante exercícios intensos. O design conta com modelagem raglan e mangas anatômicas que garantem total amplitude de movimento, enquanto as costuras reforçadas evitam o atrito com a pele. Com a estampa Hungry for Success, esta peça une um visual agressivo e moderno à funcionalidade exigida por atletas de alto nível. Leve, resistente e respirável, está disponível nas cores branco, vermelho e preto, sendo perfeita para destacar o shape com máximo conforto."
   },
 
   {
     id: 12021,
-    nome: "",
+    nome: "Camisa Térmica Masculina ",
     categoria: "camisas",
     preco: 95.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa21.jpeg",
     tamanho: ["P","M","G","GG"],
-    descricao:""
+    descricao:"Camisa Térmica Masculina de compressão é a escolha definitiva para quem busca performance superior e proteção em treinos intensos ou atividades ao ar livre. Confeccionada com tecnologia Dri-Fit e proteção solar UV 50+, ela mantém a temperatura corporal estável enquanto afasta o suor para uma secagem ultra-rápida. Sua modelagem Slim Fit de compressão se ajusta perfeitamente ao corpo, auxiliando na recuperação muscular e garantindo total liberdade de movimento. Com costuras reforçadas e gola redonda, oferece um toque macio de segunda pele, sendo ideal para uso solo ou sob uniformes em qualquer estação. É a peça essencial para unir resistência técnica, conforto térmico e máxima segurança contra os raios solares durante a prática esportiva."
   },
 
   {
     id: 12022,
-    nome: "",
+    nome: "Camisa Tática",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa22.jpeg",
     tamanho: ["P","M","G","GG"],
-    descricao:""
+    descricao:"Esta camiseta tática na cor preta é um item de distinção que carrega o prestigiado brasão das Operações Especiais do Batalhão de Operações Especiais de Fuzileiros Navais, conhecido como Batalhão Tonelero. Confeccionada em tecido de alta qualidade, como algodão ou poliéster, ela garante um toque macio e excelente durabilidade para o uso diário ou atividades intensas. O design apresenta uma estampa centralizada nas costas com o escudo preto característico, exibindo uma faca atravessada por um raio vermelho, símbolo de força e precisão. Sua modelagem anatômica proporciona um ajuste confortável que valoriza o porte físico sem restringir os movimentos, sendo ideal para entusiastas e profissionais da área militar. Resistente a lavagens frequentes, esta peça une a autoridade das tropas de elite da Marinha Brasileira a um visual moderno e imponente."
   },
 
   {
     id: 12023,
-    nome: "",
+    nome: "Camisa Justiceiro Skull Rifle",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa23.jpeg",
     tamanho: ["P","M","G","GG"],
-    descricao:""
+    descricao:"Camisa Justiceiro Skull Rifle confeccionada em malha premium 100% algodão, esta camiseta oferece um toque macio, caimento perfeito e alta durabilidade para o uso diário. O design exclusivo apresenta uma estampa de alto impacto que une o crânio característico do personagem Frank Castle a um rifle de assalto, simbolizando força e determinação. Com excelente acabamento e costuras duplas reforçadas, a peça mantém sua forma e cor mesmo após inúmeras lavagens. É o item indispensável para fãs da Marvel e entusiastas do estilo militar que buscam unir conforto técnico a uma estética imponente e cheia de personalidade."
   },
 
   {
     id: 12024,
-    nome: "",
+    nome: "Camisa Confeccionada COMANF",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa24.jpeg",
     tamanho: ["P","M","G","GG"],
-    descricao:""
+    descricao:"Esta camiseta tática preta é uma peça de alto impacto que carrega a identidade dos Comandos Anfíbios (COMANF), tropa de elite do Corpo de Fuzileiros Navais da Marinha do Brasil. Confeccionada em malha de alta qualidade, ela oferece um toque macio e excelente durabilidade para o uso diário ou atividades intensas. O design apresenta nas costas a inscrição COMANF em destaque, acompanhada do icônico emblema: um crânio sobreposto a uma âncora dourada e atravessado por um raio vermelho, símbolos de prontidão e força extrema. Sua modelagem anatômica proporciona um caimento perfeito que valoriza o porte físico sem restringir os movimentos. Com estampas resistentes que não desbotam, esta camiseta une a tradição e o prestígio das forças especiais brasileiras a um visual moderno e imponente para quem exige o máximo de resistência."
   },
 
   {
     id: 12025,
-    nome: "",
+    nome: "Camisa Dry-Fit Red Bull Racing",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa25.jpeg",
     tamanho: ["P","M","G","GG"],
-    descricao:""
+    descricao:"Camisa Dry-Fit Red Bull Racing é a escolha definitiva para os fãs de Fórmula 1 que buscam aliar o estilo das pistas ao máximo desempenho. Confeccionada em tecido tecnológico de secagem ultra-rápida, ela garante excelente respirabilidade e conforto térmico mesmo em dias de calor intenso. O design oficial em preto destaca os patrocinadores premium como Oracle, Honda, Mobil 1 e Tag Heuer, além do icônico logotipo dos touros vermelhos em estampas de alta durabilidade que não desbotam. Com modelagem anatômica e costuras reforçadas, a peça oferece total liberdade de movimento e um caimento impecável para o uso casual ou esportivo. É o item indispensável para quem deseja carregar a energia e a tradição da equipe campeã mundial com resistência e sofisticação."
   },
 
   {
     id: 12026,
-    nome: "",
+    nome: "Camisa Confeccionada Comandos do Exército Brasileiro",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa26.jpeg",
     tamanho: ["P","M","G","GG"],
-    descricao:""
+    descricao:"Camisa Tática Confeccionada Comandos do Exército Brasileiro . Confeccionada em tecido tecnológico Dry Fit com proteção UV, ela garante respirabilidade superior e secagem rápida do suor, sendo ideal para treinos de alta intensidade ou atividades operacionais. O design apresenta o icônico emblema Faca na Caveira no peitoral, símbolo de prontidão e letalidade das tropas de elite, acompanhado da bandeira do Brasil na manga. Sua modelagem Muscle Fit proporciona um ajuste anatômico que valoriza o porte físico sem restringir os movimentos. Resistente e com costuras reforçadas, esta peça une a autoridade das forças especiais brasileiras a um visual moderno e imponente para quem busca máxima durabilidade. "
   },
 
   {
     id: 12027,
-    nome: "",
+    nome: "Camisa Confeccionada FEB",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa27.jpeg",
     tamanho: ["P","M","G","GG"],
-    descricao:""
+    descricao:"Camisa Tática Confeccionada Expedicionária Brasileira (FEB) e sua atuação heroica na Segunda Guerra Mundial. Confeccionada em malha premium 100% algodão ou poliviscose, ela oferece um toque macio, excelente respirabilidade e durabilidade para o uso diário ou eventos cívicos. O design apresenta o icônico emblema da Cobra Fumando com efeito estonado (vintage), simbolizando a resposta brasileira aos céticos da época, acompanhado das inscrições Brasil e o período 1944/1945. Sua modelagem anatômica com gola careca reforçada proporciona um ajuste confortável que valoriza o porte físico sem restringir os movimentos. Com estampas de alta qualidade que resistem a inúmeras lavagens sem desbotar, esta peça une o orgulho nacional e o legado dos nossos pracinhas a um visual moderno, imponente e cheio de significado histórico."
   },
 
   {
     id: 12028,
-    nome: "",
+    nome: "Camisa Evolução Tática",
     categoria: "camisas",
     preco: 80.00,
     imagem: "../suplementoEsporte/camisasFotos/camisa28.jpeg",
     tamanho: ["P","M","G","GG"],
-    descricao:""
+    descricao:"Camisa Evolução Tática, que ilustra de forma criativa a jornada do guerreiro desde os primórdios até o combatente moderno. Confeccionada em malha premium 100% algodão, ela oferece um toque macio, excelente respirabilidade e alta durabilidade para o uso diário ou atividades intensas. O design conta com modelagem anatômica e gola careca reforçada, garantindo um caimento perfeito que valoriza o porte físico sem restringir os movimentos. Sua estampa em Silk Screen de alta qualidade resiste a inúmeras lavagens sem desbotar ou rachar, mantendo o visual imponente por muito mais tempo. É a peça indispensável para entusiastas do estilo militar e profissionais de segurança que buscam unir conforto técnico a um design inteligente e cheio de personalidade. "
   },
 
    // ================= ESPORTES =================
