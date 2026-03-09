@@ -550,7 +550,7 @@ header img {
 
     z-index: 9999;
     flex-direction: column;
-    
+
 }
 
 /* ================= CARRINHO FLUTUANTE ================= */
@@ -589,6 +589,19 @@ header img {
     transition: transform 0.8s ease, opacity 0.8s ease;
     border-radius: 8px;
     object-fit: cover;
+}
+
+/* DESATIVA HOVER NO CELULAR */
+@media (max-width: 768px) {
+
+    .categoria:hover .subcategorias {
+        display: none;
+    }
+
+}
+
+.subcategorias.ativa {
+    display: flex;
 }
 
 
