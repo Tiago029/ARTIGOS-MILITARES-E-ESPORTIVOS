@@ -11,13 +11,7 @@ body {
     padding-top: 80px; /* espaço para o carrinho fixo */
 }
 
-/* ===== HEADER FIXO ===== */
-header {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 1000;
-}
+
 
 /* ===== CONTAINER PRINCIPAL ===== */
 .container-produto {
@@ -128,7 +122,7 @@ header {
     justify-content: center;
     text-decoration: none;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-    z-index: 999;
+    z-index: 99999;
     transition: 0.3s;
 }
 
