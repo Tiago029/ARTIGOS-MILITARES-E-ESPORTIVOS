@@ -146,7 +146,7 @@ const PRODUTOS = [
   },
 
    {
-    id: 500,
+    id: 269,
     nome: "CALÇÃO DE TFM ALUNO",
     categoria: "produtos em destaques",
     preco: 55.00,
@@ -156,7 +156,7 @@ const PRODUTOS = [
   },
 
   {
-    id: 501,
+    id: 270,
     nome: "CAMISA CAMUFLADA + NOME",
     categoria: "produtos em destaques",
     preco: 55.00,
@@ -167,7 +167,7 @@ const PRODUTOS = [
   },
 
   {
-    id: 502,
+    id: 271,
     nome: "Farda Exército Brasileiro Modelo Novo (RUE 2026) – Conjunto Gandola e Calça Camuflada",
     categoria: "produtos em destaques",
     preco: 450.00,
@@ -177,7 +177,7 @@ const PRODUTOS = [
   },
 
   {
-    id: 504,
+    id: 272,
     nome: "CAMISA TFM + NOME",
     categoria: "produtos em destaques",
     preco: 55.00,
@@ -187,31 +187,31 @@ const PRODUTOS = [
   },
 
   {
-    id: 505,
-    nome: "",
+    id: 273,
+    nome: "Banco de Praia",
     categoria: "produtos em destaques",
     preco: 80.00,
     imagem: "../produtosEmDestaques/banco de praia.jpeg",
-    descricao:""
+    descricao:"Esta banqueta é projetada para oferecer praticidade e conforto em atividades externas, como pescarias, acampamentos ou dias de lazer na praia. Sua estrutura é fabricada em tubos de alumínio de alta qualidade, o que a torna extremamente leve, resistente à corrosão e durável mesmo em ambientes litorâneos. O assento é confeccionado em tela de polietileno ou rafia, garantindo resistência ao peso e secagem rápida após o contato com a água. Com um design articulado de fácil manuseio, ela se dobra completamente, facilitando o transporte e a armazenagem em espaços reduzidos. A base possui sapatas antiderrapantes para maior estabilidade em diferentes tipos de solo. É uma solução econômica e eficiente para quem busca um assento portátil que suporte, em média, até 90 kg dependendo do modelo."
   },
 
   {
-    id: 506,
-    nome: "",
+    id: 274,
+    nome: "Bermuda Tática Masculina",
     categoria: "produtos em destaques",
     preco: 90.00,
     imagem: "../produtosEmDestaques/bermuda1.jpeg",
     tamanho: ["P", "M", "G", "GG"], // NOVO CAMPO
-    descricao:""
+    descricao:"Esta peça de vestuário é confeccionada em tecido de alta resistência, como o ripstop, que previne a propagação de rasgos e oferece durabilidade em condições severas. Projetada para atividades ao ar livre e uso profissional, ela conta com múltiplos bolsos estratégicos, incluindo bolsos laterais tipo cargo com fechamento em zíper ou velcro para maior segurança de itens essenciais. O design prioriza a mobilidade, apresentando um reforço no cavalo (gusseted crotch) que permite movimentos amplos sem desconforto ou risco de danos à costura. Muitos modelos recebem tratamento repelente à água e sujeira, tornando-os ideais para trilhas, caminhadas e acampamentos em climas variados. Além disso, a cintura costuma ser parcialmente elástica para um ajuste confortável, acompanhada de passadores de cinto largos que suportam cintos táticos e de guarnição. É a escolha perfeita para quem busca aliar funcionalidade, resistência e um visual moderno em suas aventuras."
   },
 
   {
-    id: 507,
-    nome: "",
+    id: 275,
+    nome: "Rede de Descanso Listrada",
     categoria: "produtos em destaques",
     preco: 160.00,
     imagem: "../produtosEmDestaques/rede.jpeg",
-    descricao:""
+    descricao:"Esta rede é confeccionada em tecido de algodão de alta qualidade, apresentando um padrão vibrante de listras coloridas que remetem ao estilo rasta ou tropical. Seu design clássico sem barras de madeira permite que o tecido envolva o corpo de forma ergonômica, proporcionando um descanso confortável e relaxante em varandas, jardins ou áreas internas. As extremidades possuem punhos reforçados com diversos cordões de nylon ou algodão, garantindo uma distribuição uniforme do peso e maior segurança durante o uso. É um item leve, fácil de lavar e altamente portátil, podendo ser dobrado compactamente para transporte em viagens ou acampamentos. Além de funcional para dormir ou ler, ela atua como um elemento decorativo que traz aconchego ao ambiente. Sua resistência média suporta entre 120 kg a 180 kg, dependendo do modelo e da qualidade das costuras."
   },
 
 
@@ -443,14 +443,7 @@ const PRODUTOS = [
     descricao:"O Poncho Tático Militar Patrol é o equipamento definitivo para proteção contra intempéries em missões de longa duração, trekking e atividades de sobrevivência. Desenvolvido com um corte oversized inteligente, ele foi projetado para cobrir totalmente não apenas o operador, mas também sua mochila e equipamentos, garantindo que tudo permaneça seco mesmo sob chuvas intensas. Confeccionado em material de alta resistência (como Nylon Ripstop ou Poliéster emborrachado), este poncho é 100% impermeável e conta com costuras seladas para máxima vedação."
   },
 
-  {
-    id: 227,
-    nome: "Letras Vazadas ABC 45 mm Compactor.",
-    categoria: "equipamentos militares",
-    preco: 55.00,
-    imagem: "../equipamentosMilitares/equipamentosFoto/MOLDE DE NUMEROS.jpeg",
-    descricao:"Este conjunto contém 37 moldes (stencils) de letras maiúsculas e números fabricados em polipropileno de alta resistência, ideal para a criação de cartazes escolares, trabalhos de artesanato e sinalizações em geral. Com o tamanho de 45 mm, as letras oferecem excelente visibilidade e precisão, permitindo o uso com diversos tipos de marcadores, canetas hidrográficas ou tintas. O material plástico é lavável e reutilizável, garantindo uma longa vida útil ao produto mesmo sob uso frequente em ambientes educativos ou artísticos. A embalagem compacta facilita o armazenamento e a organização das peças, evitando perdas e danos aos moldes durante o transporte. O uso do stencil proporciona um acabamento profissional e padronizado, eliminando falhas de caligrafia e proporcionando agilidade na produção de mensagens e títulos. Trata-se de uma ferramenta clássica de papelaria, essencial para estudantes e profissionais que buscam praticidade e qualidade visual em seus projetos manuais. A Compactor garante a durabilidade e a flexibilidade das placas, que se adaptam bem a superfícies planas ou levemente curvas."
-  },
+
 
   {
     id: 228,
@@ -828,61 +821,61 @@ const PRODUTOS = [
     categoria: "equipamentos militares",
     preco: 80.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/banco verde militar.jpeg",
-    descricao:""
+    descricao:"Esta banqueta portátil é projetada com uma estrutura metálica articulada em X que permite abertura e fechamento rápidos, facilitando o transporte em atividades ao ar livre. O assento é confeccionado em tiras de nylon entrelaçadas ou tecido de alta resistência, garantindo durabilidade e ventilação. Seu design compacto na cor verde militar é ideal para entusiastas de camping, pesca, trilhas ou profissionais que necessitam de um assento leve para uso em campo. Devido ao seu tamanho reduzido quando dobrada, ela pode ser facilmente acoplada a mochilas ou armazenada em pequenos compartimentos. É um acessório prático que combina estabilidade estrutural com facilidade de manuseio para descanso imediato em qualquer terreno."
   },
 
   {
     id: 271,
-    nome: "Cordão Militar",
+    nome: "Cordão Militar Dog Tag (Placa de Identificação Militar).",
     categoria: "equipamentos militares",
     preco: 30.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/cordão militar.jpeg",
-    descricao:""
+    descricao:"Este acessório consiste em um conjunto de duas placas metálicas lisas, geralmente fabricadas em aço inoxidável, suspensas por uma corrente de bolinhas clássica. Originalmente concebidas para a identificação de soldados em combate com dados como nome e tipo sanguíneo, as placas tornaram-se um item popular na moda masculina e no estilo tático por sua durabilidade e resistência à corrosão. O modelo da imagem apresenta um acabamento polido e está pronto para personalização através de gravação a laser ou estampagem manual. Devido à sua versatilidade, é amplamente utilizado por entusiastas de airsoft, colecionadores de itens militares ou como um acessório casual que transmite um visual moderno e robusto. Sua estrutura leve e o sistema de fecho por encaixe garantem praticidade para o uso diário em diferentes ambientes."
   },
 
   {
     id: 272,
-    nome: "Fiel",
+    nome: "Fiel Retrátil (Fiel de Pistola com Brasão do Exército Brasileiro).",
     categoria: "equipamentos militares",
     preco: 65.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/fiel.jpeg",
-    descricao:""
+    descricao:"Este equipamento de segurança tático é fabricado em nylon injetado de alta resistência e possui um cordão retrátil de poliamida com aproximadamente um metro de extensão. Sua função principal é manter a arma de fogo, como pistolas ou revólveres, sempre conectada ao corpo do operador por meio de um gancho metálico na ponta, evitando quedas acidentais ao solo ou perdas em situações de combate e movimento intenso. O modelo da imagem destaca-se pelo brasão em relevo do Exército Brasileiro em sua caixa verde oliva, sendo um item padrão para militares, agentes de segurança e praticantes de airsoft. Ele é fixado diretamente no cinto tático através de uma trava robusta, permitindo mobilidade total sem comprometer a retenção da arma. Sua construção durável suporta condições adversas em campo, garantindo que o armamento esteja sempre ao alcance do usuário."
   },
 
   {
     id: 273,
-    nome: "Fiel modelo telefone",
+    nome: " Fiel Tático Espiral (Cordão de Segurança para Pistola).",
     categoria: "equipamentos militares",
     preco: 65.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/fiel1.jpeg",
-    descricao:""
+    descricao:"Este acessório de segurança é composto por um cordão em espiral altamente flexível e resistente, geralmente fabricado em nylon ou polímero com núcleo de aço, projetado para evitar a queda ou perda de equipamentos táticos. Sua estrutura elástica permite que o operador manuseie a arma ou outros objetos, como canivetes e lanternas, com total amplitude de movimento, retornando ao formato compacto quando não está em uso. O sistema conta com uma fita de fixação em velcro para acoplagem rápida em cintos táticos, coletes ou mochilas, além de um gancho metálico na extremidade oposta para prender o armamento com segurança. É um item indispensável para profissionais de segurança e praticantes de airsoft que buscam praticidade e proteção contra furtos ou perdas acidentais em campo."
   },
 
   {
     id: 274,
-    nome: "Fivela Preta",
+    nome: "Fivela Militar de Duas Garras Preta (Fivela de Cinto de Nylon).",
     categoria: "equipamentos militares",
     preco: 20.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/fivela.jpeg",
-    descricao:""
+    descricao:"Esta fivela é fabricada em metal robusto, geralmente aço ou ferro com pintura epóxi preta fosca, e é projetada especificamente para cintos de nylon ou lona de estilo tático. Seu sistema de fechamento utiliza duas garras internas articuladas que prendem a fita do cinto por pressão, garantindo uma fixação firme e ajuste personalizado sem a necessidade de furos no tecido. O design de perfil baixo e bordas arredondadas oferece conforto durante o uso prolongado, sendo um item padrão em uniformes militares, de segurança privada e para praticantes de airsoft. Sua construção simples e sem partes plásticas assegura alta durabilidade mesmo sob condições de uso intenso em campo. É amplamente compatível com cintos de 35mm de largura, proporcionando um visual sóbrio e funcional."
   },
 
   {
     id: 275,
-    nome: "Fivela Verde Militar Plástico",
+    nome: "Fivela de Polímero para Cinto N.A. (Fivela de Reposição com 3 Travas).",
     categoria: "equipamentos militares",
     preco: 15.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/fivela1.jpeg",
-    descricao:""
+    descricao:"Esta fivela tática é fabricada em polímero de alta resistência e foi projetada especificamente para cintos de guarnição (N.A.), sendo amplamente utilizada por militares e profissionais de segurança. O diferencial deste modelo é o seu sistema de segurança de travas triplas, que exige a pressão em três pontos simultâneos para a abertura, prevenindo liberações acidentais mesmo sob forte tensão ou em situações de combate. Comumente disponível na cor verde oliva ou preta, ela é compatível com tiras de nylon de 50 mm a 55 mm de largura. Sua construção em material termoplástico garante leveza e durabilidade, tornando-a ideal para reposição em equipamentos que sofrem uso intenso em campo. Além de cintos, também pode ser adaptada para mochilas cargueiras e sistemas de carga pesada que demandam um fechamento robusto."
   },
 
   {
     id: 276,
-    nome: "Porta Algemas",
+    nome: " Porta Algema Modular",
     categoria: "equipamentos militares",
     preco: 35.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/porta algema.jpeg",
-    descricao:""
+    descricao:"Este acessório de segurança é confeccionado em nylon de alta densidade ou Cordura 1000D, materiais conhecidos por sua extrema durabilidade e resistência à abrasão em ambientes operacionais. Seu design compacto e estruturado possui uma aba de fechamento com velcro reforçado, garantindo que o equipamento permaneça seguro e protegido contra poeira e umidade, ao mesmo tempo em que permite um acesso rápido e ágil em situações de necessidade. Na parte traseira, apresenta o sistema modular (MOLLE) ou passadores de cinto, permitindo sua fixação estável em coletes táticos, cintos de guarnição ou mochilas. É um item indispensável para profissionais da segurança pública, privada e praticantes de airsoft, pois oferece organização e conforto ao operador durante longos períodos de serviço. Sua construção leve e robusta é projetada para suportar o uso intenso no campo, mantendo a integridade das algemas e prevenindo quedas acidentais."
   },
 
 
@@ -1579,6 +1572,24 @@ const PRODUTOS = [
     imagem: "../fardamentosMilitares/fardasMilitaresFoto/meia VO.jpeg",
     tamanho: ["P", "M", "G", "GG"],
     descricao:"" // NOVO CAMPO
+  },
+
+  {
+    id: 514,
+    nome: "Boina Camuflada",
+    categoria: "fardamentos militar",
+    preco: 13.00,
+    imagem: "../fardamentosMilitares/fardasMilitaresFoto/boina camuflada.jpeg",
+    descricao:"Esta boina modelo Lyon apresenta um design de inspiração francesa, sendo amplamente reconhecida pelo seu acabamento de alta qualidade e funcionalidade tática em ambientes operacionais. Confeccionada em malha de lã legítima, ela oferece uma excelente maleabilidade que facilita a moldagem conforme o uso, além de possuir propriedades naturais que repelem a água. O padrão de camuflagem é o oficial do Exército Brasileiro, ideal para tropas que atuam em regiões de selva ou áreas com vegetação densa. Sua estrutura conta com uma borda em couro resistente, que proporciona maior durabilidade e um ajuste firme à cabeça, evitando deslizes durante o movimento. Na parte traseira, o cordão de ajuste permite que o usuário adapte o acessório perfeitamente à sua medida pessoal. Além do aspecto funcional de proteção e camuflagem, a peça carrega um forte simbolismo militar, representando o profissionalismo das forças armadas. O material interno é respirável, garantindo conforto térmico mesmo em climas quentes e úmidos. Por ser um item de padrão militar, segue rigorosas especificações de cor e costura, assegurando uniformidade visual. Este modelo é a escolha ideal para quem busca um equipamento durável, com caimento impecável e respeito às tradições militares." // NOVO CAMPO
+  },
+
+  {
+    id: 515,
+    nome: "Boina Preta",
+    categoria: "fardamentos militar",
+    preco: 13.00,
+    imagem: "../fardamentosMilitares/fardasMilitaresFoto/boina preta.jpeg",
+    descricao:"Esta boina preta modelo Lyon possui o clássico design francês, sendo um acessório de alto padrão reconhecido pela elegância e durabilidade técnica. Fabricada em malha de lã de primeira linha, ela oferece um caimento impecável e natural, adaptando-se facilmente ao formato da cabeça do usuário com conforto. O material de lã confere à peça propriedades de repelência à água, tornando-a ideal para uso externo em diversas condições climáticas. Sua base é reforçada com uma borda em couro legítimo, que não apenas aumenta a vida útil do produto, mas também garante um ajuste firme e seguro. Na parte posterior, o item conta com cordões de ajuste que permitem uma personalização precisa da circunferência para cada pessoa. Internamente, o acabamento é pensado para proporcionar respirabilidade, evitando o acúmulo excessivo de calor durante o uso prolongado. Este modelo específico é muito utilizado por forças de segurança, grupos de honra e entusiastas da moda militar devido ao seu visual sóbrio. A cor preta sólida confere versatilidade, permitindo que a peça seja combinada com diferentes uniformes ou trajes casuais de inverno. É um produto que une a tradição da chapelaria europeia com a resistência exigida para o uso operacional diário. Sua estrutura robusta mantém o formato original mesmo após longos períodos, consolidando-a como uma escolha de excelência no mercado." // NOVO CAMPO
   },
 
   // ================= PERFUMES =================
@@ -2455,11 +2466,20 @@ const PRODUTOS = [
 
   {
    id: 1141,
-    nome: "Arma de Choque",
+    nome: "Lanterna LED Recarregável Kapbom KA-L1588.",
     categoria: "eletronicos",
     preco: 120.00,
     imagem: "../eletronicos/eletronicosFoto/arma de choque.jpeg",
-    descricao: ""
+    descricao: "Esta lanterna tática compacta é fabricada em plástico ABS de alta resistência, sendo projetada para oferecer durabilidade e praticidade em diversas situações. O modelo conta com iluminação LED de alta potência e um sistema de zoom de foco ajustável, permitindo alternar entre um feixe de luz concentrado para longo alcance e uma iluminação ampla para áreas próximas. Sua alimentação é feita por bateria interna recarregável via USB, o que elimina a necessidade de pilhas descartáveis e facilita o carregamento em qualquer fonte de energia compatível. Ideal para camping, atividades ao ar livre e emergências domésticas, a lanterna é resistente à água e possui múltiplos modos de iluminação para maior versatilidade. Seu design leve e as dimensões reduzidas permitem que ela seja transportada facilmente no bolso ou em mochilas."
+  },
+
+  {
+   id: 1142,
+    nome: "Câmera de Segurança Smart Nuvem Dual Dome EKAZA.",
+    categoria: "eletronicos",
+    preco: 290.00,
+    imagem: "../eletronicos/eletronicosFoto/camera1.jpeg",
+    descricao: "Esta câmera inteligente de monitoramento externo destaca-se pelo sistema de lente dupla, combinando uma câmera fixa de visão ampla com uma móvel que permite controle de giro e zoom via aplicativo. Com resolução Full HD ou 2K, ela oferece imagens nítidas, visão noturna colorida, detecção de movimento e rastreamento inteligente de pessoas. O dispositivo é resistente à água (certificação IP65), possui áudio bidirecional para comunicação remota e é totalmente compatível com Amazon Alexa e Google Assistant para controle por voz. Sua instalação é simplificada via Wi-Fi 2.4GHz, permitindo o armazenamento de gravações tanto em cartão de memória de até 128GB quanto em nuvem através dos aplicativos EKAZA, Smart Life ou Tuya. É uma solução robusta e versátil para a vigilância completa de residências ou comércios, eliminando pontos cegos com sua cobertura panorâmica."
   },
 
   // ================= ACESSORIO RELÓGIO ================
@@ -3304,29 +3324,29 @@ const PRODUTOS = [
 
   {
     id: 5006,
-    nome: "Bola de Futebol DUTE azul",
+    nome: "Bola de Futebol de Campo DuteToys - azul",
     categoria: "brinquedos",
     preco: 45.00,
     imagem: "../brinquedos/brinquedosFoto/bola de praia 1.jpeg",
-    descricao:""
+    descricao:"Esta bola é fabricada em PVC ou material sintético de alta resistência, sendo projetada com costura à máquina para garantir maior durabilidade e longevidade durante as partidas. Com um design dinâmico e cores vibrantes, ela possui o tamanho oficial número 5, sendo ideal tanto para o lazer de crianças quanto para treinamentos e jogos de adultos em campos de grama ou terra. O material externo é resistente ao desgaste e a impactos, enquanto sua estrutura interna oferece uma elasticidade equilibrada para melhor controle e precisão nos chutes. Frequentemente comercializada em kits que acompanham uma bomba de ar, ela é uma opção versátil e acessível para quem busca um equipamento esportivo confiável para o dia a dia."
   },
 
   {
     id: 5007,
-    nome: "Bola de Futebol DUTE verde",
+    nome: "Bola de Futebol de Campo DuteToys - verde",
     categoria: "brinquedos",
     preco: 45.00,
     imagem: "../brinquedos/brinquedosFoto/bola de praia 2.jpeg",
-    descricao:""
+    descricao:"Esta bola é fabricada em PVC ou material sintético de alta resistência, sendo projetada com costura à máquina para garantir maior durabilidade e longevidade durante as partidas. Com um design dinâmico e cores vibrantes, ela possui o tamanho oficial número 5, sendo ideal tanto para o lazer de crianças quanto para treinamentos e jogos de adultos em campos de grama ou terra. O material externo é resistente ao desgaste e a impactos, enquanto sua estrutura interna oferece uma elasticidade equilibrada para melhor controle e precisão nos chutes. Frequentemente comercializada em kits que acompanham uma bomba de ar, ela é uma opção versátil e acessível para quem busca um equipamento esportivo confiável para o dia a dia."
   },
 
   {
     id: 5008,
-    nome: "Bola de Futebol DUTE amarela",
+    nome: "Bola de Futebol de Campo DuteToys - amarela",
     categoria: "brinquedos",
     preco: 45.00,
     imagem: "../brinquedos/brinquedosFoto/bola de praia 3.jpeg",
-    descricao:""
+    descricao:"Esta bola é fabricada em PVC ou material sintético de alta resistência, sendo projetada com costura à máquina para garantir maior durabilidade e longevidade durante as partidas. Com um design dinâmico e cores vibrantes, ela possui o tamanho oficial número 5, sendo ideal tanto para o lazer de crianças quanto para treinamentos e jogos de adultos em campos de grama ou terra. O material externo é resistente ao desgaste e a impactos, enquanto sua estrutura interna oferece uma elasticidade equilibrada para melhor controle e precisão nos chutes. Frequentemente comercializada em kits que acompanham uma bomba de ar, ela é uma opção versátil e acessível para quem busca um equipamento esportivo confiável para o dia a dia."
   },
 
   {
@@ -3336,16 +3356,16 @@ const PRODUTOS = [
     preco: 45.00,
     imagem: "../brinquedos/brinquedosFoto/bola de praia.jpeg",
     cor:["branco","vermelho","azul","verde","amarelo"],
-    descricao:""
+    descricao:"Esta bola é fabricada em PVC ou material sintético de alta resistência, sendo projetada com costura à máquina para garantir maior durabilidade e longevidade durante as partidas. Com um design dinâmico e cores vibrantes, ela possui o tamanho oficial número 5, sendo ideal tanto para o lazer de crianças quanto para treinamentos e jogos de adultos em campos de grama ou terra. O material externo é resistente ao desgaste e a impactos, enquanto sua estrutura interna oferece uma elasticidade equilibrada para melhor controle e precisão nos chutes. Frequentemente comercializada em kits que acompanham uma bomba de ar, ela é uma opção versátil e acessível para quem busca um equipamento esportivo confiável para o dia a dia."
   },
 
   {
     id: 5010,
-    nome: "Bola de Vôlei RUIXING",
+    nome: "Bola de Vôlei Ruixing Official (modelo tamanho 5 oficial).",
     categoria: "brinquedos",
     preco: 45.00,
     imagem: "../brinquedos/brinquedosFoto/bola de vôlei.jpeg",
-    descricao:""
+    descricao:"Esta bola de vôlei é fabricada com materiais de alta qualidade, como PVC emborrachado ou couro sintético premium, sendo projetada com costura à máquina para garantir maior durabilidade e resistência em diferentes superfícies. Com tamanho e peso oficiais (Número 5), ela é ideal para treinamentos e jogos recreativos tanto em quadras quanto na praia, oferecendo um toque macio (tecnologia Soft Touch) que reduz o impacto nas mãos. Seu design se destaca pelas cores vibrantes e padrões multicoloridos, o que facilita a visibilidade durante as partidas ao ar livre ou em ambientes fechados. Além disso, muitos modelos possuem câmara interna de borracha de alta retenção de ar, mantendo a forma e a pressão por mais tempo."
   },
 
   {
@@ -3354,7 +3374,7 @@ const PRODUTOS = [
     categoria: "brinquedos",
     preco: 120.00,
     imagem: "../brinquedos/brinquedosFoto/rede de vôlei.jpeg",
-    descricao:""
+    descricao:"Esta rede é projetada especificamente para o lazer aquático, sendo fabricada em polipropileno de alta resistência com tratamento UV para suportar a exposição constante ao sol e ao cloro sem ressecar. O modelo da imagem apresenta uma estrutura autoportante com postes leves de PVC ou metal, permitindo que a rede seja instalada tanto na borda quanto dentro da piscina, dependendo do sistema de fixação. Suas dimensões costumam variar entre 3 a 5 metros de comprimento, sendo ideais para partidas recreativas de vôlei ou biribol em ambientes residenciais ou clubes. Por ser um kit portátil e de fácil montagem, ele oferece praticidade para transformar qualquer piscina em uma área de esportes em poucos minutos, garantindo diversão segura para crianças e adultos."
   },
 
   
@@ -3531,11 +3551,11 @@ const PRODUTOS = [
 
   {
     id: 8001,
-    nome: "Cabo Sotero 5 metros",
+    nome: " Cabo Solteiro Militar - 5 metros",
     categoria: "cursoCampo",
     preco: 50.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/cabo solteiro.jpeg",
-    descricao:""
+    descricao:"Este acessório é fabricado em polipropileno 100% virgem ou poliéster de alta tenacidade, garantindo extrema durabilidade, flexibilidade e resistência à abrasão em ambientes operacionais. Comumente utilizado em atividades do Exército Brasileiro, ele é ideal para montagem de acampamentos, travessia de rios, transposição de obstáculos e amarrações de carga que exigem alta resistência a rupturas. O modelo apresenta uma bitola de 10mm a 12mm e comprimento padrão de 6 metros, sendo leve e de fácil manuseio para transporte em mochilas táticas. Sua estrutura trançada na cor preta oferece um visual sóbrio e funcional, mantendo a integridade mesmo sob condições climáticas adversas. É um item de segurança indispensável tanto para uso profissional militar quanto para entusiastas de camping, rapel e atividades outdoor."
   },
 
   {
@@ -3544,7 +3564,7 @@ const PRODUTOS = [
     categoria: "cursoCampo",
     preco: 8.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/coppo verde oliva.jpeg",
-    descricao:""
+    descricao:"Este utensílio é essencial para a hidratação em atividades de campo, sendo amplamente utilizado por militares e entusiastas de camping e sobrevivencialismo. Fabricado em polímero ou polipropileno de alta resistência, o caneco é projetado para ser durável, leve e livre de BPA, garantindo que não transfira odores ou sabores às bebidas. Possui capacidade padrão de 500ml e uma alça fixa que facilita o manuseio rápido em diversas condições. Sua cor verde oliva é o padrão clássico do Exército Brasileiro (EB), o que o torna ideal para compor kits de alimentação tática de forma discreta. Por ser compacto, pode ser facilmente transportado dentro ou acoplado à parte externa de mochilas e cantis."
   },
 
   {
@@ -3553,7 +3573,7 @@ const PRODUTOS = [
     categoria: "cursoCampo",
     preco: 30.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/kit talher articulado.jpeg",
-    descricao:""
+    descricao:"Este conjunto é um item essencial para atividades ao ar livre, como camping, pesca e operações militares, sendo projetado para ser leve, resistente e altamente funcional. O kit é geralmente composto por uma faca com lâmina de aço, um garfo e uma colher, todos fabricados em polímero de alta resistência ou policarbonato. Um diferencial importante deste modelo é a presença de um mosquetão, que permite manter as peças unidas, evitando perdas, ou pendurá-las em mochilas e equipamentos para facilitar o transporte. Os talheres são projetados para suportar temperaturas elevadas, muitas vezes até 180°C, o que os torna seguros para uso com alimentos quentes recém-preparados. Com um design compacto e ergonômico, é o parceiro ideal para quem busca praticidade e higiene em refeições no campo."
   },
 
   {
@@ -3562,7 +3582,7 @@ const PRODUTOS = [
     categoria: "cursoCampo",
     preco: 10.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/liga de cantil.jpeg",
-    descricao:""
+    descricao:"Esta liga é fabricada em borracha de alta resistência e elasticidade, sendo um item essencial para a organização de equipamentos militares e de camping. Sua função principal é prender o cantil de forma segura ao cinto tático ou suspensório, evitando que o recipiente balance ou se solte durante deslocamentos intensos. Além do uso com cantis, estas ligas são extremamente versáteis, sendo utilizadas para fixar porta-carregadores, lanternas e outros acessórios modulares. Devido ao seu material robusto, elas mantêm a pressão constante mesmo sob condições adversas de campo, garantindo que o equipamento esteja sempre ao alcance da mão. É um acessório simples, mas indispensável para garantir a estabilidade e o silêncio operacional do kit de sobrevivência."
   },
 
   {
@@ -3571,44 +3591,44 @@ const PRODUTOS = [
     categoria: "cursoCampo",
     preco: 10.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/lona preta curso-campo.jpeg",
-    descricao:""
+    descricao:"Esta lona é fabricada em polietileno de baixa densidade, sendo um item versátil e indispensável para atividades ao ar livre, acampamentos militares e situações de sobrevivência. Sua principal função é atuar como uma barreira impermeável contra a umidade do solo, protegendo equipamentos, forrando o chão de barracas ou servindo como abrigo improvisado contra a chuva e o sol. O material é leve, fácil de dobrar e transportar, além de possuir alta resistência à tração e variações climáticas, o que garante uma longa vida útil mesmo sob uso severo em campo. Em contextos militares, a cor preta oferece discrição e ajuda a bloquear a luz, sendo útil para camuflar acampamentos ou cobrir cargas em veículos. É um recurso de baixo custo que proporciona proteção imediata e eficaz em qualquer terreno, podendo ser facilmente fixada com estacas ou cordas através de amarrações simples."
   },
 
   {
     id: 8012,
-    nome: "Cyalume",
+    nome: "Cyalume Bastão de Luz Química",
     categoria: "cursoCampo",
     preco: 20.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/luminaria.jpeg",
-    descricao:""
+    descricao:"Este dispositivo de iluminação autossuficiente funciona através de uma reação química chamada quimiluminescência, ativada ao flexionar o tubo plástico até que uma ampola interna de vidro se quebre e misture os reagentes. Fabricado em polietileno resistente e à prova d'água, o bastão é amplamente utilizado em operações militares, sinalização de emergência em rodovias, mergulho e atividades de camping devido à sua capacidade de emitir brilho contínuo por até 12 horas sem necessidade de baterias ou eletricidade. O modelo da imagem, na cor amarela, possui um gancho de fixação na extremidade que facilita sua pendura em mochilas, coletes táticos ou galhos. Por não gerar faíscas ou calor, é considerado seguro para uso em ambientes com presença de gases inflamáveis ou combustíveis. Sua praticidade e leveza o tornam um item de sobrevivência indispensável para kits de primeira socorro e sinalização noturna."
   },
 
   {
     id: 8013,
-    nome: "Mosquetão",
+    nome: "Mosquetão de Aço com Trava de Rosca",
     categoria: "cursoCampo",
     preco: 20.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/mosquetão.jpeg",
-    descricao:""
+    descricao:"Este acessório é fabricado em aço galvanizado ou inoxidável, projetado para oferecer uma conexão rápida e segura em diversas aplicações de fixação e suspensão. Seu diferencial é a trava manual em formato de rosca, que impede a abertura acidental do gatilho sob pressão ou vibração, garantindo maior confiabilidade no travamento. É amplamente utilizado em atividades náuticas, içamento de cargas leves, fixação de redes, chaveiros táticos e em academias para prender puxadores em máquinas de musculação. Apesar de sua robustez, este modelo específico costuma ser de uso utilitário; para escalada ou trabalhos em altura, devem-se utilizar modelos com certificação específica (como a norma EN 12275). Sua estrutura resistente à corrosão permite o uso em ambientes internos e externos com longa durabilidade."
   },
 
   {
     id: 8015,
-    nome: "Pulseira Pedemeira verde",
+    nome: "Pulseira de Sobrevivência Paracord pederneira - verde",
     categoria: "cursoCampo",
     preco: 35.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/pulseira pederneira verde.jpeg",
-    descricao:""
+    descricao:"Esta pulseira é fabricada em paracord 550, uma corda de nylon de alta resistência originalmente utilizada em paraquedas, capaz de suportar cerca de 250 kg. O design trançado permite que ela seja desfeita em situações de emergência para fornecer metros de corda útil para amarrações, construção de abrigos ou armadilhas. O modelo da imagem é um kit de sobrevivência completo tudo-em-um, integrando no fecho uma bússola para orientação, uma pederneira (acendedor de fogo) que gera faíscas mesmo molhada, um apito de emergência de alto alcance e uma mini faca/serra que também serve como raspador para o fogo. É um acessório leve e indispensável para praticantes de trilhas, camping e esportes de aventura que buscam funcionalidade e segurança no pulso."
   },
   
 
   {
     id: 8016,
-    nome: "Pulseira Pedemeira preta",
+    nome: "Pulseira de Sobrevivência Paracord pederneira - preta",
     categoria: "cursoCampo",
     preco: 35.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/pulseira pederneira.jpeg",
-    descricao:""
+    descricao:"Este acessório é fabricado com paracord 550, uma corda de nylon de alta resistência originalmente usada em paraquedas, que pode ser desenrolada em emergências para amarrações, construção de abrigos ou torniquetes. O modelo da imagem é um kit de sobrevivência compacto tudo-em-um, integrando no fecho de polímero uma bússola para orientação, uma pederneira (acendedor de fogo) que gera faíscas mesmo molhada, um apito de emergência de alto alcance e uma mini faca/raspador de metal. É um item indispensável para praticantes de trilhas, camping e esportes de aventura, unindo utilidade extrema a um design leve para uso constante no pulso. Sua construção durável e multifuncional oferece segurança adicional em ambientes selvagens, permitindo que o usuário esteja sempre preparado para situações imprevistas."
   },
 
   {
@@ -3617,7 +3637,7 @@ const PRODUTOS = [
     categoria: "cursoCampo",
     preco: 30.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/tinta camuflagem 1.jpeg",
-    descricao:""
+    descricao:"Este kit é composto por potes de tinta cremosa em cores táticas, como verde, preto e marrom, projetadas para mascarar o brilho e o contorno do rosto em ambientes de selva ou mata. A fórmula é geralmente à base de vaselina, o que a torna resistente ao suor e à água, garantindo que a camuflagem não escorra durante missões intensas ou atividades físicas. Sua aplicação é simples, podendo ser feita com os dedos ou pincel, e a remoção é facilitada com o uso de água e sabão neutro. O conjunto costuma vir em uma embalagem compacta e empilhável, sendo um item indispensável para militares, jogadores de airsoft e entusiastas de atividades outdoor."
   },
 
   {
@@ -3626,7 +3646,16 @@ const PRODUTOS = [
     categoria: "cursoCampo",
     preco: 35.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/tinta camuflagem.jpeg",
-    descricao:""
+    descricao:"Este estojo compacto é essencial para missões em campo, airsoft e treinamentos militares, sendo projetado para mascarar o brilho e as linhas naturais do rosto em ambientes de mata e selva. O kit contém tintas cremosas nas cores preta, marrom e verde, que oferecem alta cobertura e são formuladas para resistir ao suor e à chuva sem escorrer, garantindo a eficácia do disfarce por longos períodos. O diferencial deste modelo é o espelho integrado na tampa, que permite a aplicação precisa e rápida em qualquer terreno, sem a necessidade de auxílio externo. Fabricado em polímero resistente, o estojo cabe facilmente no bolso da farda ou em compartimentos de mochilas modulares. A remoção da maquiagem é simples, sendo feita com lenços umedecidos ou água e sabão neutro após o uso."
+  },
+
+  {
+    id: 8019,
+    nome: "Letras Vazadas ABC 45 mm Compactor.",
+    categoria: "cursoCampo",
+    preco: 55.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/MOLDE DE NUMEROS.jpeg",
+    descricao:"Este conjunto contém 37 moldes (stencils) de letras maiúsculas e números fabricados em polipropileno de alta resistência, ideal para a criação de cartazes escolares, trabalhos de artesanato e sinalizações em geral. Com o tamanho de 45 mm, as letras oferecem excelente visibilidade e precisão, permitindo o uso com diversos tipos de marcadores, canetas hidrográficas ou tintas. O material plástico é lavável e reutilizável, garantindo uma longa vida útil ao produto mesmo sob uso frequente em ambientes educativos ou artísticos. A embalagem compacta facilita o armazenamento e a organização das peças, evitando perdas e danos aos moldes durante o transporte. O uso do stencil proporciona um acabamento profissional e padronizado, eliminando falhas de caligrafia e proporcionando agilidade na produção de mensagens e títulos. Trata-se de uma ferramenta clássica de papelaria, essencial para estudantes e profissionais que buscam praticidade e qualidade visual em seus projetos manuais. A Compactor garante a durabilidade e a flexibilidade das placas, que se adaptam bem a superfícies planas ou levemente curvas."
   },
 
   // ================= ORTOPÉDICO =================
