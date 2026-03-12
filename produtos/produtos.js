@@ -2482,6 +2482,178 @@ const PRODUTOS = [
     descricao: "Esta câmera inteligente de monitoramento externo destaca-se pelo sistema de lente dupla, combinando uma câmera fixa de visão ampla com uma móvel que permite controle de giro e zoom via aplicativo. Com resolução Full HD ou 2K, ela oferece imagens nítidas, visão noturna colorida, detecção de movimento e rastreamento inteligente de pessoas. O dispositivo é resistente à água (certificação IP65), possui áudio bidirecional para comunicação remota e é totalmente compatível com Amazon Alexa e Google Assistant para controle por voz. Sua instalação é simplificada via Wi-Fi 2.4GHz, permitindo o armazenamento de gravações tanto em cartão de memória de até 128GB quanto em nuvem através dos aplicativos EKAZA, Smart Life ou Tuya. É uma solução robusta e versátil para a vigilância completa de residências ou comércios, eliminando pontos cegos com sua cobertura panorâmica."
   },
 
+  {
+   id: 1143,
+    nome: "Câmera IP de Monitoramento Leboss LB-CA219.",
+    categoria: "eletronicos",
+    preco: 170.00,
+    imagem: "../eletronicos/eletronicosFoto/camera2.jpeg",
+    descricao: "A Câmera IP Leboss LB-CA219 é uma solução de segurança inteligente projetada no formato de lâmpada para uma instalação extremamente simplificada em bocais padrão E27, dispensando furos ou fiação complexa. Equipada com tecnologia Wi-Fi de 2.4GHz, ela permite o monitoramento remoto em tempo real através de aplicativos como iCSee ou Yoosee, oferecendo uma visão panorâmica de 360° controlada pelo celular. O modelo conta com resolução Full HD para imagens nítidas, visão noturna infravermelha e colorida, além de um sistema de detecção de movimento com auto-tracking que segue alvos automaticamente. Possui áudio bidirecional com microfone e alto-falante integrados, possibilitando a comunicação entre o usuário e o ambiente monitorado de qualquer lugar. Para o armazenamento, suporta cartões Micro SD de até 128GB, permitindo a gravação cíclica de vídeos sem a necessidade de serviços de nuvem pagos. Sua estrutura discreta e versátil é ideal para vigilância residencial ou comercial, oferecendo funções avançadas como alertas de atividade enviados diretamente para o smartphone do proprietário."
+  },
+
+  {
+   id: 1144,
+    nome: "Power Bank One-X PT-0953 de 10.000mAh.",
+    categoria: "eletronicos",
+    preco: 95.00,
+    imagem: "../eletronicos/eletronicosFoto/carregador14.jpeg",
+    descricao: "Descrição:O Carregador Portátil One-X PT-0953 é um dispositivo de alta capacidade projetado para oferecer praticidade e versatilidade no carregamento de múltiplos aparelhos móveis simultaneamente. Com uma bateria de 10.000mAh e potência de saída de 22.5W, ele garante recargas rápidas e eficientes para smartphones, tablets e outros eletrônicos. O grande diferencial deste modelo é o seu design 4 em 1, que conta com quatro cabos acoplados diretamente ao corpo do produto, incluindo conectores Micro USB, USB-C, Lightning e USB padrão. Essa característica elimina a necessidade de carregar cabos extras, tornando-o ideal para viagens e uso diário intenso. Na parte frontal, o power bank apresenta um visor digital em LED que indica com precisão a porcentagem de carga restante da bateria interna. Além dos cabos embutidos, o dispositivo geralmente oferece portas USB adicionais para maior conectividade. Sua construção compacta e acabamento em preto conferem um visual moderno e discreto ao acessório. Homologado pela ANATEL, o produto assegura conformidade com as normas brasileiras de segurança e desempenho"
+  },
+
+  {
+   id: 1145,
+    nome: "Power Bank One-X PT-0971 de 20.000mAh.",
+    categoria: "eletronicos",
+    preco: 195.00,
+    imagem: "../eletronicos/eletronicosFoto/carregador15.jpeg",
+    descricao: "O Power Bank One-X PT-0971 é um carregador portátil de alta performance, destacando-se por sua grande capacidade de 20.000mAh, ideal para quem precisa de múltiplas recargas longe de tomadas. Ele oferece carregamento Super Fast Charging com potência de 22.5W, garantindo rapidez e eficiência para smartphones e tablets modernos. O dispositivo possui um design robusto em preto e conta com um visor digital de LED frontal que exibe o nível exato da bateria em tempo real. Um dos seus maiores diferenciais é a inclusão de um cabo de carregamento 3 em 1, tornando-o compatível com diversos conectores do mercado sem a necessidade de acessórios extras. Além disso, apresenta múltiplas portas de saída, como USB e USB-C, permitindo carregar mais de um aparelho simultaneamente com segurança. É uma escolha versátil para viagens longas ou uso profissional intenso devido ao seu equilíbrio entre potência e autonomia. O modelo é construído com materiais resistentes, focando na durabilidade e na proteção contra sobrecargas elétricas."
+  },
+
+  {
+   id: 1146,
+    nome: "Power Bank Oberon PN-951 de 10.000mAh.",
+    categoria: "eletronicos",
+    preco: 120.00,
+    imagem: "../eletronicos/eletronicosFoto/carregador16.jpeg",
+    descricao: "O Power Bank Oberon PN-951 é um carregador portátil slim de alta eficiência, projetado para fornecer energia extra a smartphones, tablets e outros dispositivos móveis com praticidade. Com uma capacidade de 10.000mAh, ele é capaz de oferecer entre 2 a 3 cargas completas para a maioria dos celulares modernos, dependendo da capacidade da bateria do aparelho. O modelo destaca-se por sua versatilidade de conexão, incluindo um cabo embutido com múltiplos conectores (Lightning, Micro USB e USB-C), o que elimina a necessidade de carregar fios adicionais. Possui um design compacto com acabamento texturizado e indicadores de LED que mostram o nível de carga remanescente em tempo real. Sua saída de 5V 2.1A permite um carregamento estável e seguro, sendo homologado pela ANATEL para garantir conformidade com os padrões de segurança brasileiros. O dispositivo utiliza bateria de polímero de lítio, conhecida pela sua durabilidade e leveza, pesando aproximadamente 228g. É compatível com uma ampla gama de marcas, como Apple, Samsung, Motorola e Xiaomi. Além do cabo integrado, conta com uma porta USB extra para carregar dois dispositivos simultaneamente. Ideal para viagens e uso diário, ele combina um perfil fino com alta autonomia de energia."
+  },
+
+  {
+   id: 1147,
+    nome: "Mini Power Bank It-Blue MAX-0543 de 5.000mAh.",
+    categoria: "eletronicos",
+    preco: 85.00,
+    imagem: "../eletronicos/eletronicosFoto/carregador17.jpeg",
+    descricao: "O Mini Power Bank It-Blue MAX-0543 é um carregador portátil ultracompacto de 5.000mAh, ideal para quem busca praticidade e energia de emergência em um dispositivo que cabe no bolso. Este modelo destaca-se pela sua versatilidade 4 em 1, vindo equipado com conectores integrados que atendem às principais entradas do mercado, incluindo as interfaces Tipo-C e Lightning para dispositivos Apple. Sua construção inteligente elimina a necessidade de transportar cabos extras, contando inclusive com um suporte retrátil tipo pezinho que permite apoiar o celular na horizontal enquanto ele carrega, facilitando o consumo de vídeos. Com uma potência de saída eficiente, ele oferece uma recarga rápida e segura, sendo uma solução leve para manter a bateria do smartphone ativa durante o dia. O design moderno apresenta um acabamento texturizado e detalhes em cores vibrantes nos cabos, conferindo um visual tecnológico ao acessório. Além disso, o dispositivo é projetado para ser plug-and-go, conectando-se diretamente à base do celular em muitos casos. É amplamente compatível com diversas marcas de smartphones e tablets, garantindo uma carga estável. Sua portabilidade o torna o companheiro perfeito para viagens curtas, eventos ou situações onde o acesso a tomadas é limitado."
+  },
+
+  {
+   id: 1148,
+    nome: "Extensão Elétrica Knup SL7508 com 8 Tomadas.",
+    categoria: "eletronicos",
+    preco: 120.00,
+    imagem: "../eletronicos/eletronicosFoto/extensão1.jpeg",
+    descricao: "Extensão Elétrica Knup SL7508 é um acessório indispensável para quem precisa conectar múltiplos aparelhos eletrônicos em um único ponto de energia com segurança e organização. Com um design funcional na cor branca, este dispositivo oferece 8 tomadas no padrão brasileiro (tripolar 2P+T), permitindo o uso simultâneo de diversos equipamentos como TVs, computadores, roteadores e videogames. Um de seus principais diferenciais é a chave inteligente liga/desliga com indicador luminoso, que funciona como um disjuntor rearmável, protegendo os aparelhos contra sobrecargas e curtos-circuitos sem a necessidade de troca de fusíveis. O produto é bivolt (127V/220V), suportando potências de até 1270W em 127V e 2200W em 220V, garantindo versatilidade para diferentes ambientes domésticos ou de escritório. Além disso, conta com um varistor interno que auxilia na proteção contra surtos de tensão leves, aumentando a vida útil dos eletrônicos conectados. O cabo de alimentação possui aproximadamente 1,5 metro de comprimento, oferecendo um bom alcance para posicionar a régua conforme a necessidade. Fabricada em material antichamas, ela prioriza a segurança contra incêndios em casos de superaquecimento. É uma solução prática para eliminar o uso excessivo de adaptadores tipo benjamim, mantendo a fiação mais arrumada e segura."
+  },
+
+  {
+   id: 1149,
+    nome: "Extensão Elétrica Filtro de Linha Inteligente Oi Vida OITO152.",
+    categoria: "eletronicos",
+    preco: 80.00,
+    imagem: "../eletronicos/eletronicosFoto/extensão2.jpeg",
+    descricao: "O Filtro de Linha Oi Vida OITO152 é uma solução de energia versátil e moderna, projetada para expandir a conectividade de aparelhos eletrônicos com total praticidade. Ele conta com 5 tomadas no padrão brasileiro (tripolar) e o grande diferencial de 3 portas USB integradas (sendo duas USB-A e uma USB-C), permitindo o carregamento direto de dispositivos móveis sem a necessidade de adaptadores de parede. Um ponto de destaque é o seu cabo de alimentação extra longo de 5 metros, que oferece uma flexibilidade superior para alcançar tomadas distantes em escritórios ou residências. Na parte frontal, o dispositivo possui um botão de energia iluminado com LED para controle geral de ligar e desligar, funcionando também como um protetor contra sobrecargas elétricas. Sua construção em material termoplástico resistente ao fogo garante maior segurança durante o uso simultâneo de diversos aparelhos. O design compacto e vertical ajuda na organização dos fios, evitando o emaranhado comum em réguas convencionais. Com voltagem bivolt, ele se adapta automaticamente a redes de 110V ou 220V, suportando uma corrente máxima combinada de 10A. É o acessório ideal para quem possui setups de trabalho complexos que demandam múltiplas conexões de energia e USB em um só lugar."
+  },
+
+  {
+   id: 1150,
+    nome: "Extensão Inteligente Oi Vida OI-TO144 com 3 Tomadas e 3 USB.",
+    categoria: "eletronicos",
+    preco: 80.00,
+    imagem: "../eletronicos/eletronicosFoto/extensão3.jpeg",
+    descricao: "A Extensão Oi Vida OI-TO144 é um dispositivo versátil que combina três tomadas no padrão brasileiro com três portas USB, permitindo o carregamento simultâneo de diversos aparelhos. Com um cabo de 2 metros de comprimento, ela oferece a flexibilidade necessária para alcançar fontes de energia distantes, sendo ideal para escritórios, quartos e áreas de entretenimento. O modelo inclui duas portas USB-A e uma porta USB-C, possibilitando carregar smartphones e tablets diretamente, eliminando a necessidade de adaptadores de parede extras. Para garantir a segurança, possui um botão interruptor liga/desliga com indicador luminoso, que facilita o controle da energia e ajuda a economizar eletricidade quando não está em uso. Seu design compacto e moderno, com detalhes em azul na área das conexões USB, ajuda a manter o ambiente organizado e livre de excesso de fios. Fabricada com materiais de alta resistência, a régua suporta o uso diário intenso de eletrônicos leves, como notebooks e carregadores de celular. É um produto bivolt, funcionando perfeitamente tanto em redes de 110V quanto de 220V. Por ser um power socket multifuncional, ela substitui o uso de benjamins e adaptadores inseguros em um único acessório prático."
+  },
+
+  {
+   id: 1151,
+    nome: "Fone de Ouvido Bluetooth i9S-TWS 5.0.",
+    categoria: "eletronicos",
+    preco: 85.00,
+    imagem: "../eletronicos/eletronicosFoto/fone8.jpeg",
+    descricao: "O fone de ouvido i9S-TWS é um modelo totalmente sem fio (True Wireless Stereo) inspirado no design dos AirPods, oferecendo uma alternativa acessível para quem busca praticidade no dia a dia. Equipado com tecnologia Bluetooth 5.0, ele garante uma conexão estável com smartphones Android e iOS em um raio de até 10 metros, sendo ideal para ouvir músicas e podcasts sem o incômodo de fios. O kit acompanha um estojo de carregamento compacto e portátil, que além de proteger os fones, permite recarregar a bateria interna diversas vezes mesmo longe de tomadas. Cada fone possui microfone integrado para atender chamadas telefônicas e comandos de voz com facilidade. O formato intra-auricular é leve e ergonômico, proporcionando conforto durante longos períodos de uso ou atividades físicas moderadas. O modelo conta com controles por toque ou botão físico nos próprios fones, permitindo pausar faixas ou alternar entre músicas com agilidade. Geralmente, a autonomia da bateria para reprodução contínua varia entre 2 a 4 horas, dependendo do volume e do uso. Em muitos conjuntos, estão inclusos acessórios extras como uma capa de silicone para o estojo e um gancho tipo mosquetão para transporte seguro. É uma excelente opção de custo-benefício para quem deseja ingressar no mundo dos fones Bluetooth sem um alto investimento inicial"
+  },
+
+  {
+   id: 1152,
+    nome: "Fone de Ouvido Bluetooth 5.4 Estéreo Onex FON-2327.",
+    categoria: "eletronicos",
+    preco: 80.00,
+    imagem: "../eletronicos/eletronicosFoto/fone9.jpeg",
+    descricao: "O fone de ouvido Onex FON-2327 é um modelo sem fio que utiliza a avançada tecnologia Bluetooth 5.4, garantindo uma conexão rápida, estável e com baixo consumo de energia para dispositivos Android e iOS. Com um design ergonômico estilo buds, ele oferece som estéreo de alta fidelidade com graves potentes e agudos nítidos, proporcionando uma experiência auditiva imersiva para músicas e chamadas. O dispositivo conta com microfone integrado e cancelamento de ruído passivo, facilitando o atendimento de ligações com clareza mesmo em ambientes externos. Seu estojo de carregamento compacto possui um indicador de LED que mostra o status da bateria e permite recarregar os fones várias vezes, estendendo sua autonomia total. Além da conectividade sem fio, o modelo destaca-se pela facilidade de emparelhamento automático logo após ser retirado da case. É uma solução prática e acessível, ideal para uso em atividades físicas, trabalho ou lazer, oferecendo liberdade de movimento sem a necessidade de fios. O produto também costuma apresentar controles por toque (touch) para pausar faixas ou atender chamadas com um simples gesto. Sua construção leve foca no conforto prolongado, evitando pressões excessivas no canal auditivo durante o uso diário."
+  },
+
+  {
+   id: 1153,
+    nome: "Fone de Ouvido Wireless Onistek ON-TWS23.",
+    categoria: "eletronicos",
+    preco: 85.00,
+    imagem: "../eletronicos/eletronicosFoto/fone10.jpeg",
+    descricao: "Descrição:O Onistek ON-TWS23 é um fone de ouvido sem fio de última geração que utiliza a tecnologia Bluetooth 5.3 + EDR para garantir uma conexão estável e de baixa latência, ideal para dispositivos móveis. Seu design inovador conta com um estojo de carregamento robusto, equipado com uma tampa articulada e um visor digital em LED que mostra a porcentagem exata da bateria em tempo real. O modelo oferece uma experiência sonora imersiva com som panorâmico de 360° e áudio estéreo de alta fidelidade, garantindo clareza tanto em graves quanto em agudos. Pensando nos usuários versáteis, ele dispõe de dois modos de uso: Modo Gamer, que reduz o atraso do áudio, e Modo Música, que otimiza a qualidade sonora. Com uma autonomia de bateria de aproximadamente 4 horas e 30 minutos em uso contínuo, ele é perfeito para rotinas de trabalho ou lazer. Além disso, os fones são projetados para chamadas de voz de alta definição, permitindo conversas nítidas mesmo em ambientes ruidosos. O produto é homologado pela ANATEL, assegurando que atende a todos os requisitos de segurança e qualidade exigidos no mercado nacional. Sua estética moderna com cores contrastantes o torna um acessório de destaque para entusiastas de tecnologia e games."
+  },
+
+  {
+   id: 1154,
+    nome: " Fone de Ouvido Bluetooth One-X FON-8217.",
+    categoria: "eletronicos",
+    preco: 75.00,
+    imagem: "../eletronicos/eletronicosFoto/fone11.jpeg",
+    descricao: "O fone de ouvido One-X FON-8217 é um modelo sem fio desenvolvido especificamente para praticantes de atividades físicas, apresentando um design ergonômico com arco de nuca que garante estabilidade e conforto durante movimentos intensos. Equipado com a tecnologia Bluetooth 5.3, ele oferece uma conexão rápida, estável e com baixo consumo de energia em um alcance de até 10 metros. Este modelo se destaca por utilizar o sistema de condução por ar (Open-Ear), que permite ao usuário ouvir suas músicas com som estéreo de alta fidelidade sem obstruir completamente o canal auditivo, mantendo a percepção dos sons ambientes para maior segurança. Leve e resistente, o fone conta com microfone integrado para chamadas em viva-voz e comandos intuitivos para controle de mídia. Sua bateria interna de longa duração proporciona várias horas de uso contínuo, sendo ideal para maratonas, treinos na academia ou caminhadas ao ar livre. Além disso, o dispositivo possui proteção contra suor e respingos de água, aumentando sua durabilidade em diferentes condições climáticas. O acabamento em branco confere um visual moderno e esportivo ao acessório."
+  },
+
+  {
+   id: 1155,
+    nome: "Fone de Ouvido Bluetooth AirDots TWS V5.1.",
+    categoria: "eletronicos",
+    preco: 85.00,
+    imagem: "../eletronicos/eletronicosFoto/fone12.jpeg",
+    descricao: "O fone de ouvido AirDots TWS V5.1 é um modelo sem fio focado em custo-benefício, ideal para quem busca praticidade e liberdade de movimento no dia a dia. Utilizando a tecnologia Bluetooth 5.1, ele oferece uma conexão estável e eficiente com smartphones e tablets, reduzindo atrasos na transmissão de áudio. Os fones possuem um design intra-auricular ergonômico e leve, garantindo conforto e isolamento passivo de ruído para uma audição mais imersiva. O estojo de carregamento compacto permite guardar e recarregar os fones simultaneamente, estendendo a autonomia da bateria para várias horas de uso. Cada fone conta com botões físicos ou superfícies de toque para controlar a reprodução de músicas e atender chamadas sem tirar o celular do bolso. Equipado com microfone integrado, possibilita conversas nítidas em ambientes controlados. É compatível com sistemas Android e iOS, realizando o pareamento automático logo após a retirada da case. O modelo é muito procurado para atividades físicas leves e uso em transporte público devido ao seu perfil discreto. Sua estrutura em plástico resistente garante durabilidade contra o desgaste diário e pequenas quedas."
+  },
+
+  {
+   id: 1156,
+    nome: "CFone de Ouvido Bluetooth It-Blue LE-2449.",
+    categoria: "eletronicos",
+    preco: 95.00,
+    imagem: "../eletronicos/eletronicosFoto/fone13.jpeg",
+    descricao: "O It-Blue LE-2449 é um fone de ouvido sem fio de alta performance que utiliza a tecnologia Bluetooth 5.1 para oferecer uma conexão estável e de baixo consumo de energia. Seu grande destaque é o estojo de carregamento com design arredondado, que possui um display digital LED frontal indicando com precisão a porcentagem da bateria e o status de carga de cada fone (L/R). Certificado pela ANATEL, o modelo garante segurança e conformidade técnica para o mercado brasileiro, assegurando durabilidade e proteção contra superaquecimento. Os fones possuem selo Hi-Res Audio, prometendo uma experiência sonora superior com suporte a som surround para maior imersão em músicas e filmes. Com design ergonômico e leve, eles se ajustam confortavelmente ao canal auditivo, sendo ideais para uso prolongado em atividades diárias ou exercícios. O dispositivo conta com microfone integrado de alta sensibilidade para chamadas nítidas e controles por toque para facilitar o gerenciamento de faixas e volume. Sua bateria de longa duração permite várias horas de reprodução contínua, com recargas rápidas através do estojo portátil. É compatível com sistemas iOS e Android, realizando o pareamento automático de forma instantânea."
+  },
+
+  {
+   id: 1157,
+    nome: "Fone de Ouvido Bluetooth Kapbom KAP-K979.",
+    categoria: "eletronicos",
+    preco: 60.00,
+    imagem: "../eletronicos/eletronicosFoto/fone14.jpeg",
+    descricao: "O Kapbom KAP-K979 é um fone de ouvido sem fio de estilo Premium Quality, projetado com um acabamento emborrachado que proporciona um toque suave e maior aderência durante o uso. Equipado com tecnologia Bluetooth, ele oferece total liberdade de movimento para ouvir músicas e podcasts sem a necessidade de cabos conectados ao celular. O dispositivo conta com uma operação intuitiva por toque (Touch Control), permitindo pausar faixas ou atender chamadas de voz com simples toques na lateral dos fones. Seu estojo de carregamento compacto é recarregável e funciona como uma base portátil, garantindo que os fones estejam sempre prontos para uso em qualquer lugar. Com um design inspirado na ergonomia dos modelos mais populares do mercado, ele se encaixa de forma confortável no canal auditivo para longas sessões de audição. Além disso, possui microfone integrado para chamadas em viva-voz e suporte para assistentes de voz do smartphone. É um modelo versátil e acessível, compatível com sistemas Android e iOS, ideal para o uso diário ou atividades físicas leves. Sua construção leve e o perfil discreto o tornam uma escolha prática para quem busca um acessório funcional e moderno."
+  },
+
+  {
+   id: 1158,
+    nome: "Fone de Ouvido Bluetooth H'maston LY-19 Live Pods.",
+    categoria: "eletronicos",
+    preco: 85.00,
+    imagem: "../eletronicos/eletronicosFoto/fone15.jpeg",
+    descricao: "O H'maston LY-19 Live Pods é um fone de ouvido sem fio (TWS) que utiliza a tecnologia Bluetooth 5.0 para oferecer uma conexão estável e sem interrupções com dispositivos iOS e Android. Com um design ergonômico inspirado nos modelos mais populares do mercado, ele garante conforto para uso prolongado em atividades diárias, trabalho ou lazer. O modelo é homologado pela ANATEL, o que assegura conformidade com os padrões de segurança e qualidade exigidos no Brasil. Cada fone possui microfone integrado para chamadas em viva-voz e comandos intuitivos para controle de reprodução de música diretamente no dispositivo. Acompanha um estojo de carregamento portátil que facilita o transporte e recarrega os fones automaticamente quando guardados, aumentando sua autonomia total. Sua qualidade de som estéreo proporciona clareza em graves e agudos, ideal para ouvir podcasts e playlists favoritas. O pareamento é simples e rápido, ocorrendo de forma automática após a primeira configuração com o smartphone. Leve e discreto, o LY-19 é uma excelente opção de custo-benefício para quem busca liberdade de movimento sem fios. Sua construção robusta em plástico ABS oferece durabilidade contra o desgaste do uso cotidiano."
+  },
+
+  {
+   id: 1159,
+    nome: "Máquina de Acabamento One-X MQ-7037 Clipper Pro.",
+    categoria: "eletronicos",
+    preco: 90.00,
+    imagem: "../eletronicos/eletronicosFoto/maquina de cabelo 3.jpeg",
+    descricao: "A One-X MQ-7037 é uma máquina de acabamento profissional recarregável, projetada especificamente para contornos precisos em barbas, bordas de cabelo e região do pescoço. O modelo se destaca pelo seu design esqueleto com corpo em metal e carcaça azul transparente, que permite visualizar os componentes internos e o circuito eletrônico, conferindo um visual moderno e tecnológico. Equipada com um visor digital de LED frontal, ela informa com precisão a porcentagem da bateria, garantindo que o usuário não seja surpreendido por falta de carga durante o uso. Suas lâminas em formato de T são feitas de aço inoxidável de alta qualidade, prometendo cortes 2x mais rápidos e ajustáveis em até 3 níveis de altura para diferentes estilos de finalização. A máquina possui um motor potente e silencioso, sendo alimentada por uma bateria interna de longa duração carregável via cabo USB, o que oferece grande praticidade para viagens ou uso em barbearias. O kit geralmente acompanha acessórios essenciais para manutenção, como óleo lubrificante, escova de limpeza e pentes guia. Leve e ergonômica, ela proporciona um manuseio firme e confortável para desenhos detalhados e acabamentos finos. É uma ferramenta robusta que une estética diferenciada com desempenho profissional para cuidados pessoais diários."
+  },
+
+  {
+   id: 1160,
+    nome: "Máquina de Cortar Cabelo Profissional One-X MQ-7037",
+    categoria: "eletronicos",
+    preco: 110.00,
+    imagem: "../eletronicos/eletronicosFoto/maquina de cabelo 4.jpeg",
+    descricao: "A One-X MQ-7037 é uma máquina de cortar cabelo e acabamento profissional que se destaca pela sua versatilidade e design ergonômico em tom prateado. Desenvolvida tanto para uso doméstico quanto em barbearias, ela é ideal para realizar contornos precisos, pezinho, desenhos e aparar barbas com eficiência. O modelo é totalmente sem fio, operando com uma bateria interna recarregável que oferece liberdade de movimento durante o manuseio, sem a limitação de cabos. Equipada com lâminas de alta performance, ela proporciona um corte suave e rente à pele sem causar irritações. O dispositivo conta com um motor potente e silencioso, garantindo um desempenho constante mesmo em cabelos mais densos. Na parte frontal, apresenta um visor ou indicador de LED que facilita o monitoramento do status da bateria ou do funcionamento. A máquina é bivolt, permitindo o carregamento em tomadas de 110V ou 220V através de um conector USB. Geralmente, o kit acompanha pentes limitadores de diferentes tamanhos para diversos estilos de corte, além de acessórios de manutenção como óleo lubrificante e escova de limpeza. Sua construção robusta foca na durabilidade, sendo uma ferramenta essencial para quem busca um acabamento detalhado e profissional."
+  },
+
+  {
+   id: 1161,
+    nome: "Máquina de Corte de Cabelo Tomate MAG-018.",
+    categoria: "eletronicos",
+    preco: 140.00,
+    imagem: "../eletronicos/eletronicosFoto/maquina de cabelo 5.jpeg",
+    descricao: "A Tomate MAG-018 é uma máquina de acabamento profissional recarregável, amplamente utilizada para cortes precisos, desenhos, contornos e aparar a barba com extrema facilidade. O modelo se destaca pelo seu design metálico vintage em dourado com um entalhe de Buda, conferindo um visual sofisticado e robusto ao dispositivo. Equipada com um visor digital de LED na parte inferior, ela informa com precisão a porcentagem da bateria e o status de funcionamento em tempo real. Suas lâminas em formato de T são feitas de aço inoxidável de alta qualidade, garantindo um corte rente e suave sem machucar a pele. O motor de alta potência e baixo ruído proporciona um desempenho constante, sendo alimentado por uma bateria interna carregável via USB em cerca de 2 a 3 horas. O kit geralmente acompanha quatro pentes guia (1mm, 2mm, 3mm e 4mm), permitindo diferentes alturas de corte para maior versatilidade de estilos. Leve e ergonômica, a máquina oferece um manuseio firme para acabamentos detalhados em barbearias ou uso doméstico. Sua construção focada na durabilidade e no estilo clássico a torna uma ferramenta essencial para cuidados pessoais masculinos."
+  },
+
+
   // ================= ACESSORIO RELÓGIO ================
   {
     id: 901,
