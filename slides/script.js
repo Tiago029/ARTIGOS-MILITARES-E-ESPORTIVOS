@@ -1,4 +1,4 @@
-let imagens = document.querySelectorAll(".banner1 img");
+let imagens = document.querySelectorAll(".slide");
 let index = 0;
 let intervalo;
 
