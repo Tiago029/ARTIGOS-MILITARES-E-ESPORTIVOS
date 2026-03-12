@@ -67,3 +67,31 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
+// ================= ZOOM NA IMAGEM =================
+
+const zoomContainer = document.getElementById("zoomContainer");
+const imagem = document.getElementById("imagemProduto");
+
+if (zoomContainer && imagem) {
+
+    zoomContainer.addEventListener("mousemove", (e) => {
+
+        const rect = zoomContainer.getBoundingClientRect();
+
+        const x = (e.clientX - rect.left) / rect.width * 100;
+        const y = (e.clientY - rect.top) / rect.height * 100;
+
+        imagem.style.transformOrigin = `${x}% ${y}%`;
+        zoomContainer.classList.add("zoom");
+
+    });
+
+    zoomContainer.addEventListener("mouseleave", () => {
+
+        zoomContainer.classList.remove("zoom");
+        imagem.style.transformOrigin = "center";
+
+    });
+
+}
+

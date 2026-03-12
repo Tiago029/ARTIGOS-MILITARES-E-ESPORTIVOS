@@ -215,3 +215,19 @@ body {
     border-radius: 10px;
     transition: transform 0.8s cubic-bezier(.65,-0.3,.35,1.5), opacity 0.8s ease;
 }
+
+/* ================= ZOOM NA IMAGEM ================= */
+
+.imagem-produto {
+    position: relative;
+    overflow: hidden;
+    cursor: zoom-in;
+}
+
+.imagem-produto img {
+    transition: transform 0.2s ease;
+}
+
+.imagem-produto.zoom img {
+    transform: scale(2); /* nível do zoom */
+}
