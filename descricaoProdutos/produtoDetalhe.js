@@ -74,24 +74,40 @@ const imagem = document.getElementById("imagemProduto");
 
 if (zoomContainer && imagem) {
 
-    zoomContainer.addEventListener("mousemove", (e) => {
+    function aplicarZoom(x, y) {
 
         const rect = zoomContainer.getBoundingClientRect();
 
-        const x = (e.clientX - rect.left) / rect.width * 100;
-        const y = (e.clientY - rect.top) / rect.height * 100;
+        const posX = (x - rect.left) / rect.width * 100;
+        const posY = (y - rect.top) / rect.height * 100;
 
-        imagem.style.transformOrigin = `${x}% ${y}%`;
-        zoomContainer.classList.add("zoom");
+        imagem.style.transformOrigin = `${posX}% ${posY}%`;
+        imagem.style.transform = "scale(2)";
+    }
 
-    });
-
-    zoomContainer.addEventListener("mouseleave", () => {
-
-        zoomContainer.classList.remove("zoom");
+    function removerZoom() {
+        imagem.style.transform = "scale(1)";
         imagem.style.transformOrigin = "center";
+    }
 
+    // ===== MOUSE (PC) =====
+    zoomContainer.addEventListener("mousemove", (e) => {
+        aplicarZoom(e.clientX, e.clientY);
     });
+
+    zoomContainer.addEventListener("mouseleave", removerZoom);
+
+    // ===== TOQUE (CELULAR) =====
+    zoomContainer.addEventListener("touchstart", (e) => {
+        const touch = e.touches[0];
+        aplicarZoom(touch.clientX, touch.clientY);
+    });
+
+    zoomContainer.addEventListener("touchmove", (e) => {
+        const touch = e.touches[0];
+        aplicarZoom(touch.clientX, touch.clientY);
+    });
+
+    zoomContainer.addEventListener("touchend", removerZoom);
 
 }
-

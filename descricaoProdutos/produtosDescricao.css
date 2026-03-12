@@ -225,7 +225,8 @@ body {
 }
 
 .imagem-produto img {
-    transition: transform 0.2s ease;
+    transition: transform 0.15s ease;
+    touch-action: none;
 }
 
 .imagem-produto.zoom img {
