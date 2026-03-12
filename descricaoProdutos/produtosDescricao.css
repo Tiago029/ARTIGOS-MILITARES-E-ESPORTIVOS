@@ -230,5 +230,5 @@ body {
 }
 
 .imagem-produto.zoom img {
-    transform: scale(2); /* nível do zoom */
+    transform: scale(10); /* nível do zoom */
 }
