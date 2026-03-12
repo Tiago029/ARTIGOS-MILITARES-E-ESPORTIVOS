@@ -242,7 +242,7 @@ header img {
 
 .card-produto:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.986);
 }
 
 .card-produto img {
@@ -274,7 +274,7 @@ header img {
 }
 
 .card-produto button:hover {
-    background-color: #333;
+    background-color: #04b62b;
 }
 
 /* ==========================
