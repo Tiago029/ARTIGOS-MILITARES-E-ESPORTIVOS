@@ -2601,7 +2601,7 @@ const PRODUTOS = [
 
   {
    id: 1156,
-    nome: "CFone de Ouvido Bluetooth It-Blue LE-2449.",
+    nome: "Fone de Ouvido Bluetooth It-Blue LE-2449.",
     categoria: "eletronicos",
     preco: 95.00,
     imagem: "../eletronicos/eletronicosFoto/fone13.jpeg",
@@ -3099,6 +3099,258 @@ const PRODUTOS = [
     descricao:"Camisa Evolução Tática, que ilustra de forma criativa a jornada do guerreiro desde os primórdios até o combatente moderno. Confeccionada em malha premium 100% algodão, ela oferece um toque macio, excelente respirabilidade e alta durabilidade para o uso diário ou atividades intensas. O design conta com modelagem anatômica e gola careca reforçada, garantindo um caimento perfeito que valoriza o porte físico sem restringir os movimentos. Sua estampa em Silk Screen de alta qualidade resiste a inúmeras lavagens sem desbotar ou rachar, mantendo o visual imponente por muito mais tempo. É a peça indispensável para entusiastas do estilo militar e profissionais de segurança que buscam unir conforto técnico a um design inteligente e cheio de personalidade. "
   },
 
+  {
+    id: 12029,
+    nome: "Conjunto Santos FC Umbro Oficial II 2024/25.",
+    categoria: "camisas",
+    preco: 130.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa29.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"Este conjunto oficial do Santos Futebol Clube, fabricado pela Umbro, é composto por camisa e calção, celebrando a tradição alvinegra com um design moderno e tecnológico para os pequenos torcedores. A camisa apresenta as clássicas listras verticais em preto e branco, que nesta edição ganham um grafismo estilizado em degradê pixelado dentro das faixas pretas, conferindo um visual dinâmico à peça. O calção preto complementa o uniforme, trazendo o escudo do Peixe e a numeração em destaque na cor amarela, harmonizando com os detalhes da gola e o logotipo da marca. Confeccionado em poliéster de alta qualidade, o conjunto oferece leveza, respirabilidade e rápida secagem, garantindo conforto tanto para o uso casual quanto para a prática de esportes. O escudo do clube é aplicado com acabamento de alta definição, mantendo a fidelidade das cores e a durabilidade após as lavagens. Detalhes personalizados, como a gola em V com acabamento em retilínea, reforçam o cuidado com o acabamento premium da linha licenciada. É uma peça indispensável para as novas gerações de santistas que desejam vestir o manto sagrado com orgulho e estilo. Este kit é ideal para presentear, unindo a paixão pelo futebol com um vestuário de alto desempenho e conforto térmico."
+  },
+
+  {
+    id: 12030,
+    nome: "Conjunto Seleção de Portugal Home Kit 2024/25.",
+    categoria: "camisas",
+    preco: 130.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa30.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"Este conjunto oficial infantil da Seleção de Portugal, desenvolvido pela Puma para a temporada 2024/2025, é composto por uma camisa vermelha vibrante e calção verde escuro, mantendo as cores tradicionais da bandeira lusa. A camisa apresenta um padrão sutil de mini texturas em relevo por toda a peça, com detalhes em branco e verde na gola e nos punhos, proporcionando um acabamento clássico e elegante. O escudo da Federação Portuguesa de Futebol é aplicado no lado esquerdo do peito, enquanto o logotipo da Puma aparece em branco no lado direito, garantindo a autenticidade do uniforme de mandante. Confeccionado em tecido de poliéster com tecnologia DryCell, o kit oferece excelente ventilação e controle de umidade, mantendo os pequenos atletas secos e confortáveis durante as brincadeiras ou partidas. O calção verde complementa o visual com o escudo da seleção na perna direita e o símbolo da marca em vermelho na esquerda, possuindo elástico no cós para um ajuste seguro e prático. Detalhes como o selo de produto autêntico na barra da camisa reforçam a qualidade premium desta linha licenciada. É a escolha perfeita para jovens torcedores que desejam demonstrar seu apoio aos Navegadores com estilo e alto desempenho técnico. Este conjunto é ideal tanto para o uso casual no dia a dia quanto para a prática esportiva intensa."
+  },
+
+  {
+    id: 12031,
+    nome: "Conjunto Real Madrid Away/Third Kit 2025/26.",
+    categoria: "camisas",
+    preco: 130.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa31.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"Este conjunto oficial do Real Madrid para a temporada 2025/2026 apresenta um design audacioso e moderno, combinando uma base preta profunda com detalhes vibrantes em amarelo neon. A camisa exibe as icônicas três listras da Adidas nos ombros e painéis laterais curvos que realçam a silhueta esportiva, proporcionando um visual tecnológico e dinâmico. O escudo do clube e o logotipo da marca são aplicados em amarelo, harmonizando perfeitamente com o patrocínio Emirates Fly Better centralizado no peito. Confeccionado com tecnologia AEROREADY, o tecido de poliéster reciclado garante alta respirabilidade e controle de umidade, mantendo os pequenos torcedores secos e confortáveis. O calção preto complementa o kit com detalhes em amarelo nas laterais e o escudo merengue na perna direita, possuindo cós elástico para um ajuste seguro durante as brincadeiras. Detalhes de acabamento nas mangas e na gola redonda reforçam a estética premium da linha licenciada para jovens atletas. É a escolha ideal para as novas gerações de madrilenhos que buscam um uniforme com estilo futurista e alta performance. Este kit une a tradição vitoriosa do clube espanhol com uma paleta de cores energética e contemporânea."
+  },
+
+  {
+    id: 12032,
+    nome: "Conjunto Tottenham Hotspur Away 2025/26.",
+    categoria: "camisas",
+    preco: 130.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa32.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"Tottenham Hotspur para a temporada 2025/2026, fabricado pela Nike, apresenta um design urbano e futurista predominantemente preto com detalhes em cinza e logotipos brancos [1, 4, 8]. A camisa se destaca pelo padrão quadriculado exclusivo em toda a sua extensão, incorporando sutilmente as letras que formam o nome SPURS, enquanto o calção preto complementa o conjunto com o escudo do clube e o icônico Swoosh da Nike [1, 3, 4]. Confeccionado em poliéster de alta qualidade com tecnologia Dri-FIT, o uniforme garante máxima respirabilidade e conforto térmico, mantendo os pequenos torcedores secos durante as brincadeiras ou partidas [1, 3, 4]. O escudo do Galo de Londres e o patrocínio da AIA são aplicados com precisão, conferindo um acabamento autêntico e profissional à peça [1, 3, 4]. Este conjunto reserva foi inspirado em uma visão moderna de Londres, projetada para refletir a identidade do clube dentro e fora de campo nas próximas décadas [1, 4, 13]. Disponível em diversas numerações infantis, o kit é ideal para presentear jovens fãs que desejam representar sua paixão pelo time inglês com um visual arrojado [1, 5]. Além da estética impactante, a durabilidade do tecido permite lavagens frequentes sem perder a vivacidade das cores ou a integridade dos detalhes aplicados [3, 4]."
+  },
+
+  {
+    id: 12033,
+    nome: "Conjunto Vasco da Gama Kappa Oficial I 2024/25.",
+    categoria: "camisas",
+    preco: 130.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa33.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"Este conjunto oficial do Vasco da Gama, produzido pela Kappa, é composto por camisa e calção que celebram a rica história do Gigante da Colina com um design clássico e sofisticado. A camisa apresenta a icônica faixa diagonal branca sobre o fundo preto, que nesta edição traz uma textura exclusiva com o ano de fundação 1898 em marca d'água, criando um efeito visual profundo e histórico. O escudo com a Cruz de Malta é aplicado com tecnologia de alta definição no peito e na perna do calção, garantindo destaque e durabilidade aos símbolos do clube. Confeccionado em tecido tecnológico de poliéster, o conjunto oferece excelente respirabilidade e leveza, sendo ideal tanto para a prática esportiva quanto para o uso casual em dias de jogo. O calção preto complementa o uniforme com ajuste em elástico e cordão, mantendo a harmonia visual com os detalhes em branco das mangas e da gola. Acabamentos premium, como o selo de autenticidade da Kappa e as etiquetas oficiais licenciadas, reforçam a qualidade superior do produto. É uma peça essencial para qualquer torcedor vascaíno que deseja carregar a tradição e o orgulho cruzmaltino com máximo conforto. Este conjunto une a elegância do uniforme tradicional com a performance necessária para o alto rendimento no futebol moderno."
+  },
+
+  {
+    id: 12034,
+    nome: "Conjunto Vasco da Gama Kappa Oficial II 2024/25.",
+    categoria: "camisas",
+    preco: 130.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa34.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"Este conjunto oficial do Vasco da Gama, produzido pela Kappa, é composto pela camisa reserva branca e calção preto, apresentando o icônico design inverso que é símbolo da elegância do Gigante da Colina. A camisa branca destaca-se pela clássica faixa diagonal preta, que nesta edição traz uma textura exclusiva em marca d'água com referências históricas ao ano de fundação do clube, 1898. O escudo com a Cruz de Malta vermelha é aplicado com tecnologia de alta definição no peito e na perna do calção, garantindo destaque visual e durabilidade superior aos símbolos cruzmaltinos. Confeccionado em tecido tecnológico de poliéster, o conjunto oferece excelente respirabilidade e leveza, sendo ideal tanto para a prática esportiva quanto para o uso casual em dias de jogo. O calção preto complementa o uniforme com ajuste em elástico e cordão, mantendo a harmonia visual com os detalhes contrastantes das mangas e da gola em V. Acabamentos premium, como o selo de autenticidade da Kappa e as etiquetas oficiais licenciadas, reforçam a qualidade técnica e a procedência do produto. É uma peça indispensável para o torcedor que deseja carregar a tradição e o orgulho vascaíno com máximo conforto e estilo. Este conjunto une a sofisticação do uniforme histórico com as tecnologias necessárias para o alto desempenho no futebol moderno."
+  },
+
+  {
+    id: 12035,
+    nome: "Conjunto Flamengo Adidas Oficial II 2025/26.",
+    categoria: "camisas",
+    preco: 130.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa35.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"Este conjunto oficial do Flamengo para a temporada 2025/2026, produzido pela Adidas, é composto pela camisa reserva branca e calção preto, apresentando um design inovador que une tradição e modernidade. A camisa branca destaca-se pelas mangas pretas com grafismos em vermelho que remetem a ondas sonoras ou chamas, simbolizando a energia da Nação Rubro-Negra, além das clássicas três listras nos ombros. O escudo do clube (CRF) e o logotipo da Adidas são aplicados em vermelho vibrante, garantindo contraste e destaque visual em ambas as peças. Confeccionado com tecnologia AEROREADY, o tecido de poliéster reciclado oferece alta respirabilidade e controle de umidade, sendo ideal para a prática esportiva intensa ou uso casual. O calção preto complementa o uniforme com detalhes em vermelho nas laterais e o escudo do clube na perna direita, possuindo cós elástico com cordão para um ajuste seguro. Acabamentos premium, como a gola redonda canelada e os selos de autenticidade, reforçam a qualidade técnica superior da linha licenciada. É uma peça indispensável para o torcedor que deseja vestir as cores do Mais Querido com máximo conforto e estilo contemporâneo. Este conjunto reflete a identidade vencedora do clube carioca com as tecnologias de performance mais avançadas do futebol mundial."
+  },
+
+  {
+    id: 12036,
+    nome: "Conjunto Flamengo Elo Masculina Licenciada Oficial.",
+    categoria: "camisas",
+    preco: 130.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa36.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"Este conjunto oficial do Flamengo, produzido sob licença pela Braziline, é composto por uma camisa e um calção que combinam um design moderno com a tradição rubro-negra em uma elegante paleta de preto e dourado. A camisa, modelo Elo, apresenta um padrão de listras horizontais em diferentes tons de preto, criando um efeito visual sofisticado, além de detalhes dourados na gola redonda e no icônico escudo do clube aplicado no peito. O calção preto complementa o uniforme com listras douradas nas laterais e o escudo do Flamengo na perna direita, possuindo cós elástico para um ajuste confortável e seguro durante o uso. Confeccionado em tecido 100% poliéster de alta qualidade, o conjunto oferece leveza, respirabilidade e rápida secagem, sendo ideal tanto para atividades físicas quanto para o uso casual em dias de jogo. O modelo possui modelagem masculina com excelente caimento, garantindo liberdade de movimento e conforto térmico em qualquer ocasião. Detalhes como o nome MENGO estampado discretamente e o selo de produto licenciado reforçam a autenticidade e o cuidado com o acabamento da peça. É uma escolha versátil para o torcedor que deseja demonstrar sua paixão pelo Mais Querido com um visual imponente e exclusivo. Disponível em diversos tamanhos, o conjunto une a durabilidade necessária para o dia a dia com a estética premium das edições especiais do clube. "
+  },
+
+  {
+    id: 12037,
+    nome: "Conjunto River Plate Adidas Oficial II 2025/26.",
+    categoria: "camisas",
+    preco: 130.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa37.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"Este conjunto oficial do River Plate para a temporada 2025/2026, produzido pela Adidas, apresenta um design arrojado que reinterpreta as cores tradicionais do clube argentino em um modelo reserva impactante. A camisa destaca-se pelo padrão de listras verticais largas em vermelho e preto, acompanhada pelas icônicas três listras da marca nos ombros em um tom de vermelho vibrante. O escudo do Millonario (CARP) e o logotipo da Adidas são aplicados com perfeição, mantendo a autenticidade e o orgulho histórico da equipe de Buenos Aires. Confeccionado com tecnologia AEROREADY, o tecido de poliéster de alta qualidade oferece excelente gestão de umidade e respirabilidade, sendo ideal para o desempenho em campo ou uso casual. O calção preto complementa o uniforme com vivos vermelhos e brancos nas laterais, possuindo cós elástico para um ajuste confortável e seguro durante o movimento. Detalhes de acabamento na gola em V e nas mangas reforçam a estética premium da linha licenciada para a nova temporada. É uma peça indispensável para os torcedores que desejam carregar a mística do Monumental de Núñez com um visual moderno e tecnológico. Este conjunto une a tradição vitoriosa do clube com as inovações de performance mais recentes do vestuário esportivo mundial."
+  },
+
+  {
+    id: 12038,
+    nome: "Conjunto Golden State Warriors City Edition 2025/26.",
+    categoria: "camisas",
+    preco: 120.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa38.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"Este conjunto oficial do Golden State Warriors para a temporada 2025/2026, fabricado pela Nike, apresenta o icônico design The Town em uma elegante tonalidade bege com detalhes em preto e marrom. A camisa regata destaca-se pelo escudo circular centralizado que exibe o carvalho de Oakland, simbolizando a conexão histórica do time com a cidade, acompanhado pela numeração 30 do astro Stephen Curry. O calção acompanha a estética da camisa, apresentando listras laterais contrastantes e o logotipo da NBA em destaque para um visual autêntico de quadra. Confeccionado com tecnologia Dri-FIT em poliéster de alta qualidade, o uniforme garante máxima respirabilidade e conforto térmico, sendo ideal tanto para a prática de basquete quanto para o uso casual. Detalhes como a gola em V e as etiquetas de autenticidade da Nike na barra reforçam o padrão premium da linha Swingman. É uma peça de colecionador indispensável para os fãs que desejam celebrar a identidade única de uma das franquias mais vitoriosas da NBA. Este modelo une a tradição do uniforme clássico de 2019-20 com inovações tecnológicas de performance para a nova temporada."
+  },
+
+  {
+    id: 12039,
+    nome: "Conjunto Houston Rockets Nike Icon Edition 2025/26.",
+    categoria: "camisas",
+    preco: 120.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa39.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"Este conjunto oficial do Houston Rockets para a temporada 2025/2026, fabricado pela Nike, apresenta o clássico design Icon Edition na vibrante cor vermelha com detalhes contrastantes em preto e branco. A camisa regata destaca-se pelo nome ROCKETS estampado no peito em fonte moderna e inclinada, acompanhado pela numeração 7 em destaque branco, enquanto o calção complementa o uniforme com painéis laterais pretos e o icônico logotipo R estilizado da franquia. Confeccionado com tecnologia Dri-FIT em poliéster de alta qualidade, o uniforme garante máxima respirabilidade e rápida absorção de suor, sendo ideal tanto para a prática de basquete quanto para o uso casual urbano. Detalhes como a gola em V bicolor e as etiquetas de autenticidade da NBA na barra reforçam o padrão premium da linha licenciada. É uma peça indispensável para os fãs que desejam celebrar a energia e a história vitoriosa da equipe do Texas com um visual autêntico de quadra. Este modelo une a tradição da franquia com as inovações tecnológicas de performance mais recentes desenvolvidas pela Nike para a liga americana. Sua modelagem confortável permite ampla liberdade de movimento para os torcedores e praticantes do esporte em qualquer ocasião."
+  },
+
+  {
+    id: 12040,
+    nome: "Conjunto Cleveland Cavaliers Nike Statement Edition 2025/26.",
+    categoria: "camisas",
+    preco: 120.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa40.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"Este conjunto oficial do Cleveland Cavaliers para a temporada 2025/2026, fabricado pela Nike, apresenta o imponente design Statement Edition em azul marinho com detalhes vibrantes em vinho e dourado. A camisa regata destaca-se pelo nome CLEVELAND estampado no peito em fonte estilizada branca, acompanhado pela numeração 45 do astro Donovan Mitchell, enquanto o calção complementa o uniforme com faixas laterais largas que reforçam a identidade visual da franquia. Confeccionado com tecnologia Dri-FIT em poliéster de alta qualidade, o uniforme garante máxima respirabilidade e rápida absorção de suor, sendo ideal tanto para a prática de basquete quanto para o uso casual urbano. Detalhes como o logotipo da Nike no peito e as etiquetas de autenticidade da NBA na barra da camisa e no cós do calção asseguram o padrão premium da linha licenciada. É uma peça indispensável para os fãs que desejam celebrar a força e a tradição dos Cavs com um visual autêntico de quadra. Este modelo une a sofisticação das cores clássicas da equipe com as inovações tecnológicas de performance mais recentes desenvolvidas para a liga americana. Sua modelagem confortável permite total liberdade de movimento para torcedores e atletas em qualquer situação do dia a dia."
+  },
+
+  {
+    id: 12041,
+    nome: "Conjunto Chicago Bulls City Edition 2024/25 - Michael Jordan #23.",
+    categoria: "camisas",
+    preco: 120.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa41.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"Este conjunto oficial do Chicago Bulls, fabricado pela Nike, apresenta o icônico design City Edition em preto, celebrando a rica história da franquia e sua conexão com a cidade de Chicago. A camisa regata destaca-se pelo nome Chicago em uma fonte clássica azul com contorno vermelho, acompanhada pela lendária numeração 23 de Michael Jordan, enquanto a lateral exibe as tradicionais estrelas azuis da bandeira da cidade. O calção preto complementa o uniforme com o logotipo do touro em um painel vermelho lateral, apresentando o selo da NBA para garantir total autenticidade de quadra. Confeccionado com tecnologia Dri-FIT em poliéster de alta qualidade, o uniforme assegura máxima respirabilidade e rápida absorção de suor, sendo ideal tanto para a prática de basquete quanto para o uso casual urbano. Detalhes premium, como a gola e as cavas em ribana listrada de vermelho e branco, reforçam a estética refinada da linha licenciada. É uma peça histórica e indispensável para colecionadores e fãs que desejam honrar o maior jogador de todos os tempos com um visual moderno e tecnológico. Sua modelagem confortável permite ampla liberdade de movimento para os torcedores em qualquer ocasião do dia a dia."
+  },
+
+  {
+    id: 12042,
+    nome: "Conjunto NBA Los Angeles Clippers Icon Edition 2024/25 - Kawhi Leonard #2.",
+    categoria: "camisas",
+    preco: 120.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa42.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"Este conjunto oficial do Los Angeles Clippers para a temporada 2024/2025, fabricado pela Nike, apresenta o novo design Icon Edition em azul marinho com detalhes clássicos em vermelho e branco. A camisa regata destaca-se pela escrita Clippers estilizada e modernizada no peito, acompanhada pela numeração 2 do astro Kawhi Leonard, enquanto o calção complementa o uniforme com o novo logotipo global da franquia em destaque na lateral. Confeccionado com tecnologia Dri-FIT em poliéster de alta qualidade, o uniforme garante máxima respirabilidade e rápida absorção de suor, sendo ideal tanto para a prática de basquete quanto para o uso casual urbano. Detalhes como a gola e as cavas em ribana tricolor reforçam a estética premium e a identidade visual renovada da equipe. O conjunto é amplamente reconhecido por sua durabilidade e conforto, possuindo etiquetas de autenticidade da NBA que asseguram o padrão oficial de quadra. É uma peça indispensável para torcedores e colecionadores que desejam celebrar a nova era do time de Los Angeles com um visual tecnológico e impactante. Sua modelagem Swingman oferece um corte atlético que proporciona liberdade total de movimento em qualquer ocasião."
+  },
+
+  {
+    id: 12043,
+    nome: "Conjunto Miami Heat Jordan Statement Edition - Jimmy Butler #22.",
+    categoria: "camisas",
+    preco: 120.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa43.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"Este conjunto oficial do Miami Heat para a temporada 2024/2025, fabricado pela Jordan Brand, apresenta o imponente design Statement Edition na cor bordô (crimson) com detalhes contrastantes em preto e branco. A camisa regata destaca-se pelo nome MIAMI estampado no peito em fonte clássica branca, acompanhado pela numeração 22 do astro Jimmy Butler e o icônico logotipo Jumpman, enquanto o calção complementa o uniforme com listras laterais largas e o escudo Ball and Flame em destaque na perna. Confeccionado com tecnologia Dri-FIT em poliéster de alta qualidade, o uniforme garante máxima respirabilidade e rápida absorção de suor, sendo ideal tanto para a prática de basquete quanto para o uso casual urbano. Detalhes como a gola em V bicolor e as etiquetas de autenticidade da NBA na barra da camisa e no cós do calção asseguram o padrão premium da linha oficial de quadra. É uma peça indispensável para os fãs que desejam celebrar a Heat Culture e a garra da equipe da Flórida com um visual tecnológico e impactante. Sua modelagem confortável permite total liberdade de movimento para torcedores e atletas em qualquer situação do dia a dia."
+  },
+
+  {
+    id: 12044,
+    nome: "Conjunto Los Angeles Lakers Nike Icon Edition - LeBron James #23.",
+    categoria: "camisas",
+    preco: 120.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa44.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"Este conjunto oficial do Los Angeles Lakers para a temporada 2024/2025, fabricado pela Nike, apresenta o lendário design Icon Edition na vibrante cor amarela com detalhes clássicos em roxo e branco. A camisa regata destaca-se pelo nome LAKERS estampado no peito em fonte tradicional, acompanhado pela icônica numeração 23 do astro LeBron James, enquanto o calção complementa o uniforme com largas faixas laterais roxas e o escudo oficial da franquia na perna esquerda. Confeccionado com tecnologia Dri-FIT em poliéster de alta qualidade, o uniforme garante máxima respirabilidade e rápida absorção de suor, sendo ideal tanto para a prática de basquete quanto para o uso casual urbano. Detalhes como a gola em V bicolor e as etiquetas de autenticidade da NBA na barra da camisa asseguram o padrão premium da linha licenciada de quadra. É uma peça indispensável para torcedores e colecionadores que desejam celebrar a história vitoriosa da equipe da Califórnia e o legado de um dos maiores jogadores de todos os tempos. Sua modelagem Swingman oferece um corte atlético que proporciona total liberdade de movimento em qualquer ocasião do dia a dia. Este modelo une a tradição do Showtime com as inovações tecnológicas de performance mais recentes desenvolvidas pela Nike para a liga americana."
+  },
+
+  {
+    id: 12045,
+    nome: "Camisa Palmeiras Puma Oficial I 2025/26.",
+    categoria: "camisas",
+    preco: 90.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa45.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"A Camisa Oficial I do Palmeiras para a temporada 2025/2026, fabricada pela Puma, celebra a história do Maior Campeão do Brasil com um design clássico em verde esmeralda e detalhes em branco na gola e punhos. O manto destaca-se por um sofisticado padrão de grafismos em jacquard por toda a peça, que remete aos brasões históricos e à identidade visual do clube, enquanto o escudo do Palmeiras e o logotipo da Puma são aplicados com tecnologia de alta definição. Confeccionada em tecido de poliéster com tecnologia DryCell, a camisa oferece excelente respirabilidade e rápida absorção de suor, garantindo conforto térmico tanto para o uso casual quanto para a prática esportiva intensa. O modelo apresenta uma gola em V bicolor e selos de autenticidade na barra, reforçando o acabamento premium da linha licenciada oficial. É uma peça indispensável para os torcedores que desejam carregar o orgulho alviverde com o que há de mais moderno em performance esportiva. Esta edição une a tradição vitoriosa da Academia de Futebol com inovações tecnológicas de ponta para a nova temporada do futebol mundial. Sua modelagem oferece um caimento atlético que proporciona total liberdade de movimento para os palmeirenses em qualquer ocasião."
+  },
+
+  {
+    id: 12046,
+    nome: "Camisa Botafogo Reebok Oficial I 2024/25.",
+    categoria: "camisas",
+    preco: 90.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa46.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"Esta camisa oficial do Botafogo para a temporada 2024/2025, produzida pela Reebok, marca o retorno triunfal da icônica parceria com o Glorioso em um design que exalta a tradição alvinegra. O manto apresenta as clássicas listras verticais em preto e branco, que nesta edição trazem uma textura exclusiva em jacquard com desenhos que remetem ao movimento e à energia da torcida no Estádio Nilton Santos. O escudo com a Estrela Solitária é aplicado em alta definição no lado esquerdo do peito, enquanto o logotipo da Reebok aparece no lado direito, garantindo a autenticidade e o padrão premium da linha licenciada. Confeccionada em poliéster de alta tecnologia, a peça oferece excelente respirabilidade e leveza, sendo ideal tanto para a prática esportiva quanto para o uso casual em dias de jogo. O modelo conta com uma elegante gola polo em V com detalhes contrastantes, conferindo um visual sofisticado e retrô ao uniforme de mandante. Detalhes de acabamento nas mangas e os selos de autenticidade na barra reforçam o cuidado com a qualidade técnica superior do produto. É uma peça indispensável para o torcedor botafoguense que deseja vestir o manto sagrado com máximo conforto e orgulho histórico. Esta camisa une a mística vitoriosa do clube carioca com as inovações de performance mais recentes do vestuário esportivo mundial."
+  },
+
+  {
+    id: 12047,
+    nome: "Conjunto Alemanha Adidas Pré-Jogo 2024/25.",
+    categoria: "camisas",
+    preco: 90.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa47.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"Este conjunto oficial da Seleção da Alemanha para a temporada 2024/2025, produzido pela Adidas, é composto pela camisa de treino pré-jogo que destaca a identidade visual moderna da Mannschaft. A peça apresenta uma base preta profunda com um padrão geométrico em jacquard por toda a sua extensão, enquanto os ombros exibem as cores da bandeira alemã — preto, vermelho e dourado — em um design dinâmico de chamas ou degradê pixelado. O escudo da Federação Alemã de Futebol (DFB), com suas quatro estrelas representando os títulos mundiais, e o logotipo da Adidas são aplicados em branco para máximo contraste no peito. Confeccionado com tecidos de alta tecnologia como AEROREADY ou Heat.rdy, o conjunto oferece excelente respirabilidade e leveza, sendo ideal para o aquecimento antes das partidas ou uso casual por torcedores. O modelo conta com as clássicas três listras da marca nos ombros em branco, harmonizando com os painéis laterais curvos que realçam a silhueta esportiva. Acabamentos premium, como a gola redonda canelada e os selos de autenticidade da marca, reforçam a qualidade superior da linha licenciada oficial para a Eurocopa 2024. É uma escolha versátil para o torcedor que busca um uniforme com estilo tecnológico e alta performance térmica em qualquer ocasião. Sua construção robusta garante durabilidade contra o desgaste diário, mantendo a vibração das cores originais por muito mais tempo."
+  },
+
+  {
+    id: 12048,
+    nome: "Camisa Polo Corinthians All Black Oficial Licenciada.",
+    categoria: "camisas",
+    preco: 90.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa48.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"A Camisa Polo Corinthians All Black é uma peça de vestuário oficial e licenciada, desenvolvida para o torcedor que busca um visual sofisticado e discreto para representar o Timão em qualquer ocasião. Com um design minimalista e elegante, ela apresenta uma estética totalmente preta (blackout), onde o icônico escudo do Sport Club Corinthians Paulista é aplicado em relevo ou bordado no mesmo tom da peça, garantindo um relevo sutil e imponente. Confeccionada em tecido de alta qualidade, geralmente uma mistura de algodão com poliéster (piquet), a polo oferece um toque macio, excelente durabilidade e conforto térmico para o uso prolongado no dia a dia ou em eventos sociais. O modelo conta com gola colarinho clássica e peitilho com fechamento por botões, além de um corte reto que proporciona um caimento impecável e confortável ao corpo masculino. Detalhes de acabamento, como o selo de autenticidade e etiquetas oficiais, reforçam a procedência e a qualidade superior do produto licenciado. É a escolha ideal para o corinthiano que valoriza a elegância sem abrir mão da paixão pelo clube, unindo a sobriedade do preto com a força histórica de um dos maiores times do Brasil. Sua versatilidade permite combinações fáceis com calças jeans, sarja ou bermudas, mantendo sempre o estilo e a identidade alvinegra em destaque de forma refinada."
+  },
+
+  {
+    id: 12049,
+    nome: "Camisa Manchester City Puma Oficial II 2025/26.",
+    categoria: "camisas",
+    preco: 90.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa49.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"A Camisa Reserva do Manchester City para a temporada 2025/2026, fabricada pela Puma, apresenta um design sofisticado e imponente em preto com detalhes prateados, refletindo a modernidade e a ambição dos Cityzens. O modelo destaca-se pela gola em V com acabamento contrastante e o escudo do clube aplicado em material de alta definição, enquanto o logotipo da Puma e o patrocínio da Etihad Airways aparecem em prata para um visual monocromático elegante. Confeccionada com tecnologia dryCELL, a peça garante máxima respirabilidade e rápida absorção de suor, mantendo o corpo seco e confortável tanto em campo quanto no uso casual. O tecido de poliéster reciclado de alta performance oferece leveza e durabilidade, apresentando sutil textura em jacquard por toda a extensão do manto. Detalhes como o selo de autenticidade na barra e a modelagem atlética reforçam o padrão premium da linha oficial licenciada para a nova temporada. É uma escolha indispensável para o torcedor que deseja representar o time inglês com estilo contemporâneo e alto desempenho técnico. Sua construção foca no conforto térmico superior, permitindo total liberdade de movimento em qualquer ocasião. Esta edição une a tradição vitoriosa de Manchester com as inovações tecnológicas mais recentes do vestuário esportivo mundial."
+  },
+
+  {
+    id: 12050,
+    nome: "Camisa FC Barcelona Nike Oficial I 2025/26.",
+    categoria: "camisas",
+    preco: 90.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa50.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"A Camisa Oficial I do FC Barcelona para a temporada 2025/2026, fabricada pela Nike, apresenta um design inovador que reinterpreta as tradicionais faixas verticais Blaugrana com um efeito visual degradê e texturizado. O manto destaca-se pelo escudo do clube e o logotipo da Nike aplicados em amarelo vibrante, mesma cor utilizada no patrocínio máster do Spotify, que nesta edição aparece em um formato circular centralizado. Confeccionada com tecnologia Dri-FIT em poliéster de alta qualidade, a peça garante máxima respirabilidade e rápida absorção de suor, proporcionando conforto térmico tanto para o uso casual quanto para a prática esportiva intensa. O modelo conta com uma gola redonda moderna e detalhes de acabamento nas mangas que reforçam o padrão premium da linha licenciada oficial para a nova temporada europeia. Selos de autenticidade na barra e etiquetas internas asseguram a procedência e a qualidade técnica superior do produto voltado para torcedores e colecionadores. É uma peça indispensável para quem deseja carregar a mística do Camp Nou com um visual tecnológico e impactante, unindo a tradição vitoriosa do clube catalão com as inovações de performance mais recentes do vestuário esportivo mundial. Sua modelagem oferece um caimento atlético que permite total liberdade de movimento em qualquer ocasião do dia a dia."
+  },
+
+  {
+    id: 12051,
+    nome: "Camisa Flamengo Adidas Oficial I 2025/26.",
+    categoria: "camisas",
+    preco: 90.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa51.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"A Camisa I do Flamengo para a temporada 2025/2026, fabricada pela Adidas, celebra a tradição rubro-negra com um design que une o estilo clássico a toques modernos, apresentando as icônicas listras horizontais em tons de vermelho e preto. O modelo conta com tecnologias de alta performance, como a AEROREADY, que afasta o suor da pele para garantir conforto térmico tanto nas arquibancadas quanto em campo. Detalhes refinados incluem o escudo do clube e o logotipo da Adidas bordados, além de uma homenagem ao mascote Urubu na parte de trás da gola. Confeccionada com materiais 100% reciclados, a peça reforça o compromisso com a sustentabilidade sem abrir mão da durabilidade e do toque macio do tecido. A gola em formato V e as mangas pretas proporcionam um contraste elegante, enquanto as três listras da marca nos ombros remetem aos uniformes históricos da década de 1980. Painéis laterais em mesh foram estrategicamente posicionados para aumentar a ventilação e a liberdade de movimento durante o uso. O caimento da versão torcedor é levemente mais solto, ideal para o dia a dia, mantendo a autenticidade do Manto Sagrado. Esta edição é uma peça essencial para a Nação, representando o orgulho de mais de 45 milhões de torcedores ao redor do mundo. Sua construção robusta garante que as cores permaneçam vibrantes mesmo após diversas lavagens, sendo um item indispensável para qualquer colecionador"
+  },
+
+  {
+    id: 12052,
+    nome: "Camisa Corinthians Nike Oficial II 2024/25.",
+    categoria: "camisas",
+    preco: 90.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa52.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"A Camisa Reserva do Corinthians para a temporada 2024/2025, fabricada pela Nike, apresenta um design blackout minimalista e elegante, sendo uma peça fundamental da coleção que celebra a luta contra o racismo sob o lema Nossa História é Preta. O manto destaca-se pela sua estética quase inteiramente preta, com o escudo do clube e o logotipo da Nike aplicados em branco e preto para criar um contraste sutil e moderno. Confeccionada com tecnologia Dri-FIT em poliéster de alta qualidade, a peça garante máxima respirabilidade e rápida absorção de suor, proporcionando conforto térmico tanto para o uso casual quanto para a prática esportiva intensa. O modelo conta com gola careca e detalhes de acabamento nas mangas que reforçam o padrão premium da linha licenciada oficial para a nova temporada do futebol brasileiro. Selos de autenticidade na barra e etiquetas internas asseguram a procedência e a qualidade técnica superior do produto voltado para torcedores e colecionadores fiéis ao Timão. É uma peça indispensável para quem deseja carregar a mística do Parque São Jorge com um visual tecnológico e impactante, unindo a tradição vitoriosa do clube com as inovações de performance mais recentes. Sua modelagem oferece um caimento atlético que permite total liberdade de movimento em qualquer ocasião, tornando-a versátil para o dia a dia. Este uniforme reserva reafirma a identidade alvinegra de forma sofisticada, sendo amplamente elogiado pela crítica e pelo público pela sua sobriedade e significado social profundo."
+  },
+
+  {
+    id: 12053,
+    nome: "Camisa Corinthians Nike Oficial I 2025/26.",
+    categoria: "camisas",
+    preco: 90.00,
+    imagem: "../suplementoEsporte/camisasFotos/camisa53.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"A Camisa I do Corinthians para a temporada 2025/2026, fabricada pela Nike, celebra um dos maiores feitos da história do clube com um design que homenageia diretamente o título do Mundial de 2000. O manto apresenta um visual retrô marcante, sendo predominantemente branco com os ombros e mangas em preto, remetendo fielmente à peça icônica usada na conquista histórica no Maracanã. Um diferencial importante desta edição é o escudo do clube e o logotipo Swoosh da Nike, que aparecem centralizados no peito, reforçando a estética clássica da época. Confeccionada com a tecnologia Nike Dri-FIT, o tecido absorve o suor e acelera a evaporação, garantindo que torcedores e atletas permaneçam secos e confortáveis em qualquer situação. No interior da gola, a inscrição Todo Poderoso Timão serve como um tributo ao grito da torcida que impulsionou a equipe rumo à glória mundial. Além disso, a numeração nas costas pode apresentar detalhes especiais, como a silhueta do troféu do Mundial dentro do número 8, em honra ao capitão Rincón. A peça é feita com poliéster de alta qualidade, oferecendo durabilidade e leveza tanto para o uso casual quanto para o desempenho esportivo. Sua modelagem proporciona um caimento confortável, permitindo total liberdade de movimento para os membros do Bando de Loucos. Esta camisa não é apenas um uniforme, mas uma declaração de amor e orgulho que conecta as novas gerações ao legado vitorioso do Timão."
+  },
+
+
+
    // ================= ESPORTES =================
 {
     id: 3000,
@@ -3178,10 +3430,19 @@ const PRODUTOS = [
     id: 3008,
     nome: "Meias Antiderrapantes de Alta Performance",
     categoria: "esporte",
-    preco: 30.00,
+    preco: 20.00,
     imagem: "../suplementoEsporte/esporteFotos/MEIAS.jpeg",
     descricao:"Meias Antiderrapantes de Alta Performance são o acessório definitivo para atletas de futebol, futsal, basquete e esportes de impacto. Seu grande diferencial é a tecnologia de pads emborrachados na sola, que elimina o deslize do pé dentro do calçado, garantindo estabilidade máxima em mudanças de direção e arrancadas explosivas. Fabricadas com tecido respirável e de compressão média, elas oferecem conforto térmico e ajuste anatômico superior. Disponíveis em diversas cores vibrantes, são ideais para prevenir bolhas e melhorar a segurança do atleta durante toda a partida.",
     cor:["Branco", "Azul", "Verde", "Laranja", "Vermelho", "Amarelo", "Preto", "Azul Marinho", "Azul"],
+  },
+
+  {
+    id: 3009,
+    nome: "Pochete Esportiva Slim Impermeável com Porta Garrafa.",
+    categoria: "esporte",
+    preco: 45.00,
+    imagem: "../suplementoEsporte/esporteFotos/pochete.jpeg",
+    descricao:"A Pochete Esportiva Slim é o acessório ideal para quem busca praticidade e segurança durante corridas, caminhadas ou treinos na academia. Fabricada em neoprene de alta qualidade, ela possui propriedades impermeáveis que protegem seus pertences contra o suor e chuvas leves. O design conta com um compartimento central expansível capaz de acomodar smartphones de tela grande, além de bolsos laterais menores para chaves, dinheiro ou documentos. Um de seus maiores diferenciais é o elástico lateral reforçado projetado especificamente para carregar uma garrafa de água (squeeze), mantendo a hidratação sempre ao alcance das mãos. O cinto elástico é totalmente regulável e possui um fecho de engate rápido, garantindo que a pochete fique bem rente ao corpo sem balançar durante movimentos intensos. Para maior segurança em atividades noturnas, o modelo inclui uma faixa frontal refletiva que aumenta a visibilidade do atleta. Além disso, apresenta uma saída estratégica para fones de ouvido, permitindo ouvir música com facilidade enquanto o celular permanece protegido dentro do bolso. Leve e discreta, ela pode ser usada por cima ou por baixo da roupa, funcionando também como uma doleira eficiente para viagens. É uma solução completa que une conforto térmico e organização para esportistas de todos os níveis.",
   },
 
 
@@ -3547,6 +3808,24 @@ const PRODUTOS = [
     preco: 120.00,
     imagem: "../brinquedos/brinquedosFoto/rede de vôlei.jpeg",
     descricao:"Esta rede é projetada especificamente para o lazer aquático, sendo fabricada em polipropileno de alta resistência com tratamento UV para suportar a exposição constante ao sol e ao cloro sem ressecar. O modelo da imagem apresenta uma estrutura autoportante com postes leves de PVC ou metal, permitindo que a rede seja instalada tanto na borda quanto dentro da piscina, dependendo do sistema de fixação. Suas dimensões costumam variar entre 3 a 5 metros de comprimento, sendo ideais para partidas recreativas de vôlei ou biribol em ambientes residenciais ou clubes. Por ser um kit portátil e de fácil montagem, ele oferece praticidade para transformar qualquer piscina em uma área de esportes em poucos minutos, garantindo diversão segura para crianças e adultos."
+  },
+
+  {
+    id: 5012,
+    nome: "Baralho Jumbo Playing Cards.",
+    categoria: "brinquedos",
+    preco: 25.00,
+    imagem: "../brinquedos/brinquedosFoto/baralho.jpeg",
+    descricao:"O Baralho Jumbo é uma versão superdimensionada do baralho de pôquer tradicional, projetada para transformar qualquer noite de jogos em uma experiência visualmente impactante e divertida. Com cartas que podem chegar a medir aproximadamente 21 cm por 29 cm (tamanho A4), ele é ideal para festas, eventos, apresentações de mágica ou para facilitar a leitura de jogadores com dificuldades visuais. O conjunto completo contém 52 cartas padrão mais os curingas, todas fabricadas em cartolina de alta resistência com um acabamento laminado em ambos os lados para garantir durabilidade e facilitar o manuseio. Além de sua funcionalidade recreativa para jogos como poker, truco ou paciência, as cartas gigantes são amplamente utilizadas como itens de decoração temática para festas de cassino e adereços fotográficos. O design mantém as ilustrações clássicas dos naipes e figuras da corte, mas em uma escala ampliada que surpreende os convidados. Leve e fácil de transportar apesar do tamanho, este produto une o entretenimento clássico dos jogos de cartas com um toque de exclusividade e bom humor. É uma excelente opção de presente para entusiastas de jogos de tabuleiro e colecionadores que buscam itens fora do comum para sua coleção."
+  },
+
+  {
+    id: 5013,
+    nome: "Jogo de Cartas UNO Clássico Mattel.",
+    categoria: "brinquedos",
+    preco: 15.00,
+    imagem: "../brinquedos/brinquedosFoto/uno.jpeg",
+    descricao:"O UNO é um dos jogos de cartas mais famosos e vendidos do mundo, ideal para reunir amigos e família em momentos de pura diversão e estratégia. O objetivo principal é ser o primeiro jogador a ficar sem cartas na mão, descartando-as de acordo com a cor ou o número da carta que está no topo da mesa. O baralho é composto por cartas numeradas e cartas de ação especiais, como Pular, Inverter e Comprar Duas, que podem mudar o rumo da partida num instante. As cartas de Curinga e Curinga Comprar Quatro oferecem vantagens estratégicas, permitindo escolher a cor que seguirá no jogo. Uma regra fundamental e icônica é gritar UNO! quando se tiver apenas uma carta restante na mão, sob o risco de ser penalizado. Projetado para 2 a 10 jogadores, o jogo é recomendado para idades a partir de 7 anos, estimulando o raciocínio rápido e a interação social. Sua embalagem compacta facilita o transporte, tornando-o o companheiro perfeito para viagens, festas e encontros casuais. O design das cartas é vibrante e intuitivo, facilitando o aprendizado rápido até mesmo para quem nunca jogou antes. Esta versão clássica da Mattel mantém a tradição que conquistou gerações ao redor do globo."
   },
 
   
