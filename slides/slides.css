@@ -1,11 +1,11 @@
 .banner {
     position: relative;
     width: 100%;
-    max-width: 1200px;   /* largura máxima do banner */
+    
     height: 400px;
-    margin: 20px auto;   /* centraliza o banner */
+
     overflow: hidden;
-    border-radius: 10px;
+
 }
 
 .banner img {
