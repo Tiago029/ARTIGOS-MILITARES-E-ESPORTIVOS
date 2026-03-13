@@ -1,7 +1,7 @@
 .banner {
     position: relative;
     width: 100%;
-    
+
     height: 400px;
 
     overflow: hidden;
@@ -50,7 +50,13 @@
 @media (max-width:768px){
 
 .banner{
-    height:220px;
+    width: 100%;
+    height:auto;
+    aspect-ratio:16/9;
+}
+
+.banner img{
+    object-fit:cover;
 }
 
 }
