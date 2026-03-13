@@ -3577,7 +3577,7 @@ const PRODUTOS = [
     id: 4014,
     nome: "Colágeno Tipo II (30 cápsulas)",
     categoria: "suplementos",
-    preco: 120.00,
+    preco: 80.00,
     imagem: "../suplementoEsporte/suplementosFotos/creatina15.jpeg",
     descricao:"Colágeno Tipo II (30 cápsulas) da Lion Sports Nutrition é o suplemento essencial para quem treina pesado e quer proteger suas articulações. Desenvolvido com colágeno não desnaturado, ele age diretamente na regeneração das cartilagens e na redução de dores e inflamações articulares, garantindo mais mobilidade e flexibilidade. Ideal para atletas que buscam superar limites sem comprometer a saúde do corpo a longo prazo. Com apenas uma cápsula ao dia, você previne lesões e mantém a estrutura óssea e articular pronta para os maiores desafios."
   },
@@ -3834,7 +3834,7 @@ const PRODUTOS = [
       id: 6000,
       nome: "Boné Tático The Punisher",
       categoria: "bone",
-      preco: 80.00,
+      preco: 60.00,
       imagem: "../bone/boneFoto/boné chapeu black.jpeg",
       descricao:"(O Justiceiro) é um acessório de estilo militar e casual projetado para durabilidade, apresentando um design de aba curva em tecido Ripstop na parte frontal e malha respirável (mesh) nas laterais e traseira para ventilação superior. O modelo se destaca pelo patch frontal com o icônico crânio bordado, muitas vezes fixado por um painel de velcro que permite a troca por outros emblemas, além de incluir ajuste traseiro tipo strapback ou velcro para um encaixe personalizado. Confeccionado em mistura de algodão e poliéster, é amplamente utilizado por entusiastas de Airsoft, praticantes de atividades ao ar livre e segurança privada, oferecendo proteção solar eficiente com um visual agressivo e funcional."
     },
@@ -3843,7 +3843,7 @@ const PRODUTOS = [
       id: 6001,
       nome: "Boné tático camuflado verde musgo",
       categoria: "bone",
-      preco: 80.00,
+      preco: 60.00,
       imagem: "../bone/boneFoto/boné chapeu camuflado baje.jpeg",
       descricao:"boné tático camuflado no padrão Multicam Arid é um acessório de alto desempenho, construído com uma frente em tecido Ripstop resistente e painéis traseiros em malha respirável (mesh) para ventilação máxima. O grande diferencial deste modelo é o painel de velcro frontal em formato hexagonal com o logo do Punisher (Justiceiro) bordado, permitindo a personalização com outros patches, além de possuir aba curva estruturada e ajuste traseiro para maior conforto em atividades de Airsoft, tiro esportivo ou uso outdoor."
     },
@@ -3852,7 +3852,7 @@ const PRODUTOS = [
       id: 6002,
       nome: "Boné tático camuflado preto",
       categoria: "bone",
-      preco: 80.00,
+      preco: 60.00,
       imagem: "../bone/boneFoto/boné chapeu camuflado cinza.jpeg",
       descricao:"boné tático camuflado no padrão Kryptek Typhon é um acessório de alto desempenho que combina uma frente em tecido Ripstop de alta resistência com painéis traseiros em malha respirável (mesh) perfurada a laser para ventilação superior. O modelo destaca-se pelo grande painel de velcro frontal em formato hexagonal com o logo do Punisher (Justiceiro), permitindo a troca por outros patches, além de possuir aba curva estruturada e ajuste traseiro, sendo ideal para operadores de Airsoft, tiro esportivo ou entusiastas do estilo militar que buscam durabilidade e conforto em ambientes quentes."
     },
@@ -3861,7 +3861,7 @@ const PRODUTOS = [
       id: 6003,
       nome: "Boné tático camuflado verde/bage",
       categoria: "bone",
-      preco: 80.00,
+      preco: 60.00,
       imagem: "../bone/boneFoto/boné chapeu camuflado.jpeg",
       descricao:"boné tático camuflado no padrão Kryptek Typhon é um acessório de alto desempenho que combina uma frente em tecido Ripstop de alta resistência com painéis traseiros em malha respirável (mesh) perfurada a laser para ventilação superior. O modelo destaca-se pelo grande painel de velcro frontal em formato hexagonal com o logo do Punisher (Justiceiro), permitindo a troca por outros patches, além de possuir aba curva estruturada e ajuste traseiro, sendo ideal para operadores de Airsoft, tiro esportivo ou entusiastas do estilo militar que buscam durabilidade e conforto em ambientes quentes."
     },
@@ -3870,7 +3870,7 @@ const PRODUTOS = [
       id: 6004,
       nome: "Boné tático militar na cor verde exército",
       categoria: "bone",
-      preco: 80.00,
+      preco: 60.00,
       imagem: "../bone/boneFoto/boné chapeu verde militar.jpeg",
       descricao:"Este boné tático militar na cor verde exército é um acessório de alto desempenho que combina uma frente robusta com painéis traseiros em malha respirável (mesh) para ventilação máxima em atividades intensas. O modelo destaca-se pelo grande painel de velcro frontal em formato hexagonal com o logo bordado do Punisher (Justiceiro), permitindo a personalização com outros patches, além de possuir aba curva estruturada e ajuste traseiro para um encaixe firme e confortável. Confeccionado em materiais duráveis como poliéster ou misturas de algodão Ripstop, ele é ideal para operadores de Airsoft, tiro esportivo, pesca ou uso casual por entusiastas do estilo militar que buscam proteção solar e resistência."
     },
@@ -3879,7 +3879,7 @@ const PRODUTOS = [
       id: 6005,
       nome: "Boné tático camuflado Black",
       categoria: "bone",
-      preco: 80.00,
+      preco: 60.00,
       imagem: "../bone/boneFoto/boné chapeu verde musgo.jpeg",
       descricao:"Este boné tático camuflado no padrão Woodland é um acessório robusto que combina uma frente em tecido Ripstop resistente com painéis traseiros em malha (mesh) perfurada a laser para ventilação otimizada. O modelo apresenta um painel de velcro frontal em formato hexagonal com o bordado do Punisher (Justiceiro), permitindo a personalização com outros patches, além de possuir aba curva estruturada e ajuste traseiro regulável. É ideal para operadores de Airsoft, praticantes de tiro esportivo ou uso casual, oferecendo durabilidade, conforto térmico e um visual militar moderno."
     },
