@@ -1,20 +1,26 @@
-let imagens = document.querySelectorAll(".slide");
+function pegarSlidesVisiveis(){
+    return Array.from(document.querySelectorAll(".slide"))
+        .filter(img => window.getComputedStyle(img).display !== "none");
+}
+
+let imagens = pegarSlidesVisiveis();
 let index = 0;
 let intervalo;
 
-function mostrarImagem(i) {
+function mostrarImagem(i){
     imagens.forEach(img => img.classList.remove("ativo"));
-    imagens[i].classList.add("ativo");
+    if(imagens[i]) imagens[i].classList.add("ativo");
 }
 
-function iniciarAutoSlide() {
+function iniciarAutoSlide(){
     intervalo = setInterval(() => {
+        imagens = pegarSlidesVisiveis(); // atualiza slides visíveis
         index = (index + 1) % imagens.length;
         mostrarImagem(index);
     }, 3000);
 }
 
-// setinha direita
+// seta direita
 document.querySelector(".seta.direita").addEventListener("click", () => {
     clearInterval(intervalo);
     index = (index + 1) % imagens.length;
@@ -22,7 +28,7 @@ document.querySelector(".seta.direita").addEventListener("click", () => {
     iniciarAutoSlide();
 });
 
-// setinha esquerda
+// seta esquerda
 document.querySelector(".seta.esquerda").addEventListener("click", () => {
     clearInterval(intervalo);
     index = (index - 1 + imagens.length) % imagens.length;
@@ -30,5 +36,6 @@ document.querySelector(".seta.esquerda").addEventListener("click", () => {
     iniciarAutoSlide();
 });
 
-// inicia automaticamente
+
 iniciarAutoSlide();
+

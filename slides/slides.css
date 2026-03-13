@@ -1,62 +1,76 @@
-.banner {
-    position: relative;
-    width: 100%;
-
-    height: 400px;
-
-    overflow: hidden;
-
+.banner{
+    position:relative;
+    width:100%;
+    height:400px;
+    overflow:hidden;
 }
 
-.banner img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
+/* TODAS AS IMAGENS DO SLIDER */
+.banner img{
+    position:absolute;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    opacity:0;
+    transition:opacity 1s ease-in-out;
 }
 
-.banner img.ativo {
-    opacity: 1;
+/* IMAGEM ATIVA */
+.banner img.ativo{
+    opacity:1;
 }
 
-.seta {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    border: none;
-    font-size: 30px;
-    padding: 10px 15px;
-    cursor: pointer;
-    z-index: 10;
-    border-radius: 5px;
+/* SETAS */
+.seta{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    background-color:rgba(0,0,0,0.5);
+    color:#fff;
+    border:none;
+    font-size:30px;
+    padding:10px 15px;
+    cursor:pointer;
+    z-index:10;
+    border-radius:5px;
 }
 
-.seta.esquerda {
-    left: 10px;
+.seta.esquerda{
+    left:10px;
 }
 
-.seta.direita {
-    right: 10px;
+.seta.direita{
+    right:10px;
 }
 
-.seta:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+.seta:hover{
+    background-color:rgba(0,0,0,0.8);
 }
+
+/* CONTROLE DESKTOP / MOBILE */
+
+.banner-desktop{
+    display:block;
+}
+
+.banner-mobile{
+    display:none;
+}
+
+/* MOBILE */
 
 @media (max-width:768px){
 
 .banner{
-    width: 100%;
-    height:auto;
-    aspect-ratio:16/9;
+    height:300px;
 }
 
-.banner img{
-    object-fit:cover;
+.banner-desktop{
+    display:none;
+}
+
+.banner-mobile{
+    display:block;
 }
 
 }
