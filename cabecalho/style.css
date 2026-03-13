@@ -605,33 +605,7 @@ header img {
     display: flex;
 }
 
-/* ================= BANNER ================= */
 
-.banner {
-    width: 100%;
-    height: 450px;
-    overflow: hidden;
-    position: relative;
-}
-
-/* TODAS AS IMAGENS */
-.banner img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
-    opacity: 0;
-    transition: opacity 2s ease-in-out; /* transição suave */
-
-    transform: scale(1); /* leve zoom */
-}
-
-/* imagem ativa */
-.banner img.ativo {
-    opacity: 1;
-    transform: scale(1); /* volta ao normal suavemente */
-}
 
 /* BOTÕES */
 .seta {

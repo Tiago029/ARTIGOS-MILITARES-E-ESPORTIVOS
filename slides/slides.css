@@ -1,13 +1,14 @@
-.banner1 {
+.banner {
     position: relative;
     width: 100%;
+    max-width: 1200px;   /* largura máxima do banner */
     height: 400px;
+    margin: 20px auto;   /* centraliza o banner */
     overflow: hidden;
-    height: 200px; /* altura do banner */
-    position: relative;
+    border-radius: 10px;
 }
 
-.banner1 img {
+.banner img {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -16,7 +17,7 @@
     transition: opacity 1s ease-in-out;
 }
 
-.banner1 img.ativo {
+.banner img.ativo {
     opacity: 1;
 }
 
@@ -44,5 +45,13 @@
 
 .seta:hover {
     background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width:768px){
+
+.banner{
+    height:220px;
+}
+
 }
 
