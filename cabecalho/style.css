@@ -355,7 +355,7 @@ header img {
 /* Telas até 480px (smartphones) */
 @media (max-width: 480px) {
     .grade-produtos {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
         gap: 15px;
     }
 
