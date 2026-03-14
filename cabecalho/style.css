@@ -252,7 +252,7 @@ header img {
 }
 
 .card-produto h3 {
-    font-size: 16px;
+    font-size: 15px;
     margin: 15px 0 10px;
     color: #6d6c6c;
 }
@@ -642,6 +642,30 @@ header img {
         max-height: 220px;
     }
 
+}
+
+/* ===== AJUSTE PARA PADRONIZAR ALTURA DOS CARDS ===== */
+
+.card-produto {
+    min-height: 380px;
+}
+
+.card-produto h3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-produto {
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
