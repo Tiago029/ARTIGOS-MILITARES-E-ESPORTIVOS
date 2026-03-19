@@ -4120,6 +4120,42 @@ const PRODUTOS = [
     descricao:"Saco de Gelo ipermeável é a solução prática e indispensável para quem busca proteção imediata contra imprevistos climáticos em eventos ao ar livre, estádios, shows, parques ou situações de emergência. Fabricada em polietileno de baixa densidade (plástico PE), ela apresenta um material leve, 100% impermeável e totalmente transparente, garantindo que você se mantenha seco sem comprometer a visibilidade ou o conforto durante o uso. O grande diferencial deste modelo é o seu design ultracompacto com embalagem individual selada, que permite carregá-la facilmente no bolso, na mochila, no porta-luvas do carro ou até mesmo dentro de kits de sobrevivência e primeiros socorros sem ocupar espaço. Equipada com um capuz integrado e mangas largas, ela oferece uma cobertura eficiente para adultos de diversos tamanhos, unindo a funcionalidade de uma proteção rápida com a praticidade de um item descartável de baixo custo. Suas costuras soldadas e o acabamento simplificado proporcionam uma barreira absoluta contra a água e o vento, sendo o acessório de conveniência ideal para empresas, organizadores de eventos ou para ter sempre à mão em dias de clima instável. Higiênica, leve e extremamente versátil, esta capa de chuva garante a sua tranquilidade e a de seus clientes, oferecendo segurança e bem-estar em qualquer lugar com total agilidade."
   },
 
+  {
+    id: 8024,
+    nome: "Cordão Velame de Nylon (5 metros) Multiuso - Cor Verde Preto.",
+    categoria: "cursoCampo",
+    preco: 12.00,
+    imagem: "../cursoCampo/cursoCampoFoto/cordel velame preto 5 m.jpeg",
+    descricao:"O cordão velame, também amplamente conhecido como paracord 550, é um cabo de nylon extremamente resistente e versátil, originalmente desenvolvido para as linhas de suspensão de paraquedas durante a Segunda Guerra Mundial. Sua estrutura interna é composta por um núcleo de vários fios de nylon trançados individualmente, envolvidos por uma capa externa também tecida, o que lhe confere uma incrível capacidade de carga e resistência à ruptura para o seu diâmetro reduzido. Este produto é um item indispensável em kits de sobrevivência, camping e atividades táticas, sendo utilizado para uma infinidade de tarefas, desde a montagem de abrigos e amarrações de carga até a confecção de armadilhas ou reparos emergenciais em equipamentos. Por ser fabricado inteiramente em material sintético, o cordão possui propriedades de secagem rápida e alta resistência ao apodrecimento, mofo e danos causados pela exposição prolongada aos raios UV, garantindo durabilidade em ambientes externos severos. A flexibilidade do material permite que ele seja facilmente manuseado para dar nós complexos, enquanto a sua leveza e formato compacto facilitam o transporte em mochilas ou cintos táticos sem adicionar volume significativo. Além do uso militar e de aventura, o paracord tornou-se popular no artesanato para a criação de pulseiras de sobrevivência, cordas para facas e outros acessórios personalizados que podem ser desfeitos em caso de emergência para uso imediato. É um recurso de baixo custo e alta utilidade que oferece uma camada extra de segurança e praticidade para profissionais da segurança pública e entusiastas de atividades ao ar livre."
+  },
+
+  {
+    id: 8025,
+    nome: "Kit de Anotação Tático com Cadernetas, Escrita e Acessórios.",
+    categoria: "cursoCampo",
+    preco: 40.00,
+    imagem: "../cursoCampo/cursoCampoFoto/kit anotação.jpeg",
+    descricao:"Este conjunto foi desenvolvido para oferecer praticidade e organização em atividades de campo, treinamentos militares ou uso administrativo, reunindo itens essenciais de papelaria em um formato compacto e funcional. O kit é composto por duas cadernetas de bolso com espiral superior, sendo uma delas do modelo Executive da marca Baag, ideais para registros rápidos e resistentes ao manuseio frequente dentro de bolsos ou compartimentos de carga. Para a escrita, o conjunto inclui uma caneta esferográfica azul clássica, um lápis de grafite tradicional e um marcador de ponta dupla, permitindo versatilidade para anotações em papel ou marcações em superfícies diversas. A manutenção dos materiais é garantida pela inclusão de um apontador metálico compacto e uma borracha branca da marca Leo&Leo, conhecida por sua eficiência em apagar sem manchar o suporte. Complementando o kit, há uma fivela de engate rápido em polímero de alta resistência acoplada a uma fita de nylon, além de um envelope plástico transparente que protege os papéis contra umidade e sujeira externa. Sua configuração leve e modular facilita o transporte em mochilas táticas ou coletes, sendo uma solução de baixo custo para quem necessita de prontidão na coleta de dados e informações em qualquer ambiente. A escolha de cores sóbrias e materiais duráveis reforça o perfil operacional do produto, atendendo tanto a estudantes quanto a profissionais de segurança e entusiastas de atividades ao ar livre."
+  },
+
+  {
+    id: 8026,
+    nome: "Kit de Higiene e Cuidados Pessoais (conhecido popularmente como Kit Pé).",
+    categoria: "cursoCampo",
+    preco: 35.00,
+    imagem: "../cursoCampo/cursoCampoFoto/kit pé.jpeg",
+    descricao:"Este conjunto reúne itens tradicionais da cultura brasileira voltados para a higiene, o bem-estar e o tratamento de pequenas irritações cutâneas, sendo amplamente utilizado em contextos domésticos e operacionais. O kit é composto pelo Talco Antisséptico Barla, um clássico reconhecido por sua eficácia em combater odores, controlar a transpiração excessiva e manter a pele seca e fresca ao longo do dia. Complementando os cuidados, a Pomada Minancora atua como um potente agente cicatrizante e antisséptico, sendo indicada para tratar frieiras, picadas de insetos e pequenas feridas, graças à sua fórmula rica em óxido de zinco e cânfora. O Sebo de Holanda Dolly, formulado com óleos vegetais da Amazônia como copaíba e andiroba, oferece uma ação hidratante profunda e propriedades anti-inflamatórias, ideal para aliviar dores musculares ou ressecamentos severos na pele. Uma vela branca simples também integra o conjunto, podendo ser utilizada tanto para iluminação de emergência quanto para auxiliar na vedação de pequenos furos em calçados ou equipamentos através da parafina. Esta combinação de produtos destaca-se pelo excelente custo-benefício e pela versatilidade, atendendo às necessidades básicas de cuidado com os pés e primeiros socorros de forma compacta e eficiente. É uma solução prática para quem busca prevenir infecções fúngicas e manter a integridade da pele em rotinas intensas de movimentação ou atividades ao ar livre."
+  },
+
+  {
+    id: 8027,
+    nome: "Telheiro (Tarp) para Rede de Descanso - Cobertura Impermeável de Proteção Tática.",
+    categoria: "cursoCampo",
+    preco: 35.00,
+    imagem: "../cursoCampo/cursoCampoFoto/telheiro rede de selva preta.jpeg",
+    descricao:"Este telheiro, também conhecido tecnicamente como tarp, é um equipamento de proteção essencial para militares e entusiastas de atividades ao ar livre que utilizam redes de selva como dormitório principal. Fabricado em tecido sintético de alta resistência, como nylon ou poliéster com revestimento impermeabilizante, o produto oferece uma barreira eficaz contra chuvas intensas, ventos laterais e o acúmulo de sereno durante o repouso noturno. Seu design estratégico em formato de A permite uma montagem rápida e versátil, podendo ser fixado entre árvores através de cordoalhas nas extremidades para criar um abrigo seco e seguro sobre a rede de descanso. A cor preta sólida proporciona uma excelente camuflagem em ambientes de baixa luminosidade, além de reduzir a passagem de luz solar excessiva, garantindo um ambiente interno mais fresco e sombreado. O item é projetado para ser leve e altamente compactável, ocupando o mínimo de espaço possível em mochilas táticas sem comprometer a mobilidade do operador em missões prolongadas. Sua construção robusta com costuras reforçadas assegura durabilidade mesmo em terrenos acidentados ou sob condições climáticas extremas, típicas de ambientes de selva ou floresta densa. Além de proteger o usuário, o telheiro também serve para resguardar equipamentos de valor deixados sob a rede, como botas e mochilas, da umidade do solo. É uma solução indispensável para garantir a integridade física e o descanso regenerativo necessário para a manutenção do desempenho operacional em campo."
+  },
+
   // ================= ORTOPÉDICO =================
   {
     id: 9000,
@@ -5128,6 +5164,24 @@ const PRODUTOS = [
     preco: 15.00,
     imagem: "../fardamentosMilitares/breveSutacheFoto/sutache operacao com caes.jpeg",
     descricao:"Este patch bordado, tecnicamente chamado de manicaca, identifica militares qualificados para atuar em missões de Operações de Guarda, sendo uma insígnia de especialização utilizada em diversos uniformes da força terrestre. Confeccionado com fios de alta resistência sobre uma base de tecido firme, o item apresenta um design semicircular com a inscrição OPERAÇÕES DE GUARDA em destaque na cor branca sobre um fundo preto, cercado por bordas nas cores verde e amarela. Com dimensões regulamentares para aplicação na manga do fardamento, o acessório segue os padrões estéticos e técnicos exigidos para a correta identificação da qualificação militar. A peça geralmente conta com acabamento reforçado em suas extremidades para evitar o desfiamento, garantindo uma vida útil prolongada mesmo sob condições de uso intenso em guardas de quartéis ou escoltas. Sua fixação é comumente feita por fecho de contato (velcro) ou costura direta, permitindo que o militar exiba com clareza sua prontidão para tarefas de segurança e proteção de instalações. O uso deste distintivo é fundamental para a padronização visual da tropa e para destacar a expertise técnica do combatente em procedimentos de vigilância e controle de acesso. Trata-se de um símbolo de responsabilidade e disciplina, essencial para compor a apresentação individual do militar designado para tais funções estratégicas dentro da unidade."
+  },
+
+  {
+    id: 11067,
+    nome: "Polícia do Exército (PE) para Costas de Colete Tático.",
+    categoria: "breveSutache",
+    preco: 28.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/PE para costas.jpeg",
+    descricao:"Este acessório é uma peça fundamental na composição do uniforme operacional, servindo para a identificação visual imediata de membros da Polícia do Exército em ambientes de alta intensidade ou patrulhamento. Geralmente fabricado em material emborrachado de alta durabilidade ou bordado com fios de nylon resistentes, o patch apresenta um fundo preto com letras em contraste, como branco ou cinza, garantindo legibilidade mesmo em condições de baixa luminosidade ou à distância. Sua fixação é feita por meio de um sistema de velcro (macho/fêmea), o que permite uma aplicação rápida e segura na parte posterior de coletes táticos, capas de proteção modular ou mochilas militares, facilitando a substituição rápida entre diferentes equipamentos. Com dimensões padrão que costumam variar entre 19x10 cm e 25x7 cm, o item é projetado para suportar intempéries, como chuva e exposição solar, sem sofrer deformações ou desbotamento precoce. Além de sua função prática de identificação institucional, o patch reforça a autoridade e a presença ostensiva da tropa, sendo um item essencial para manter a padronização e o profissionalismo exigidos pelas Forças Armadas em operações internas ou de garantia da lei e da ordem."
+  },
+
+  {
+    id: 11068,
+    nome: "Bordado de Identificação (PE) (Polícia do Exército).",
+    categoria: "breveSutache",
+    preco: 25.00,
+    imagem: "../fardamentosMilitares/breveSutacheFoto/sutache PE.jpeg",
+    descricao:"O patch exibido é um distintivo de identificação visual frontal ou lateral, amplamente utilizado por membros da Polícia do Exército Brasileiro em seus uniformes e equipamentos táticos. Fabricado em tecido de alta resistência com bordado industrial em fios de nylon, o produto apresenta as letras PE em branco sobre um fundo preto sólido, garantindo um contraste nítido e imediato para reconhecimento de autoridade. Este modelo específico possui dimensões reduzidas, geralmente em torno de 5x5 cm ou 7x5 cm, sendo ideal para fixação em golas de gandolas, bonés, gorros, ou na parte frontal de coletes modulares. A peça conta com um sistema de velcro no verso para uma aplicação prática e segura, permitindo que o militar alterne a identificação entre diferentes fardamentos de acordo com a necessidade da missão. Sua construção robusta é pensada para resistir ao desgaste do uso operacional contínuo, mantendo a integridade das cores e do formato mesmo sob condições climáticas adversas ou lavagens frequentes. Além de sua função prática, o patch carrega o simbolismo e a tradição de uma das tropas mais especializadas do Exército, sendo um item essencial para a padronização e o profissionalismo da tropa em serviço."
   },
 
 ];
