@@ -1578,7 +1578,7 @@ const PRODUTOS = [
     id: 514,
     nome: "Boina Camuflada",
     categoria: "fardamentos militar",
-    preco: 13.00,
+    preco: 170.00,
     imagem: "../fardamentosMilitares/fardasMilitaresFoto/boina camuflada.jpeg",
     descricao:"Esta boina modelo Lyon apresenta um design de inspiração francesa, sendo amplamente reconhecida pelo seu acabamento de alta qualidade e funcionalidade tática em ambientes operacionais. Confeccionada em malha de lã legítima, ela oferece uma excelente maleabilidade que facilita a moldagem conforme o uso, além de possuir propriedades naturais que repelem a água. O padrão de camuflagem é o oficial do Exército Brasileiro, ideal para tropas que atuam em regiões de selva ou áreas com vegetação densa. Sua estrutura conta com uma borda em couro resistente, que proporciona maior durabilidade e um ajuste firme à cabeça, evitando deslizes durante o movimento. Na parte traseira, o cordão de ajuste permite que o usuário adapte o acessório perfeitamente à sua medida pessoal. Além do aspecto funcional de proteção e camuflagem, a peça carrega um forte simbolismo militar, representando o profissionalismo das forças armadas. O material interno é respirável, garantindo conforto térmico mesmo em climas quentes e úmidos. Por ser um item de padrão militar, segue rigorosas especificações de cor e costura, assegurando uniformidade visual. Este modelo é a escolha ideal para quem busca um equipamento durável, com caimento impecável e respeito às tradições militares." // NOVO CAMPO
   },
@@ -1587,7 +1587,7 @@ const PRODUTOS = [
     id: 515,
     nome: "Boina Preta",
     categoria: "fardamentos militar",
-    preco: 13.00,
+    preco: 120.00,
     imagem: "../fardamentosMilitares/fardasMilitaresFoto/boina preta.jpeg",
     descricao:"Esta boina preta modelo Lyon possui o clássico design francês, sendo um acessório de alto padrão reconhecido pela elegância e durabilidade técnica. Fabricada em malha de lã de primeira linha, ela oferece um caimento impecável e natural, adaptando-se facilmente ao formato da cabeça do usuário com conforto. O material de lã confere à peça propriedades de repelência à água, tornando-a ideal para uso externo em diversas condições climáticas. Sua base é reforçada com uma borda em couro legítimo, que não apenas aumenta a vida útil do produto, mas também garante um ajuste firme e seguro. Na parte posterior, o item conta com cordões de ajuste que permitem uma personalização precisa da circunferência para cada pessoa. Internamente, o acabamento é pensado para proporcionar respirabilidade, evitando o acúmulo excessivo de calor durante o uso prolongado. Este modelo específico é muito utilizado por forças de segurança, grupos de honra e entusiastas da moda militar devido ao seu visual sóbrio. A cor preta sólida confere versatilidade, permitindo que a peça seja combinada com diferentes uniformes ou trajes casuais de inverno. É um produto que une a tradição da chapelaria europeia com a resistência exigida para o uso operacional diário. Sua estrutura robusta mantém o formato original mesmo após longos períodos, consolidando-a como uma escolha de excelência no mercado." // NOVO CAMPO
   },
