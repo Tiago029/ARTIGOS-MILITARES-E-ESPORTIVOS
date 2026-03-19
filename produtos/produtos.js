@@ -380,14 +380,7 @@ const PRODUTOS = [
     descricao:"A Mochila de Hidratação Tática Militar na cor verde-oliva é o equipamento essencial para quem busca performance e autonomia em atividades de longa duração como ciclismo, corrida de montanha, trilhas e operações de airsoft. Fabricada em náilon 600D de alta densidade, ela oferece resistência superior a rasgos e é à prova d'água, protegendo seu reservatório e itens pessoais em qualquer condição climática. O kit completo inclui um refil interno de 3 litros fabricado em material atóxico, com mangueira revestida e bico de sucção ergonômico com trava, permitindo uma hidratação rápida e contínua sem que você precise parar o movimento. Seu design leve e aerodinâmico conta com alças de ombro e peitorais totalmente ajustáveis que garantem um encaixe firme ao corpo, eliminando vibrações e proporcionando o máximo de conforto térmico e mobilidade em todos os seus desafios ao ar livre."
   },
 
-  {
-    id: 220,
-    nome: "Cantil Militar de Polipropileno 900ml Verde Oliva – Padrão Forças Armadas",
-    categoria: "equipamentos militares",
-    preco: 50.00,
-    imagem: "../produtosEmDestaques/cantil.jpeg",
-    descricao:"O Cantil Militar de 900ml é um item indispensável para quem busca resistência e funcionalidade em operações táticas, acampamentos ou treinamentos de sobrevivência. Fabricado em polipropileno de alta densidade, este modelo é extremamente robusto, imune a furos e rachaduras, além de não amassar nem enferrujar. Seu design clássico apresenta o visor texturizado com a inscrição EXCLUSIVO PARA ÁGUA, garantindo segurança no armazenamento de líquidos. Possui tampa com vedação eficiente e alça plástica integrada para evitar a perda do acessório. Leve e ergonômico, o cantil encaixa-se perfeitamente em capas térmicas e porta-cantis de cinto, sendo o padrão confiável utilizado por diversas forças armadas para hidratação em campo."
-  },
+
 
   {
     id: 221,
@@ -698,14 +691,7 @@ const PRODUTOS = [
     descricao:"Esta faca tática de combate foi projetada para quem exige máxima agilidade, leveza e eficiência em operações de campo ou atividades de sobrevivência extrema. Construída em aço de alta resistência com acabamento polido, sua lâmina estilo Bowie apresenta um fio liso de alta precisão e uma série de oito furos vazados estratégicos que reduzem o peso total da peça, proporcionando um equilíbrio superior e uma estética agressiva inigualável. O grande diferencial deste modelo é o seu dorso com serrilha profunda, ideal para tarefas pesadas como serrar cordas ou galhos, aliado a uma guarda dupla estendida que oferece proteção total contra deslizes em direção ao fio. O cabo ergonômico em polímero de alta densidade possui uma textura antiderrapante e um design anatômico para os dedos, garantindo uma empunhadura firme e controle absoluto mesmo sob as condições mais hostis ou uso de luvas táticas. Com uma construção sólida e um pomo traseiro que permite a fixação de fiel, esta faca une a durabilidade militar com a funcionalidade necessária para enfrentar qualquer desafio na natureza. É o acessório de cutelaria indispensável para aventureiros, colecionadores e entusiastas do bushcraft que buscam um equipamento confiável que combina um corte potente com uma presença tática imponente e total segurança."
   },
 
-  {
-    id: 256,
-    nome: "Facão Tático Militar com Lâmina em Aço Inox e Bainha de Couro Legítimo",
-    categoria: "equipamentos militares",
-    preco: 195.00,
-    imagem: "../equipamentosMilitares/equipamentosFoto/faca20.jpeg",
-    descricao:"Este facão tático de alto desempenho é a ferramenta definitiva para quem exige força bruta, durabilidade e precisão em tarefas pesadas de desbravamento, bushcraft ou manutenção em propriedades rurais. Construído com uma lâmina longa e robusta em aço inoxidável de alta qualidade, ele oferece uma resistência excepcional à corrosão e um fio de corte duradouro, ideal para abrir trilhas, cortar galhos grossos e preparar abrigos com o mínimo esforço. O grande diferencial deste modelo é a sua luxuosa bainha em couro legítimo preto, que apresenta costuras reforçadas e botões de pressão estratégicos para garantir um transporte seguro e um saque rápido e silencioso em qualquer situação de campo. O cabo ergonômico com talas fixadas por rebites metálicos proporciona uma empunhadura firme, equilibrada e extremamente confortável, reduzindo a fadiga da mão durante o uso prolongado e garantindo um controle absoluto sobre cada golpe. Com um design que une a eficiência militar com a tradição da cutelaria robusta, este facão é o acessório indispensável para aventureiros, mateiros e profissionais que não abrem mão de um equipamento confiável para enfrentar os desafios mais brutos da natureza. Sua construção sólida e acabamento premium garantem que esta ferramenta suporte as condições mais severas, proporcionando máxima segurança e uma vida útil incomparável."
-  },
+
 
   {
     id: 257,
@@ -770,14 +756,7 @@ const PRODUTOS = [
     descricao:"Este porta-cantil tático é a solução definitiva para quem busca hidratação acessível, proteção térmica e durabilidade em operações militares, acampamentos, trilhas ou práticas de Airsoft. Construído integralmente em nylon de alta densidade e padrão profissional, ele oferece uma resistência incomparável contra abrasão e rasgos em terrenos de mata densa, garantindo uma vida útil prolongada mesmo sob uso severo. O grande diferencial deste modelo é o seu design funcional que inclui um bolso lateral auxiliar com fechamento em velcro, ideal para carregar pastilhas purificadoras de água ou pequenos itens de emergência, além de um sistema de travamento central por fivela de engate rápido em polímero, que mantém o cantil absolutamente firme e seguro durante movimentações intensas. Equipado com um revestimento interno que auxilia na manutenção da temperatura do líquido e passadores traseiros reforçados para fixação em cintos de guarnição ou mochilas, ele une a funcionalidade tática com uma estética militar autêntica e profissional. Leve, compacto e extremamente robusto, este acessório é o item indispensável para compor o seu kit de sobrevivência com total praticidade, segurança e a confiança de um equipamento tático feito para durar."
   },
 
-  {
-    id: 265,
-    nome: "Bússola de Mapa Profissional com Lupa, Réguas de Escala e Cordão de Segurança",
-    categoria: "equipamentos militares",
-    preco: 70.00,
-    imagem: "../equipamentosMilitares/equipamentosFoto/bussola de campo.jpeg",
-    descricao:"Esta bússola de mapa profissional é a ferramenta de navegação definitiva para quem busca precisão cirúrgica e confiança em expedições de trekking, orientação, bushcraft ou treinamentos militares. Construída em acrílico transparente de alta resistência e padrão profissional, ela apresenta uma base plana que permite a leitura clara de mapas e cartas topográficas sem distorções, integrando réguas de escala em milímetros e proporções de 1:25.000 e 1:50.000 para cálculos de distância rápidos e exatos. O grande diferencial deste modelo é a sua lente de aumento (lupa) centralizada e o disco graduado de 360° em alto contraste, que garantem uma leitura de azimute sem erros mesmo sob condições de luz adversas, enquanto a agulha magnética de alta estabilidade assegura um apontamento norte rápido e confiável. Equipada com um cordão de nylon amarelo de alta visibilidade, ela oferece um transporte seguro junto ao corpo ou fixada à mochila, unindo a funcionalidade tática com uma durabilidade excepcional contra impactos e variações térmicas em campo. Leve, compacta e extremamente robusta, esta bússola é o acessório indispensável para compor o seu kit de sobrevivência com total praticidade, segurança e a precisão de um equipamento de navegação de elite feito para durar."
-  },
+
 
   {
     id: 266,
@@ -788,14 +767,7 @@ const PRODUTOS = [
     descricao:"Esta bolsa de transporte tática é a solução definitiva para quem busca máxima capacidade de carga, resistência e organização em expedições militares, viagens de longa duração, acampamentos ou práticas de Airsoft. Construída integralmente em nylon de alta densidade e padrão profissional na cor verde oliva, ela oferece uma durabilidade incomparável contra abrasão, rasgos e condições climáticas adversas, garantindo a proteção total dos seus equipamentos mesmo sob uso severo. O grande diferencial deste modelo é o seu design cilíndrico de grande volume com sistema de fechamento por zíper de alta resistência e alças de mão reforçadas que envolvem toda a estrutura da bolsa, proporcionando uma distribuição de peso equilibrada e segurança absoluta durante o transporte de cargas pesadas. Equipada com um visor transparente de identificação lateral e cintas de compressão externas com fivelas de polímero, ela permite estabilizar o conteúdo interno e personalizar o tamanho da bolsa conforme a necessidade, unindo a funcionalidade tática com uma estética militar autêntica e profissional. Leve, dobrável quando vazia e extremamente robusta, esta bolsa de transporte é o acessório indispensável para organizar o seu fardamento e kits de sobrevivência com total praticidade, segurança e a confiança de um equipamento de carga de elite feito para durar."
   },
 
-  {
-    id: 267,
-    nome: "Saco de Gelo ipermeável",
-    categoria: "equipamentos militares",
-    preco: 35.00,
-    imagem: "../equipamentosMilitares/equipamentosFoto/saco ipermeavel para campo.jpeg",
-    descricao:"Saco de Gelo ipermeável é a solução prática e indispensável para quem busca proteção imediata contra imprevistos climáticos em eventos ao ar livre, estádios, shows, parques ou situações de emergência. Fabricada em polietileno de baixa densidade (plástico PE), ela apresenta um material leve, 100% impermeável e totalmente transparente, garantindo que você se mantenha seco sem comprometer a visibilidade ou o conforto durante o uso. O grande diferencial deste modelo é o seu design ultracompacto com embalagem individual selada, que permite carregá-la facilmente no bolso, na mochila, no porta-luvas do carro ou até mesmo dentro de kits de sobrevivência e primeiros socorros sem ocupar espaço. Equipada com um capuz integrado e mangas largas, ela oferece uma cobertura eficiente para adultos de diversos tamanhos, unindo a funcionalidade de uma proteção rápida com a praticidade de um item descartável de baixo custo. Suas costuras soldadas e o acabamento simplificado proporcionam uma barreira absoluta contra a água e o vento, sendo o acessório de conveniência ideal para empresas, organizadores de eventos ou para ter sempre à mão em dias de clima instável. Higiênica, leve e extremamente versátil, esta capa de chuva garante a sua tranquilidade e a de seus clientes, oferecendo segurança e bem-estar em qualquer lugar com total agilidade."
-  },
+  
 
   {
     id: 268,
@@ -4107,6 +4079,45 @@ const PRODUTOS = [
     preco: 55.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/MOLDE DE NUMEROS.jpeg",
     descricao:"Este conjunto contém 37 moldes (stencils) de letras maiúsculas e números fabricados em polipropileno de alta resistência, ideal para a criação de cartazes escolares, trabalhos de artesanato e sinalizações em geral. Com o tamanho de 45 mm, as letras oferecem excelente visibilidade e precisão, permitindo o uso com diversos tipos de marcadores, canetas hidrográficas ou tintas. O material plástico é lavável e reutilizável, garantindo uma longa vida útil ao produto mesmo sob uso frequente em ambientes educativos ou artísticos. A embalagem compacta facilita o armazenamento e a organização das peças, evitando perdas e danos aos moldes durante o transporte. O uso do stencil proporciona um acabamento profissional e padronizado, eliminando falhas de caligrafia e proporcionando agilidade na produção de mensagens e títulos. Trata-se de uma ferramenta clássica de papelaria, essencial para estudantes e profissionais que buscam praticidade e qualidade visual em seus projetos manuais. A Compactor garante a durabilidade e a flexibilidade das placas, que se adaptam bem a superfícies planas ou levemente curvas."
+  },
+
+  {
+    id: 8020,
+    nome: "Cantil Militar de Polipropileno 900ml Verde Oliva – Padrão Forças Armadas",
+    categoria: "cursoCampo",
+    preco: 50.00,
+    imagem: "../produtosEmDestaques/cantil.jpeg",
+    descricao:"O Cantil Militar de 900ml é um item indispensável para quem busca resistência e funcionalidade em operações táticas, acampamentos ou treinamentos de sobrevivência. Fabricado em polipropileno de alta densidade, este modelo é extremamente robusto, imune a furos e rachaduras, além de não amassar nem enferrujar. Seu design clássico apresenta o visor texturizado com a inscrição EXCLUSIVO PARA ÁGUA, garantindo segurança no armazenamento de líquidos. Possui tampa com vedação eficiente e alça plástica integrada para evitar a perda do acessório. Leve e ergonômico, o cantil encaixa-se perfeitamente em capas térmicas e porta-cantis de cinto, sendo o padrão confiável utilizado por diversas forças armadas para hidratação em campo."
+  },
+
+{
+    id: 8021,
+    nome: "Facão Tático Militar com Lâmina em Aço Inox e Bainha de Couro Legítimo",
+    categoria: "cursoCampo",
+    preco: 195.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/faca20.jpeg",
+    descricao:"Este facão tático de alto desempenho é a ferramenta definitiva para quem exige força bruta, durabilidade e precisão em tarefas pesadas de desbravamento, bushcraft ou manutenção em propriedades rurais. Construído com uma lâmina longa e robusta em aço inoxidável de alta qualidade, ele oferece uma resistência excepcional à corrosão e um fio de corte duradouro, ideal para abrir trilhas, cortar galhos grossos e preparar abrigos com o mínimo esforço. O grande diferencial deste modelo é a sua luxuosa bainha em couro legítimo preto, que apresenta costuras reforçadas e botões de pressão estratégicos para garantir um transporte seguro e um saque rápido e silencioso em qualquer situação de campo. O cabo ergonômico com talas fixadas por rebites metálicos proporciona uma empunhadura firme, equilibrada e extremamente confortável, reduzindo a fadiga da mão durante o uso prolongado e garantindo um controle absoluto sobre cada golpe. Com um design que une a eficiência militar com a tradição da cutelaria robusta, este facão é o acessório indispensável para aventureiros, mateiros e profissionais que não abrem mão de um equipamento confiável para enfrentar os desafios mais brutos da natureza. Sua construção sólida e acabamento premium garantem que esta ferramenta suporte as condições mais severas, proporcionando máxima segurança e uma vida útil incomparável."
+  },
+
+
+{
+    id: 8022,
+    nome: "Bússola de Mapa Profissional com Lupa, Réguas de Escala e Cordão de Segurança",
+    categoria: "cursoCampo",
+    preco: 70.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/bussola de campo.jpeg",
+    descricao:"Esta bússola de mapa profissional é a ferramenta de navegação definitiva para quem busca precisão cirúrgica e confiança em expedições de trekking, orientação, bushcraft ou treinamentos militares. Construída em acrílico transparente de alta resistência e padrão profissional, ela apresenta uma base plana que permite a leitura clara de mapas e cartas topográficas sem distorções, integrando réguas de escala em milímetros e proporções de 1:25.000 e 1:50.000 para cálculos de distância rápidos e exatos. O grande diferencial deste modelo é a sua lente de aumento (lupa) centralizada e o disco graduado de 360° em alto contraste, que garantem uma leitura de azimute sem erros mesmo sob condições de luz adversas, enquanto a agulha magnética de alta estabilidade assegura um apontamento norte rápido e confiável. Equipada com um cordão de nylon amarelo de alta visibilidade, ela oferece um transporte seguro junto ao corpo ou fixada à mochila, unindo a funcionalidade tática com uma durabilidade excepcional contra impactos e variações térmicas em campo. Leve, compacta e extremamente robusta, esta bússola é o acessório indispensável para compor o seu kit de sobrevivência com total praticidade, segurança e a precisão de um equipamento de navegação de elite feito para durar."
+  },
+
+
+
+{
+    id: 8023,
+    nome: "Saco de Gelo ipermeável",
+    categoria: "cursoCampo",
+    preco: 35.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/saco ipermeavel para campo.jpeg",
+    descricao:"Saco de Gelo ipermeável é a solução prática e indispensável para quem busca proteção imediata contra imprevistos climáticos em eventos ao ar livre, estádios, shows, parques ou situações de emergência. Fabricada em polietileno de baixa densidade (plástico PE), ela apresenta um material leve, 100% impermeável e totalmente transparente, garantindo que você se mantenha seco sem comprometer a visibilidade ou o conforto durante o uso. O grande diferencial deste modelo é o seu design ultracompacto com embalagem individual selada, que permite carregá-la facilmente no bolso, na mochila, no porta-luvas do carro ou até mesmo dentro de kits de sobrevivência e primeiros socorros sem ocupar espaço. Equipada com um capuz integrado e mangas largas, ela oferece uma cobertura eficiente para adultos de diversos tamanhos, unindo a funcionalidade de uma proteção rápida com a praticidade de um item descartável de baixo custo. Suas costuras soldadas e o acabamento simplificado proporcionam uma barreira absoluta contra a água e o vento, sendo o acessório de conveniência ideal para empresas, organizadores de eventos ou para ter sempre à mão em dias de clima instável. Higiênica, leve e extremamente versátil, esta capa de chuva garante a sua tranquilidade e a de seus clientes, oferecendo segurança e bem-estar em qualquer lugar com total agilidade."
   },
 
   // ================= ORTOPÉDICO =================
