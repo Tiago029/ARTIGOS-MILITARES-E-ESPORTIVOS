@@ -4151,9 +4151,18 @@ const PRODUTOS = [
     id: 8027,
     nome: "Telheiro (Tarp) para Rede de Descanso - Cobertura Impermeável de Proteção Tática.",
     categoria: "cursoCampo",
-    preco: 35.00,
+    preco: 18.00,
     imagem: "../cursoCampo/cursoCampoFoto/telheiro rede de selva preta.jpeg",
     descricao:"Este telheiro, também conhecido tecnicamente como tarp, é um equipamento de proteção essencial para militares e entusiastas de atividades ao ar livre que utilizam redes de selva como dormitório principal. Fabricado em tecido sintético de alta resistência, como nylon ou poliéster com revestimento impermeabilizante, o produto oferece uma barreira eficaz contra chuvas intensas, ventos laterais e o acúmulo de sereno durante o repouso noturno. Seu design estratégico em formato de A permite uma montagem rápida e versátil, podendo ser fixado entre árvores através de cordoalhas nas extremidades para criar um abrigo seco e seguro sobre a rede de descanso. A cor preta sólida proporciona uma excelente camuflagem em ambientes de baixa luminosidade, além de reduzir a passagem de luz solar excessiva, garantindo um ambiente interno mais fresco e sombreado. O item é projetado para ser leve e altamente compactável, ocupando o mínimo de espaço possível em mochilas táticas sem comprometer a mobilidade do operador em missões prolongadas. Sua construção robusta com costuras reforçadas assegura durabilidade mesmo em terrenos acidentados ou sob condições climáticas extremas, típicas de ambientes de selva ou floresta densa. Além de proteger o usuário, o telheiro também serve para resguardar equipamentos de valor deixados sob a rede, como botas e mochilas, da umidade do solo. É uma solução indispensável para garantir a integridade física e o descanso regenerativo necessário para a manutenção do desempenho operacional em campo."
+  },
+
+  {
+    id: 8028,
+    nome: "Liga Elástica de Carga de dois Ganchos",
+    categoria: "cursoCampo",
+    preco: 30.00,
+    imagem: "../cursoCampo/cursoCampoFoto/liga elastica.jpeg",
+    descricao:"O item é composto por uma corda de látex revestida com polipropileno de alta resistência. Suas principais características, possui ganchos de plástico reforçado em ambas as extremidades para fixação em diversos pontos de ancoragem. Modelos comuns encontrados têm cerca de 1,5 metros, mas variam entre 1 e 2 metros conforme a necessidade.Versatilidade: É amplamente utilizado para prender objetos em bagageiros de motos, bicicletas, caçambas de caminhonetes, porta-malas de carros, além de ser útil em campings e tarefas domésticas."
   },
 
   // ================= ORTOPÉDICO =================
