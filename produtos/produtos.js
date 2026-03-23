@@ -4142,7 +4142,7 @@ const PRODUTOS = [
     id: 8026,
     nome: "Kit de Higiene e Cuidados Pessoais (conhecido popularmente como Kit Pé).",
     categoria: "cursoCampo",
-    preco: 35.00,
+    preco: 52.00,
     imagem: "../cursoCampo/cursoCampoFoto/kit pé.jpeg",
     descricao:"Este conjunto reúne itens tradicionais da cultura brasileira voltados para a higiene, o bem-estar e o tratamento de pequenas irritações cutâneas, sendo amplamente utilizado em contextos domésticos e operacionais. O kit é composto pelo Talco Antisséptico Barla, um clássico reconhecido por sua eficácia em combater odores, controlar a transpiração excessiva e manter a pele seca e fresca ao longo do dia. Complementando os cuidados, a Pomada Minancora atua como um potente agente cicatrizante e antisséptico, sendo indicada para tratar frieiras, picadas de insetos e pequenas feridas, graças à sua fórmula rica em óxido de zinco e cânfora. O Sebo de Holanda Dolly, formulado com óleos vegetais da Amazônia como copaíba e andiroba, oferece uma ação hidratante profunda e propriedades anti-inflamatórias, ideal para aliviar dores musculares ou ressecamentos severos na pele. Uma vela branca simples também integra o conjunto, podendo ser utilizada tanto para iluminação de emergência quanto para auxiliar na vedação de pequenos furos em calçados ou equipamentos através da parafina. Esta combinação de produtos destaca-se pelo excelente custo-benefício e pela versatilidade, atendendo às necessidades básicas de cuidado com os pés e primeiros socorros de forma compacta e eficiente. É uma solução prática para quem busca prevenir infecções fúngicas e manter a integridade da pele em rotinas intensas de movimentação ou atividades ao ar livre."
   },
