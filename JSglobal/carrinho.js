@@ -227,6 +227,36 @@ function gerarLinkWhatsApp(carrinho, total) {
     
     btn.href = `https://wa.me/${telefone}?text=${msg}`;
 
+    btn.onclick = null; // limpa clique antigo
+
+    btn.addEventListener("click", () => {
+
+    let listaProdutos = "";
+    let totalItens = 0;
+
+    carrinho.forEach(p => {
+
+        listaProdutos += `${p.nome} (${p.quantidade}x) - R$ ${(p.preco * p.quantidade).toFixed(2)}\n`;
+
+        totalItens += p.quantidade;
+
+    });
+
+    const dados = new FormData();
+
+    dados.append("entry.1725565858", listaProdutos);      // PRODUTOS
+    dados.append("entry.57545570", total.toFixed(2));     // TOTAL
+    dados.append("entry.1435584134", totalItens);         // QUANTIDADE
+    dados.append("entry.14341212", "Pedido vindo do site"); // Campo antigo
+
+    fetch("https://docs.google.com/forms/d/e/1FAIpQLSfAQeW71fjNQSXiL_72zvhtS_17mh2ecd8rLNAwYIjtBw6LVQ/formResponse", {
+        method: "POST",
+        mode: "no-cors",
+        body: dados
+    });
+
+});
+
 }
 
 // ==========================
