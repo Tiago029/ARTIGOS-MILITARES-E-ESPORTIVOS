@@ -3670,6 +3670,132 @@ const PRODUTOS = [
     imagem: "../suplementoEsporte/suplementosFotos/whey11.jpeg",
     descricao:"Whey Combat (900g) da Lion Sports Nutrition é o suplemento proteico desenvolvido para quem busca máxima performance com excelente custo-benefício. No sabor Chocolate, sua fórmula combina um blend de proteínas de alto valor biológico que garante o aporte necessário de aminoácidos para a construção e reparação muscular pós-treino. Ideal para atletas que precisam de uma nutrição sólida para encarar a rotina de treinos intensos, ele auxilia no ganho de massa magra e na redução da fadiga. Com boa solubilidade e sabor marcante, é o combustível de combate diário para você superar seus limites e atingir seus objetivos físicos."
   },
+
+  {
+    id: 4028,
+    nome: "Whey Protein Concentrado 80% (1 kg) – Growth Supplements",
+    categoria: "suplementos",
+    preco: 170.00,
+    imagem: "../suplementoEsporte/suplementosFotos/whey12.jpeg",
+    descricao:"Este suplemento alimentar de alto valor biológico é formulado exclusivamente com proteína do soro do leite (WPC) de pureza elevada, garantindo 23g de proteína e 5,2g de BCAAs por dose para otimizar a síntese proteica. Ideal para atletas e entusiastas do fitness, o produto no sabor Milkshake de Chocolate oferece uma excelente solubilidade e rápida absorção, auxiliando diretamente na recuperação muscular pós-treino e no ganho de massa magra. Sua composição rica em aminoácidos essenciais faz dele uma escolha estratégica para quem busca performance e nutrição eficiente com um ótimo custo-benefício. Desenvolvido com tecnologia de ponta, este Whey Protein ajuda a prevenir o catabolismo e promove o anabolismo, sendo um aliado indispensável para bater as metas proteicas diárias. É a opção perfeita para preparar shakes cremosos ou receitas proteicas, unindo um sabor irresistível a um perfil nutricional completo e rigorosamente testado em laboratório. Com embalagem prática de 1kg, ele garante rendimento para até 33 porções, oferecendo energia e suporte estrutural para seus músculos em todas as fases do treinamento."
+  },
+
+  {
+    id: 4029,
+    nome: "Whey 100% HD Caveira Preta (450 g) – Black Skull",
+    categoria: "suplementos",
+    preco: 180.00,
+    imagem: "../suplementoEsporte/suplementosFotos/whey13.jpeg",
+    descricao:"O Whey 100% HD da linha Caveira Preta é um suplemento de alta performance composto por uma mistura poderosa de proteínas concentrada, isolada e hidrolisada do soro do leite. Com 21g de proteína por dose, sua tecnologia 3W garante diferentes níveis de absorção para maximizar o anabolismo e acelerar a recuperação muscular após treinos intensos. Este produto no sabor chocolate destaca-se pela alta definição de nutrientes e rápida digestibilidade, sendo ideal para quem busca ganho de massa magra com qualidade superior. Sua fórmula exclusiva auxilia na manutenção muscular e fornece os aminoácidos essenciais necessários para o suporte estrutural do corpo. Prático e eficiente, o pote de 450g é perfeito para levar na mochila e garantir sua dose de proteína em qualquer lugar com o padrão de qualidade Black Skull. É a escolha estratégica para atletas que não abrem mão de resultados sólidos e um perfil nutricional rigoroso em sua rotina."
+  },
+
+  {
+    id: 4030,
+    nome: "Creatina Pura Monohidratada (300 g) – Dark Lab",
+    categoria: "suplementos",
+    preco: 110.00,
+    imagem: "../suplementoEsporte/suplementosFotos/whey14.jpeg",
+    descricao:"A Creatina Pure da Dark Lab é um suplemento de alta pureza desenvolvido para atletas que buscam ganho de força explosiva e aumento de performance nos treinos de alta intensidade. Composta por creatina monohidratada de excelente absorção, sua fórmula auxilia diretamente no aumento do volume muscular e na hidratação das células, acelerando a recuperação entre as séries. Este produto é fundamental para otimizar os níveis de ATP no organismo, proporcionando mais energia e resistência para suportar cargas maiores e treinos mais longos. Livre de aditivos ou conservantes, ela oferece um suporte nutricional limpo e eficiente, sendo ideal para quem foca em resultados sólidos de hipertrofia. Sua apresentação em pó de 300g garante um excelente rendimento, tornando-se um item indispensável na rotina de suplementação diária para potencializar o rendimento físico. Com a qualidade garantida da Dark Lab, você assegura um produto testado que promove o anabolismo e combate a fadiga muscular de forma eficaz."
+  },
+
+  {
+    id: 4031,
+    nome: "Creamass Hypercaloric (3 kg) – Integralmédica",
+    categoria: "suplementos",
+    preco: 120.00,
+    imagem: "../suplementoEsporte/suplementosFotos/whey15.jpeg",
+    descricao:"O Creamass Hypercaloric da Integralmédica é um suplemento premium desenvolvido para quem busca ganho de peso e massa muscular através de uma densidade calórica estratégica. Sua fórmula avançada combina Whey Protein de alto valor biológico com Waxy Maize, um carboidrato de absorção gradativa que garante energia constante e evita picos de insulina indesejados. Um grande diferencial deste hipercalórico é a adição de 3g de creatina por porção, o que potencializa significativamente a força física e a explosão muscular durante os treinos. Disponível no sabor chocolate, o produto oferece uma textura cremosa e agradável, facilitando a ingestão de nutrientes essenciais em dietas de alta demanda energética. É o aliado perfeito para indivíduos com metabolismo acelerado ou atletas que precisam suprir grandes gastos calóricos diários com praticidade e eficiência nutricional. Com a qualidade reconhecida da Integralmédica, o Creamass promove o anabolismo e a recuperação muscular, ajudando você a alcançar seus objetivos de volume de forma sólida. Sua embalagem de 3kg garante um excelente rendimento, tornando-se uma escolha inteligente e de alto desempenho para a sua rotina de suplementação."
+  },
+
+  {
+    id: 4032,
+    nome: "100% Pure Whey (900 g) – Probiótica",
+    categoria: "suplementos",
+    preco: 180.00,
+    imagem: "../suplementoEsporte/suplementosFotos/whey16.jpeg",
+    descricao:"O 100% Pure Whey da Probiótica é um suplemento proteico de alta qualidade composto exclusivamente por proteína concentrada do soro do leite (WPC) de excelente pureza. Com 21g de proteína e 4.576mg de BCAAs por porção, sua nova fórmula foi desenvolvida para otimizar a síntese proteica e acelerar a recuperação muscular de atletas e praticantes de atividades físicas. No delicioso sabor morango, este suplemento destaca-se pela alta solubilidade e perfil de aminoácidos essenciais, sendo um aliado fundamental para o ganho e a manutenção da massa magra. É a escolha ideal para quem busca uma nutrição eficiente para os músculos e ossos, garantindo suporte estrutural para suportar rotinas de treinos intensos. Sua rápida absorção torna-o perfeito para o consumo pós-treino ou em qualquer momento do dia que exija um aporte proteico prático e saboroso. Com o selo de tradição da Probiótica, este produto entrega segurança e resultados reais para quem não abre mão de performance e qualidade superior. O pote de 900g oferece um ótimo rendimento, sendo indispensável para manter o anabolismo e a definição corporal de forma consistente e saudável."
+  },
+
+  {
+    id: 4033,
+    nome: "Femini Whey (900 g) – Max Titanium",
+    categoria: "suplementos",
+    preco: 170.00,
+    imagem: "../suplementoEsporte/suplementosFotos/whey17.jpeg",
+    descricao:"O Femini Whey da Max Titanium é um suplemento proteico desenvolvido estrategicamente para o público feminino, combinando a proteína do soro do leite (WPC) com colágeno hidrolisado de alta pureza. Com uma dose poderosa de 27g de proteína e 6g de BCAAs, sua fórmula exclusiva auxilia no ganho de massa magra enquanto promove a saúde da pele, cabelos e unhas. Este produto no sabor chocolate é enriquecido com um complexo de vitaminas e minerais essenciais, ajudando a suprir as necessidades nutricionais específicas da mulher moderna e ativa. Sua composição foi pensada para otimizar a recuperação muscular pós-treino e combater o catabolismo, garantindo firmeza e tônus muscular com máxima eficiência. Com excelente solubilidade e um sabor irresistível, ele é prático para o dia a dia e se adapta facilmente a diferentes rotinas de treinamento e dietas. Além de favorecer o anabolismo, o Femini Whey atua na manutenção estrutural do corpo, sendo um aliado completo para quem busca beleza e performance em um único produto. É a escolha ideal para mulheres que não abrem mão de qualidade, segurança e resultados reais na sua jornada de saúde e bem-estar."
+  },
+
+  {
+    id: 4034,
+    nome: "ISO-X Protein Complex (900 g) – XPRO Nutrition",
+    categoria: "suplementos",
+    preco: 170.00,
+    imagem: "../suplementoEsporte/suplementosFotos/whey18.jpeg",
+    descricao:"O ISO-X Protein Complex da XPRO Nutrition é um suplemento proteico de alta tecnologia desenvolvido para atletas que buscam máxima pureza e rápida absorção nutricional. Sua fórmula avançada oferece impressionantes 27g de proteína por porção com zero carboidratos, tornando-o a escolha ideal para dietas restritivas e definição muscular extrema. Este complexo isolado auxilia diretamente na síntese proteica e na recuperação imediata das fibras musculares pós-treino, prevenindo o catabolismo de forma eficiente. No sabor morango, o produto destaca-se pela excelente solubilidade e leveza, proporcionando uma ingestão prática e prazerosa em qualquer momento do dia. Livre de açúcares, ele garante um aporte de aminoácidos essenciais de alto valor biológico para manter o corpo em estado anabólico constante. Com o padrão de qualidade XPRO, o ISO-X é perfeito para quem exige performance superior e resultados sólidos sem abrir mão de uma composição limpa. O pote de 900g rende 30 doses completas, oferecendo um suporte estrutural robusto para músculos mais densos e definidos em cada fase da sua evolução física."
+  },
+
+  {
+    id: 4035,
+    nome: "Creatina Monohidratada (300 g) – DUX Nutrition",
+    categoria: "suplementos",
+    preco: 120.00,
+    imagem: "../suplementoEsporte/suplementosFotos/whey19.jpeg",
+    descricao:"A Creatina Monohidratada da DUX Nutrition é um suplemento de ultra pureza desenvolvido para elevar o desempenho físico e a força explosiva em treinos de alta intensidade. Composta por matéria-prima 100% pura e de origem controlada, sua fórmula auxilia no aumento dos estoques de ATP, proporcionando mais energia e resistência para superar limites a cada repetição. Este produto é essencial para promover a hidratação celular e o volume muscular, acelerando significativamente a recuperação entre as séries e combatendo a fadiga. Sem sabor e com excelente solubilidade, ela pode ser facilmente misturada a shakes ou sucos, adaptando-se perfeitamente a qualquer rotina nutricional. Livre de aditivos, corantes ou substâncias artificiais, a Creatina DUX garante um suporte limpo e seguro para quem busca resultados sólidos em hipertrofia e saúde geral. Sua apresentação de 300g oferece um rendimento superior, tornando-se um investimento estratégico para atletas que não abrem mão de qualidade premium em sua suplementação diária. É a escolha definitiva para quem exige performance de alto nível e uma evolução muscular consistente com o padrão de excelência da marca."
+  },
+
+  {
+    id: 4036,
+    nome: "Creatine Turbo Caveira Preta (150 g) – Black Skull",
+    categoria: "suplementos",
+    preco: 120.00,
+    imagem: "../suplementoEsporte/suplementosFotos/whey20.jpeg",
+    descricao:"A Creatine Turbo da linha Caveira Preta é um suplemento inovador que combina a creatina monohidratada com o carboidrato maltodextrina para potencializar a absorção e o transporte de nutrientes para dentro das células musculares. Com uma fórmula desenvolvida para oferecer energia rápida e explosão muscular, este produto é ideal para atletas que buscam aumentar a força e a resistência em treinos de alta intensidade. O sabor limão proporciona uma experiência refrescante, tornando o consumo diário muito mais agradável e prático em comparação às versões tradicionais sem sabor. Sua composição estratégica auxilia na rápida reposição dos estoques de ATP, o que permite sessões de exercícios mais longas e com menor fadiga acumulada entre as séries. Além de favorecer o ganho de massa magra através da hidratação celular, a presença do carboidrato ajuda a otimizar a eficácia da creatina no organismo, garantindo resultados superiores. O pote de 150g possui o tamanho perfeito para quem busca praticidade e a reconhecida qualidade Hardcore da marca Black Skull em sua rotina. É a escolha certeira para quem deseja máxima performance física aliada a um suporte nutricional eficiente e saboroso para a evolução constante."
+  },
+
+  {
+    id: 4037,
+    nome: "B.O.P.E. Pré-Treino Caveira Preta (300 g) – Black Skull",
+    categoria: "suplementos",
+    preco: 120.00,
+    imagem: "../suplementoEsporte/suplementosFotos/whey21.jpeg",
+    descricao:"O B.O.P.E. é um pré-treino de alta intensidade da linha Caveira Preta, desenvolvido para fornecer um foco implacável e uma explosão de energia necessária para os treinos mais desafiadores. Sua fórmula avançada combina ingredientes sinérgicos como cafeína, taurina, arginina e creatina, que juntos promovem o aumento da resistência, melhora do fluxo sanguíneo e redução da fadiga muscular. No sabor Frutas Amarelas (Yellow Fever), este suplemento oferece uma experiência refrescante enquanto prepara o corpo e a mente para alcançar a máxima performance física e mental. Ideal para atletas hardcore, ele otimiza o estado de alerta e a concentração, permitindo uma conexão mente-músculo superior durante cada repetição da série. Além de potencializar a força, o B.O.P.E. auxilia na recuperação entre os exercícios, garantindo que você mantenha o ritmo e a potência do início ao fim da sessão. Com a qualidade indiscutível da Black Skull, este produto é a ferramenta estratégica para quem deseja superar limites e treinar com a intensidade de uma tropa de elite. O pote de 300g garante um excelente rendimento, tornando-se o combustível essencial para transformar seus resultados e elevar seu patamar físico."
+  },
+
+  {
+    id: 4038,
+    nome: "Mass Gainer Caveira Preta (3 kg) – Black Skull",
+    categoria: "suplementos",
+    preco: 130.00,
+    imagem: "../suplementoEsporte/suplementosFotos/whey22.jpeg",
+    descricao:"O Mass Gainer da linha Caveira Preta é um hipercalórico de alta densidade nutricional projetado para atletas que buscam um aumento expressivo de volume corporal e massa muscular. Sua fórmula estratégica combina proteínas de alto valor biológico com carboidratos complexos, garantindo o aporte energético necessário para suprir metabolismos acelerados e treinos de grande desgaste físico. Com uma composição rica em aminoácidos, este suplemento auxilia diretamente na recuperação das fibras musculares e previne o catabolismo, mantendo o corpo em estado anabólico por mais tempo. Disponível em diversos sabores clássicos como chocolate e morango, ele oferece uma textura cremosa e excelente digestibilidade, facilitando a ingestão de altas calorias de forma prática e saborosa. Ideal para fases de bulking, o produto fornece o suporte estrutural essencial para o desenvolvimento de músculos mais densos e fortes, respeitando o padrão de qualidade hardcore da marca. Sua embalagem de 3kg em refil oferece um custo-benefício superior e praticidade no armazenamento, sendo a escolha perfeita para quem não aceita resultados medianos. Com a tecnologia Black Skull, este energético para atletas é o combustível definitivo para transformar seu físico e alcançar o peso desejado com qualidade superior."
+  },
+
+  {
+    id: 4039,
+    nome: "Creatine Monohidratada (300 g) – Vitafor",
+    categoria: "suplementos",
+    preco: 120.00,
+    imagem: "../suplementoEsporte/suplementosFotos/whey23.jpeg",
+    descricao:"A Creatine da Vitafor é um suplemento de alta qualidade composto por creatina monohidratada pura, desenvolvida para auxiliar no aumento do desempenho físico durante exercícios repetitivos de curta duração e alta intensidade. Sua fórmula de alta pureza e rápida absorção é ideal para atletas que buscam otimizar os níveis de força explosiva e resistência muscular em treinos desafiadores. Totalmente livre de açúcares e aditivos, este produto oferece um suporte nutricional limpo, garantindo que o foco total do organismo seja a reposição de ATP e a hidratação das células musculares. Além de favorecer o anabolismo, o uso contínuo auxilia significativamente na recuperação pós-treino, permitindo uma evolução física consistente e segura. Sua apresentação em pó de 300g possui excelente solubilidade, facilitando a mistura em água ou em sua bebida de preferência sem alterar o sabor. Reconhecida pelo rigoroso padrão de qualidade Vitafor, esta creatina é um dos suplementos mais estudados e eficazes para quem busca ganhos sólidos de massa magra e performance superior. É o aliado indispensável para potencializar cada sessão de treinamento com eficiência e confiabilidade científica garantida."
+  },
+
+  {
+    id: 4040,
+    nome: "Creatina Monohidratada (300 g) – Probiótica",
+    categoria: "suplementos",
+    preco: 120.00,
+    imagem: "../suplementoEsporte/suplementosFotos/whey24.jpeg",
+    descricao:"A Creatina Monohidratada da Probiótica é um suplemento de pureza elevada, formulado para atletas que buscam conquistas reais através do aumento da força e do desempenho físico. Composta por creatina 100% pura, sua fórmula age diretamente na reposição dos estoques de energia celular (ATP), permitindo treinos mais intensos, explosivos e com maior resistência à fadiga. Este produto auxilia significativamente na hidratação das células musculares, o que promove um volume muscular sólido e acelera a recuperação pós-exercício. Por ser um pó com excelente solubilidade e sem sabor, ele pode ser facilmente adicionado a diferentes bebidas, garantindo praticidade máxima na sua rotina de suplementação diária. Livre de aditivos ou conservantes, a Creatina Probiótica entrega um suporte nutricional limpo e seguro, focado em resultados de hipertrofia e performance superior. Seu uso contínuo é fundamental para manter o corpo em estado anabólico, prevenindo o catabolismo e garantindo a manutenção da massa magra conquistada. Com a tradição e qualidade da Probiótica, o pote de 300g oferece um rendimento estratégico para quem deseja evoluir constantemente com um produto testado e aprovado."
+  },
+
+  {
+    id: 4041,
+    nome: "100% Pure Whey Zero Lactose (900 g) – Probiótica",
+    categoria: "suplementos",
+    preco: 170.00,
+    imagem: "../suplementoEsporte/suplementosFotos/whey25.jpeg",
+    descricao:"O 100% Pure Whey Zero Lactose da Probiótica é a solução ideal para pessoas com intolerância à lactose ou que buscam uma digestão mais leve sem abrir mão da alta performance. Com 21g de proteína e 4.787mg de BCAAs por dose, este suplemento de alto valor biológico auxilia diretamente na construção muscular e na recuperação pós-treino acelerada. No sabor chocolate, o produto utiliza tecnologia de ponta para remover a lactose, mantendo todos os aminoácidos essenciais necessários para o anabolismo e a manutenção da massa magra. Sua fórmula limpa e livre de glúten garante uma absorção eficiente, proporcionando o suporte estrutural que os músculos e ossos precisam para enfrentar rotinas de treinos intensos. É uma escolha estratégica para quem deseja bater as metas proteicas diárias com conforto gástrico e o sabor irresistível característico da marca Probiótica. Desenvolvido para conquistas reais, ele promove a síntese proteica e ajuda a prevenir o catabolismo de forma segura e eficaz para todos os perfis de atletas. O pote de 900g oferece excelente rendimento, tornando-se um aliado indispensável para manter a definição corporal e a saúde em dia com praticidade máxima."
+  },
   
     // ================= BRINQUEDOS =================
 {
