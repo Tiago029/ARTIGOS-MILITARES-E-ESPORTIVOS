@@ -214,6 +214,33 @@ const PRODUTOS = [
     descricao:"Esta rede é confeccionada em tecido de algodão de alta qualidade, apresentando um padrão vibrante de listras coloridas que remetem ao estilo rasta ou tropical. Seu design clássico sem barras de madeira permite que o tecido envolva o corpo de forma ergonômica, proporcionando um descanso confortável e relaxante em varandas, jardins ou áreas internas. As extremidades possuem punhos reforçados com diversos cordões de nylon ou algodão, garantindo uma distribuição uniforme do peso e maior segurança durante o uso. É um item leve, fácil de lavar e altamente portátil, podendo ser dobrado compactamente para transporte em viagens ou acampamentos. Além de funcional para dormir ou ler, ela atua como um elemento decorativo que traz aconchego ao ambiente. Sua resistência média suporta entre 120 kg a 180 kg, dependendo do modelo e da qualidade das costuras."
   },
 
+  {
+    id: 275,
+    nome: "Kit de Meias Invisíveis Infantis Bichinhos",
+    categoria: "produtos em destaques",
+    preco: 5.00,
+    imagem: "../produtosEmDestaques/37.jpeg",
+    descricao:"Garanta o máximo de conforto e diversão para o dia a dia das crianças com este kit de meias sapatilha de cano invisível super charmosas. O conjunto traz lindas opções de cores neutras e alegres, estampadas com rostinhos fofos de bichinhos na ponta dos pés para encantar os pequenos. Confeccionadas com tecido de algodão leve, macio e respirável, elas se ajustam perfeitamente aos pés sem apertar ou causar incômodos. Seu modelo invisível é ideal para ser usado com tênis, sapatilhas e sapatinhos infantis, ficando discretamente escondido dentro do calçado. Uma escolha prática, resistente e cheia de estilo que mantém os pezinhos protegidos, secos e confortáveis durante todas as brincadeiras."
+  },
+
+  {
+    id: 276,
+    nome: "Kit de Meias Cano Curto Estilo College",
+    categoria: "produtos em destaques",
+    preco: 8.00,
+    imagem: "../produtosEmDestaques/38.jpeg",
+    descricao:"Renove o guarda-roupa com máxima praticidade através deste kit de meias brancas de cano curto inspiradas no visual clássico universitário estadunidense. Cada par possui um detalhe de listras coloridas e uma letra bordada com textura na lateral do punho, adicionando um toque de estilo jovem aos calçados. Confeccionadas com tecido macio, elástico e respirável, elas garantem excelente ajuste anatômico e evitam o acúmulo excessivo de suor na pele. O punho em ribana elástica suave mantém a meia firme na posição correta ao longo de todo o dia sem apertar o tornozelo. São perfeitas para criar combinações modernas com tênis casuais, sapatilhas ou sapatos tratorados em passeios, estudos e momentos de lazer diários."
+  },
+
+  {
+    id: 277,
+    nome: "Kit de Meias Cano Curto Esportivas Número 23",
+    categoria: "produtos em destaques",
+    preco: 8.00,
+    imagem: "../produtosEmDestaques/40.jpeg",
+    descricao:"Adicione estilo e conforto aos seus passos diários com este kit de meias brancas de cano curto estampadas com o icônico número 23. Inspiradas na estética clássica do basquete e do visual esportivo urbano, elas trazem listras coloridas no punho que oferecem um visual moderno e dinâmico. Confeccionadas em algodão macio e fibras elásticas de alta qualidade, garantem excelente ajuste anatômico aos pés e evitam atritos indesejados com o calçado. O tecido respirável auxilia no gerenciamento de suor, mantendo a pele seca e arejada durante caminhadas, treinos ou atividades casuais do cotidiano. Com punho em ribana macia que mantém a meia firme no lugar sem apertar, é a escolha perfeita para combinar com seus tênis e sneakers favoritos."
+  },
+
 
   
   // ================= EQUIPAMENTOS MILITARES =================
@@ -848,6 +875,52 @@ const PRODUTOS = [
     preco: 35.00,
     imagem: "../equipamentosMilitares/equipamentosFoto/porta algema.jpeg",
     descricao:"Este acessório de segurança é confeccionado em nylon de alta densidade ou Cordura 1000D, materiais conhecidos por sua extrema durabilidade e resistência à abrasão em ambientes operacionais. Seu design compacto e estruturado possui uma aba de fechamento com velcro reforçado, garantindo que o equipamento permaneça seguro e protegido contra poeira e umidade, ao mesmo tempo em que permite um acesso rápido e ágil em situações de necessidade. Na parte traseira, apresenta o sistema modular (MOLLE) ou passadores de cinto, permitindo sua fixação estável em coletes táticos, cintos de guarnição ou mochilas. É um item indispensável para profissionais da segurança pública, privada e praticantes de airsoft, pois oferece organização e conforto ao operador durante longos períodos de serviço. Sua construção leve e robusta é projetada para suportar o uso intenso no campo, mantendo a integridade das algemas e prevenindo quedas acidentais."
+  },
+
+  {
+    id: 277,
+    nome: "Soco Inlgês Dourado",
+    categoria: "equipamentos militares",
+    preco: 50.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/6.jpeg",
+    descricao:"Soco Inglês com pegada firme para alto defesa"
+  },
+
+  {
+    id: 278,
+    nome: "Soco Inlgês Dragon",
+    categoria: "equipamentos militares",
+    preco: 50.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/8.jpeg",
+    descricao:"Soco Inglês com pegada firme para alto defesa"
+  },
+
+  {
+    id: 279,
+    nome: "Faca Tática Black Militar",
+    categoria: "equipamentos militares",
+    preco: 95.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/32.jpeg",
+    descricao:"O equipamento perfeito para aqueles que são apaixonados em facas e aventuras"
+  },
+
+  {
+    id: 280,
+    nome: "Faca Tática Camuflada Militar",
+    categoria: "equipamentos militares",
+    preco: 95.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/33.jpeg",
+    descricao:"O equipamento perfeito para aqueles que são apaixonados em facas e aventuras"
+  },
+
+  {
+    id: 281,
+    nome: "Touca Balaclava Tática Esportiva",
+    categoria: "equipamentos militares",
+    preco: 45.00,
+    imagem: "../equipamentosMilitares/equipamentosFoto/36.jpeg",
+    tamanho: ["Preto", "Verde", "Marron"], // NOVO CAMPO
+    descricao:"Proteja o rosto e o pescoço com máxima eficiência utilizando esta balaclava tática desenvolvida para oferecer alto conforto e isolamento térmico ideal. Confeccionada com tecido leve, respirável e de secagem rápida, ela se ajusta perfeitamente sob capacetes de motociclistas, ciclistas ou praticantes de airsoft e esportes ao ar livre. Sua estrutura elástica multidirecional garante total liberdade de movimentos sem apertar e pode ser usada de diferentes formas, cobrindo totalmente ou parcialmente o rosto. O modelo oferece excelente proteção contra o vento, poeira, raios solares e frio, mantendo a pele seca e confortável mesmo após longos períodos de atividade. Disponível em cores táticas clássicas como preto, verde oliva e bege, é o acessório indispensável para motociclistas, atletas e operadores táticos que buscam máxima performance."
   },
 
 
@@ -2065,6 +2138,42 @@ const PRODUTOS = [
     descricao: "Aiwa Boombox Plus BBS-01-B uma caixa de som de alta performance com 200W RMS de potência. Seu sistema de som de 3 vias (1 subwoofer, 2 midrange e 2 tweeters) aliado a radiadores passivos laterais entrega graves profundos e agudos cristalinos com fidelidade sonora superior. Projetada para a máxima portabilidade, possui bateria de 10.400mAh que garante até 30 horas de reprodução contínua. Com certificação IP66, é resistente a jatos de água e poeira, sendo ideal para festas ao ar livre, piscina ou praia. Conta ainda com Bluetooth 5.3, tecnologia TWS para parear duas caixas e entrada USB, unindo potência, durabilidade e conectividade em um design moderno com alça integrada."
   },
 
+  {
+    id: 805,
+    nome: "JBL Charge 6",
+    categoria: "caixa de som",
+    preco: 1550.00,
+    imagem: "../eletronicos/caixaDeSomFoto/2.jpeg",
+    descricao: "Aumente o som das suas festas com esta potente caixa de som portátil que entrega o áudio lendário e marcante da JBL. Projetada para durar, ela traz uma bateria incrível com autonomia de até 28 horas de reprodução contínua e conectividade Bluetooth v5.4 de última geração. Seu design robusto conta com uma prática alça de transporte integrada e proteção avançada contra água para uso sem preocupações em qualquer ambiente. Além disso, ela funciona como um carregador portátil para alimentar seus dispositivos móveis enquanto você curte as suas músicas favoritas. Uma escolha perfeita para quem busca máxima potência, alta durabilidade e total liberdade sem fios no dia a dia."
+  },
+
+  {
+    id: 806,
+    nome: "JBL Clip 4",
+    categoria: "caixa de som",
+    preco: 480.00,
+    imagem: "../eletronicos/caixaDeSomFoto/3.jpeg",
+    descricao: "Leve suas músicas favoritas para qualquer lugar com esta caixa de som portátil ultra-compacta que oferece o som surpreendentemente potente da JBL. Seu design inovador conta com um mosquetão integrado aprimorado que se prende facilmente a mochilas, cintos ou roupas para maior segurança. Totalmente à prova d'água e resistente à poeira com certificação IP67, ela é perfeita para acompanhar você na praia, piscina ou trilhas. A bateria de longa duração garante até 10 horas contínuas de reprodução com uma única carga através de sua conexão Bluetooth estável. Estilosa, robusta e muito leve, é o acessório ideal para quem busca praticidade diária sem abrir mão de alta qualidade sonora."
+  },
+
+  {
+    id: 807,
+    nome: "JBL Charge 6 (Azul)",
+    categoria: "caixa de som",
+    preco: 1550.00,
+    imagem: "../eletronicos/caixaDeSomFoto/4.jpeg",
+    descricao: "Aproveite o som lendário e potente da JBL em qualquer lugar com esta versão na elegante cor azul, ideal para destacar o visual do seu ambiente. Ela traz uma impressionante autonomia de bateria de até 28 horas de reprodução contínua e conectividade Bluetooth v5.4 rápida e estável. Seu corpo robusto é acompanhado por uma prática alça de transporte reforçada e conta com proteção avançada contra respingos e água. Para maior utilidade no dia a dia, o modelo também funciona como um carregador portátil (powerbank) para salvar a bateria dos seus dispositivos móveis. A combinação perfeita de estilo marcante, durabilidade extrema e alta fidelidade sonora para impulsionar suas playlists favoritas."
+  },
+
+  {
+    id: 808,
+    nome: "JBL Clip 5 (Azul)",
+    categoria: "caixa de som",
+    preco: 480.00,
+    imagem: "../eletronicos/caixaDeSomFoto/5.jpeg",
+    descricao: "Desfrute de um som surpreendentemente potente e com graves marcantes em qualquer lugar com esta caixa de som ultra-portátil na cor azul. Seu mosquetão integrado foi totalmente redesenhado, apresentando uma abertura muito maior que facilita o encaixe seguro em mochilas, bicicletas ou roupas [1, 10, 11]. Ela conta com uma bateria de longa duração que garante até 12 horas contínuas de reprodução, além de trazer conectividade Bluetooth v5.3 estável [10]. Totalmente à prova d'água e resistente à poeira com certificação IP67, é o modelo ideal para acompanhar você em praias, piscinas e aventuras ao ar livre [1, 10]. Compacta, estilosa e extremamente resistente, ela une a máxima praticidade de transporte à consagrada qualidade sonora da JBL "
+  },
+
 
   // ================= ELETRÔNICOS =================
   {
@@ -2632,6 +2741,132 @@ const PRODUTOS = [
     preco: 580.00,
     imagem: "../eletronicos/eletronicosFoto/1.jpeg",
     descricao: "Transforme sua TV comum em uma Smart TV potente com este dongle de streaming portátil de alto desempenho. Equipado com 2 GB de RAM, 16 GB de armazenamento e suporte a resoluções de até 8K Ultra HD, ele garante navegação fluida e imagens nítidas. Conta com tecnologias Wi-Fi 6 e Bluetooth para conexões sem fio ultravelozes e estáveis. Seu controle remoto inteligente por comando de voz facilita a busca de conteúdos e navegação entre menus. Prático e compacto, possui alimentação moderna via cabo USB Tipo C e compatibilidade com os principais aplicativos do mercado."
+  },
+
+  {
+   id: 1163,
+    nome: "Controle de PS2 com fio Knup KP-GM015",
+    categoria: "eletronicos",
+    preco: 55.00,
+    imagem: "../eletronicos/eletronicosFoto/7.jpeg",
+    descricao: "Eleve o nível das suas jogadas com este controle com fio que oferece alta precisão e total compatibilidade com consoles PlayStation 3 e computadores. Seu design clássico e ergonômico foi projetado para encaixar perfeitamente nas mãos, garantindo máximo conforto mesmo após longas horas de gameplay. Equipado com dois direcionais analógicos macios e botões altamente responsivos, ele entrega respostas rápidas e comandos precisos a cada movimento. Conta com um cabo de excelente comprimento para proporcionar maior liberdade e um sistema de vibração que aumenta a imersão nos seus jogos favoritos. Perfeito para gamers que buscam um acessório durável, prático e de ótimo custo-benefício para a sua estação de jogos."
+  },
+
+  {
+   id: 1164,
+    nome: "Fone de Ouvido para Capacete Kapbom KA-B07",
+    categoria: "eletronicos",
+    preco: 145.00,
+    imagem: "../eletronicos/eletronicosFoto/9.jpeg",
+    descricao: "Pilote com muito mais segurança e conectividade utilizando este fone de ouvido Bluetooth projetado especificamente para instalação em capacetes de motocicleta. Ele oferece alta qualidade sonora para você ouvir suas músicas favoritas, acompanhar as instruções do GPS ou atender chamadas telefônicas sem precisar tirar as mãos do guidão. Seu design moderno traz botões de controle de fácil acesso, indicadores luminosos de bateria e um sistema de fixação prático que se adapta perfeitamente ao capacete. Equipado com microfone de alta sensibilidade e tecnologia de redução de ruído, ele garante uma comunicação limpa e clara mesmo em altas velocidades. O acessório indispensável para motociclistas que buscam praticidade, segurança e entretenimento em suas viagens ou no trânsito do dia a dia."
+  },
+
+  {
+   id: 1165,
+    nome: "Adaptador de Energia Universal One-X 120W",
+    categoria: "eletronicos",
+    preco: 65.00,
+    imagem: "../eletronicos/eletronicosFoto/10.jpeg",
+    descricao: "Alimente seus dispositivos com máxima segurança e versatilidade através desta fonte universal AC/DC de alta potência com 120W de capacidade energética. Ela traz uma ampla faixa de ajuste manual de voltagem de 12V a 24V, tornando-se a solução ideal para carregar notebooks de diferentes marcas e uma grande variedade de eletrônicos. O kit acompanha 11 conectores intercambiáveis e perfeitamente adaptáveis que eliminam a necessidade de carregar múltiplos carregadores pesados na sua mochila. Desenvolvida com sistemas internos de proteção integrada, ela protege o seu aparelho contra oscilações de energia, curtos-circuitos e superaquecimento durante o uso diário. Um acessório indispensável para técnicos de informática, estudantes e profissionais que buscam praticidade e total compatibilidade em um único produto."
+  },
+
+  {
+   id: 1166,
+    nome: "Carregador Apple USB-C de 20W",
+    categoria: "eletronicos",
+    preco: 60.00,
+    imagem: "../eletronicos/eletronicosFoto/11.jpeg",
+    descricao: "Recarregue seus dispositivos de forma rápida e eficiente com este adaptador de tomada ultracompacto que oferece alta performance de energia. Equipado com uma porta de saída USB-C, ele fornece até 20W de potência ideal para ativar o carregamento rápido em iPhones, iPads e outros aparelhos compatíveis. Seu design minimalista e leve na cor branca é perfeito para transportar em bolsas e mochilas, garantindo energia extra onde quer que você esteja. Construído com materiais de alta durabilidade, o componente assegura um fluxo estável de energia e total proteção contra variações elétricas ou superaquecimento. Uma solução indispensável para quem busca otimizar o tempo de carga com a máxima segurança e confiabilidade oferecidas pelo padrão Apple."
+  },
+
+  {
+   id: 1167,
+    nome: "Suporte de Celular Universal IT-BLUE LE-044",
+    categoria: "eletronicos",
+    preco: 45.00,
+    imagem: "../eletronicos/eletronicosFoto/12.jpeg",
+    descricao: "Mantenha seu smartphone visível e seguro durante todos os seus trajetos com este suporte de guidão articulado projetado especificamente para motos e bicicletas. Sua estrutura altamente resistente oferece um encaixe universal firme e estável que absorve trepidações e impactos mesmo nos terrenos mais irregulares das ruas e estradas. O sistema de fixação ajustável é ideal para telas de 3.5 a 6 polegadas, garantindo que o aparelho fique bem preso pelas laterais e pela base sem bloquear os botões. Com instalação simples e rápida que dispensa o uso de ferramentas complexas, o modelo permite posicionar a tela na horizontal ou vertical com total praticidade. Uma solução de excelente custo-benefício para motoboys, ciclistas e entregadores que precisam utilizar o GPS e navegar no trânsito urbano com máxima segurança."
+  },
+
+  {
+   id: 1168,
+    nome: "Carregador Duplo 67W USB-C e USB-A",
+    categoria: "eletronicos",
+    preco: 60.00,
+    imagem: "../eletronicos/eletronicosFoto/13.jpeg",
+    descricao: "Abasteça seus dispositivos com máxima eficiência e velocidade através deste potente carregador de parede com dupla saída de energia de 67W. Equipado com uma porta USB-C e uma porta USB-A, ele permite recarregar dois aparelhos simultaneamente de forma inteligente, distribuindo a carga de maneira otimizada. Seu circuito interno avançado foi projetado para ativar o modo de carregamento rápido em smartphones, tablets e notebooks compatíveis com total estabilidade. O acabamento compacto e resistente na cor branca oferece portabilidade para o seu dia a dia, tornando-o ideal para viagens ou escritório. Uma solução versátil e segura para quem precisa centralizar a alimentação de múltiplos eletrônicos utilizando apenas uma tomada."
+  },
+
+  {
+   id: 1169,
+    nome: "Carregador Samsung 67W PD USB-C e USB-A",
+    categoria: "eletronicos",
+    preco: 60.00,
+    imagem: "../eletronicos/eletronicosFoto/14.jpeg",
+    descricao: "Carregue seus dispositivos com máxima velocidade e versatilidade utilizando este potente adaptador de tomada de 67W com suporte à tecnologia Power Delivery (PD). Ele possui duas portas de saída — uma USB-C e outra USB-A —, permitindo alimentar até dois aparelhos ao mesmo tempo com distribuição inteligente de carga. O kit é super completo e já acompanha um cabo Type-C para Type-C de 1 metro de comprimento, ideal para sincronização rápida e transmissão estável de energia. Seu circuito eletrônico inteligente oferece proteção total contra superaquecimento, curtos-circuitos e sobrecargas, garantindo a integridade da bateria dos seus eletrônicos. Compacto e com acabamento premium na cor preta, é o acessório definitivo para otimizar o tempo de recarga de smartphones, tablets e notebooks compatíveis."
+  },
+
+  {
+   id: 1170,
+    nome: "Carregador Apple 35W USB-C para iPhone 16 Pro Max",
+    categoria: "eletronicos",
+    preco: 120.00,
+    imagem: "../eletronicos/eletronicosFoto/15.jpeg",
+    descricao: "Recarregue seus dispositivos de forma ultraveloz e eficiente com este kit de carregamento potente com capacidade de 35W de potência máxima. O conjunto foi especialmente otimizado para extrair o melhor desempenho de carga rápida na linha iPhone 16 Pro Max e outros modelos compatíveis com o padrão USB-C. Ele acompanha um cabo com conectores USB-C nas duas pontas, perfeito para conexões estáveis tanto para transferências de dados quanto para abastecimento elétrico diário. O design minimalista e compacto na cor branca garante fácil portabilidade, ideal para te acompanhar no escritório, em viagens ou em casa. Desenvolvido com materiais de alto padrão, o adaptador assegura uma distribuição estável de energia com proteção total contra superaquecimentos ou oscilações de voltagem."
+  },
+
+  {
+   id: 1171,
+    nome: "Cabo Apple USB-C para Lightning (1m)",
+    categoria: "eletronicos",
+    preco: 35.00,
+    imagem: "../eletronicos/eletronicosFoto/16.jpeg",
+    descricao: "Conecte e carregue seus dispositivos com total eficiência através deste cabo de alta performance com conectores USB-C e Lightning. Com 1 metro de comprimento, ele é o acessório ideal para ativar o carregamento rápido no seu iPhone ou iPad quando utilizado com um adaptador de tomada USB-C compatível. Além de alimentar a bateria, ele permite sincronizar suas fotos, músicas e arquivos diretamente no Mac ou computador de forma rápida e estável. Sua estrutura interna reforçada e acabamento premium na cor branca garantem excelente durabilidade contra torções e dobras do uso diário. Uma solução indispensável para quem busca máxima velocidade de transmissão de dados e total segurança elétrica para os seus aparelhos."
+  },
+
+  {
+   id: 1172,
+    nome: "Carregador Samsung 120W PD Adapter",
+    categoria: "eletronicos",
+    preco: 120.00,
+    imagem: "../eletronicos/eletronicosFoto/17.jpeg",
+    descricao: "Abasteça seus dispositivos com velocidade extrema através deste potente carregador de tomada com impressionantes 120W de capacidade máxima. Equipado com tecnologia Power Delivery (PD) e suporte a Super Fast Charging, ele foi desenvolvido para recarregar rapidamente desde smartphones topo de linha até notebooks de alta performance compatíveis. O kit completo acompanha um robusto cabo USB-C para USB-C de alta capacidade (5A), garantindo uma transmissão de energia perfeitamente estável e segura durante todo o processo. Seu sistema eletrônico inteligente gerencia o fluxo de energia para proteger seus aparelhos contra superaquecimento, curtos-circuitos e sobrecargas elétricas. Uma solução premium na cor preta, ideal para centralizar a alimentação de seus principais eletrônicos com máxima eficiência e total segurança."
+  },
+
+  {
+   id: 1173,
+    nome: "Carregador Apple 35W USB-C para iPhone 15 Pro / 15 Pro Max",
+    categoria: "eletronicos",
+    preco: 120.00,
+    imagem: "../eletronicos/eletronicosFoto/18.jpeg",
+    descricao: "Recarregue seus dispositivos de forma ágil e segura com este potente kit de carregamento rápido com capacidade de 35W de potência máxima. O conjunto foi especialmente desenvolvido para atender às exigências de energia das linhas iPhone 15 Pro e 15 Pro Max, garantindo excelente performance e eficiência. Ele acompanha um cabo com conectores USB-C em ambas as extremidades, ideal tanto para transmissões rápidas de dados quanto para o abastecimento elétrico diário do aparelho. Seu design leve, minimalista e compacto na cor branca facilita o transporte em bolsas e mochilas para uso doméstico ou em viagens. Construído com componentes de alta qualidade, o adaptador gerencia o fluxo de energia para proporcionar total proteção contra oscilações de voltagem e superaquecimento."
+  },
+
+  {
+   id: 1174,
+    nome: "Carregador Samsung 50W PD Adapter USB-C e USB-A",
+    categoria: "eletronicos",
+    preco: 55.00,
+    imagem: "../eletronicos/eletronicosFoto/19.jpeg",
+    descricao: "Abasteça seus eletrônicos com agilidade e versatilidade através deste potente carregador de parede com dupla saída de energia e 50W de capacidade máxima. Equipado com tecnologia Power Delivery (PD), ele oferece uma porta USB-C e uma porta USB-A para recarregar dois aparelhos simultaneamente de forma inteligente. Seu circuito interno avançado gerencia a distribuição da carga automaticamente, ativando o modo de carregamento rápido em smartphones e tablets compatíveis. O acabamento compacto na cor preta garante excelente portabilidade, sendo o modelo ideal para otimizar espaço em tomadas na sua casa ou escritório. Desenvolvido com sistemas integrados de segurança, ele oferece proteção total contra curtos-circuitos, sobrecargas e superaquecimentos durante o uso."
+  },
+
+  {
+   id: 1175,
+    nome: "Carregador Samsung 65W PD Adapter USB-C",
+    categoria: "eletronicos",
+    preco: 60.00,
+    imagem: "../eletronicos/eletronicosFoto/20.jpeg",
+    descricao: "Alimente seus dispositivos eletrônicos com máxima performance através deste carregador de tomada ultraveloz com 65W de potência máxima de saída. Equipado com a avançada tecnologia Power Delivery (PD) e suporte ao protocolo Super Fast Charging, ele é capaz de recarregar rapidamente desde smartphones topo de linha até notebooks compatíveis. Sua conexão padrão USB-C garante total estabilidade e eficiência energética na transmissão de carga para os aparelhos conectados. Com um design compacto e acabamento premium na cor preta, o adaptador é extremamente prático para transportar em bolsas e acompanhar a sua rotina diária. Seus sistemas eletrônicos internos inteligentes oferecem proteção completa contra sobrecargas elétricas, curtos-circuitos e superaquecimento durante todo o uso."
+  },
+
+  {
+   id: 1176,
+    nome: "Suporte de Celular para Guidão Tomate MTG-275",
+    categoria: "eletronicos",
+    preco: 45.00,
+    imagem: "../eletronicos/eletronicosFoto/25.jpeg",
+    descricao: "Garanta total praticidade e estabilidade para navegar pelo GPS em seus trajetos diários com este suporte de celular projetado especialmente para guidões de motos e bicicletas. Ele traz uma estrutura reforçada e garras altamente seguras que mantêm o smartphone firme mesmo ao passar por trepidações fortes, buracos ou terrenos irregulares. Seu grande diferencial é a cabeça articulada com rotação de 360 graus, permitindo que você ajuste o aparelho rapidamente no ângulo de visualização ideal, seja na horizontal ou na vertical. O sistema de fixação rápida facilita o travamento do dispositivo e oferece alta compatibilidade com uma ampla variedade de marcas e tamanhos de telas do mercado. Uma solução resistente, prática e com excelente custo-benefício para motoboys, ciclistas e entregadores que prezam por segurança nas ruas."
   },
 
 
@@ -3330,6 +3565,46 @@ const PRODUTOS = [
     descricao:"A Camisa I do Corinthians para a temporada 2025/2026, fabricada pela Nike, celebra um dos maiores feitos da história do clube com um design que homenageia diretamente o título do Mundial de 2000. O manto apresenta um visual retrô marcante, sendo predominantemente branco com os ombros e mangas em preto, remetendo fielmente à peça icônica usada na conquista histórica no Maracanã. Um diferencial importante desta edição é o escudo do clube e o logotipo Swoosh da Nike, que aparecem centralizados no peito, reforçando a estética clássica da época. Confeccionada com a tecnologia Nike Dri-FIT, o tecido absorve o suor e acelera a evaporação, garantindo que torcedores e atletas permaneçam secos e confortáveis em qualquer situação. No interior da gola, a inscrição Todo Poderoso Timão serve como um tributo ao grito da torcida que impulsionou a equipe rumo à glória mundial. Além disso, a numeração nas costas pode apresentar detalhes especiais, como a silhueta do troféu do Mundial dentro do número 8, em honra ao capitão Rincón. A peça é feita com poliéster de alta qualidade, oferecendo durabilidade e leveza tanto para o uso casual quanto para o desempenho esportivo. Sua modelagem proporciona um caimento confortável, permitindo total liberdade de movimento para os membros do Bando de Loucos. Esta camisa não é apenas um uniforme, mas uma declaração de amor e orgulho que conecta as novas gerações ao legado vitorioso do Timão."
   },
 
+  {
+    id: 12054,
+    nome: "Camisa do Brasil Jordan Preta e Azul (Edição Especial)",
+    categoria: "camisas",
+    preco: 140.00,
+    imagem: "../suplementoEsporte/camisasFotos/26.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"Demonstre toda a sua paixão pelo futebol com esta camisa exclusiva da Seleção Brasileira desenvolvida em uma colaboração especial de estilo. O modelo apresenta um design moderno em tons de preto e azul escuro, destacado por grafismos dinâmicos em marca-d'água que remetem à energia e vibração da torcida. Ela traz o icônico escudo da CBF bordado no peito acompanhado das cinco estrelas douradas, além do logotipo Jumpman em destaque na cor amarela. Confeccionada com tecido leve, respirável e de secagem rápida, a peça garante máximo conforto térmico e liberdade de movimentos seja nos gramados, nas arquibancadas ou no uso casual diário. Uma opção premium e estilosa para torcedores e colecionadores que buscam uma vestimenta diferenciada com alto padrão de acabamento."
+  },
+
+  {
+    id: 12055,
+    nome: "Camisa da Seleção Brasileira Titular Amarela",
+    categoria: "camisas",
+    preco: 140.00,
+    imagem: "../suplementoEsporte/camisasFotos/27.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"Vista o manto sagrado do futebol com a clássica camisa titular da Seleção Brasileira, que carrega a tradição e o orgulho das cinco estrelas da nossa história. Desenvolvida em tom amarelo vibrante, a peça conta com detalhes estilizados em verde e recortes modernos nas laterais que otimizam o caimento no corpo. O escudo oficial da CBF aparece bordado com perfeição no centro do peito, acompanhado pelo icônico logotipo da marca fornecedora. Confeccionada com tecido tecnológico leve e altamente respirável, ela garante excelente gerenciamento de suor e conforto para você torcer ou jogar. Um modelo indispensável para torcedores e colecionadores que buscam demonstrar seu amor pelo Brasil com o máximo estilo e qualidade premium."
+  },
+
+  {
+    id: 12056,
+    nome: "Camisa de Treino do Flamengo Off-White e Preta",
+    categoria: "camisas",
+    preco: 90.00,
+    imagem: "../suplementoEsporte/camisasFotos/29.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"Demonstre o seu orgulho pelo Mengão com esta camisa de treino oficial que une máxima elegância e alta performance esportiva. Desenvolvida em uma combinação sofisticada de tons off-white e detalhes pretos nas mangas e laterais, a peça destaca as listras e emblemas em tom dourado suave. O escudo clássico do clube vem bordado com precisão no peito, garantindo um visual premium perfeito para acompanhar as atividades do dia a dia. Confeccionada com tecido tecnológico super leve e respirável, ela mantém o corpo fresco e confortável através do excelente gerenciamento de suor. O modelo indispensável para o torcedor rubro-negro que deseja apoiar o clube com muito estilo, conforto e sofisticação em qualquer ocasião."
+  },
+
+  {
+    id: 12057,
+    nome: "Camisa do Brasil Retro 1998 Ronaldo #9",
+    categoria: "camisas",
+    preco: 95.00,
+    imagem: "../suplementoEsporte/camisasFotos/30.jpeg",
+    tamanho: ["P","M","G","GG"],
+    descricao:"Reviva um dos momentos mais marcantes do futebol com esta camisa retrô histórica da Seleção Brasileira inspirada no lendário manto de 1998. Ela traz o clássico design amarelo com as tradicionais listras verdes nas mangas e na gola careca, além do icônico número 9 estampado no peito e nas costas com o nome do craque Ronaldo Fenômeno. Confeccionada com tecido leve e de toque suave, a peça reproduz fielmente os detalhes estéticos da época, incluindo as quatro estrelas douradas acima do escudo oficial da CBF [context]. Ideal para colecionadores, torcedores nostálgicos e amantes do esporte, este modelo combina o peso da tradição canarinho a um caimento confortável e cheio de estilo para usar no dia a dia."
+  },
+
 
 
    // ================= ESPORTES =================
@@ -3424,6 +3699,24 @@ const PRODUTOS = [
     preco: 45.00,
     imagem: "../suplementoEsporte/esporteFotos/pochete.jpeg",
     descricao:"A Pochete Esportiva Slim é o acessório ideal para quem busca praticidade e segurança durante corridas, caminhadas ou treinos na academia. Fabricada em neoprene de alta qualidade, ela possui propriedades impermeáveis que protegem seus pertences contra o suor e chuvas leves. O design conta com um compartimento central expansível capaz de acomodar smartphones de tela grande, além de bolsos laterais menores para chaves, dinheiro ou documentos. Um de seus maiores diferenciais é o elástico lateral reforçado projetado especificamente para carregar uma garrafa de água (squeeze), mantendo a hidratação sempre ao alcance das mãos. O cinto elástico é totalmente regulável e possui um fecho de engate rápido, garantindo que a pochete fique bem rente ao corpo sem balançar durante movimentos intensos. Para maior segurança em atividades noturnas, o modelo inclui uma faixa frontal refletiva que aumenta a visibilidade do atleta. Além disso, apresenta uma saída estratégica para fones de ouvido, permitindo ouvir música com facilidade enquanto o celular permanece protegido dentro do bolso. Leve e discreta, ela pode ser usada por cima ou por baixo da roupa, funcionando também como uma doleira eficiente para viagens. É uma solução completa que une conforto térmico e organização para esportistas de todos os níveis.",
+  },
+
+  {
+    id: 3010,
+    nome: "Pochete de Corrida Slim Glowmode",
+    categoria: "esporte",
+    preco: 35.00,
+    imagem: "../suplementoEsporte/esporteFotos/22.jpeg",
+    descricao:"Pratique suas atividades físicas com total liberdade e praticidade utilizando esta pochete esportiva de perfil ultrafino e ajustável. Seu compartimento principal expansível foi projetado para acomodar smartphones de grandes formatos, chaves e cartões sem fazer volume ou balançar durante o movimento. Confeccionada com materiais leves e resistentes à água, ela protege os seus pertences contra o suor e chuvas leves ao longo de todo o treino. O cinto elástico possui fivela de engate rápido e ajuste preciso de tamanho, garantindo que o acessório fique firme e confortável na cintura. Além disso, ela conta com detalhes e faixas refletivas que aumentam significativamente a sua segurança e visibilidade em corridas ou caminhadas noturnas.",
+  },
+
+  {
+    id: 3011,
+    nome: "Short Térmico de Corrida Masculino 2 em 1 com Bolso Interno",
+    categoria: "esporte",
+    preco: 85.00,
+    imagem: "../suplementoEsporte/esporteFotos/28.jpeg",
+    descricao:"Maximize seu rendimento nos treinos com este shorts esportivo de alta performance que combina estilo moderno e máxima funcionalidade. Ele conta com uma estrutura inteligente de duas camadas: um short externo leve e solto, e um forro interno de compressão elástica que previne assaduras por atrito. O grande destaque é o bolso integrado na camada interna, projetado para fixar firmemente o celular ou cartões, evitando que fiquem balançando durante os exercícios. Confeccionado em tecido respirável e de secagem rápida, o modelo oferece excelente gerenciamento de suor e conforto térmico sob o corpo. Possui também cós elástico com cordão de ajuste preciso para garantir total segurança e liberdade em treinos de musculação, corrida ou crossfit.",
   },
 
 
@@ -3991,6 +4284,24 @@ const PRODUTOS = [
       descricao:"Este boné tático camuflado no padrão Woodland é um acessório robusto que combina uma frente em tecido Ripstop resistente com painéis traseiros em malha (mesh) perfurada a laser para ventilação otimizada. O modelo apresenta um painel de velcro frontal em formato hexagonal com o bordado do Punisher (Justiceiro), permitindo a personalização com outros patches, além de possuir aba curva estruturada e ajuste traseiro regulável. É ideal para operadores de Airsoft, praticantes de tiro esportivo ou uso casual, oferecendo durabilidade, conforto térmico e um visual militar moderno."
     },
 
+    {
+      id: 6006,
+      nome: "Boné Tático Trucker com Velcro Justiceiro",
+      categoria: "bone",
+      preco: 60.00,
+      imagem: "../bone/boneFoto/35.jpeg",
+      descricao:"Complete seu visual militar ou casual com este boné tático estilo trucker, projetado para oferecer excelente conforto, resistência e ventilação. Ele possui uma parte frontal robusta com tecido de alta durabilidade e uma tela traseira respirável que garante circulação de ar contínua em dias quentes. O grande diferencial é a área de velcro frontal que acompanha o patch removível do Justiceiro (Punisher), permitindo personalizar o acessório com outros patches de sua preferência. Conta com fecho traseiro ajustável para um encaixe perfeito e uma aba curva que protege os olhos contra os raios solares durante missões ou atividades ao ar livre. Disponível em diversas cores e camuflagens táticas, é a escolha ideal para operadores de airsoft, entusiastas do meio militar e uso diário."
+    },
+
+    {
+      id: 6007,
+      nome: "Boné Tático Trucker Condor com Velcro",
+      categoria: "bone",
+      preco: 60.00,
+      imagem: "../bone/boneFoto/34.jpeg",
+      descricao:"Destaque seu estilo militar ou aventureiro com este boné tático de alta performance, projetado pela Condor para entregar máxima resistência e conforto. Ele conta com painéis frontais em tecido reforçado e uma tela traseira respirável que proporciona excelente ventilação para os dias mais quentes. A parte frontal é equipada com uma área de velcro acompanhada pelo patch oficial da marca, ideal para você personalizar o acessório com os seus próprios emblemas. Seu fecho traseiro regulável garante um ajuste firme e perfeitamente anatômico à cabeça, enquanto a aba curva protege os olhos da luminosidade. Disponível em diferentes opções de camuflagem e cores sólidas, é o modelo definitivo para operadores de airsoft, praticantes de tiro esportivo e uso casual diário."
+    },
+
   // ================= PESCA E PRAIA =================
 {
     id: 7000,
@@ -4300,6 +4611,15 @@ const PRODUTOS = [
     descricao:"O item é composto por uma corda de látex revestida com polipropileno de alta resistência. Suas principais características, possui ganchos de plástico reforçado em ambas as extremidades para fixação em diversos pontos de ancoragem. Modelos comuns encontrados têm cerca de 1,5 metros, mas variam entre 1 e 2 metros conforme a necessidade.Versatilidade: É amplamente utilizado para prender objetos em bagageiros de motos, bicicletas, caçambas de caminhonetes, porta-malas de carros, além de ser útil em campings e tarefas domésticas."
   },
 
+  {
+    id: 8029,
+    nome: "Kit de Tinta para Camuflagem FO+ (Preta e Verde)",
+    categoria: "cursoCampo",
+    preco: 85.00,
+    imagem: "../cursoCampo/cursoCampoFoto/31.jpeg",
+    descricao:"Prepare-se com máxima eficiência utilizando este kit de tintas de camuflagem facial em bisnaga, ideal para uso militar, treinamentos táticos e jogos de airsoft ou paintball. O conjunto traz duas cores essenciais de alta pigmentação — preta e verde — que garantem excelente cobertura e disfarce em ambientes de selva ou mata. Sua fórmula exclusiva oferece aplicação duradoura com secagem rápida e acabamento totalmente fosco para evitar reflexos indesejados de luz na pele. Muito prática para o operador, a tinta possui textura suave que espalha fácil pelo rosto e pode ser removida sem complicações após o término das atividades. Apresentado em embalagens compactas de 30g com tampa de fechamento seguro, é o acessório indispensável para compor o seu equipamento tático com total praticidade."
+  },
+
   // ================= ORTOPÉDICO =================
   {
     id: 9000,
@@ -4380,6 +4700,33 @@ const PRODUTOS = [
     preco: 50.00,
     imagem: "../produtosEmDestaques/UMBREIRA.jpeg",
     descricao:"Ombreira Ortopédica um suporte ajustável projetado para fornecer compressão e estabilidade à articulação do ombro. Auxilia no tratamento de lesões como tendinite, bursite, luxações e problemas no manguito rotador. Oferece suporte extra durante atividades físicas (como basquete, vôlei ou musculação) para evitar novas lesões. Ajuda a manter o ombro na posição correta e a reduzir a tensão muscular.",
+  },
+
+  {
+    id: 9010,
+    nome: "Balança Digital de Bioimpedância Healthy Weight Scale QZ-442",
+    categoria: "ortopedico",
+    preco: 120.00,
+    imagem: "../ortopedico/ortopedicoFoto/21.jpeg",
+    descricao:"Monitore sua saúde e evolução física de forma precisa com esta balança digital inteligente com conectividade Bluetooth integrada. Construída em vidro temperado de alta resistência, ela suporta uma carga máxima de até 180 kg com medições detalhadas e precisas divididas em graduações de 50g. O aparelho se conecta diretamente ao seu smartphone via aplicativo móvel, permitindo registrar e acompanhar indicadores essenciais de bioimpedância para o seu corpo. Seu display LCD retroiluminado de fácil leitura oferece visibilidade clara dos resultados e conta com um sistema inteligente de desligamento automático para economizar energia. O acessório perfeito para quem busca manter uma rotina saudável, acompanhar treinos ou dietas com total controle de dados na palma da mão.",
+  },
+
+  {
+    id: 9011,
+    nome: "Joelheira de Alta Compressão Impofit",
+    categoria: "ortopedico",
+    preco: 45.00,
+    imagem: "../ortopedico/ortopedicoFoto/23.jpeg",
+    descricao:"Garanta máxima estabilidade e proteção para as suas articulações com esta joelheira esportiva de alta compressão projetada para o uso diário ou treinos intensos. Desenvolvida com um tecido anatômico de tecnologia de seca fácil, ela se adapta naturalmente aos contornos do joelho, oferecendo suporte firme sem limitar a liberdade dos seus movimentos. O modelo é ideal para prevenir lesões, aliviar a sobrecarga articular e auxiliar na recuperação muscular durante a prática de corrida, musculação, crossfit e outras atividades físicas. Sua estrutura respirável minimiza o acúmulo de suor, proporcionando muito mais conforto térmico e segurança durante todo o período de uso. Uma solução indispensável para atletas e entusiastas do esporte que buscam melhorar a performance com total proteção.",
+  },
+
+  {
+    id: 9012,
+    nome: "Joelheira Ortopédica Articulada com Cintas Impofit",
+    categoria: "ortopedico",
+    preco: 50.00,
+    imagem: "../ortopedico/ortopedicoFoto/24.jpeg",
+    descricao:"Aumente a segurança e o suporte articular com esta joelheira de alta compressão equipada com cintas elásticas ajustáveis para estabilização extra. Seu design ortopédico conta com um suporte reforçado para a patela e tiras de velcro que permitem regular a pressão ideal, reduzindo o risco de torções e sobrecargas no joelho. Confeccionada com tecido respirável de tecnologia seca fácil, ela garante excelente conforto térmico e se ajusta perfeitamente aos contornos da perna durante o movimento. É o modelo ideal para auxiliar na recuperação de lesões, proteger ligamentos e oferecer máxima firmeza em treinos pesados ou atividades físicas intensas. Uma solução robusta que combina estabilidade mecânica ajustável com total liberdade para a prática de esportes e uso diário.",
   },
 
   // ================= FERRAMENTAS =================
