@@ -2625,6 +2625,15 @@ const PRODUTOS = [
     descricao: "A Tomate MAG-018 é uma máquina de acabamento profissional recarregável, amplamente utilizada para cortes precisos, desenhos, contornos e aparar a barba com extrema facilidade. O modelo se destaca pelo seu design metálico vintage em dourado com um entalhe de Buda, conferindo um visual sofisticado e robusto ao dispositivo. Equipada com um visor digital de LED na parte inferior, ela informa com precisão a porcentagem da bateria e o status de funcionamento em tempo real. Suas lâminas em formato de T são feitas de aço inoxidável de alta qualidade, garantindo um corte rente e suave sem machucar a pele. O motor de alta potência e baixo ruído proporciona um desempenho constante, sendo alimentado por uma bateria interna carregável via USB em cerca de 2 a 3 horas. O kit geralmente acompanha quatro pentes guia (1mm, 2mm, 3mm e 4mm), permitindo diferentes alturas de corte para maior versatilidade de estilos. Leve e ergonômica, a máquina oferece um manuseio firme para acabamentos detalhados em barbearias ou uso doméstico. Sua construção focada na durabilidade e no estilo clássico a torna uma ferramenta essencial para cuidados pessoais masculinos."
   },
 
+  {
+   id: 1162,
+    nome: "UniTV V11 Cast",
+    categoria: "eletronicos",
+    preco: 580.00,
+    imagem: "../eletronicos/eletronicosFoto/1.jpeg",
+    descricao: "Transforme sua TV comum em uma Smart TV potente com este dongle de streaming portátil de alto desempenho. Equipado com 2 GB de RAM, 16 GB de armazenamento e suporte a resoluções de até 8K Ultra HD, ele garante navegação fluida e imagens nítidas. Conta com tecnologias Wi-Fi 6 e Bluetooth para conexões sem fio ultravelozes e estáveis. Seu controle remoto inteligente por comando de voz facilita a busca de conteúdos e navegação entre menus. Prático e compacto, possui alimentação moderna via cabo USB Tipo C e compatibilidade com os principais aplicativos do mercado."
+  },
+
 
   // ================= ACESSORIO RELÓGIO ================
   {
