@@ -215,7 +215,7 @@ const PRODUTOS = [
   },
 
   {
-    id: 275,
+    id: 276,
     nome: "Kit de Meias Invisíveis Infantis Bichinhos",
     categoria: "produtos em destaques",
     preco: 5.00,
@@ -224,7 +224,7 @@ const PRODUTOS = [
   },
 
   {
-    id: 276,
+    id: 277,
     nome: "Kit de Meias Cano Curto Estilo College",
     categoria: "produtos em destaques",
     preco: 8.00,
@@ -233,7 +233,7 @@ const PRODUTOS = [
   },
 
   {
-    id: 277,
+    id: 278,
     nome: "Kit de Meias Cano Curto Esportivas Número 23",
     categoria: "produtos em destaques",
     preco: 8.00,
