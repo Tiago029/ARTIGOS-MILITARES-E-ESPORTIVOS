@@ -1165,6 +1165,96 @@ const PRODUTOS = [
     descricao:"A Chuteira Nike Air Zoom Mercurial Superfly 9 Elite TF é a escolha definitiva para jogadores que buscam velocidade explosiva, controle absoluto e um ajuste de segunda pele nos gramados sintéticos. Construída com o revolucionário cabedal em Flyknit e camadas de NikeSkin, ela envolve o pé com precisão, garantindo durabilidade extrema e uma sensibilidade tátil inigualável para dribles rápidos e finalizações precisas. O grande diferencial deste modelo é a unidade Zoom Air integrada no solado, que oferece um amortecimento responsivo de elite e um retorno de energia superior em cada passada, minimizando a fadiga durante as partidas mais intensas. O colarinho Dynamic Fit de cano médio proporciona suporte adicional ao tornozelo, mantendo a estabilidade total em mudanças bruscas de direção. Equipada com uma sola de borracha antiderrapante de alta tração, ela assegura uma aderência imbatível e propulsão máxima em superfícies de society e turf. Leve, estável e esteticamente impactante com seus tons vibrantes de roxo, esta chuteira une a engenharia de performance da Nike com a funcionalidade necessária para dominar o jogo com total confiança e agilidade tática."
   },
 
+  {
+    id: 325,
+    nome: "Nike Total 90 III TF Barcelona",
+    categoria: "Society",
+    preco:450.00,
+    imagem: "../calcados/society/1000741711.jpg",
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A chuteira Nike Total 90 III TF resgata o design icônico dos anos 2000 em uma edição especial inspirada nas cores do FC Barcelona. Construída com cabedal resistente e costuras reforçadas, ela oferece máxima durabilidade e excelente controle de bola nos gramados sintéticos. O clássico sistema de amarração assimétrica amplia a área de chute, garantindo finalizações muito mais precisas e potentes. Seu solado de borracha com microtravas multidirecionais entrega tração superior, estabilidade e rápida mudança de direção nas quadras de society. É a escolha perfeita para os boleiros que buscam alta performance sem abrir mão do estilo retrô nostálgico."
+  },
+
+  {
+    id: 326,
+    nome: "Nike Total 90 III TF Gold Green",
+    categoria: "Society",
+    preco:450.00,
+    imagem: "../calcados/society/1000741712.jpg",
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A chuteira Nike Total 90 III TF Gold Green traz uma das cores mais raras e desejadas da linha histórica dos anos 2000 direto para o seu jogo. Com um cabedal dourado metalizado premium e detalhes em verde, este modelo oferece um visual de puro destaque e estilo nos gramados. Sua estrutura robusta com amarração lateral maximiza a zona de contato com a bola, proporcionando chutes de alta precisão e passes perfeitos. O solado emborrachado com microtravas garante aderência total e estabilidade superior em quadras de grama sintética ou society. Uma relíquia nostálgica perfeita para jogadores que exigem máxima performance, conforto e a imponência de um verdadeiro clássico no pé."
+  },
+
+  {
+    id: 327,
+    nome: "Joma Top Flex Rebound IN Blue Coral",
+    categoria: "Society",
+    preco:450.00,
+    imagem: "../calcados/society/1000741713.jpg",
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A chuteira de futsal Joma Top Flex Rebound combina flexibilidade extrema com alta tecnologia para dominar as quadras com máximo conforto. Confeccionada em couro natural premium, ela se molda perfeitamente ao pé, garantindo uma sensibilidade ao toque de bola e precisão cirúrgica em cada jogada. O sistema de amortecimento Rebound na entressola absorve os impactos de forma eficiente, devolvendo energia para impulsões e arranques rápidos. Seu solado de borracha de alta durabilidade conta com a tecnologia Durability, oferecendo aderência superior e resistência ao desgaste em superfícies indoor. Um modelo profissional projetado para atletas exigentes que buscam agilidade, estabilidade e leveza para ditar o ritmo da partida."
+  },
+
+  {
+    id: 328,
+    nome: "Joma Top Flex IN Navy Turquoise Orange",
+    categoria: "Society",
+    preco:450.00,
+    imagem: "../calcados/society/1000741714.jpg",
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A chuteira de futsal Joma Top Flex une a tradição do couro natural com um design moderno e vibrante para alto rendimento nas quadras. Seu cabedal em couro premium extremamente macio proporciona um ajuste anatômico perfeito e uma sensibilidade superior no controle e toque de bola. A biqueira reforçada em camurça e borracha aumenta a durabilidade do calçado e garante máxima potência nos chutes frontais de bico. O solado emborrachado conta com pontos de rotação estratégicos e linhas de flexão que otimizam a tração, estabilidade e as mudanças rápidas de direção. É a escolha ideal para o jogador de futebol de salão que busca flexibilidade, resistência extrema e conforto absoluto do início ao fim do jogo."
+  },
+
+  {
+    id: 329,
+    nome: "Joma Top Flex Rebound IN Yellow Black",
+    categoria: "Society",
+    preco:450.00,
+    imagem: "../calcados/society/1000741715.jpg",
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A chuteira de futsal Joma Top Flex Rebound combina o prestígio do couro com o amortecimento de elite para craques das quadras. Seu cabedal em couro natural premium proporciona uma maciez incomparável, adaptando-se ao pé para garantir um controle de bola ultrapreciso. A entressola traz a tecnologia Reactive Ball na região traseira, oferecendo absorção máxima de impactos e um excelente retorno de energia nos arranques. O solado translúcido de alta resistência conta com excelente aderência e flexibilidade, ideal para dribles curtos e mudanças rápidas de direção. É o modelo profissional definitivo para jogadores exigentes que buscam a união perfeita entre amortecimento responsivo, conforto e durabilidade extrema."
+  },
+
+  {
+    id: 330,
+    nome: "Joma Top Flex IN Red Black",
+    categoria: "Society",
+    preco:450.00,
+    imagem: "../calcados/society/1000741716.jpg",
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A chuteira de futsal Joma Top Flex entrega máxima performance e a tradicional resistência do couro natural para dominar as quadras. Seu cabedal confeccionado em couro premium super macio oferece um ajuste anatômico perfeito e uma sensibilidade incrível no controle e toque de bola. Conta com reforço estratégico de camurça na biqueira, garantindo muito mais potência nos chutes de bico e aumentando a vida útil do produto. O solado emborrachado antiderrapante possui linhas de flexão e pontos de rotação que proporcionam excelente tração, estabilidade e agilidade nos dribles. É o modelo ideal para os jogadores de futebol de salão que buscam um clássico durável, confortável e de alto rendimento."
+  },
+
+  {
+    id: 331,
+    nome: "Nike Phantom GX II Pro TF White Gold Black",
+    categoria: "Society",
+    preco:450.00,
+    imagem: "../calcados/society/1000741717.jpg",
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A chuteira society Nike Phantom GX II Pro TF combina tecnologia de ponta com um visual sofisticado para você ditar o ritmo do jogo. Seu cabedal inovador conta com revestimento Flyknit que envolve o pé perfeitamente, proporcionando leveza, conforto anatômico e máxima sensibilidade no toque de bola. A textura aderente integrada à zona de chute amplia o controle para passes milimétricos, dribles rápidos e finalizações de alta precisão. Na parte inferior, a entressola responsiva trabalha junto com um solado de borracha repleto de microtravas estratégicas para gramados sintéticos. É a escolha definitiva para jogadores modernos e dinâmicos que exigem tração agressiva, estabilidade incomparável e elegância máxima dentro de campo."
+  },
+
+  {
+    id: 332,
+    nome: "Adidas Predator 24 League TF Grey Red White",
+    categoria: "Society",
+    preco:450.00,
+    imagem: "../calcados/society/1000741718.jpg",
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A chuteira society Adidas Predator 24 League TF une o visual nostálgico das icônicas listras da marca a uma engenharia moderna para dominar o jogo. Seu cabedal tecnológico apresenta uma textura aderente de alta definição que garante um controle de bola absurdo e total precisão nos chutes e passes. O destaque fica para a clássica língua dobrável em tom vibrante, que expande a zona de contato com a bola e entrega muito estilo retrô. Na parte inferior, o solado de borracha com travas curtas foi desenhado especificamente para oferecer máxima tração e estabilidade em gramados sintéticos. É a escolha perfeita para os jogadores que buscam ditar o ritmo da partida com potência, agilidade e presença marcante."
+  },
+
+  {
+    id: 333,
+    nome: "Nike Total 90 III TF Green Black White",
+    categoria: "Society",
+    preco:450.00,
+    imagem: "../calcados/society/1000741719.jpg",
+    tamanho: ["38", "39", "40", "41"], // NOVO CAMPO
+    descricao:"A chuteira Nike Total 90 III TF Green Black White resgata a estética marcante e ousada dos anos 2000 em uma combinação de cores vibrante. Seu cabedal sintético resistente de alta durabilidade conta com o clássico sistema de amarração lateral, ampliando a zona de contato para chutes muito mais limpos e potentes. O icônico círculo com o número 90 estilizado na lateral entrega toda a autenticidade e a nostalgia da época de ouro do futebol. Desenvolvido com solado de borracha repleto de microtravas, este modelo oferece tração agressiva e excelente estabilidade para mudanças rápidas de direção nos gramados artificiais. É o calçado ideal para boleiros que buscam alto rendimento na linha society com o visual histórico e imponente de uma lenda."
+  },
+
   // ================= CALÇADOS TENIS =================
   {
     id: 401,
