@@ -3042,6 +3042,214 @@ const PRODUTOS = [
     descricao:"O Smartwatch Microwear W11 Pro (Série 11) é um relógio inteligente de alta performance que combina um design sofisticado com uma tela AMOLED ultra nítida de 46mm, oferecendo recursos avançados como integração com IA (ChatGPT), GPS dinâmico e a capacidade exclusiva de responder mensagens do WhatsApp diretamente pelo dispositivo. O kit acompanha acessórios essenciais, incluindo uma capa de proteção transparente, pulseiras extras em diferentes estilos (silicone e metal) e um carregador por indução, garantindo versatilidade para uso esportivo ou casual com monitoramento completo de saúde e mais de 100 modalidades esportivas."
   },
 
+  {
+    id: 910,
+    nome: "Relógio Digital Esportivo Masculino DHP WR30M Camuflado Verde",
+    categoria: "relogio",
+    preco: 90.00,
+    imagem: "../acessorios/relogioFoto/11.jpeg",
+    descricao:"Este relógio digital combina um design robusto e moderno com alta funcionalidade para o uso diário. Sua estrutura é resistente a impactos e conta com uma pulseira de silicone confortável no estilo camuflado militar. O visor digital possui iluminação noturna em LED, além de funções essenciais como cronômetro, alarme e calendário completo. Com resistência à água de 30 metros (WR30M), ele suporta respingos e lavagem de mãos sem preocupações. É a escolha ideal para homens que buscam um acessório durável, prático e esportivo."
+  },
+
+  {
+    id: 911,
+    nome: "Relógio Digital Masculino Esportivo Xinjia (Modelo XJ-875DM)",
+    categoria: "relogio",
+    preco: 90.00,
+    imagem: "../acessorios/relogioFoto/12.jpeg",
+    descricao:"Este relógio digital esportivo destaca-se pelo seu design robusto com estampa camuflada em tons de verde e cinza, ideal para atividades ao ar livre e uso diário. Sua caixa reforçada traz proteções laterais e quatro botões físicos funcionais para o controle de suas diversas ferramentas práticas. O mostrador digital é dividido em seções claras, exibindo simultaneamente as horas, minutos, segundos, além do dia da semana e a data atual. Ele conta com funções integradas essenciais como cronômetro com precisão de 1/100 de segundo, alarme diário, bipe horário e resistência à água de 50 metros (WR50M). O modelo combina excelente durabilidade, visual militar moderno e alta praticidade para quem busca um acessório resistente e funcional."
+  },
+
+  {
+    id: 912,
+    nome: "Relógio Digital Esportivo Xinjia (Modelo CF-429)",
+    categoria: "relogio",
+    preco: 90.00,
+    imagem: "../acessorios/relogioFoto/13.jpeg",
+    descricao:"Descrição:Este relógio digital esportivo apresenta um design robusto na cor azul-escura com detalhes em preto, perfeito para quem busca estilo e resistência no dia a dia. Sua estrutura reforçada conta com parafusos aparentes no aro e quatro botões laterais bem posicionados que facilitam o acesso às configurações. O mostrador em LCD possui divisões internas nítidas que exibem o horário principal, os segundos, os dias da semana e os indicadores de funções ativas. Ele oferece recursos práticos para a rotina e treinos, incluindo cronômetro de alta precisão (1/100 de segundo), alarme programável e resistência à água de 5 bar (50 metros). É o acessório ideal para quem pratica esportes ou deseja um visual dinâmico com um excelente custo-benefício."
+  },
+
+  {
+    id: 913,
+    nome: "Relógio Digital Esportivo DHP Sport (Modelo S-738)",
+    categoria: "relogio",
+    preco: 90.00,
+    imagem: "../acessorios/relogioFoto/14.jpeg",
+    descricao:"Este relógio digital esportivo possui um design minimalista e moderno em acabamento totalmente preto, combinando perfeitamente com um estilo casual, militar ou fitness. Sua caixa redonda e lisa destaca os botões integrados nas laterais, garantindo um visual limpo e alta ergonomia para o uso diário ou treinos. O visor digital otimizado concentra os numerais da hora em tamanho grande na parte inferior, facilitando a leitura rápida enquanto exibe o calendário e os segundos de forma organizada na metade superior. Ele conta com recursos essenciais para o monitoramento do tempo, incluindo alarme diário, cronômetro progressivo e iluminação noturna acionada por botão. Além disso, a estrutura traz resistência à água de 50 metros (WR 50M), oferecendo segurança contra respingos, chuva e atividades do cotidiano."
+  },
+
+  {
+    id: 914,
+    nome: "Relógio Digital Esportivo Xinjia Multi-Function (Modelo XJ-890)",
+    categoria: "relogio",
+    preco: 90.00,
+    imagem: "../acessorios/relogioFoto/15.jpeg",
+    descricao:"Este relógio digital esportivo aposta em uma estética militar marcante com sua estrutura na cor verde-oliva, sendo uma escolha perfeita para entusiastas de aventura e atividades ao ar livre. Sua caixa robusta possui proteções salientes ao redor do aro e botões texturizados que garantem excelente resistência a impactos e facilidade no manuseio. O visor LCD é altamente funcional, trazendo indicadores gráficos circulares, contador de segundos destacado e um display numérico nítido para as horas. Entre seus recursos práticos, destacam-se a iluminação interna para ambientes escuros, suporte ao formato de horário 12/24H, alarme diário e o bipe de hora em hora (Hourly Chime). Além disso, sua vedação à prova d'água de 50 metros (50M Waterproof) oferece total segurança e versatilidade para o uso diário."
+  },
+
+  {
+    id: 915,
+    nome: "Relógio Digital Esportivo Xinjia (Modelo CF-429 - Black Edition)",
+    categoria: "relogio",
+    preco: 90.00,
+    imagem: "../acessorios/relogioFoto/16.jpeg",
+    descricao:"Descrição:Este relógio digital esportivo aposta em um visual totalmente preto (all black), conferindo uma estética discreta, moderna e versátil para treinos ou uso casual. Sua caixa reforçada apresenta detalhes texturizados no aro, parafusos prateados aparentes que reforçam sua durabilidade e quatro botões laterais funcionais. O visor digital inteligente organiza as informações em quadrantes bem definidos, exibindo as horas em tamanho grande, os segundos, os dias da semana e os alertas de funções de forma clara. Ele vem equipado com ferramentas indispensáveis para o cotidiano, como cronômetro progressivo de alta precisão (1/100 de segundo), alarme diário ajustável e iluminação de fundo. Sua estrutura durável ainda oferece resistência à água de 5 bar (50 metros), garantindo total proteção contra chuva, respingos e atividades diárias."
+  },
+
+  {
+    id: 916,
+    nome: "Relógio Digital Masculino Xinjia Camuflado (Modelo XJ-875DM - Verde Selva)",
+    categoria: "relogio",
+    preco: 90.00,
+    imagem: "../acessorios/relogioFoto/17.jpeg",
+    descricao:"Este relógio digital esportivo destaca-se por sua estampa camuflada em tons vibrantes de verde-oliva, folha e bege, remetendo a um estilo tático e de selva marcante. Sua caixa robusta possui proteções integradas contra impactos e quatro botões laterais salientes que facilitam o manuseio das configurações durante os treinos ou atividades. O visor LCD exibe as informações de modo inteligente e dividido, trazendo o horário principal em destaque na parte inferior, além do calendário e gráficos circulares na metade superior. Ele vem equipado com funções diárias indispensáveis, como cronômetro integrado de alta precisão (1/100 de segundo), alarme programável e um sistema eficiente de iluminação noturna. Para completar sua versatilidade, a estrutura conta com resistência à água atualizada para 50 metros (WR50M), suportando perfeitamente os desafios do dia a dia."
+  },
+
+  {
+    id: 917,
+    nome: "Relógio Digital Esportivo Xinjia (Modelo CF-429 - Verde Militar)",
+    categoria: "relogio",
+    preco: 90.00,
+    imagem: "../acessorios/relogioFoto/18.jpeg",
+    descricao:"Este relógio digital esportivo une a resistência tática a um visual moderno através do seu acabamento na cor verde-oliva com detalhes em preto. Sua caixa de formato robusto é integrada com parafusos prateados no aro e botões laterais com relevo antiderrapante, garantindo excelente proteção contra impactos e facilidade de ajuste. A tela LCD é segmentada de forma inteligente para monitoramento rápido, exibindo as horas em tamanho ampliado na base, enquanto o topo reserva espaço para o calendário e os indicadores de funções. O modelo conta com recursos práticos e precisos como cronômetro progressivo de 1/100 de segundo, alarme diário embutido e sistema de luz de fundo para leitura em ambientes escuros. Finalizando suas qualidades, sua estrutura apresenta resistência à água certificada de 5 bar (50 metros), tornando-o ideal para acompanhar você em qualquer esporte ou na rotina diária."
+  },
+
+  {
+    id: 918,
+    nome: "Relógio Digital Masculino DHP Tático Camuflado (Modelo WR30M)",
+    categoria: "relogio",
+    preco: 90.00,
+    imagem: "../acessorios/relogioFoto/19.jpeg",
+    descricao:"Este relógio digital esportivo aposta em uma estética tática imponente, combinando uma pulseira com estampa camuflada em tons de verde e preto a uma robusta caixa escura. O grande diferencial de seu design fica por conta do aro externo detalhado com siglas de fusos horários mundiais e dos botões laterais superdimensionados e estilizados, que conferem um visual moderno e facilitam o manuseio. Seu mostrador digital centraliza as horas em numerais de fácil leitura na parte inferior, enquanto distribui os indicadores de dias da semana e gráficos circulares na metade superior. O modelo vem equipado com funcionalidades práticas como cronômetro integrado, alarme, indicadores de bipe horário (Chime) e timer de contagem regressiva. Com uma estrutura reforçada e resistência à água de 30 metros (WR30M), trata-se de um acessório altamente durável e cheio de personalidade para o dia a dia."
+  },
+
+  {
+    id: 919,
+    nome: "Relógio Digital Masculino DHP Tático Camuflado (Modelo WR30M - Verde Claro/Branco)",
+    categoria: "relogio",
+    preco: 90.00,
+    imagem: "../acessorios/relogioFoto/20.jpeg",
+    descricao:"Este relógio digital esportivo destaca-se por sua estética tática e chamativa, apresentando uma estampa camuflada que mistura tons de verde-claro, branco e preto em toda a sua estrutura. Sua caixa robusta e superdimensionada conta com quatro parafusos frontais decorativos e botões laterais estilizados e destacados, conferindo alta proteção contra impactos e facilidade no uso das funções. O aro externo traz um acabamento detalhado com siglas de fusos horários mundiais, emoldurando um visor em LCD com numerais grandes na parte inferior para uma leitura rápida das horas. Ele vem equipado com recursos práticos e versáteis, incluindo cronômetro progressivo, alarme diário, bipe de hora em hora (Chime) e timer de contagem regressiva integrado. Com resistência à água de 30 metros (WR30M), o modelo garante segurança contra respingos do cotidiano e entrega muita personalidade para quem tem um estilo dinâmico."
+  },
+
+  {
+    id: 920,
+    nome: "Relógio Digital Masculino Skmei Dual Time Camuflado (Modelo 1723)",
+    categoria: "relogio",
+    preco: 90.00,
+    imagem: "../acessorios/relogioFoto/21.jpeg",
+    descricao:"Este relógio digital esportivo se destaca por sua estética tática sofisticada, trazendo uma estampa camuflada em tons de cinza e preto que combina perfeitamente com um estilo urbano ou de aventura. A caixa possui uma construção imponente e robusta com quatro parafusos frontais no aro e botões laterais com ranhuras que facilitam o manuseio das funções. O visor em LCD é rico em detalhes visuais, apresentando um indicador gráfico de mapa-múndi no topo e um anel analógico simulado ao lado, além de organizar claramente o horário principal, os segundos e o calendário completo na base. Equipado com recursos avançados para o dia a dia, ele conta com suporte a duplo fuso horário (Dual Time), cronômetro de alta precisão (1/100s Chronograph), timer de contagem regressiva, alarme com função soneca (SNZ) e bipe de hora em hora (SIG). Sua estrutura de alta durabilidade ainda traz resistência à água de 5 bar (WR 5bar), garantindo total proteção nas tarefas cotidianas."
+  },
+
+  {
+    id: 921,
+    nome: "Relógio Digital Masculino DHP Tático Black (Modelo WR50M)",
+    categoria: "relogio",
+    preco: 90.00,
+    imagem: "../acessorios/relogioFoto/22.jpeg",
+    descricao:"Este relógio digital esportivo apresenta uma estética tática imponente com acabamento totalmente preto, ideal para quem busca um visual marcante no dia a dia ou em atividades ao ar livre. Sua caixa superdimensionada e de alta resistência exibe parafusos cromados frontais e uma coroa decorativa prateada que confere um toque moderno e robusto ao design. O mostrador em LCD é dividido de forma funcional, concentrando as horas em dígitos grandes na parte inferior, enquanto o topo exibe o dia da semana em uma janela quadrada estilizada ao lado do calendário. O modelo vem equipado com recursos indispensáveis, incluindo cronômetro progressivo, alarme diário programável, bipe de hora em hora e iluminação noturna eficiente acionada pelo botão superior. Para maior segurança, sua estrutura reforçada conta com uma pulseira de resina durável e resistência à água de 50 metros (WR50M), suportando perfeitamente os desafios diários."
+  },
+
+  {
+    id: 922,
+    nome: "Relógio Digital Masculino Sport Tático Black (Modelo WR30M)",
+    categoria: "relogio",
+    preco: 90.00,
+    imagem: "../acessorios/relogioFoto/23.jpeg",
+    descricao:"Este relógio digital esportivo aposta em uma estética minimalista e puramente tática, apresentando um acabamento totalmente preto em sua estrutura e pulseira de resina. Sua caixa redonda e robusta conta com parafusos escuros encravados no aro protetor e quatro botões laterais com ranhuras que oferecem ótima aderência para os comandos. O grande diferencial está em seu visor de fundo claro e alto contraste, que organiza de forma limpa os dígitos da hora em tamanho grande e o calendário com o dia da semana no topo. O modelo vem equipado com funcionalidades práticas como alarme diário, cronômetro progressivo, bipe horário e iluminação interna para leitura rápida em ambientes escuros. Finalizando suas qualidades, sua construção robusta possui resistência à água de 30 metros (WR30M), sendo o acessório ideal para quem busca simplicidade, estilo esportivo e durabilidade para a rotina diária."
+  },
+
+  {
+    id: 923,
+    nome: "Relógio Digital Masculino DHP Tático Black (Modelo WR50M)",
+    categoria: "relogio",
+    preco: 90.00,
+    imagem: "../acessorios/relogioFoto/24.jpeg",
+    descricao:"Este relógio digital esportivo apresenta uma estética tática imponente com acabamento totalmente preto, ideal para quem busca um visual marcante no dia a dia ou em atividades ao ar livre. Sua caixa superdimensionada e de alta resistência exibe parafusos cromados frontais e uma coroa decorativa prateada que confere um toque moderno e robusto ao design. O mostrador em LCD é dividido de forma funcional, concentrando as horas em dígitos grandes na parte inferior, enquanto o topo exibe o dia da semana em uma janela quadrada estilizada ao lado do calendário. O modelo vem equipado com recursos indispensáveis, incluindo cronômetro progressivo, alarme diário programável, bipe de hora em hora e iluminação noturna eficiente acionada pelo botão superior. Para maior segurança, sua estrutura reforçada conta com uma pulseira de resina durável e resistência à água de 50 metros (WR50M), suportando perfeitamente os desafios diários."
+  },
+
+  {
+    id: 924,
+    nome: "Relógio Digital Masculino DHP Tático Militar (Modelo Verde-Oliva)",
+    categoria: "relogio",
+    preco: 90.00,
+    imagem: "../acessorios/relogioFoto/25.jpeg",
+    descricao:"Este relógio digital esportivo aposta em um visual puramente militar e aventureiro, combinando uma pulseira texturizada na cor verde-oliva a uma caixa preta superdimensionada de alta resistência. O design é marcado por detalhes robustos, incluindo quatro parafusos escuros frontais no aro e botões laterais táticos e integrados com formatos diferenciados para facilitar o acionamento rápido. Seu display em LCD organiza as informações de modo prático, com dígitos grandes na base para leitura imediata e janelas segmentadas na parte superior dedicadas aos indicadores de funções e dias da semana. O modelo vem equipado com ferramentas essenciais para a rotina diária e treinos, como cronômetro progressivo, alarme configurável, sinal horário e iluminação interna de fundo. Com uma estrutura rígida e pulseira de resina durável, ele entrega excelente robustez e estilo para quem encara desafios no cotidiano."
+  },
+
+  {
+    id: 925,
+    nome: "Relógio Digital Masculino Shunway S-Sports (Modelo S-815)",
+    categoria: "relogio",
+    preco: 90.00,
+    imagem: "../acessorios/relogioFoto/26.jpeg",
+    descricao:"Este relógio digital esportivo impressiona pelo seu visual tecnológico e imponente, trazendo uma caixa preta superdimensionada com acabamento fosco e parafusos frontais destacados. O grande diferencial está na sua vibrante iluminação em LED azul, que realça todo o mostrador em ambientes escuros e facilita a leitura rápida das informações. Seu visor é extremamente detalhado, combinando os numerais analógicos de referência (12, 3, 6, 9) ao redor de telas digitais que organizam as horas, os segundos e o calendário com os dias da semana. Ele oferece recursos práticos para a rotina diária e treinos, como cronômetro integrado, alarme programável com ícone de sino na tela e marcadores gráficos circulares em azul. Projetado para máxima durabilidade, o modelo conta com pulseira de resina texturizada de alta aderência e resistência à água certificada de 50 metros (WR 50M)."
+  },
+
+  {
+    id: 926,
+    nome: "Relógio Digital Vintage Aqua (Modelo AQ-81)",
+    categoria: "relogio",
+    preco: 75.00,
+    imagem: "../acessorios/relogioFoto/27.jpeg",
+    descricao:"Este relógio digital destaca-se pelo seu design nostálgico e minimalista em formato quadrado, remetendo ao clássico estilo vintage dos anos 80 e 90. Sua estrutura e pulseira são confeccionadas em resina preta fosca de alta leveza, garantindo um encaixe confortável e anatômico no pulso para o uso diário. O visor LCD possui uma moldura preta com detalhes em linhas azuis, organizando de forma muito clara os dígitos principais da hora, minutos e segundos na tela. Ele vem equipado com as funções essenciais mais procuradas para a rotina diária, incluindo alarme programável (Alarm Chrono), cronômetro integrado, calendário com os dias da semana indicados no topo e iluminação de fundo para visualização noturna. Sua caixa compacta conta com botões metálicos laterais discretos e traz a clássica resistência à água da marca, sendo o acessório ideal para quem busca praticidade, durabilidade e um visual retrô atemporal."
+  },
+
+  {
+    id: 927,
+    nome: "Relógio Digital Vintage Aqua (Modelo AQ-81)",
+    categoria: "relogio",
+    preco: 75.00,
+    imagem: "../acessorios/relogioFoto/28.jpeg",
+    descricao:"Este relógio digital destaca-se pelo seu design nostálgico e minimalista em formato quadrado, remetendo ao clássico estilo vintage dos anos 80 e 90. Sua estrutura e pulseira são confeccionadas em resina preta fosca de alta leveza, garantindo um encaixe confortável e anatômico no pulso para o uso diário. O visor LCD possui uma moldura preta com detalhes em linhas azuis, organizando de forma muito clara os dígitos principais da hora, minutos e segundos na tela. Ele vem equipado com as funções essenciais mais procuradas para a rotina diária, incluindo alarme programável (Alarm Chrono), cronômetro integrado, calendário com os dias da semana indicados no topo e iluminação de fundo para visualização noturna. Sua caixa compacta conta com botões metálicos laterais discretos e traz a clássica resistência à água da marca, sendo o acessório ideal para quem busca praticidade, durabilidade e um visual retrô atemporal."
+  },
+
+  {
+    id: 928,
+    nome: "Relógio Digital Masculino Atlantis Vintage (Modelo WR50M)",
+    categoria: "relogio",
+    preco: 140.00,
+    imagem: "../acessorios/relogioFoto/29.jpeg",
+    descricao:"Este relógio digital aposta em um visual vintage e utilitário com sua caixa de formato retangular em acabamento preto fosco, trazendo parafusos prateados destacados nos quatro cantos do aro. Sua estrutura leve e compacta é integrada a uma pulseira de resina lisa, garantindo um encaixe anatômico e muito confortável para o uso contínuo no dia a dia. O grande visor LCD de alta visibilidade divide as informações de maneira organizada, mostrando as horas em numerais digitais grandes na metade superior e o calendário com os dias da semana na base. O modelo é equipado com funções indispensáveis como cronômetro com tempo dividido (SPL), alarme diário (ALM), sinal horário (SIG) e suporte para o formato de hora 12/24H. Complementando sua versatilidade, ele traz um sistema avançado de iluminação eletroluminescente (Electro Luminescent Backlight) e resistência à água certificada de 50 metros (WR 50M)."
+  },
+
+  {
+    id: 929,
+    nome: "Relógio Digital Masculino Atlantis Chronograph (Modelo Camuflado Verde)",
+    categoria: "relogio",
+    preco: 140.00,
+    imagem: "../acessorios/relogioFoto/30.jpeg",
+    descricao:"Este relógio digital destaca-se pelo seu design robusto com formato de caixa ligeiramente barril, apresentando uma estampa camuflada em tons discretos de verde-escuro e detalhes texturizados. Quatro parafusos pretos fixados no aro frontal reforçam sua estética tática e sua resistência contra impactos do cotidiano. O visor LCD é altamente detalhado e dividido em três seções principais, exibindo o calendário completo no topo, o dia da semana no centro ao lado de um indicador gráfico circular e as horas em numerais digitais grandes na base. Ele conta com recursos práticos essenciais para a rotina diária e atividades físicas, incluindo a função de cronógrafo (Chronograph), alarme programável e sinal sonoro de hora em hora (SIG). A pulseira de resina preta com acabamento fosco e os botões laterais bem integrados garantem um encaixe anatômico e excelente ergonomia para o uso diário."
+  },
+
+  {
+    id: 930,
+    nome: "Relógio Digital Masculino Atlantis Chronograph (Modelo Verde Militar / Preto)",
+    categoria: "relogio",
+    preco: 140.00,
+    imagem: "../acessorios/relogioFoto/31.jpeg",
+    descricao:"Este relógio digital destaca-se pelo seu design esportivo e tático de formato barril, combinando uma caixa frontal preta com parafusos metálicos verdes e uma pulseira integrada na cor verde-oliva. Sua estrutura robusta apresenta laterais com detalhes texturizados e botões físicos discretos que oferecem boa aderência e praticidade no manuseio. O visor em LCD invertido (fundo escuro) é dividido em seções funcionais, trazendo as informações de mês e data no topo, o indicador de dias da semana no centro junto a um gráfico circular e o horário principal na base. O modelo conta com recursos indispensáveis para o dia a dia e atividades ao ar livre, incluindo a função de cronógrafo (Chronograph), alarme programável e sinal sonoro horário (SIG). Sua pulseira de silicone fosca garante excelente ergonomia, tornando-o o acessório ideal para quem busca estilo aventureiro e resistência."
+  },
+
+  {
+    id: 931,
+    nome: "Relógio Digital Masculino Atlantis Tático (Modelo WR50M - Camuflado Verde Escuro)",
+    categoria: "relogio",
+    preco: 140.00,
+    imagem: "../acessorios/relogioFoto/32.jpeg",
+    descricao:"Este relógio digital esportivo destaca-se pelo seu visual tático e imponente, combinando uma caixa superdimensionada preta a detalhes camuflados em tons de verde-escuro e cinza. A estrutura robusta traz ranhuras antiderrapantes nas laterais, botões integrados protegidos e quatro parafusos prateados no aro que reforçam sua alta durabilidade contra impactos. O visor possui um fundo cinza de excelente contraste, organizando de forma muito clara os dias da semana e a data no topo, além do horário principal e dos segundos na base. Ele vem equipado com ferramentas indispensáveis para a rotina diária e atividades físicas, como cronômetro, alarme (ALARM), bipe de hora em hora (CHI) e iluminação de fundo. Para completar sua grande versatilidade, o modelo conta com pulseira de resina resistente e vedação à prova d'água de 50 metros (WR 50M)."
+  },
+
+  {
+    id: 932,
+    nome: "Relógio Digital Masculino Synoke Dual Time (Modelo 9619 - Black)",
+    categoria: "relogio",
+    preco: 140.00,
+    imagem: "../acessorios/relogioFoto/33.jpeg",
+    descricao:"Este relógio digital esportivo destaca-se por sua moderna caixa quadrada em acabamento preto fosco, exibindo as inscrições Dual Time e EL Luminous integradas ao design tático e urbano. A estrutura robusta possui quatro botões prateados funcionais e ranhuras na pulseira de resina que garantem um ajuste seguro, ergonômico e muito confortável no pulso. Seu mostrador digital inteligente é dividido em quadrantes, organizando de forma clara o cronógrafo circular no canto superior esquerdo, o dia da semana, o calendário e a hora principal na base. O modelo vem equipado com recursos completos para o dia a dia, como alarme programável (ALM), sinal sonoro horário (SIG), segundo fuso horário e iluminação eletroluminescente de alto brilho. Finalizando suas qualidades, ele apresenta resistência à água de 30 metros (WR30M), protegendo o acessório contra chuva e respingos do cotidiano."
+  },
+
+
   // ================= ACESSORIO ÓCULOS =================
   {
     id: 1000,
