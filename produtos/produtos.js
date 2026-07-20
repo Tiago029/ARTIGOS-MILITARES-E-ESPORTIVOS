@@ -2959,6 +2959,105 @@ const PRODUTOS = [
     descricao: "Garanta total praticidade e estabilidade para navegar pelo GPS em seus trajetos diários com este suporte de celular projetado especialmente para guidões de motos e bicicletas. Ele traz uma estrutura reforçada e garras altamente seguras que mantêm o smartphone firme mesmo ao passar por trepidações fortes, buracos ou terrenos irregulares. Seu grande diferencial é a cabeça articulada com rotação de 360 graus, permitindo que você ajuste o aparelho rapidamente no ângulo de visualização ideal, seja na horizontal ou na vertical. O sistema de fixação rápida facilita o travamento do dispositivo e oferece alta compatibilidade com uma ampla variedade de marcas e tamanhos de telas do mercado. Uma solução resistente, prática e com excelente custo-benefício para motoboys, ciclistas e entregadores que prezam por segurança nas ruas."
   },
 
+  {
+   id: 1177,
+    nome: "Fone de Ouvido Bluetooth P9 Wireless",
+    categoria: "eletronicos",
+    preco: 80.00,
+    imagem: "../eletronicos/eletronicosFoto/26.jpeg",
+    descricao: "Este popular modelo de fone de ouvido do tipo over-ear destaca-se por seu design minimalista e moderno fortemente inspirado na estética premium contemporânea, oferecendo uma alternativa acessível e estilosa. A sua estrutura leve conta com conchas auriculares macias e uma haste flexível revestida, garantindo conforto satisfatório para o uso prolongado durante atividades diárias e momentos de lazer. O dispositivo é equipado com alto-falantes dinâmicos de 40mm que entregam som estéreo equilibrado, além de suporte a decodificação de áudio avançada para conexões sem fio estáveis. Com comandos embutidos nas laterais para controle de faixas e chamadas, o acessório une praticidade com uma bateria recarregável de boa autonomia para o dia a dia."
+  },
+
+  {
+   id: 1178,
+    nome: "Carregador Portátil Power Bank IT-BLUE MAX-0541",
+    categoria: "eletronicos",
+    preco: 130.00,
+    imagem: "../eletronicos/eletronicosFoto/27.jpeg",
+    descricao: "Este versátil carregador portátil destaca-se por seu design multifuncional 3 em 1 com capacidade de 10.000mAh, ideal para garantir energia extra para múltiplos dispositivos em qualquer lugar. A sua estrutura compacta e branca traz cabos embutidos de alta conveniência, além de contar com a homologação oficial da Anatel para assegurar total segurança e conformidade técnica no mercado nacional. O dispositivo oferece suporte a carregamento rápido de até 20W com tecnologia Power Delivery (PD), prometendo recargas muito mais velozes e eficientes para smartphones e tablets compatíveis. Equipado com indicadores em LED que exibem o nível exato da bateria e um acabamento premium, o acessório une máxima portabilidade com extrema praticidade para o uso diário."
+  },
+
+  {
+   id: 1179,
+    nome: "Aparador de Pelos 2 em 1 Daling DL-7019",
+    categoria: "eletronicos",
+    preco: 95.00,
+    imagem: "../eletronicos/eletronicosFoto/28.jpeg",
+    descricao: "Este versátil kit de higiene pessoal masculino destaca-se por sua funcionalidade bivolt e recarregável com potência de 3W, ideal para remover pelos indesejados de forma rápida e segura. A sua estrutura ergonômica e antiderrapante vem acompanhada de duas cabeças intercambiáveis com lâminas de aço inoxidável de alta durabilidade, sendo uma ponteira rotativa de 360 graus especial para os pelos do nariz e orelhas, e outra cabeça aparadora reta projetada para detalhar e alinhar a barba, bigode e costeletas. O aparelho funciona de maneira totalmente sem fio por até uma hora contínua e possui bicos laváveis de fácil remoção, simplificando a limpeza pós-uso. Unindo praticidade, higiene e excelente precisão em um único corpo compacto, o acessório torna-se um aliado indispensável tanto para a rotina diária em casa quanto para levar em viagens."
+  },
+
+  {
+   id: 1180,
+    nome: "Fone de Ouvido Bluetooth JBL Tune 510NC (Custom/Réplica)",
+    categoria: "eletronicos",
+    preco: 175.00,
+    imagem: "../eletronicos/eletronicosFoto/29.jpeg",
+    descricao: "Este atraente modelo de fone de ouvido do tipo on-ear destaca-se por combinar o formato clássico e compacto da linha Tune com recursos avançados de isolamento acústico, proporcionando uma experiência de áudio imersiva e livre de distrações externas. A sua estrutura leve e dobrável em plástico fosco preto de alta resistência facilita o transporte no dia a dia, contando com almofadas macias para garantir um uso prolongado confortável. O dispositivo traz a famosa assinatura sonora Pure Bass para entregar graves profundos e potentes, além de contar com suporte a emparelhamento rápido Bluetooth e comandos embutidos na concha lateral para controle prático de músicas. Equipado com um sistema de Cancelamento Ativo de Ruído (ANC) e uma bateria de excelente autonomia de até 50 horas com carregamento rápido, o acessório une praticidade com ótima fidelidade sonora para a sua rotina."
+  },
+
+  {
+   id: 1181,
+    nome: "Barbeador Elétrico Profissional Knup BBD02",
+    categoria: "eletronicos",
+    preco: 175.00,
+    imagem: "../eletronicos/eletronicosFoto/30.jpeg",
+    descricao: "Este eficiente barbeador elétrico destaca-se por seu sistema sem fio de alta performance equipado com a Tecnologia Hiperflex, cujas três cabeças rotativas flutuantes se movimentam de forma independente para acompanhar perfeitamente cada contorno e curvatura do rosto masculino. A sua estrutura ergonômica em tom preto fosco e detalhes cromados possui certificação IPX6 de resistência à água, permitindo que o aparelho seja utilizado confortavelmente tanto a seco quanto molhado durante o banho, além de facilitar a limpeza rápida das lâminas diretamente sob a torneira. O dispositivo conta com uma bateria recarregável interna de ótima autonomia e um indicador em LED intuitivo no painel frontal para monitorar o funcionamento. Entregando um barbear rente, suave e livre de irritações cutâneas na pele, o acessório une praticidade com excelente custo-benefício para a rotina diária masculina."
+  },
+
+  {
+   id: 1182,
+    nome: "Máquina de Corte de Cabelo e Barba Oásis OIH-5102",
+    categoria: "eletronicos",
+    preco: 75.00,
+    imagem: "../eletronicos/eletronicosFoto/31.jpeg",
+    descricao: "Esta elegante máquina de acabamento e corte destaca-se por seu design vintage com corpo metálico ricamente trabalhado com detalhes em relevo de dragão, conferindo um visual clássico e sofisticado de barbearia profissional. A sua estrutura cilíndrica e compacta abriga uma lâmina T ultra-afiada exposta de aço inoxidável, ideal para realizar desenhos, marcações e cortes extremamente rentes com total segurança e precisão. O dispositivo é equipado com uma bateria recarregável de excelente autonomia e um moderno display digital em LED na base, o qual exibe a porcentagem exata de carga restante em tempo real para evitar imprevistos. Funcionando de maneira totalmente sem fio, o aparelho entrega alta potência com baixo nível de ruído, tornando-se perfeito tanto para aparar a barba quanto para o cabelo no uso doméstico ou profissional."
+  },
+
+  {
+   id: 1183,
+    nome: "Máquina de Acabamento Oásis Hair Outlining Trimmer OIH-5108",
+    categoria: "eletronicos",
+    preco: 175.00,
+    imagem: "../eletronicos/eletronicosFoto/32.jpeg",
+    descricao: "Esta moderna máquina de acabamento e contorno destaca-se por seu design ergonômico com corpo em tons de preto e dourado, oferecendo uma pegada firme e confortável para estilizações precisas na barba e no cabelo. O aparelho é equipado com uma lâmina T de aço inoxidável ultra-afiada com ajuste de 0.00mm, ideal para criar linhas limpas, degrades perfeitos, pezinhos e desenhos com máxima segurança para a pele. O dispositivo conta com uma bateria interna recarregável de íons de lítio com capacidade de 600mAh, necessitando de um tempo de carregamento de aproximadamente duas horas com alimentação via cabo USB tradicional. Funcionando de maneira totalmente sem fio, o motor potente de 3.7V trabalha de forma silenciosa para garantir cortes eficientes e agilidade no uso doméstico diário ou profissional."
+  },
+
+  {
+   id: 1184,
+    nome: "Máquina de Cortar Cabelo Profissional Daling DL-1538B",
+    categoria: "eletronicos",
+    preco: 180.00,
+    imagem: "../eletronicos/eletronicosFoto/33.jpeg",
+    descricao: "Esta robusta máquina de cortar cabelo destaca-se por sua carcaça de alta resistência com acabamento camaleão furta-cor metalizado, conferindo um design moderno, sofisticado e de grande impacto visual em bancadas de barbearia. O aparelho faz parte da prestigiada linha Fade Master Series, trazendo uma alavanca lateral de ajuste fino que permite criar degradês suaves e transições impecáveis com extrema facilidade e precisão. O modelo é equipado com lâminas de aço carbono ultra-afiadas de longa durabilidade e um motor potente de alto desempenho que desliza suavemente sem puxar os fios. Na sua parte frontal, há um prático display digital em LED que mostra em tempo real a porcentagem exata da carga da bateria e avisos importantes de manutenção como lubrificação. Funcionando de forma totalmente sem fio com longa autonomia de uso contínuo, o acessório une ergonomia, alta performance e agilidade para barbeiros profissionais e cortes residenciais."
+  },
+
+  {
+   id: 1185,
+    nome: "Fone de Ouvido Bluetooth Onistek ON-HF200",
+    categoria: "eletronicos",
+    preco: 175.00,
+    imagem: "../eletronicos/eletronicosFoto/34.jpeg",
+    descricao: "Este moderno fone de ouvido do tipo over-ear destaca-se por sua tecnologia avançada de Cancelamento Ativo de Ruído (ANC), que reduz eficientemente os barulhos externos para proporcionar uma imersão sonora completa. A sua estrutura ergonômica em tom preto fosco conta com conchas auriculares acolchoadas e uma haste ajustável revestida com tecido respirável, garantindo máximo conforto durante longos períodos de uso. O dispositivo é equipado com conectividade Bluetooth na versão 5.4, assegurando uma transmissão de áudio sem fio extremamente estável, rápida e com baixo consumo de energia. Sua bateria interna de alta performance entrega uma excelente autonomia de até 30 horas de reprodução contínua, ideal para acompanhar a sua rotina de trabalho, estudos ou viagens. Unindo chamadas de voz em alta definição com um som estéreo de alta fidelidade, o acessório entrega grande praticidade e ótimo desempenho para o dia a dia."
+  },
+
+  {
+   id: 1186,
+    nome: "Máquina de Acabamento Profissional Daling DL-0056",
+    categoria: "eletronicos",
+    preco: 140.00,
+    imagem: "../eletronicos/eletronicosFoto/35.jpeg",
+    descricao: "Esta elegante máquina de acabamento e contorno destaca-se por seu design vintage com corpo metálico ricamente trabalhado em tons dourados, oferecendo uma estética clássica de barbearia aliada a uma pegada firme e ergonômica. O aparelho é equipado com lâminas de aço inoxidável ultra-afiadas em formato T exposto, ideal para criar linhas limpas, degrades rentes ao couro cabeludo e marcações precisas na barba com total segurança. O seu grande diferencial tecnológico é a tela digital em LED integrada no corpo do aparelho, que monitora a velocidade e exibe o nível exato da bateria em tempo real para evitar interrupções. Funcionando de forma totalmente sem fio com sistema de carregamento rápido e proteção contra sobrecarga, o motor entrega alta performance constante com baixíssimo nível de ruído e vibração. Unindo a robustez dos materiais premium com excelente autonomia de uso, o acessório torna-se indispensável tanto para o profissional exigente quanto para cuidados residenciais detalhados."
+  },
+
+  {
+   id: 1187,
+    nome: "Fone de Ouvido Bluetooth Infantil Onistek ON-TW630 PJ Masks (Menino Gato)",
+    categoria: "eletronicos",
+    preco: 95.00,
+    imagem: "../eletronicos/eletronicosFoto/36.jpeg",
+    descricao: "Este divertido e tecnológico fone de ouvido sem fio do tipo in-ear destaca-se por seu estojo de carregamento personalizado com o formato do personagem Menino Gato da animação PJ Masks, tornando-se muito atraente para o público infantil. A sua estrutura traz mini fones ergonômicos e leves em tom preto, especialmente projetados para se encaixarem de forma confortável e segura nas orelhas pequenas das crianças sem causar incômodo durante o uso. O dispositivo conta com homologação oficial da Anatel estampada na embalagem, garantindo que o produto segue rigidamente todas as normas de segurança e emissão de frequências exigidas no mercado brasileiro. Funcionando via conexão Bluetooth estável para músicas e vídeos em tablets ou smartphones, o modelo entrega um som estéreo claro com volume controlado de maneira equilibrada para proteger a audição. Unindo a magia dos desenhos animados com total portabilidade diária, o acessório transforma os momentos de lazer dos pequenos em uma experiência lúdica e confortável."
+  },
+
 
   // ================= ACESSORIO RELÓGIO ================
   {
