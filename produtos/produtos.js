@@ -3314,6 +3314,71 @@ const PRODUTOS = [
     descricao:"O Óculos de Sol Esportivo Polarizado é a escolha definitiva para quem busca o equilíbrio perfeito entre alta performance e proteção ocular superior em atividades ao ar livre. Sua armação robusta e ultraleve foi projetada com um design anatômico que garante estabilidade e conforto absoluto durante movimentos intensos, como corridas, trilhas ou ciclismo. Equipado com lentes polarizadas de alta tecnologia, este modelo elimina reflexos incômodos da água ou do asfalto, proporcionando uma visão nítida e com cores vibrantes. Além disso, a proteção UV400 integrada bloqueia 100% dos raios UVA e UVB, assegurando a máxima segurança para seus olhos mesmo sob exposição solar severa. Seja para praticar esportes de alto rendimento ou para um uso casual com visual imponente, este acessório durável é o companheiro indispensável para qualquer aventura ou para dirigir com total clareza."
   },
 
+  {
+    id: 1010,
+    nome: "Óculos Oakley X-Metal Penny",
+    categoria: "oculos",
+    preco: 90.00,
+    imagem: "../acessorios/oculosFoto/1.jpeg",
+    descricao:"Este icônico modelo de óculos de sol destaca-se por sua estrutura metálica robusta e futurista com acabamento cromado de alta resistência, projetado originalmente com foco em performance e estilo urbano marcante. As suas lentes ovais espelhadas na cor azul vibrante, conhecidas popularmente como Ice Thug, oferecem excelente proteção contra raios solares e reduzem o excesso de brilho com máxima clareza visual. O design anatômico conta com borrachas de aderência na cor azul nas hastes, garantindo estabilidade, conforto prolongado e um encaixe firme ao rosto durante o uso diário. Muito valorizado na cultura casual e no colecionismo, o acessório une durabilidade extrema a uma estética esportiva atemporal que se mantém altamente desejada no mercado atual."
+  },
+
+  {
+    id: 1011,
+    nome: "Óculos Oakley X-Metal Penny Gold 24k",
+    categoria: "oculos",
+    preco: 90.00,
+    imagem: "../acessorios/oculosFoto/2.jpeg",
+    descricao:"Este marcante modelo de óculos de sol destaca-se por sua estrutura metálica robusta com acabamento dourado espelhado de alto brilho, conferindo uma estética luxuosa e futurista. As lentes ovais possuem um efeito camaleão multicolorido que transita entre tons de vermelho, amarelo, verde e azul, garantindo total proteção contra raios solares. O design anatômico é complementado por borrachas de aderência pretas nas pontas das hastes, assegurando excelente fixação, estabilidade e conforto ideal para o rosto. Muito popular na cultura urbana e valorizado por colecionadores, o acessório une a durabilidade extrema da linha X-Metal a um visual esportivo exclusivo e atemporal."
+  },
+
+  {
+    id: 1012,
+    nome: "Óculos Oakley X-Metal Penny Double X (Custom)",
+    categoria: "oculos",
+    preco: 90.00,
+    imagem: "../acessorios/oculosFoto/3.jpeg",
+    descricao:"Este diferenciado modelo de óculos de sol destaca-se por sua estrutura metálica customizada em dois tons, combinando a frente orbital preta fosca com a ponte central e as hastes em dourado de alto brilho. As suas lentes escuras na cor grafite ou preta oferecem um visual discreto, elegante e versátil, garantindo excelente filtragem da luz e total proteção contra os raios solares. O design ergonômico conta com borrachas de aderência pretas nas pontas das hastes, assegurando máxima estabilidade, conforto e um encaixe firme ao rosto. Combinando a robustez clássica da linha X-Metal com uma personalização moderna, o acessório atrai colecionadores e entusiastas do estilo casual urbano."
+  },
+
+  {
+    id: 1013,
+    nome: "Óculos Oakley X-Metal Penny Matte Black Ruby",
+    categoria: "oculos",
+    preco: 90.00,
+    imagem: "../acessorios/oculosFoto/4.jpeg",
+    descricao:"Este imponente modelo de óculos de sol destaca-se por sua estrutura metálica robusta com acabamento inteiramente preto fosco, conferindo um visual moderno, discreto e altamente agressivo. As suas lentes ovais espelhadas em tom Ruby Camaleão transitam entre o vermelho, rosa e roxo vibrantes, oferecendo um contraste impressionante e excelente proteção contra os raios solares. O design anatômico conta com borrachas de aderência pretas integradas discretamente ao longo das hastes, garantindo estabilidade superior, conforto prolongado e firmeza ao rosto. Combinando a essência icônica da linha X-Metal com uma paleta de cores furtiva e marcante, o acessório é um dos favoritos na cultura urbana atual."
+  },
+
+  {
+    id: 1014,
+    nome: "Óculos Oakley Fuel Cell Desert Tan",
+    categoria: "oculos",
+    preco: 90.00,
+    imagem: "../acessorios/oculosFoto/5.jpeg",
+    descricao:"Este robusto modelo de óculos de sol destaca-se por sua armação de armadura espessa feita em O Matter na cor bege desértico, garantindo leveza, alta durabilidade e uma estética militar moderna. O kit exibido apresenta variações de lentes retangulares espelhadas com tecnologia polarizada, transitando entre tons vibrantes de rosa, roxo e o clássico acabamento escuro fumê. As hastes largas exibem o icônico ícone quadrado da marca em destaque nas laterais, assegurando um encaixe firme, anatômico e muito confortável para rostos de tamanho médio a grande. Unindo a essência esportiva com o estilo casual de rua, o modelo é uma escolha versátil e de forte presença visual para o dia a dia."
+  },
+
+  {
+    id: 1015,
+    nome: "Óculos Oakley X-Metal Penny Carbon Fire Iridium",
+    categoria: "oculos",
+    preco: 90.00,
+    imagem: "../acessorios/oculosFoto/6.jpeg",
+    descricao:"Este agressivo modelo de óculos de sol destaca-se por sua estrutura metálica robusta com acabamento na cor grafite escuro fosco, conferindo uma estética furtiva, industrial e de alta resistência. As suas lentes ovais espelhadas em tom Fire Iridium exibem um degradê vibrante que transita entre o vermelho intenso, laranja e dourado, garantindo máxima proteção solar. O design anatômico é complementado por borrachas de aderência vermelhas nas pontas das hastes, assegurando excelente contraste visual, estabilidade e um encaixe firme ao rosto. Altamente valorizado na cultura de rua e por colecionadores exigentes, o acessório une perfeitamente o visual clássico da linha X-Metal a uma combinação esportiva marcante."
+  },
+
+  {
+    id: 1016,
+    nome: "Óculos Oakley Radar EV Path Lineup",
+    categoria: "oculos",
+    preco: 90.00,
+    imagem: "../acessorios/oculosFoto/7.jpeg",
+    cor: ["Escolher cor com o vendedor"],
+    descricao:"Este dinâmico modelo de óculos esportivos destaca-se por sua armação leve de O Matter com lentes únicas contínuas e estendidas na parte superior, ampliando o campo de visão periférica superior. A coleção exibida demonstra uma grande variedade de lentes espelhadas intercambiáveis com tecnologia Prizm, transitando por tons vibrantes de azul, vermelho, verde, violeta e opções escuras polarizadas. O design geométrico das hastes pretas conta com canais de ventilação integrados e borrachas de aderência Unobtainium, que garantem fixação máxima ao rosto mesmo com o suor da atividade física. Sendo uma escolha consagrada mundialmente por atletas de ciclismo, corrida e beach tennis, o acessório une alta performance aerodinâmica a uma estética esportiva moderna."
+  },
+
+
   // ================= CAMISAS =================
    {
     id: 12000,
