@@ -4,6 +4,9 @@
 
 let produtoEditando = null;
 
+const API_BASE_URL_MODAL =
+    "https://artigos-militares-e-esportivos-production.up.railway.app";
+
 
 // ==========================================
 // ABRIR MODAL
@@ -92,9 +95,7 @@ async function abrirModalProduto(produto = null) {
         try {
 
             const resposta =
-                await fetch(
-                    `/api/produtos/${produto.id}`
-                );
+                await fetch(`${API_BASE_URL_MODAL}/api/produtos/${produto.id}`)
 
 
             if (!resposta.ok) {
@@ -625,9 +626,7 @@ async function carregarCategorias() {
     try {
 
         const resposta =
-            await fetch(
-                "/api/categorias"
-            );
+            await fetch(`${API_BASE_URL_MODAL}/api/categorias`)
 
 
         if (!resposta.ok) {
@@ -1160,11 +1159,7 @@ async function salvarProduto(event) {
         if (produtoEditando) {
 
             resposta =
-                await fetch(
-
-                    `/api/produtos/${produtoEditando.id}`,
-
-                    {
+                await fetch(`${API_BASE_URL_MODAL}/api/produtos/${produtoEditando.id}`, {
 
                         method: "PUT",
 
@@ -1184,11 +1179,7 @@ async function salvarProduto(event) {
         else {
 
             resposta =
-                await fetch(
-
-                    "/api/produtos",
-
-                    {
+                await fetch(`${API_BASE_URL_MODAL}/api/produtos`, {
 
                         method: "POST",
 
