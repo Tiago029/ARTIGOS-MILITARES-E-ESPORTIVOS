@@ -1,0 +1,570 @@
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#eadfdf;
+    color:#0b0b0b;
+    overflow:hidden;
+}
+
+/* ===========================
+   DASHBOARD
+=========================== */
+
+.dashboard{
+    display:flex;
+    height:100vh;
+}
+
+/* ===========================
+   MENU LATERAL
+=========================== */
+
+.sidebar{
+    width:260px;
+    height:100vh;
+    position:fixed;
+    left:0;
+    top:0;
+
+    background:#000000;
+    color:white;
+
+    display:flex;
+    flex-direction:column;
+}
+
+.logo{
+    text-align:center;
+    padding:30px 20px;
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.logo h2{
+    font-size:28px;
+    color:#ffffff;
+    margin-bottom:5px;
+}
+
+.logo span{
+    color:#bfc8d8;
+    font-size:14px;
+}
+
+.sidebar nav{
+    margin-top:15px;
+    flex:1;
+    overflow-y:auto;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar li{
+    padding:16px 25px;
+    cursor:pointer;
+    transition:.3s;
+    font-size:16px;
+    border-left:4px solid transparent;
+}
+
+.sidebar li:hover{
+    background:#334155;
+    border-left:4px solid #019a3e;
+}
+
+.sidebar li.ativo{
+    background:#019a3e;
+    border-left:4px solid #60a5fa;
+}
+
+/* ===========================
+   BOTÃO SAIR
+=========================== */
+
+.rodapeMenu{
+    padding:20px;
+}
+
+#btnSair{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:15px;
+    background:#dc2626;
+    color:#fff;
+    transition:.3s;
+}
+
+#btnSair:hover{
+    background:#b91c1c;
+}
+
+/* ===========================
+   CONTEÚDO
+=========================== */
+
+.conteudo{
+
+    margin-left:260px;
+
+    width:calc(100% - 260px);
+
+    height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    overflow:hidden;
+
+}
+
+/* ===========================
+   TOPO
+=========================== */
+
+.topo{
+
+    flex-shrink:0;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:30px;
+
+    background:#eadfdf;
+
+}
+
+.topo h1{
+    font-size:34px;
+    color:#1e293b;
+}
+
+.topo p{
+    color:#666;
+    margin-top:5px;
+}
+
+.usuario{
+    background:#fff;
+    padding:15px 22px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+    font-weight:bold;
+}
+
+/* ===========================
+   CARDS
+=========================== */
+
+.cardsResumo{
+
+    flex-shrink:0;
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:20px;
+
+    padding:0 30px 30px;
+
+}
+
+.cardResumo{
+    background:#eadfdf;
+    border-radius:12px;
+    padding:25px;
+    box-shadow:0 4px 15px rgba(0, 0, 0, 0.786);
+    transition:.3s;
+}
+
+.cardResumo:hover{
+    transform:translateY(-5px);
+}
+
+.cardResumo h3{
+    color:#555;
+    margin-bottom:15px;
+    font-size:18px;
+}
+
+.cardResumo p{
+    font-size:40px;
+    font-weight:bold;
+    color:#2563eb;
+}
+
+/* ===========================
+   CONTEÚDO PRINCIPAL
+=========================== */
+
+#conteudoPrincipal{
+
+    flex:1;
+
+    overflow-y:auto;
+
+    padding:30px;
+
+    background:#eadfdf;
+
+}
+
+/* Caixa branca onde aparecem os conteúdos */
+
+#conteudoPrincipal > *{
+
+    background:#fff;
+
+    border-radius:12px;
+
+    padding:25px;
+
+    box-shadow:0 4px 15px rgba(0, 0, 0, 0.742);
+
+}
+
+/* ===========================
+   BOAS VINDAS
+=========================== */
+
+.boasVindas h2{
+    color:#1e293b;
+    margin-bottom:15px;
+}
+
+.boasVindas p{
+    color:#666;
+    line-height:1.6;
+    margin-bottom:20px;
+}
+
+.boasVindas hr{
+    margin:25px 0;
+    border:none;
+    border-top:1px solid #ddd;
+}
+
+.boasVindas h3{
+    margin-bottom:20px;
+    color:#2563eb;
+}
+
+.boasVindas ul{
+    margin-left:25px;
+}
+
+.boasVindas li{
+    margin-bottom:12px;
+    font-size:17px;
+}
+
+/* ===========================
+   TABELAS
+=========================== */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+    background:#fff;
+}
+
+table thead th{
+
+    position:sticky;
+
+    top:0;
+
+    background:#2563eb;
+
+    color:white;
+
+    z-index:10;
+
+}
+
+table th{
+    padding:15px;
+}
+
+table td{
+    padding:15px;
+    border-bottom:1px solid #ddd;
+}
+
+table tr:hover{
+    background:#f5f5f5;
+}
+
+/* ===========================
+   BOTÕES
+=========================== */
+
+button{
+    cursor:pointer;
+}
+
+.btn{
+    padding:12px 18px;
+    border:none;
+    border-radius:8px;
+    color:#fff;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btnSalvar{
+    background:#16a34a;
+}
+
+.btnSalvar:hover{
+    background:#15803d;
+}
+
+.btnEditar{
+    background:#2563eb;
+}
+
+.btnEditar:hover{
+    background:#1d4ed8;
+}
+
+.btnExcluir{
+    background:#dc2626;
+}
+
+.btnExcluir:hover{
+    background:#b91c1c;
+}
+
+/* ===========================
+   FORMULÁRIOS
+=========================== */
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    margin-top:6px;
+    margin-bottom:18px;
+    font-size:15px;
+}
+
+label{
+    font-weight:bold;
+}
+
+textarea{
+    resize:vertical;
+    min-height:120px;
+}
+
+/* ===========================
+   RESPONSIVO
+=========================== */
+
+@media(max-width:900px){
+
+    body{
+        overflow:auto;
+    }
+
+    .dashboard{
+        flex-direction:column;
+        height:auto;
+    }
+
+    .sidebar{
+        position:relative;
+        width:100%;
+        height:auto;
+    }
+
+    .conteudo{
+        margin-left:0;
+        width:100%;
+        height:auto;
+    }
+
+    .sidebar nav ul{
+        display:flex;
+        overflow-x:auto;
+    }
+
+    .sidebar li{
+        white-space:nowrap;
+        border-left:none;
+        border-bottom:4px solid transparent;
+    }
+
+    .sidebar li:hover{
+        border-bottom:4px solid #60a5fa;
+        border-left:none;
+    }
+
+    .sidebar li.ativo{
+        border-bottom:4px solid #fff;
+    }
+
+    .topo{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:20px;
+    }
+
+}
+
+/* CABEÇALHO DA TABELA */
+
+.cabecalhoTabela{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:15px;
+
+    padding-bottom:10px;
+
+    border-bottom:1px solid #e5e5e5;
+
+}
+
+.cabecalhoTabela h2{
+
+    color:#1e293b;
+
+}
+
+/* BOTÃO */
+
+#novoProduto{
+
+    width:auto;
+
+    padding:10px 20px;
+
+    font-size:15px;
+
+}
+
+/* CONTAINER DA TABELA */
+
+.containerTabela{
+
+    background:white;
+
+    border-radius:10px;
+
+    overflow:auto;
+
+    max-height:calc(100vh - 330px);
+
+}
+
+/* ===========================================
+   PÁGINA DE PRODUTOS
+=========================================== */
+
+.paginaProdutos{
+
+    display:flex;
+
+    flex-direction:column;
+
+    height:100%;
+
+}
+
+/* Cabeçalho */
+
+.cabecalhoProdutos{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:18px;
+
+    flex-shrink:0;
+
+}
+
+.cabecalhoProdutos h2{
+
+    font-size:30px;
+
+    color:#1e293b;
+
+}
+
+/* Botão */
+
+#novoProduto{
+
+    width:auto;
+
+    padding:12px 24px;
+
+    background:#16a34a;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+}
+
+#novoProduto:hover{
+
+    background:#15803d;
+
+}
+
+/* Área da tabela */
+
+.listaProdutos{
+
+    flex:1;
+
+    overflow-y:auto;
+
+    border-radius:10px;
+
+    border:1px solid #ddd;
+
+}
+
+/* Tabela */
+
+.listaProdutos table{
+
+    margin-top:0;
+
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Produto</title>
+
+    <link rel="stylesheet" href="produtosDescricao.css">
+
+    <!-- carrinho global -->
+    <script src="../JSglobal/carrinho.js" defer></script>
+
+    <!-- script da página -->
+    <script src="produtoDetalhe.js" defer></script>
+</head>
+<body>
+
+<a href="../carrinho/carrinho.html" class="carrinho-flutuante">
+     <img src="../imagens/carrinho1.png" alt="Carrinho">
+    <span class="contador-carrinho">0</span>
+</a>
+
+
+<div class="container-produto">
+
+<div class="imagem-produto" id="zoomContainer">
+    <img id="imagemProduto" src="" alt="Produto">
+</div>
+
+    <div class="info-produto">
+        <h1 id="nomeProduto"></h1>
+        <p class="preco" id="precoProduto"></p>
+        <p id="descricaoProduto"></p>
+
+        <div id="opcoesProduto"></div>
+
+        <button id="btnAdicionarCarrinho">Adicionar ao carrinho</button>
+    </div>
+
+</div>
+
+</body>
+</html>

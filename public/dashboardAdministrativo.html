@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard Administrativo</title>
+
+    <link rel="stylesheet" href="./dashboardAdministrativo.css">
+    <link rel="stylesheet" href="/componentes/modalProduto.css">
+
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <!-- ================= MENU LATERAL ================= -->
+
+        <aside class="sidebar">
+
+            <div class="logo">
+
+                <h2>ARTIGOS</h2>
+                <span>Militares & Esportivos</span>
+
+            </div>
+
+            <nav>
+
+                <ul>
+
+                    <li class="ativo" id="menuDashboard">
+                        📊 Dashboard
+                    </li>
+
+                    <li id="menuProdutos">
+                        📦 Produtos
+                    </li>
+
+                    <li id="menuDestaques">
+                        ⭐ Destaques
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <div class="rodapeMenu">
+
+                <button id="btnSair">
+
+                    🚪 Sair
+
+                </button>
+
+            </div>
+
+        </aside>
+
+        <!-- ================= CONTEÚDO ================= -->
+
+        <main class="conteudo">
+
+            <!-- TOPO -->
+
+            <header class="topo">
+
+                <div>
+
+                    <h1>Painel Administrativo</h1>
+
+                    <p>
+                        Gerencie sua loja de forma simples.
+                    </p>
+
+                </div>
+
+                <div class="usuario">
+
+                    <span>Administrador</span>
+
+                </div>
+
+            </header>
+
+            <!-- CARDS -->
+
+            <section class="cardsResumo">
+
+                <div class="cardResumo">
+
+                    <h3>Produtos</h3>
+
+                    <p id="totalProdutos">0</p>
+
+                </div>
+
+                <div class="cardResumo">
+
+                    <h3>Categorias</h3>
+
+                    <p id="totalCategorias">0</p>
+
+                </div>
+
+                <div class="cardResumo">
+
+                    <h3>Pedidos</h3>
+
+                    <p id="totalPedidos">0</p>
+
+                </div>
+
+                <div class="cardResumo">
+
+                    <h3>Clientes</h3>
+
+                    <p id="totalClientes">0</p>
+
+                </div>
+
+            </section>
+
+            <!-- ÁREA DINÂMICA -->
+
+            <section id="conteudoPrincipal">
+
+                <div class="boasVindas">
+
+                    <h2>
+
+                        Bem-vindo ao Dashboard!
+
+                    </h2>
+
+                    <p>
+
+                        Utilize o menu lateral para administrar sua loja.
+
+                    </p>
+
+                    <hr>
+
+                    <h3>
+
+                        O que você poderá fazer aqui:
+
+                    </h3>
+
+                    <ul>
+
+                        <li>📦 Cadastrar produtos</li>
+
+                        <li>🖼 Gerenciar imagens</li>
+
+                        <li>⭐ Definir produtos em destaque</li>
+
+                    </ul>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <div id="toast" class="toast hidden"></div>
+
+    <script src="/componentes/modalProduto.js"></script>
+    <script src="/componentes/modalExcluir.js"></script>
+    <script src="./dashboardAdministrativo.js"></script>
+    
+
+</body>
+
+</html>

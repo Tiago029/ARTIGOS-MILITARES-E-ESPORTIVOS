@@ -1,0 +1,374 @@
+<div class="modalBox">
+
+    <!-- ========================================== -->
+    <!-- CABEÇALHO -->
+    <!-- ========================================== -->
+
+    <div class="modalHeader">
+
+        <h2>Novo Produto</h2>
+
+        <button
+            type="button"
+            id="fecharModal">
+
+            ✕
+
+        </button>
+
+    </div>
+
+
+    <!-- ========================================== -->
+    <!-- FORMULÁRIO -->
+    <!-- ========================================== -->
+
+    <form id="formProduto">
+
+
+        <!-- ====================================== -->
+        <!-- NOME -->
+        <!-- ====================================== -->
+
+        <div class="grupo">
+
+            <label>
+                Nome do Produto
+            </label>
+
+            <input
+                type="text"
+                id="nomeProduto"
+                required
+            >
+
+        </div>
+
+
+        <!-- ====================================== -->
+        <!-- CATEGORIA / PREÇO -->
+        <!-- ====================================== -->
+
+        <div class="linha">
+
+            <div class="grupo">
+
+                <label>
+                    Categoria
+                </label>
+
+                <select
+                    id="categoriaProduto"
+                    required>
+
+                    <option value="">
+                        Selecione uma categoria
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="grupo">
+
+                <label>
+                    Preço
+                </label>
+
+                <input
+                    type="number"
+                    step="0.01"
+                    min="0"
+                    id="precoProduto"
+                    required
+                >
+
+            </div>
+
+        </div>
+
+
+        <!-- ====================================== -->
+        <!-- DESCRIÇÃO -->
+        <!-- ====================================== -->
+
+        <div class="grupo">
+
+            <label>
+                Descrição
+            </label>
+
+            <textarea
+                id="descricaoProduto"
+                rows="5">
+            </textarea>
+
+        </div>
+
+
+        <!-- ====================================== -->
+        <!-- IMAGEM -->
+        <!-- ====================================== -->
+
+        <div class="grupo">
+
+            <label>
+                Imagem Principal
+            </label>
+
+            <input
+                type="file"
+                id="imagemProduto"
+                accept="image/*"
+            >
+
+        </div>
+
+
+        <!-- ====================================== -->
+        <!-- OPÇÕES -->
+        <!-- ====================================== -->
+
+        <div class="linha">
+
+            <label class="check">
+
+                <input
+                    type="checkbox"
+                    id="ativoProduto"
+                    checked
+                >
+
+                Produto Ativo
+
+            </label>
+
+
+            <label class="check">
+
+                <input
+                    type="checkbox"
+                    id="destaqueProduto"
+                >
+
+                Produto em Destaque
+
+            </label>
+
+
+            <label class="check">
+
+                <input
+                    type="checkbox"
+                    id="possuiVariacao"
+                >
+
+                Possui Variações
+
+            </label>
+
+        </div>
+
+
+        <!-- ====================================== -->
+        <!-- PAINEL DE VARIAÇÕES -->
+        <!-- ====================================== -->
+
+        <div
+            id="painelVariacoes"
+            class="hidden">
+
+            <hr>
+
+            <h3>
+                Variações do Produto
+            </h3>
+
+
+            <!-- ================================== -->
+            <!-- CADASTRAR NOVA VARIAÇÃO -->
+            <!-- ================================== -->
+
+            <div class="linha">
+
+
+                <!-- TAMANHO -->
+
+                <div class="grupo">
+
+                    <label>
+                        Tamanho
+                    </label>
+
+                    <select id="novoTamanho">
+
+                        <option value="">
+                            Sem tamanho
+                        </option>
+
+                        <option value="PP">
+                            PP
+                        </option>
+
+                        <option value="P">
+                            P
+                        </option>
+
+                        <option value="M">
+                            M
+                        </option>
+
+                        <option value="G">
+                            G
+                        </option>
+
+                        <option value="GG">
+                            GG
+                        </option>
+
+                        <option value="XG">
+                            XG
+                        </option>
+
+                        <option value="36">
+                            36
+                        </option>
+
+                        <option value="37">
+                            37
+                        </option>
+
+                        <option value="38">
+                            38
+                        </option>
+
+                        <option value="39">
+                            39
+                        </option>
+
+                        <option value="40">
+                            40
+                        </option>
+
+                        <option value="41">
+                            41
+                        </option>
+
+                        <option value="42">
+                            42
+                        </option>
+
+                        <option value="43">
+                            43
+                        </option>
+
+                        <option value="44">
+                            44
+                        </option>
+
+                        <option value="45">
+                            45
+                        </option>
+
+                        <option value="46">
+                            46
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- COR -->
+
+                <div class="grupo">
+
+                    <label>
+                        Cor
+                    </label>
+
+                    <input
+                        type="text"
+                        id="novaCor"
+                        placeholder="Ex: Preto"
+                    >
+
+                </div>
+
+
+                <!-- ESTOQUE -->
+
+                <div class="grupo">
+
+                    <label>
+                        Estoque
+                    </label>
+
+                    <input
+                        type="number"
+                        id="novoEstoque"
+                        min="0"
+                        value="0"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <!-- ================================== -->
+            <!-- BOTÃO ADICIONAR -->
+            <!-- ================================== -->
+
+            <button
+                type="button"
+                id="btnAdicionarVariacao">
+
+                + Adicionar Variação
+
+            </button>
+
+
+            <!-- ================================== -->
+            <!-- LISTA DE VARIAÇÕES -->
+            <!-- ================================== -->
+
+            <div
+                id="listaVariacoes"
+                style="margin-top: 20px;">
+
+            </div>
+
+        </div>
+
+
+        <!-- ====================================== -->
+        <!-- BOTÕES -->
+        <!-- ====================================== -->
+
+        <div class="botoesModal">
+
+            <button
+                type="button"
+                id="cancelarProduto">
+
+                Cancelar
+
+            </button>
+
+
+            <button
+                type="submit"
+                class="btnSalvar">
+
+                Salvar Produto
+
+            </button>
+
+        </div>
+
+
+    </form>
+
+</div>
