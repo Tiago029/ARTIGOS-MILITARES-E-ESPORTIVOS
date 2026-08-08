@@ -242,8 +242,8 @@ async function carregarProdutos() {
 
                                     <td>
                                         R$ ${Number(
-                                            produto.preco
-                                        ).toFixed(2)}
+            produto.preco
+        ).toFixed(2)}
                                     </td>
 
 
@@ -480,29 +480,29 @@ async function carregarProdutos() {
         // FILTRAR PRODUTOS
         // ==================================
 
+        // ==================================
+        // FILTRAR PRODUTOS
+        // ==================================
+
         function filtrarProdutos() {
 
-            const texto =
-                document
-                    .getElementById(
-                        "buscarProduto"
-                    )
-                    .value
-                    .toLowerCase();
+            const texto = document
+                .getElementById("buscarProduto")
+                .value
+                .toLowerCase()
+                .trim();
 
 
-            const categoria =
-                document
-                    .getElementById(
-                        "filtroCategoria"
-                    )
-                    .value;
+            const categoria = document
+                .getElementById("filtroCategoria")
+                .value
+                .toLowerCase()
+                .trim();
 
 
-            const linhas =
-                document.querySelectorAll(
-                    ".tabelaProdutos tbody tr"
-                );
+            const linhas = document.querySelectorAll(
+                ".tabelaProdutos tbody tr"
+            );
 
 
             let total = 0;
@@ -510,29 +510,41 @@ async function carregarProdutos() {
 
             linhas.forEach(linha => {
 
-                const nome =
-                    linha.children[2]
-                        .textContent
-                        .toLowerCase();
+                // Nome do produto
+                const nome = linha
+                    .children[2]
+                    .textContent
+                    .toLowerCase()
+                    .trim();
 
 
-                const categoriaLinha =
-                    linha.children[4]
-                        .textContent;
+                // Categoria do produto
+                const categoriaLinha = linha
+                    .children[4]
+                    .textContent
+                    .toLowerCase()
+                    .trim();
 
 
+                // Verifica o nome
+                const correspondeNome =
+                    nome.includes(texto);
+
+
+                // Verifica a categoria
+                const correspondeCategoria =
+                    categoria === "" ||
+                    categoriaLinha === categoria;
+
+
+                // Decide se mostra ou esconde
                 const mostrar =
-                    nome.includes(texto) &&
-                    (
-                        categoria === "" ||
-                        categoriaLinha === categoria
-                    );
+                    correspondeNome &&
+                    correspondeCategoria;
 
 
                 linha.style.display =
-                    mostrar
-                        ? ""
-                        : "none";
+                    mostrar ? "" : "none";
 
 
                 if (mostrar) {
@@ -545,11 +557,9 @@ async function carregarProdutos() {
 
 
             document
-                .getElementById(
-                    "totalListaProdutos"
-                )
+                .getElementById("totalListaProdutos")
                 .textContent =
-                    `${total} produtos encontrados`;
+                `${total} produtos encontrados`;
 
         }
 
