@@ -1,44 +1,81 @@
 let idProdutoExcluir = null;
 
-async function carregarModalExcluir(){
+// ==========================================
+// CARREGAR MODAL DE EXCLUSÃO
+// ==========================================
 
-    if(document.getElementById("modalExcluir")) return;
+async function carregarModalExcluir() {
 
-    const resposta = await fetch("/componentes/modalExcluir.html");
+    if (document.getElementById("modalExcluir")) {
+        return;
+    }
 
-    const html = await resposta.text();
+    try {
 
-    document.body.insertAdjacentHTML("beforeend", html);
+        const resposta = await fetch("/componentes/modalExcluir.html");
 
-    document
-        .getElementById("cancelarExcluir")
-        .addEventListener("click", fecharModalExcluir);
+        if (!resposta.ok) {
+            throw new Error("Erro ao carregar modal de exclusão.");
+        }
 
-    document
-        .getElementById("modalExcluir")
-        .addEventListener("click",(e)=>{
+        const html = await resposta.text();
 
-            if(e.target.id=="modalExcluir"){
+        document.body.insertAdjacentHTML("beforeend", html);
 
-                fecharModalExcluir();
+        // Botão cancelar
+        document
+            .getElementById("cancelarExcluir")
+            .addEventListener(
+                "click",
+                fecharModalExcluir
+            );
 
-            }
+        // Fechar clicando fora do modal
+        document
+            .getElementById("modalExcluir")
+            .addEventListener("click", (e) => {
 
-        });
+                if (e.target.id === "modalExcluir") {
 
-    document
-        .getElementById("confirmarExcluir")
-        .addEventListener("click", excluirProduto);
+                    fecharModalExcluir();
+
+                }
+
+            });
+
+        // Botão confirmar
+        document
+            .getElementById("confirmarExcluir")
+            .addEventListener(
+                "click",
+                excluirProduto
+            );
+
+        console.log("Modal de exclusão carregado!");
+
+    } catch (erro) {
+
+        console.error(
+            "Erro ao carregar modal de exclusão:",
+            erro
+        );
+
+    }
 
 }
 
-function abrirModalExcluir(id,nome){
 
-    idProdutoExcluir=id;
+// ==========================================
+// ABRIR MODAL
+// ==========================================
+
+function abrirModalExcluir(id, nome) {
+
+    idProdutoExcluir = id;
 
     document
         .getElementById("nomeProdutoExcluir")
-        .textContent=nome;
+        .textContent = nome;
 
     document
         .getElementById("modalExcluir")
@@ -46,7 +83,12 @@ function abrirModalExcluir(id,nome){
 
 }
 
-function fecharModalExcluir(){
+
+// ==========================================
+// FECHAR MODAL
+// ==========================================
+
+function fecharModalExcluir() {
 
     document
         .getElementById("modalExcluir")
@@ -54,44 +96,95 @@ function fecharModalExcluir(){
 
 }
 
+
 // ==========================================
 // EXCLUIR PRODUTO
 // ==========================================
 
 async function excluirProduto() {
 
-    if (!idProdutoExcluir) return;
+    if (!idProdutoExcluir) {
+        return;
+    }
 
     try {
 
-        const resposta = await fetch(`/api/produtos/${idProdutoExcluir}`, {
+        console.log(
+            "Excluindo produto:",
+            idProdutoExcluir
+        );
 
-            method: "DELETE"
+        const resposta = await fetch(
+            `${API_URL}/api/produtos/${idProdutoExcluir}`,
+            {
+                method: "DELETE"
+            }
+        );
 
-        });
+        const texto = await resposta.text();
 
-        const dados = await resposta.json();
+        let dados;
+
+        try {
+
+            dados = JSON.parse(texto);
+
+        } catch (erro) {
+
+            console.error(
+                "Resposta da API não é JSON:",
+                texto
+            );
+
+            mostrarMensagem(
+                "Erro no servidor ao excluir produto.",
+                "erro"
+            );
+
+            return;
+        }
 
         if (!resposta.ok) {
 
-            mostrarMensagem(dados.erro, "erro");
-            return;
+            console.error(
+                "Erro ao excluir:",
+                dados
+            );
 
+            mostrarMensagem(
+                dados.erro || "Erro ao excluir produto.",
+                "erro"
+            );
+
+            return;
         }
 
-        mostrarMensagem("Produto excluído com sucesso!", "sucesso");
+        console.log(
+            "Produto excluído:",
+            dados
+        );
+
+        mostrarMensagem(
+            "Produto excluído com sucesso!",
+            "sucesso"
+        );
 
         fecharModalExcluir();
 
         idProdutoExcluir = null;
 
-        carregarProdutos();
+        // Atualiza a lista de produtos
+        await carregarProdutos();
 
-        carregarResumoDashboard();
+        // Atualiza os números do dashboard
+        await carregarResumoDashboard();
 
     } catch (erro) {
 
-        console.error(erro);
+        console.error(
+            "Erro ao excluir produto:",
+            erro
+        );
 
         mostrarMensagem(
             "Erro ao excluir produto.",
