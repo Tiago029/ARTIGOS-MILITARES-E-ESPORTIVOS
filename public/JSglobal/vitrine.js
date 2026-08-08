@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // DEFINIR URL
     // ==========================================
 
-    let url;
+    let url = `${API_URL}/api/produtos`;
 
 
     if (
@@ -58,18 +58,15 @@ document.addEventListener("DOMContentLoaded", async () => {
         "produtos em destaques"
     ) {
 
-        url =
-            "/api/produtos/destaques";
+        url = `${API_URL}/api/produtos/destaques`;
 
     }
 
     else {
 
         url =
-            "/api/produtos/categoria/" +
-            encodeURIComponent(
-                categoriaPagina
-            );
+            `${API_URL}/api/produtos/categoria/` +
+            encodeURIComponent(categoriaPagina);
 
     }
 

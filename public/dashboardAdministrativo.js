@@ -8,33 +8,52 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 });
 
+
 // =====================================
 // CARREGAR RESUMO DO DASHBOARD
 // =====================================
+
 async function carregarResumoDashboard() {
 
     try {
 
-        const resposta = await fetch("/api/dashboard/resumo");
+        const resposta = await fetch(
+            `${API_URL}/api/dashboard/resumo`
+        );
 
         if (!resposta.ok) {
-            throw new Error("Erro ao carregar resumo.");
+
+            throw new Error(
+                "Erro ao carregar resumo."
+            );
+
         }
 
         const dados = await resposta.json();
 
-        document.getElementById("totalProdutos").textContent = dados.produtos;
-        document.getElementById("totalCategorias").textContent = dados.categorias;
-        document.getElementById("totalPedidos").textContent = dados.pedidos;
-        document.getElementById("totalClientes").textContent = dados.clientes;
+        document.getElementById("totalProdutos").textContent =
+            dados.produtos;
+
+        document.getElementById("totalCategorias").textContent =
+            dados.categorias;
+
+        document.getElementById("totalPedidos").textContent =
+            dados.pedidos;
+
+        document.getElementById("totalClientes").textContent =
+            dados.clientes;
 
     } catch (erro) {
 
-        console.error("Erro:", erro);
+        console.error(
+            "Erro ao carregar resumo:",
+            erro
+        );
 
     }
 
 }
+
 
 // =====================================
 // MENU LATERAL
@@ -46,14 +65,18 @@ menus.forEach(menu => {
 
     menu.addEventListener("click", () => {
 
-        menus.forEach(item => item.classList.remove("ativo"));
+        menus.forEach(item =>
+            item.classList.remove("ativo")
+        );
 
         menu.classList.add("ativo");
 
         switch (menu.id) {
 
             case "menuProdutos":
+
                 carregarProdutos();
+
                 break;
 
         }
@@ -62,77 +85,109 @@ menus.forEach(menu => {
 
 });
 
+
 // =====================================
 // BOTÃO SAIR
 // =====================================
 
-const btnSair = document.getElementById("btnSair");
+const btnSair =
+    document.getElementById("btnSair");
 
-btnSair.addEventListener("click", () => {
+if (btnSair) {
 
-    if (confirm("Deseja realmente sair do painel administrativo?")) {
+    btnSair.addEventListener("click", () => {
 
-        window.location.href = "/";
+        if (
+            confirm(
+                "Deseja realmente sair do painel administrativo?"
+            )
+        ) {
 
-    }
+            window.location.href = "/";
 
-});
+        }
+
+    });
+
+}
+
 
 // =====================================
 // CARREGAR PRODUTOS
 // =====================================
+
 async function carregarProdutos() {
 
     try {
 
-        const resposta = await fetch("/api/produtos");
+        const resposta = await fetch(
+            `${API_URL}/api/produtos`
+        );
 
         if (!resposta.ok) {
-            throw new Error("Erro ao carregar produtos.");
+
+            throw new Error(
+                "Erro ao carregar produtos."
+            );
+
         }
 
-        const produtos = await resposta.json();
+        const produtos =
+            await resposta.json();
 
-        const conteudo = document.getElementById("conteudoPrincipal");
+        const conteudo =
+            document.getElementById(
+                "conteudoPrincipal"
+            );
+
 
         conteudo.innerHTML = `
+
             <div class="paginaProdutos">
 
-                
-            <div class="cabecalhoProdutos">
+                <div class="cabecalhoProdutos">
 
-                <div>
+                    <div>
 
-                    <h2>Produtos Cadastrados</h2>
+                        <h2>
+                            Produtos Cadastrados
+                        </h2>
 
-                    <small id="totalListaProdutos">
-                        ${produtos.length} produtos cadastrados
-                    </small>
+                        <small id="totalListaProdutos">
+                            ${produtos.length}
+                            produtos cadastrados
+                        </small>
+
+                    </div>
+
+
+                    <div class="acoesProdutos">
+
+                        <input
+                            type="text"
+                            id="buscarProduto"
+                            placeholder="Pesquisar produto..."
+                        >
+
+
+                        <select id="filtroCategoria">
+
+                            <option value="">
+                                Todas as categorias
+                            </option>
+
+                        </select>
+
+
+                        <button id="novoProduto">
+                            + Novo Produto
+                        </button>
+
+                    </div>
 
                 </div>
 
-                <div class="acoesProdutos">
 
-                    <input
-                        type="text"
-                        id="buscarProduto"
-                        placeholder="Pesquisar produto..."
-                    >
-
-                    <select id="filtroCategoria">
-
-                        <option value="">
-                            Todas as categorias
-                        </option>
-
-                    </select>
-
-                    <button id="novoProduto">
-                        + Novo Produto
-                    </button>
-                </div> <!-- FECHA acoesProdutos -->    
-
-            </div>
                 <div class="listaProdutos">
 
                     <table class="tabelaProdutos">
@@ -142,15 +197,21 @@ async function carregarProdutos() {
                             <tr>
 
                                 <th>ID</th>
+
                                 <th>Imagem</th>
+
                                 <th>Nome</th>
+
                                 <th>Preço</th>
+
                                 <th>Categoria</th>
+
                                 <th>Ações</th>
 
                             </tr>
 
                         </thead>
+
 
                         <tbody>
 
@@ -158,33 +219,53 @@ async function carregarProdutos() {
 
                                 <tr>
 
-                                    <td>${produto.id}</td>
+                                    <td>
+                                        ${produto.id}
+                                    </td>
+
 
                                     <td>
 
                                         <img
-                                            src="${produto.imagem_principal}"
-                                            width="60">
+                                            src="${produto.imagem_principal || ""}"
+                                            width="60"
+                                            alt="${produto.nome}"
+                                        >
 
                                     </td>
 
-                                    <td>${produto.nome}</td>
 
                                     <td>
-                                        R$ ${Number(produto.preco).toFixed(2)}
+                                        ${produto.nome}
                                     </td>
 
-                                    <td>${produto.categoria_nome || "-"}</td>
+
+                                    <td>
+                                        R$ ${Number(
+                                            produto.preco
+                                        ).toFixed(2)}
+                                    </td>
+
+
+                                    <td>
+                                        ${produto.categoria_nome || "-"}
+                                    </td>
+
 
                                     <td>
 
-                                        <button class="editar"
-                                            data-id="${produto.id}">
+                                        <button
+                                            class="editar"
+                                            data-id="${produto.id}"
+                                        >
                                             Editar
                                         </button>
 
-                                        <button class="excluir"
-                                            data-id="${produto.id}">
+
+                                        <button
+                                            class="excluir"
+                                            data-id="${produto.id}"
+                                        >
                                             Excluir
                                         </button>
 
@@ -201,138 +282,285 @@ async function carregarProdutos() {
                 </div>
 
             </div>
+
         `;
 
-        // Botões editar
-        document.querySelectorAll(".editar").forEach(botao => {
 
-            botao.addEventListener("click", async () => {
+        // ==================================
+        // BOTÕES EDITAR
+        // ==================================
 
-                const id = botao.dataset.id;
+        document
+            .querySelectorAll(".editar")
+            .forEach(botao => {
 
-                try {
+                botao.addEventListener(
+                    "click",
+                    async () => {
 
-                    const resposta = await fetch(`/api/produtos/${id}`);
+                        const id =
+                            botao.dataset.id;
 
-                    if (!resposta.ok) {
-                        throw new Error("Erro ao buscar produto");
+                        try {
+
+                            const resposta =
+                                await fetch(
+                                    `${API_URL}/api/produtos/${id}`
+                                );
+
+
+                            if (!resposta.ok) {
+
+                                throw new Error(
+                                    "Erro ao buscar produto"
+                                );
+
+                            }
+
+
+                            const produto =
+                                await resposta.json();
+
+
+                            abrirModalProduto(
+                                produto
+                            );
+
+                        }
+
+                        catch (erro) {
+
+                            console.error(
+                                "Erro ao carregar produto:",
+                                erro
+                            );
+
+                        }
+
                     }
+                );
 
-                    const produto = await resposta.json();
+            });
 
-                    abrirModalProduto(produto);
 
-                } catch (erro) {
+        // ==================================
+        // BOTÕES EXCLUIR
+        // ==================================
 
-                    console.error("Erro ao carregar produto:", erro);
+        document
+            .querySelectorAll(".excluir")
+            .forEach(botao => {
+
+                botao.addEventListener(
+                    "click",
+                    () => {
+
+                        const id =
+                            botao.dataset.id;
+
+
+                        const nome =
+                            botao
+                                .closest("tr")
+                                .children[2]
+                                .textContent;
+
+
+                        abrirModalExcluir(
+                            id,
+                            nome
+                        );
+
+                    }
+                );
+
+            });
+
+
+        // ==================================
+        // CARREGAR CATEGORIAS
+        // ==================================
+
+        await preencherFiltroCategorias();
+
+
+        // ==================================
+        // PESQUISA
+        // ==================================
+
+        document
+            .getElementById(
+                "buscarProduto"
+            )
+            .addEventListener(
+                "input",
+                filtrarProdutos
+            );
+
+
+        // ==================================
+        // FILTRO
+        // ==================================
+
+        document
+            .getElementById(
+                "filtroCategoria"
+            )
+            .addEventListener(
+                "change",
+                filtrarProdutos
+            );
+
+
+        // ==================================
+        // NOVO PRODUTO
+        // ==================================
+
+        document
+            .getElementById(
+                "novoProduto"
+            )
+            .addEventListener(
+                "click",
+                () => {
+
+                    abrirModalProduto();
+
+                }
+            );
+
+
+        // ==================================
+        // PREENCHER CATEGORIAS
+        // ==================================
+
+        async function preencherFiltroCategorias() {
+
+            const resposta =
+                await fetch(
+                    `${API_URL}/api/categorias`
+                );
+
+
+            if (!resposta.ok) {
+
+                throw new Error(
+                    "Erro ao carregar categorias."
+                );
+
+            }
+
+
+            const categorias =
+                await resposta.json();
+
+
+            const select =
+                document.getElementById(
+                    "filtroCategoria"
+                );
+
+
+            categorias.forEach(cat => {
+
+                select.innerHTML += `
+
+                    <option value="${cat.nome}">
+                        ${cat.nome}
+                    </option>
+
+                `;
+
+            });
+
+        }
+
+
+        // ==================================
+        // FILTRAR PRODUTOS
+        // ==================================
+
+        function filtrarProdutos() {
+
+            const texto =
+                document
+                    .getElementById(
+                        "buscarProduto"
+                    )
+                    .value
+                    .toLowerCase();
+
+
+            const categoria =
+                document
+                    .getElementById(
+                        "filtroCategoria"
+                    )
+                    .value;
+
+
+            const linhas =
+                document.querySelectorAll(
+                    ".tabelaProdutos tbody tr"
+                );
+
+
+            let total = 0;
+
+
+            linhas.forEach(linha => {
+
+                const nome =
+                    linha.children[2]
+                        .textContent
+                        .toLowerCase();
+
+
+                const categoriaLinha =
+                    linha.children[4]
+                        .textContent;
+
+
+                const mostrar =
+                    nome.includes(texto) &&
+                    (
+                        categoria === "" ||
+                        categoriaLinha === categoria
+                    );
+
+
+                linha.style.display =
+                    mostrar
+                        ? ""
+                        : "none";
+
+
+                if (mostrar) {
+
+                    total++;
 
                 }
 
             });
 
-        });
 
-        // Botões excluir
-        document.querySelectorAll(".excluir").forEach(botao => {
-
-            botao.addEventListener("click", () => {
-
-                const id = botao.dataset.id;
-
-                const nome = botao
-                    .closest("tr")
-                    .children[2]
-                    .textContent;
-
-                abrirModalExcluir(id, nome);
-
-            });
-
-        });
-
-
-        // Carrega categorias no filtro
-        await preencherFiltroCategorias();
-
-        // Ativa pesquisa
-        document
-            .getElementById("buscarProduto")
-            .addEventListener("input", filtrarProdutos);
-
-        // Ativa filtro
-        document
-            .getElementById("filtroCategoria")
-            .addEventListener("change", filtrarProdutos);
-
-        // Botão novo produto
-        document
-            .getElementById("novoProduto")
-            .addEventListener("click", () => {
-
-                abrirModalProduto();
-
-            });
-
-
-        async function preencherFiltroCategorias() {
-
-            const resposta = await fetch("/api/categorias");
-
-            const categorias = await resposta.json();
-
-            const select = document.getElementById("filtroCategoria");
-
-            categorias.forEach(cat => {
-
-                select.innerHTML += `
-            <option value="${cat.nome}">
-                ${cat.nome}
-            </option>
-        `;
-
-            });
+            document
+                .getElementById(
+                    "totalListaProdutos"
+                )
+                .textContent =
+                    `${total} produtos encontrados`;
 
         }
 
-        function filtrarProdutos() {
+    }
 
-            const texto = document
-                .getElementById("buscarProduto")
-                .value
-                .toLowerCase();
+    catch (erro) {
 
-            const categoria = document
-                .getElementById("filtroCategoria")
-                .value;
-
-            const linhas = document.querySelectorAll(".tabelaProdutos tbody tr");
-
-            let total = 0;
-
-            linhas.forEach(linha => {
-
-                const nome = linha.children[2].textContent.toLowerCase();
-
-                const categoriaLinha = linha.children[4].textContent;
-
-                const mostrar =
-                    nome.includes(texto) &&
-                    (categoria === "" || categoriaLinha === categoria);
-
-                linha.style.display = mostrar ? "" : "none";
-
-                if (mostrar) total++;
-
-            });
-
-            document.getElementById("totalListaProdutos").textContent =
-                `${total} produtos encontrados`;
-
-        }
-
-    } catch (erro) {
-
-        console.error(erro);
+        console.error(
+            "Erro ao carregar produtos:",
+            erro
+        );
 
     }
 
