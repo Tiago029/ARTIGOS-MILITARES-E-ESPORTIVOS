@@ -5,7 +5,7 @@ const path = require("path");
 
 const db = require("./database");
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Routes e Controlles
 const dashboardRoutes = require("./routes/dashboard");
