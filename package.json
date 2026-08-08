@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "cloudinary": "^1.41.3",
     "dotenv": "^17.4.2",
