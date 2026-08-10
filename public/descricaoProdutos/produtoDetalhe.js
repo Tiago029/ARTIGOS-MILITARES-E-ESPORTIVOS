@@ -1,105 +1,240 @@
 document.addEventListener("DOMContentLoaded", async () => {
 
     const params = new URLSearchParams(window.location.search);
-
     const id = params.get("id");
+
+    // =====================================================
+    // URL DA API
+    // Usa a variável do config.js.
+    // Se ela não existir, utiliza diretamente o Railway.
+    // =====================================================
+
+    const URL_API =
+        typeof API_URL !== "undefined"
+            ? API_URL
+            : "https://artigos-militares-e-esportivos-production.up.railway.app";
+
+    // =====================================================
+    // VERIFICAR ID
+    // =====================================================
+
+    if (!id) {
+
+        document.body.innerHTML = `
+            <p>Produto não encontrado.</p>
+        `;
+
+        return;
+    }
 
     try {
 
-        const resposta = await fetch(`/api/produtos/${id}`);
+        // =================================================
+        // BUSCAR PRODUTO NO RAILWAY
+        // =================================================
+
+        const resposta = await fetch(
+            `${URL_API}/api/produtos/${id}`
+        );
 
         if (!resposta.ok) {
 
-            document.body.innerHTML = "<p>Produto não encontrado.</p>";
+            console.error(
+                "Erro ao buscar produto:",
+                resposta.status
+            );
+
+            document.body.innerHTML = `
+                <p>Produto não encontrado.</p>
+            `;
 
             return;
-
         }
 
         const produto = await resposta.json();
-        console.log(produto);
-        console.log(produto.variacoes);
+
+        console.log("Produto carregado:", produto);
+        console.log("Variações:", produto.variacoes);
 
 
-        // ELEMENTOS
+        // =================================================
+        // ELEMENTOS DA PÁGINA
+        // =================================================
 
-        const imagem = document.getElementById("imagemProduto");
+        const imagem =
+            document.getElementById("imagemProduto");
 
-        imagem.src = produto.imagem_principal;
+        const nome =
+            document.getElementById("nomeProduto");
 
-        document.getElementById("nomeProduto").textContent =
-            produto.nome;
+        const preco =
+            document.getElementById("precoProduto");
 
-        document.getElementById("precoProduto").textContent =
-            `R$ ${Number(produto.preco).toFixed(2)}`;
+        const descricao =
+            document.getElementById("descricaoProduto");
 
-        document.getElementById("descricaoProduto").textContent =
-            produto.descricao || "";
+        const opcoes =
+            document.getElementById("opcoesProduto");
 
-        // ================= ZOOM NA IMAGEM =================
-        imagem.onload = () => {
 
-            const zoomContainer = document.getElementById("zoomContainer");
+        // =================================================
+        // PREENCHER PRODUTO
+        // =================================================
 
-            if (!zoomContainer) return;
+        if (imagem) {
 
-            function aplicarZoom(x, y) {
+            imagem.src = produto.imagem_principal || "";
 
-                const rect = zoomContainer.getBoundingClientRect();
+            imagem.alt = produto.nome || "Produto";
 
-                const posX = (x - rect.left) / rect.width * 100;
-                const posY = (y - rect.top) / rect.height * 100;
+        }
 
-                imagem.style.transformOrigin = `${posX}% ${posY}%`;
-                imagem.style.transform = "scale(2)";
+        if (nome) {
 
-            }
+            nome.textContent = produto.nome || "";
 
-            function removerZoom() {
+        }
 
-                imagem.style.transform = "scale(1)";
-                imagem.style.transformOrigin = "center";
+        if (preco) {
 
-            }
+            preco.textContent =
+                `R$ ${Number(produto.preco || 0).toFixed(2)}`;
 
-            zoomContainer.addEventListener("mousemove", e => {
+        }
 
-                aplicarZoom(e.clientX, e.clientY);
+        if (descricao) {
 
-            });
+            descricao.textContent =
+                produto.descricao || "";
 
-            zoomContainer.addEventListener("mouseleave", removerZoom);
+        }
 
-            zoomContainer.addEventListener("touchstart", e => {
 
-                aplicarZoom(
-                    e.touches[0].clientX,
-                    e.touches[0].clientY
+        // =================================================
+        // ZOOM DA IMAGEM
+        // =================================================
+
+        if (imagem) {
+
+            imagem.onload = () => {
+
+                const zoomContainer =
+                    document.getElementById("zoomContainer");
+
+                if (!zoomContainer) return;
+
+
+                function aplicarZoom(x, y) {
+
+                    const rect =
+                        zoomContainer.getBoundingClientRect();
+
+                    const posX =
+                        ((x - rect.left) / rect.width) * 100;
+
+                    const posY =
+                        ((y - rect.top) / rect.height) * 100;
+
+                    imagem.style.transformOrigin =
+                        `${posX}% ${posY}%`;
+
+                    imagem.style.transform =
+                        "scale(2)";
+
+                }
+
+
+                function removerZoom() {
+
+                    imagem.style.transform =
+                        "scale(1)";
+
+                    imagem.style.transformOrigin =
+                        "center";
+
+                }
+
+
+                // DESKTOP
+
+                zoomContainer.addEventListener(
+                    "mousemove",
+                    (e) => {
+
+                        aplicarZoom(
+                            e.clientX,
+                            e.clientY
+                        );
+
+                    }
                 );
 
-            });
 
-            zoomContainer.addEventListener("touchmove", e => {
-
-                aplicarZoom(
-                    e.touches[0].clientX,
-                    e.touches[0].clientY
+                zoomContainer.addEventListener(
+                    "mouseleave",
+                    removerZoom
                 );
 
-            });
 
-            zoomContainer.addEventListener("touchend", removerZoom);
+                // CELULAR
 
-        };
+                zoomContainer.addEventListener(
+                    "touchstart",
+                    (e) => {
+
+                        if (!e.touches[0]) return;
+
+                        aplicarZoom(
+                            e.touches[0].clientX,
+                            e.touches[0].clientY
+                        );
+
+                    }
+                );
 
 
-        const opcoes = document.getElementById("opcoesProduto");
+                zoomContainer.addEventListener(
+                    "touchmove",
+                    (e) => {
 
-        // ==============================
-        // TAMANHOS E CORES
-        // ==============================
+                        if (!e.touches[0]) return;
 
-        const variacoes = produto.variacoes || [];
+                        aplicarZoom(
+                            e.touches[0].clientX,
+                            e.touches[0].clientY
+                        );
+
+                    }
+                );
+
+
+                zoomContainer.addEventListener(
+                    "touchend",
+                    removerZoom
+                );
+
+            };
+
+        }
+
+
+        // =================================================
+        // VARIAÇÕES
+        // =================================================
+
+        if (!opcoes) return;
+
+        opcoes.innerHTML = "";
+
+        const variacoes =
+            Array.isArray(produto.variacoes)
+                ? produto.variacoes
+                : [];
+
+
+        // =================================================
+        // TAMANHOS
+        // =================================================
 
         const tamanhos = [
             ...new Set(
@@ -109,6 +244,11 @@ document.addEventListener("DOMContentLoaded", async () => {
             )
         ];
 
+
+        // =================================================
+        // CORES
+        // =================================================
+
         const cores = [
             ...new Set(
                 variacoes
@@ -117,102 +257,164 @@ document.addEventListener("DOMContentLoaded", async () => {
             )
         ];
 
-        // ---------- TAMANHOS ----------
+
+        // =================================================
+        // SELECT DE TAMANHO
+        // =================================================
 
         if (tamanhos.length > 0) {
 
             opcoes.innerHTML += `
 
-        <div class="opcao">
+                <div class="opcao">
 
-            <label>Tamanho</label>
+                    <label for="tamanho">
+                        Tamanho
+                    </label>
 
-            <select id="tamanho">
+                    <select id="tamanho">
 
-                ${tamanhos.map(t => `
-                    <option value="${t}">
-                        ${t}
-                    </option>
-                `).join("")}
+                        ${tamanhos.map(tamanho => `
 
-            </select>
+                            <option value="${tamanho}">
+                                ${tamanho}
+                            </option>
 
-        </div>
+                        `).join("")}
 
-    `;
+                    </select>
+
+                </div>
+
+            `;
 
         }
 
-        // ---------- CORES ----------
+
+        // =================================================
+        // SELECT DE COR
+        // =================================================
 
         if (cores.length > 0) {
 
             opcoes.innerHTML += `
 
-        <div class="opcao">
+                <div class="opcao">
 
-            <label>Cor</label>
+                    <label for="cor">
+                        Cor
+                    </label>
 
-            <select id="cor">
+                    <select id="cor">
 
-                ${cores.map(c => `
-                    <option value="${c}">
-                        ${c}
-                    </option>
-                `).join("")}
+                        ${cores.map(cor => `
 
-            </select>
+                            <option value="${cor}">
+                                ${cor}
+                            </option>
 
-        </div>
+                        `).join("")}
 
-    `;
+                    </select>
+
+                </div>
+
+            `;
 
         }
 
-        // BOTÃO
-        document.getElementById("btnAdicionarCarrinho")
-            .addEventListener("click", function (event) {
 
-                const tamanho = document.getElementById("tamanho")?.value || null;
-                const cor = document.getElementById("cor")?.value || null;
+        // =================================================
+        // BOTÃO ADICIONAR AO CARRINHO
+        // =================================================
 
-                // 🔥 animação correta
-                if (typeof animarParaCarrinho === "function") {
-                    animarParaCarrinho(
-                        produto.imagem_principal,
-                        event.currentTarget
-                    );
+        const botaoCarrinho =
+            document.getElementById(
+                "btnAdicionarCarrinho"
+            );
+
+
+        if (botaoCarrinho) {
+
+            botaoCarrinho.addEventListener(
+                "click",
+                function (event) {
+
+                    const tamanho =
+                        document.getElementById("tamanho")?.value
+                        || null;
+
+                    const cor =
+                        document.getElementById("cor")?.value
+                        || null;
+
+
+                    // Animação
+
+                    if (
+                        typeof animarParaCarrinho ===
+                        "function"
+                    ) {
+
+                        animarParaCarrinho(
+                            produto.imagem_principal,
+                            event.currentTarget
+                        );
+
+                    }
+
+
+                    // Adicionar ao carrinho
+
+                    if (
+                        typeof adicionarAoCarrinho ===
+                        "function"
+                    ) {
+
+                        adicionarAoCarrinho({
+
+                            id: produto.id,
+
+                            nome: produto.nome,
+
+                            preco:
+                                Number(produto.preco),
+
+                            imagem:
+                                produto.imagem_principal,
+
+                            tamanho,
+
+                            cor
+
+                        });
+
+                    } else {
+
+                        console.error(
+                            "Função adicionarAoCarrinho não encontrada."
+                        );
+
+                    }
+
                 }
+            );
 
-                // adiciona ao carrinho
-                adicionarAoCarrinho({
-
-                    id: produto.id,
-
-                    nome: produto.nome,
-
-                    preco: Number(produto.preco),
-
-                    imagem: produto.imagem_principal,
-
-                    tamanho,
-
-                    cor
-
-                });
-
-            });
+        }
 
     }
 
     catch (erro) {
 
-        console.error(erro);
+        console.error(
+            "Erro ao carregar produto:",
+            erro
+        );
 
-        document.body.innerHTML =
-            "<p>Erro ao carregar produto.</p>";
+        document.body.innerHTML = `
+            <p>Erro ao carregar produto.</p>
+        `;
 
     }
 
 });
-
