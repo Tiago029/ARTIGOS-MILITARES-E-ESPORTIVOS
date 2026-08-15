@@ -1,15 +1,6 @@
-// ============================================================
-// BUSCA GLOBAL DE PRODUTOS
-// ============================================================
-//
-// A busca consulta TODOS os produtos da API Railway.
-// Não depende da categoria da página atual.
-//
-// Não mexe no vitrine.js.
-// Não mexe no carrinho.
-// Não mexe no dashboard.
-// ============================================================
-
+// =============================
+// BUSCAR PRODUTOS
+// =============================
 
 const inputBusca =
     document.querySelector("#pesquisarProduto");
@@ -17,541 +8,291 @@ const inputBusca =
 const containerProdutos =
     document.querySelector(".grade-produtos");
 
-const tituloVitrine =
-    document.querySelector(".titulo-vitrine");
 
-
-// ============================================================
-// CACHE DOS PRODUTOS
-// ============================================================
-
-let todosOsProdutos = null;
-
-
-// ============================================================
+// =============================
 // NORMALIZAR TEXTO
-// ============================================================
-//
-// Permite:
-//
-// "relogio" -> encontra "Relógio"
-// "CAMISA"  -> encontra "Camisa"
-// "oculos"  -> encontra "Óculos"
-// ============================================================
+// =============================
 
 function normalizarTexto(texto) {
 
-    return String(texto || "")
+    return texto
+        .toLowerCase()
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "")
-        .toLowerCase()
         .trim();
 
 }
 
 
-// ============================================================
-// CARREGAR TODOS OS PRODUTOS
-// ============================================================
+// =============================
+// CRIAR CONTAINER DE SUGESTÕES
+// =============================
 
-async function carregarTodosOsProdutos() {
-
-    if (todosOsProdutos !== null) {
-
-        return todosOsProdutos;
-
-    }
+let containerSugestoes =
+    document.querySelector(".sugestoes-busca");
 
 
-    try {
+if (!containerSugestoes && inputBusca) {
 
-        console.log(
-            "🔎 Buscando todos os produtos para pesquisa..."
-        );
+    containerSugestoes =
+        document.createElement("div");
 
+    containerSugestoes.className =
+        "sugestoes-busca";
 
-        const resposta = await fetch(
-            `${API_URL}/api/produtos`
-        );
-
-
-        if (!resposta.ok) {
-
-            throw new Error(
-                `Erro HTTP: ${resposta.status}`
-            );
-
-        }
-
-
-        const produtos =
-            await resposta.json();
-
-
-        if (!Array.isArray(produtos)) {
-
-            throw new Error(
-                "A API não retornou uma lista de produtos."
-            );
-
-        }
-
-
-        todosOsProdutos = produtos;
-
-
-        console.log(
-            `✅ ${produtos.length} produtos carregados para a busca.`
-        );
-
-
-        return todosOsProdutos;
-
-    }
-
-    catch (erro) {
-
-        console.error(
-            "❌ Erro ao carregar produtos para busca:",
-            erro
-        );
-
-
-        return [];
-
-    }
-
-}
-
-
-// ============================================================
-// MOSTRAR MENSAGEM
-// ============================================================
-
-function mostrarMensagemBusca(texto) {
-
-    if (!containerProdutos) {
-        return;
-    }
-
-
-    containerProdutos.innerHTML = "";
-
-
-    const mensagem =
-        document.createElement("p");
-
-
-    mensagem.className =
-        "mensagem-busca";
-
-
-    mensagem.textContent =
-        texto;
-
-
-    containerProdutos.appendChild(
-        mensagem
+    inputBusca.parentElement.appendChild(
+        containerSugestoes
     );
 
 }
 
 
-// ============================================================
-// CRIAR CARD DO PRODUTO
-// ============================================================
+// =============================
+// PEGAR TODOS OS PRODUTOS
+// =============================
 
-function criarCardProduto(produto) {
+function obterCardsProdutos() {
 
-    const card =
-        document.createElement("div");
-
-
-    card.className =
-        "card-produto";
-
-
-    // ========================================================
-    // TAMANHOS
-    // ========================================================
-
-    const tamanhos =
-        produto.variacoes
-            ? [
-                ...new Set(
-                    produto.variacoes
-                        .filter(v => v.tamanho)
-                        .map(v => v.tamanho)
-                )
-            ]
-            : [];
-
-
-    // ========================================================
-    // CORES
-    // ========================================================
-
-    const cores =
-        produto.variacoes
-            ? [
-                ...new Set(
-                    produto.variacoes
-                        .filter(v => v.cor)
-                        .map(v => v.cor)
-                )
-            ]
-            : [];
-
-
-    // ========================================================
-    // TIME
-    // ========================================================
-
-    const times =
-        Array.isArray(produto.time)
-            ? produto.time
-            : [];
-
-
-    // ========================================================
-    // SELECT TAMANHO
-    // ========================================================
-
-    const selectTamanho =
-        tamanhos.length > 0
-            ? `
-
-                <label for="busca-tamanho-${produto.id}">
-                    Tamanho:
-                </label>
-
-                <select id="busca-tamanho-${produto.id}">
-
-                    ${tamanhos
-                        .map(tamanho => `
-                            <option value="${tamanho}">
-                                ${tamanho}
-                            </option>
-                        `)
-                        .join("")
-                    }
-
-                </select>
-
-            `
-            : "";
-
-
-    // ========================================================
-    // SELECT COR
-    // ========================================================
-
-    const selectCor =
-        cores.length > 0
-            ? `
-
-                <label for="busca-cor-${produto.id}">
-                    Cor:
-                </label>
-
-                <select id="busca-cor-${produto.id}">
-
-                    ${cores
-                        .map(cor => `
-                            <option value="${cor}">
-                                ${cor}
-                            </option>
-                        `)
-                        .join("")
-                    }
-
-                </select>
-
-            `
-            : "";
-
-
-    // ========================================================
-    // SELECT TIME
-    // ========================================================
-
-    const selectTime =
-        times.length > 0
-            ? `
-
-                <label for="busca-time-${produto.id}">
-                    Time:
-                </label>
-
-                <select id="busca-time-${produto.id}">
-
-                    ${times
-                        .map(time => `
-                            <option value="${time}">
-                                ${time}
-                            </option>
-                        `)
-                        .join("")
-                    }
-
-                </select>
-
-            `
-            : "";
-
-
-    // ========================================================
-    // CARD
-    // ========================================================
-
-    card.innerHTML = `
-
-        <a
-            href="/descricaoProdutos/produtosDescricao.html?id=${produto.id}"
-            class="link-produto"
-        >
-
-            <img
-                src="${produto.imagem_principal || ""}"
-                alt="${produto.nome || "Produto"}"
-            >
-
-        </a>
-
-
-        <h3>
-            ${produto.nome || ""}
-        </h3>
-
-
-        <p class="preco">
-
-            R$
-            ${Number(produto.preco || 0).toFixed(2)}
-
-        </p>
-
-
-        ${selectTamanho}
-
-        ${selectCor}
-
-        ${selectTime}
-
-
-        <button
-            class="btn-adicionar-produto"
-            data-id="${produto.id}"
-        >
-            Adicionar ao carrinho
-        </button>
-
-    `;
-
-
-    // ========================================================
-    // BOTÃO ADICIONAR AO CARRINHO
-    // ========================================================
-
-    const botao =
-        card.querySelector(
-            ".btn-adicionar-produto"
-        );
-
-
-    if (botao) {
-
-        botao.addEventListener(
-            "click",
-            event => {
-
-
-                // --------------------------------------------
-                // TAMANHO
-                // --------------------------------------------
-
-                const selectTamanhoProduto =
-                    document.getElementById(
-                        `busca-tamanho-${produto.id}`
-                    );
-
-
-                const tamanhoSelecionado =
-                    selectTamanhoProduto
-                        ? selectTamanhoProduto.value
-                        : null;
-
-
-                // --------------------------------------------
-                // COR
-                // --------------------------------------------
-
-                const selectCorProduto =
-                    document.getElementById(
-                        `busca-cor-${produto.id}`
-                    );
-
-
-                const corSelecionada =
-                    selectCorProduto
-                        ? selectCorProduto.value
-                        : null;
-
-
-                // --------------------------------------------
-                // TIME
-                // --------------------------------------------
-
-                const selectTimeProduto =
-                    document.getElementById(
-                        `busca-time-${produto.id}`
-                    );
-
-
-                const timeSelecionado =
-                    selectTimeProduto
-                        ? selectTimeProduto.value
-                        : null;
-
-
-                // --------------------------------------------
-                // ANIMAÇÃO DO CARRINHO
-                // --------------------------------------------
-
-                if (
-                    typeof animarParaCarrinho ===
-                    "function"
-                ) {
-
-                    animarParaCarrinho(
-                        produto.imagem_principal,
-                        event.currentTarget
-                    );
-
-                }
-
-
-                // --------------------------------------------
-                // ADICIONAR AO CARRINHO
-                // --------------------------------------------
-
-                if (
-                    typeof adicionarAoCarrinho ===
-                    "function"
-                ) {
-
-                    adicionarAoCarrinho({
-
-                        id:
-                            produto.id,
-
-                        nome:
-                            produto.nome,
-
-                        preco:
-                            Number(produto.preco),
-
-                        imagem:
-                            produto.imagem_principal,
-
-                        tamanho:
-                            tamanhoSelecionado,
-
-                        cor:
-                            corSelecionada,
-
-                        time:
-                            timeSelecionado
-
-                    });
-
-                }
-
-            }
-        );
-
+    if (!containerProdutos) {
+        return [];
     }
 
-
-    return card;
+    return Array.from(
+        containerProdutos.querySelectorAll(
+            ".card-produto"
+        )
+    );
 
 }
 
 
-// ============================================================
-// MOSTRAR RESULTADOS
-// ============================================================
+// =============================
+// PEGAR NOME DO PRODUTO
+// =============================
 
-function mostrarResultadosBusca(produtos) {
+function obterNomeProduto(card) {
 
-    if (!containerProdutos) {
+    const elementoNome =
+        card.querySelector("h3");
+
+    if (!elementoNome) {
+        return "";
+    }
+
+    return elementoNome.textContent
+        .trim();
+
+}
+
+
+// =============================
+// PEGAR PREÇO
+// =============================
+
+function obterPrecoProduto(card) {
+
+    const elementosPreco =
+        card.querySelectorAll(
+            ".preco, .preco-produto, .precoProduto"
+        );
+
+    if (elementosPreco.length > 0) {
+
+        return elementosPreco[0]
+            .textContent
+            .trim();
+
+    }
+
+    return "";
+
+}
+
+
+// =============================
+// ABRIR PRODUTO
+// =============================
+
+function abrirProduto(card) {
+
+    // Primeiro tenta encontrar um link
+    const link =
+        card.querySelector("a");
+
+    if (link && link.href) {
+
+        window.location.href =
+            link.href;
+
+        return;
+
+    }
+
+
+    // Caso o card tenha alguma função
+    // de clique própria
+    card.click();
+
+}
+
+
+// =============================
+// MOSTRAR SUGESTÕES
+// =============================
+
+function mostrarSugestoes(termo) {
+
+    if (!containerSugestoes) {
         return;
     }
 
 
-    containerProdutos.innerHTML = "";
+    containerSugestoes.innerHTML = "";
 
 
-    // ========================================================
+    if (!termo) {
+
+        containerSugestoes.style.display =
+            "none";
+
+        return;
+
+    }
+
+
+    const cards =
+        obterCardsProdutos();
+
+
+    // =============================
+    // BUSCAR PRODUTOS
+    // =============================
+
+    const termoNormalizado =
+        normalizarTexto(termo);
+
+
+    const palavras =
+        termoNormalizado
+            .split(/\s+/)
+            .filter(Boolean);
+
+
+    const produtosEncontrados =
+        cards.filter(card => {
+
+            const nome =
+                normalizarTexto(
+                    obterNomeProduto(card)
+                );
+
+
+            // Todas as palavras digitadas
+            // precisam existir no nome
+            return palavras.every(
+                palavra =>
+                    nome.includes(palavra)
+            );
+
+        });
+
+
+    // =============================
     // NENHUM RESULTADO
-    // ========================================================
+    // =============================
 
     if (
-        !Array.isArray(produtos) ||
-        produtos.length === 0
+        produtosEncontrados.length === 0
     ) {
 
-        mostrarMensagemBusca(
-            "Nenhum produto encontrado."
+        containerSugestoes.style.display =
+            "none";
+
+        return;
+
+    }
+
+
+    // =============================
+    // LIMITE DE SUGESTÕES
+    // =============================
+
+    const limite =
+        produtosEncontrados.slice(0, 8);
+
+
+    // =============================
+    // CRIAR SUGESTÕES
+    // =============================
+
+    limite.forEach(card => {
+
+        const nome =
+            obterNomeProduto(card);
+
+
+        const preco =
+            obterPrecoProduto(card);
+
+
+        const sugestao =
+            document.createElement("div");
+
+        sugestao.className =
+            "sugestao-produto";
+
+
+        sugestao.innerHTML = `
+
+            <div class="sugestao-info">
+
+                <strong>
+                    ${nome}
+                </strong>
+
+                ${
+                    preco
+                        ? `<span>${preco}</span>`
+                        : ""
+                }
+
+            </div>
+
+        `;
+
+
+        sugestao.addEventListener(
+            "click",
+            () => {
+
+                abrirProduto(card);
+
+            }
         );
 
 
-        return;
-
-    }
-
-
-    // ========================================================
-    // MOSTRAR QUANTIDADE
-    // ========================================================
-
-    if (tituloVitrine) {
-
-        tituloVitrine.textContent =
-            "RESULTADOS DA BUSCA";
-
-    }
-
-
-    // ========================================================
-    // CRIAR CARDS
-    // ========================================================
-
-    produtos.forEach(produto => {
-
-        const card =
-            criarCardProduto(produto);
-
-
-        containerProdutos.appendChild(
-            card
+        containerSugestoes.appendChild(
+            sugestao
         );
 
     });
 
 
-    console.log(
-        `🔎 ${produtos.length} produtos encontrados.`
-    );
+    // =============================
+    // MOSTRAR
+    // =============================
+
+    containerSugestoes.style.display =
+        "block";
 
 }
 
 
-// ============================================================
-// REALIZAR BUSCA
-// ============================================================
+// =============================
+// FILTRAR PRODUTOS
+// =============================
 
-async function buscarProduto() {
+function buscarProduto() {
 
     if (
         !inputBusca ||
@@ -563,136 +304,183 @@ async function buscarProduto() {
     }
 
 
-    const termoOriginal =
-        inputBusca.value.trim();
-
-
-    // ========================================================
-    // PESQUISA VAZIA
-    // ========================================================
-    //
-    // Quando apagar a pesquisa, recarregamos a página.
-    //
-    // Isso faz a vitrine voltar exatamente ao funcionamento
-    // original da categoria atual.
-    // ========================================================
-
-    if (!termoOriginal) {
-
-        window.location.reload();
-
-        return;
-
-    }
-
-
-    // ========================================================
-    // MENSAGEM DE CARREGAMENTO
-    // ========================================================
-
-    mostrarMensagemBusca(
-        "Pesquisando produtos..."
-    );
-
-
-    // ========================================================
-    // CARREGAR TODOS OS PRODUTOS
-    // ========================================================
-
-    const produtos =
-        await carregarTodosOsProdutos();
-
-
-    if (!produtos.length) {
-
-        mostrarMensagemBusca(
-            "Não foi possível carregar os produtos."
-        );
-
-        return;
-
-    }
-
-
-    // ========================================================
-    // NORMALIZAR TERMO
-    // ========================================================
-
     const termo =
         normalizarTexto(
-            termoOriginal
+            inputBusca.value
         );
 
 
-    // ========================================================
-    // FILTRAR PRODUTOS
-    // ========================================================
-    //
-    // Pesquisa em:
-    //
-    // - Nome
-    // - Categoria
-    // - Descrição
-    //
-    // E ignora acentos.
-    // ========================================================
-
-    const resultados =
-        produtos.filter(produto => {
+    const palavras =
+        termo
+            .split(/\s+/)
+            .filter(Boolean);
 
 
-            const nome =
-                normalizarTexto(
-                    produto.nome
-                );
+    const cards =
+        obterCardsProdutos();
 
 
-            const categoria =
-                normalizarTexto(
-                    produto.categoria_nome
-                    || produto.categoria
-                );
+    let quantidadeEncontrada = 0;
 
 
-            const descricao =
-                normalizarTexto(
-                    produto.descricao
-                );
+    cards.forEach(card => {
 
-
-            return (
-
-                nome.includes(termo) ||
-
-                categoria.includes(termo) ||
-
-                descricao.includes(termo)
-
+        const nome =
+            normalizarTexto(
+                obterNomeProduto(card)
             );
 
-        });
+
+        const encontrou =
+            palavras.length === 0 ||
+            palavras.every(
+                palavra =>
+                    nome.includes(palavra)
+            );
 
 
-    // ========================================================
-    // MOSTRAR RESULTADOS
-    // ========================================================
+        if (encontrou) {
 
-    mostrarResultadosBusca(
-        resultados
+            card.style.display = "";
+
+            quantidadeEncontrada++;
+
+        } else {
+
+            card.style.display =
+                "none";
+
+        }
+
+    });
+
+
+    // =============================
+    // SUGESTÕES
+    // =============================
+
+    mostrarSugestoes(
+        inputBusca.value
     );
+
+
+    // =============================
+    // MENSAGEM
+    // =============================
+
+    let mensagem =
+        document.querySelector(
+            ".mensagem-busca"
+        );
+
+
+    if (
+        termo &&
+        quantidadeEncontrada === 0
+    ) {
+
+        if (!mensagem) {
+
+            mensagem =
+                document.createElement("p");
+
+            mensagem.className =
+                "mensagem-busca";
+
+            containerProdutos.appendChild(
+                mensagem
+            );
+
+        }
+
+        mensagem.textContent =
+            "Nenhum produto encontrado.";
+
+    } else {
+
+        if (mensagem) {
+
+            mensagem.remove();
+
+        }
+
+    }
 
 }
 
 
-// ============================================================
-// EVENTO DA BUSCA
-// ============================================================
+// =============================
+// EVENTO DE BUSCA
+// =============================
 
 if (inputBusca) {
 
     inputBusca.addEventListener(
         "input",
         buscarProduto
+    );
+
+
+    // Mostrar sugestões quando
+    // clicar no campo novamente
+    inputBusca.addEventListener(
+        "focus",
+        () => {
+
+            if (inputBusca.value.trim()) {
+
+                mostrarSugestoes(
+                    inputBusca.value
+                );
+
+            }
+
+        }
+    );
+
+
+    // Fechar sugestões ao clicar fora
+    document.addEventListener(
+        "click",
+        event => {
+
+            if (
+                !inputBusca.contains(event.target) &&
+                !containerSugestoes?.contains(
+                    event.target
+                )
+            ) {
+
+                if (containerSugestoes) {
+
+                    containerSugestoes.style.display =
+                        "none";
+
+                }
+
+            }
+
+        }
+    );
+
+
+    // Fechar com ESC
+    inputBusca.addEventListener(
+        "keydown",
+        event => {
+
+            if (event.key === "Escape") {
+
+                if (containerSugestoes) {
+
+                    containerSugestoes.style.display =
+                        "none";
+
+                }
+
+            }
+
+        }
     );
 
 }
