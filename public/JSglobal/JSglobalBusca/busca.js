@@ -1,6 +1,6 @@
-// =============================
-// BUSCAR PRODUTOS
-// =============================
+// ============================================================
+// BUSCA GLOBAL DE PRODUTOS
+// ============================================================
 
 const inputBusca =
     document.querySelector("#pesquisarProduto");
@@ -9,24 +9,108 @@ const containerProdutos =
     document.querySelector(".grade-produtos");
 
 
-// =============================
+// ============================================================
+// PRODUTOS DO BANCO
+// ============================================================
+
+let todosOsProdutos = null;
+
+
+// ============================================================
 // NORMALIZAR TEXTO
-// =============================
+// ============================================================
 
 function normalizarTexto(texto) {
 
-    return texto
-        .toLowerCase()
+    return String(texto || "")
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
         .trim();
 
 }
 
 
-// =============================
+// ============================================================
+// CARREGAR TODOS OS PRODUTOS DO BANCO
+// ============================================================
+
+async function carregarTodosOsProdutos() {
+
+    // Se já carregamos uma vez, não consulta novamente
+    if (todosOsProdutos !== null) {
+
+        return todosOsProdutos;
+
+    }
+
+
+    try {
+
+        console.log(
+            "🔎 Carregando todos os produtos do banco..."
+        );
+
+
+        const resposta = await fetch(
+            `${API_URL}/api/produtos`
+        );
+
+
+        if (!resposta.ok) {
+
+            throw new Error(
+                `Erro HTTP: ${resposta.status}`
+            );
+
+        }
+
+
+        const produtos =
+            await resposta.json();
+
+
+        if (!Array.isArray(produtos)) {
+
+            throw new Error(
+                "A API não retornou uma lista de produtos."
+            );
+
+        }
+
+
+        todosOsProdutos = produtos;
+
+
+        console.log(
+            `✅ ${produtos.length} produtos carregados para a busca.`
+        );
+
+
+        return todosOsProdutos;
+
+    }
+
+    catch (erro) {
+
+        console.error(
+            "❌ Erro ao carregar produtos:",
+            erro
+        );
+
+
+        todosOsProdutos = [];
+
+        return [];
+
+    }
+
+}
+
+
+// ============================================================
 // CRIAR CONTAINER DE SUGESTÕES
-// =============================
+// ============================================================
 
 let containerSugestoes =
     document.querySelector(".sugestoes-busca");
@@ -47,98 +131,331 @@ if (!containerSugestoes && inputBusca) {
 }
 
 
-// =============================
-// PEGAR TODOS OS PRODUTOS
-// =============================
+// ============================================================
+// CRIAR CARD
+// ============================================================
 
-function obterCardsProdutos() {
+function criarCardProduto(produto) {
 
-    if (!containerProdutos) {
-        return [];
-    }
+    const card =
+        document.createElement("div");
 
-    return Array.from(
-        containerProdutos.querySelectorAll(
-            ".card-produto"
+
+    card.className =
+        "card-produto";
+
+
+    // ========================================================
+    // VARIAÇÕES
+    // ========================================================
+
+    const variacoes =
+        Array.isArray(produto.variacoes)
+            ? produto.variacoes
+            : [];
+
+
+    const tamanhos = [
+        ...new Set(
+            variacoes
+                .map(v => v.tamanho)
+                .filter(Boolean)
         )
-    );
-
-}
+    ];
 
 
-// =============================
-// PEGAR NOME DO PRODUTO
-// =============================
-
-function obterNomeProduto(card) {
-
-    const elementoNome =
-        card.querySelector("h3");
-
-    if (!elementoNome) {
-        return "";
-    }
-
-    return elementoNome.textContent
-        .trim();
-
-}
+    const cores = [
+        ...new Set(
+            variacoes
+                .map(v => v.cor)
+                .filter(Boolean)
+        )
+    ];
 
 
-// =============================
-// PEGAR PREÇO
-// =============================
+    const times =
+        Array.isArray(produto.time)
+            ? produto.time
+            : [];
 
-function obterPrecoProduto(card) {
 
-    const elementosPreco =
-        card.querySelectorAll(
-            ".preco, .preco-produto, .precoProduto"
+    // ========================================================
+    // TAMANHOS
+    // ========================================================
+
+    const htmlTamanhos =
+        tamanhos.length > 0
+            ? `
+
+                <label>
+                    Tamanho:
+                </label>
+
+                <select class="busca-tamanho">
+
+                    ${tamanhos.map(tamanho => `
+                        <option value="${tamanho}">
+                            ${tamanho}
+                        </option>
+                    `).join("")}
+
+                </select>
+
+            `
+            : "";
+
+
+    // ========================================================
+    // CORES
+    // ========================================================
+
+    const htmlCores =
+        cores.length > 0
+            ? `
+
+                <label>
+                    Cor:
+                </label>
+
+                <select class="busca-cor">
+
+                    ${cores.map(cor => `
+                        <option value="${cor}">
+                            ${cor}
+                        </option>
+                    `).join("")}
+
+                </select>
+
+            `
+            : "";
+
+
+    // ========================================================
+    // TIMES
+    // ========================================================
+
+    const htmlTimes =
+        times.length > 0
+            ? `
+
+                <label>
+                    Time:
+                </label>
+
+                <select class="busca-time">
+
+                    ${times.map(time => `
+                        <option value="${time}">
+                            ${time}
+                        </option>
+                    `).join("")}
+
+                </select>
+
+            `
+            : "";
+
+
+    // ========================================================
+    // HTML DO CARD
+    // ========================================================
+
+    card.innerHTML = `
+
+        <a
+            href="/descricaoProdutos/produtosDescricao.html?id=${produto.id}"
+            class="link-produto"
+        >
+
+            <img
+                src="${produto.imagem_principal || ""}"
+                alt="${produto.nome || "Produto"}"
+            >
+
+        </a>
+
+
+        <h3>
+            ${produto.nome || ""}
+        </h3>
+
+
+        <p class="preco">
+
+            R$
+            ${Number(produto.preco || 0).toFixed(2)}
+
+        </p>
+
+
+        ${htmlTamanhos}
+
+        ${htmlCores}
+
+        ${htmlTimes}
+
+
+        <button
+            class="btn-adicionar-produto"
+        >
+            Adicionar ao carrinho
+        </button>
+
+    `;
+
+
+    // ========================================================
+    // BOTÃO CARRINHO
+    // ========================================================
+
+    const botao =
+        card.querySelector(
+            ".btn-adicionar-produto"
         );
 
-    if (elementosPreco.length > 0) {
 
-        return elementosPreco[0]
-            .textContent
-            .trim();
+    if (botao) {
+
+        botao.addEventListener(
+            "click",
+            event => {
+
+                const tamanho =
+                    card.querySelector(
+                        ".busca-tamanho"
+                    )?.value || null;
+
+
+                const cor =
+                    card.querySelector(
+                        ".busca-cor"
+                    )?.value || null;
+
+
+                const time =
+                    card.querySelector(
+                        ".busca-time"
+                    )?.value || null;
+
+
+                // --------------------------------------------
+                // ANIMAÇÃO
+                // --------------------------------------------
+
+                if (
+                    typeof animarParaCarrinho ===
+                    "function"
+                ) {
+
+                    animarParaCarrinho(
+                        produto.imagem_principal,
+                        event.currentTarget
+                    );
+
+                }
+
+
+                // --------------------------------------------
+                // CARRINHO
+                // --------------------------------------------
+
+                if (
+                    typeof adicionarAoCarrinho ===
+                    "function"
+                ) {
+
+                    adicionarAoCarrinho({
+
+                        id:
+                            produto.id,
+
+                        nome:
+                            produto.nome,
+
+                        preco:
+                            Number(produto.preco),
+
+                        imagem:
+                            produto.imagem_principal,
+
+                        tamanho,
+
+                        cor,
+
+                        time
+
+                    });
+
+                }
+
+            }
+        );
 
     }
 
-    return "";
+
+    return card;
 
 }
 
 
-// =============================
-// ABRIR PRODUTO
-// =============================
+// ============================================================
+// MOSTRAR RESULTADOS
+// ============================================================
 
-function abrirProduto(card) {
+function mostrarResultados(produtos) {
 
-    // Primeiro tenta encontrar um link
-    const link =
-        card.querySelector("a");
+    if (!containerProdutos) {
+        return;
+    }
 
-    if (link && link.href) {
 
-        window.location.href =
-            link.href;
+    containerProdutos.innerHTML = "";
+
+
+    if (!produtos.length) {
+
+        const mensagem =
+            document.createElement("p");
+
+
+        mensagem.className =
+            "mensagem-busca";
+
+
+        mensagem.textContent =
+            "Nenhum produto encontrado.";
+
+
+        containerProdutos.appendChild(
+            mensagem
+        );
+
 
         return;
 
     }
 
 
-    // Caso o card tenha alguma função
-    // de clique própria
-    card.click();
+    produtos.forEach(produto => {
+
+        const card =
+            criarCardProduto(produto);
+
+
+        containerProdutos.appendChild(
+            card
+        );
+
+    });
 
 }
 
 
-// =============================
+// ============================================================
 // MOSTRAR SUGESTÕES
-// =============================
+// ============================================================
 
 function mostrarSugestoes(termo) {
 
@@ -160,13 +477,13 @@ function mostrarSugestoes(termo) {
     }
 
 
-    const cards =
-        obterCardsProdutos();
+    // IMPORTANTE:
+    // Aqui NÃO usamos os cards da página.
+    // Usamos TODOS os produtos do banco.
 
+    const produtos =
+        todosOsProdutos || [];
 
-    // =============================
-    // BUSCAR PRODUTOS
-    // =============================
 
     const termoNormalizado =
         normalizarTexto(termo);
@@ -178,32 +495,57 @@ function mostrarSugestoes(termo) {
             .filter(Boolean);
 
 
-    const produtosEncontrados =
-        cards.filter(card => {
+    // ========================================================
+    // FILTRAR TODOS OS PRODUTOS
+    // ========================================================
+
+    const resultados =
+        produtos.filter(produto => {
 
             const nome =
                 normalizarTexto(
-                    obterNomeProduto(card)
+                    produto.nome
                 );
 
 
-            // Todas as palavras digitadas
-            // precisam existir no nome
-            return palavras.every(
-                palavra =>
-                    nome.includes(palavra)
-            );
+            const categoria =
+                normalizarTexto(
+                    produto.categoria_nome
+                    || produto.categoria
+                );
+
+
+            const descricao =
+                normalizarTexto(
+                    produto.descricao
+                );
+
+
+            // Cada palavra digitada precisa aparecer
+            // no nome, categoria ou descrição.
+
+            return palavras.every(palavra => {
+
+                return (
+
+                    nome.includes(palavra) ||
+
+                    categoria.includes(palavra) ||
+
+                    descricao.includes(palavra)
+
+                );
+
+            });
 
         });
 
 
-    // =============================
-    // NENHUM RESULTADO
-    // =============================
+    // ========================================================
+    // NENHUMA SUGESTÃO
+    // ========================================================
 
-    if (
-        produtosEncontrados.length === 0
-    ) {
+    if (!resultados.length) {
 
         containerSugestoes.style.display =
             "none";
@@ -213,74 +555,60 @@ function mostrarSugestoes(termo) {
     }
 
 
-    // =============================
-    // LIMITE DE SUGESTÕES
-    // =============================
+    // ========================================================
+    // MOSTRAR ATÉ 8 SUGESTÕES
+    // ========================================================
 
-    const limite =
-        produtosEncontrados.slice(0, 8);
+    resultados
+        .slice(0, 8)
+        .forEach(produto => {
 
-
-    // =============================
-    // CRIAR SUGESTÕES
-    // =============================
-
-    limite.forEach(card => {
-
-        const nome =
-            obterNomeProduto(card);
+            const sugestao =
+                document.createElement("div");
 
 
-        const preco =
-            obterPrecoProduto(card);
+            sugestao.className =
+                "sugestao-produto";
 
 
-        const sugestao =
-            document.createElement("div");
+            sugestao.innerHTML = `
 
-        sugestao.className =
-            "sugestao-produto";
+                <div class="sugestao-info">
+
+                    <strong>
+                        ${produto.nome}
+                    </strong>
+
+                    <span>
+                        R$ ${Number(
+                            produto.preco || 0
+                        ).toFixed(2)}
+                    </span>
+
+                </div>
+
+            `;
 
 
-        sugestao.innerHTML = `
+            // Clicar na sugestão abre o produto
 
-            <div class="sugestao-info">
+            sugestao.addEventListener(
+                "click",
+                () => {
 
-                <strong>
-                    ${nome}
-                </strong>
+                    window.location.href =
+                        `/descricaoProdutos/produtosDescricao.html?id=${produto.id}`;
 
-                ${
-                    preco
-                        ? `<span>${preco}</span>`
-                        : ""
                 }
-
-            </div>
-
-        `;
+            );
 
 
-        sugestao.addEventListener(
-            "click",
-            () => {
+            containerSugestoes.appendChild(
+                sugestao
+            );
 
-                abrirProduto(card);
+        });
 
-            }
-        );
-
-
-        containerSugestoes.appendChild(
-            sugestao
-        );
-
-    });
-
-
-    // =============================
-    // MOSTRAR
-    // =============================
 
     containerSugestoes.style.display =
         "block";
@@ -288,11 +616,11 @@ function mostrarSugestoes(termo) {
 }
 
 
-// =============================
-// FILTRAR PRODUTOS
-// =============================
+// ============================================================
+// BUSCA GLOBAL
+// ============================================================
 
-function buscarProduto() {
+async function buscarProduto() {
 
     if (
         !inputBusca ||
@@ -304,10 +632,52 @@ function buscarProduto() {
     }
 
 
+    const texto =
+        inputBusca.value.trim();
+
+
+    // ========================================================
+    // CAMPO VAZIO
+    // ========================================================
+
+    if (!texto) {
+
+        containerSugestoes.style.display =
+            "none";
+
+
+        // Volta para a vitrine original
+        window.location.reload();
+
+
+        return;
+
+    }
+
+
+    // ========================================================
+    // CARREGAR BANCO
+    // ========================================================
+
+    const produtos =
+        await carregarTodosOsProdutos();
+
+
+    if (!produtos.length) {
+
+        mostrarResultados([]);
+
+        return;
+
+    }
+
+
+    // ========================================================
+    // NORMALIZAR
+    // ========================================================
+
     const termo =
-        normalizarTexto(
-            inputBusca.value
-        );
+        normalizarTexto(texto);
 
 
     const palavras =
@@ -316,102 +686,72 @@ function buscarProduto() {
             .filter(Boolean);
 
 
-    const cards =
-        obterCardsProdutos();
+    // ========================================================
+    // PESQUISAR EM TODOS OS PRODUTOS
+    // ========================================================
+
+    const resultados =
+        produtos.filter(produto => {
+
+            const nome =
+                normalizarTexto(
+                    produto.nome
+                );
 
 
-    let quantidadeEncontrada = 0;
+            const categoria =
+                normalizarTexto(
+                    produto.categoria_nome
+                    || produto.categoria
+                );
 
 
-    cards.forEach(card => {
-
-        const nome =
-            normalizarTexto(
-                obterNomeProduto(card)
-            );
+            const descricao =
+                normalizarTexto(
+                    produto.descricao
+                );
 
 
-        const encontrou =
-            palavras.length === 0 ||
-            palavras.every(
-                palavra =>
-                    nome.includes(palavra)
-            );
+            return palavras.every(palavra => {
+
+                return (
+
+                    nome.includes(palavra) ||
+
+                    categoria.includes(palavra) ||
+
+                    descricao.includes(palavra)
+
+                );
+
+            });
+
+        });
 
 
-        if (encontrou) {
+    // ========================================================
+    // MOSTRAR PRODUTOS
+    // ========================================================
 
-            card.style.display = "";
-
-            quantidadeEncontrada++;
-
-        } else {
-
-            card.style.display =
-                "none";
-
-        }
-
-    });
-
-
-    // =============================
-    // SUGESTÕES
-    // =============================
-
-    mostrarSugestoes(
-        inputBusca.value
+    mostrarResultados(
+        resultados
     );
 
 
-    // =============================
-    // MENSAGEM
-    // =============================
+    // ========================================================
+    // MOSTRAR SUGESTÕES
+    // ========================================================
 
-    let mensagem =
-        document.querySelector(
-            ".mensagem-busca"
-        );
-
-
-    if (
-        termo &&
-        quantidadeEncontrada === 0
-    ) {
-
-        if (!mensagem) {
-
-            mensagem =
-                document.createElement("p");
-
-            mensagem.className =
-                "mensagem-busca";
-
-            containerProdutos.appendChild(
-                mensagem
-            );
-
-        }
-
-        mensagem.textContent =
-            "Nenhum produto encontrado.";
-
-    } else {
-
-        if (mensagem) {
-
-            mensagem.remove();
-
-        }
-
-    }
+    mostrarSugestoes(
+        texto
+    );
 
 }
 
 
-// =============================
-// EVENTO DE BUSCA
-// =============================
+// ============================================================
+// EVENTO INPUT
+// ============================================================
 
 if (inputBusca) {
 
@@ -421,35 +761,39 @@ if (inputBusca) {
     );
 
 
-    // Mostrar sugestões quando
-    // clicar no campo novamente
+    // ========================================================
+    // FOCUS
+    // ========================================================
+
     inputBusca.addEventListener(
         "focus",
-        () => {
+        async () => {
 
-            if (inputBusca.value.trim()) {
-
-                mostrarSugestoes(
-                    inputBusca.value
-                );
-
+            if (!inputBusca.value.trim()) {
+                return;
             }
+
+
+            await carregarTodosOsProdutos();
+
+
+            mostrarSugestoes(
+                inputBusca.value
+            );
 
         }
     );
 
 
-    // Fechar sugestões ao clicar fora
-    document.addEventListener(
-        "click",
+    // ========================================================
+    // ESC
+    // ========================================================
+
+    inputBusca.addEventListener(
+        "keydown",
         event => {
 
-            if (
-                !inputBusca.contains(event.target) &&
-                !containerSugestoes?.contains(
-                    event.target
-                )
-            ) {
+            if (event.key === "Escape") {
 
                 if (containerSugestoes) {
 
@@ -464,12 +808,22 @@ if (inputBusca) {
     );
 
 
-    // Fechar com ESC
-    inputBusca.addEventListener(
-        "keydown",
+    // ========================================================
+    // CLIQUE FORA
+    // ========================================================
+
+    document.addEventListener(
+        "click",
         event => {
 
-            if (event.key === "Escape") {
+            if (
+                !inputBusca.contains(
+                    event.target
+                ) &&
+                !containerSugestoes?.contains(
+                    event.target
+                )
+            ) {
 
                 if (containerSugestoes) {
 
